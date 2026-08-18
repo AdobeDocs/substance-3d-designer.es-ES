@@ -73,7 +73,7 @@ Gracias a su dependencia del USD, puede aprovechar el [plugin USDFileFormat](htt
 
 >[!TIP]
 >
-> Puede seleccionar el procesador que se utiliza de forma predeterminada al iniciar una nueva vista 3D en la sección [ &quot;vista 3D&quot; de la configuración del proyecto](../../../interface/preferences-window/project-settings/project-settings.md).
+> Puede seleccionar el procesador que se utiliza de forma predeterminada al iniciar una nueva vista 3D en la sección [&#x200B; &quot;vista 3D&quot; de la configuración del proyecto](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <a name="rasterizer"></a>
 

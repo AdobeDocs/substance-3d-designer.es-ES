@@ -68,7 +68,7 @@ Por último, bitdepth <b> ya no está bloqueado de forma rígida a 16 bits</b>. 
 
 Consulta la lista completa de ruidos actualizados en las [notas de la versión](#release-notes) que aparecen a continuación.
 
-Ejemplos:   [Celdas 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nubes 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [ Arañazos direccionales](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [ Ruido de humedad 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Ejemplos:   [Celdas 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nubes 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; Arañazos direccionales](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; Ruido de humedad 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![ruido de desorden direccional](../../assets/directionaldisorder.gif){zoomable="yes"}
 
