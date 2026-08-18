@@ -41,7 +41,7 @@ Combina varias exposiciones fotográficas para crear una imagen de Alto rango di
 
 ## Entradas
 
-* **Entrada 1-**** 16**: *Entrada de color*Entrada de imágenes. La cantidad disponible depende del parámetro.
+* **Entrada 1-**&#x200B;**&#x200B; 16**: *Entrada de color*Entrada de imágenes. La cantidad disponible depende del parámetro.
 
 ## Parámetros
 
