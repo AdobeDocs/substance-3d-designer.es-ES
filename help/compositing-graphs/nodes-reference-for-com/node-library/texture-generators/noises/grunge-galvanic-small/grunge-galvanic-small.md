@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
 breadcrumb-title: ''
 description: Utilice el nodo pequeño galvánico Suciedad para generar patrones de corrosión galvánica a pequeña escala para efectos de intemperismo del metal.
 helpx_creative_field: ""

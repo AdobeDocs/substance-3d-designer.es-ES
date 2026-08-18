@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
 description: Utilice los nodos de la función Color para realizar conversiones de color y operaciones de asignación de tonos en gráficos de funciones.
 helpx_creative_field: ""

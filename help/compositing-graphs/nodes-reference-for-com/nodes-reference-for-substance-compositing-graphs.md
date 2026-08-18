@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Acceda a la referencia de nodos completa para Substance que componen gráficas en Designer para obtener más información sobre todos los nodos disponibles.
 helpx_creative_field: ""
@@ -35,10 +35,10 @@ Lo que llamamos &quot;nodo&quot; dentro de SD, se puede dividir en 2 grupos prin
 
 [Biblioteca de nodos](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [Generadores de texturas](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
+* [Generadores de texturas](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
 * [Filtros](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
 * [Filtros de material](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [Generadores basados en malla](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
+* [Generadores basados en malla](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
 * [Herramientas Spline &amp; Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>

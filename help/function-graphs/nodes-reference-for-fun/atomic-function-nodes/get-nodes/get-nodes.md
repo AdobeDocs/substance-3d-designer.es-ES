@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Acceso Obtén nodos en los gráficos de funciones de Substance 3D Designer para recuperar datos y valores variables.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Las variables son una forma de <b>almacenar valores</b> para buscarlos más tard
 
 ![Substance function graph - Get float](../../../../assets/assign-getfloat.gif "Substance function graph - Get float"){zoomable="yes"}
 
-Lo que hace un nodo Get esencialmente es capturar una variable dinámica y devolverla de la salida de los nodos Get para utilizarla en una función. Estos nodos Get forman el vínculo entre los parámetros de entrada definidos en las [propiedades gráficas](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) y las [funciones de parámetros](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Lo que hace un nodo Get esencialmente es capturar una variable dinámica y devolverla de la salida de los nodos Get para utilizarla en una función. Estos nodos Get forman el vínculo entre los parámetros de entrada definidos en las [propiedades gráficas](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) y las [funciones de parámetros](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 Cada vez que utilice un nodo Get, debe elegir un valor disponible en el menú desplegable. Los nodos de obtención <b>tomarán un valor del tipo correspondiente</b>. Eso significa que solo verá opciones válidas en el menú de un nodo Get, nunca podrá elegir una opción no válida. Si una variable no está disponible, significa que el tipo no coincide
 

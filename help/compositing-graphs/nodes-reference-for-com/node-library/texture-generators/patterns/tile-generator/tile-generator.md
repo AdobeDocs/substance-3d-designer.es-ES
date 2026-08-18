@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
 breadcrumb-title: ''
 description: Utilice el nodo Tile Generator para crear patrones de mosaico de procedimientos con controles de tamaño, desplazamiento y variación personalizables.
 helpx_creative_field: ""

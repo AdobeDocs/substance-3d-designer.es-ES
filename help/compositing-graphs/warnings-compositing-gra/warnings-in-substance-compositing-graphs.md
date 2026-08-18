@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Conozca las advertencias en los Substance que componen gráficos y aprenda a resolver problemas y errores comunes.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Esta página muestra mensajes de advertencias y errores que pueden activar [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) en Substance 3D Designer, y ofrece pasos comunes de solución de problemas para cada uno.
 
-Las advertencias se muestran en la información sobre herramientas del icono de advertencia para el recurso de gráfico en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), así como en la esquina inferior izquierda de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) si el gráfico está cargado.
+Las advertencias se muestran en la información sobre herramientas del icono de advertencia para el recurso de gráfico en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), así como en la esquina inferior izquierda de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) si el gráfico está cargado.
 
 ## ![(error)](../../assets/error.svg) No se ha definido ningún nodo de salida
 
@@ -34,7 +34,7 @@ Agregue uno o más nodos [Output](../../compositing-graphs/nodes-reference-for-c
 
 >[!NOTE]
 >
-> Las plantillas de gráficos disponibles en el [cuadro de diálogo Nuevo gráfico de Substance](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) tienen nodos de salida preestablecidos listos para usarse.
+> Las plantillas de gráficos disponibles en el [cuadro de diálogo Nuevo gráfico de Substance](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) tienen nodos de salida preestablecidos listos para usarse.
 
 ![Solucionar advertencia &#39;No se definió ningún nodo de salida&#39;](../../assets/warnings-comp-output.gif "Solucionar advertencia &#39;No se definió ningún nodo de salida&#39;"){width="512px"}
 
@@ -47,7 +47,7 @@ E.g. Color uniforme[Color de salida], Procesador de píxeles[Función por píxe
 
 **![(marca)](../../assets/check.svg) Solución**
 
-Localice el nodo que emite la advertencia por su etiqueta e insignia de advertencia en la [vista Gráfica](../../interface/the-graph-view/the-graph-view.md) y, a continuación, selecciónelo para mostrar sus propiedades en el panel [Propiedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html). Busque el parámetro que emite la advertencia y abra su función haciendo clic en el botón **Editar función**.
+Localice el nodo que emite la advertencia por su etiqueta e insignia de advertencia en la [vista Gráfica](../../interface/the-graph-view/the-graph-view.md) y, a continuación, selecciónelo para mostrar sus propiedades en el panel [Propiedades](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html). Busque el parámetro que emite la advertencia y abra su función haciendo clic en el botón **Editar función**.
 
 A continuación, evalúe las advertencias que aparecen en la esquina inferior izquierda de la vista de gráfico y resuelva los problemas. Puede consultar la página [Advertencias en gráficos de funciones](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) para obtener información sobre advertencias de solución de problemas en gráficos de funciones.
 
@@ -64,7 +64,7 @@ El recurso al que hace referencia un nodo tiene una o más advertencias. Estos s
 
 **![(marca)](../../assets/check.svg) Solución**
 
-En el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), busque el recurso al que se hace referencia y solucione todas las advertencias provocadas por el recurso:
+En el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), busque el recurso al que se hace referencia y solucione todas las advertencias provocadas por el recurso:
 
 * Para gráficos, consulte otros elementos de esta página
 * Para cualquier otro tipo de recurso, consulte la página [Advertencias de las dependencias](../../resources/warnings-from-dep/warnings-from-dependencies.md)
@@ -73,7 +73,7 @@ En el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documenta
 
 ### No se encontró el recurso de referencia ![(error)](../../assets/error.svg)
 
-No se encontró el recurso al que hace referencia un nodo en la ruta guardada en el archivo [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBS). Estos son algunos nodos que hacen referencia a un recurso:
+No se encontró el recurso al que hace referencia un nodo en la ruta guardada en el archivo [Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) (SBS). Estos son algunos nodos que hacen referencia a un recurso:
 
 * Un nodo [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) hace referencia a un gráfico
 * Un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) hace referencia a un [recurso Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
@@ -85,11 +85,11 @@ No se encontró el recurso al que hace referencia un nodo en la ruta guardada en
 Para nodos [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)
 
 Compruebe que el gráfico de origen existe en el paquete ubicado en la ruta guardada en su atributo **Package**.\
-Si no es así, elimine el nodo de instancia y sustitúyalo por un nodo de instancia que haga referencia a un paquete válido. Como alternativa, puede volver a crear el paquete y el gráfico al que hace referencia el nodo de la instancia y luego volver a cargar el paquete host haciendo clic en RMB en él en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y seleccionando la opción **Volver a cargar** en el menú contextual.
+Si no es así, elimine el nodo de instancia y sustitúyalo por un nodo de instancia que haga referencia a un paquete válido. Como alternativa, puede volver a crear el paquete y el gráfico al que hace referencia el nodo de la instancia y luego volver a cargar el paquete host haciendo clic en RMB en él en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y seleccionando la opción **Volver a cargar** en el menú contextual.
 
 Para los nodos [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md), [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) o [Texto](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
-Busque los recursos a los que se hace referencia en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y compruebe que existen en la ubicación guardada en su atributo **Ruta de archivo**.\
+Busque los recursos a los que se hace referencia en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y compruebe que existen en la ubicación guardada en su atributo **Ruta de archivo**.\
 Si no lo hacen, haga clic en RMB en el elemento de recurso en el Explorador y seleccione **Reubicar...Opción** en el menú contextual para establecer un nuevo archivo de destino válido para ese recurso.
 
 ![Solucionar advertencia de &quot;Recurso de referencia no encontrado&quot;](../../assets/warnings-comp-referenced-resource.gif "Solucionar advertencia de &quot;Recurso de referencia no encontrado&quot;")

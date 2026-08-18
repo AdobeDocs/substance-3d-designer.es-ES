@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
 description: Accede a gráficos de funciones de Substance predefinidos como nodos de instancias para agilizar el flujo de trabajo y mejorar las funciones.
 helpx_creative_field: ""
