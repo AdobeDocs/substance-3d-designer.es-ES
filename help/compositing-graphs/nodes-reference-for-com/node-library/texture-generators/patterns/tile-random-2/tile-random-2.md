@@ -60,7 +60,7 @@ Una salida dedicada le permite introducir los **UV** de la forma en el **Flood F
   Su impacto se controla mediante el parámetro **Multiplicador de mapa de entrada de inclinación aleatoria**.
 * **Mapa de radio de vértices redondos** *Escala de grises*\
   Imagen de entrada de escala de grises que controla el radio de las esquinas redondeadas de las formas.\
-  Su impacto está controlado por el mapa de entrada de radio de las esquinas redondeadas mult.**** parámetro.
+  Su impacto está controlado por el mapa de entrada de radio de las esquinas redondeadas mult.**&#x200B;** parámetro.
 * **Mapa de distancia biselado** *Escala de grises*\
   Imagen de entrada de escala de grises que controla el biselado de las formas.\
   Su impacto está controlado por el **Mapa de entrada de distancia biselada Mult.** parámetro.

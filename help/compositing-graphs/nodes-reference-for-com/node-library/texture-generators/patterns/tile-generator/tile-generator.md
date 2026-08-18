@@ -81,7 +81,7 @@ Algunas sugerencias de uso general:
   * **Aleatorio de simetría**: *0.0 - 1.0* Refleja aleatoriamente ciertos patrones según el modo aleatorio de simetría seleccionado. Cuanto más alto sea este valor, más patrones se reflejarán.
   * **Modo aleatorio de simetría**: *Horizontal + Vertical, Horizontal, Vertical* Determina el comportamiento del reflejo cuando el valor aleatorio de simetría es superior a 0.
 * **Tamaño**
-  * **** Modo Tamaño **:***Normal - Intersticio, Normal - Tamaño, Mantener proporción, Absoluto, Píxel*Establece el comportamiento general del tamaño del patrón.\
+  * **&#x200B;**&#x200B;Modo Tamaño **:***Normal - Intersticio, Normal - Tamaño, Mantener proporción, Absoluto, Píxel*Establece el comportamiento general del tamaño del patrón.\
     Normal : Intersticio permite definir el espacio entre los elementos de patrón. Se ve afectada por la cantidad X e Y.\
     Normal : Tamaño permite definir el tamaño de los elementos de patrón, independientemente del espacio. Se ve afectada por la cantidad X e Y.\
     Mantener proporción le permite establecer un tamaño afectado por la cantidad de X e Y, pero la proporción de X e Y entre los dos se deja intacta.\

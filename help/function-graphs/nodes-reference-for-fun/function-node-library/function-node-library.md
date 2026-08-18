@@ -465,15 +465,15 @@ Aleatorio global
 
 Distribución normal
 
-Uniforme aleatorio [-1, 1[
+Uniforme aleatorio &lbrack;-1, 1&lbrack;
 
-Uniforme aleatorio [a, b[
+Uniforme aleatorio &lbrack;a, b&lbrack;
 
-Float2 uniforme al azar [a, b[
+Float2 uniforme al azar &lbrack;a, b&lbrack;
 
-Flotador uniforme aleatorio3 [a, b[
+Flotador uniforme aleatorio3 &lbrack;a, b&lbrack;
 
-Flotador uniforme al azar4 [a, b[
+Flotador uniforme al azar4 &lbrack;a, b&lbrack;
 
 </td>
 </tr>

@@ -55,7 +55,7 @@ A pesar de su simplicidad, se trata de un nodo muy útil: es el bloque de constr
 * **Rotación 45°**: *Falso/Verdadero* Rota a 45 grados preestablecidos.
 * **Expansión no cuadrada**: *Falso/Verdadero*\
   Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* **Mosaico no cuadrado****:** *False/True*Cuando se habilita la Expansión no cuadrada, se segmentará la forma sin aplastarla.
+* **Mosaico no cuadrado**&#x200B;**:** *False/True*Cuando se habilita la Expansión no cuadrada, se segmentará la forma sin aplastarla.
 
 ## Imágenes de ejemplo
 

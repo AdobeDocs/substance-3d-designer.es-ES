@@ -58,8 +58,8 @@ Existe una versión especial de Generador de Scratches, Generador de Scratches N
 * **Establecer ancho de spline en px**: *Falso/Verdadero* Determina las unidades utilizadas para la configuración de ancho de spline.
 * **Aleatorio de luminancia (solo versión de escala de grises)**: *0.0 - 1.0* Aleatoriza la luminancia de cada spline individualmente.
 * **Intensidad normal (solo versión normal)**: *0.0 - 1.0* Establece globalmente la intensidad del efecto Normal para cada spline.
-* ** Aleatorio de intensidad normal **(solo versión normal)****: *0.0 - 1.0*Aleatoriza la intensidad normal de cada spline individualmente.
-* ** Formato normal **(Solo versión normal)****: *DirectX, OpenGL*\
+* **&#x200B; Aleatorio de intensidad normal &#x200B;**(solo versión normal)**&#x200B;**: *0.0 - 1.0*Aleatoriza la intensidad normal de cada spline individualmente.
+* **&#x200B; Formato normal &#x200B;**(Solo versión normal)**&#x200B;**: *DirectX, OpenGL*\
   Cambia entre diferentes formatos de Mapa normal (invierte el canal verde).
 * **Modo de transición**: *Ninguna, Inicio, Fin, Inicio + Fin* Establece si las splines se desvanecen y en qué dirección.
 * **Longitud de transición**: *0.0 - 1.0* Establece la longitud del efecto de transición, si está habilitado anteriormente.
