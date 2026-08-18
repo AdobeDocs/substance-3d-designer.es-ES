@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
 breadcrumb-title: ''
 description: Accede a los nodos de intemperismo en Substance 3D Designer para añadir efectos de desgaste y envejecimiento realistas basados en la geometría de malla.
 helpx_creative_field: ""

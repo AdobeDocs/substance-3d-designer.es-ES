@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
 breadcrumb-title: ''
 description: Utilice el nodo Deformación vectorial para deformar texturas mediante campos vectoriales para crear efectos de distorsión fluida y orgánica.
 helpx_creative_field: ""
