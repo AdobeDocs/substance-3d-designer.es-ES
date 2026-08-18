@@ -548,7 +548,7 @@ La barra de herramientas <b>Display</b>, que se encuentra en la *parte inferior*
 
 >[!NOTE]
 >
-> La barra de herramientas se puede *cambiar de posición* alrededor del conjunto acoplado **3**** D View** mediante el *identificador* situado más a la izquierda y representado por tres líneas paralelas.
+> La barra de herramientas se puede *cambiar de posición* alrededor del conjunto acoplado **3**&#x200B;**&#x200B; D View** mediante el *identificador* situado más a la izquierda y representado por tres líneas paralelas.
 
 ### Canales de color
 

@@ -183,7 +183,7 @@ Si la opción <b>Mostrar UV en vista 2D</b> está habilitada en el menú <b>Esce
 
 Puede habilitarlo mediante el botón <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
 
-Esto muestra las UV de la malla [ seleccionada actualmente en la vista 3D](../../interface/3d-view/3d-view.md) como una malla metálica de color.
+Esto muestra las UV de la malla [&#x200B; seleccionada actualmente en la vista 3D](../../interface/3d-view/3d-view.md) como una malla metálica de color.
 
 Si la información de color de material está disponible en el archivo de malla, el color de material se utiliza como color de la superposición UV.
 

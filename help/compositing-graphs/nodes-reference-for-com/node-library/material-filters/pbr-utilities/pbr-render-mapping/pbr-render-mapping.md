@@ -53,7 +53,7 @@ Existe una versión en color y en escala de grises para los dos tipos de datos: 
 
 ## Imágenes de ejemplo
 
-El ejemplo es una composición de cuatro nodos de asignación de Renderizaciones PBR diferentes, que usan una selección de histograma [en un degradado lineal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md) como máscaras.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md)[
+El ejemplo es una composición de cuatro nodos de asignación de Renderizaciones PBR diferentes, que usan una selección de histograma [en un degradado lineal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md) como máscaras.[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md)
 
 ![](../../../../../../assets/pbr-render-mapping-ex.png){width="256px"}
 

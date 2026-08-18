@@ -51,10 +51,10 @@ Toma los datos de [Shape Splatter](../../../../../../compositing-graphs/nodes-re
 
 * **Número de patrón**: *1 - 8*
 * **Asignación Aleatoria De Motivos (Solo Color)**: *0.0 - 1.0*
-* ** Es Mapa Normal **(Solo Color)****: *Falso/Verdadero*
+* **&#x200B; Es Mapa Normal &#x200B;**(Solo Color)**&#x200B;**: *Falso/Verdadero*
 * **Ajuste de HSL/luminancia**: *-1.0 - 1.0*
 * **Aleatorio de HSL/luminancia**: *-1.0 - 1.0*
-* **&#x200B;Ángulo normal aleatorio **(Solo color)****: *0.0 - 1.0*
+* **&#x200B;Ángulo normal aleatorio &#x200B;**(Solo color)**&#x200B;**: *0.0 - 1.0*
 * **Opacidad de entrada de color**: *0.0 - 1.0*
 
 ## Imágenes de ejemplo

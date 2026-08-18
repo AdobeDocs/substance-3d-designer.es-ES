@@ -39,7 +39,7 @@ De forma similar a los lenguajes de programación, el... El nodo Else introduce 
 </tr>
 </table>
 
-Utilizará este nodo junto con los [ nodos lógicos](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) y los [nodos de comparación](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) que le ayudarán a generar la condición que desea comprobar.
+Utilizará este nodo junto con los [&#x200B; nodos lógicos](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) y los [nodos de comparación](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) que le ayudarán a generar la condición que desea comprobar.
 
 +++Conectores de entrada
 <b>Condición</b> *Booleano*\

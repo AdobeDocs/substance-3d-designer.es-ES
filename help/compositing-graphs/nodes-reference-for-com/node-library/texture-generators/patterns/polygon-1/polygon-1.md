@@ -53,7 +53,7 @@ Genera una forma de polígono, con muchas opciones de ajuste. Consulte [Polígon
   Define la cantidad de veces que el resultado debe aparecer en mosaico.
 * **Expansión no cuadrada**: *Falso/Verdadero*\
   Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* **Mosaico no cuadrado****:** *False/True*Cuando se habilita la Expansión no cuadrada, se segmentará la forma sin aplastarla.
+* **Mosaico no cuadrado**&#x200B;**:** *False/True*Cuando se habilita la Expansión no cuadrada, se segmentará la forma sin aplastarla.
 
 ## Imágenes de ejemplo
 
