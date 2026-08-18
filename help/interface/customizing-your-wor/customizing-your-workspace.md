@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Aprenda a personalizar su espacio de trabajo en Substance 3D Designer para optimizar sus preferencias de flujo de trabajo y diseño.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Esta página presenta las formas de organizar los paneles en la interfaz de usua
 
 ## Menú de Windows
 
-Este menú le permite administrar los principales elementos de la interfaz de usuario de Designer. Cada opción se describe en la sección <b>Windows</b> de [esta página](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) sobre la barra de herramientas principal. Aquí, proporcionaremos conceptos adicionales relacionados con este menú.
+Este menú le permite administrar los principales elementos de la interfaz de usuario de Designer. Cada opción se describe en la sección <b>Windows</b> de [esta página](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) sobre la barra de herramientas principal. Aquí, proporcionaremos conceptos adicionales relacionados con este menú.
 
 ### Mostrar u ocultar una vista
 

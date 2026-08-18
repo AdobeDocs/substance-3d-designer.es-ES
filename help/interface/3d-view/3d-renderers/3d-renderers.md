@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Elija entre los procesadores rasterizador y trazador de trazados en la vista 3D para obtener una calidad de previsualización y un rendimiento diferentes.
 helpx_creative_field: ""

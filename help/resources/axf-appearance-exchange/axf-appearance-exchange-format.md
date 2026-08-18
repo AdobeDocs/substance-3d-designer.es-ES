@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Aprenda a importar y utilizar recursos de formato de intercambio de apariencia AxF en Substance 3D Designer para la importación de materiales.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ Haga clic en <b>Importar AxF...Botón </b> en la sección izquierda de la [panta
 
 +++Explorer
 
-Haga clic en RMB en un paquete en el [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y vaya a <b>Importar > AxF</b> en el menú contextual del paquete.
+Haga clic en RMB en un paquete en el [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y vaya a <b>Importar > AxF</b> en el menú contextual del paquete.
 
 ![AxF: Inicie la importación desde Explorer](../../assets/axf_explorer.png "AxF: Iniciar importación desde el Explorador"){width="600px"}
 
@@ -144,7 +144,7 @@ Haga clic en el botón <b>Agregar plantilla</b> y seleccione el tipo de gráfico
 Hay dos tipos de plantillas de gráficos de Substance disponibles:
 
 Las plantillas <b>AxF to Metallic Roughness</b> y <b>AxF to Specular Glossiness</b> son plantillas de *conversión* que te permiten asignar materiales AxF a modelos PBR estándar.\
-Estos se pueden usar con los sombreadores de vista 3D predeterminados y combinarse con otros materiales PBR producidos en Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) o adquiridos de nuestra biblioteca [3D Assets](https://substance3d.adobe.com/assets/).
+Estos se pueden usar con los sombreadores de vista 3D predeterminados y combinarse con otros materiales PBR producidos en Designer, [Sampler](https://www.adobe.com/es/products/substance3d-sampler.html) o adquiridos de nuestra biblioteca [3D Assets](https://substance3d.adobe.com/assets/).
 
 <b>AxF a AxF</b> es una plantilla *passthrough* que te permite editar materiales AxF in situ y exportar estos cambios como nuevas capas en archivos AxF existentes. Consulte Exportar archivos AxF a continuación para obtener más información.
 

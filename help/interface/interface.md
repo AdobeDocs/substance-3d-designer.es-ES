@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la interfaz del espacio de trabajo de Substance 3D Designer, incluidas las vistas, los paneles y las opciones de personalización.
 helpx_creative_field: ""
@@ -99,7 +99,7 @@ La barra de herramientas principal te permite acceder a menús adicionales, como
 
 ## Propiedades
 
-[El conjunto acoplado Propiedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) es la ventana más técnica. Siempre es sensible al contexto y presentará reguladores, menús desplegables y otros elementos que cambian el comportamiento de un recurso o nodo seleccionado.
+[El conjunto acoplado Propiedades](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) es la ventana más técnica. Siempre es sensible al contexto y presentará reguladores, menús desplegables y otros elementos que cambian el comportamiento de un recurso o nodo seleccionado.
 
 ![Propiedades](../assets/properties-15.jpg "Propiedades")
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Aprenda a importar, crear y administrar recursos en Substance 3D Designer, incluidos mapas de bits, fuentes y escenas 3D.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Los recursos que no son gráficos suelen ser recursos auxiliares que se utilizan
 
 * [Mapa de bits](../resources/bitmap-resource/bitmap-resource.md)
 * [Gráficos vectoriales (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Recurso de escena 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [Recurso de escena 3D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [Fuente](../resources/font-resource/font-resource.md)
 
 </td>

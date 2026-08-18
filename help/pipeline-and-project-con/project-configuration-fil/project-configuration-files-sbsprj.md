@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los archivos de configuración de proyecto SBSPRJ en Substance 3D Designer para administrar la configuración del proyecto.
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ Los archivos de proyecto pueden contener las siguientes configuraciones:
 
 <b>General: </b>Plantillas de gráficos, complementos de espacio de tangente, valores predeterminados de formato normal y de imagen.
 
-<b>Biblioteca: </b>Rutas controladas para mostrar en la biblioteca, así como [filtros y categorías para la vista de biblioteca](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+<b>Biblioteca: </b>Rutas controladas para mostrar en la biblioteca, así como [filtros y categorías para la vista de biblioteca](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
 
 <b>MDL: </b>MDL observó rutas.
 
@@ -79,7 +79,7 @@ Las configuraciones de proyecto, como todos los demás tipos, se guardan como ar
 
 Consulte la página [Configuración del proyecto](../../interface/preferences-window/project-settings/project-settings.md) para obtener más información sobre cómo administrar archivos de proyecto y cambiar la configuración del proyecto.
 
-Los archivos de proyecto también incluyen <b>categorías</b> y <b>filtros</b> personalizados para la [biblioteca](../../interface/the-library/the-library.md), sobre los que puedes obtener más información en la página [Administración de contenido y filtros personalizados](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+Los archivos de proyecto también incluyen <b>categorías</b> y <b>filtros</b> personalizados para la [biblioteca](../../interface/the-library/the-library.md), sobre los que puedes obtener más información en la página [Administración de contenido y filtros personalizados](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
 
 ## Editar XML externamente
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: Aplique efectos de posprocesamiento a la cámara de vista 3D para mejorar la previsualización y visualización de materiales.
 helpx_creative_field: ""

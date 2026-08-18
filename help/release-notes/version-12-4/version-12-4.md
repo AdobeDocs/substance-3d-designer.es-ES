@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 12.4 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Cuando edita su gráfico, a veces tiene que experimentar varias posibilidades, y
 
 ### Escribir fórmulas en campos de parámetros
 
-Ya no es necesario utilizar una calculadora ni calcular en la cabeza cuando se desea introducir valores de parámetros específicos. Ahora puede introducir directamente fórmulas básicas como adiciones, divisiones, multiplicaciones o sustracciones al establecer un valor numérico para un parámetro en [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) y otros lugares de la aplicación.
+Ya no es necesario utilizar una calculadora ni calcular en la cabeza cuando se desea introducir valores de parámetros específicos. Ahora puede introducir directamente fórmulas básicas como adiciones, divisiones, multiplicaciones o sustracciones al establecer un valor numérico para un parámetro en [Properties](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) y otros lugares de la aplicación.
 
 ![](../../assets/final-formula.gif){width="640px"}
 

@@ -26,7 +26,7 @@ En esta página se describen las relaciones sinérgicas entre los gráficos de [
 
 Los resultados de los gráficos de Substance se pueden *pasar a los parámetros expuestos* de materiales MDL de dos maneras, que se describen en esta página.
 
-Si el material MDL aplicado actualmente en la vista 3D ha expuesto parámetros de tipo *[variable](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*; este tipo se puede establecer mediante la opción <b>Modificador de tipo</b> en las propiedades del [parámetro expuesto](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), se pueden conectar a *texturas*:
+Si el material MDL aplicado actualmente en la vista 3D ha expuesto parámetros de tipo *[variable](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*; este tipo se puede establecer mediante la opción <b>Modificador de tipo</b> en las propiedades del [parámetro expuesto](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), se pueden conectar a *texturas*:
 
 * se puede conectar un parámetro <b>Color</b> a texturas RGBA
 * un parámetro <b>Float</b> para texturas en escala de grises

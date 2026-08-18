@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Encuentre soluciones a errores y advertencias comunes en Substance 3D Designer para solucionar problemas rápidamente.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ Por lo general, las advertencias y los errores se muestran en el elemento que lo
 
 ### Explorer
 
-Para cualquier elemento del panel [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) que tenga una advertencia, dicha advertencia se muestra con un icono ![](../../assets/warning-icon.png) en el extremo derecho de la entrada del elemento en la lista. Deje el cursor sobre ese icono durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
+Para cualquier elemento del panel [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) que tenga una advertencia, dicha advertencia se muestra con un icono ![](../../assets/warning-icon.png) en el extremo derecho de la entrada del elemento en la lista. Deje el cursor sobre ese icono durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
 
 Siguen estas reglas:
 
@@ -83,7 +83,7 @@ Siguen estas reglas:
 
 ### Propiedades
 
-Para cualquier elemento del panel [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) que tenga una advertencia, dicha advertencia se muestra con un icono ![](../../assets/warning-icon.png) en el extremo derecho de la entrada del elemento en la lista. Deje el cursor sobre ese icono durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
+Para cualquier elemento del panel [Properties](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) que tenga una advertencia, dicha advertencia se muestra con un icono ![](../../assets/warning-icon.png) en el extremo derecho de la entrada del elemento en la lista. Deje el cursor sobre ese icono durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
 
 Siguen estas reglas:
 
@@ -106,7 +106,7 @@ Siguen estas reglas:
 
 ### Consola
 
-Se informa tanto de advertencias como de errores en el panel **Consola**, al que puedes acceder a través del menú **Windows** en el [menú principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). Puede aislar advertencias y errores del resto de las entradas de la consola estableciendo la configuración de **Canal** en `ErrorMgr`.
+Se informa tanto de advertencias como de errores en el panel **Consola**, al que puedes acceder a través del menú **Windows** en el [menú principal](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). Puede aislar advertencias y errores del resto de las entradas de la consola estableciendo la configuración de **Canal** en `ErrorMgr`.
 
 >[!NOTE]
 >

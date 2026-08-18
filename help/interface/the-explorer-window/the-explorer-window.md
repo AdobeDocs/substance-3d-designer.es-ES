@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: Utilice la ventana Explorador de Substance 3D Designer para examinar, organizar y administrar los archivos y recursos del proyecto.
 helpx_creative_field: ""
@@ -48,8 +48,8 @@ Puede realizar algunas acciones importantes a través del conjunto acoplado del 
 * Guardar y cerrar paquetes cargados
 * [Importar y vincular recursos](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [Exportación de resultados de gráficos a texturas](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
-* [Publish convierte un paquete en un recurso de Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
-* [Enviar paquetes a otras aplicaciones de Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
+* [Publish convierte un paquete en un recurso de Substance 3D (SBSAR)](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
+* [Enviar paquetes a otras aplicaciones de Substance 3D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
 * [Hornear mapas desde una malla](../../bakers/bakers.md)
 
 ## Barra de herramientas superior
@@ -61,7 +61,7 @@ Esta barra de herramientas le permite realizar rápidamente funciones relacionad
 ![](../../assets/sendto-icon.jpg) <b>Publish o [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> elementos seleccionados:
 
 * [Publish envía cualquier paquete seleccionado a un recurso de Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
-* Envía el paquete seleccionado a [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
+* Envía el paquete seleccionado a [Substance 3D Sampler](https://www.adobe.com/es/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) o [Substance 3D Stager](https://www.adobe.com/es/products/substance3d-stager.html).
 
 ![](../../assets/republish.png) <b>Publish o enviar como anterior:</b> Publish o enviar los elementos seleccionados con la misma configuración que antes. Esta opción solo está disponible en un paquete que ya se ha publicado *al menos una vez* en la *sesión actual*.
 
@@ -116,11 +116,11 @@ El espacio vacío solo está disponible debajo de los paquetes abiertos actualme
 
 <b>Volver a cargar</b>, <b>Guardar, Guardar como</b> y<b> Guardar una copia como</b> le permite guardar en disco o recuperar del disco una versión del paquete guardada anteriormente.
 
-<b>Archivo .sbsar de Publish</b> y <b>Volver a publicar el archivo .sbsar</b> te permiten [Publish tu gráfico de Substance no compilado y optimizado, en un archivo SBSAR eficiente y portátil para usarlo en otras aplicaciones e integraciones de Substance](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Publish como anterior repite la acción anterior de Publish con las mismas opciones, omitiendo el cuadro de diálogo de opciones para una iteración más rápida. La barra de herramientas contiene botones con la misma funcionalidad.
+<b>Archivo .sbsar de Publish</b> y <b>Volver a publicar el archivo .sbsar</b> te permiten [Publish tu gráfico de Substance no compilado y optimizado, en un archivo SBSAR eficiente y portátil para usarlo en otras aplicaciones e integraciones de Substance](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Publish como anterior repite la acción anterior de Publish con las mismas opciones, omitiendo el cuadro de diálogo de opciones para una iteración más rápida. La barra de herramientas contiene botones con la misma funcionalidad.
 
 <b>La exportación con dependencias</b> es diferente de guardar y publicar. Toma sus archivos SBS, recopila todos los recursos y dependencias a los que se hace referencia y crea un paquete independiente. El cuadro de diálogo le permite elegir qué bibliotecas recopilar y si el archivo debe ser un archivo comprimido (7-zip). Esta es una buena opción para compartir un archivo SBS con otra persona, sin preocuparse por la falta de dependencias.
 
-<b>Enviar a...</b> abre un submenú que te permite [enviar tu paquete](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) directamente a [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Enviar a...</b> abre un submenú que te permite [enviar tu paquete](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) directamente a [Substance 3D Sampler](https://www.adobe.com/es/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/es/products/substance3d-stager.html) o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copiar</b> copia el paquete seleccionado.
 

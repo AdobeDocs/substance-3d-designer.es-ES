@@ -64,7 +64,7 @@ Consulte la sección <b>Procesador</b> de esta página para obtener más informa
 
 ![Material de la pared del castillo medieval procesado en Iray](../../../assets/iray-overview.png "Material de la pared del castillo medieval procesado en Iray")
 
-*Material: [Muralla medieval de castillo](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponible en nuestra [biblioteca](https://helpx.adobe.com/substance-3d/unlisted/assets.html)**de Substance 3D*
+*Material: [Muralla medieval de castillo](https://helpx.adobe.com/es/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponible en nuestra [biblioteca](https://helpx.adobe.com/es/substance-3d/unlisted/assets.html)**de Substance 3D*
 
 </td>
 </tr>

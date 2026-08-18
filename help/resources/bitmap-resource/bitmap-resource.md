@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: Aprenda a importar, crear y utilizar recursos de mapa de bits en Substance 3D Designer para la creación de materiales basados en texturas.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ A diferencia de los recursos de SVG (gráficos vectoriales), los mapas de bits s
 
 ### En Substance 3D Assets (SBSAR)
 
-En [archivos SBSAR](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), los mapas de bits están incrustados, lo que significa que tienen un gran impacto en el tamaño del archivo SBSAR final. Puede obtener más información sobre el impacto en el tamaño del archivo en esta página. Cuando se publican [archivos SBSAR,](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) solo se incrustan los mapas de bits que se utilizan para calcular la salida de un gráfico. Cualquier mapa de bits no utilizado se optimiza y se excluye del paquete SBSAR final, sin efecto en el tamaño del archivo.
+En [archivos SBSAR](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), los mapas de bits están incrustados, lo que significa que tienen un gran impacto en el tamaño del archivo SBSAR final. Puede obtener más información sobre el impacto en el tamaño del archivo en esta página. Cuando se publican [archivos SBSAR,](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) solo se incrustan los mapas de bits que se utilizan para calcular la salida de un gráfico. Cualquier mapa de bits no utilizado se optimiza y se excluye del paquete SBSAR final, sin efecto en el tamaño del archivo.
 
 ## Tipo de archivo, modo de color y resolución
 
@@ -71,4 +71,4 @@ Los recursos de mapa de bits de un paquete tienen una serie de atributos que pue
 
 ## Reducción de tamaño de archivo
 
-Consulte la página [Directrices de reducción de tamaño de archivo](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) en la sección [Prácticas recomendadas](../../best-practices/best-practices.md) para ver nuestras recomendaciones sobre cómo minimizar el tamaño de archivo de los mapas de bits incrustados en [contenidos de Substance 3D publicados](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Consulte la página [Directrices de reducción de tamaño de archivo](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) en la sección [Prácticas recomendadas](../../best-practices/best-practices.md) para ver nuestras recomendaciones sobre cómo minimizar el tamaño de archivo de los mapas de bits incrustados en [contenidos de Substance 3D publicados](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
