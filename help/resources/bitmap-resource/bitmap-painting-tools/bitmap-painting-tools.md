@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Utilice las herramientas de pintura de mapas de bits de Substance 3D Designer para pintar directamente en los recursos de mapas de bits para la edición de texturas.
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ Las herramientas de pintura se habilitarán automáticamente en el panel [Vista 
 
 *Se pueden crear nuevos mapas de bits de* de las siguientes maneras:
 
-* En el panel [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haz clic en RMB en un *paquete SBS* o en una *carpeta* dentro de un paquete para abrir su menú contextual, luego abre el submenú <b>New</b> y selecciona la opción <b>Bitmap</b>
+* En el panel [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haz clic en RMB en un *paquete SBS* o en una *carpeta* dentro de un paquete para abrir su menú contextual, luego abre el submenú <b>New</b> y selecciona la opción <b>Bitmap</b>
 * En un [gráfico](../../../interface/the-graph-view/the-graph-view.md), cree un [nodo de mapa de bits](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) y seleccione el nuevo recurso <b>De...Opción </b> en el menú contextual
 
 Se abrirá la ventana <b>Nuevo mapa de bits</b>, que te permitirá establecer el *nombre*, *resolución* y *color de fondo* del nuevo recurso de mapa de bits.

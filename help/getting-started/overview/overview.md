@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Obtén una visión general de Substance 3D Designer y descubre sus funciones para crear texturas y materiales de procedimientos.
 helpx_creative_field: ""
@@ -155,7 +155,7 @@ Existen los siguientes tipos de recursos:
 
 * [Mapa de bits](../../resources/bitmap-resource/bitmap-resource.md)
 * [Gráficos vectoriales (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Malla y escena 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [Malla y escena 3D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [Fuente](../../resources/font-resource/font-resource.md)
 * [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 

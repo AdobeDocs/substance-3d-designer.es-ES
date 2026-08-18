@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Malla 1 para generar patrones de malla básicos para crear texturas geométricas y basadas en cuadrículas.
 helpx_creative_field: ""

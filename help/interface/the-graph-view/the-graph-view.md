@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la vista de gráfica en Substance 3D Designer para crear y editar gráficas de materiales basadas en nodos.
 helpx_creative_field: ""
@@ -387,7 +387,7 @@ Control <b>Timings de ![](../../assets/image2020-6-26-16-33-35.png)\
 </b>*- Limpiar:* Quita todos los nodos que forman parte de una secuencia no conectada a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *: exportar resultados:* Abre la [interfaz de exportación de mapa de bits](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *: volver a exportar resultados:* Vuelve a realizar la operación de exportación anterior.\
-*- Exportador del PSD:* Abre[la interfaz del exportador del PSD.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- Exportador del PSD:* Abre[la interfaz del exportador del PSD.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Caché de imágenes de nodo\
 </b>Alterna la visualización del conmutador de caché de imagen de nodo, consulte a continuación.

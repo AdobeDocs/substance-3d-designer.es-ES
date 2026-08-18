@@ -54,7 +54,7 @@ El nodo raíz incluye una miniatura que muestra una vista previa de su resultado
 
 ![Nodo raíz del gráfico MDL](../../assets/mdl-root-hl.png "Nodo raíz del gráfico MDL")
 
-*Nodo raíz en un gráfico MDL y sus propiedades se muestran en el [panel](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* de *Propiedades*
+*Nodo raíz en un gráfico MDL y sus propiedades se muestran en el [panel](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* de *Propiedades*
 
 ## Conectores y tipos
 

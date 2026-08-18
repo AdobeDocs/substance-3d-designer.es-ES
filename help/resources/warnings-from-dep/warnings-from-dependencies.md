@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Conozca las advertencias de las dependencias de recursos en Substance 3D Designer y cómo resolverlas.
 helpx_creative_field: ""
@@ -36,16 +36,16 @@ Existen dos formas principales de corregir este problema:
 
    Compruebe que el paquete de dependencias existe en la ubicación especificada en el mensaje de advertencia. Si no es así, busque el archivo y vuelva a colocarlo en esa ubicación o vuelva a crearlo en su lugar. Si el archivo existe, *intenta cargarlo* en Designer y busca cualquier advertencia o error relacionado con ese paquete. Consulte los pasos de solución de problemas para esos problemas específicos y corríjalos en consecuencia.
 
-   A continuación, vuelve a cargar el paquete host haciendo clic en RMB en él en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y seleccionando la opción <b>Volver a cargar</b> en el menú contextual.
+   A continuación, vuelve a cargar el paquete host haciendo clic en RMB en él en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y seleccionando la opción <b>Volver a cargar</b> en el menú contextual.
 
    ![&#39;Paquete dependiente no válido&#39; solución 1](../../assets/warnings-dep-invalid-dependent-pkg.gif "&#39;Paquete dependiente no válido&#39; solución 1")
 1. <b>Reubicar la dependencia en el paquete</b>
 
-   Puede reubicar la dependencia mediante el [Administrador de dependencias](../../interface/dependency-manager/dependency-manager.md) . Haga clic en RMB en el paquete host en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y seleccione la opción <b>Administrador de dependencias</b> en el menú contextual.
+   Puede reubicar la dependencia mediante el [Administrador de dependencias](../../interface/dependency-manager/dependency-manager.md) . Haga clic en RMB en el paquete host en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y seleccione la opción <b>Administrador de dependencias</b> en el menú contextual.
 
    Busque la dependencia que falta en la lista de Dependendy Manager, haga clic en RMB y seleccione <b>Reubicar...Opción </b>. Busque el paquete de dependencias en el cuadro de diálogo del explorador de archivos y haga clic en <b>Abrir</b>.
 
-   A continuación, vuelve a cargar el paquete host haciendo clic en RMB en él en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y seleccionando la opción <b>Volver a cargar</b> en el menú contextual.
+   A continuación, vuelve a cargar el paquete host haciendo clic en RMB en él en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y seleccionando la opción <b>Volver a cargar</b> en el menú contextual.
 
    ![&#39;Paquete dependiente no válido&#39; solución 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif "&#39;Paquete dependiente no válido&#39; solución 2")
 
@@ -76,7 +76,7 @@ Existen dos formas principales de corregir este problema:
    ![&#39;No hay ningún archivo que coincida con el recurso&#39; solución 1](../../assets/warnings-dep-udim-2.gif "&#39;No hay ningún archivo que coincida con el recurso&#39; solución 1")
 1. <b>Reubicar los archivos</b>
 
-   Si los archivos se movieron o se les cambió el nombre, reubícalos haciendo clic en RMB en el elemento de recurso en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y selecciona la opción <b>Reubicar</b> para vincular ese recurso al *primer archivo de un conjunto* de imágenes UDIM del mismo tipo.
+   Si los archivos se movieron o se les cambió el nombre, reubícalos haciendo clic en RMB en el elemento de recurso en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y selecciona la opción <b>Reubicar</b> para vincular ese recurso al *primer archivo de un conjunto* de imágenes UDIM del mismo tipo.
 
    ![&#39;No hay ningún archivo que coincida con el recurso&#39; solución 2](../../assets/warnings-dep-udim.gif "&#39;No hay ningún archivo que coincida con el recurso&#39; solución 2")
 
@@ -95,7 +95,7 @@ Existen dos formas principales de corregir este problema:
    Solución ![&#39;Archivo vinculado no encontrado&#39; Solución 1](../../assets/warnings-dep-file-not-found.gif "&#39;Archivo vinculado no encontrado&#39; Solución 1")
 1. <b>Reubicar el archivo</b>
 
-   Si el archivo se movió o se le cambió el nombre, reubícalo haciendo clic en RMB en el elemento de recurso en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y selecciona la opción <b>Reubicar</b> para vincular ese recurso a otro archivo del mismo tipo.
+   Si el archivo se movió o se le cambió el nombre, reubícalo haciendo clic en RMB en el elemento de recurso en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y selecciona la opción <b>Reubicar</b> para vincular ese recurso a otro archivo del mismo tipo.
 
    ![&#39;Archivo vinculado no encontrado&#39; solución 2](../../assets/warnings-dep-file-not-found-2.gif "&#39;Archivo vinculado no encontrado&#39; solución 2")
 
@@ -117,7 +117,7 @@ Solución ![&#39;No se encuentra el espacio de color&#39;](../../assets/warnings
 
 ## No se encontró el recurso de referencia ![(error)](../../assets/error.svg)
 
-El gráfico asignado al mosaico UV de un [recurso de malla 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) no se encuentra en la ubicación indicada en la advertencia.
+El gráfico asignado al mosaico UV de un [recurso de malla 3D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) no se encuentra en la ubicación indicada en la advertencia.
 
 <b>![(tick)](../../assets/check.svg) Solución</b>
 
@@ -125,7 +125,7 @@ Existen dos formas principales de corregir este problema:
 
 1. <b>Restaurar el gráfico</b>
 
-   Compruebe el contenido del paquete en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) para ver el gráfico especificado en la lista <b>Mosaicos UV</b>. Si no existe, restáurelo o vuelva a crearlo.
+   Compruebe el contenido del paquete en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) para ver el gráfico especificado en la lista <b>Mosaicos UV</b>. Si no existe, restáurelo o vuelva a crearlo.
 
    ![&#39;Recurso de referencia no encontrado&#39; solución 1](../../assets/warnings-dep-udim-graph-2.gif "&#39;Recurso de referencia no encontrado&#39; solución 1")
 1. <b>Seleccionar otro gráfico</b>
@@ -136,7 +136,7 @@ Existen dos formas principales de corregir este problema:
 
 ## ![(error)](../../assets/error.svg) Los mosaicos UV se asignan varias veces
 
-Un mosaico UV para un [recurso de malla 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) se asigna más de una vez a un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Un mosaico UV para un [recurso de malla 3D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) se asigna más de una vez a un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 <b>![(tick)](../../assets/check.svg) Solución</b>
 
@@ -146,7 +146,7 @@ Para cada conjunto UV de un recurso de malla 3D, asegúrese de que no haya ning�
 
 ## ![(error)](../../assets/error.svg) Mosaicos UV no válidos
 
-Un mosaico UV enumerado para un [recurso de malla 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) no está definido en la malla o está dañado.
+Un mosaico UV enumerado para un [recurso de malla 3D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) no está definido en la malla o está dañado.
 
 <b>![(tick)](../../assets/check.svg) Solución</b>
 

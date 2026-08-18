@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la gestión de color en Substance 3D Designer, incluidos los espacios de color, los perfiles y los flujos de trabajo de tintas planas.
 helpx_creative_field: ""
@@ -161,7 +161,7 @@ Designer *convertirá* imágenes en los espacios de color especificados antes de
 
 ![Cuadro de diálogo Exportar salidas](../assets/2019-3-0-clr-mgt-export-outputs.png "Cuadro de diálogo Exportar salidas"){width="512px"}
 
-También puedes asignar un espacio de color (OCIO) o adjuntar un perfil ICC (Adobe ACE) a las imágenes *guardadas* desde la [vista 2D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+También puedes asignar un espacio de color (OCIO) o adjuntar un perfil ICC (Adobe ACE) a las imágenes *guardadas* desde la [vista 2D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
 
 ![Opciones de exportación de vista 2D](../assets/2019-3-0-clr-mgt-save-image.png "Opciones de exportación de vista 2D")
 
@@ -209,7 +209,7 @@ La [biblioteca](../interface/the-library/the-library.md) incluye los siguientes 
 </tr>
 </table>
 
-Son útiles cuando se trabaja con gráficos creados *sin* gestión de color o materiales de la biblioteca [Substance 3D Assets](https://helpx.adobe.com/substance-3d/unlisted/assets.html).
+Son útiles cuando se trabaja con gráficos creados *sin* gestión de color o materiales de la biblioteca [Substance 3D Assets](https://helpx.adobe.com/es/substance-3d/unlisted/assets.html).
 
 ![Nodos de conversión de color en la biblioteca](../assets/2019-3-0-clr-mgt-nodes.png "Nodos de conversión de color en la biblioteca"){width="512px"}
 

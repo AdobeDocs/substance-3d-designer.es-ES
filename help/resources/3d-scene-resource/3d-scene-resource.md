@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Aprenda a importar y utilizar recursos de escenas 3D en Substance 3D Designer para la previsualización de materiales y las pruebas.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Se admiten los siguientes formatos de archivo de escena 3D:
 
 Las escenas 3D *solo* se pueden vincular, lo que significa que permanecen en su ubicación en el disco y solo se hace referencia a ellas en la aplicación.
 
-Cuando se publica un paquete con un recurso de escena 3D como un recurso de [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), la malla es *no incrustada*, pero se descarta.
+Cuando se publica un paquete con un recurso de escena 3D como un recurso de [Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) (SBSAR), la malla es *no incrustada*, pero se descarta.
 
 ## Panificación de mapas de malla
 
@@ -53,7 +53,7 @@ La vinculación de una escena 3D en el paquete es la única forma de [eliminar l
 * Haga clic en *RMB* en un paquete y seleccione la opción <b>Vínculo > Malla 3D</b> en el menú contextual
 * Elija cualquier archivo de escena 3D compatible
 * Si aparece el aviso del cuadro de diálogo <b>Vincular como malla Udim</b>, haz clic en *No* a menos que quieras hornear mosaicos UV
-* Con el recurso cargado en [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haz clic en *RMB* y selecciona la opción <b>Bake Model Information</b> en el menú contextual
+* Con el recurso cargado en [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haz clic en *RMB* y selecciona la opción <b>Bake Model Information</b> en el menú contextual
 * Aparece el cuadro de diálogo [Información del modelo de horneado](../../bakers/bakers.md) para que configure y ejecute los horneados de los mapas de malla
 
 ![Mapas de malla de cocción](../../assets/bake-model-information.gif "Mapas de malla de cocción"){width="512px"}

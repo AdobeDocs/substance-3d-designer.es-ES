@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Añada comentarios a los gráficos de Substance 3D Designer para documentar el flujo de trabajo y explicar las conexiones de nodos.
 helpx_creative_field: ""

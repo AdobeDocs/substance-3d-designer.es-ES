@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: Aprenda a exportar texturas y mapas de bits desde Substance que componen gráficos para utilizarlos en aplicaciones y flujos de trabajo externos.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Exportación de mapas de bits
 
-Esta página explica cómo Substance 3D Designer puede exportar varios formatos de archivo de mapa de bits y cómo exportar varios mosaicos UV por lotes.[Si deseas exportar a archivos de PSD,](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [hay una página dedicada para esto.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+Esta página explica cómo Substance 3D Designer puede exportar varios formatos de archivo de mapa de bits y cómo exportar varios mosaicos UV por lotes.[Si deseas exportar a archivos de PSD,](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [hay una página dedicada para esto.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![Exportación simplificada](../../assets/exportflow.png "Exportación simplificada")
 
@@ -31,7 +31,7 @@ Conviene tener en cuenta lo siguiente al exportar un mapa de bits:
 * Usted<b> exporta desde un gráfico</b>, no desde un paquete. Un paquete no genera contenido de imagen por sí mismo.
 * El número (y la resolución) de mapas de bits exportados viene determinado por las <b>salidas</b> de un gráfico.
 * Filetype se establece para todos los mapas de bits/salidas.
-* La exportación es diferente de la [publicación](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), asegúrate de que entiendes bien la diferencia.
+* La exportación es diferente de la [publicación](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), asegúrate de que entiendes bien la diferencia.
 
 ## Métodos de exportación
 
@@ -41,7 +41,7 @@ Una vez que esté listo para exportar, hay dos formas de acceder al cuadro de di
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-En la [ventana del explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haga clic con el botón derecho en el gráfico que desea exportar y seleccione **&quot;Exportar salidas como mapas de bits&quot;**
+En la [ventana del explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haga clic con el botón derecho en el gráfico que desea exportar y seleccione **&quot;Exportar salidas como mapas de bits&quot;**
 
 ![](../../assets/export-explorer.gif)
 

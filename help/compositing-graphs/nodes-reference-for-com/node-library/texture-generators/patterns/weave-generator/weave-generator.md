@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
 breadcrumb-title: ''
 description: Utilice el nodo Generador de tejidos para crear patrones de tejidos de procedimiento y texturas textiles en Substance 3D Designer.
 helpx_creative_field: ""

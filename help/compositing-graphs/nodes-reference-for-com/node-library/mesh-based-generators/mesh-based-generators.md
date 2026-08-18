@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Acceda a nodos generadores basados en malla en Substance 3D Designer para crear texturas basadas en propiedades y geometría de malla 3D.
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ Hay tres categorías principales:
   Generadores de máscaras en blanco y negro basados en uno o varios mapas con bake.
 * [Intemperie](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
   Efectos de intemperismo de materiales completos basados en mapas con bake.
-* [Utilidades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [Utilidades](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
   Utilidades y herramientas adicionales para trabajar con pasteles.

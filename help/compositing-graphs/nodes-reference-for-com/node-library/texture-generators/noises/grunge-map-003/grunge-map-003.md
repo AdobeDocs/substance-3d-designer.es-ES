@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-003.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-003.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de Suciedades 003 para crear texturas de suciedades de procedimiento para añadir efectos de variación de superficie y envejecimiento.
 helpx_creative_field: ""

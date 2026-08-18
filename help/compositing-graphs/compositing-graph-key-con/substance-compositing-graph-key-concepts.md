@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: Conozca los conceptos clave de los Substance que componen gráficos, incluidos los nodos, las conexiones y los fundamentos del flujo de trabajo.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Esta página enumera los conceptos importantes que se deben comprender para trab
 
 ## Subgráficos/Publicación
 
-[Publicar un gráfico](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) o crear un subgráfico son dos conceptos abstractos muy similares. Esto significa que cualquier gráfico o red de nodos puede ser &quot;empaquetada&quot; y convertida en un recurso independiente reutilizable. La creación de [subgráficos](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) se realiza principalmente dentro de la aplicación para que cierto contenido sea reutilizable en un flujo de trabajo eficiente e inteligente, ya que esto evita duplicar un conjunto de nodos una y otra vez. La publicación implica un paso adicional para exportar al formato [Substance 3D Asset (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), lo que hace que el gráfico de red de nodos sea utilizable fuera de la aplicación, como cuando creas un material para Unreal Engine.
+[Publicar un gráfico](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) o crear un subgráfico son dos conceptos abstractos muy similares. Esto significa que cualquier gráfico o red de nodos puede ser &quot;empaquetada&quot; y convertida en un recurso independiente reutilizable. La creación de [subgráficos](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) se realiza principalmente dentro de la aplicación para que cierto contenido sea reutilizable en un flujo de trabajo eficiente e inteligente, ya que esto evita duplicar un conjunto de nodos una y otra vez. La publicación implica un paso adicional para exportar al formato [Substance 3D Asset (SBSAR)](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), lo que hace que el gráfico de red de nodos sea utilizable fuera de la aplicación, como cuando creas un material para Unreal Engine.
 
 Las entradas, salidas y parámetros expuestos son extremadamente importantes para este concepto, ya que son las únicas formas de seguir interactuando con el gráfico una vez que se utiliza como subgráfico o como recurso publicado de Substance 3D. Las razones son las siguientes:
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de Suciedades 004 para generar patrones de suciedades de procedimiento para agregar efectos de texturas desgastadas o degradadas.
 helpx_creative_field: ""

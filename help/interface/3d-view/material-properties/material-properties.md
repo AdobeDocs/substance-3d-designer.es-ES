@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
 description: Configure las propiedades de los materiales en la vista 3D para previsualizar y ajustar el aspecto de los materiales de Substance en los objetos 3D.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Utilice la vista 2D de Substance 3D Designer para previsualizar e inspeccionar las salidas de textura de los gráficos de materiales.
 helpx_creative_field: ""
@@ -343,7 +343,7 @@ Las <b>herramientas de pintura de mapas de bits</b> están disponibles para [rec
 
 >[!TIP]
 >
-> Puede obtener más información en la página [Editor de pintura de mapa de bits](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) de la documentación.
+> Puede obtener más información en la página [Editor de pintura de mapa de bits](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) de la documentación.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ El <b>Editor de gráficos vectoriales</b> está disponible para *recursos de [SV
 
 >[!TIP]
 >
-> Puede obtener más información en la página [Editor de gráficos vectoriales (obsoleto)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) de la documentación.
+> Puede obtener más información en la página [Editor de gráficos vectoriales (obsoleto)](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) de la documentación.
 
 ![Administración de color de vista 2D](../../assets/2d-view-color-management-ocio.png "Administración de color de vista 2D"){width="360px"}
 
