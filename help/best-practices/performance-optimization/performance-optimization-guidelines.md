@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Conozca las directrices de optimización del rendimiento de Substance 3D Designer para mejorar el rendimiento de los gráficos y reducir el tiempo de procesamiento.
 helpx_creative_field: ""
@@ -141,7 +141,7 @@ De esta manera, el tamaño del mapa de bits cambiará en función del gráfico p
 
 >[!WARNING]
 >
-> Si se establece un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) en &quot;Relativo al principal&quot; y se [publica](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) el gráfico en un recurso de Substance 3D (SBSAR), el mapa de bits se guardará con una resolución de **256x256** en lugar de su tamaño original. En su lugar, se recomienda mantener el [método de herencia](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) de los nodos de mapa de bits&#39; [Tamaño de salida](../../compositing-graphs/output-size/output-size.md) como &#39;Absoluto&#39; y usar un nodo [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) establecido en &#39;Relative to parent&#39; justo después del nodo de mapa de bits.
+> Si se establece un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) en &quot;Relativo al principal&quot; y se [publica](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) el gráfico en un recurso de Substance 3D (SBSAR), el mapa de bits se guardará con una resolución de **256x256** en lugar de su tamaño original. En su lugar, se recomienda mantener el [método de herencia](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) de los nodos de mapa de bits&#39; [Tamaño de salida](../../compositing-graphs/output-size/output-size.md) como &#39;Absoluto&#39; y usar un nodo [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) establecido en &#39;Relative to parent&#39; justo después del nodo de mapa de bits.
 
 ![Optimización de mapas de bits incrustados 1](../../assets/input-1.jpg "Optimización de mapas de bits incrustados 1")
 
@@ -151,7 +151,7 @@ De esta manera, el tamaño del mapa de bits cambiará en función del gráfico p
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Además, se recomienda establecer el formato de los recursos de mapa de bits en JPEG para minimizar el tamaño de los [recursos de Substance 3D publicados](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Además, se recomienda establecer el formato de los recursos de mapa de bits en JPEG para minimizar el tamaño de los [recursos de Substance 3D publicados](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
 
 </td>
 <td style="border: 0;" valign="top">

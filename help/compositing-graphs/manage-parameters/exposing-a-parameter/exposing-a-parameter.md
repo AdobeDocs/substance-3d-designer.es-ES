@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Aprenda a exponer parámetros en gráficos de composición de Substance 3D Designer para hacer que los materiales sean personalizables y reutilizables.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ Actualmente hay dos métodos principales para exponer parámetros. Un método es
 
 ### MÉTODO DE EXPOSICIÓN ÚNICA
 
-1. Busque el parámetro que desea exponer en la [Ventana Propiedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), en la ficha Parámetros específicos
+1. Busque el parámetro que desea exponer en la [Ventana Propiedades](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), en la ficha Parámetros específicos
 1. Haga clic en el botón de opciones desplegables ![](../../../assets/image2020-9-17-15-35-59.png)
 1. Elija ![](../../../assets/image2020-9-17-15-37-7.png) <b>Exponer como nueva entrada de gráfico</b> en la lista desplegable, la primera opción.
 1. Aparece el cuadro de diálogo <b>Exponer parámetro</b>, establezca las propiedades de parámetro que desee.
@@ -79,7 +79,7 @@ Actualmente hay dos métodos principales para exponer parámetros. Un método es
 >[!NOTE]
 >
 > La mayoría de los campos numéricos admiten *fórmulas matemáticas básicas* como entrada; por ejemplo, `17+3.5`, `7/3`, `(4+2)*3`. Presione *Intro* para validar la fórmula y el resultado se introducirá en el campo. Si la fórmula no es válida, el campo vuelve a su valor anterior.\
-> Algunos campos numéricos de otras partes de la aplicación, como el conjunto acoplado [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), también admiten esta característica.
+> Algunos campos numéricos de otras partes de la aplicación, como el conjunto acoplado [Properties](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), también admiten esta característica.
 
 ![Recorrido del método de exposición por lotes](../../../assets/batch-expose-2.gif "Recorrido del método de exposición por lotes"){width="512px"}
 
@@ -104,7 +104,7 @@ Hay algunas limitaciones relacionadas con la exposición de parámetros, como se
 | --- | --- |
 | [Gradación De Degradado](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Editor De Curvas](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Fuente](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Histograma De Niveles](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Requerir widgets que no estén disponibles para los parámetros creados por el usuario. |
 
-Otra limitación importante está relacionada con [parámetros estáticos](../../../glossary/glossary.md). No se pueden cambiar en un [recurso de Substance 3D publicado](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Otra limitación importante está relacionada con [parámetros estáticos](../../../glossary/glossary.md). No se pueden cambiar en un [recurso de Substance 3D publicado](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
 
 Los parámetros estáticos, a diferencia de los parámetros dinámicos, *no se pueden editar sobre la marcha* después de que el gráfico se haya *preparado*, es decir, procesado para ejecutar su algoritmo de forma rápida y eficaz. La cocción se produce en Designer cada vez que el gráfico se *edita* o *publica*.
 
@@ -185,7 +185,7 @@ Normalmente, los cambios realizados en <b>Modo de vista previa</b> se *descartan
 
 >[!WARNING]
 >
-> El modo de vista previa pretende representar la experiencia de un [recurso de Substance 3D publicado](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) con la mayor precisión posible. Por lo tanto, las limitaciones enumeradas en esta página se aplicarán en este modo, por ejemplo, *los parámetros estáticos están ausentes de la lista*.
+> El modo de vista previa pretende representar la experiencia de un [recurso de Substance 3D publicado](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) con la mayor precisión posible. Por lo tanto, las limitaciones enumeradas en esta página se aplicarán en este modo, por ejemplo, *los parámetros estáticos están ausentes de la lista*.
 
 ![Copiando y pegando parámetros de entrada](../../../assets/copy-paste-params-2.gif "Copiando y pegando parámetros de entrada"){width="512px"}
 

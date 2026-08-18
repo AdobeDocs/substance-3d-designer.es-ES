@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
 breadcrumb-title: ''
 description: Utilice el nodo Relieve con brillo para crear efectos en relieve con mapas de brillo para añadir profundidad y brillo a las texturas.
 helpx_creative_field: ""

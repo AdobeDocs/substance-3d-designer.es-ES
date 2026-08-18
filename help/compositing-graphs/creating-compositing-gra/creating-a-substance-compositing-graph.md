@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Aprenda a crear gráficas de composición de Substance en Substance 3D Designer para crear flujos de trabajo de texturas procedimentales.
 helpx_creative_field: ""
@@ -49,7 +49,7 @@ Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../c
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  En cualquier *elemento de paquete* existente en el [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haz clic en <b>RMB</b> y ve a <b>Nuevo > Gráfico del Substance</b> en el menú contextual.
+  En cualquier *elemento de paquete* existente en el [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haz clic en <b>RMB</b> y ve a <b>Nuevo > Gráfico del Substance</b> en el menú contextual.
 
   </td>
   <td style="border: 0;" valign="top">
@@ -81,7 +81,7 @@ Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../c
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  En el [menú principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), vaya a la gráfica de <b>Archivo > Nuevo > Substance...</b>
+  En el [menú principal](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), vaya a la gráfica de <b>Archivo > Nuevo > Substance...</b>
 
   </td>
   <td style="border: 0;" valign="top">
@@ -246,7 +246,7 @@ Después de seleccionar la plantilla, puede configurar la información básica s
 
 <b>Tamaño</b>: la resolución principal del gráfico, que controlará la resolución de salida de la mayoría de los nodos; consulte la página [Tamaño de salida](../../compositing-graphs/output-size/output-size.md) para obtener más información. La anchura y el height están vinculados de forma predeterminada, y puede desvincularlos haciendo clic en el botón de vínculo entre los cuadros combinados de anchura y height.
 
-<b>Crear gráfico en</b>: Puede usar este cuadro combinado para crear un *nuevo paquete* para el nuevo gráfico o agregar el nuevo gráfico a cualquier paquete *existente* ya cargado en el panel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
+<b>Crear gráfico en</b>: Puede usar este cuadro combinado para crear un *nuevo paquete* para el nuevo gráfico o agregar el nuevo gráfico a cualquier paquete *existente* ya cargado en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
 
 ### Información sobre herramientas de Ayuda
 

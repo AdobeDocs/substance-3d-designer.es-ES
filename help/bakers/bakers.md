@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Aprenda a usar los panaderos de Substance 3D Designer para calcular información basada en malla en archivos de textura.
 helpx_creative_field: ""
