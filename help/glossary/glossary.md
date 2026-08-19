@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Conozca los términos y conceptos utilizados en Designer.
 
-## #
+## #&#x200B;
 
 |  |  |
 | --- | --- |
