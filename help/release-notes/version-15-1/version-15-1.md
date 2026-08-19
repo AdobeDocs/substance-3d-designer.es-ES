@@ -68,7 +68,7 @@ Por último, bitdepth <b> ya no está bloqueado de forma rígida a 16 bits</b>. 
 
 Consulta la lista completa de ruidos actualizados en las [notas de la versión](#release-notes) que aparecen a continuación.
 
-Ejemplos:   [Celdas 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nubes 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [ Arañazos direccionales](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [ Ruido de humedad 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Ejemplos:   [Celdas 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nubes 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; Arañazos direccionales](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; Ruido de humedad 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![ruido de desorden direccional](../../assets/directionaldisorder.gif){zoomable="yes"}
 
@@ -200,7 +200,7 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 * [Vista 3D] El Specular edge color no funciona al utilizar el rasterizador de Eclair
 * [Vista 3D] El material añadido por el usuario no se aplica en escenas predeterminadas
 * [Vista 3D] [Panaderos] El color del material es demasiado oscuro una vez se ha anulado o al utilizar un panadero de &quot;Color&quot;
-* [Vista 3D][Panaderos] No hay color de material del archivo FBX
+* [Vista 3D]&#x200B;[Panaderos] No hay color de material del archivo FBX
 * [Bakers] Los colores del material en los archivos FBX no se detectan correctamente
 * [Bakers] La opción &#39;recompute\_tangents&#39; siempre es &#39;false&#39; en las exportaciones de ajustes preestablecidos de JSON
 * [Bakers] CLI: Bloqueo al ejecutar el mismo panadero de forma consecutiva a través del archivo JSON

@@ -198,7 +198,7 @@ Tenga en cuenta que estas actualizaciones tienen dos consecuencias principales:
 * [Content] Pase al nodo &#39;Negate Float1&#39; en el gráfico de funciones del Substance
 * [Contenido] Cambie el nombre &quot;Cuantizar color&quot; por &quot;Cuantificar color (simple)&quot;
 * [Vista 2D] Visualización de valores en el panel de información para píxeles fuera del rango 0-1
-* [Motor][Texto] Nuevo kerning para algunas fuentes
+* [Motor]&#x200B;[Texto] Nuevo kerning para algunas fuentes
 * [Graph] Mejora el tiempo de invalidación al editar subgráficos profundos mientras usas la edición en contexto
 * [Vinculador] No duplicar mapas de bits en SBSASM
 * [Parámetros] Añada un nuevo widget de &quot;función&quot; para todos los tipos de parámetros de entrada
