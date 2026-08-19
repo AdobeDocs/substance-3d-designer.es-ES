@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión de Substance 3D Designer 14.1 para obtener más información sobre las herramientas de organización de nodos y los nuevos nodos Spline y Path.
 helpx_creative_field: ""
@@ -59,7 +59,7 @@ Ahora es posible [copiar los parámetros de un nodo y pegarlos en otro](../../co
 
 La nueva [herramienta Sampler de color](../../interface/2d-view/color-sampler/color-sampler.md) de la vista 2D te permite rastrear el valor de un píxel seleccionado colocando una chincheta sobre él. Esto resulta muy útil para asegurarse de que siempre está viendo la información del mismo píxel en varios nodos de un gráfico. Abra el panel de información para acceder a la herramienta y probarla.
 
-![Muestra de color: con la herramienta &#x200B;](../../assets/color-sampler-demo.gif "Muestra de color: usar la herramienta"){width="640px" zoomable="yes"}
+![Muestra de color: con la herramienta ](../../assets/color-sampler-demo.gif "Muestra de color: usar la herramienta"){width="640px" zoomable="yes"}
 
 ## Mejoras de búsqueda
 
