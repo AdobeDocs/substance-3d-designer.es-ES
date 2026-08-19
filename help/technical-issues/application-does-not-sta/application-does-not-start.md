@@ -10,9 +10,9 @@ helpx_tags: ""
 title: La aplicación no se inicia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ En esta página se enumeran las causas comunes por las que Substance 3D Designer
 
 Las versiones 15.0 y superiores de Designer no se inician en sistemas con una GPU integrada (iGPU) y una GPU independiente (dGPU).
 
-<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
+<b>![(marca)](../../assets/check.svg) Pasos recomendados</b>
 
 Actualice los controladores gráficos de la GPU. Puede encontrar los últimos controladores aquí:  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
@@ -90,7 +90,7 @@ Si no es posible actualizar a Windows 10, *no actualice* su instalación de Desi
 
 Bloqueo al cerrar la pantalla Inicio y mostrar la ventana principal.
 
-<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
+<b>![(marca)](../../assets/check.svg) Pasos recomendados</b>
 
 Designer no puede cargar los componentes de Python porque carga la biblioteca <b>libffi.so</b> del sistema en lugar de la suya propia.
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 Una biblioteca del sistema cargada por Designer no es compatible con la biblioteca <b>libcrypto.so.1.1</b> propia de Designer.
 
-<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
+<b>![(marca)](../../assets/check.svg) Pasos recomendados</b>
 
 Quite la biblioteca <b>`libcrypto.so.1.1`</b> del directorio de instalación de Designer, de modo que se utilice en su lugar la biblioteca del sistema.
 
