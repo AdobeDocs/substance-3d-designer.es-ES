@@ -178,7 +178,7 @@ Hay dos técnicas disponibles para visualizar el height:
 
 <b>Mosaico + Desplazamiento</b>: subdivide la geometría y desplaza los vértices a lo largo de sus normales.
 
-El material estándar de Adobe se documenta detalladamente en [esta sección](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nuestra documentación.
+El material estándar de Adobe se documenta detalladamente en [esta sección](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nuestra documentación.
 
 +++
 

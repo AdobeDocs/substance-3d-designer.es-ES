@@ -24,7 +24,7 @@ Horneado se refiere a la acción de **transferir información basada en malla a 
 
 >[!NOTE]
 >
-> Para obtener más información sobre el horneado, consulta la [Documentación de horneado](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
+> Para obtener más información sobre el horneado, consulta la [Documentación de horneado](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -93,13 +93,13 @@ Este panel controla dónde se ubicará la textura horneada.
 
 ### Mallas de alta definición
 
-Este panel controla la lista de mallas de alta densidad y los ajustes relacionados. Consulte los [parámetros comunes](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) para obtener más información.
+Este panel controla la lista de mallas de alta densidad y los ajustes relacionados. Consulte los [parámetros comunes](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/bakers-settings/common-parameters) para obtener más información.
 
 ![Mallas de alta definición](../assets/sd-high.png "Mallas de alta definición")
 
 ### Valores predeterminados
 
-Consulte los [parámetros comunes](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) para obtener más información.
+Consulte los [parámetros comunes](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/bakers-settings/common-parameters) para obtener más información.
 
 ![Valores predeterminados](../assets/sd-default-values.png "Valores predeterminados")
 
@@ -116,6 +116,6 @@ Cada panadero en el hereda de forma predeterminada los valores predeterminados (
 
 Al hacer clic en un panadero de la lista, la vista Parámetros de panadero se actualizará con sus parámetros específicos.
 
-Para obtener más información sobre los parámetros específicos, consulte: [Configuración de panaderos](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Para obtener más información sobre los parámetros específicos, consulte: [Configuración de panaderos](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
 ![Lista de procesamiento de panaderos](../assets/sd-baker-list.png "Lista de procesamiento de panaderos")

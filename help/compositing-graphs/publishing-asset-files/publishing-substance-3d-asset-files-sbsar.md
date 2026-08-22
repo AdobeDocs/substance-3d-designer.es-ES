@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Esta página explica cómo Substance 3D Designer puede publicar paquetes como archivos <b>Substance 3D asset</b>, un formato de archivo especial con la extensión <b>SBSAR</b>, que se utiliza en el ecosistema del Substance, así como en otras aplicaciones que lo admiten.
 
-Por lo general, es mejor utilizar un recurso de Substance 3D en lugar de mapas de bits, ya que es mucho más flexible y ligero. Si los usas en Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/es/substance-3d-sampler.html) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), es más rápido usar la funcionalidad [Enviar a](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
+Por lo general, es mejor utilizar un recurso de Substance 3D en lugar de mapas de bits, ya que es mucho más flexible y ligero. Si los usas en Substance 3D [Painter](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/es/substance-3d-sampler.html) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), es más rápido usar la funcionalidad [Enviar a](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
 
 ![Publicación de archivos SBSAR simplificada](../../assets/exportflow.png "Publicación de archivos SBSAR simplificada")
 
@@ -33,7 +33,7 @@ es conveniente tener en cuenta lo siguiente al publicar un gráfico de Substance
 * Usted<b> publica un paquete</b>, con todo su contenido, no un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md) individual. A continuación, un recurso de Substance 3D le permite generar contenido a partir de todos los gráficos de Substance dentro de este paquete.
 * Los paquetes publicados son <b>completamente independientes</b>: todos los recursos necesarios se incrustan en el archivo. Esto significa que son mucho más fáciles de compartir que los archivos SBS.
 * El resultado de los recursos de Substance 3D puede ser <b>completamente dinámico</b>. [La resolución no está establecida; se pueden modificar los parámetros expuestos.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) Sin embargo, ya no es posible editar el gráfico.
-* Los recursos de Substance 3D se pueden usar fuera de Designer, en todos los productos de Adobe de Substance 3D, Adobe Dimension y cualquier otra aplicación que tenga [Substance integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
+* Los recursos de Substance 3D se pueden usar fuera de Designer, en todos los productos de Adobe de Substance 3D, Adobe Dimension y cualquier otra aplicación que tenga [Substance integration](https://experienceleague.adobe.com/es/docs/substance-3d/ecosystem/home).
 * Publicar es diferente de [Exportar](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md), asegúrate de entender bien la diferencia.
 
 ## Preparándose para publicar

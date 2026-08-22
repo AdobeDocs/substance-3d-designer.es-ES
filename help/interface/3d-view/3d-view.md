@@ -215,7 +215,7 @@ Para exportar la malla Vista 3D, vaya a <b>Escena > Exportar malla teselada...</
 >
 > **TDR (solo Windows)**
 > 
-> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
+> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
 
 ## Barra de menús
 
@@ -299,7 +299,7 @@ El menú &quot;Materiales&quot; muestra una lista de todos los materiales asigna
 
 <b>Cargar definición...: </b>(solo procesador OpenGL) Permite cargar su propio sombreador [GLSLFX personalizado.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) El sombreado se añade a la lista anterior.
 
-<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Cambiar nombre:</b> Cambie la etiqueta de este material.
 

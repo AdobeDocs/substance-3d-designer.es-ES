@@ -202,7 +202,7 @@ hasta la versión 15.1.
 Aunque Designer se ha trasladado a OpenPBR como su nuevo modelo predeterminado, ASM se sigue incluyendo y sus propiedades también se comparten
 a través de Rasterizer, Trazador de ruta de GPU y OpenGL [procesadores 3D](../3d-renderers/3d-renderers.md).
 
-El modelo está documentado [aquí](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+El modelo está documentado [aquí](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <a name="usdpreviewsurface"></a>
 
