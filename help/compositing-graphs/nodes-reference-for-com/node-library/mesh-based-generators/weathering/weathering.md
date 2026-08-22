@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Erosión
 
-Los nodos meteorológicos llevan a los [Generadores de máscaras](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) un paso más allá: hacen un efecto de intemperismo de todo el material basado en parámetros y mapas con bake. El concepto es muy similar a [Smart Materials](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) en Substance Painter.
+Los nodos meteorológicos llevan a los [Generadores de máscaras](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) un paso más allá: hacen un efecto de intemperismo de todo el material basado en parámetros y mapas con bake. El concepto es muy similar a [Smart Materials](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/features/smart-materials-and-masks) en Substance Painter.
 
 Necesita tener uno o más mapas con bake para obtener un resultado completo de estos nodos.
 

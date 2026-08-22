@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Generadores de máscaras
 
-Esta categoría contiene una selección de nodos que generan máscaras en blanco y negro. En función de la información de mapa con bake, generan máscaras que se pueden utilizar para fusionar materiales y otros efectos. Estos nodos son similares a [Máscaras inteligentes](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) y [Generadores](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators) en Substance Painter.
+Esta categoría contiene una selección de nodos que generan máscaras en blanco y negro. En función de la información de mapa con bake, generan máscaras que se pueden utilizar para fusionar materiales y otros efectos. Estos nodos son similares a [Máscaras inteligentes](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/features/smart-materials-and-masks) y [Generadores](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/content/creating-custom-effects/generators) en Substance Painter.
 
 Todos estos nodos requieren [mapas con bake,](../../../../../bakers/bakers.md) ya que sin [mapas con bake](../../../../../bakers/bakers.md) no habrá mucho resultado.
 

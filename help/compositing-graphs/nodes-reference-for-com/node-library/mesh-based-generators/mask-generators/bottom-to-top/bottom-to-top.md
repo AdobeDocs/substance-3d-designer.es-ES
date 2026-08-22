@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## Descripción
 
-Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) en [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
+Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/features/smart-materials-and-masks) en [Painter](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/home).
 
 Esto genera una transición de blanco a negro desde la parte inferior a la superior de un modelo, útil para realizar falloffs y selecciones basadas en geometría.
 
