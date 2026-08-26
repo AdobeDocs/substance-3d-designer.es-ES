@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilice la vista 3D de Substance 3D Designer para previsualizar materiales en objetos 3D y probar las condiciones de iluminación.
 helpx_creative_field: ""
@@ -128,9 +128,9 @@ Puede ver materiales enteros como un material completo en la vista 3D. Esta es l
 
 Para ver todas las salidas de un gráfico, haga clic en *RMB* en un área vacía de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) y seleccione la opción **Ver salidas en vista 3D** en el menú contextual.
 
-También puedes ver los resultados de un gráfico sin tener que abrirlo, haciendo clic en RMB en un recurso de gráfico en el dock de [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y eligiendo la opción **Ver resultados en vista 3D** en el menú contextual.
+También puedes ver los resultados de un gráfico sin tener que abrirlo, haciendo clic en RMB en un recurso de gráfico en el dock de [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y eligiendo la opción **Ver resultados en vista 3D** en el menú contextual.
 
-Como alternativa al menú contextual del gráfico, puedes obtener el mismo resultado arrastrando el gráfico desde el dock de [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) hasta la [vista 3D](https://substance3d.adobe.com/).
+Como alternativa al menú contextual del gráfico, puedes obtener el mismo resultado arrastrando el gráfico desde el dock de [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) hasta la [vista 3D](https://substance3d.adobe.com/).
 
 Al *cargar un gráfico*, sus resultados se aplican automáticamente en la vista 3D de forma predeterminada. Puede deshabilitar este comportamiento en [Preferencias](../../interface/preferences-window/preferences-window.md). Vaya a **Editar > Preferencias > Gráfico > Común** y desmarque la opción **Ver resultados en vista 3D al abrir un gráfico**.
 
@@ -150,7 +150,7 @@ Puedes ver cualquier nodo, no solo los nodos de salida, haciendo clic con el bot
 
 También puedes usar *RMB* para arrastrar y soltar cualquier nodo de la vista de gráfico a la vista 3D. Se le mostrará una lista con los canales disponibles para asignar el nodo. Haga clic en cualquiera para confirmar.
 
-Puede ver cualquier resultado de gráfico individual expandiendo el recurso de gráfico en el conjunto acoplado [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y usando *LMB* para arrastrar ese resultado a la vista 3D. Se le mostrará una lista con los canales disponibles para asignar el nodo. Haga clic en cualquiera para confirmar.
+Puede ver cualquier resultado de gráfico individual expandiendo el recurso de gráfico en el conjunto acoplado [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y usando *LMB* para arrastrar ese resultado a la vista 3D. Se le mostrará una lista con los canales disponibles para asignar el nodo. Haga clic en cualquiera para confirmar.
 
 ![Visualización de mallas 3D personalizadas](../../assets/3d-mesh.gif "Visualización de mallas 3D personalizadas")
 
@@ -221,7 +221,7 @@ Para exportar la malla Vista 3D, vaya a <b>Escena > Exportar malla teselada...</
 >
 > **TDR (solo Windows)**
 > 
-> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
+> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
 
 ## Barra de menús
 
@@ -266,7 +266,7 @@ El menú <b>Escena</b> trata de la geometría (recurso 3D) mostrada y de los est
 
 * Toro
 
-<b>Mostrar UV en vista 2D:</b> Habilita la visualización de las UV de la malla seleccionada actualmente como superposición en [la vista 2D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
+<b>Mostrar UV en vista 2D:</b> Habilita la visualización de las UV de la malla seleccionada actualmente como superposición en [la vista 2D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
 
 <b>Crear recurso 3D a partir de la escena actual...:</b> Crea un nuevo [recurso de escena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) en un paquete a partir de la escena actual.
 
@@ -305,7 +305,7 @@ El menú &quot;Materiales&quot; muestra una lista de todos los materiales asigna
 
 <b>Cargar definición...: </b>(solo procesador OpenGL) Permite cargar su propio sombreador [GLSLFX personalizado.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) El sombreado se añade a la lista anterior.
 
-<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Cambiar nombre:</b> Cambie la etiqueta de este material.
 
