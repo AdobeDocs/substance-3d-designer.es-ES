@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Aprenda a activar Substance 3D Designer y administrar licencias para acceder a todas las funciones y capacidades.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ El proceso de activación depende de dónde haya comprado Designer o tenga acces
 
 | Edición | Proceso de activación |
 | --- | --- |
-| Escritorio de Creative Cloud | Consulte la página dedicada en la [documentación de HelpX](https://helpx.adobe.com/support/substance-3d-designer.html). En caso de que haya algún problema, la [documentación del Creative Cloud](https://helpx.adobe.com/creative-cloud/user-guide.html) puede proporcionar respuestas adicionales. |
+| Escritorio de Creative Cloud | Consulte la página dedicada en la [documentación de HelpX](https://helpx.adobe.com/es/support/substance-3d-designer.html). En caso de que haya algún problema, la [documentación del Creative Cloud](https://helpx.adobe.com/es/creative-cloud/user-guide.html) puede proporcionar respuestas adicionales. |
 | Vapor | Inicie el producto directamente desde su biblioteca de Steam. |
 | Substance (independiente) | Consulte el proceso de activación que se describe a continuación. |
 

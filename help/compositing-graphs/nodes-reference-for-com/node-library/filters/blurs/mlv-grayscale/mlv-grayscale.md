@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: Usa el filtro de desenfoque de escala de grises MLV para aplicar efectos de desenfoque de movimiento a texturas de escala de grises para lograr aspectos dinámicos.
 helpx_creative_field: ""

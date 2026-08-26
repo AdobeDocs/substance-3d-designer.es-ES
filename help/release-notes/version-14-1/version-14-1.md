@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión de Substance 3D Designer 14.1 para obtener más información sobre las herramientas de organización de nodos y los nuevos nodos Spline y Path.
 helpx_creative_field: ""
