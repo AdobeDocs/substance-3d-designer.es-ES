@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Acceda al glosario de Substance 3D Designer para encontrar definiciones de términos, conceptos y terminología técnica.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Glosario
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 264bcb3675b4cc1d6819c06b881ea616a817dd4b
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4489'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # Conozca los términos y conceptos utilizados en Designer.
 
-## #&#x200B;
+## #
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene"></span>Escena 3D</b> | Colección de objetos y datos relacionados con la representación y animación de una visualización del espacio 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Mallas](#mesh)</li> <li data-preserve-html="true">[Materiales](#material)</li> <li data-preserve-html="true">Cámaras</li> <li data-preserve-html="true">Luces</li> <li data-preserve-html="true">Animación</li> <li data-preserve-html="true">Simulaciones</li> <li data-preserve-html="true">...</li> </ul>Entre los [formatos de archivo populares](https://www.adobe.com/es/products/substance3d/discover/3d-files-formats.html) para almacenar escenas 3D se incluyen el [USD](#usd) de Pixar y el FBX de Autodesk. Todos los formatos de archivo no admiten todos estos componentes |
+| <b><span id="three-d-scene"></span>Escena 3D</b> | Colección de objetos y datos relacionados con la representación y animación de una visualización del espacio 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Mallas](#mesh)</li> <li data-preserve-html="true">[Materiales](#material)</li> <li data-preserve-html="true">Cámaras</li> <li data-preserve-html="true">Luces</li> <li data-preserve-html="true">Animación</li> <li data-preserve-html="true">Simulaciones</li> <li data-preserve-html="true">...</li> </ul>Entre los [formatos de archivo populares](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) para almacenar escenas 3D se incluyen el [USD](#usd) de Pixar y el FBX de Autodesk. Todos los formatos de archivo no admiten todos estos componentes |
 
 ## A
 
@@ -33,6 +33,7 @@ ht-degree: 1%
 | <b><span id="alpha"></span>canal de Alpha</b> | Cuarto canal de una imagen en color, que se suele utilizar para describir la opacidad. |
 | <b><span id="ambient-occlusion"></span>oclusión de ambiente</b> | Atenuación de la luz ambiente en superficies que están menos expuestas y, por lo tanto, son más difíciles de alcanzar. |
 | <b><span id="anisotropy"></span>Anisotropía</b> | La propiedad de ser dependiente de la dirección. En otras palabras, proporcionar un resultado diferente cuando se mide u observa en un eje diferente.   Los materiales anisotrópicos tienen un aspecto diferente según el lugar desde el que se observen y los filtros anisotrópicos no se aplican uniformemente en todas las direcciones. |
+| <b><span id="aov" ></span>AOV</b> | Variable de salida arbitraria (AOV) es un término utilizado en [procesamiento](#rendering) para describir canales de datos adicionales que se pueden generar desde un procesamiento, como profundidad, normales o datos personalizados. |
 | <b><span id="api"></span>API</b> | Una interfaz de programación de aplicaciones (API) es una colección de funciones y procedimientos que permite a los usuarios tener acceso a las funciones y procedimientos de otra aplicación de un programa.   Una API proporciona una capa controlada y segura entre el usuario y un programa. También puede utilizar otro lenguaje de programación para facilitar la interacción con ese programa y hacer que sea más accesible.   Designer ofrece una [API de Python](../scripting/scripting.md) que proporciona acceso fácil a una amplia gama de sus capacidades para manipular datos, crear herramientas personalizadas y acelerar los flujos de trabajo. |
 | <b><span id="atomic-node"></span>Nodo atómico</b> | Los pilares fundamentales de los gráficos. Todos los [nodos de instancia](#instance-node) se pueden desglosar en gráficos de nodos atómicos. Cada tipo de gráfico tiene su propio conjunto de nodos atómicos. |
 

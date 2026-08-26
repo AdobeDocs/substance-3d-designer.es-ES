@@ -1,8 +1,8 @@
 ---
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 2%
 
 ---
 # TODO
@@ -16,9 +16,12 @@ ht-degree: 1%
 
 * Puntos de entrada para la documentación de la API de Python en AdobeDocs
 * Ejemplos en la página &quot;Documentación emergente&quot;
+* Glosario:
+  * HDR
 
 ## Correcciones
 
+* Vínculos rotos en [Información general](help/getting-started/overview/overview.md)
 * Vínculos rotos y formato en [nodo de salida](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 * Vínculos de HelpX
 * Eliminar las Condiciones de uso de la página (p. ej. nuevos ruidos)
