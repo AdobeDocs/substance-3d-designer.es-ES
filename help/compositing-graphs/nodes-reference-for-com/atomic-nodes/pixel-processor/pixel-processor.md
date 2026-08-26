@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: Utilice el nodo Procesador de píxeles para procesar píxeles individuales mediante expresiones personalizadas para la manipulación avanzada de texturas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de píxeles
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -95,7 +95,7 @@ Para cualquiera que esté acostumbrado a crear funciones de [sombreador](../../.
 |  |  |
 | --- | --- |
 | <b>Modo de color</b> *Booleano* | Alterna entre una imagen de salida en escala de grises y en color. |
-| <b>Función por píxel</b> *Float/Float4* | [Gráfico de funciones de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) por píxel en la imagen de salida.   Use el nodo [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) establecido en la variable <b>$pos</b> para acceder a la posición [normalizada](../../../../glossary/glossary.md) del píxel actual. |
+| <b>Función por píxel</b> *Float/Float4* | [Gráfico de funciones de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) por píxel en la imagen de salida.   Use el nodo [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) establecido en la variable <b>$pos</b> para acceder a la posición [normalizada](../../../../glossary/glossary.md) del píxel actual. |
 
 ## Conectores de entrada
 

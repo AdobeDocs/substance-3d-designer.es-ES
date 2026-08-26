@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Configure los ajustes de control de versiones en las preferencias de Substance 3D Designer para integrarlos con Git y otros sistemas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Control de versiones
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Puede utilizar:
 * una acción de script *por*
 * un script para *todas* las acciones
 
-Hay disponible un script de inicio para todas las acciones en la instalación de Designer: &#39;*tools/version\_control/perforce.py*&#39;.
+Hay disponible una secuencia de inicio para todas las acciones en la instalación de Designer: &#39;*tools/version\_control/perforce.py*&#39;.
 
 >[!IMPORTANT]
 >
@@ -113,8 +113,8 @@ Configuración de ![P4 en Designer: intérprete](../../../assets/p4v-project-set
 1. Hay varias acciones disponibles, en función del estado del archivo del paquete en el espacio de trabajo:
 
    * <b>Agregar:</b> Marque los archivos como &#39;Para agregar&#39;
-   * <b>Enviar:</b> Envíe los paquetes seleccionados. Esta acción muestra un cuadro de diálogo para especificar un mensaje de cambio (véase a continuación)
-   * <b>Revertir:</b> Revierta las modificaciones. Esta acción muestra un cuadro de diálogo para seleccionar los archivos que desea revertir (consulte a continuación)
+   * <b>Enviar:</b> Envíe los paquetes seleccionados. Esta acción muestra un cuadro de diálogo para especificar un mensaje de cambio (véase a continuación)
+   * <b>Revertir:</b> Revierta las modificaciones. Esta acción muestra un cuadro de diálogo para seleccionar los archivos que desea revertir (consulte a continuación)
    * <b>Retirar:</b> Desproteger el archivo de la estación de almacenamiento
    * <b>Obtener última versión:</b> Recuperar la última versión del almacén
    * <b>Actualizar estado:</b> Actualizar el estado del archivo del paquete

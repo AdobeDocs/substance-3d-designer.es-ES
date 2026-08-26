@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Utilice el Buscador de nodos para buscar y localizar rápidamente nodos en los gráficos del Substance para una navegación eficaz.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Buscador de nodos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Barra de herramientas del Buscador de nodos](../../../assets/node-finder-toolbar.png "Barra de herramientas del Buscador de nodos"){zoomable="yes"}
 
-La herramienta Buscador de nodos le permite realizar una <b>búsqueda de nodos y variables</b> mediante una consulta de texto. Todos los nodos que no coinciden con la consulta aparecen atenuados para que los resultados sobresalgan.
+La herramienta Buscador de nodos le permite realizar una <b>búsqueda de nodos y variables</b> mediante una consulta de texto. Todos los nodos que no coinciden con la consulta aparecen atenuados para que los resultados sobresalgan.
 
 La consulta puede coincidir con cualquiera de estos criterios:
 
@@ -31,7 +31,7 @@ La consulta puede coincidir con cualquiera de estos criterios:
 * <b>UID</b> de un nodo (identificador único)
 * <b>etiqueta</b> de un nodo
 
-La búsqueda puede atravesar [instancias de gráficos](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) de forma recursiva para que se puedan encontrar nodos y variables en [subgráficos](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Si no está seguro del término exacto que necesita buscar, existe una opción de búsqueda difusa para aplicar una tolerancia a la consulta.
+La búsqueda puede atravesar [instancias de gráficos](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) de forma recursiva para que se puedan encontrar nodos y variables en [subgráficos](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Si no está seguro del término exacto que necesita buscar, existe una opción de búsqueda difusa para aplicar una tolerancia a la consulta.
 
 ## Interfaz
 

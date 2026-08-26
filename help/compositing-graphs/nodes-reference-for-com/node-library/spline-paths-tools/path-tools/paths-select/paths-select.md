@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: Utilice el nodo Selección de trazados para seleccionar y filtrar trazados específicos de una lista de trazados en función de criterios.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selección de trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -55,14 +55,14 @@ Los trazados se introducen con un solo trazado. Puedes usar [rutas de vista prev
 *- Por id.:* Selecciona la ruta de la lista cuyo índice coincide con el especificado en <b>Id. de ruta</b>;\
 *- Por longitud:* Selecciona las rutas cuya longitud es superior o inferior al umbral especificado en <b>Longitud de destino</b>.
 
-<b>Id. de ruta</b> *Entero* (disponible cuando el <b>Modo de selección</b> está establecido en *Id.*)\
+<b>Id. de ruta</b> *Entero* (disponible cuando el <b>Modo de selección</b> está establecido en *Por id.*)\
 Índice del trazado seleccionado.\
 Un valor mayor que el número de rutas de acceso de <b>Rutas *genera*</b> un resultado en blanco.
 
 <b>Longitud mayor o menor?</b> *Booleano* (disponible cuando el <b>Modo de selección</b> está establecido en *Por longitud*)\
 Controla si la selección debe incluir una longitud mayor o menor que la <b>Longitud de destino</b>.
 
-<b>Longitud de destino</b> *Float*(Disponible cuando el <b>Modo de selección</b> está establecido en *Por longitud*)\
+<b>Longitud de destino</b> *Float*(Disponible cuando <b>Selection Mode</b> está establecido en *By Length*)\
 Umbral de longitud utilizado para seleccionar splines.
 
 ## Ejemplos

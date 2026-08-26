@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 # TODO
@@ -18,12 +18,21 @@ ht-degree: 2%
 * Ejemplos en la página &quot;Documentación emergente&quot;
 * Glosario:
   * HDR
+  * Metalness / Metálico
+  * HDR
+  * Especular
+  * mapa de height
+  * Opacidad
+  * Frustum
+  * Espacio tangente
+  * Semilla / Semilla aleatoria
+  * FX-Map
+  * Procesador de píxeles
+  * Ajuste preestablecido
 
 ## Correcciones
 
-* Vínculos rotos en [Información general](help/getting-started/overview/overview.md)
 * Vínculos rotos y formato en [nodo de salida](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Vínculos de HelpX
 * Eliminar las Condiciones de uso de la página (p. ej. nuevos ruidos)
 * Corregir diseños de página de nodo (p. ej. nuevos ruidos)
 * Corregir vínculo para la primera imagen de ejemplo en páginas de nodo (p. ej. nuevos ruidos)

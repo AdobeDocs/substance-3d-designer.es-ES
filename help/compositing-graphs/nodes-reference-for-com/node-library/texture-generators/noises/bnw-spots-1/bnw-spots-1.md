@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Manchas BnW 1 para generar patrones de manchas en blanco y negro para crear variaciones de textura y máscaras de detalles.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: BnW spots 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 2%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 
@@ -39,27 +39,7 @@ ht-degree: 2%
 
 Variación de los ruidos de los puntos gruesos <b>blanco y negro (BnW)</b>.
 
-Vea también: [Puntos BnW 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md), [Puntos BnW 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-3/bnw-spots-3.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Salidas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parámetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
+Consulte también: [Puntos BnW 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md), [Puntos BnW 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-3/bnw-spots-3.md)
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
 description: Utilice el nodo Puente polinómico para enlazar texturas entre dos splines con el fin de crear conexiones perfectas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Puente de spline (2 splines)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -48,36 +48,36 @@ Genera splines de <b>Spline #1</b> a <b>Spline #2</b> a lo largo de estas spline
 <b>Vista previa n.º 1</b> *Escala de grises* Vista previa de las splines de entrada #1 como imagen en escala de grises.
 
 <b>Códigos polinómicos #1</b> *Color* Coordenadas de los puntos de las splines de entrada #1 codificados en los canales RGBA de una imagen en color.\
-    Posición <b>R</b> - X\
-    <b>G</b> - Posición Y\
-    <b>B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+Posición <b>R</b> - X\
+<b>G</b> - Posición Y\
+<b>B</b> - Height\
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline #1</b> *Color* Datos adicionales de las splines de entrada #1 codificadas en los canales RGBA de una imagen en color.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Sin usar\
-    <b>A</b> - Sin usar
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Sin usar\
+<b>A</b> - Sin usar
 
 <b>Cantidad de spline #1</b> *Entero* Número de splines de entrada #1.
 
 <b>Vista previa n.º 2</b> *Escala de grises* Vista previa de las splines de entrada #2 como imagen en escala de grises.
 
 <b>Códigos polinómicos #2</b> *Color* Coordenadas de los puntos #2 de las splines de entrada codificados en los canales RGBA de una imagen en color.\
-    Posición <b>R</b> - X\
-    <b>G</b> - Posición Y\
-    <b>B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+Posición <b>R</b> - X\
+<b>G</b> - Posición Y\
+<b>B</b> - Height\
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline #2</b> *Color* Datos adicionales de las splines de entrada #2 codificadas en los canales RGBA de una imagen en color.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Sin usar\
-    <b>A</b> - Sin usar
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Sin usar\
+<b>A</b> - Sin usar
 
 <b>Cantidad de spline #2</b> *Entero* Número de splines de entrada #2.
 
@@ -104,18 +104,18 @@ Puede utilizar un nodo Curva para crear la curva.
 <b>Vista previa</b> *Escala de grises* Vista previa de las splines de salida como una imagen en escala de grises.
 
 <b>Códigos polinómicos</b> *Color* Coordenadas de los puntos de las splines de salida codificados en los canales RGBA de una imagen en color.\
-    Posición <b>R</b> - X\
-    <b>G</b> - Posición Y\
-    <b>B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+Posición <b>R</b> - X\
+<b>G</b> - Posición Y\
+<b>B</b> - Height\
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline</b> *Color* Datos adicionales de las splines de salida codificadas en los canales RGBA de una imagen en color.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Sin usar\
-    <b>A</b> - Sin usar
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Sin usar\
+<b>A</b> - Sin usar
 
 <b>Cantidad de spline</b> *Entero* Número de splines de salida.
 

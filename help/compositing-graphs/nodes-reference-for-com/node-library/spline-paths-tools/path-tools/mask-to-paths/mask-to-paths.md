@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
 description: Utilice el nodo Máscara a trazados para convertir texturas de máscara en datos de trazado para la generación de trazados de procedimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Máscara a trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -62,20 +62,20 @@ El resultado se puede procesar usando otro nodo de procesamiento de rutas o envi
 
 ## Parámetros
 
-<b>Máscara suave</b> *Flotante*\
+<b>Máscara suave</b> *Flotador*\
 Aplique suavizado a la máscara de entrada.\
 Útil cuando el patrón de entrada tiene bordes muy afilados, lo que normalmente provoca artefactos.
 
-<b>Valor de umbral de máscara</b> *Float* Valor de escala de grises de <b>Mask</b> que se usará para separar el exterior (valores &lt; Valor de umbral de máscara) y el interior (valores > Valor de umbral de máscara) de la forma.
+<b>Valor de umbral de máscara</b> *Float* Valor de escala de grises de <b>Mask</b> que se usará para separar el exterior (valores &lt; valor de umbral de máscara) y el interior (valores > valor de umbral de máscara) de la forma.
 
 <b>Ruta de acceso decimal</b> *Float* Controla implícitamente la cantidad de segmentos que se generarán.\
 Una gran cantidad de diezmación hará que las formas redondeadas sean algo poligonales, mientras que ninguna diezmación generará casi un segmento por píxel.\
 Una cantidad razonable coincidirá mejor con la forma de las líneas rectas y curvas sin crear muchos puntos intermedios para las líneas rectas.
 
-<b>Cerrar trazados abiertos</b> *Boolean* Crear un segmento entre los vértices inicial y final de los trazados abiertos.\
+<b>Cerrar rutas abiertas</b> *Booleano* Crea un segmento entre los vértices inicial y final de los trazados abiertos.\
 Desactivar esto puede corregir las líneas no deseadas que atraviesan el patrón de forma inesperada; sin embargo, es posible que las rutas ya no estén cerradas.
 
-<b>Umbral de vértice</b> *Flotante*\
+<b>Umbral de vértice</b> *Flotador*\
 Cada vértice codificado en trazados puede contener un indicador que indique si es duro (es decir, una esquina) o suave.\
 Este parámetro le permite marcar más o menos vértices según el ángulo entre sus segmentos adyacentes.\
 *Nota:* Este indicador &#39;corner&#39; no es compatible actualmente con ningún nodo existente, pero está disponible para usarse en un nodo [Path Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md). También puede visualizar las esquinas con el nodo [Rutas de vista previa](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md).
@@ -113,15 +113,15 @@ Esto tiene un impacto significativo al convertir las <b>rutas de acceso a spline
 *- Por tamaño de bandeja - De menor a mayor:* Las rutas se ordenan según el tamaño de su bandeja, de menor a mayor\
 *- Función de ordenación personalizada:* Utilice una función personalizada para ordenar rutas
 
-<b>Dirección de orden</b> *Float*&#x200B;Ángulo que describe la dirección utilizada para ordenar los trazados de primero a último en esa dirección.\
+<b>Dirección del pedido</b> *Flotador*&#x200B;Ángulo que describe la dirección que se usa para ordenar los trazados de primero a último en esa dirección.\
 El valor es un *número de vueltas* que se usa para girar un vector de dirección X-izquierda. Esto significa que 0 establece un vector de dirección de (-1, 0) y 0,25 (90 grados) establece un vector de dirección de (0, 1).
 
 <b>Función de ordenación</b> *Float* Función utilizada para ordenar los trazados. Devuelve un valor de tipo Float.\
 Las rutas de acceso se ordenan en *orden ascendente* según el valor de esta función. En otras palabras, el resultado de la función para cada ruta es la *clave de ordenación* utilizada para ordenar las rutas.\
 Variables disponibles:
-* bbox.center (Float2): La posición del centro del Path Bbox
-* bbox.topleft (Float2): posición de la esquina superior izquierda del cuadro Trazado
-* bbox.size (Float2): tamaño del cuadro Trazado (X: anchura, Y: height)
+* bbox.center (Float2): Posición del centro del cuadro de ruta
+* bbox.topleft (Float2): Posición de la esquina superior izquierda del cuadro Trazado
+* bbox.size (Float2): El tamaño del cuadro Trayectoria (X: anchura, Y: height)
 
 ## Ejemplos
 

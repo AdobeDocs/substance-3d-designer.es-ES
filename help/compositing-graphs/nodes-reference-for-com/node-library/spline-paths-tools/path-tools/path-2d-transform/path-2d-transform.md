@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
 breadcrumb-title: ''
 description: Utilice el nodo Transformación 2D de trazado para transformar trazados con operaciones de traslación, rotación y escala.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformación 2D de trazado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Matriz de transformación aplicada a las splines. Existen tres modos de edición
 *- Rotación/Ampliación:* Controle individualmente la rotación y la ampliación de las splines. Tenga en cuenta que los valores siempre se aplican en relación con la transformación actual. Por ejemplo, aplicar una anchura del 50 % dos veces da como resultado una anchura del 25 %;\
 *- Valores de matriz:* Haga clic en el botón <b>Editar valores de matriz</b> para introducir directamente los valores numéricos sin formato de la matriz.
 
-<b>Desplazamiento</b> *Flotante2*\
+<b>Desplazamiento</b> *Float2*\
 Aplica un desplazamiento de posición a las splines en X (horizontal) e Y (vertical).
 
 ## Ejemplos

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Aprenda a importar, vincular y crear nuevos recursos en Substance 3D Designer para sus proyectos de materiales.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Importación, vinculación y nuevos recursos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -20,21 +20,21 @@ ht-degree: 2%
 
 # Importación, vinculación y nuevos recursos
 
-[Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html) admite tres modos de traer o crear nuevos recursos para su uso en el gráfico. Estos recursos pueden ser de muchos tipos diferentes, entre ellos [mapas de bits](../../resources/bitmap-resource/bitmap-resource.md), [gráficos vectoriales](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [escenas 3D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) y [fuentes](../../resources/font-resource/font-resource.md). Esta página explica los diferentes métodos y cuándo es mejor usar cada uno.
+[Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html) admite tres modos de traer o crear nuevos recursos para su uso en el gráfico. Estos recursos pueden ser de muchos tipos diferentes, entre ellos [mapas de bits](../../resources/bitmap-resource/bitmap-resource.md), [gráficos vectoriales](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [escenas 3D](../3d-scene-resource/3d-scene-resource.md) y [fuentes](../../resources/font-resource/font-resource.md). Esta página explica los diferentes métodos y cuándo es mejor usar cada uno.
 
-Se tiene acceso a todos los métodos [haciendo clic en RMB en un paquete en el Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) [.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+Para acceder a todos los métodos, haga clic en RMB en un paquete del Explorador.
 
 En la siguiente tabla se ofrece una visión general rápida de la diferencia de funciones entre los métodos.
 
 |                                                                                                                                                                         | Nuevo | Importar | Vincular |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| Gráficos ([gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), [gráficos de funciones de Substance](../../function-graphs/function-graphs.md) | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [Mapas de bits](../../resources/bitmap-resource/bitmap-resource.md),[&#x200B; gráficos vectoriales (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| [escenas 3D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [fuentes](../../resources/font-resource/font-resource.md) | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(marca)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| Se crea junto al archivo SBS | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Editable en Designer | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Las ediciones externas se sincronizan automáticamente | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(marca)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| Incrustado en SBSAR publicado | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Gráficos ([gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), [gráficos de funciones de Substance](../../function-graphs/function-graphs.md) | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| [Mapas de bits](../../resources/bitmap-resource/bitmap-resource.md),[gráficos vectoriales (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| Escenas 3D, [fuentes](../../resources/font-resource/font-resource.md) | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| Se crea junto al archivo SBS | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| Editable en Designer | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| Las ediciones externas se sincronizan automáticamente | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| Incrustado en SBSAR publicado | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
 
 ## Nuevos recursos
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/using-color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-color-management.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar las funciones de gestión de color en la creación de scripts de Substance 3D Designer Python para obtener colores precisos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Uso de la gestión de color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -154,6 +154,6 @@ for res in resources:
 
 ## Escribir SDTextures con conversiones de espacio de color
 
-El método **save** de la clase **SDTexture** ahora acepta un parámetro **outputColorSpace** opcional. Cuando se especifique, la conversión del espacio de color se *aplicará antes de guardar la imagen*.
+El método **save** de la clase **SDTexture** ahora acepta un parámetro **outputColorSpace** opcional. Cuando se especifique, la conversión del espacio de color se *aplicará antes de guardar la imagen*.
 
 Si el modo de administración de color admite los perfiles ICC incrustados *y*, el formato de archivo de destino también los admite, el perfil ICC del espacio de color se *incrustará en el archivo de imagen resultante*.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 breadcrumb-title: ''
 description: Utilice el nodo Lista de puentes polinómicos para enlazar texturas entre varias splines de una lista para patrones complejos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Puente polinomial (lista)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Las splines generadas pueden ser lineales (rectas) o curvadas (curvadas).
 Posición <b> R</b> - X\
 <b> G</b> - Posición Y\
 <b> B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline</b> *Color* Datos adicionales de las splines de entrada codificadas en los canales RGBA de una imagen en color.\
 <b> R</b> - Tangentes X\
@@ -72,18 +72,18 @@ Posición <b> R</b> - X\
 <b>Vista previa</b> *Escala de grises* Vista previa de las splines de salida como una imagen en escala de grises.
 
 <b>Códigos polinómicos</b> *Color* Coordenadas de los puntos de las splines de salida codificados en los canales RGBA de una imagen en color.\
-    Posición <b>R</b> - X\
-    <b>G</b> - Posición Y\
-    <b>B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+Posición <b>R</b> - X\
+<b>G</b> - Posición Y\
+<b>B</b> - Height\
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline</b> *Color* Datos adicionales de las splines de salida codificadas en los canales RGBA de una imagen en color.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Sin usar\
-    <b>A</b> - Sin usar
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Sin usar\
+<b>A</b> - Sin usar
 
 <b>Cantidad de spline</b> *Entero* Número de splines de salida.
 
@@ -113,11 +113,11 @@ Las splines generadas que coinciden con el principio o el final de las splines r
 *- spline primaria:* Se usa la longitud completa de las splines primarias. Puede provocar solapamientos.\
 *- Intervalo:* Se usa el intervalo entre las splines del puente. Esto mitiga las superposiciones. Esta distancia disminuye a medida que aumenta la cantidad de splines del puente.
 
-<b>Desplazamiento aleatorio inicial</b> *Desplazamiento aleatorio* Un multiplicador para el desplazamiento aleatorio aplicado en la posición inicial de las splines de puente, donde la distancia máxima se especifica mediante el parámetro <b>Rango de desplazamiento aleatorio</b>.
+<b>Iniciar desplazamiento aleatorio</b> *Float* Un multiplicador para el desplazamiento aleatorio aplicado en la posición inicial de las splines de puente, donde la distancia máxima se especifica mediante el parámetro <b>Random offset range</b>.
 
-<b>Desplazamiento aleatorio final</b> *Desplazamiento aleatorio* Un multiplicador para el desplazamiento aleatorio aplicado en la posición final de las splines del puente, donde la distancia máxima se especifica mediante el parámetro <b>Rango de desplazamiento aleatorio</b>.
+<b>Finalizar desplazamiento aleatorio</b> *Float* Un multiplicador para el desplazamiento aleatorio aplicado en la posición final de las splines de puente, donde la distancia máxima se especifica mediante el parámetro <b>Random offset range</b>.
 
-<b>Desplazamiento aleatorio global</b> *Flotante* Un multiplicador para la *cantidad igual* de desplazamiento aleatorio aplicado en *ambas* posiciones de inicio y fin de las splines del puente, donde la distancia máxima se especifica mediante el parámetro <b>Rango de desplazamiento aleatorio</b>.
+<b>Desplazamiento aleatorio global</b> *Float* Un multiplicador para la *cantidad igual* de desplazamiento aleatorio aplicado en *ambas* posiciones de inicio y fin de las splines de puente, donde la distancia máxima se especifica mediante el parámetro <b>intervalo de desplazamiento aleatorio</b>.
 
 <b>Distribución uniforme</b> *Booleano* Si es True, los puntos de las splines generadas se espacian uniformemente de principio a fin.
 
@@ -126,22 +126,22 @@ Las splines generadas que coinciden con el principio o el final de las splines r
 *- Heredar de splines principales:* Se utiliza el thickness de las splines principales en las posiciones inicial y final de las splines puente\
 *: invalidar:* Se usa el valor arbitrario especificado en el parámetro <b>Thickness</b>
 
-<b>Thickness</b> *Flotante* El valor de thickness absoluto aplicado a las splines del puente.
+<b>Thickness</b> *Float* Valor de thickness absoluto aplicado a las splines de puente.
 
-<b>Aleatorio de Thickness</b> *Flotante* Un multiplicador aleatorio para el thickness de las splines de puente, donde el thickness inicial al que se aplica este multiplicador se especifica mediante el parámetro <b>modo de Thickness</b>.
+<b>Aleatorio de Thickness</b> *Float* Un multiplicador aleatorio para el thickness de las splines de bridge, donde el thickness inicial al que se aplica este multiplicador se especifica mediante el parámetro <b>modo de Thickness</b>.
 
 +++
 
 +++Altura
-<b>Modo de Height</b> *Entero* Método para adquirir el valor de height para las splines de puente.\
+<b>Modo de Height</b> *Integer* Método para adquirir el valor de height para las splines de puente.\
 *- Heredar de splines principales:* Se utiliza el height de las splines principales en las posiciones inicial y final de las splines puente\
 *: invalidar:* Se usa el valor arbitrario especificado en el parámetro <b>Height</b>
 
-<b>Desplazamiento de Height</b> *Flotante* Cantidad de desplazamiento aplicada al height heredado de las splines principales antes de que ese height se aplique a las splines del puente.
+<b>Desplazamiento de Height</b> *Float* Cantidad de desplazamiento aplicada al height heredado de las splines principales antes de que ese height se aplique a las splines del puente.
 
-<b>Height</b> *Flotante* El valor de height absoluto aplicado a las splines del puente.
+<b>Height</b> *Float* Valor de height absoluto aplicado a las splines de puente.
 
-<b>Aleatorio de Height</b> *Flotante* Cantidad aleatoria de ajuste en el height de las splines de puente, donde ese ajuste depende del parámetro <b>modo de Height</b> seleccionado:\
+<b>Aleatorio de Height</b> *Float* Cantidad aleatoria de ajuste en el height de las splines de bridge, donde ese ajuste depende del parámetro <b>modo de Height</b> seleccionado:\
 *: heredar de splines primarias:* El valor es un multiplicador para el height heredado.\
 *- Reemplazar:* El valor es un desplazamiento agregado al height.
 

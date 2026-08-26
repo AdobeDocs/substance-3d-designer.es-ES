@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Solucione problemas al crear o cargar proyectos en Substance 3D Designer y encuentre soluciones.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: No se puede crear un proyecto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Exigir el mejor rendimiento
 
 Busque cualquier software que administre el *plan de energía* del sistema (p. ej., la caja de la armería ASUS), especialmente cuando el sistema sea un portátil.
 
-Algunas aplicaciones de administración de energía pueden limitar el acceso de otras aplicaciones a la GPU del sistema o afectar al rendimiento de la GPU, lo que puede producir bloqueos. Si ya existe una aplicación de administración de energía y está activa, cambie al plan que ofrezca el mejor rendimiento.
+Algunas aplicaciones de administración de energía pueden limitar el acceso de otras aplicaciones a la GPU del sistema o afectar al rendimiento de la GPU, lo que puede producir bloqueos. Si ya existe una aplicación de administración de energía y está activa, cambie al plan que ofrezca el mejor rendimiento.
 
 Forzar uso de GPU discreta
 

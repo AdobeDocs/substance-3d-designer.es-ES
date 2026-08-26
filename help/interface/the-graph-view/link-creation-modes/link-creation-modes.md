@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre los modos de creación de vínculos en la vista gráfica de Substance 3D Designer para conectar nodos de forma eficaz.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modos de creación de vínculos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -70,12 +70,12 @@ En los modos <b>Material</b> y <b>Material compacto</b>, las conexiones entre en
 
 ## Los modos
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Estándar | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Compacto | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Material compacto |
+|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Estándar | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Compacto | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Material compacto |
 | --- | --- | --- | --- |
 | <b>Entradas</b> | Todas las entradas son visibles | Todas las entradas son visibles | Solo 1 entrada por grupo |
 | <b>Salidas</b> | Todas las salidas son visibles | Todas las salidas son visibles | Solo 1 salida por grupo |
 | <b>Vínculos</b> | Todos los vínculos son visibles | Todos los vínculos son visibles | Solo 1 enlace por grupo (verde) |
-| <b>Conexiones</b> | Se conectan vínculos uno por uno | Puede conectar vínculos como un grupo de materiales de varios vínculos basado en usos coincidentes.   Cuando un uso está presente en un extremo, la conexión es estándar. | Los vínculos se conectan como un grupo de materiales de un solo vínculo. |
+| <b>Conexiones</b> | Se conectan vínculos uno por uno | Puede conectar vínculos como un grupo de materiales de varios vínculos basado en usos coincidentes.   Cuando un uso está presente en un extremo, la conexión es estándar. | Los vínculos se conectan como un grupo de materiales de un solo vínculo. |
 
 ## Asignación de grupos
 

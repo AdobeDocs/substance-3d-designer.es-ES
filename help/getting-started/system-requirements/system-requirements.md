@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Revise los requisitos del sistema de Substance 3D Designer para asegurarse de que su equipo cumple las especificaciones necesarias.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Requisitos del sistema
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ec787363bab8318804a71d6cf7c5484fc67a987e
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%
@@ -70,7 +70,7 @@ A continuación se muestra una lista de GPU compatibles con la aplicación:
 >
 > **TDR (solo Windows)**
 > 
-> Para obtener la mejor estabilidad general al realizar cálculos pesados en la GPU, por ejemplo, procesar gráficos complejos, procesar en la vista 3D, exportar una escena de la vista 3D, etc., se recomienda encarecidamente asegurarse de que los valores de <b>Detección y recuperación de tiempo de espera (TDR)</b> coincidan con las recomendaciones de [esta página](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación.
+> Para obtener la mejor estabilidad general al realizar cálculos pesados en la GPU, por ejemplo, procesar gráficos complejos, procesar en la vista 3D, exportar una escena de la vista 3D, etc., se recomienda encarecidamente asegurarse de que los valores de <b>Detección y recuperación de tiempo de espera (TDR)</b> coincidan con las recomendaciones de [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación.
 
 ## Configuraciones no compatibles
 
@@ -100,7 +100,7 @@ A continuación se muestra una lista de GPU compatibles con la aplicación:
 
 A continuación se muestra una lista de las versiones mínimas del controlador de la GPU necesarias para que la aplicación se ejecute sin problemas. Esta lista está sujeta a cambios a medida que se lancen nuevas versiones.
 
-Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsoletos](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
+Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsoletos](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | SO | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ Para habilitar el Trazado de rayos de GPU a través de Optix o DXR, deben instal
 
 <b>DXR</b> requiere la siguiente configuración mínima:
 
-* <b>Windows 10</b> versión 1809, consulte [esta página](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
+* <b>Windows 10</b> versión 1809, consulte [esta página](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
 * <b>GPU con arquitectura Pascal</b> (NVIDIA GeForce 10XX)
 
 >[!TIP]
@@ -126,7 +126,7 @@ Para habilitar el Trazado de rayos de GPU a través de Optix o DXR, deben instal
 
 ## Uso de tabletas
 
-Los usuarios de tabletas en <b>Windows</b> deben aplicar la configuración descrita en la página siguiente para obtener la experiencia más confiable: [Configurando bolígrafos y tablets](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
+Los usuarios de tabletas en <b>Windows</b> deben aplicar la configuración descrita en la página siguiente para obtener la experiencia más confiable: [Configurando bolígrafos y tablets](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
 
 ## Idiomas
 

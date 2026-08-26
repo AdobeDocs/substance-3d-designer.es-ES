@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: Aprenda a administrar el contenido y los filtros personalizados en la biblioteca de Substance 3D Designer para el acceso organizado a los recursos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Administración de contenido y filtros personalizados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Puede *agregar o quitar* condiciones mediante los botones &#39;**+**&#39; y &#39
 
 >[!NOTE]
 >
-> Un filtro sin ninguna condición configurada hará que se muestre *todo el contenido de **Biblioteca**&#x200B;de*.
+> Un filtro sin ninguna condición configurada hará que se muestre *todo el contenido de **Biblioteca**de*.
 
 ## Prácticas recomendadas
 
@@ -104,6 +104,6 @@ Puede *agregar o quitar* condiciones mediante los botones &#39;**+**&#39; y &#39
 ### Administración de contenido de ámbito variable
 
 * Puede agregar recursos a *categorías existentes* si esto tiene más sentido. No será tan fácil administrar y mantener los filtros, y puedes usar un estilo de icono especial para *diferenciarlos*.
-* Puedes definir tus carpetas y filtros en un *archivo global* (de nivel de estudio) de [configuración del proyecto](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) y, a continuación, agregarles contenido simplemente añadiendo rutas controladas de *archivos de proyecto*[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md) consecutivos
+* Puedes definir tus carpetas y filtros en un *archivo global* (de nivel de estudio) de [configuración del proyecto](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) y, a continuación, agregarles contenido simplemente añadiendo rutas controladas de *archivos de proyecto*](../../../interface/preferences-window/project-settings/project-settings.md) [consecutivos
 * Puede definir carpetas y filtros específicos para *cada proyecto* para mantenerlos separados
 * Puede mezclar, hacer coincidir y utilizar métodos de los tres anteriores: utilizar filtros existentes, definir nuevos filtros globales y crear filtros únicos por proyecto

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
 description: Utilice el nodo HSL para ajustar el tono, la saturación y la luminosidad de las texturas para la manipulación y corrección del color.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 9%
@@ -78,8 +78,8 @@ Si buscas otras formas de editar los tonos de una imagen, mira [Curva](../../../
 
 |  |  |
 | --- | --- |
-| <b>Tono</b> *Flotador* | Determina el color de la imagen de entrada.   Los valores por debajo de 0,5 desplazan el tono negativamente, mientras que los valores por encima de 0,5 lo desplazan positivamente. |
-| <b>Saturación</b> *Flotador* | Determina la saturación del color de la imagen de entrada.   Los valores por debajo de 0,5 disminuyen la saturación, mientras que los valores por encima de 0,5 la aumentan. |
+| <b>Tono</b> *Flotador* | Determina el color de la imagen de entrada.   Los valores por debajo de 0,5 desplazan el tono negativamente, mientras que los valores por encima de 0,5 lo desplazan positivamente. |
+| <b>Saturación</b> *Flotador* | Determina la saturación del color de la imagen de entrada.   Los valores por debajo de 0,5 disminuyen la saturación, mientras que los valores por encima de 0,5 la aumentan. |
 | <b>Luminosidad</b> *Flotador* | Determina la luminosidad de la imagen de entrada Los valores por debajo de 0,5 reducen la luminosidad, mientras que los valores por encima de 0,5 la aumentan. |
 
 ## Conectores de entrada

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la barra de herramientas principal de Substance 3D Designer para acceder a herramientas y comandos comunes para el flujo de trabajo.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Barra de herramientas principal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Nuevo:</b> abre un submenú para crear un gráfico o paquete:
 
-* <b>Nuevo gráfico de Substance...:</b>(Ctrl+N) Le presenta la ventana [Nuevo gráfico de Substance](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) que le permite configurar un nuevo [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md);
+* <b>Nuevo gráfico de Substance...:</b>(Ctrl+N) Le presenta la ventana [Nuevo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) que le permite configurar un nuevo gráfico de [Substance](../../compositing-graphs/substance-compositing-graphs.md);
 * <b>Nuevo gráfico de funciones de Substance:</b> Crea un nuevo paquete con un [gráfico de funciones de Substance](../../function-graphs/function-graphs.md);
 * <b>Vacío:</b> Crea un paquete vacío.
 
@@ -110,11 +110,11 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Desmaximizar ventana:</b> Cuando cualquier panel está *maximizado*, esta opción lo desmaximiza y restaura el diseño tal y como estaba *antes* de que se maximizara la ventana
 
-<b>Explorador:</b> Mostrar u ocultar las [ventanas del explorador.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>Explorador:</b> Muestra u oculta el [Explorador](../the-explorer-window/the-explorer-window.md).
 
 <b>Gráfico:</b> Muestra u oculta la [ventana gráfica](../../interface/the-graph-view/the-graph-view.md).
 
-<b>Parámetros:</b> Muestra u oculta la [ventana Propiedades](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+<b>Parámetros:</b> Muestra u oculta las [propiedades](../properties/properties.md).
 
 <b>Consola:</b> Mostrar u ocultar la ventana de consola.
 
@@ -122,7 +122,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Administrador de dependencias:</b> Muestra u oculta el [Administrador de dependencias](../../interface/dependency-manager/dependency-manager.md).
 
-<b>Vistas 2D:</b> Mostrar u ocultar las [vistas 2D.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>Vistas 2D:</b> Muestra u oculta la [vista 2D](../2d-view/2d-view.md).
 
 <b>Biblioteca:</b> Muestra u oculta la [ventana de biblioteca.](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Proporcionar comentarios...:</b> Abre el explorador web en la página principal de la [Comunidad de asistencia técnica](https://www.adobe.com/go/Substance-3D-feedback-Designer_es) de Adobe.
 
-<b>Recursos de Substance 3D:</b> Busque [contenido 3D premium](https://helpx.adobe.com/es/substance-3d/unlisted/assets.html) para suscriptores (anteriormente Substance Source).
+<b>Recursos de Substance 3D:</b> Busque [contenido 3D premium](https://substance3d.adobe.com/assets) para suscriptores (anteriormente Substance Source).
 
-<b>Recursos de la comunidad de Substance 3D:</b> Le permite examinar [recursos de la comunidad gratuitos](https://helpx.adobe.com/es/substance-3d/unlisted/community-assets.html) (anteriormente, Substance share).
+<b>Recursos de la comunidad de Substance 3D:</b> Le permite examinar [recursos de la comunidad gratuitos](https://substance3d.adobe.com/community-assets/) (anteriormente, Substance share).
 
 <b>Administrar mi cuenta\*:</b> Abre la página web de la cuenta de Adobe.
 
@@ -165,7 +165,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Novedades...:</b> Muestra una pantalla que resalta las características agregadas a la última versión de Designer
 
-<b>Pantalla de bienvenida...\*:</b> Muestra una pantalla que guía a los nuevos usuarios por el propósito de Designer y su lugar en el [ecosistema de Substance 3D](https://helpx.adobe.com/es/substance-3d.html)
+<b>Pantalla de bienvenida...\*:</b> Muestra una pantalla que guía a los nuevos usuarios por el propósito de Designer y su lugar en el [ecosistema de Substance 3D](https://helpx.adobe.com/substance-3d.html)
 
 <b>Partners:</b> Te permite acceder a las renuncias de responsabilidad y los avisos de integraciones de terceros de nuestros socios de Designer.
 

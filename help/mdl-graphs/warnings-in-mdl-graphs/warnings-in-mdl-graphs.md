@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Advertencias en gráficos MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página muestra mensajes de advertencias y errores que pueden activarse mediante gráficos MDL en [Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html), y ofrece pasos comunes de solución de problemas para cada uno.
 
-Las advertencias se muestran en la información sobre herramientas del icono de advertencia para el recurso de gráfico en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), así como en la esquina inferior izquierda de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) si el gráfico está cargado.
+Las advertencias se muestran en la información sobre herramientas del icono de advertencia para el recurso de gráfico en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md), así como en la esquina inferior izquierda de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) si el gráfico está cargado.
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Ajuste el valor por defecto o el rango flexible para que el primero se incluya e
 >
 > Esta advertencia no se puede desencadenar a través de la interfaz de usuario, ya que *ajusta automáticamente* el intervalo flexible para incluir el valor predeterminado. Solo modificar los datos del archivo Substance 3D (SBS) *directamente* puede provocar esta advertencia.
 
-El intervalo flexible de ![&#x200B; no contiene la solución de valor &#39;](../../assets/warnings-model-ranges.gif "&#39; El intervalo flexible no contiene la solución de valor &#39;")
+El intervalo flexible de ![ no contiene la solución de valor &#39;](../../assets/warnings-model-ranges.gif "&#39; El intervalo flexible no contiene la solución de valor &#39;")
 
 ### ![(error)](../../assets/error.svg) El intervalo de software está fuera del intervalo de hardware
 

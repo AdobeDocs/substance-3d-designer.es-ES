@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: Utilice el nodo Normal doblada (Bent Normal) para generar mapas normales doblados que tengan en cuenta la oclusión ambiente y la luz indirecta.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normal doblada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 2%
@@ -44,10 +44,10 @@ Este nodo no debe utilizarse en combinación con el motor de CPU (SSE) debido al
 
 ## Parámetros
 
-<b>Usar Tamaño físico</b> *Boolean*\
+<b>Usar Tamaño físico</b> *Booleano*\
 Active esta opción para usar la configuración de Tamaño físico para determinar la escala de height.
 
-<b>Tamaño físico</b> *Float3* (Disponible cuando <b>Usar Tamaño físico</b> está establecido en *Verdadero*)\
+<b>Tamaño físico</b> *Float3* (disponible cuando <b>Usar Tamaño físico</b> está establecido en *Verdadero*)\
 Ajusta la escala de height en función del tamaño físico real de la superficie.
 
 <b>Ejemplos</b> *Entero*\
@@ -60,10 +60,10 @@ Multiplicador de la intensidad de la entrada del mapa de height.
 <b>Distribución</b> *Entero*\
 Establece el método de distribución. Afecta a la difuminación hacia áreas sombreadas.
 
-<b>Distancia máxima</b> *Flotante*\
+<b>Distancia máxima</b> *Flotador*\
 Define la distancia máxima que los rayos pueden recorrer para ser ocluidos.
 
-<b>Ángulo de pliego</b> *Flotante*\
+<b>Ángulo de pliego</b> *Flotador*\
 Define el ángulo de propagación de los rayos a los que se disparará. Un valor de 1 es un hemisferio completo.
 
 <b>Formato normal</b> *Entero*\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la gestión de color en Substance 3D Designer, incluidos los espacios de color, los perfiles y los flujos de trabajo de tintas planas.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Gestión de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1678'
 ht-degree: 1%
 
 ---
@@ -104,13 +104,13 @@ Puede agregar *sus propios* perfiles ICC colocando estos archivos en la ubicaci�
 
 |  |  |
 | --- | --- |
-| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [2D view](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado:*** Perfil ICC para la pantalla principal, recuperado del sistema operativo &#x200B;**&#x200B;** |
+| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [2D view](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado:*** Perfil ICC para la pantalla principal, recuperado del sistema operativo **** |
 
 ### Visualización de gráficos
 
 |  |  |
 | --- | --- |
-| <b>Administrar color de miniaturas</b> | Cuando *se marque*, Designer transformará las *miniaturas de nodo* en el *espacio de color de trabajo* actual. *Valor predeterminado:*** Desmarcado &#x200B;**&#x200B;** |
+| <b>Administrar color de miniaturas</b> | Cuando *se marque*, Designer transformará las *miniaturas de nodo* en el *espacio de color de trabajo* actual. *Valor predeterminado:*** Desmarcado **** |
 
 ## Modo heredado
 
@@ -161,7 +161,7 @@ Designer *convertirá* imágenes en los espacios de color especificados antes de
 
 ![Cuadro de diálogo Exportar salidas](../assets/2019-3-0-clr-mgt-export-outputs.png "Cuadro de diálogo Exportar salidas"){width="512px"}
 
-También puedes asignar un espacio de color (OCIO) o adjuntar un perfil ICC (Adobe ACE) a las imágenes *guardadas* desde la [vista 2D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+También puedes asignar un espacio de color (OCIO) o adjuntar un perfil ICC (Adobe ACE) a las imágenes *guardadas* desde la [vista 2D](../interface/2d-view/2d-view.md).
 
 ![Opciones de exportación de vista 2D](../assets/2019-3-0-clr-mgt-save-image.png "Opciones de exportación de vista 2D")
 
@@ -209,7 +209,7 @@ La [biblioteca](../interface/the-library/the-library.md) incluye los siguientes 
 </tr>
 </table>
 
-Son útiles cuando se trabaja con gráficos creados *sin* gestión de color o materiales de la biblioteca [Substance 3D Assets](https://helpx.adobe.com/es/substance-3d/unlisted/assets.html).
+Son útiles cuando se trabaja con gráficos creados *sin* gestión de color o materiales de la biblioteca [Substance 3D Assets](https://substance3d.adobe.com/assets).
 
 ![Nodos de conversión de color en la biblioteca](../assets/2019-3-0-clr-mgt-nodes.png "Nodos de conversión de color en la biblioteca"){width="512px"}
 

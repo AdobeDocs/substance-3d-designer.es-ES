@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de bits para importar y utilizar imágenes de mapa de bits como texturas en Substance de composición.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Mapa de bits
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Carga un [recurso de mapa de bits](../../../../resources/bitmap-resource/bitmap-
 
 Este nodo se utiliza para importar un [mapa de bits](../../../../glossary/glossary.md) en el gráfico o para crear un nuevo mapa de bits para su uso con las [herramientas de pintura de mapas de bits](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Hay varias formas de crear este nodo, y todas ellas requieren que entienda [&#x200B; la diferencia entre vincular e importar recursos.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Hay varias formas de crear este nodo, y todas ellas requieren que entiendas[ la diferencia entre vincular e importar recursos.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Puede crear el nodo desde cero o soltando un [mapa de bits](../../../../glossary
 |  |  |
 | --- | --- |
 | <b>Modo de color</b> *Booleano* | Determina el tipo de salida del nodo, para que se devuelva en color o en escala de grises. |
-| <b>Ruta de acceso de recurso PKG</b> *Cadena* | Ruta de acceso al [recurso Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) al que hace referencia el nodo.   Se recomienda no escribir manualmente, pero copiar un recurso del explorador y pegarlo en el campo de texto del parámetro, o arrastrar y soltar un recurso de mapa de bits directamente desde el [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) al nodo Mapa de bits del gráfico. |
+| <b>Ruta de acceso de recurso PKG</b> *Cadena* | Ruta de acceso al [recurso Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) al que hace referencia el nodo.   Se recomienda no escribir manualmente, pero copiar un recurso del explorador y pegarlo en el campo de texto del parámetro, o arrastrar y soltar un recurso de mapa de bits directamente desde el [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) al nodo Mapa de bits del gráfico. |
 | <b>Método Resize</b> *Entero* | Método de remuestreo que se utiliza para aumentar o reducir la escala de un mapa de bits:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Ampliación suave:</i> Aplica [filtrado bilineal](../../../../glossary/glossary.md) para interpolar sobre los píxeles de origen de la imagen ampliada.</li> <li data-preserve-html="true"><i>Ampliación más cercana:</i> Estire la imagen y use el color del píxel de origen más cercano tal cual.</li> </ul> |
 
 ## Herramientas de pintura de mapa de bits

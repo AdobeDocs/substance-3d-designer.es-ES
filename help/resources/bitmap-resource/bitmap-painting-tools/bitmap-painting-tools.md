@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Utilice las herramientas de pintura de mapas de bits de Substance 3D Designer para pintar directamente en los recursos de mapas de bits para la edición de texturas.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Herramientas de pintura de mapa de bits
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Las herramientas de pintura se habilitarán automáticamente en el panel [Vista 
 
 *Se pueden crear nuevos mapas de bits de* de las siguientes maneras:
 
-* En el panel [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haz clic en RMB en un *paquete SBS* o en una *carpeta* dentro de un paquete para abrir su menú contextual, luego abre el submenú <b>New</b> y selecciona la opción <b>Bitmap</b>
+* En el panel [Explorer](../../../interface/the-explorer-window/the-explorer-window.md), haz clic en RMB en un *paquete SBS* o en una *carpeta* dentro de un paquete para abrir su menú contextual, luego abre el submenú <b>New</b> y selecciona la opción <b>Bitmap</b>
 * En un [gráfico](../../../interface/the-graph-view/the-graph-view.md), cree un [nodo de mapa de bits](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) y seleccione el nuevo recurso <b>De...Opción </b> en el menú contextual
 
 Se abrirá la ventana <b>Nuevo mapa de bits</b>, que te permitirá establecer el *nombre*, *resolución* y *color de fondo* del nuevo recurso de mapa de bits.
@@ -128,7 +128,7 @@ Para crear un ajuste preestablecido, establece las propiedades siguientes como g
 
 Los ajustes preestablecidos se organizan y se guardan en *bibliotecas*, que se pueden administrar en el menú ![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>Biblioteca de pinceles</b>:
 
-<b>Exportar biblioteca:</b> *guarde* los ajustes preestablecidos actuales y toda su configuración en un archivo de biblioteca
+<b>Exportar biblioteca:</b> *guardar* los ajustes preestablecidos actuales y toda su configuración en un archivo de biblioteca
 
 <b>Importar biblioteca:</b> *cargar* ajustes preestablecidos de un archivo de biblioteca existente y *agregarlos* a la lista actual: los ajustes preestablecidos con *mismo nombre se reemplazan* por los del archivo de biblioteca
 

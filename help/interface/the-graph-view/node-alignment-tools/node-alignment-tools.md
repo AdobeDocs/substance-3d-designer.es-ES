@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: Utilice las herramientas de alineación de nodos para organizar y alinear los nodos en la vista de gráficos para obtener gráficos más limpios y legibles.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Herramientas de alineación de nodos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![Barra de herramientas de alineación de nodos](../../../assets/node-alignment-toolbar.png "Barra de herramientas de alineación de nodos"){zoomable="yes"}
 
-Las herramientas de alineación de nodos le permiten organizar los nodos en gráficos para mejorar su legibilidad y experiencia de creación. Ofrecen acciones para alinear nodos, distribuirlos uniformemente y ajustarlos a la cuadrícula.
+Las herramientas de alineación de nodos le permiten organizar los nodos en gráficos para mejorar su legibilidad y experiencia de creación. Ofrecen acciones para alinear nodos, distribuirlos uniformemente y ajustarlos a la cuadrícula.
 
 Actúan en los <b>nodos seleccionados actualmente solo</b>.
 
@@ -108,7 +108,7 @@ Los nodos podrán alinearse horizontal y verticalmente, con tres modos para cada
 
 ### Apilar
 
-La opción <b>Apilar </b>opción ![](../../../assets/node-alignment-stack.png) le permite <b>evitar cualquier superposición</b> al usar alineaciones. Esta opción está activada de forma predeterminada.
+La opción <b>Apilar </b>opción ![](../../../assets/node-alignment-stack.png) le permite <b>evitar cualquier superposición</b> al usar alineaciones. Esta opción está activada de forma predeterminada.
 
 Cuando se activa, los nodos se moverán lo más lejos posible a la posición de referencia hasta que colisionen con otro nodo de la selección. Esto los apila de manera efectiva en el eje seleccionado con un margen de una celda de cuadrícula media entre cada nodo.
 

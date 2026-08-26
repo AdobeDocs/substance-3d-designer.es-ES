@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: Utilice el nodo SVG para importar y procesar gráficos vectoriales de SVG como texturas para crear elementos gráficos escalables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -99,8 +99,8 @@ Puede crear el nodo desde cero o soltar un archivo de SVG en la vista de gráfic
 |  |  |
 | --- | --- |
 | <b>Modo de color</b> *Booleano* | Determina el tipo de salida del nodo, para que se devuelva en color o en escala de grises. |
-| <b>Color de fondo</b> *Color/Escala de grises* | Define el color de fondo de la imagen de salida para que se utilice en áreas no cubiertas por una forma vectorial.   La entrada &#39;[Background](#inputs)&#39; invalida *cuando esa entrada está conectada.* |
-| <b>Ruta de acceso de recurso PKG</b> *Cadena* | Ruta de acceso al [recurso SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) al que hace referencia el nodo.   Se recomienda no escribir manualmente, pero copiar un recurso del explorador y pegarlo en el campo de texto del parámetro, o arrastrar y soltar un recurso de mapa de bits directamente desde el [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) al nodo SVG en el gráfico. |
+| <b>Color de fondo</b> *Color/Escala de grises* | Define el color de fondo de la imagen de salida para que se utilice en áreas no cubiertas por una forma vectorial.   La entrada &#39;[Background](#inputs)&#39; invalida *cuando esa entrada está conectada.* |
+| <b>Ruta de acceso de recurso PKG</b> *Cadena* | Ruta de acceso al [recurso SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) al que hace referencia el nodo.   Se recomienda no escribir manualmente, pero copiar un recurso del explorador y pegarlo en el campo de texto del parámetro, o arrastrar y soltar un recurso de mapa de bits directamente desde el [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) al nodo SVG en el gráfico. |
 
 ## Herramientas de edición de vectores
 
@@ -110,7 +110,7 @@ Las formas vectoriales se pueden editar en Designer. Obtenga más información s
 
 |  |  |
 | --- | --- |
-| <b>Fondo</b> *Escala de grises/Color* PRINCIPAL | Define el color de fondo de la imagen de salida para que se utilice en áreas no cubiertas por una forma vectorial.   *Reemplaza el parámetro &#39;[Color de fondo](#parameters)&#39; al conectarse.* |
+| <b>Fondo</b> *Escala de grises/Color* PRINCIPAL | Define el color de fondo de la imagen de salida para que se utilice en áreas no cubiertas por una forma vectorial.   *Reemplaza el parámetro &#39;[Color de fondo](#parameters)&#39; al conectarse.* |
 
 ## Conectores de salida
 

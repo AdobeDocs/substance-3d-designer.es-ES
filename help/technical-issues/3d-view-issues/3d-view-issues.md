@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Solución de problemas de visualización 3D en Substance 3D Designer, incluidos problemas de procesamiento, visualización y rendimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas de visualización en 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Versión 15.1 y superior
 
 Los nuevos procesadores 3D se actualizaron en la versión 15.1 y requieren controladores de GPU recientes. Actualice los controladores de la GPU del sistema a la versión más reciente.
 
-Puede encontrar controladores aquí:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Puede encontrar controladores aquí:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Versión 15.0 y posteriores
 
@@ -154,7 +154,7 @@ Después de trabajar en los datos enviados al **Height** [salida](../../composit
 
 **![(marca)](../../assets/check.svg) Pasos recomendados**
 
-Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal.
+Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal[.
 
 Al usar la técnica **Desplazamiento de teselación** (ver &quot;El objeto 3D es plano&quot; más arriba), los objetos pueden *deformarse* para seguir los datos del height, pero su superficie *no reaccionará a la luz de forma diferente* hasta que sus *normales* también se modifiquen para tener en cuenta los datos del height.
 
@@ -243,7 +243,7 @@ Designer se bloquea al iniciar la vista 3D, al crear un proyecto, cargar un proy
 
 Primero, asegúrate de que tu sistema cumple con los [requisitos del sistema](../../getting-started/system-requirements/system-requirements.md) de Designer.
 
-A continuación, actualice los controladores gráficos. Puede encontrar los controladores más recientes para la GPU siguiendo estos vínculos: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+A continuación, actualice los controladores gráficos. Puede encontrar los controladores más recientes para la GPU siguiendo estos vínculos:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Si tu sistema incluye tanto una GPU integrada (iGPU) como una GPU discreta (dGPU), asegúrate de *actualizar los controladores de*.
 

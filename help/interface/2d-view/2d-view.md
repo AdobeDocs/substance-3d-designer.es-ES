@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Utilice la vista 2D de Substance 3D Designer para previsualizar e inspeccionar las salidas de textura de los gráficos de materiales.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vista 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2354'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Las imágenes también se pueden *arrastrar y soltar* directamente en la ventana
 En la vista de gráfico, puede enviar una imagen a la vista 2D mediante la opción de menú contextual <b>Ver salida en vista 2D</b>, a la que se accede haciendo clic en *RMB*...
 
 * ...en un *nodo* para mostrar *el resultado de ese nodo*. Si el nodo tiene más de una salida, seleccione la salida deseada en el submenú
-* ...en *espacio vacío* en la vista de gráfico para mostrar *la salida de ese gráfico*. Si el gráfico tiene más de una salida, seleccione la salida deseada en el submenú
+* ...en *espacio vacío* en la vista de gráfico para mostrar *la salida de ese gráfico*. Si el gráfico tiene más de una salida, seleccione la salida deseada en el submenú
 
 Al cargar un gráfico, su *primera salida* se muestra automáticamente en la vista 2D de forma predeterminada. Puede deshabilitar este comportamiento en [Preferencias](../../interface/preferences-window/preferences-window.md). Vaya a <b>Editar > Preferencias > Gráfico > Gráfico de composición de Substance</b> y *desmarque* la opción <b>Ver salida en vista 2D al abrir un gráfico</b>.
 
@@ -81,7 +81,7 @@ La ventana gráfica es el *área de visualización* de la <b>vista en 2D</b> y t
 
 Uso de una almohadilla táctil (solo macOS)
 
-* Panorámica <b>: </b>Deslizar con dos dedos
+* Panorámica <b>: </b>Barrido con dos dedos
 * <b>Zoom:</b> Pellizcar con dos dedos / Deslizar con dos dedos mientras se mantiene presionada la tecla Cmd
 
 >[!IMPORTANT]
@@ -124,7 +124,7 @@ Puedes *superponer una imagen diferente* encima de la que se muestra actualmente
 
 Una vez seleccionado el archivo, aparece una nueva barra de herramientas con los siguientes controles para la imagen superpuesta:
 
-<b>![](../../assets/2d-view-icon-background-close.png) Cerrar:</b> *cerrar* la barra de herramientas de controles de superposición y *deshabilitar* la superposición de imagen de fondo.
+<b>![](../../assets/2d-view-icon-background-close.png) Cerrar:</b> *cierra* la barra de herramientas de controles de superposición y *deshabilita* la superposición de imagen de fondo.
 
 <b>![](../../assets/2d-view-icon-background-loadpng.png) Cargar imagen:</b> selecciona *otro archivo de imagen* para usarlo como superposición.
 
@@ -181,9 +181,9 @@ Esta característica *no* está disponible para otros nodos, incluidos los nodos
 
 Si la opción <b>Mostrar UV en vista 2D</b> está habilitada en el menú <b>Escena</b> del conjunto acoplado de [vista 3D](../../interface/3d-view/3d-view.md), la función de superposición UV está disponible en la vista 2D.
 
-Puede habilitarlo mediante el botón <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
+Puede habilitarlo mediante el botón <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
 
-Esto muestra las UV de la malla [&#x200B; seleccionada actualmente en la vista 3D](../../interface/3d-view/3d-view.md) como una malla metálica de color.
+Esto muestra las UV de la malla [ seleccionada actualmente en la vista 3D](../../interface/3d-view/3d-view.md) como una malla metálica de color.
 
 Si la información de color de material está disponible en el archivo de malla, el color de material se utiliza como color de la superposición UV.
 
@@ -343,7 +343,7 @@ Las <b>herramientas de pintura de mapas de bits</b> están disponibles para [rec
 
 >[!TIP]
 >
-> Puede obtener más información en la página [Editor de pintura de mapa de bits](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) de la documentación.
+> Puede obtener más información en la página [Herramientas de pintura de mapas de bits](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) de la documentación.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ El <b>Editor de gráficos vectoriales</b> está disponible para *recursos de [SV
 
 >[!TIP]
 >
-> Puede obtener más información en la página [Editor de gráficos vectoriales (obsoleto)](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) de la documentación.
+> Puede obtener más información en la página [Herramientas de edición de vectores](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (obsoletas) de la documentación.
 
 ![Administración de color de vista 2D](../../assets/2d-view-color-management-ocio.png "Administración de color de vista 2D"){width="360px"}
 

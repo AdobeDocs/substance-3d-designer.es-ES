@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ''
 description: Utilice el nodo Normal para procesar y manipular texturas de mapa normales para controlar los detalles y la iluminación de la superficie.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -78,9 +78,9 @@ Es un nodo muy útil que se utiliza a menudo para convertir entradas de mapas de
 
 |  |  |
 | --- | --- |
-| <b>Intensidad</b> *Flotador* | Modifica la intensidad del mapa de height.   Establece la intensidad con la que se interpreta el mapa de height de entrada para convertirlo en normal. Según los mapas de entrada, los valores superiores a 100 tienen poco más efecto. |
-| <b>Formato normal</b> *Booleano* | Invierte las coordenadas Y del mapa de height (OpenGL).   Define cómo se codifica el canal verde (Y). Básicamente un interruptor &quot;Flip Green/Y&quot;. |
-| <b>Contenido del canal del Alpha</b> *Booleano* | Rellene el canal alfa del mapa normal con la textura de entrada.   Rellenar Alpha Con Entrada/Forzar Alpha A 1:  Esto permite que el canal del Alpha se establezca en sólido, en lugar de utilizar la entrada como un Alpha adicional. |
+| <b>Intensidad</b> *Flotador* | Modifica la intensidad del mapa de height.   Establece la intensidad con la que se interpreta el mapa de height de entrada para convertirlo en normal. Según los mapas de entrada, los valores superiores a 100 tienen poco más efecto. |
+| <b>Formato normal</b> *Booleano* | Invierte las coordenadas Y del mapa de height (OpenGL).   Define cómo se codifica el canal verde (Y). Básicamente un interruptor &quot;Flip Green/Y&quot;. |
+| <b>Contenido del canal del Alpha</b> *Booleano* | Rellene el canal alfa del mapa normal con la textura de entrada.   Rellenar Alpha Con Entrada/Forzar Alpha A 1:  Esto permite que el canal del Alpha se establezca en sólido, en lugar de utilizar la entrada como un Alpha adicional. |
 
 ## Conectores de entrada
 

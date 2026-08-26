@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Utilice la pantalla Inicio de Substance 3D Designer para acceder a proyectos, plantillas y recursos de aprendizaje recientes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pantalla de inicio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Pantalla de inicio](../../assets/home-screen-home.jpg "Pantalla de inicio")
 
-La <b>pantalla Inicio<b> </b></b> le da la bienvenida al iniciar Substance 3D Designer. Le ayuda a comenzar con sus proyectos y acceder a vínculos útiles.
+La <b>pantalla Inicio<b> </b></b> le da la bienvenida al iniciar Substance 3D Designer. Le ayuda a comenzar con sus proyectos y acceder a vínculos útiles.
 
 <table>
 <tr style="border: 0;">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fusión para fusionar dos texturas mediante distintos modos de fusión para crear efectos compuestos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusión
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -37,7 +37,7 @@ Es el nodo más útil de todos los nodos atómicos, casi cualquier gráfico que 
 </tr>
 </table>
 
-Su funcionalidad es similar a tener dos capas una encima de la otra en [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mezclan por el modo de fusión establecido en la capa superior.
+Su funcionalidad es similar a tener dos capas una encima de la otra en [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mezclan por el modo de fusión establecido en la capa superior.
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ Su funcionalidad es similar a tener dos capas una encima de la otra en [Substanc
 |  |  |
 | --- | --- |
 | <b>Opacidad</b> *Flotador* | Opacidad de la capa frontal que se fusiona con el fondo. Funciona independientemente de la entrada Opacidad y actúa como un multiplicador adicional a la misma. |
-| <b>Modo de fusión</b> *Entero* [Estático](../../../../glossary/glossary.md) | Define la operación de fusión que se va a utilizar.   Consulte la [página dedicada sobre los modos de fusión](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Modo de fusión</b> *Entero* [Estático](../../../../glossary/glossary.md) | Define la operación de fusión que se va a utilizar.   Consulte la [página dedicada sobre los modos de fusión](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
 | <b>Fusión de Alpha</b> *Entero* [Estático](../../../../glossary/glossary.md) | Determina el comportamiento de fusión cuando las entradas de color tienen canales de Alpha:<ul data-preserve-html="true"> <li data-preserve-html="true">Utilizar alfa de origen</li> <li data-preserve-html="true">Ignorar alfa</li> <li data-preserve-html="true">Fusión de alfa recto</li> <li data-preserve-html="true">Mezcla alfa premultiplicada</li> </ul> |
 | <b>Área de recorte</b> *Float4* [Static](../../../../glossary/glossary.md) | Permite definir una región de recorte personalizada que se comporte como una máscara de opacidad adicional. Cualquier área recortada muestra solo el fondo. |
 

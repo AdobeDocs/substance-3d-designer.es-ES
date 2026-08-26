@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: Utilice el nodo Ecualización de histograma para redistribuir las intensidades de píxeles para mejorar el contraste y el brillo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ecualización del histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 2%
@@ -75,8 +75,8 @@ Ecualiza el histograma de una imagen de escala de grises, ajustando eficazmente 
 
 |  |  |
 | --- | --- |
-| <b>Resolución del histograma</b> *Entero* | Anchura del histograma. Un valor más alto permite una distribución de valor más fina.   Las resoluciones disponibles son, en píxeles:  256, 512, 1024, 2048, 4096 |
-| <b>Suavizado de histograma</b> *Flotador* | El histograma se puede suavizar redistribuyendo los valores de escala de grises de la imagen para igualar la *diferencia* entre cada valor.   Este parámetro ajusta la intensidad de ese suavizado. |
+| <b>Resolución del histograma</b> *Entero* | Anchura del histograma. Un valor más alto permite una distribución de valor más fina.   Las resoluciones disponibles son, en píxeles:  256, 512, 1024, 2048, 4096 |
+| <b>Suavizado de histograma</b> *Flotador* | El histograma se puede suavizar redistribuyendo los valores de escala de grises de la imagen para igualar la *diferencia* entre cada valor.   Este parámetro ajusta la intensidad de ese suavizado. |
 
 ## Ejemplos
 

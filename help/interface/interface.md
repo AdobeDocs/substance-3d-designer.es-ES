@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la interfaz del espacio de trabajo de Substance 3D Designer, incluidas las vistas, los paneles y las opciones de personalización.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Workspace
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -79,11 +79,11 @@ La barra de herramientas principal te permite acceder a menús adicionales, como
 </tr>
 </table>
 
-* <b>Archivo: </b>Permite crear nuevos paquetes y recursos, así como guardar y cerrar los paquetes en los que esté trabajando actualmente. Las funciones de este menú también están disponibles como botones rápidos en esta barra de herramientas.
-* <b>Editar: </b>Proporciona funciones Deshacer y Rehacer (disponibles como botones rápidos a continuación), así como acceso a [Preferencias](../interface/preferences-window/preferences-window.md), para la personalización en profundidad.
+* <b>Archivo: </b>Le permite crear nuevos paquetes y recursos, así como guardar y cerrar los paquetes en los que esté trabajando actualmente. Las funciones de este menú también están disponibles como botones rápidos en esta barra de herramientas.
+* <b>Editar: </b>Proporciona funciones para deshacer y rehacer (disponibles como botones rápidos a continuación), así como acceso a [Preferencias](../interface/preferences-window/preferences-window.md), para la personalización en profundidad.
 * <b>Herramientas:</b> controla el Substance Engine y te permite acceder al Administrador de complementos.
 * <b>Windows:</b> Permite ocultar o mostrar cualquiera de las ventanas (algunas están ocultas de forma predeterminada) y permite restablecer el diseño de la ventana a los valores predeterminados.
-* <b>Ayuda: </b>Proporciona acceso a información adicional y recursos en línea, como Substance Academy o este sitio web de documentación.
+* <b>Ayuda: </b>Proporciona acceso a información adicional y recursos en línea, como la Academia Substance o este sitio web de documentación.
 
 ## Explorer
 
@@ -99,7 +99,7 @@ La barra de herramientas principal te permite acceder a menús adicionales, como
 
 ## Propiedades
 
-[El conjunto acoplado Propiedades](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) es la ventana más técnica. Siempre es sensible al contexto y presentará reguladores, menús desplegables y otros elementos que cambian el comportamiento de un recurso o nodo seleccionado.
+[Properties dock](properties/properties.md) es la ventana más técnica. Siempre es sensible al contexto y presentará reguladores, menús desplegables y otros elementos que cambian el comportamiento de un recurso o nodo seleccionado.
 
 ![Propiedades](../assets/properties-15.jpg "Propiedades")
 

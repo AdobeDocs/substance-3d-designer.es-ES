@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Utilice las herramientas de edición vectorial para crear y modificar gráficos SVG en Substance 3D Designer para texturas de procedimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Herramientas de edición de vectores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Las ediciones se pueden *deshacer individualmente* y todas las demás caracterí
 
 >[!IMPORTANT]
 >
-> Puede pintar *solo* en *recursos de gráficos vectoriales[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de* 8 bits que son [nuevos o importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
+> Puede pintar *solo* en *recursos de gráficos vectoriales](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de* 8 bits[ que son [nuevos o importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
 
 ![Cuadro de diálogo Nuevo recurso SVG](../../../assets/2dview-new-vector-image.png "Cuadro de diálogo Nuevo recurso SVG"){width="512px"}
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: Usa el filtro de desenfoque de escala de grises MLV para aplicar efectos de desenfoque de movimiento a texturas de escala de grises para lograr aspectos dinámicos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Escala de grises MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -65,7 +65,7 @@ En otras palabras, cómo se deben *agrupar* los píxeles en áreas que se deben 
 *- Varianza:* Selecciona valores con la dispersión más baja alrededor de la media, lo que da como resultado clústeres de píxeles similares entre sí\
 *- Coeficiente de variación:* Selecciona los valores teniendo en cuenta la media, lo que resulta en una menor variación en las áreas más brillantes de forma inversa
 
-<b>Gaussiano</b> *Booleano* Usa una distribución gaussiana para agrupar píxeles en áreas de estructuración.\
+<b>Gaussiano</b> *Boolean* Usar una distribución gaussiana para agrupar píxeles en áreas de estructuración.\
 Si es &quot;True&quot;, esto produce áreas más suaves y un efecto de acoplado reducido.
 
 <b>Iteraciones</b> *Entero* Número de veces que se ejecuta el filtro, donde cada iteración se aplica al resultado del anterior.\

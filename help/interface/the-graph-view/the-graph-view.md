@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la vista de gráfica en Substance 3D Designer para crear y editar gráficas de materiales basadas en nodos.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vista de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3558'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ Los nodos deshabilitados tienen el siguiente comportamiento:
 * Los nodos deshabilitados se pueden *encadenar* juntos;
 * Sus propiedades y conexiones están *no modificadas*;
 * Su estado deshabilitado es *guardado* y persiste entre sesiones;
-* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1&rbrace; el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
+* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1} el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
 
 Puede deshabilitar un nodo o un grupo de nodos seleccionados usando la pulsación de tecla <b>Mayús+D</b>, o haciendo clic con el botón derecho en el gráfico y seleccionando el elemento <b>Deshabilitar nodo/Deshabilitar selección</b> en el menú contextual.
 
@@ -387,7 +387,7 @@ Control <b>Timings de ![](../../assets/image2020-6-26-16-33-35.png)\
 </b>*- Limpiar:* Quita todos los nodos que forman parte de una secuencia no conectada a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *: exportar resultados:* Abre la [interfaz de exportación de mapa de bits](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *: volver a exportar resultados:* Vuelve a realizar la operación de exportación anterior.\
-*- Exportador del PSD:* Abre[la interfaz del exportador del PSD.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- Exportador de PSD:* Abre la interfaz [Exportador de PSD](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Caché de imágenes de nodo\
 </b>Alterna la visualización del conmutador de caché de imagen de nodo, consulte a continuación.

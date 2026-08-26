@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2151'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Consulte la sección <b>Procesador</b> de esta página para obtener más informa
 
 ![Material de la pared del castillo medieval procesado en Iray](../../../assets/iray-overview.png "Material de la pared del castillo medieval procesado en Iray")
 
-*Material: [Muralla medieval de castillo](https://helpx.adobe.com/es/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponible en nuestra [biblioteca](https://helpx.adobe.com/es/substance-3d/unlisted/assets.html)**de Substance 3D*
+*Material: [Muralla medieval de castillo](https://oggyart.artstation.com/projects/Xnzx0a)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponible en nuestra [biblioteca](https://substance3d.adobe.com/assets)**de Substance 3D*
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 breadcrumb-title: ''
 description: Utilice el nodo Color del filtro mediano para reducir el ruido y conservar los bordes en las texturas de color.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color del filtro mediano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Este parámetro controla el tamaño de ese núcleo cuadrado, en píxeles. Un nú
 *- Mediana:* Use el valor de mediana de todos los vecinos directamente.\
 *- MLMAD:* Significa &#39;Mediana de la desviación absoluta mínima mediana&#39;. La desviación explica la diferencia entre un valor y la mediana. En lugar de utilizar el valor de la mediana directamente, que puede ser sesgado por un píxel anómalo con una desviación alta, el método MLMAD utiliza la mediana de todas las desviaciones. Este método produce un efecto de suavizado más fuerte que puede aplanar las áreas según el tamaño del núcleo.
 
-<b>Afectar alfa</b> *Boolean* Controla si el filtro se debe aplicar al canal alfa de la imagen. Cuando *True*, el canal alfa no cambia.
+<b>Afectar alfa</b> *Booleano* Controla si el filtro se debe aplicar al canal alfa de la imagen. Cuando *True*, el canal alfa no cambia.
 
 ## Ejemplos
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar expresiones visibles if en Substance 3D Designer para controlar la visibilidad de los parámetros en función de las condiciones.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visible si las expresiones
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1511dc8cc9a91529359172ad81cd2c1c0606448f
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%

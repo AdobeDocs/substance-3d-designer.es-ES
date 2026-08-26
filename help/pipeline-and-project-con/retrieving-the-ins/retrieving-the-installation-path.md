@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo recuperar la ruta de instalación de Substance 3D Designer para secuencias de comandos y automatización.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Recuperación de la ruta de instalación
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 6%
@@ -27,7 +27,7 @@ Esta página reagrupa información sobre las formas de recuperar la ruta de inst
 ### Escritorio de Creative Cloud
 
 1. Abra el <b>Editor del Registro de Windows</b> (regedit)
-1. Vaya a la clave del Registro: <b>HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Rutas\&lt;/b>
+1. Vaya a la clave del registro: <b>HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Rutas\&lt;/b>
 1. Abra la subclave denominada <b>Adobe Substance 3D Designer.exe</b>
 1. El valor de la clave contiene la ruta de acceso al ejecutable de la aplicación donde está instalada
 
@@ -39,7 +39,7 @@ Esta página reagrupa información sobre las formas de recuperar la ruta de inst
 ### Edición de Substance (independiente)
 
 1. Abra el <b>Editor del Registro de Windows</b> (regedit)
-1. Vaya a la clave del Registro: <b>HKEY\_LOCAL\_MACHINE\ SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</b>
+1. Vaya a la clave del registro: <b>HKEY\_LOCAL\_MACHINE\ SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</b>
 1. Busque la subclave que coincida con <b>AppID</b> de la versión de la aplicación (consulte la tabla siguiente)
 1. El valor de la clave contiene la ruta de la ubicación de instalación de la aplicación
 

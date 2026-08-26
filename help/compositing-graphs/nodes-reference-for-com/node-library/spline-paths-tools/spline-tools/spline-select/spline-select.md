@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
 description: Utilice el nodo Selección de spline para seleccionar y enmascarar regiones específicas en función de los trazados de spline de los gráficos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selección de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -53,9 +53,9 @@ Las splines seleccionadas también se pueden recortar.
 Posición <b> R</b> - X\
 <b> G</b> - Posición Y\
 <b> B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline</b> *Color* Datos adicionales de las splines de entrada codificadas en los canales RGBA de una imagen en color.\
 <b> R</b> - Tangentes X\
@@ -70,18 +70,18 @@ Posición <b> R</b> - X\
 <b>Vista previa</b> *Escala de grises* Vista previa de las splines de salida como una imagen en escala de grises.
 
 <b>Códigos polinómicos</b> *Color* Coordenadas de los puntos de las splines de salida codificados en los canales RGBA de una imagen en color.\
-    Posición <b>R</b> - X\
-    <b>G</b> - Posición Y\
-    <b>B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+Posición <b>R</b> - X\
+<b>G</b> - Posición Y\
+<b>B</b> - Height\
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline</b> *Color* Datos adicionales de las splines de salida codificadas en los canales RGBA de una imagen en color.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Sin usar\
-    <b>A</b> - Sin usar
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Sin usar\
+<b>A</b> - Sin usar
 
 <b>Cantidad de spline</b> *Entero* Número de splines de salida.
 
