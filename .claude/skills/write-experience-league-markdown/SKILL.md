@@ -91,7 +91,7 @@ que inventar un nuevo HTML en línea a menos que sea necesario.
 
 * Código en línea: un solo tic.
 * Bloques cercados: triplicar las marcas, con un lenguaje opcional para la sintaxis
-resaltando (` ```python `, ` ```javascript `, etc.).
+resaltando (` `&#x200B;``python `, ` ``&#x200B;`javascript `, etc.).
 
 ## Nota / bloques de alerta
 

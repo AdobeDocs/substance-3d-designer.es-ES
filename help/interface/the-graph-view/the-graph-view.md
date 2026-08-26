@@ -296,7 +296,7 @@ Los nodos deshabilitados tienen el siguiente comportamiento:
 * Los nodos deshabilitados se pueden *encadenar* juntos;
 * Sus propiedades y conexiones están *no modificadas*;
 * Su estado deshabilitado es *guardado* y persiste entre sesiones;
-* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1} el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
+* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1&rbrace; el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
 
 Puede deshabilitar un nodo o un grupo de nodos seleccionados usando la pulsación de tecla <b>Mayús+D</b>, o haciendo clic con el botón derecho en el gráfico y seleccionando el elemento <b>Deshabilitar nodo/Deshabilitar selección</b> en el menú contextual.
 
