@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vista 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3561'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ La vista 3D también proporciona dos métodos principales para procesar material
 * Representaciones con trazo de rayo de alta calidad con el procesador **Trazador de ruta de GPU**
 
 Más información aquí: [Procesadores 3D](3d-renderers/3d-renderers.md)
+
++++ El conjunto acoplado de vista 3D
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
 
 ## Interacciones de ventana
 
@@ -548,7 +554,23 @@ La barra de herramientas <b>Display</b>, que se encuentra en la *parte inferior*
 
 >[!NOTE]
 >
-> La barra de herramientas se puede *cambiar de posición* alrededor del conjunto acoplado **3**&#x200B;**&#x200B; D View** mediante el *identificador* situado más a la izquierda y representado por tres líneas paralelas.
+> La barra de herramientas se puede *cambiar de posición* alrededor del conjunto acoplado de la **vista 3D** mediante el *controlador* situado más a la izquierda y representado por tres líneas paralelas.
+
+### AOV de renderizado 3D
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p>Puede mostrar diferentes <a href="../../glossary/glossary.md#aov">AOV</a> mediante el botón <img src="./3d-view.resources/aov/aov-icon.png" alt="Icono de AOV de procesamiento 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOV de representación 3D</b>.</p>
+            <p>Los AOV permiten inspeccionar la información de mallas y materiales de forma aislada para realizar un trabajo específico y una depuración.</p>
+            <p>Algunos AOV incluyen <i>valores HDR</i> que se fijan en 1 (blanco puro) o 0 (negro puro) en la ventana gráfica.<br>Para inspeccionar el rango completo de valores, puede exportar un renderizado 3D del AOV a un formato de archivo de imagen que admita valores HDR, como <code>.exr</code>.<br>Utilice la opción de menú <code>Camera > Save render...</code> para exportar el AOV actual.</p>
+            <p><i>Nota:</i> los AOV solo están disponibles cuando se usan el rasterizador y los <a href="./3d-renderers/3d-renderers.md">procesadores 3D</a> de Trazador de ruta de GPU.</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="Renderizado en 3D de AOV compuestos" />
+        </td>
+    </tr>
+</table>
 
 ### Canales de color
 

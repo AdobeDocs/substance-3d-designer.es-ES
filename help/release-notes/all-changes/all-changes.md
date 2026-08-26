@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Todos los cambios
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e71846d2834d9c1979fe840f1cf9e321f2d4d93f
+source-git-commit: 668654bbe14817873413cc80743c53ee2045f48a
 workflow-type: tm+mt
-source-wordcount: '31814'
+source-wordcount: '32039'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 # Todos los cambios
 
 ## Versión 16
+
+### 16.0.5
+
+*(Lanzado el 26 de agosto de 2026)*
+
+**Agregado:**
+
+* [Vista 3D] Se ha añadido un botón para seleccionar el archivo AOV actual
+* [Contenido] Ruido Perlin/Gaussiano: desabrochar parámetro de escala
+* [Contenido] Ocultar recursos de mapa de bits innecesarios de la biblioteca
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
+
+**Corregido:**
+
+* [Vista 3D] Los cambios de visibilidad del entorno realizados en OpenGL no se transfieren a los procesadores Eclair
+* [Panaderos] El contexto de panificación no se destruyó después de actualizar los pasteles para un recurso de mapa de bits UDIM eliminado
+* [Bakers] Se ha corregido un bloqueo al eliminar un recurso de mapa de bits UDIM mientras se actualizaban sus pasteles
+* [Contenido] Forma salpicadura v2: el height de forma de cilindro no es correcto
+* [Contenido] Forma salpicadura v2: El mapa de densidad no funciona correctamente cuando el tamaño del nodo supera 4096
+* [Contenido] Forma salpicadura v2: el uso del SDF &quot;Rock&quot; detrás de un If/Else puede conducir a un bucle infinito
+* [Seguridad] Se ha corregido una vulnerabilidad de referencia de puntero NULO en el análisis de archivos AXF
+* [Seguridad] Se ha corregido una vulnerabilidad de desreferencia de puntero NULO en el análisis de archivos GLB
+* [Seguridad] Se han corregido las vulnerabilidades de escritura fuera de límites en el análisis de archivos SBSAR
+* [Seguridad] Se ha corregido una vulnerabilidad de daños en el montón en el análisis de archivos DDS
+* [Seguridad] Se ha corregido una vulnerabilidad de daños en el montón en el análisis de archivos GLB
+* [Seguridad] Se ha corregido una vulnerabilidad de daños en el montón en el análisis de archivos TGA
+* [Seguridad] Se ha corregido una vulnerabilidad de daños en el montón en el análisis de archivos de TIFF
+* [Seguridad] Se ha corregido una vulnerabilidad de daños en el montón en el análisis de archivos USDA
+* [Seguridad] Se ha corregido una vulnerabilidad de daños en el montón en el análisis de archivos WEBP
+* [UI] El cuadro de diálogo de elementos en los menús de la casilla de verificación persistente solo abarca el texto del elemento
+
 
 ### 16.0.4
 
