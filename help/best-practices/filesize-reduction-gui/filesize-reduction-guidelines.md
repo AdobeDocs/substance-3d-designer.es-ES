@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Directrices de reducción de tamaño de archivo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ El tamaño del archivo está determinado principalmente por [mapas de bits incru
 
 ## Factores de tamaño de archivo
 
-Hay varios factores que afectan al tamaño de archivo total de [SBSAR](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Se enumeran a continuación con una breve explicación.
+Hay varios factores que afectan al tamaño total de archivo de SBSAR. Se enumeran a continuación con una breve explicación.
 
 +++Resolución
 Obviamente tiene un gran efecto. Utilice la resolución más pequeña posible, teniendo en cuenta que es posible que también desee que el archivo de Substance funcione en resoluciones grandes. Puede utilizar trucos de máscara de resolución estándar para hacer que los mapas de bits más pequeños parezcan más grandes.
@@ -63,14 +63,14 @@ El modo en que se establece el nodo Mapa de bits también afecta a la forma en q
 +++Formato de mapa de bits en el paquete
 En las propiedades del recurso puede elegir entre la compresión &quot;Raw&quot; y &quot;JPEG&quot;. Esto puede tener un efecto considerable en el resultado final.
 
-*Encontrado en: Recurso de mapa de bits [Properties](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), a través de la ventana del [Explorador.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Encontrado en: Propiedades del recurso de mapa de bits, a través de la ventana del explorador.*
 
 +++
 
 +++Calidad de compresión de mapa de bits en el paquete
 Al utilizar el formato de mapa de bits &quot;JPEG&quot;, el regulador que aparece a continuación puede afectar a la calidad y al tamaño del archivo. Este regulador no se comporta de forma muy predecible, pero 1 tiende a corresponder a la mayor calidad JPG compresión más alta y 0,5 tiende a dar el tamaño más pequeño.
 
-*Encontrado en: Recurso de mapa de bits [Properties](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), a través de la ventana del [Explorador.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Encontrado en: Propiedades del recurso de mapa de bits, a través de la ventana del explorador.*
 
 +++
 

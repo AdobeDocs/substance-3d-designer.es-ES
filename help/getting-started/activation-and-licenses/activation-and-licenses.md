@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Activación y licencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Hay tres opciones disponibles:
 
 * <b>Evaluar este producto</b>: Las pruebas heredadas ya no están disponibles. En su lugar, puedes iniciar una versión de prueba de 30 días para cada aplicación de Substance 3D [aquí](https://www.adobe.com/creativecloud/3d-augmented-reality.html) o con Creative Cloud Desktop. Cada versión de prueba es independiente de las demás aplicaciones de Substance 3D, por lo que puede probarlas una a una o todas a la vez.
 * <b>Activar usando un archivo de licencia</b>: active el producto con un archivo de licencia (<b>\*.key</b>) descargado de la página de su cuenta en el [sitio web de Substance 3D](https://store.substance3d.com/user) antes del 30 de septiembre de 2022.
-* <b>Activar usando tu cuenta</b>: Las cuentas de sustancias heredadas ya no se pueden utilizar para la activación. [Aquí encontrará más información sobre las cuentas de Substance](https://helpx.adobe.com/es/substance-3d/unlisted/faq-end-of-life-accounts.html).
+* <b>Activar usando tu cuenta</b>: Las cuentas de sustancias heredadas ya no se pueden utilizar para la activación.
 
 >[!IMPORTANT]
 >

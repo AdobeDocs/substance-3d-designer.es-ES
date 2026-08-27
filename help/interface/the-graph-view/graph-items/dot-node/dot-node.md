@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nodo de punto (también Portal)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-El nodo <b>Dot</b> es un ayudante que te permite simplificar y limpiar gráficos redireccionando y agrupando conexiones. Resulta especialmente útil para gráficos con muchas conexiones largas que se ejecutan sobre otras conexiones o nodos.
+El nodo <b>Dot</b> es un ayudante que te permite simplificar y limpiar gráficos redireccionando y agrupando conexiones. Resulta especialmente útil para gráficos con muchas conexiones largas que se ejecutan sobre otras conexiones o nodos.
 
 Un par de nodos Dot se pueden usar como <b>portales</b> para ocultar una conexión que se extiende a larga distancia, o en lugares donde el enrutamiento de la conexión sería difícil.
 
@@ -102,7 +102,7 @@ Presione ALT y mueva un nodo Punto sobre los vínculos para combinar conexiones 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Los nodos de puntos se pueden usar como <b>portales</b> para enviar datos a una larga distancia en el gráfico sin tener un enlace largo y engorroso que perjudique la legibilidad. Esto oculta de forma efectiva el vínculo entre los nodos Dot.
+Los nodos de puntos se pueden usar como <b>portales</b> para enviar datos a una larga distancia en el gráfico sin tener un enlace largo y engorroso que perjudique la legibilidad. Esto oculta de forma efectiva el vínculo entre los nodos Dot.
 
 </td>
 </tr>

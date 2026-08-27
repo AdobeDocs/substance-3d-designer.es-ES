@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Crear paleta de colores (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 1%
@@ -67,8 +67,8 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Cuantific
 
 |  |  |
 | --- | --- |
-| <b>Paleta</b> *Color* PRINCIPAL | Una lista ordenada de colores de RGB codificados como una fila de píxeles. La paleta puede contener un máximo de 256 colores.   Esta entrada es opcional. Si se utiliza, los colores configurados por el nodo se anexan a esta paleta.   La paleta se puede visualizar con el nodo [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
-| <b>Cantidad de color de paleta</b> *Entero* | Cantidad de colores almacenados en la paleta.   Si ese número no coincide con la cantidad real de colores en la entrada de imagen de la &#39;Paleta&#39;, la visualización puede estar incompleta o tener más espacios en blanco de los absolutamente necesarios. |
+| <b>Paleta</b> *Color* PRINCIPAL | Una lista ordenada de colores de RGB codificados como una fila de píxeles. La paleta puede contener un máximo de 256 colores.   Esta entrada es opcional. Si se utiliza, los colores configurados por el nodo se anexan a esta paleta.   La paleta se puede visualizar con el nodo [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+| <b>Cantidad de color de paleta</b> *Entero* | Cantidad de colores almacenados en la paleta.   Si ese número no coincide con la cantidad real de colores en la entrada de imagen de la &#39;Paleta&#39;, la visualización puede estar incompleta o tener más espacios en blanco de los absolutamente necesarios. |
 
 ## Conectores de salida
 
@@ -82,7 +82,7 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Cuantific
 |  |  |
 | --- | --- |
 | <b>Cantidad de color</b> *Entero* | Cantidad de colores que se deben añadir a la paleta. |
-| <b>Color #</b> *Float3* *Tantos parámetros disponibles como el valor &#39;Cantidad de color&#39;* | Un color que debe añadirse a la paleta.   Los colores se añaden a la paleta en el mismo orden que esta lista numerada. |
+| <b>Color #</b> *Float3* *Tantos parámetros disponibles como el valor &#39;Cantidad de color&#39;* | Un color que debe añadirse a la paleta.   Los colores se añaden a la paleta en el mismo orden que esta lista numerada. |
 
 ## Ejemplos
 

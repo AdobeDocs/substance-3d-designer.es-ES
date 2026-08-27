@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Advertencias en los gráficos de funciones
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página muestra mensajes de advertencias y errores que pueden activarse mediante [gráficos de funciones](../../function-graphs/function-graphs.md) en Substance 3D Designer, y ofrece pasos comunes de solución de problemas para cada uno.
 
-Las advertencias se muestran en la información sobre herramientas del icono de advertencia para el recurso de gráfico en el panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), así como en la esquina inferior izquierda de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) si el gráfico está cargado.\
+Las advertencias se muestran en la información sobre herramientas del icono de advertencia para el recurso de gráfico en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md), así como en la esquina inferior izquierda de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) si el gráfico está cargado.\
 Si la función está *aplicada a un parámetro* en un [Substance grafica](../../compositing-graphs/substance-compositing-graphs.md), cualquier advertencia dará como resultado la advertencia &quot;*La función del parámetro [x] tiene algunos errores*&quot; que se provocan para ese parámetro.
 
 ## ![(error)](../../assets/error.svg) No se ha definido ningún nodo de salida

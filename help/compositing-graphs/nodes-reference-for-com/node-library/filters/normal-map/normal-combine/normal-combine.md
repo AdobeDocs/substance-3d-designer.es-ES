@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Combinación normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Si quieres fusionar dos mapas normales sin combinar sus detalles (usando una má
 
 ## Parámetros
 
-<b>Técnica</b> *Entero* Establece qué técnica de fusión interna usar, cambiando la velocidad por la calidad.\
+<b>Técnica</b> *Entero* Establece qué técnica de fusión interna se debe usar, cambiando la velocidad por la calidad.\
 *- Whiteout (baja calidad)
 * Mezclador de canales (alta calidad)
 * Orientado a los detalles (alta calidad)*

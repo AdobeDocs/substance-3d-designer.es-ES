@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entrada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -106,11 +106,11 @@ Si desea verla con los resultados de otro gráfico, deberá exportar dicho gráf
 
 |  |  |
 | --- | --- |
-| <b>Identificador</b> *Cadena* | El único atributo único y obligatorio. No puede contener espacios.   Este se utiliza para etiquetar entradas si no se ha configurado ninguna etiqueta y para diferenciar las diferentes salidas. ¡No deje esto en &quot;input\_1&quot;! |
+| <b>Identificador</b> *Cadena* | El único atributo único y obligatorio. No puede contener espacios.   Este se utiliza para etiquetar entradas si no se ha configurado ninguna etiqueta y para diferenciar las diferentes salidas. ¡No deje esto en &quot;input\_1&quot;! |
 | <b>Descripción</b> *Cadena* | Descripción opcional utilizada en la biblioteca de Designer y el estante de Painter. |
-| <b>Etiqueta</b> *Cadena* | Etiqueta de interfaz de usuario utilizada para un etiquetado agradable en la interfaz de usuario de Designer y Painter. Puede contener espacios.   Se recomienda configurar con un nombre similar al Identificador, solo con barras espaciadoras en lugar de guiones bajos. |
+| <b>Etiqueta</b> *Cadena* | Etiqueta de interfaz de usuario utilizada para un etiquetado agradable en la interfaz de usuario de Designer y Painter. Puede contener espacios.   Se recomienda configurar con un nombre similar al Identificador, solo con barras espaciadoras en lugar de guiones bajos. |
 | <b>Datos de usuario</b> *Cadena* | Datos de usuario adicionales y opcionales que se pueden utilizar para operaciones de filtrado específicas. Básicamente, un campo de datos personalizado y comodín. |
-| <b>Grupo</b> *Cadena* | Atributo de grupo utilizado para agrupar entradas para los [Modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Las entradas con un atributo de grupo idéntico (distingue mayúsculas de minúsculas) se presentarán como una única conexión en el modo de material compacto. |
+| <b>Grupo</b> *Cadena* | Atributo de grupo utilizado para agrupar entradas para los [Modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Las entradas con un atributo de grupo idéntico (distingue mayúsculas de minúsculas) se presentarán como una única conexión en el modo de material compacto. |
 
 ## Herencia
 
@@ -157,6 +157,6 @@ Además, los atributos de uso también se utilizan con [Modos de creación de v�
 
 |  |  |
 | --- | --- |
-| <b>Componente</b> *Cadena* | Esto determina qué canales están realmente en la entrada resultante.   Se trata de una configuración heredada que ya no utilizan las integraciones ni los gráficos. |
+| <b>Componente</b> *Cadena* | Esto determina qué canales están realmente en la entrada resultante.   Se trata de una configuración heredada que ya no utilizan las integraciones ni los gráficos. |
 | <b>Uso</b> *Cadena* | Defina un tipo o uso para esta entrada. Indica cómo deben conectarse otros nodos a esta entrada. |
 | <b>Espacio de color</b> *Cadena* | Define el espacio de color en el que debe interpretarse esta entrada. |

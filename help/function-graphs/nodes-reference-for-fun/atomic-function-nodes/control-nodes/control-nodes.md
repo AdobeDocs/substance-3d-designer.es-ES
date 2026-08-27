@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Control
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ De forma similar a los lenguajes de programación, el... El nodo Else introduce 
 </tr>
 </table>
 
-Utilizará este nodo junto con los [&#x200B; nodos lógicos](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) y los [nodos de comparación](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) que le ayudarán a generar la condición que desea comprobar.
+Utilizará este nodo junto con los [nodos lógicos](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) y los [nodos de comparación](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) que le ayudarán a generar la condición que desea comprobar.
 
 +++Conectores de entrada
 <b>Condición</b> *Booleano*\
@@ -47,7 +47,7 @@ Condición que controla el resultado del nodo.
 
 <b>Si</b> *Tipo de variable* El valor de salida del nodo si <b>Condition</b> es *True*.
 
-<b>Else</b> *Tipo de variable* El valor generado por el nodo si <b>Condition</b> es *False*.
+<b>Else</b> *Tipo de variable* El valor de salida del nodo si <b>Condition</b> es *False*.
 
 +++
 
@@ -76,7 +76,7 @@ Puede obtener más información sobre el nodo Sequence en la página [Uso de los
 <b>En</b> *Tipo de variable*\
 La parte del gráfico que se debe calcular primero
 
-<b>Último</b> *tipo de variable*\
+<b>Último</b> *Tipo de variable*\
 La parte del gráfico que se debe calcular en último lugar
 
 +++
@@ -113,7 +113,7 @@ Esto significa que puede añadir a un valor de índice cada iteración y comprob
 <b>Init.</b> *Tipo de variable*\
 La parte del gráfico que se calcula antes de la primera iteración, es decir, el inicio del bucle.
 
-<b>Salir de Cond.</b> *Booleano*\
+<b>Cond. de salida</b> *Booleano*\
 La condición que debe ser verdadera para que se detenga el bucle. Se recalcula en cada iteración.\
 *Nota:* El número máximo de iteraciones sigue limitado al parámetro <b>Max iterations</b>.
 

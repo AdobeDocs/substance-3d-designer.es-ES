@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Guía del usuario de Substance 3D Designer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 61535e3f89e10931c220096577e76abb9799d8df
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%

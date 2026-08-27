@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cálculo del histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -80,14 +80,14 @@ Las herramientas personalizadas se pueden crear utilizando los datos calculados 
 
 |  |  |
 | --- | --- |
-| <b>Histograma</b> *Escala de grises* | El histograma calculado para la imagen de entrada, codificado como una fila de píxeles donde cada valor de píxel es la *población* del valor de color que coincide con la posición de píxel en el eje X.   Por ejemplo, un valor de píxel de 75 a (0,25, 0) significa que hay 75 píxeles que tienen el valor de color de 0,25 en la imagen. |
-| <b>CDF</b> *Escala de grises* | Resultado de la *función de distribución acumulativa* (CDF) calculada para la imagen, codificada en una fila de píxeles en la que cada píxel es la suma de todos los valores de píxeles a su izquierda.   Esa suma se *normaliza* respecto al número total de píxeles de la imagen. |
+| <b>Histograma</b> *Escala de grises* | El histograma calculado para la imagen de entrada, codificado como una fila de píxeles donde cada valor de píxel es la *población* del valor de color que coincide con la posición de píxel en el eje X.   Por ejemplo, un valor de píxel de 75 a (0,25, 0) significa que hay 75 píxeles que tienen el valor de color de 0,25 en la imagen. |
+| <b>CDF</b> *Escala de grises* | Resultado de la *función de distribución acumulativa* (CDF) calculada para la imagen, codificada en una fila de píxeles en la que cada píxel es la suma de todos los valores de píxeles a su izquierda.   Esa suma se *normaliza* respecto al número total de píxeles de la imagen. |
 
 ## Parámetros
 
 |  |  |
 | --- | --- |
-| <b>Resolución del histograma</b> *Entero* | Anchura del histograma. Un valor más alto permite una distribución de valor más fina.   Las resoluciones disponibles son, en píxeles:  256, 512, 1024, 2048, 4096 |
+| <b>Resolución del histograma</b> *Entero* | Anchura del histograma. Un valor más alto permite una distribución de valor más fina.   Las resoluciones disponibles son, en píxeles:  256, 512, 1024, 2048, 4096 |
 
 ## Ejemplos
 

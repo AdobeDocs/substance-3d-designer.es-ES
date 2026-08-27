@@ -10,7 +10,7 @@ helpx_tags: ""
 title: La aplicación no se inicia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
+source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Las versiones 15.0 y superiores de Designer no se inician en sistemas con una GP
 
 <b>![(marca)](../../assets/check.svg) Pasos recomendados</b>
 
-Actualice los controladores gráficos de la GPU. Puede encontrar los últimos controladores aquí:  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
+Actualice los controladores gráficos de la GPU. Puede encontrar los últimos controladores aquí:  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 

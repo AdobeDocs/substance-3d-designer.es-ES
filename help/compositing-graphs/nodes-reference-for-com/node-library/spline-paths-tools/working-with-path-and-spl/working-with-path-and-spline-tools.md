@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Uso de Herramientas de spline de trazado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Las rutas y las herramientas de spline requieren cálculos intensivos, por lo qu
 
 1. El conjunto de herramientas hace un uso extensivo de las características de <b>Substance Engine</b> que se ejecutan mucho más rápido en la GPU. Por lo tanto, utilice la versión de GPU del motor para su sistema: <b>Direct3D</b> (Windows) o <b>OpenGL</b> (macOS).\
    Puede cambiar de motor pulsando la tecla <b>F9</b> o yendo a <b>Herramientas > Cambiar motor...</b> en la barra de menú principal.
-1. A continuación, recomendamos encarecidamente desactivar la <b>edición en contexto</b> en la sección <b>Graph</b> de [Preferences](../../../../../interface/preferences-window/preferences-window.md) (Ve a <b>Edit > Preferences...</b> en la barra de menú principal para tener acceso a esta ventana).\
+1. A continuación, recomendamos encarecidamente desactivar la <b>edición en contexto</b> en la sección <b>Graph</b> de [Preferences](../../../../../interface/preferences-window/preferences-window.md) (Ve a <b>Edit > Preferences...</b> en la barra de menú principal para acceder a esta ventana).\
    La edición en contexto permite abrir nodos de instancia en el contexto del gráfico del host, lo que es muy práctico, pero tiene el efecto secundario de aumentar exponencialmente los cálculos necesarios para la caché de imágenes del conjunto de herramientas.
 
 Observará una mejora significativa del rendimiento al cambiar cualquiera de estas dos configuraciones al estado recomendado.

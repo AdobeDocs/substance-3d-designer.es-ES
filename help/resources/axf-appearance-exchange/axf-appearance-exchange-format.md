@@ -10,9 +10,9 @@ helpx_tags: ""
 title: AxF (Appearance eXchange Format)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Haga clic en <b>Importar AxF...Botón </b> en la sección izquierda de la [panta
 
 +++Explorer
 
-Haga clic en RMB en un paquete en el [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y vaya a <b>Importar > AxF</b> en el menú contextual del paquete.
+Haga clic en RMB en un paquete en el [Explorador](../../interface/the-explorer-window/the-explorer-window.md) y vaya a <b>Importar > AxF</b> en el menú contextual del paquete.
 
 ![AxF: Inicie la importación desde Explorer](../../assets/axf_explorer.png "AxF: Iniciar importación desde el Explorador"){width="600px"}
 

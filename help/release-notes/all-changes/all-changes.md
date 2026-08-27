@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Todos los cambios
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 668654bbe14817873413cc80743c53ee2045f48a
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
 source-wordcount: '32039'
 ht-degree: 0%

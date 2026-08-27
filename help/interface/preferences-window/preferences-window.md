@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Preferencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b1b28e909a4d3c19c1dbc28e5ed25b3adc327ac3
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,15 @@ Se recomienda revisar todas estas opciones de configuración para obtener una me
 
 ### Documentos recientes
 
-|  |  |
-| --- | --- |
-| <b>La lista de documentos recientes contiene</b>  *Valor predeterminado: 10* | Esto le permite seleccionar el número de documentos que desea enumerar en la entrada <b>Paquetes recientes</b> del elemento <b>Archivo</b> en el [Menú principal](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). |
+|  |                                                                                                                                         |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------|
+| <b>La lista de documentos recientes contiene</b>  *Valor predeterminado: 10* | Esto le permite seleccionar el número de documentos que desea enumerar en la entrada <b>Paquetes recientes</b> del elemento <b>Archivo</b> en el [menú principal](../the-main-toolbar/the-main-toolbar.md). |
 
 ### Historial
 
 |  |  |
 | --- | --- |
-| **Tamaño de pila de historial** *Predeterminado: 200* | Indica el número de operaciones de deshacer disponibles en cualquier momento en el elemento <b>Editar > Deshacer</b> del [menú principal](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html).  **Precaución:** Cuantas más operaciones de deshacer necesite, más memoria necesitará la aplicación. |
+| **Tamaño de pila de historial** *Predeterminado: 200* | Indica el número de operaciones de deshacer disponibles en cualquier momento en el elemento <b>Editar > Deshacer</b> del [menú principal](../the-main-toolbar/the-main-toolbar.md).  **Precaución:** Cuantas más operaciones de deshacer necesite, más memoria necesitará la aplicación. |
 
 ### Idioma
 
@@ -111,13 +111,13 @@ Tenga en cuenta también que los guardados automáticos deben abrirse *después 
 
 |  |  |
 | --- | --- |
-| <b>Guardar siempre el archivo .sbs al publicar en .sbsar o enviar a otra aplicación</b>  *Valor predeterminado: True* | Controla el guardado automático del paquete SBS al [publicarlo](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) o [enviarlo a otra aplicación](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
+| <b>Guardar siempre el archivo .sbs al publicar en .sbsar o enviar a otra aplicación</b>  *Valor predeterminado: True* | Controla el guardado automático del paquete SBS al [publicarlo](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) o enviarlo a otra aplicación. |
 
 ### Cocina
 
-|  |  |
-| --- | --- |
-| <b>Límite de tamaño de cocción</b>  *Valor predeterminado: 8192 píxeles* | Define la resolución máxima de píxeles permitida para todos los [nodos](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) en cualquier [gráfico](../../compositing-graphs/substance-compositing-graphs.md). Como las salidas de gráficos son siempre imágenes cuadradas de resoluciones de potencias de 2, el valor definido aquí define tanto la anchura como el height máximos, en píxeles. |
+|  |                                                                                                                                                                                                                                                                                                 |
+| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Límite de tamaño de cocción</b>  *Valor predeterminado: 8192 píxeles* | Define la resolución máxima de píxeles permitida para todos los nodos de cualquier Substance [graph](../../compositing-graphs/substance-compositing-graphs.md). Como las salidas de gráficos son siempre imágenes cuadradas de resoluciones de potencias de 2, el valor definido aquí define tanto la anchura como el height máximos, en píxeles. |
 
 ### Motor
 

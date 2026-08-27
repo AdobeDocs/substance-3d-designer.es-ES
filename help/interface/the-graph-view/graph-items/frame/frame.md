@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Marco
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -66,7 +66,7 @@ El marco se puede mover arrastrando la barra de encabezado o el título.
 +++
 
 +++Seleccionado
-Cuando se selecciona, el título y el contorno del marco se resaltan en blanco. El contorno se vuelve más grueso.
+Cuando se selecciona, el título y el contorno del marco se resaltan en blanco. El contorno se vuelve más grueso.
 
 ![Fotograma (estado seleccionado)](../../../../assets/graph-frames-selected.png "Fotograma (estado seleccionado)")
 
@@ -160,7 +160,7 @@ Mantenga presionada la tecla <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) para cam
 Cuando se selecciona un marco, las siguientes propiedades están disponibles en el conjunto acoplado [Properties](../../../../interface/properties/properties.md):
 
 +++Título
-El <b>Título</b> que se encuentra en la parte superior izquierda del marco. Su visibilidad del título se puede activar o desactivar mediante la propiedad <b>Title Visible</b>.
+El <b>Título</b> que se encuentra en la parte superior izquierda del marco. Su visibilidad del título se puede activar o desactivar mediante la propiedad <b>Title Visible</b>.
 
 El tamaño del título se puede bloquear con un tamaño de pantalla mínimo para que sea legible al alejarse del gráfico. Para ello, marca la opción &quot;Títulos de marco&quot; en el menú desplegable <b>Información</b> de la barra de herramientas [Vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
 
@@ -196,7 +196,7 @@ El canal alfa del color controla la *opacidad* del fotograma, donde un valor de 
 
 ## Descripción
 
-Un marco se puede anotar con un texto que se colocará dentro del marco. El texto se alinea a la izquierda y comienza en la esquina superior izquierda del marco. Utilice la propiedad [Description](#properties) del marco para editar ese texto.
+Un marco se puede anotar con un texto que se colocará dentro del marco. El texto se alinea a la izquierda y comienza en la esquina superior izquierda del marco. Utilice la propiedad [Description](#properties) del marco para editar ese texto.
 
 <table>
 <tr style="border: 0;">
@@ -204,7 +204,7 @@ Un marco se puede anotar con un texto que se colocará dentro del marco. El text
 
 ### Estándar
 
-El <b>Título</b> se muestra en negrita en la parte superior izquierda del marco. La visibilidad del título se puede activar o desactivar.
+El <b>Título</b> se muestra en negrita en la parte superior izquierda del marco. La visibilidad del título se puede activar o desactivar.
 
 Su tamaño se puede bloquear con un tamaño de pantalla mínimo para que sea legible al alejar el zoom del gráfico. Para ello, marca la opción &quot;Títulos de marco&quot; en el menú desplegable <b>Información</b> de la barra de herramientas [Vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
 
@@ -270,7 +270,7 @@ A continuación se muestra una lista de etiquetas útiles para dar formato al te
 
 ## Reglas de inclusión
 
-Un objeto se considera incluido en un marco si cumple su regla de inclusión. Estas reglas varían según el objeto y el caso especial. Se enumeran a continuación.
+Un objeto se considera incluido en un marco si cumple su regla de inclusión. Estas reglas varían según el objeto y el caso especial. Se enumeran a continuación.
 
 El símbolo amarillo de cada ilustración representa el punto o área que debe estar completamente dentro de los límites de un marco para que un objeto se incluya en ese marco.
 

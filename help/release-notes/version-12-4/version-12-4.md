@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Versión 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Cuando edita su gráfico, a veces tiene que experimentar varias posibilidades, y
 
 ### Escribir fórmulas en campos de parámetros
 
-Ya no es necesario utilizar una calculadora ni calcular en la cabeza cuando se desea introducir valores de parámetros específicos. Ahora puede introducir directamente fórmulas básicas como adiciones, divisiones, multiplicaciones o sustracciones al establecer un valor numérico para un parámetro en [Properties](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) y otros lugares de la aplicación.
+Ya no es necesario utilizar una calculadora ni calcular en la cabeza cuando se desea introducir valores de parámetros específicos. Ahora puede introducir directamente fórmulas básicas como adiciones, divisiones, multiplicaciones o sustracciones al establecer un valor numérico para un parámetro en las propiedades y otros lugares de la aplicación.
 
 ![](../../assets/final-formula.gif){width="640px"}
 

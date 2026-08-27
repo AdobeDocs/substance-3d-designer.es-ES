@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sección transversal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -45,7 +45,7 @@ También se puede utilizar para crear formas y siluetas 2D difíciles de consegu
 
 ## Parámetros
 
-<b>Coordenada de sección cruzada</b> *Flotante*\
+<b>Coordenada de sección cruzada</b> *Flotador*\
 Definir en qué coordenada muestrear el sector. Puede ser la coordenada X o Y dependiendo del eje de sección.
 
 <b>Eje de sección</b> *Entero*\
@@ -56,26 +56,26 @@ Activa una superposición que muestra la posición de la sección sobre la image
 
 Configuración del ayudante
 
-<b>Escala auxiliar</b> *Float*\
-    El tamaño de la superposición expresado como múltiplo, donde 1.0 es la imagen completa.
+<b>Escala auxiliar</b> *Flotador*\
+El tamaño de la superposición expresado como múltiplo, donde 1.0 es la imagen completa.
 
 <b> Posición auxiliar</b> *Float2*\
-    Posición (X, Y) de la superposición en la imagen de salida, donde (0,0, 0,0) es superior izquierdo y (1,0, 1,0) es inferior derecho.
+Posición (X, Y) de la superposición en la imagen de salida, donde (0,0, 0,0) es superior izquierdo y (1,0, 1,0) es inferior derecho.
 
-<b>Escala de Height</b> *Flotante*
+<b>escala de Height</b> *Flotador*
 
 Reduce el gráfico completo. Útil para la visualización de HDR.
 
-<b>Desplazamiento de Height</b> *Flotante*\
+<b>desplazamiento de Height</b> *Flotador*\
 Desplaza el gráfico entero hacia arriba o hacia abajo. Útil para la visualización de HDR.
 
 <b>Estilo de dibujo</b> *Entero*\
 Cambiar entre relleno sólido y dibujo de líneas.
 
-<b>Invertir degradado</b> *Booleano* Si el estilo de dibujo está establecido en *Degradado* o *Degradado reflejado*, te permite invertir ese degradado sin que afecte al fondo.\
+<b>Invertir degradado</b> *Booleano* Si el estilo de dibujo se establece en *Degradado* o *Degradado reflejado*, te permite invertir ese degradado sin afectar el fondo.\
 *Nota:* Solo está disponible cuando &#39;Estilo de dibujo&#39; está establecido en &#39;Degradado&#39; o &#39;Degradado reflejado&#39;.
 
-<b>Suave / Poligonal</b> *Booleano*\
+<b>Suave / poligonal</b> *Booleano*\
 Alterna la forma entre el perfil suave perfecto o entre poligonal dentado.\
 *Nota:* Solo está disponible cuando &#39;Estilo de dibujo&#39; está establecido en &#39;Sólido&#39;, &#39;Degradado&#39; o &#39;Degradado reflejado&#39;.
 
@@ -83,7 +83,7 @@ Alterna la forma entre el perfil suave perfecto o entre poligonal dentado.\
 Define la cantidad de segmentos utilizados para dibujar en Estilo poligonal o en Estilo de línea.\
 *Nota:* Solo está disponible cuando &#39;Smooth / Polygonal&#39; está establecido en &#39;Polygonal&#39; o cuando &#39;Drawing style&#39; está establecido en &#39;Line&#39;.
 
-<b>thickness de línea</b> *Float*\
+<b>thickness de línea</b> *Flotador*\
 Define el thickness de la línea.\
 *Nota:* Solo está disponible cuando &#39;Estilo de dibujo&#39; está establecido en &#39;Línea.
 
@@ -91,15 +91,15 @@ Define el thickness de la línea.\
 Permite elegir el color y el difuminado de la línea.\
 *Nota:* Solo está disponible cuando &#39;Estilo de dibujo&#39; está establecido en &#39;Línea.
 
-<b>smoothness de línea</b> *Float*\
+<b>smoothness de línea</b> *Flotador*\
 Establece el difuminado de degradado de la línea.\
 *Nota:* Solo está disponible cuando &#39;Estilo de dibujo&#39; está establecido en &#39;Línea.
 
-<b>Color</b> *Float*\
+<b>Color</b> *Flotador*\
 Color de escala de grises de la línea o forma.\
 *Nota:* Solo está disponible cuando &#39;Estilo de dibujo&#39; está establecido en &#39;Sólido&#39; o &#39;Línea&#39; y &#39;Estilo de línea&#39; está establecido en &#39;Suavizado&#39; o &#39;Sólido&#39;.
 
-<b>Color de fondo</b> *Color flotante* de escala de grises del fondo.\
+<b>Color de fondo</b> *Flotante* Color de fondo en escala de grises.\
 *Nota:* No está disponible cuando &#39;Estilo de dibujo&#39; está establecido en &#39;Línea&#39; y &#39;Estilo de línea&#39; está establecido en &#39;Id. de segmento&#39; o &#39;Degradado a lo largo de la línea&#39;.
 
 ## Ejemplos

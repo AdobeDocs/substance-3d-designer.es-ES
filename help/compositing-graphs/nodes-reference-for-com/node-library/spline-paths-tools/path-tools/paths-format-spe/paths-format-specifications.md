@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Especificaciones de formato de trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -111,7 +111,7 @@ El encabezado de ruta de acceso de la ruta de acceso N se definirá en la direcc
 +++Superior
 <b>X</b>
 
-Número de vértices de este trazado. Debe estar en el intervalo [0, 1677216].
+Número de vértices de este trazado. Debe estar en el intervalo [0, 1677216].
 
 Si los vértices inicial y final de un trazado cerrado están en la misma posición, todavía cuentan para 2 vértices.\
 Una ruta con 0 vértices es una ruta válida de todos modos.

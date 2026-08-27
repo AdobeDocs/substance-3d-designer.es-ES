@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Además, la tecla de acceso rápido para girar la luz del entorno ha cambiado pa
 [Los efectos posteriores han vuelto](../../interface/3d-view/camera/post-effects/post-effects.md). Ahora están disponibles a través del menú Cámara y ahora se desarrollan internamente.
 
 * <b>Bloom:</b> simula el resplandor alrededor de puntos brillantes como luces y reflejos, lo que permite visualizar mejor las superficies emisoras.
-* Asignación de tonos de <b>: </b>el rango de colores con perfiles para obtener un efecto de rango dinámico alto (HDR).
+* Asignación de tonos <b>: </b>Ajusta el rango de color con perfiles para obtener un efecto de rango dinámico alto (HDR).
 * <b>Profundidad de campo:</b> simula las propiedades de enfoque de la lente de una cámara (solo rasterizador).
 
 ![Post FX en Designer 15.0](../../assets/postfx.gif)

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sombreadores GLSLFX
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '3098'
 ht-degree: 1%
@@ -132,7 +132,7 @@ Propiedad <b>Name:</b>
 
 <b>Atributos:</b>
 
-* name: nombre de la propiedad que se va a establecer. El nombre se basa en la función OpenGL o en el nombre glEnum:
+* nombre: Nombre de la propiedad que se va a establecer. El nombre se basa en la función OpenGL o en el nombre glEnum:
   * Sintaxis de ENUM: Sin el prefijo &#39;GL\_&#39;, en minúsculas. Ejemplos: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
   * Sintaxis de funciones: sin el prefijo &#39;gl&#39;, en minúsculas y con todas las palabras separadas por el carácter &#39;\_&#39;. Ejemplo: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 

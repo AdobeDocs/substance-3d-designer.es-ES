@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Relieve
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -78,10 +78,10 @@ Este nodo no se usa con frecuencia para proyectos similares a la PBR, pero puede
 
 |  |  |
 | --- | --- |
-| <b>Intensidad</b> *Flotador* | Ajusta la intensidad global del efecto de iluminación.   Define la intensidad de la iluminación del mapa de &quot;height&quot; y, por lo tanto, la intensidad del efecto de iluminación |
-| <b>Ángulo de luz</b> *Flotador* | Define el ángulo en el que se simula la luz.   Define el ángulo de iluminación del resaltado de la imagen en relieve |
-| <b>Resaltar color</b> *Float/Float4* | Define el color de las áreas orientadas hacia el ángulo de luz.   Establece el color del resaltado si la imagen de entrada es de color. |
-| <b>Color de sombra</b> *Float/Float4* | Define el color de las áreas que miran lejos del ángulo de luz.   Define el color de las regiones sombreadas de la imagen en relieve. |
+| <b>Intensidad</b> *Flotador* | Ajusta la intensidad global del efecto de iluminación.   Define la intensidad de la iluminación del mapa de &quot;height&quot; y, por lo tanto, la intensidad del efecto de iluminación |
+| <b>Ángulo de luz</b> *Flotador* | Define el ángulo en el que se simula la luz.   Define el ángulo de iluminación del resaltado de la imagen en relieve |
+| <b>Resaltar color</b> *Float/Float4* | Define el color de las áreas orientadas hacia el ángulo de luz.   Establece el color del resaltado si la imagen de entrada es de color. |
+| <b>Color de sombra</b> *Float/Float4* | Define el color de las áreas que miran lejos del ángulo de luz.   Define el color de las regiones sombreadas de la imagen en relieve. |
 
 ## Conectores de entrada
 

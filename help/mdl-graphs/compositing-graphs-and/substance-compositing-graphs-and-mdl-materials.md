@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Gráficos de Substance y materiales MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ En esta página se describen las relaciones sinérgicas entre los gráficos de [
 
 Los resultados de los gráficos de Substance se pueden *pasar a los parámetros expuestos* de materiales MDL de dos maneras, que se describen en esta página.
 
-Si el material MDL aplicado actualmente en la vista 3D ha expuesto parámetros de tipo *[variable](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*; este tipo se puede establecer mediante la opción <b>Modificador de tipo</b> en las propiedades del [parámetro expuesto](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), se pueden conectar a *texturas*:
+Si el material MDL aplicado actualmente en la vista 3D ha expuesto parámetros de tipo *[variable](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*; este tipo se puede establecer mediante la opción <b>Modificador de tipo</b> en las propiedades del [parámetro expuesto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), se pueden conectar a *texturas*:
 
 * se puede conectar un parámetro <b>Color</b> a texturas RGBA
 * un parámetro <b>Float</b> para texturas en escala de grises

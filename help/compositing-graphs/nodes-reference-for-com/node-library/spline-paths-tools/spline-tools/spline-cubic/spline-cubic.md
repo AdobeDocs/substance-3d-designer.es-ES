@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (cúbico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -49,9 +49,9 @@ La trayectoria de la spline está controlada por la tangente ‘out’ de <b>p1<
 Posición <b> R</b> - X\
 <b> G</b> - Posición Y\
 <b> B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline</b> *Color* Datos adicionales de las splines de entrada codificadas en los canales RGBA de una imagen en color.\
 <b> R</b> - Tangentes X\
@@ -66,18 +66,18 @@ Posición <b> R</b> - X\
 <b>Vista previa</b> *Escala de grises* Vista previa de las splines de salida como una imagen en escala de grises.
 
 <b>Códigos polinómicos</b> *Color* Coordenadas de los puntos de las splines de salida codificados en los canales RGBA de una imagen en color.\
-    Posición <b>R</b> - X\
-    <b>G</b> - Posición Y\
-    <b>B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+Posición <b>R</b> - X\
+<b>G</b> - Posición Y\
+<b>B</b> - Height\
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline</b> *Color* Datos adicionales de las splines de salida codificadas en los canales RGBA de una imagen en color.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Sin usar\
-    <b>A</b> - Sin usar
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Sin usar\
+<b>A</b> - Sin usar
 
 <b>Cantidad de spline</b> *Entero* Número de splines de salida.
 

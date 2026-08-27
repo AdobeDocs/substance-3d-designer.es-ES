@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Referencia de nodos para gráficos de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 14%
+source-wordcount: '121'
+ht-degree: 16%
 
 ---
 
@@ -35,11 +35,11 @@ Lo que llamamos &quot;nodo&quot; dentro de SD, se puede dividir en 2 grupos prin
 
 [Biblioteca de nodos](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [Generadores de texturas](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
-* [Filtros](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
-* [Filtros de material](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [Generadores basados en malla](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
-* [Herramientas Spline &amp; Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
+* [Generadores de texturas](node-library/texture-generators/texture-generators.md)
+* [Filtros](node-library/filters/filters.md)
+* [Filtros de material](node-library/material-filters/material-filters.md)
+* [Generadores basados en malla](node-library/mesh-based-generators/mesh-based-generators.md)
+* [Herramientas Spline &amp; Paths](node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>
 <td style="border: 0;" valign="top">

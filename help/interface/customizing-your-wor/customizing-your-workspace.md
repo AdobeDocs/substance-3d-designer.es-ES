@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Personalización del espacio de trabajo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Esta página presenta las formas de organizar los paneles en la interfaz de usua
 
 ## Menú de Windows
 
-Este menú le permite administrar los principales elementos de la interfaz de usuario de Designer. Cada opción se describe en la sección <b>Windows</b> de [esta página](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) sobre la barra de herramientas principal. Aquí, proporcionaremos conceptos adicionales relacionados con este menú.
+Este menú le permite administrar los principales elementos de la interfaz de usuario de Designer. Cada opción se describe en la sección <b>Windows</b> de [esta página](../the-main-toolbar/the-main-toolbar.md) sobre la barra de herramientas principal. Aquí, proporcionaremos conceptos adicionales relacionados con este menú.
 
 ### Mostrar u ocultar una vista
 

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ruido de humedad 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -42,26 +42,6 @@ Variación de los sonidos ricos y esponjosos de <b>Moisture</b>.
 Discos de diferente dureza y tamaño y dispersos y añadir o restar del color de abajo, a partir de una base gris.
 
 Consulte también: [Ruido de humedad 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Salidas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parámetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
 
 </td>
 </tr>

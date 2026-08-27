@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Generadores basados en malla
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,9 @@ La categoría recibe su nombre del hecho de que los mapas con bake son la única
 
 Hay tres categorías principales:
 
-* [Generadores de máscaras](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)\
+* [Generadores de máscaras](mask-generators/mask-generators.md)\
   Generadores de máscaras en blanco y negro basados en uno o varios mapas con bake.
-* [Intemperie](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
-  Efectos de intemperismo de materiales completos basados en mapas con bake.
-* [Utilidades](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [Inclemencias meteorológicas](weathering/weathering.md)
+Efectos de intemperismo de materiales completos basados en mapas con bake.
+* [Utilidades](utilities-mesh-based-gen/utilities-mesh-based-generators.md)\
   Utilidades y herramientas adicionales para trabajar con pasteles.

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lista de puntos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -55,12 +55,12 @@ Si se proporciona una lista de puntos existente a las entradas <b>Point</b>, la 
 
 <b>Entrada de lista de puntos</b> *Color*\
 Una lista de puntos de entrada codificados en los canales RGBA de una imagen en color:\
-    Posición <b>R</b> - X\
-    <b>G</b> - Posición Y\
-    <b>B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-            * Parte entera: Smoothness;\
-            * Parte fraccional: Thickness.
+Posición <b>R</b> - X\
+<b>G</b> - Posición Y\
+<b>B</b> - Height\
+<b>A</b> - Datos empaquetados:\
+* Parte entera: Smoothness;\
+* Parte fraccional: Thickness.
 
 <b>Entrada de número de punto</b> *Entero*\
 Número de puntos de entrada.
@@ -71,12 +71,12 @@ Número de puntos de entrada.
 
 <b>Lista de puntos </b>*Color*\
 La lista de salida de puntos codificados en los canales RGBA de una imagen en color:\
-    Posición <b>R</b> - X\
-    <b>G</b> - Posición Y\
-    <b>B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-            * Parte entera: Smoothness;\
-            * Parte fraccional: Thickness.
+Posición <b>R</b> - X\
+<b>G</b> - Posición Y\
+<b>B</b> - Height\
+<b>A</b> - Datos empaquetados:\
+* Parte entera: Smoothness;\
+* Parte fraccional: Thickness.
 
 <b>Número de punto </b>*Entero*\
 Número de puntos de salida.
@@ -102,13 +102,13 @@ El valor de smoothness resultante se fija al rango [0;1].
 +++
 
 +++Vista previa
-<b>Mostrar etiquetas</b> *Boolean*\
+<b>Mostrar etiquetas</b> *Booleano*\
 Para cada punto, muestra el nombre del punto junto a él en la salida &quot;Vista previa&quot;.
 
 <b>Tamaño de etiqueta</b> *Float* (disponible cuando &#39;Mostrar etiquetas&#39; está establecido en &#39;True&#39;)\
 El tamaño de la etiqueta para cada punto en el espacio de textura, donde 0,1 es una décima parte del ancho de la textura.
 
-<b>Mostrar puntos</b> *Boolean*\
+<b>Mostrar puntos</b> *Booleano*\
 Muestra los puntos en la salida de &#39;Vista previa&#39;.
 
 <b>Tamaño de puntos</b> *Float* (disponible cuando &#39;Mostrar puntos&#39; está establecido en &#39;True&#39;)\

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distancia direccional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -71,16 +71,16 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 
 |  |  |
 | --- | --- |
-| <b>Entrada</b> *Escala de grises* PRINCIPAL | Imagen de la que se debe extraer la máscara.   Todos los valores por encima de 0,5 son blancos en esa máscara. |
-| <b>Mapa de distancia</b> *Escala de grises* | Entrada opcional utilizada cuando el valor del parámetro &#39;Multiplicador de Mapa de distancia&#39; es superior a 0.   Se utiliza para ajustar la distancia de biselado/dilatación a lo largo de los bordes de la máscara, donde un valor más oscuro produce una distancia más corta. |
-| <b>Mapa angular</b> *Escala de grises* | Entrada opcional utilizada cuando el valor del parámetro &#39;Angle Map Multiplier&#39; es superior a 0.   Se utiliza para ajustar la dirección del degradado de distancia añadiendo su valor al ángulo de dirección, en número de vueltas.   El parámetro &#39;Desplazamiento de mapa de ángulo&#39; permite reasignar los valores especificando el valor 0. |
+| <b>Entrada</b> *Escala de grises* PRINCIPAL | Imagen de la que se debe extraer la máscara.   Todos los valores por encima de 0,5 son blancos en esa máscara. |
+| <b>Mapa de distancia</b> *Escala de grises* | Entrada opcional utilizada cuando el valor del parámetro &#39;Multiplicador de Mapa de distancia&#39; es superior a 0.   Se utiliza para ajustar la distancia de biselado/dilatación a lo largo de los bordes de la máscara, donde un valor más oscuro produce una distancia más corta. |
+| <b>Mapa angular</b> *Escala de grises* | Entrada opcional utilizada cuando el valor del parámetro &#39;Angle Map Multiplier&#39; es superior a 0.   Se utiliza para ajustar la dirección del degradado de distancia añadiendo su valor al ángulo de dirección, en número de vueltas.   El parámetro &#39;Desplazamiento de mapa de ángulo&#39; permite reasignar los valores especificando el valor 0. |
 
 ## Conectores de salida
 
 |  |  |
 | --- | --- |
 | <b>Salida</b> *Escala de grises* | La imagen resultante según el &#39;Modo de salida&#39; seleccionado. |
-| <b>UV</b> *Color* | Un mapa UV en el que las coordenadas UV se dilatan a partir de los bordes de la máscara en la dirección especificada.   Se puede conectar a un nodo [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) para asignar cualquier otra imagen con estas UV dilatadas. |
+| <b>UV</b> *Color* | Un mapa UV en el que las coordenadas UV se dilatan a partir de los bordes de la máscara en la dirección especificada.   Se puede conectar a un nodo [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) para asignar cualquier otra imagen con estas UV dilatadas. |
 
 ## Parámetros
 
@@ -89,9 +89,9 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 | <b>Modo de salida</b> *Entero* | El método para dibujar el degradado de distancia desde los bordes de la máscara:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Distancia normalizada invertida:</b> Un degradado de 1 a 0 donde se alcanza 0 en la &#39;Distancia máxima&#39;, multiplicado por el &#39;Mapa de distancia&#39; si está conectado</li> <li data-preserve-html="true"><b>Distancia:</b> Degradado de valores de distancia sin formato desde el borde de la máscara, donde 1 es la longitud del lado más corto de la imagen de entrada</li> </ul> |
 | <b>Distancia máxima</b> *Flotador* | La distancia recorrida por el degradado de distancia, en el espacio de imagen normalizado, donde 1 es la longitud del lado más corto de la imagen de entrada. |
 | <b>Ángulo</b> *Flotador* | La dirección del degradado de distancia en número de vueltas, donde 0 es horizontal y a la derecha, es decir, un vector (1,0). |
-| <b>Multiplicador de Mapa de distancia</b> *Flotador* | Ajusta el impacto del Mapa de distancia sobre la distancia máxima.   Nota: Este parámetro no tiene efecto cuando la entrada &quot;Mapa de distancia&quot; no está conectada. |
+| <b>Multiplicador de Mapa de distancia</b> *Flotador* | Ajusta el impacto del Mapa de distancia sobre la distancia máxima.   Nota: Este parámetro no tiene efecto cuando la entrada &quot;Mapa de distancia&quot; no está conectada. |
 | <b>Multiplicador de mapa de ángulo</b> *Flotador* | Ajusta el impacto del &#39;Mapa de ángulo&#39; sobre el &#39;Ángulo&#39;. |
-| <b>Desplazamiento de mapa de ángulo</b> *Flotador* | Reasigna los valores del &#39;Mapa de ángulos&#39; especificando qué valor de ese mapa debe ser 0.   Por ejemplo, un desplazamiento de 0,5 significa que un valor de 0,75 es 0,25 vueltas y un valor de 0,3 es -0,2 vueltas. |
+| <b>Desplazamiento de mapa de ángulo</b> *Flotador* | Reasigna los valores del &#39;Mapa de ángulos&#39; especificando qué valor de ese mapa debe ser 0.   Por ejemplo, un desplazamiento de 0,5 significa que un valor de 0,75 es 0,25 vueltas y un valor de 0,3 es -0,2 vueltas. |
 
 ## Ejemplos
 

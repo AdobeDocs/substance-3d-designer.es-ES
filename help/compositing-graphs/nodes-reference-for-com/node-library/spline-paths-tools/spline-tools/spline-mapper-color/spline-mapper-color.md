@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color del asignador de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -57,9 +57,9 @@ El nodo emite la imagen asignada como una imagen en color, así como otra inform
 Posición <b> R</b> - X\
 <b> G</b> - Posición Y\
 <b> B</b> - Height\
-    <b>A</b> - Datos empaquetados:\
-        * Firmar: La spline está cerrada (negativa) o abierta (positiva);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Datos empaquetados:\
+* Firmar: La spline está cerrada (negativa) o abierta (positiva);\
+* Valor absoluto: Thickness + 1.
 
 <b>Datos de spline</b> *Color* Datos adicionales de las splines de entrada codificadas en los canales RGBA de una imagen en color.\
 <b> R</b> - Tangentes X\
@@ -129,7 +129,7 @@ El valor representa la longitud normalizada de la spline.
 <b>Multiplicador de Height del cilindro</b> *Float* (Disponible cuando &#39;Shape&#39; está establecido en &#39;Half Cylinder&#39; o &#39;Cylinder&#39;)Un multiplicador para la intensidad de la contribución de height del cilindro en la salida de Height.\
 Los ajustes de height son acumulativos.
 
-<b>Desplazamiento del Height del cilindro</b> *Flotador* (disponible cuando &quot;Forma&quot; está establecido en &quot;Medio cilindro&quot; o &quot;Cilindro&quot;) \
+<b>Desplazamiento del Height del cilindro</b> *Flotador* (disponible cuando &quot;Shape&quot; está establecido en &quot;Half Cylinder&quot; o &quot;Cylinder&quot;)\
 Desplaza el centro del perfil de forma Cilindro o Medio cilindro desde la superficie de la spline hasta un diámetro debajo de la superficie.
 
 <b>Intensidad de giro UV</b> *Flotador* (disponible cuando ‘Shape’ está establecido en ‘Half Cylinder’ o ‘Cylinder’)El giro de las coordenadas de imagen alrededor del cilindro, en número de vueltas.\

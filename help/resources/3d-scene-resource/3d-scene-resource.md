@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Recurso de escena 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ La vinculación de una escena 3D en el paquete es la única forma de [eliminar l
 * Haga clic en *RMB* en un paquete y seleccione la opción <b>Vínculo > Malla 3D</b> en el menú contextual
 * Elija cualquier archivo de escena 3D compatible
 * Si aparece el aviso del cuadro de diálogo <b>Vincular como malla Udim</b>, haz clic en *No* a menos que quieras hornear mosaicos UV
-* Con el recurso cargado en [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), haz clic en *RMB* y selecciona la opción <b>Bake Model Information</b> en el menú contextual
+* Con el recurso cargado en [Explorer](../../interface/the-explorer-window/the-explorer-window.md), haz clic en *RMB* y selecciona la opción <b>Bake Model Information</b> en el menú contextual
 * Aparece el cuadro de diálogo [Información del modelo de horneado](../../bakers/bakers.md) para que configure y ejecute los horneados de los mapas de malla
 
 ![Mapas de malla de cocción](../../assets/bake-model-information.gif "Mapas de malla de cocción"){width="512px"}

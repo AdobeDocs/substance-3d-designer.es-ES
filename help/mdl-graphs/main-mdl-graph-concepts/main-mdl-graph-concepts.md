@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Conceptos principales de gráficos MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ El nodo raíz incluye una miniatura que muestra una vista previa de su resultado
 
 ![Nodo raíz del gráfico MDL](../../assets/mdl-root-hl.png "Nodo raíz del gráfico MDL")
 
-*Nodo raíz en un gráfico MDL y sus propiedades se muestran en el [panel](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* de *Propiedades*
+*Nodo raíz en un gráfico MDL y sus propiedades se muestran en el [panel de propiedades](../../interface/properties/properties.md)**4&rbrace;*
 
 ## Conectores y tipos
 

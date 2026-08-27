@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ruido gaussiano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 2%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
@@ -40,26 +40,6 @@ ht-degree: 2%
 Ruido suave derivado de la combinación de degradados en los que los valores pasan de negro a blanco después de una distribución normal, similar a la curva de una campana.
 
 Consulte también: [Manchas gaussianas 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md), [Manchas gaussianas 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Salidas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parámetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
 
 </td>
 </tr>

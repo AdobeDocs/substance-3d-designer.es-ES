@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Herencia en gráficos de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Esto debería permitirte apreciar cómo los cambios en *un nodo* pueden afectar 
 
 ### Cambio de métodos de herencia
 
-En el panel [Propiedades](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), todos los parámetros enumerados en la sección [Parámetros base](../../compositing-graphs/graph-parameters/graph-parameters.md) de las propiedades de un nodo tienen un botón desplegable (icono) <b>Establecer método de herencia</b> frente a su etiqueta.\
+En el panel Propiedades, todos los parámetros enumerados en la sección [Parámetros base](../../compositing-graphs/graph-parameters/graph-parameters.md) de las propiedades de un nodo tienen un botón desplegable (icono) <b>Establecer método de herencia</b> frente a su etiqueta.\
 Este botón le permite seleccionar el método de herencia que debe utilizarse para un parámetro.
 
 ![Cambiando método de herencia](../../assets/inheritance-change.gif "Cambiando método de herencia"){width="512px"}

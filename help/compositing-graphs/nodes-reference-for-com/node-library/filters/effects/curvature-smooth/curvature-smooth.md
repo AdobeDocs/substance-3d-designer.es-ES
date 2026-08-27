@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curvatura suave
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -78,9 +78,9 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 
 |  |  |
 | --- | --- |
-| <b>Curvatura</b> *Escala de grises* | Mapa de curvatura calculado a partir del mapa normal de entrada.   Las áreas planas son 50% grises. Las áreas convexas son más brillantes, mientras que las áreas cóncavas son más oscuras. |
-| <b>Convexidad</b> *Escala de grises* | Mapa de convexidad calculado a partir del mapa normal de entrada.   Cuanto más convexa es una zona, más brillante es en el mapa.  Las áreas planas o cóncavas son negras. |
-| <b>Concavidad</b> *Escala de grises* | Mapa de concavidad calculado a partir del mapa normal de entrada.   Cuanto más cóncava es una zona, más brillante es en el mapa.  Las áreas planas o convexas son negras. |
+| <b>Curvatura</b> *Escala de grises* | Mapa de curvatura calculado a partir del mapa normal de entrada.   Las áreas planas son 50% grises. Las áreas convexas son más brillantes, mientras que las áreas cóncavas son más oscuras. |
+| <b>Convexidad</b> *Escala de grises* | Mapa de convexidad calculado a partir del mapa normal de entrada.   Cuanto más convexa es una zona, más brillante es en el mapa.  Las áreas planas o cóncavas son negras. |
+| <b>Concavidad</b> *Escala de grises* | Mapa de concavidad calculado a partir del mapa normal de entrada.   Cuanto más cóncava es una zona, más brillante es en el mapa.  Las áreas planas o convexas son negras. |
 
 ## Parámetros
 

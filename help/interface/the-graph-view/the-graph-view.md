@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vista de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3558'
 ht-degree: 0%
 
 ---
@@ -387,7 +387,7 @@ Control <b>Timings de ![](../../assets/image2020-6-26-16-33-35.png)\
 </b>*- Limpiar:* Quita todos los nodos que forman parte de una secuencia no conectada a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *: exportar resultados:* Abre la [interfaz de exportación de mapa de bits](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *: volver a exportar resultados:* Vuelve a realizar la operación de exportación anterior.\
-*- Exportador del PSD:* Abre[la interfaz del exportador del PSD.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- Exportador de PSD:* Abre la interfaz [Exportador de PSD](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Caché de imágenes de nodo\
 </b>Alterna la visualización del conmutador de caché de imagen de nodo, consulte a continuación.

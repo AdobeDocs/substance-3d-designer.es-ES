@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline (cuadrático)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 |  |  |
 | --- | --- |
 | <b>Vista previa</b> *Escala de grises* | Vista previa de las splines de entrada como una imagen en escala de grises. |
-| <b>Códigos polinómicos</b> *Color* | Las coordenadas de los puntos de las splines de entrada codificados en los canales RGBA de una imagen en color: <b>R</b> - Posición X <b>G</b> - Posición Y <b>B</b> - Height <b>A</b> - Datos empaquetados:          - Firma: La spline está cerrada (negativa) o abierta (positiva);          - Valor absoluto: Thickness + 1. |
+| <b>Códigos polinómicos</b> *Color* | Las coordenadas de los puntos de las splines de entrada codificados en los canales RGBA de una imagen en color: <b>R</b> - Posición X <b>G</b> - Posición Y <b>B</b> - Height <b>A</b> - Datos empaquetados:          - Firma: La spline está cerrada (negativa) o abierta (positiva);          - Valor absoluto: Thickness + 1. |
 | <b>Datos de spline</b> *Color* | Datos adicionales de las splines de entrada codificadas en los canales RGBA de una imagen en color:  <b>R</b> - Tangentes X <b>G</b> - Tangentes Y <b>B</b> - Tangentes Z <b>A</b> - Sin Usar |
 | <b>Cantidad de spline</b> *Entero* | Número de splines de entrada. |
 
@@ -57,7 +57,7 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 |  |  |
 | --- | --- |
 | <b>Vista previa</b> *Escala de grises* | Vista previa de las splines de salida como una imagen en escala de grises. |
-| <b>Códigos polinómicos</b> *Color* | Las coordenadas de los puntos de las splines de salida codificados en los canales RGBA de una imagen en color:  <b>R</b> - Posición X <b>G</b> - Posición Y <b>B</b> - Height <b>A</b> - Datos empaquetados:          - Firma: La spline está cerrada (negativa) o abierta (positiva);          - Valor absoluto: Thickness + 1. |
+| <b>Códigos polinómicos</b> *Color* | Las coordenadas de los puntos de las splines de salida codificados en los canales RGBA de una imagen en color:  <b>R</b> - Posición X <b>G</b> - Posición Y <b>B</b> - Height <b>A</b> - Datos empaquetados:          - Firma: La spline está cerrada (negativa) o abierta (positiva);          - Valor absoluto: Thickness + 1. |
 | <b>Datos de spline</b> *Color* | Datos adicionales de las splines de salida codificadas en los canales RGBA de una imagen en color:  <b>R</b> - Tangentes X <b>G</b> - Tangentes Y <b>B</b> - Tangentes Z <b>A</b> - Sin Usar |
 | <b>Cantidad de spline</b> *Entero* | Número de splines de salida. |
 
@@ -78,7 +78,7 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 | <b>Iniciar height</b> *Flotador* | Ajusta el height del punto <b>p1</b> en el que un valor inferior significa una ubicación más baja o más profunda.  Esto afecta al height de la spline en <b>p1</b>. |
 | <b>Finalizar height</b> *Flotador* | Ajusta el height del punto <b>p3</b> en el que un valor inferior significa una ubicación más baja o más profunda.  Esto afecta al thickness de la spline en <b>p3</b>. |
 | <b>height de tangente automática</b> *Booleano* | Ajusta el height del punto <b>p3</b> en el que un valor inferior significa una ubicación más baja o más profunda.  Esto afecta al thickness de la spline en <b>p3</b>. |
-| <b>height Tangent</b> *Flotador* | Ajusta el height controlado por las tangentes controladas por el punto <b>p2</b>.  Esto afecta al height a lo largo de la spline a medida que se aleja de <b>p1</b> y se adentra en <b>p3</b>.   *Nota:* Este parámetro solo está disponible cuando <b>height de tangente automática</b> está establecido en &#39;False&#39;. |
+| <b>height Tangent</b> *Flotador* | Ajusta el height controlado por las tangentes controladas por el punto <b>p2</b>.  Esto afecta al height a lo largo de la spline a medida que se aleja de <b>p1</b> y se adentra en <b>p3</b>.   *Nota:* Este parámetro solo está disponible cuando <b>height de tangente automática</b> está establecido en &#39;False&#39;. |
 
 
 +++
@@ -87,8 +87,8 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 
 |  |  |
 | --- | --- |
-| <b>Iniciar thickness</b> *Flotador* | Ajusta el thickness del punto <b>p1</b>. Esto afecta al thickness de la spline en <b>p1</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos. |
-| <b>Finalizar thickness</b> *Flotador* | Ajusta el thickness del punto <b>p3</b>. Esto afecta al thickness de la spline en <b>p3</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos. |
+| <b>Iniciar thickness</b> *Flotador* | Ajusta el thickness del punto <b>p1</b>. Esto afecta al thickness de la spline en <b>p1</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos. |
+| <b>Finalizar thickness</b> *Flotador* | Ajusta el thickness del punto <b>p3</b>. Esto afecta al thickness de la spline en <b>p3</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos. |
 | <b>thickness de tangente automática</b> *Booleano* | Establece automáticamente el thickness de las tangentes polinomiales para que se interpolen linealmente desde el <b>Thickness inicial</b> hasta el <b>Thickness final</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos. |
 | <b>thickness Tangent</b> *Flotador* | Ajusta el thickness controlado por las tangentes controladas por el punto <b>p2</b>.  Esto afecta al thickness a lo largo de la spline a medida que se aleja de <b>p1</b> y se adentra en <b>p3</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos.  *Nota 2:* Este parámetro solo está disponible cuando <b>thickness de tangente automática</b> está establecido en &#39;False&#39;. |
 
@@ -110,7 +110,7 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 
 |  |  |
 | --- | --- |
-| <b>Mostrar tangentes</b> *Booleano* | Muestra la tangente del punto de salida <b>p1</b> y la tangente del punto de entrada <b>p3</b> en la salida <b>Preview</b>. Invierte la dirección de la spline. |
+| <b>Mostrar tangentes</b> *Booleano* | Muestra la tangente del punto de salida <b>p1</b> y la tangente del punto de entrada <b>p3</b> en la salida <b>Preview</b>.Invierte la dirección de la spline. |
 | <b>Mostrar ayuda de dirección</b> *Booleano* | Muestra un punto al principio de la spline y una punta de flecha al final en la salida <b>Preview</b>. |
 | <b>Mostrar envolvente de thickness</b> *Booleano* | Muestra líneas adicionales en los bordes del thickness de la spline. |
 | <b>Importe de segmentos</b> *Entero* | Ajusta el número de segmentos utilizados para dibujar la visualización de spline en la salida de <b>Preview</b>.  Un valor más alto produce una línea más suave. |

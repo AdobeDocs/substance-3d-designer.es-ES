@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Asignador de formas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 3%
@@ -88,8 +88,8 @@ La proyección deforma la imagen para que siga el contorno de la forma y hace qu
 | --- | --- |
 | Entero <b>Shape</b> | Define el tipo de forma a lo largo de la cual se deben colocar los patrones:<ul data-preserve-html="true"> <li data-preserve-html="true">Círculo</li> <li data-preserve-html="true">Polígono</li> </ul> |
 | <b>Cantidad de patrón</b> Entero | Cantidad de patrones colocados a lo largo de la forma seleccionada. |
-| <b>Vincular segmentos con cantidad de patrón</b> Booleano *Disponible cuando &#39;Shape&#39; está establecido en &#39;Polygon&#39;* | Utilice <b>Importe de patrón</b> como número de <b>segmentos</b>.   Esto evita que los patrones se ajusten alrededor de las esquinas, lo que garantiza un aspecto recto y coherente. |
-| <b>Segmentos</b> Entero *Disponible cuando &#39;Forma&#39; está establecido en &#39;Polígono&#39; y &#39;Vincular segmentos con cantidad de patrón&#39; está establecido en &#39;Falso&#39;* | Cantidad de segmentos del polígono a lo largo de los cuales se colocan los patrones.   Los segmentos tienen *un tamaño uniforme* y todos los vértices están *equidistantes del centro*, por lo que al aumentar la cantidad de segmentos, el polígono converge hacia un círculo. |
+| <b>Vincular segmentos con cantidad de patrón</b> Booleano *Disponible cuando &#39;Shape&#39; está establecido en &#39;Polygon&#39;* | Utilice <b>Importe de patrón</b> como número de <b>segmentos</b>.   Esto evita que los patrones se ajusten alrededor de las esquinas, lo que garantiza un aspecto recto y coherente. |
+| <b>Segmentos</b> Entero *Disponible cuando &#39;Forma&#39; está establecido en &#39;Polígono&#39; y &#39;Vincular segmentos con cantidad de patrón&#39; está establecido en &#39;Falso&#39;* | Cantidad de segmentos del polígono a lo largo de los cuales se colocan los patrones.   Los segmentos tienen *un tamaño uniforme* y todos los vértices están *equidistantes del centro*, por lo que al aumentar la cantidad de segmentos, el polígono converge hacia un círculo. |
 | Flotador <b>Radius</b> | Un multiplicador para el radio de la forma, donde 1.0 es la mitad de la longitud del lado más corto de la imagen. |
 | <b>Ancho</b> Flotante | Un multiplicador para la anchura de los patrones a lo largo de la forma, donde 1.0 es la mitad de la longitud del lado más corto de la imagen. |
 | Flotador <b>Rotation</b> | Cantidad de rotación aplicada a la forma, en número de vueltas en el sentido de las agujas del reloj desde la derecha horizontal. |

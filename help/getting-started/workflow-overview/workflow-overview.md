@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Descripción general del flujo de trabajo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Substance 3D Designer es un editor basado en nodos. Esto significa que casi todo
 
 ## Flujo de trabajo basado en nodos
 
-Trabajar en Designer es diferente a otros programas de edición de imágenes en 2D como Photoshop. En lugar de realizar una acción manualmente (como ajustar la saturación yendo a una opción de menú y cambiando un regulador), <b>creas los pasos lógicos</b> de editar o crear tu imagen. Esto sucede al crear una red de pequeños bloques de creación, llamada &quot;[Nodes](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)&quot;. Los datos de la imagen viajan de <b> de izquierda a derecha</b> a través de los bloques de creación, conectados mediante vínculos que determinan la ruta de la información. Cada nodo, si está conectado, contribuirá a los resultados finales.
+Trabajar en Designer es diferente a otros programas de edición de imágenes en 2D como Photoshop. En lugar de realizar una acción manualmente (como ajustar la saturación yendo a una opción de menú y cambiando un regulador), <b>creas los pasos lógicos</b> de editar o crear tu imagen. Esto sucede al construir una red de pequeños bloques de construcción llamados &#39;nodos&#39;. Los datos de la imagen viajan de <b> de izquierda a derecha</b> a través de los bloques de creación, conectados mediante vínculos que determinan la ruta de la información. Cada nodo, si está conectado, contribuirá a los resultados finales.
 
 La principal ventaja es que el flujo de trabajo se convierte en <b>no lineal</b>. A diferencia de las acciones realizadas manualmente que entran en una pila de historial, siempre puede intercambiar o modificar un nodo en cualquier momento. Si decides que tu primer ajuste de Contraste, que afectó al resultado de tu imagen hasta el final, fue demasiado, puedes volver atrás y ajustarlo o incluso recortarlo por completo, sin perder todo el trabajo que realizaste después.
 
@@ -129,7 +129,7 @@ Este ejemplo utiliza [Modos de creación de vínculos](../../interface/the-graph
 
 Las funciones <b>procesan valores únicos</b> (enteros, flotantes, vectores) en lugar de datos de imagen (conjuntos completos de píxeles). Las funciones también son gráficos con redes de nodos, pero se utilizan [nodos](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) y la interfaz es diferente de los [gráficos de Substance normales](../../compositing-graphs/substance-compositing-graphs.md). El flujo de trabajo se basa completamente en <b>operaciones matemáticas</b> y no muestra miniaturas de vista previa de imágenes, lo que lo convierte en una forma <b>mucho más avanzada de trabajar</b> con Substance 3D Designer.
 
-Las funciones se pueden usar en muchos contextos diferentes, los principales son para modificar el comportamiento de [un parámetro expuesto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), para crear el comportamiento de [procesadores de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) o [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) y para usar [valores en un gráfico.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+Las funciones se pueden usar en muchos contextos diferentes, los principales son para modificar el comportamiento de [un parámetro expuesto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), para crear el comportamiento de [procesadores de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) o [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) y para usar [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) en un gráfico de Substance.
 
 </td>
 </tr>

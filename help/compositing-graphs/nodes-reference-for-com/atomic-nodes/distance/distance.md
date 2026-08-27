@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distancia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -84,16 +84,16 @@ Consulte los siguientes [ejemplos](#examples) para obtener más información.
 
 |  |  |
 | --- | --- |
-| <b>Modo de color</b> *Booleano* | Alterna entre una imagen de salida en escala de grises y en color. También cambia el tipo de entrada &quot;Entrada de origen&quot;. |
+| <b>Modo de color</b> *Booleano* | Alterna entre una imagen de salida en escala de grises y en color. También cambia el tipo de entrada &quot;Entrada de origen&quot;. |
 | <b>Distancia máxima</b> *Flotador* | Ajusta la distancia máxima para detectar el borde más cercano de la máscara, en píxeles. |
-| <b>Combinar origen/distancia</b> *Booleano* | Determine cómo se combina la &#39;entrada de origen&#39; opcional con las celdas finales.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combinar:</i> Combina el valor de &quot;entrada de origen&quot; con la máscara lineal de atenuación. Si la entrada &quot;Source input&quot; está conectada, su valor se combina con la distancia calculada.</li> <li data-preserve-html="true"><i>Solo origen:</i> Solo genera color sólido a partir de la &#39;entrada de origen&#39;.</li> </ul> |
+| <b>Combinar origen/distancia</b> *Booleano* | Determine cómo se combina la &#39;entrada de origen&#39; opcional con las celdas finales.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combinar:</i> Combina el valor de &quot;entrada de origen&quot; con la máscara lineal de atenuación. Si la entrada &quot;Source input&quot; está conectada, su valor se combina con la distancia calculada.</li> <li data-preserve-html="true"><i>Solo origen:</i> Solo genera color sólido a partir de la &#39;entrada de origen&#39;.</li> </ul> |
 | <b>Modo de distancia</b> *Entero* | Selecciona el método que calcula la distancia al borde más cercano de la máscara extraída:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Suma de diferencias X/Y cuadradas.</li> <li data-preserve-html="true"><i>Manhattan:</i> Suma de valores absolutos de diferencias X/Y.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Máximo de valores absolutos de diferencias X/Y.</li> </ul>  <div><img alt="Ejemplos del modo Distancia" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Ejemplos del modo Distancia"/></div> |
 
 ## Conectores de entrada
 
 |  |  |
 | --- | --- |
-| <b>Entrada de máscara</b> *Escala de grises* PRINCIPAL | Una máscara de escala de grises, cuyos bordes deben calcularse como un valor de distancia.   Se extrae una máscara binaria de la imagen, utilizando un valor de umbral de 0,5, donde todos los valores por encima de este umbral son blancos y todos los valores por debajo son negros. |
+| <b>Entrada de máscara</b> *Escala de grises* PRINCIPAL | Una máscara de escala de grises, cuyos bordes deben calcularse como un valor de distancia.   Se extrae una máscara binaria de la imagen, utilizando un valor de umbral de 0,5, donde todos los valores por encima de este umbral son blancos y todos los valores por debajo son negros. |
 | <b>Entrada de origen</b> *Color/Escala de grises* | Imagen en escala de grises opcional desde la que se debe copiar el valor de píxel en el borde más cercano de &quot;Entrada de máscara&quot;. |
 
 ## Conectores de salida

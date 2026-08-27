@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aplicar paleta de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -69,8 +69,8 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Cuantific
 
 |  |  |
 | --- | --- |
-| <b>ID</b> *Escala de grises* PRINCIPAL | Mapa de ID de entrada utilizado para distribuir los colores en la paleta de entrada.   Un mapa de ID es una imagen en la que los píxeles que forman parte de un todo (por ejemplo, una forma) tienen el mismo valor de identificación único. En este caso, el valor es un entero.   Se puede generar una asignación de ID usando un nodo [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
-| <b>Paleta</b> *Color* | Una lista ordenada de colores de RGB codificados como una fila de píxeles. La paleta puede contener un máximo de 256 colores. Esta es la paleta que el nodo asigna a los índices de la asignación de ID.   Las paletas se pueden producir con un nodo [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) y modificarse con un nodo [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
+| <b>ID</b> *Escala de grises* PRINCIPAL | Mapa de ID de entrada utilizado para distribuir los colores en la paleta de entrada.   Un mapa de ID es una imagen en la que los píxeles que forman parte de un todo (por ejemplo, una forma) tienen el mismo valor de identificación único. En este caso, el valor es un entero.   Se puede generar una asignación de ID usando un nodo [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
+| <b>Paleta</b> *Color* | Una lista ordenada de colores de RGB codificados como una fila de píxeles. La paleta puede contener un máximo de 256 colores. Esta es la paleta que el nodo asigna a los índices de la asignación de ID.   Las paletas se pueden producir con un nodo [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) y modificarse con un nodo [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
 
 ## Conectores de salida
 

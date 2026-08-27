@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vista 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3514'
 ht-degree: 1%
 
 ---
@@ -128,9 +128,9 @@ Puede ver materiales enteros como un material completo en la vista 3D. Esta es l
 
 Para ver todas las salidas de un gráfico, haga clic en *RMB* en un área vacía de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) y seleccione la opción **Ver salidas en vista 3D** en el menú contextual.
 
-También puedes ver los resultados de un gráfico sin tener que abrirlo, haciendo clic en RMB en un recurso de gráfico en el dock de [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y eligiendo la opción **Ver resultados en vista 3D** en el menú contextual.
+También puedes ver los resultados de un gráfico sin tener que abrirlo, haciendo clic en RMB en un recurso de gráfico en el dock de [Explorer](../the-explorer-window/the-explorer-window.md) y eligiendo la opción **Ver resultados en vista 3D** en el menú contextual.
 
-Como alternativa al menú contextual del gráfico, puedes obtener el mismo resultado arrastrando el gráfico desde el dock de [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) hasta la [vista 3D](https://substance3d.adobe.com/).
+Como alternativa al menú contextual del gráfico, puede obtener el mismo resultado arrastrando el gráfico desde el conjunto acoplado de [Explorer](../the-explorer-window/the-explorer-window.md) a la vista 3D.
 
 Al *cargar un gráfico*, sus resultados se aplican automáticamente en la vista 3D de forma predeterminada. Puede deshabilitar este comportamiento en [Preferencias](../../interface/preferences-window/preferences-window.md). Vaya a **Editar > Preferencias > Gráfico > Común** y desmarque la opción **Ver resultados en vista 3D al abrir un gráfico**.
 
@@ -150,7 +150,7 @@ Puedes ver cualquier nodo, no solo los nodos de salida, haciendo clic con el bot
 
 También puedes usar *RMB* para arrastrar y soltar cualquier nodo de la vista de gráfico a la vista 3D. Se le mostrará una lista con los canales disponibles para asignar el nodo. Haga clic en cualquiera para confirmar.
 
-Puede ver cualquier resultado de gráfico individual expandiendo el recurso de gráfico en el conjunto acoplado [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y usando *LMB* para arrastrar ese resultado a la vista 3D. Se le mostrará una lista con los canales disponibles para asignar el nodo. Haga clic en cualquiera para confirmar.
+Puede ver cualquier resultado de gráfico individual expandiendo el recurso de gráfico en el conjunto acoplado [Explorer](../the-explorer-window/the-explorer-window.md) y usando *LMB* para arrastrar ese resultado a la vista 3D. Se le mostrará una lista con los canales disponibles para asignar el nodo. Haga clic en cualquiera para confirmar.
 
 ![Visualización de mallas 3D personalizadas](../../assets/3d-mesh.gif "Visualización de mallas 3D personalizadas")
 
@@ -266,7 +266,7 @@ El menú <b>Escena</b> trata de la geometría (recurso 3D) mostrada y de los est
 
 * Toro
 
-<b>Mostrar UV en vista 2D:</b> Habilita la visualización de las UV de la malla seleccionada actualmente como superposición en [la vista 2D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
+<b>Mostrar UV en vista 2D:</b> Habilita la visualización de las UV de la malla seleccionada actualmente como superposición en la [vista 2D](../2d-view/2d-view.md).
 
 <b>Crear recurso 3D a partir de la escena actual...:</b> Crea un nuevo [recurso de escena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) en un paquete a partir de la escena actual.
 

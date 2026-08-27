@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Gráficos MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Al crear materiales, puedes usar el propio procesador [Iray](../interface/3d-vie
 Los gráficos MDL son complementarios de los [gráficos de Substance](../compositing-graphs/substance-compositing-graphs.md), ya que estos últimos generan *texturas* que el material MDL puede *muestrear* para afectar a su comportamiento y apariencia.
 
 Sugerimos revisar las secciones de esta documentación *en orden* para obtener una ruta de aprendizaje guiada, comenzando por las propiedades de un recurso de gráfico MDL, justo debajo.\
-¿Estás ansioso por saltar? Empieza a usar gráficos MDL en la sección [Recursos de aprendizaje MDL](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html).
+¿Estás ansioso por saltar? Comience con los gráficos MDL en la sección de recursos de aprendizaje MDL.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Sugerimos revisar las secciones de esta documentación *en orden* para obtener u
 
 ![Propiedades de gráfico MDL](../assets/mdl-main.png "Propiedades de gráfico MDL")
 
-*Propiedades de gráfico MDL en el panel [Propiedades](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)*
+*Propiedades de gráfico MDL en el panel Propiedades*
 
 ## Propiedades del gráfico MDL
 
@@ -89,7 +89,7 @@ Nota: Las propiedades marcadas con un asterisco (\*) son anotaciones MDL que deb
 
 ### Entradas de gráficos
 
-En esta sección se enumeran los parámetros interactivos conectados a [parámetros expuestos](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) del gráfico MDL y se definen sus *valores predeterminados*. Se pueden *reorganizar* y *reordenar* en cualquier momento.
+En esta sección se enumeran los parámetros interactivos conectados a los parámetros expuestos del gráfico MDL y se definen sus *valores predeterminados*. Se pueden *reorganizar* y *reordenar* en cualquier momento.
 
 La interfaz y el comportamiento de estas entradas están definidos por el *tipo de valor* y los *rangos* de los parámetros expuestos a los que están conectadas. Por ejemplo:
 
