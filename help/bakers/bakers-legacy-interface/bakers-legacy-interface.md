@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la interfaz heredada de los panaderos de Substance 3D Designer para usuarios familiarizados con las versiones anteriores.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Interfaz heredada de Bakers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '380'
+ht-degree: 4%
 
 ---
 
@@ -24,25 +24,25 @@ Esta es la descripción de la interfaz baker disponible en las versiones de [Ado
 
 ## Información general
 
-![](../../assets/image2017-3-13-9-33-40.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-33-40.png)
 
 El panel panadero se divide en 4 partes:
 
 ### 1: Escena
 
-![](../../assets/image2017-3-13-9-35-53.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-35-53.png)
 
 Permite definir qué parte de la malla participa en el proceso de cocción.
 
 Nuevo en la versión 6, también puede seleccionar por material:
 
-![](../../assets/image2017-3-13-9-45-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-45-26.png)
 
 ### 2: Panaderos
 
-![](../../assets/image2017-3-13-9-46-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-46-26.png)
 
-Pulsando el botón ![](../../assets/image2017-3-13-9-47-47.png), puede agregar los panaderos deseados a la lista de procesamiento
+Pulsando el botón ![](bakers-legacy-interface.resources/image2017-3-13-9-47-47.png), puede agregar los panaderos deseados a la lista de procesamiento
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ Pulsando el botón ![](../../assets/image2017-3-13-9-47-47.png), puede agregar l
 
 Al hacer clic en el signo &quot;+&quot; en el diseño de los panaderos, puede añadir los panaderos en una pila (puede colocar tantos panaderos como desee en una pila).
 
-.![](../../assets/image2017-3-13-9-52-8.png)
+.![](bakers-legacy-interface.resources/image2017-3-13-9-52-8.png)
 
-Puede quitar un proceso de procesamiento de la lista presionando ![](../../assets/image2017-3-13-9-54-33.png)
+Puede quitar un proceso de procesamiento de la lista presionando ![](bakers-legacy-interface.resources/image2017-3-13-9-54-33.png)
 
-Puede reordenar la lista de procesos bancarios seleccionando un proceso bancario y usando ![](../../assets/image2017-3-13-9-55-33.png)
+Puede reordenar la lista de procesos bancarios seleccionando un proceso bancario y usando ![](bakers-legacy-interface.resources/image2017-3-13-9-55-33.png)
 
 ### 3: Parámetros de panaderos
 
-![](../../assets/image2017-3-13-13-24-0.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-24-0.png)
 
 En esta sección se muestran las opciones específicas para el panadero seleccionado actualmente.
 
 ### 4: Parámetros comunes
 
-![](../../assets/image2017-3-13-13-28-12.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-28-12.png)
 
 Muestra los parámetros que se comparten entre panaderos.
 
@@ -80,6 +80,6 @@ Muestra los parámetros que se comparten entre panaderos.
 
 Pulsando el botón OK en la parte inferior derecha de la ventana de panadería se iniciará el proceso de panadería.
 
-Novedad en la versión 6: ahora puede cancelar el proceso de procesamiento con el botón cancelar:
+Novedad en la versión 6: ahora puede cancelar el proceso de hacer un bake con el botón cancelar:
 
-![](../../assets/image2017-3-13-13-50-4.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-50-4.png)

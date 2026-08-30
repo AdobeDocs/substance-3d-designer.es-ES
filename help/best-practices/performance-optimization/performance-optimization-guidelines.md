@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Conozca las directrices de optimización del rendimiento de Substance 3D Designer para mejorar el rendimiento de los gráficos y reducir el tiempo de procesamiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Directrices de optimización del rendimiento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -143,9 +143,9 @@ De esta manera, el tamaño del mapa de bits cambiará en función del gráfico p
 >
 > Si se establece un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) en &quot;Relativo al principal&quot; y se [publica](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) el gráfico en un recurso de Substance 3D (SBSAR), el mapa de bits se guardará con una resolución de **256x256** en lugar de su tamaño original. En su lugar, se recomienda mantener el [método de herencia](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) de los nodos de mapa de bits&#39; [Tamaño de salida](../../compositing-graphs/output-size/output-size.md) como &#39;Absoluto&#39; y usar un nodo [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) establecido en &#39;Relative to parent&#39; justo después del nodo de mapa de bits.
 
-![Optimización de mapas de bits incrustados 1](../../assets/input-1.jpg "Optimización de mapas de bits incrustados 1")
+![Optimización de mapas de bits incrustados 1](performance-optimization-guidelines.resources/input-1.jpg "Optimización de mapas de bits incrustados 1")
 
-![Optimización de mapas de bits incrustados 2](../../assets/relativetoparent.jpg "Optimización de mapas de bits incrustados 2")
+![Optimización de mapas de bits incrustados 2](performance-optimization-guidelines.resources/relativetoparent.jpg "Optimización de mapas de bits incrustados 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Además, se recomienda establecer el formato de los recursos de mapa de bits en 
 </td>
 <td style="border: 0;" valign="top">
 
-![Optimización de mapas de bits incrustados 3](../../assets/format.jpg "Optimización de mapas de bits incrustados 3")
+![Optimización de mapas de bits incrustados 3](performance-optimization-guidelines.resources/format.jpg "Optimización de mapas de bits incrustados 3")
 
 </td>
 </tr>
