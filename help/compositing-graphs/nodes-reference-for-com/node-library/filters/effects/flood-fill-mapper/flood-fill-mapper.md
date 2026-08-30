@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
 description: Utilice el nodo Asignador de Flood Fill para asignar valores entre regiones conectadas mediante algoritmos de relleno de área para el procesamiento de texturas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Asignador de Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 0%
+source-wordcount: '666'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
+![](flood-fill-mapper.resources/floodfill-mapper-gray.png)![](flood-fill-mapper.resources/floodfill-mapper-color.png)
 
-## Asignador de Flood Fill (escala de grises)
-
-**En:** *Filtros/Efectos*
-
-**Complejo**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,66 +37,74 @@ El Asignador de Flood Fill permite reasignar un patrón o textura existente en c
 
 La versión Color tiene controles adicionales para trabajar con Mapas normales, donde puede [compensar las rotaciones de mapa normal de espacio tangente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md).
 
-## Parámetros
-
-### Entradas
-
-* **Flood Fill Box**: *Entrada de color* Entrada de Flood Fill estándar, necesaria.
-* **Entrada de patrón 1-8**: *Entrada de escala de grises/color*\
-  Entrada de imagen de patrón personalizado.
-* **Mapa de distribución de patrones**: *Entrada en escala de grises* Asignación de ID para determinar qué patrón va a cada celda. Puede proceder de otro Mapa del Flood Fill, como Flood Fill a índice.
-* **Mapa de escala**: *Entrada en escala de grises* Asignar para determinar la escala por celda.
-* **Mapa de rotación**: *Entrada en escala de grises* Asignar para determinar la rotación por celda.
-* **Mapa de desplazamiento de luminancia**: *Entrada en escala de grises* Asignar para establecer la luminancia por celda
-
-### Parámetros
-
-* **Modo de segmentación**: *Sin Mosaico, H+V* Establezca si desea utilizar Mosaico o no. Solo es visible si Tamaño o Escala están establecidos por debajo de 1.
-* **Patrón**
-  * **Número de entrada de patrón**: *1 - 8* Establecer la cantidad de entradas de patrones personalizados que se deben usar.
-  * **Modo De Distribución De Patrones**: *Aleatorio, tamaño de forma, entrada de mapa de distribución* Establezca el método para determinar qué patrón se muestra en una celda.
-  * **Variación De Distribución De Patrones**: *0.0 - 1.0* Permite una ligera variación o Desplazamiento en la distribución del Patrón sin cambiar todo a través de la Raíz aleatoria.
-* **Tamaño**
-  * **Modo de tamaño**: *Relativo a la textura, Relativo a la forma BSphere, Relativo a la forma más grande, Relativo a la forma más pequeña, Ajustar forma Box* Establezca cómo se determina el tamaño del motivo en cada celda.
-  * **Tamaño**: *0.0 - 1.0* Permite la escala no uniforme del Patrón.
-  * **Escala**: *0.0 - 1.0*\
-    Establezca la escala global (uniforme) del efecto.
-  * **Multiplicador de mapa de escala**: *0.0 - 1.0* Establecer la influencia del mapa de escala opcional.
-  * **Escala aleatoria**: *-1.0 - 1.0* Establece la cantidad de variación aleatoria dentro de la escala de patrón.
-* **Rotación**
-  * **Rotación**: *0.0 - 1.0* Establecer una rotación uniforme y global para cada celda.
-  * **Multiplicador de Mapa de rotación**: *0.0 - 1.0* Establecer la influencia del Mapa de rotación opcional.
-  * **Aleatorio de rotación**: *0.0 - 1.0* Establezca la cantidad de rotación aleatoria para cada celda.
-  * **Escala automática de rotación**: *Falso/Verdadero* Establece si un patrón debe ajustar su escala para que encaje dentro de una celda cuando se gira.
-* **Posición**
-  * **Desplazamiento de posición**: *0.0 - 1.0* Establecer desplazamiento de posición global para cada celda.
-  * **Alineación de desplazamiento de posición**: *Textura, motivo* Establezca esta opción para alinear el punto de desplazamiento 0 con la celda de motivo o con la textura.
-  * **Aleatorio de desplazamiento de posición**: *0,0 - 1,0* Establezca la cantidad de aleatorización de desplazamiento de posición por celda.
-* **Color** (solo para la versión en escala de grises)
-  * **Rango de luminancia**: *0.0 - 1.0* Establece el contraste global en la textura, donde 0 se convierte en gris medio.
-  * **Rango de luminancia aleatorio**: *0.0 - 1.0* Establece la cantidad de aleatoriedad para el rango de luminancia.
-  * **Desplazamiento de luminancia**: *-1.0 - 1.0* Establece el desplazamiento de la luminancia, que funciona como un control de brillo.
-  * **Aleación de desplazamiento de luminancia**: *0.0 - 1.0* Establece la cantidad de aleatoriedad para el desplazamiento de luminancia.
-  * **Multiplicador de mapa de desplazamiento de luminancia**: *0.0 - 1.0* Establece la influencia del mapa de desplazamiento de luminancia opcional.
-  * **Color de fondo**: *(Valor de escala de grises)*Define el color de fondo en el que se fusionan las texturas.
-* **Color** (solo para la versión Color)
-  * **Es un mapa normal**: *Falso/Verdadero* Establecer para interpretar la entrada de patrón como un mapa normal. Compensará y corregirá la rotación del espacio de Tangente normal.
-  * **Formato normal**: *DirectX, OpenGL*\
-    Cambia entre diferentes Formatos de mapa de normales (invierte el canal verde). Sólo está activo cuando Is Normal Map es True.
-  * **Ajuste de HSL**: *-1.0 - 1.0* Ajuste global del HSL.
-  * **Aleatorio de HSL**: *-1.0 - 1.0* Establecer aleatoriedad de HSL por celda.
-  * **Ajuste de Alpha**: *-1.0 - 1.0* Establecer el ajuste global del Alpha reduce el contraste del Alpha.
-  * **Alpha aleatorio**: *-1.0 - 1.0* Establecer aleatoriedad de ajuste de Alpha por celda.
-  * **Color de fondo**: *(Valor de color)*Define el color de fondo en el que se fusionan las texturas.
-
-.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/floodfill-mapper-ex01.png)
-
-![](../../../../../../assets/floodfill-mapper-ex02.jpg)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill Box</b> <i>Entrada de color</i> | Entrada de Flood Fill estándar, necesaria. |
+| <b>Entrada de patrón 1-8</b> <i>Entrada de color/escala de grises</i> | Entrada de imagen de patrón personalizado. |
+| <b>Mapa de distribución de patrones</b> <i>Entrada en escala de grises</i> | ID Map para determinar qué patrón va a cada celda. Puede proceder de otro Mapa del Flood Fill, como Flood Fill a índice. |
+| <b>Mapa de escala</b> <i>Entrada en escala de grises</i> | Asignar para determinar la escala por celda. |
+| <b>Mapa de rotación</b> <i>Entrada en escala de grises</i> | Asigne para determinar la rotación por celda. |
+| <b>Mapa de desplazamiento de luminancia</b> <i>Entrada en escala de grises</i> | Asignación para definir la luminancia por celda |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Modo de segmentación</b> <i>Sin Mosaico, H+V</i> | Establezca si desea utilizar Mosaico o no. Solo es visible si Tamaño o Escala están establecidos por debajo de 1. |
+| <b>Patrón</b> |  |
+| <b>Número de entrada de patrón</b> <i>1 - 8</i> | Defina la cantidad de entradas de motivo personalizadas que desea utilizar. |
+| <b>Modo de distribución de patrones</b> <i>Aleatorio, Tamaño de forma, Entrada de mapa de distribución</i> | Establezca el método para determinar qué Patrón se muestra en una Celda. |
+| <b>Variación De Distribución De Patrones</b> <i>0.0 - 1.0</i> | Permite una ligera variación o Desplazamiento en la distribución del Patrón sin cambiar todo a través de la Raíz aleatoria. |
+| <b>Tamaño</b> |  |
+| <b>Modo de tamaño</b> <i>Relativo a la Textura, Relativo a la forma BSphere, Relativo a la forma más grande, Relativo a la forma más pequeña, Ajustar forma Box</i> | Establezca cómo se determina el tamaño del patrón en cada celda. |
+| <b>Tamaño</b> <i>0.0 - 1.0</i> | Permite la escala no uniforme del motivo. |
+| <b>Escala</b> <i>0.0 - 1.0</i> | Establezca la escala global (uniforme) del efecto. |
+| <b>Multiplicador de mapa de escala</b> <i>0.0 - 1.0</i> | Defina la influencia del mapa de escala opcional. |
+| <b>Escala aleatoria</b> <i>-1.0 - 1.0</i> | Establezca la cantidad de variación aleatoria dentro de la escala de patrón. |
+| <b>Rotación</b> |  |
+| <b>Rotación</b> <i>0.0 - 1.0</i> | Establecer una rotación global y uniforme para cada celda. |
+| <b>Multiplicador de Mapa de rotación</b> <i>0.0 - 1.0</i> | Definir la influencia del Mapa de rotación opcional. |
+| <b>Aleatorio de rotación</b> <i>0.0 - 1.0</i> | Establezca la cantidad de rotación aleatoria para cada celda. |
+| <b>Escala automática de rotación</b> <i>Falso/Verdadero</i> | Defina si un motivo debe ajustar su escala para que encaje dentro de una celda cuando se gira. |
+| <b>Posición</b> |  |
+| <b>Desplazamiento de posición</b> <i>0.0 - 1.0</i> | Establecer desplazamiento de posición global para cada celda. |
+| <b>Alineación de desplazamiento de posición</b> <i>Textura, patrón</i> | Se define para alinear el punto de desvío 0 con la celda de patrón o con la textura. |
+| <b>Aleatorio de desplazamiento de posición</b> <i>0.0 - 1.0</i> | Establezca la cantidad de aleatoriedad de desplazamiento de posición por celda. |
+| <b>Color (solo para la versión en escala de grises)</b> |  |
+| <b>Rango de luminancia</b> <i>0.0 - 1.0</i> | Establece el contraste global en la textura, donde 0 se convierte en gris medio. |
+| <b>Rango de luminancia aleatorio</b> <i>0.0 - 1.0</i> | Define la cantidad de aleatorización para el rango de luminancia. |
+| <b>Desplazamiento de luminancia</b> <i>-1.0 - 1.0</i> | Establece el desplazamiento de la luminancia, que funciona como control de brillo. |
+| <b>Desplazamiento de luminancia aleatorio</b> <i>0.0 - 1.0</i> | Define la cantidad de aleatorización para el desplazamiento de luminancia. |
+| <b>Multiplicador de mapa de desplazamiento de luminancia</b> <i>0.0 - 1.0</i> | Define la influencia del mapa de desplazamiento de luminancia opcional. |
+| <b>Color de fondo</b> <i>(valor de escala de grises)</i> | Define el color de fondo en el que se fusionan las texturas. |
+| <b>Color (solo para la versión Color)</b> |  |
+| <b>Es Mapa de normales</b> <i>Falso/Verdadero</i> | Defina esta opción para interpretar Entrada de motivo como un Mapa de normales. Compensará y corregirá la rotación del espacio de Tangente normal. |
+| <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes Formatos de mapa de normales (invierte el canal verde). Sólo está activo cuando Is Normal Map es True. |
+| <b>Ajuste HSL</b> <i>-1.0 - 1.0</i> | Ajusta HSL globalmente. |
+| <b>Aleatorio HSL</b> <i>-1.0 - 1.0</i> | Establezca HSL aleatorización por celda. |
+| <b>Ajuste de Alpha</b> <i>-1.0 - 1.0</i> | Ajusta el Alpha global y reduce el contraste del Alpha. |
+| <b>Alpha aleatorio</b> <i>-1.0 - 1.0</i> | Establecer aleatorización de ajuste de Alpha por celda. |
+| <b>Color de fondo</b> <i>(Valor de color)</i> | Define el color de fondo en el que se fusionan las texturas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-mapper.resources/floodfill-mapper-ex01.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-mapper.resources/floodfill-mapper-ex02.jpg" />
+        </td>
+    </tr>
 </table>

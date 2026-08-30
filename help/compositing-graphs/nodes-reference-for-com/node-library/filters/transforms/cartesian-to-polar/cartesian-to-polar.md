@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cartesiano a Polar para convertir texturas de sistemas de coordenadas cartesianas a polares para crear efectos radiales.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Cartesiano a polar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '51'
 ht-degree: 3%
 
 ---
@@ -22,35 +22,31 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cartesian-to-polar.png){width="128px"}
+![](cartesian-to-polar.resources/cartesian-to-polar.png){width="128px"}
 
-![](../../../../../../assets/cartesian-to-polar-grayscale.png){width="128px"}
+![](cartesian-to-polar.resources/cartesian-to-polar-grayscale.png){width="128px"}
 
-## De Cartesiano A Polar (Escala De Grises)
-
-**En:** *Filtros/Transformaciones*
-
-**Simple**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Convierte una entrada con coordenadas cartesianas (X e Y) en coordenadas polares (ángulo y radio). Lo contrario es posible con [Polar a cartesiano](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md).
 
-## Parámetros
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/cartesian-to-polar-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cartesian-to-polar.resources/cartesian-to-polar-example.png" />
+        </td>
+    </tr>
 </table>

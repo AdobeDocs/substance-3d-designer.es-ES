@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión de Substance 3D Designer 14.0 para obtener más información sobre los nuevos nodos, la navegación por gráficos y las mejoras de rendimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Fecha de publicación: 30 de julio de 2024*
 
-![](../../assets/2024-BannerRN.png)
+![](version-14-0.resources/2024-BannerRN.png)
 
 ## Nuevo contenido
 
@@ -32,18 +32,18 @@ Esta versión 14.0 trae mucho contenido nuevo con los nuevos nodos que se enumer
 
 * <b>Nodos dedicados a la manipulación de color: </b>un nodo <b>(</b>[Cuantificar color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>a<b> </b>reduce el número de colores de una imagen y extrae una paleta de ella, una familia de nodos de herramientas para crear tu propia paleta de colores ([Ver](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Crear](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modificar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>paleta de colores) y una para aplicarla a otra imagen mediante un mapa de ID ([Aplicar paleta de colores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). También encontrarás el nodo [ID para enmascarar escala de grises](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) para convertir tu mapa de ID —calculado por cuantificar color— en una máscara de escala de grises. Con este conjunto completo de nodos, tiene todo lo que necesita para crear efectos de estilización con colores.
 
-![](../../assets/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/GIF2_2.gif){zoomable="yes"}
 
-![Cuantificar color 2](../../assets/GIF3_2.gif){zoomable="yes"}
+![Cuantificar color 2](version-14-0.resources/GIF3_2.gif){zoomable="yes"}
 
 * <b>Filtro de Kuwahara</b>: si quieres ir más allá con la estilización, puedes generar algunos efectos pictóricos gracias a los filtros [Anisotropic Kuwahara color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [escala de grises](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). En los detalles, aplica un desenfoque direccional anisotrópico que se ajusta a los detalles de la imagen. El resultado es una imagen que parece fluir en la dirección de las formas que contiene.
 
-Estos nodos (Cuantificar color y Kuwahara anisotrópico) se explican en [este tutorial](https://www.adobe.com/go/designer-tutorial-quantize_es). Se muestra cómo utilizarlos para estilizar los materiales, así como para manejar los colores de manera más eficiente e intuitiva.
+Estos nodos (Cuantificar color y Kuwahara anisotrópico) se explican en [este tutorial](https://www.adobe.com/go/designer-tutorial-quantize). Se muestra cómo utilizarlos para estilizar los materiales, así como para manejar los colores de manera más eficiente e intuitiva.
 
 Otros nodos poderosos se unen al partido:
 
 * [<b>Curvatura suave</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): esta nueva versión ahora es compatible correctamente con todos los modos de mosaico, añade dos nuevas salidas (convexidad y concavidad) y mejora tanto la precisión como el rendimiento.
-* <b>[Histograma ecualizado](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> este nodo ecualiza el histograma de una imagen de escala de grises ajustando los valores para obtener una distribución igual. Estos nodos vienen con dos nodos complementarios: [El histograma se procesa](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) para mostrar el histograma de la imagen y el [Histograma &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b> para codificar un histograma como una fila de píxeles.
+* <b>[Histograma ecualizado](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> este nodo ecualiza el histograma de una imagen de escala de grises ajustando los valores para obtener una distribución igual. Estos nodos vienen con dos nodos complementarios: [El histograma se procesa](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) para mostrar el histograma de la imagen y el [Histograma ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b> para codificar un histograma como una fila de píxeles.
 * <b>[Suavizado de bisel](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> gracias a este, puedes dibujar un degradado o un color plano desde los bordes de una máscara (hacia fuera, hacia dentro o ambos). El nodo [Distancia direccional](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>también dibuja degradados pero en una dirección específica.
 * <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> Este nodo es el opuesto al nodo [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md), quita de un mapa normal los detalles de superficie descritos por un mapa de height.
 
@@ -56,11 +56,11 @@ Curvatura suave
 <table>
   <tr>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="version-14-0.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="version-14-0.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ Ecualización del histograma
 <table>
   <tr>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ Suavizado de bisel
 <table>
   <tr>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
+      <img src="version-14-0.resources/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
+      <img src="version-14-0.resources/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ Normal descombinar
 <table>
   <tr>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ Normal descombinar
 
 * <b>Vista 2D: </b>si la visualización en mosaico está habilitada en la [vista 2D](../../interface/2d-view/2d-view.md), ahora puedes obtener valores incluso para los píxeles que no están en el mosaico original: ayuda mucho comprobar [muestreo](../../glossary/glossary.md) y las transiciones de valores entre los mosaicos.
 
-![vista 2d](../../assets/2dview.gif){width="320px" zoomable="yes"}
+![vista 2d](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 
 * <b>Mapa de degradado</b>: usa el botón central del ratón para desplazar todas las [teclas de degradado](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) hacia la izquierda o la derecha (y así conservar todos los espacios entre todas las teclas).
 * <b>Parámetros</b>: para insertar funciones personalizadas a través de parámetros, ahora puede utilizar el widget de función Editar. Es una solución eficaz para crear herramientas personalizadas en las que desea controlar parámetros mediante un [gráfico de funciones de Substance](../../function-graphs/the-function-graph/the-function-graph.md).
@@ -146,12 +146,12 @@ Normal descombinar
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Editar función](../../assets/functionedit.png){zoomable="yes"}
+![Editar función](version-14-0.resources/functionedit.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editar función 2](../../assets/functionedit2.png){zoomable="yes"}
+![Editar función 2](version-14-0.resources/functionedit2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Tenga en cuenta que estas actualizaciones tienen dos consecuencias principales:
 * [Content] Pase al nodo &#39;Negate Float1&#39; en el gráfico de funciones del Substance
 * [Contenido] Cambie el nombre &quot;Cuantizar color&quot; por &quot;Cuantificar color (simple)&quot;
 * [Vista 2D] Visualización de valores en el panel de información para píxeles fuera del rango 0-1
-* [Motor]&#x200B;[Texto] Nuevo kerning para algunas fuentes
+* [Motor][Texto] Nuevo kerning para algunas fuentes
 * [Graph] Mejora el tiempo de invalidación al editar subgráficos profundos mientras usas la edición en contexto
 * [Vinculador] No duplicar mapas de bits en SBSASM
 * [Parámetros] Añada un nuevo widget de &quot;función&quot; para todos los tipos de parámetros de entrada

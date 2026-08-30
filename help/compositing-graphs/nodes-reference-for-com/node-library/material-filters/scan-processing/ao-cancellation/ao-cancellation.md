@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
 description: Usa el nodo Cancelación de AO para eliminar la oclusión ambiental de los materiales escaneados para el procesamiento de texturas limpias.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cancelación de AO
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 1%
+source-wordcount: '133'
+ht-degree: 4%
 
 ---
 
@@ -22,36 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ao-cancel.png){width="128px"}
+![](ao-cancellation.resources/ao-cancel.png){width="128px"}
 
-## Cancelación de AO
-
-**En:** *Procesamiento De Escaneo/Filtros De Materiales*
-
-**Simple**
+<b>En:</b> Filtros de material > Procesamiento de escaneo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Este nodo intenta eliminar cualquier información de iluminación de Oclusión ambiental del mapa de Albedo (color base), basándose en una entrada de mapa de AO independiente. Se puede utilizar para garantizar que la información de tu Albedo sea correcta para la PBR y que, en su mayoría, carezca de información de iluminación (fuerte).
+Este nodo intenta eliminar cualquier información de iluminación de Oclusión ambiental del mapa de Albedo (Color base), basándose en una entrada de mapa de AO independiente. Se puede utilizar para garantizar que la información de tu Albedo sea correcta para la PBR y que, en su mayoría, carezca de información de iluminación (fuerte).
 
-Un nodo útil para cuando se tiene un mapa de AO horneado de una malla escaneada o, alternativamente, incluso un mapa de AO generado a partir de información de Height o Normal.
-
-## Parámetros
-
-* **Cancelación de AO**: *0.0 - 1.0* Intensidad con la que se quita la información de iluminación.
-* **Saturación de AO**: *0.0 - 1.0*(Dessaturación) compensación para áreas donde se elimina la iluminación. Se puede utilizar para devolver cualquier pérdida de color en áreas más oscuras.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
+Nodo útil para cuando se tiene un mapa de AO hecho un bake de una malla escaneada o, alternativamente, incluso un mapa de AO generado a partir de información de Height o normal.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Cancelación de AO</b> <i>0.0 - 1.0</i> | Intensidad con la que se elimina la información de iluminación. |
+| <b>Saturación de AO</b> <i>0.0 - 1.0</i> | Compensación de (des)saturación para las áreas en las que se elimina la iluminación. Se puede utilizar para devolver cualquier pérdida de color en áreas más oscuras. |

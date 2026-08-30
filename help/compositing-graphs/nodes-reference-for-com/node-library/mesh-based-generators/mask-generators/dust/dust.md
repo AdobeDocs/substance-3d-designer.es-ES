@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
 breadcrumb-title: ''
 description: Utilice el nodo Dust para generar máscaras de acumulación de dust basadas en la geometría de malla para crear efectos de dust y suciedad realistas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dust
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 5%
 
 ---
 
@@ -22,52 +22,54 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dust.png){width="128px"}
+![](dust.resources/dust.png){width="128px"}
 
-## Dust
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Intermedio**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) en [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esta máscara representa el dust acumulado en áreas ocluidas y bajas, así como solo en áreas que miran hacia arriba. Requiere que funcionen el AO y las Normas Espaciales Mundiales.
-
-## Parámetros
-
-### Entradas
-
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para la colocación de dustes. ¡Obligatorio!
-* **Normal del Espacio Mundial**: *Entrada de color*\
-  Mapa con bake utilizado para la colocación de dustes. ¡Obligatorio!
-* **Ruido**: *Entrada en escala de grises*\
-  La asignación de dust personalizada (opcional) solo aparece cuando Ruido de reemplazo está establecido en True.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Nivel**: *0.0 - 1.0*\
-  Establece la cantidad total de dustes.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el dust.
-* **Importe de Oclusión**: *0.0 - 1.0* Establece la influencia de AO; aparecerá más dust en las áreas ocluidas.
-* **Opacidad de ruido**: *0.0 - 1.0* Establece la cantidad de ruido visible en las áreas polvorientas.
-* **Anular ruido**: *Falso/Verdadero* Establecido para utilizar la entrada de mapa de dust personalizado.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/dust-ex.gif)
+Esta máscara representa el dust acumulado en áreas ocluidas y bajas, así como solo en áreas que miran hacia arriba. Requiere una OA hecha un bake y normas espaciales mundiales adecuadas para funcionar.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para la colocación de dustes. ¡Obligatorio! |
+| <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> | Mapa con bake utilizado para la colocación de dustes. ¡Obligatorio! |
+| <b>Ruido</b> <i>Entrada en escala de grises</i> | La asignación de dust personalizada (opcional) solo aparece cuando Ruido de reemplazo está establecido en True. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Establece la cantidad total de dustes. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el dust. |
+| <b>Importe de Oclusión</b> <i>0.0 - 1.0</i> | Establece la influencia del AO; aparecerá más dust en las áreas ocluidas. |
+| <b>Opacidad de ruido</b> <i>0.0 - 1.0</i> | Define la cantidad de ruido visible en las áreas polvorientas. |
+| <b>Anular ruido</b> <i>Falso/Verdadero</i> | Establezca esta opción para utilizar la entrada de mapa de dust personalizada. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dust.resources/dust-ex.gif" />
+        </td>
+    </tr>
 </table>

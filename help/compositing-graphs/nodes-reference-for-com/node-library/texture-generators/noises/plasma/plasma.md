@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
 breadcrumb-title: ''
 description: Utilice el nodo Plasma para generar patrones de ruido similares a los del plasma para crear efectos de textura orgánica y fluida.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Plasma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '88'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/plasma.png){width="128px"}
+![](plasma.resources/plasma.png){width="128px"}
 
-## Plasma
-
-**En:** *Generadores De Texturas**/Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Esto genera una variante ligeramente diferente del [ruido gaussiano](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), con rayas oscuras más largas como valles. Tiene un control de distancia similar para la escala, que mantiene el mosaico.
 
-## Parámetros
-
-* **Escala**: *1 - 128*\
-  Establece la escala global del efecto.
-* **Trastorno**: *0.0 - 1.0*\
-  Desplaza la fase del ruido para introducir pequeñas variaciones.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/plasma-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Escala</b> <i>1 - 128</i> | Establece la escala global del efecto. |
+| <b>Desorden</b> <i>0.0 - 1.0</i> | Desplaza la fase del ruido para introducir pequeñas variaciones. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="plasma.resources/plasma-ex.gif" />
+        </td>
+    </tr>
 </table>

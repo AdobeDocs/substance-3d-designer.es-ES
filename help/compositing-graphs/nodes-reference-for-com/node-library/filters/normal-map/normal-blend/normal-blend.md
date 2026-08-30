@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fusión normal para fusionar mapas normales y crear transiciones suaves entre detalles de superficie.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusión normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend.png){width="128px"}
 
-## Fusión normal
-
-**En:** *Filtros/Mapa Normal*
-
-**Intermedio**
+<b>En:</b> Filtros > Mapa de normales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,30 +37,35 @@ Fusión normal permite fusionar dos mapas normales con una máscara opcional, mi
 
 Fusión normal no está diseñada para combinar (superponer) mapas normales, donde el mapa superior agrega detalles al mapa inferior. Para ello, usa [Combinación normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) en su lugar.
 
-## Parámetros
-
-### Entradas
-
-* **NormalFG**: *Entrada de color*\
-  Mapa normal frontal/superior.
-* **NormalBG**: *Entrada de color*\
-  Fondo/Mapa normal inferior.
-* **Máscara**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Usar máscara&quot;.
-
-### Parámetros
-
-* **Opacidad**: *0.0 - 1.0*\
-  Fusión de opacidad entre primer plano y fondo
-* **Usar máscara**: *Falso/Verdadero*\
-  Activa o desactiva el uso del mapa de máscara.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/normalblend-ex.gif)
-
-*(el formato .gif introduce el tramado en el ejemplo, los resultados en la aplicación son suaves)*
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>NormalFG</b> <i>Entrada de color</i> | Mapa normal frontal/superior. |
+| <b>NormalBG</b> <i>Entrada de color</i> | Fondo/Mapa normal inferior. |
+| <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Usar máscara&quot;. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Usar máscara</b> <i>Falso/Verdadero</i> | Activa o desactiva el uso del mapa de máscara. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i>(el formato .gif introduce el tramado en el ejemplo, los resultados en la aplicación son suaves)</i>
+        </td>
+    </tr>
 </table>

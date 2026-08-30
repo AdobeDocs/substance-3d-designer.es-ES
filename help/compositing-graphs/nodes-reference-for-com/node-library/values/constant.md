@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2cb8395834eb64124ebadb2cd051aead9babfa69
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 Los nodos constantes son una forma de crear un valor estático para utilizarlo dentro de los gráficos de Substance.
 
 Puede encontrar estos nodos en la sección **Valores > Constantes** de la biblioteca.\
-Todos ellos incluyen un sencillo nodo [Value processor](../../atomic-nodes/value-processor/value-processor.md) que genera el valor.
+Todos incluyen un nodo [Procesador de valor](../../atomic-nodes/value-processor/value-processor.md) simple que genera el valor.
 
 +++ Nodos constantes en la biblioteca
 
@@ -31,7 +31,7 @@ Todos ellos incluyen un sencillo nodo [Value processor](../../atomic-nodes/value
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nodo de flotador constante" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nodo Flotante constante" /></p>
 
 ## Enteros
 
@@ -43,7 +43,7 @@ Los enteros constantes generan números enteros y tienen un paso de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo entero](../../../../assets/fn-constant-integer.png "Icono de tipo entero")
+![Icono de tipo entero](constant.resources/fn-constant-integer.png "Icono de tipo entero")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Un entero tiene un solo componente. Resulta útil como índice para realizar sel
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
+![Integer2 type icon](constant.resources/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Un caso de uso común de Integer2 es establecer los tamaños de cuadrícula X e 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 type icon](../../../../assets/fn-constant-integer3.png "Integer3 type icon")
+![Integer3 type icon](constant.resources/fn-constant-integer3.png "Integer3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Un nodo Integer3 genera un vector entero estático de 3 componentes con componen
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo entero4](../../../../assets/fn-constant-integer4.png "Icono de tipo entero4")
+![Icono de tipo entero4](constant.resources/fn-constant-integer4.png "Icono de tipo entero4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -118,7 +118,7 @@ Un nodo Integer4 genera un vector entero estático de 4 componentes con componen
 
 ## Flotantes
 
-Los valores de coma flotante constante generan números fraccionarios, es decir, admiten valores después del signo decimal y se pueden ajustar en pasos menores que 1. (Valor predeterminado: 0,01)
+Los valores de Flotante constante generan números fraccionarios, es decir, admiten valores después del signo decimal y se pueden ajustar en pasos menores que 1. (Valor predeterminado: 0,01)
 
 [Los valores flotantes se pueden convertir a enteros](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), pero se redondearán hacia arriba o hacia abajo al entero más cercano, lo que significa que se pierden los datos y la precisión.
 
@@ -126,14 +126,14 @@ Los valores de coma flotante constante generan números fraccionarios, es decir,
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo flotante](../../../../assets/fn-constant-float.png "Icono de tipo flotante")
+![Icono de tipo flotante](constant.resources/fn-constant-float.png "Icono de tipo flotante")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Flotador</b>
 
-Un valor flotante tiene un solo componente y se utiliza muy comúnmente para cualquier valor individual que requiera precisión.
+Un Flotante tiene un solo componente y se utiliza muy a menudo para cualquier valor individual que requiera precisión.
 
 </td>
 </tr>
@@ -143,16 +143,16 @@ Un valor flotante tiene un solo componente y se utiliza muy comúnmente para cua
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo Float2](../../../../assets/fn-constant-float2.png "Icono de tipo Float2")
+![Icono de tipo Float2](constant.resources/fn-constant-float2.png "Icono de tipo Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Float2</b>
 
-Un nodo Float2 genera un vector de 2 componentes con componentes (X, Y).
+Un nodo Flotante2 genera un vector de 2 componentes con componentes (X, Y).
 
-Float2 se usa normalmente para [coordenadas de muestreo](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), [transformaciones de desplazamiento](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) y manipulación general de vectores 2D.
+Flotante2 se suele usar para [coordenadas de muestreo](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), [transformaciones de desplazamiento](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) y manipulación general de vectores 2D.
 
 </td>
 </tr>
@@ -162,16 +162,16 @@ Float2 se usa normalmente para [coordenadas de muestreo](../../../../function-gr
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo Float3](../../../../assets/fn-constant-float3.png "Icono de tipo Float3")
+![Icono de tipo Float3](constant.resources/fn-constant-float3.png "Icono de tipo Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Float3</b>
 
-Un nodo Float3 genera un vector de 3 componentes (X, Y, Z).
+Un nodo Flotante3 genera un vector de 3 componentes (X, Y, Z).
 
-Float3 se usa principalmente cuando se trabaja con objetos 3D y [coordenadas de escala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), como en [nodos 3D SDF](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions), y como una forma más sencilla de almacenar colores RGB, es decir, sin Alpha.
+Flotante3 se usa principalmente para trabajar con objetos 3D y [coordenadas de escala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), como en [nodos 3D SDF](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions), y como una forma más sencilla de almacenar colores de RGB, es decir, sin Alpha.
 
 </td>
 </tr>
@@ -181,16 +181,16 @@ Float3 se usa principalmente cuando se trabaja con objetos 3D y [coordenadas de 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo flotante4](../../../../assets/fn-constant-float4.png "Icono de tipo flotante4")
+![Icono de tipo flotante4](constant.resources/fn-constant-float4.png "Icono de tipo flotante4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Float4</b>
 
-Un Float4 genera un vector de 4 componentes (X, Y, Z, W).
+Un Flotante4 genera un vector de 4 componentes (X, Y, Z, W).
 
-Float4 es la forma preferida de almacenar y establecer información de color donde los valores XYZW se asignan a RGBA, como en el [nodo de color uniforme](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md).
+Flotante4 es la forma preferida de almacenar y establecer información de color donde los valores XYZW se asignan a RGBA, como en el [nodo de Color uniforme](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md).
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Float4 es la forma preferida de almacenar y establecer información de color don
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo booleano](../../../../assets/fn-constant-boolean.png "Icono de tipo booleano")
+![Icono de tipo booleano](constant.resources/fn-constant-boolean.png "Icono de tipo booleano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

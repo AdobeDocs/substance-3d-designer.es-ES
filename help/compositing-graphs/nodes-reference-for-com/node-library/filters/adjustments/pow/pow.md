@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
 breadcrumb-title: ''
 description: Utilice el nodo Pow para aplicar ajustes de función de potencia a las texturas para controlar las curvas de brillo y la corrección gamma.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '84'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pow-1.png){width="128px"}
+![](pow.resources/pow-1.png){width="128px"}
 
-![](../../../../../../assets/pow-grayscale.png){width="128px"}
+![](pow.resources/pow-grayscale.png){width="128px"}
 
-## Pow (escala de grises)
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,14 +39,24 @@ Activa la entrada mediante un exponente especificado. Es similar a ajustar los [
 
 Importante: asegúrese de utilizar la versión correcta, dependiendo de si tiene una entrada en color o en escala de grises.
 
-## Parámetros
-
-* **exponente**: *0.0 - 10.0* Exponente mediante el cual se activa la entrada.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/pow.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>exponente</b> <i>0.0 - 10.0</i> | Exponente con el que se alimenta la entrada. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pow.resources/pow.gif" />
+        </td>
+    </tr>
 </table>

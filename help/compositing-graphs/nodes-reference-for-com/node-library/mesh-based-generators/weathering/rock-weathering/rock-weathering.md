@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: Utilice el nodo meteorización de roca para generar patrones de meteorización en superficies de roca basados en la geometría de malla para obtener efectos de erosión realistas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Meteorización de rocas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 16%
 
 ---
 
@@ -22,78 +22,71 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering.png){width="128px"}
 
-## Meteorización de rocas
-
-**En:** *Generadores Basados En Malla**/Meteorología*
-
-**Complejo**
+<b>En:</b> Generadores Basados En Malla > Meteorización
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-## Parámetros
-
-### Entradas
-
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **WS normal**: *Entrada de color*\
-  Baked World Space Normalmap utilizado para efectos internos y enmascaramiento.
-* **Máscara** : *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;.
-
-### Parámetros
-
-* **Canales**
-  * Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad.
-* **Avanzado**
-  * **Formato normal**: *DirectX, OpenGL*\
-    Cambia entre diferentes formatos de Mapa normal (invierte el canal verde).
-  * **Máscara**: *Falso/Verdadero*\
-    Activa o desactiva el uso del mapa de máscara.
-* **Efecto**
-  * **Dust**: *0.0 - 1.0*
-  * **Suciedad**: *0.0 - 1.0*
-  * **Bordes Con**: *0.0 - 1.0*
-  * **Roca usada**: *0.0 - 1.0*
-  * Escala de **Grietas**: *1.0 - 60.0*
-  * **Intensidad de Grietas**: *0.0 - 1.0*
-  * **Edad**: *0.0 - 1.0*
-  * **Umbral de edad**: *0.0 - 1.0*
-  * **Escala de Scratches de bordes afilados**: *1.0 - 32.0*
-  * **Intensidad de deformación de los Scratches de bordes afilados**: *0.0 - 1.0*
-  * **Desaturación de roca usada**: *0.0 - 1.0*
-  * **Brillo de roca usado**: *0.0 - 1.0*
-* **Fusión**
-  * **Intensidad de difusión**: *0.0 - 1.0*\
-    Intensidad de fusión de la difusión.
-  * **Intensidad de color base**: *0.0 - 1.0*\
-    Intensidad de fusión del color base.
-  * **Intensidad normal**: *0.0 - 64.0*\
-    Intensidad de fusión de la Normal.
-  * **Intensidad del Specular**: *0.0 - 1.0*\
-    Fusión del Specular.
-  * **Intensidad de brillo**: *0.0 - 1.0*\
-    Fuerza de fusión del Brillo.
-  * **Intensidad de rugosidad**: *0.0 - 1.0*\
-    Fuerza de fusión de la rugosidad.
-  * **Intensidad de Oclusión ambiente**: *0.0 - 1.0*\
-    Fuerza de fusión de la Oclusión ambiente.
-  * **Intensidad de Height**: *0.0 - 1.0*\
-    Fusión del Height.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/rock-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>WS normal</b> <i>Entrada de color</i> | Mapa normaldel espacio mundial hecho un bake utilizado para efectos internos y enmascaramiento. |
+| <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Avanzado</b> |  |
+| <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
+| <b>Máscara</b> <i>Falso/Verdadero</i> | Activa o desactiva el uso del mapa de máscara. |
+| <b>Efecto</b> |  |
+| <b>Dust</b> <i>0.0 - 1.0</i> |  |
+| <b>Suciedad</b> <i>0.0 - 1.0</i> |  |
+| <b>Bordes Con </b> <i>0.0 - 1.0</i> |  |
+| <b>Roca usada</b> <i>0.0 - 1.0</i> |  |
+| Escala de <b>Grietas</b> <i>1.0 - 60.0</i> |  |
+| <b>Intensidad de Grietas</b> <i>0.0 - 1.0</i> |  |
+| <b>Edad</b> <i>0.0 - 1.0</i> |  |
+| <b>Umbral de edad</b> <i>0.0 - 1.0</i> |  |
+| Escala de Scratches de <b>Bordes afilados</b> <i>1.0 - 32.0</i> |  |
+| <b>Intensidad de deformación de los Scratches de bordes afilados</b> <i>0.0 - 1.0</i> |  |
+| <b>Desaturación de roca usada</b> <i>0.0 - 1.0</i> |  |
+| <b>Brillo de roca usado</b> <i>0.0 - 1.0</i> |  |
+| <b>Fusión</b> |  |
+| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la difusión. |
+| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Intensidad de fusión del color base. |
+| <b>Intensidad normal</b> <i>0.0 - 64.0</i> | Intensidad de fusión de la Normal. |
+| <b>Intensidad del Specular</b> <i>0.0 - 1.0</i> | Fusión del Specular. |
+| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Brillo. |
+| <b>Intensidad de rugosidad</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la rugosidad. |
+| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiente. |
+| <b>Intensidad de Height</b> <i>0.0 - 1.0</i> | Fusión del Height. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rock-weathering.resources/rock-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
 description: Utilice el nodo Sampler de mosaico para muestrear y organizar los mosaicos de las texturas de entrada para crear patrones de mosaico en Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sampler en mosaico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 0%
+source-wordcount: '1060'
+ht-degree: 6%
 
 ---
 
@@ -22,120 +22,107 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler.png){width="128px"}
 
-## Sampler en mosaico (color)
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Complejo**
+<b>En:</b> Generadores De Texturas > Motivos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Tile Sampler es el nodo de generación de patrones de mosaico definitivo. Es una versión evolucionada y más compleja de [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). A partir de 2017 2.1, las diferencias son mucho menores entre Tile Sampler y [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Las principales diferencias están ahora solo en las siete ranuras de mapas diferentes que están disponibles para la escala de conducción, posición, rotación, tamaño, color y máscara. Su efecto se puede fusionar por separado.
 
-El Sampler de mosaico es útil para crear patrones de procedimientos creados por el hombre, con un control adicional sobre ciertos parámetros controlados por mapas de entrada externos.
+El Sampler de mosaico es útil para crear patrones procedimientos creados por el hombre, con un control adicional sobre ciertos parámetros controlados por mapas de entrada externos.
 
 Asegúrate de estar familiarizado con [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) antes de pasar al Sampler de mosaico. En la mayoría de los casos, encontrarás [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) suficiente y no necesitarás la complejidad añadida de Tile Sampler.
 
-## Parámetros
-
-### Entradas
-
-* **Entrada de patrón 1-6**: *Entrada de escala de grises/entrada de color*\
-  Imagen de motivo personalizado, utilizada cuando el parámetro &quot;Motivo&quot; se define en &quot;Entrada de imagen&quot;.\
-  La cantidad de entradas disponibles viene determinada por el parámetro **Número de entrada de patrón**.
-* **Entrada de mapa de escala**: *Entrada de escala de grises* Mapa de escala de grises para escalar los azulejos de la unidad.
-* **Entrada de mapa de Desplazamiento**: *Entrada de escala de grises* Mapa de escala de grises para controlar el desplazamiento del azulejo.
-* **Entrada de Mapa de rotación**: *Entrada en escala de grises*\
-  Mapa de escala de grises para controlar la rotación del azulejo.
-* **Entrada de mapa vectorial**: *Entrada de color*\
-  Mapa vectorial de color para controlar la escala no uniforme.
-* **Entrada de mapa de color**: *Entrada de escala de grises / Entrada de color* Asignar a matiz por mosaico de unidad.
-* **Entrada de mapa de máscara**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para ocultar ciertos azulejos.
-* **Entrada de mapa de distribución de patrones**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para controlar varias entradas de patrón personalizadas.
-* **Entrada en segundo plano**: *Entrada de escala de grises/entrada de color* Imagen de fondo opcional.
-
-### Parámetros
-
-* **Cantidad X**: *0 - 64*\
-  Cantidad de repeticiones X del patrón.
-* **Importe Y**: *0 - 64*\
-  Cantidad de repeticiones Y del patrón.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* **Patrón**
-  * **Patrón**: *Entrada De Patrón, Cuadrado, Disco, Paraboloide, Campana, Gaussiano, Espina, Pirámide, Ladrillo, Gradación, Ondas, Media Campana, Campana Cortada, Media Luna, Cápsula, Cono*\
-    Selecciona la forma de motivo que se va a utilizar.
-  * **Número de entrada de patrón**: *1 - 6* Cantidad de patrones personalizados entre los que elegir al azar.
-  * **Distribución De Entrada De Patrón**: *Aleatorio, Número de patrón, Mapa de distribución* Establece cómo se eligen las múltiples entradas de patrón. Aleatorio significa que se ha elegido uno aleatorio, Número de patrón significa que se han colocado en una secuencia en bucle. El mapa de distribución utiliza una entrada de mapa en escala de grises para controlar la posición.
-  * **Filtrado de entrada de patrón (Motor > v4)**: *Bilineal + Mipmaps, Bilineal, Más Cercano*
-  * **Específico del patrón**: *0.0 - 1.0*\
-    Permite cambiar la forma del motivo seleccionado. El efecto depende del patrón seleccionado.
-  * **Aleatorio específico de patrón**: *0.0 - 1.0* El efecto de aleatorización depende del patrón seleccionado.
-  * **Rotación**: *0, 90, 180, 270* Rotación escalonada (90 grados).
-  * **Aleatorio de rotación**: *0.0 - 1.0* Rotación libre aleatoria por mosaico.
-  * **Aleatorio de simetría**: *0.0 - 1.0* Establece el número de mosaicos que se deben voltear o reflejar aleatoriamente de acuerdo con el comportamiento siguiente.
-  * **Modo aleatorio de simetría**: *Horizontal + Vertical, Horizontal, Vertical* Determina el comportamiento de reflejo de la simetría.
-* **Tamaño**
-  * **Modo de tamaño**: *Normal, Mantener proporción, Absoluto, Píxel* Establece el comportamiento general del tamaño del patrón.\
-    Normal permite definir el tamaño de los elementos de patrón. Se ve afectada por la cantidad X e Y.\
-    Mantener proporción le permite establecer un tamaño afectado por la cantidad de X e Y, pero la proporción de X e Y entre los dos se deja intacta.\
-    Absoluto le permite establecer un tamaño absoluto que no se vea afectado por la cantidad X e Y.\
-    El píxel le permite establecer un tamaño absoluto en píxeles, sin que se vea afectado por la cantidad de X e Y. El cambio de la resolución afectará al tamaño de los elementos.
-  * **Tamaño (absoluto/píxel)**: *0.0 - 1.0* Cambia las proporciones no uniformes de los mosaicos. El comportamiento exacto depende del modo Tamaño.
-  * **Aleatorio de tamaño**: *0.0 - 1.0* Aleatoriza las proporciones por mosaico.
-  * **Escala**: *0.0 - 10.0* Establece la escala de mosaico global.
-  * **Escala aleatoria**: *0.0 - 1.0* Aleatoriza la escala por mosaico
-  * **Multiplicador de mapa de escala**: *0.0 - 1.0* Mezcla el efecto del mapa de escala.
-  * **Multiplicador de mapa de vectores de escala**: *0.0 - 1.0* Fusiona el efecto del mapa vectorial de escala para generar una escala no uniforme.
-  * **Efecto de parametrización de escala**: *X e Y, X, Y* Establece los ejes a los que afecta la parametrización de escala. Se puede utilizar para que el mapa de escala solo afecte a X o Y de los elementos.
-* **Posición**
-  * **Posición aleatoria**: *0.0 - 10.0* Aleatoriza la posición del azulejo sobre ambos ejes.
-  * **Desplazamiento**: *0.0 - 1.0*\
-    Cambia los azulejos en función del tipo de desplazamiento.
-  * **Tipo de desplazamiento**: *quincux horizontal, quincux vertical, global horizontal, global vertical* Cambia la dirección en la que funciona el desplazamiento.
-  * **Desplazamiento global**: *0.0 - 1.0* Desfasa globalmente todos los mosaicos de los ejes X o Y.
-  * **Intensidad del mapa de Desplazamiento**: *0.0 - 1.0* Se mezcla en la intensidad del mapa de Desplazamiento en el desplazamiento.
-  * **Ángulo de Desplazamiento**: *0.0 - 1.0* Establece el ángulo en el que se va a desplazar.
-  * **Desplazamiento de mapa vectorial**: *0.0 - 1.0* Usa mapa vectorial para controlar el desplazamiento y el ángulo.
-* **Rotación**
-  * **Rotación**: *0.0 - 1.0* Gira globalmente todos los mosaicos.
-  * **Aleatorio de rotación**: *0.0 - 1.0* Rota aleatoriamente por mosaico.
-  * **Multiplicador de Mapa de rotación**: *0.0 - 1.0* Mezclas en el efecto del Mapa de rotación en la rotación por azulejo.
-  * **Multiplicador de mapa vectorial**: *0.0 - 1.0* Usa Mapa de vectores para controlar la rotación por mosaico.
-* **Color**
-  * **Umbral de asignación de máscara**: *0.0 - 1.0* Umbral para el mapa de máscara cuando se empiezan a ocultar los mosaicos.
-  * **Invertir mapa de máscara**: *Falso/Verdadero* Efecto de mapa de máscara invertida.
-  * **Técnica de muestreo del mapa de máscara**: *Centro de motivo, Cuadro delimitador de motivo (más lento)*Si la ocultación debe estar determinada por un solo punto o por un cuadro delimitador. Evita que los píxeles aislados produzcan efectos extraños.
-  * **Aleatorio de máscara**: *0.0 - 1.0* Enmascaramiento aleatorio, funciona en paralelo al mapa de máscara.
-  * **Invertir máscara**: *Falso/Verdadero* Invierte las máscaras aleatorias.
-  * **Modo De Fusión**: *Agregar/Inferior, Máx. (Sampler de mosaico) /* Agregar/Inferior, Fusión de Alpha* (Color de Sampler de mosaico)*Modo de fusión para mosaicos en fondo y entre sí.
-  * **Color**: *(Valor de escala de grises) / (Valor de color)*Color de azulejo global sólido.
-  * **Aleatorio de color/luminancia**: *0.0 - 1.0* Aleatorización del color, por mosaico.
-  * **Modo de parametrización de color**: *Entrada de color, escala, índice de línea, índice de fila, índice de motivo (Sampler de mosaico)*\
-    */*Mapa de color, Escala, Índice de línea, Índice de fila, Índice de motivo, Posición central del motivo, Posición central del motivo (RG) Tamaño de esfera (B) (Color de Sampler de azulejo)**Define cómo se parametriza exactamente la aleatorización del color.
-  * **Multiplicador de parametrización de color**: *0.0 - 1.0* Fusiones en el efecto de parametrización anterior.
-  * **Efecto de parametrización de color (solo color):** **RGB+Alpha, solo RGB, solo Alpha** Establece cómo afecta la parametrización al color.
-  * **Opacidad global (solo escala de grises)**: *0.0 - 1.0* Establece la opacidad del mosaico global.
-  * **Color de fondo**: *(Valor de escala de grises) / (Valor de color)*Define el color de fondo sólido.
-  * **Orden de procesamiento inverso**: *Falso/Verdadero* Invierte el orden de procesamiento para ir de atrás hacia adelante.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/tilesampler-ex2.png" width="256px"/></div> |
-| --- |
-|  |
-
-*El ejemplo muestra cómo se controlan los parámetros mediante mapas de entrada (distribución de patrones, escala, rotación).*
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada de patrón 1-6</b> <i>Entrada de escala de grises/entrada de color</i> | Imagen de patrón personalizado, utilizada cuando el parámetro &quot;Pattern&quot; se establece en &quot;Image Input&quot;.<br><br>La cantidad de entradas disponibles viene determinada por el parámetro <b>Pattern Input Number</b>. |
+| <b>Entrada de mapa de escala</b> <i>Entrada en escala de grises</i> | Mapa de escala de grises para aplicar escala al azulejo. |
+| <b>Entrada de mapa de Desplazamiento</b> <i>Entrada en escala de grises</i> | Mapa de escala de grises para controlar el desplazamiento del azulejo. |
+| <b>Entrada de Mapa de rotación</b> <i>Entrada en escala de grises</i> | Mapa de escala de grises para controlar la rotación del azulejo. |
+| <b>Entrada de mapa vectorial</b> <i>Entrada de color</i> | Mapa vectorial de color para controlar la escala no uniforme. |
+| <b>Entrada de mapa de color</b> <i>Entrada de escala de grises/entrada de color</i> | Mapa para controlar el matiz por azulejo. |
+| <b>Entrada de mapa de máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para ocultar ciertos azulejos. |
+| <b>Entrada de mapa de distribución de patrones</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para controlar varias entradas de patrón personalizadas. |
+| <b>Entrada en segundo plano</b> <i>Entrada de escala de grises/entrada de color</i> | Imagen de fondo opcional. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Cantidad X</b> <i>0 - 64</i> | Cantidad de repeticiones X del patrón. |
+| <b>Importe Y</b> <i>0 - 64</i> | Cantidad de repeticiones Y del patrón. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Patrón</b> |  |
+| <b>Patrón</b> <i>Entrada de patrón, Cuadrado, Disco, Paraboloide, Campana, Gaussiano, Espina, Pirámide, Ladrillo, Gradación, Ondas, Media campana, Campana con bordes, Media luna, Cápsula, Cono</i> | Selecciona la forma de motivo que se va a utilizar. |
+| <b>Número de entrada de patrón</b> <i>1 - 6</i> | Cantidad de patrones personalizados entre los que elegir aleatoriamente. |
+| <b>Distribución de entrada de patrón</b> <i>Aleatorio, Número de patrón, Mapa de distribución</i> | Define cómo se eligen varias entradas de patrón. Aleatorio significa que se ha elegido uno aleatorio, Número de patrón significa que se han colocado en una secuencia en bucle. El mapa de distribución utiliza una entrada de mapa en escala de grises para controlar la posición. |
+| <b>Filtrado de entrada de patrón (Motor > v4)</b> <i>Bilineal + Mipmaps, Bilineal, Más Cercano</i> |  |
+| <b>Específico del patrón</b> <i>0.0 - 1.0</i> | Permite cambiar la forma del motivo seleccionado. El efecto depende del patrón seleccionado. |
+| <b>Aleatorio específico de motivo</b> <i>0.0 - 1.0</i> | El efecto de aleatorización depende del patrón seleccionado. |
+| <b>Rotación</b> <i>0, 90, 180, 270</i> | Rotación escalonada (90 grados). |
+| <b>Aleatorio de rotación</b> <i>0.0 - 1.0</i> | Rotación libre aleatoria por unidad de medida. |
+| <b>Aleatorio de Simetría</b> <i>0.0 - 1.0</i> | Define el número de mosaicos que se deben voltear o reflejar aleatoriamente según el comportamiento siguiente. |
+| <b>Modo aleatorio de Simetría</b> <i>Horizontal + Vertical, Horizontal, Vertical</i> | Determina el comportamiento de reflejo de la simetría. |
+| <b>Tamaño</b> |  |
+| <b>Modo de tamaño</b> <i>Normal, Mantener Proporción, Absoluta, Píxel</i> | Define el comportamiento general del tamaño del patrón.<br><br>Normal te permite definir el tamaño de los elementos de patrón. Se ve afectada por la cantidad X e Y.<br><br>Mantener proporción te permite establecer un tamaño afectado por la cantidad de X e Y, pero la proporción de X e Y entre los dos se deja intacta.<br><br>Absoluto te permite establecer un tamaño absoluto que no se vea afectado por la cantidad de X e Y.<br><br>Píxel te permite establecer un tamaño absoluto en píxeles, sin que la cantidad de X e Y te afecte. El cambio de la resolución afectará al tamaño de los elementos. |
+| <b>Tamaño (Absoluto/Píxel)</b> <i>0.0 - 1.0</i> | Cambia las proporciones no uniformes de los mosaicos. El comportamiento exacto depende del modo Tamaño. |
+| <b>Aleatorio de tamaño</b> <i>0.0 - 1.0</i> | Aleatoriza proporciones por azulejo. |
+| <b>Escala</b> <i>0.0 - 10.0</i> | Establece la escala de mosaico global. |
+| <b>Escala aleatoria</b> <i>0.0 - 1.0</i> | Aleatoriza la escala por azulejo. |
+| <b>Multiplicador de mapa de escala</b> <i>0.0 - 1.0</i> | Fusiones en el efecto del mapa de escala. |
+| <b>Multiplicador de mapa de vectores de escala</b> <i>0.0 - 1.0</i> | Fusiones en el efecto del mapa vectorial de escala para controlar la escala no uniforme. |
+| <b>Efecto de parametrización de escala</b> <i>X e Y, X, Y</i> | Define los ejes a los que afecta la parametrización de escala. Se puede utilizar para que el mapa de escala solo afecte a X o Y de los elementos. |
+| <b>Posición</b> |  |
+| <b>Posición aleatoria</b> <i>0.0 - 10.0</i> | Aleatoriza la posición del azulejo en ambos ejes. |
+| <b>Desplazamiento</b> <i>0.0 - 1.0</i> | Cambia los azulejos en función del tipo de desplazamiento. |
+| <b>Tipo de desplazamiento</b> <i>quincux horizontal, quincux vertical, global horizontal, global vertical</i> | Cambia la dirección en la que funciona el desplazamiento. |
+| <b>Desplazamiento global</b> <i>0.0 - 1.0</i> | Desplaza globalmente todos los mosaicos en los ejes X o Y. |
+| <b>Intensidad del mapa de Desplazamiento</b> <i>0.0 - 1.0</i> | Fusiones en la intensidad del mapa de Desplazamiento en el desplazamiento. |
+| <b>Ángulo de Desplazamiento</b> <i>0.0 - 1.0</i> | Define el ángulo en el que se va a desplazar. |
+| <b>Desplazamiento de mapa vectorial</b> <i>0.0 - 1.0</i> | Utiliza mapa vectorial para controlar el desplazamiento y el ángulo. |
+| <b>Rotación</b> |  |
+| <b>Rotación</b> <i>0.0 - 1.0</i> | Gira globalmente todos los mosaicos. |
+| <b>Aleatorio de rotación</b> <i>0.0 - 1.0</i> | Rota aleatoriamente por azulejo. |
+| <b>Multiplicador de Mapa de rotación</b> <i>0.0 - 1.0</i> | Fusiones en el efecto del Mapa de rotación en la rotación por azulejo. |
+| <b>Multiplicador de mapa vectorial</b> <i>0.0 - 1.0</i> | Usa Mapa vectorial para controlar la rotación por mosaico. |
+| <b>Color</b> |  |
+| <b>Umbral de asignación de máscara</b> <i>0.0 - 1.0</i> | Umbral del mapa de máscara cuando se empiezan a ocultar los mosaicos. |
+| <b>Invertir mapa de máscara</b> <i>Falso/Verdadero</i> | Efecto Mapa de máscara invertida. |
+| <b>Técnica de muestreo del mapa de máscara</b> <i>Centro de motivo, Cuadro delimitador de motivo (más lento)</i> | Si la ocultación debe estar determinada por un solo punto o por un cuadro delimitador. Evita que los píxeles aislados produzcan efectos extraños. |
+| <b>Aleatorio de máscara</b> <i>0.0 - 1.0</i> | Máscara aleatoria, funciona en paralelo al mapa de máscara. |
+| <b>Invertir máscara</b> <i>Falso/Verdadero</i> | Invierte la máscara aleatoria. |
+| <b>Modo De Fusión</b> <i>Agregar/Inferior, Máx. (Sampler En Mosaico) / Agregar/Inferior, Fusión De Alpha (Color Sampler En Mosaico)</i> | Modo de Fusión para azulejos en el fondo y entre sí. |
+| <b>Color</b> <i>(valor de escala de grises) / (valor de color)</i> | Color de azulejo global y sólido. |
+| <b>Aleatorio de color/luminancia</b> <i>0.0 - 1.0</i> | Aleatorización del color, por azulejo. |
+| <b>Modo de parametrización de color</b> <i>Entrada de color, Escala, Índice de línea, Índice de fila, Índice de motivo (Sampler de mosaico) / Mapa de color, Escala, Índice de línea, Índice de fila, Índice de motivo, Posición central del motivo, Posición central del motivo (RG) Tamaño de esfera (B) (Color de Sampler de mosaico)</i> | Define cómo se parametriza exactamente la aleatorización de color. |
+| <b>Multiplicador de parametrización de color</b> <i>0.0 - 1.0</i> | Fusiones en el efecto de parametrización anterior. |
+| <b>Efecto de parametrización de color (solo color)</b> <i>RGB+Alpha, solo RGB, solo Alpha</i> | Define cómo afecta la parametrización al color. |
+| <b>Opacidad global (solo escala de grises)</b> <i>0.0 - 1.0</i> | Define la opacidad global del azulejo. |
+| <b>Color de fondo</b> <i>(valor de escala de grises) / (valor de color)</i> | Define el color de fondo sólido. |
+| <b>Orden de procesamiento inverso</b> <i>Falso/Verdadero</i> | Invierte el orden de procesamiento para ir de atrás hacia adelante. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>El ejemplo muestra cómo se controlan los parámetros mediante mapas de entrada (distribución de patrones, escala, rotación).</i>
+        </td>
+    </tr>
 </table>

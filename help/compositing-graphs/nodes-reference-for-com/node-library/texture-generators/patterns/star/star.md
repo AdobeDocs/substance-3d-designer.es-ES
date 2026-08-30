@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
 breadcrumb-title: ''
 description: Utilice el nodo Estrella para generar patrones en forma de estrella con puntos y tamaños personalizables para texturas geométricas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Estrella
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
@@ -22,32 +22,28 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/star-5.png)
+![](star.resources/star-5.png)
 
-## Estrella
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Genera una estrella de cinco puntas.
 
-## Parámetros
-
-* **Escala**: *0.0 - 1.0*\
-  Ajusta toda la forma de manera uniforme.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Escala</b> <i>0.0 - 1.0</i> | Ajusta toda la forma de manera uniforme. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
 breadcrumb-title: ''
 description: Utilice el nodo F0 dieléctrico de PBR para calcular valores F0 dieléctricos para flujos de trabajo de materiales basados en la física.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR Dielectric F0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 1%
+source-wordcount: '112'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-dielectric-f0.png){width="128px"}
+![](pbr-dielectric-f0.resources/pbr-dielectric-f0.png){width="128px"}
 
-## PBR Dielectric F0
-
-**En:** *Utilidades de filtros de materiales/PBR*
-
-**Simple**
+<b>En:</b> Filtros de material > Utilidades de PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,18 +37,16 @@ Un nodo &quot;Preset&quot; de utilidad para valores de Specular al utilizar el m
 
 Resulta útil para obtener rápidamente los valores correctos como punto de partida, para que pueda evitar la selección de colores en un gráfico.
 
-## Parámetros
-
-* **Specular F0**: *Plástico, Madera, Piedra, Ladrillo, Arena, Concreto, Tela, Metal oxidado, Agua, Hielo, Vidrio, IOR personalizado* Escoge una gama de Speculares predefinida.
-* **Rango de Speculares**: *0.01 - 1.0* Ajusta el valor de Specular dentro del intervalo del ajuste preestablecido seleccionado. Permite algunos ajustes.
-* **IOR**: *1.0 - 5.0* Solo se habilita cuando se establece en IOR personalizado. Escoge tu propio valor.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Specular F0</b> <i>Plástico, Madera, Piedra, Ladrillo, Arena, Hormigón, Tela, Metal oxidado, Agua, Hielo, Vidrio, IOR personalizado</i> | Selecciona un rango de Specular predefinido. |
+| <b>Rango de Speculares</b> <i>0.01 - 1.0</i> | Ajusta el valor de Specular dentro del rango del ajuste preestablecido seleccionado. Permite algunos ajustes. |
+| <b>IOR</b> <i>1.0 - 5.0</i> | Solo se habilita cuando se establece en IOR personalizado. Escoge tu propio valor. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: Accede a los nodos atómicos en Substance 3D Designer para realizar operaciones básicas, como entradas, salidas, fusión y ajustes de color.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nodos atómicos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 11%
@@ -28,37 +28,37 @@ Todos los demás nodos de gráfica de Substance de la [Biblioteca](../../../inte
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Bitmap](../../../assets/comp_bitmap_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
+[![Nodo atómico: Bitmap](atomic-nodes.resources/comp_bitmap_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
 
 [Mapa de bits](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Fusionar](../../../assets/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
+[![Nodo atómico: Fusionar](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 [Fusión](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Desenfocar](../../../assets/comp_blur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+[![Nodo atómico: Desenfocar](atomic-nodes.resources/comp_blur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 [Desenfocar](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Curva](../../../assets/comp_curve.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)
+[![Nodo atómico: Curva](atomic-nodes.resources/comp_curve.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)
 
 [Curva](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Desenfoque direccional](../../../assets/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[![Nodo atómico: Desenfoque direccional](atomic-nodes.resources/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[Desenfoque direccional](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[Desenfoque direccional](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -68,35 +68,35 @@ Todos los demás nodos de gráfica de Substance de la [Biblioteca](../../../inte
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Deformación direccional](../../../assets/comp_directionalwarp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
+[![Nodo atómico: Deformación direccional](atomic-nodes.resources/comp_directionalwarp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 [Deformación direccional](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Relieve](../../../assets/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
+[![Nodo atómico: Relieve](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
 [Relieve](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Distancia](../../../assets/comp_distance.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)
+[![Nodo atómico: Distancia](atomic-nodes.resources/comp_distance.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)
 
 [Distancia](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Degradado (dinámico)](../../../assets/comp_dyngradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-dynamic/gradient-dynamic.md)
+[![Nodo atómico: Degradado (dinámico)](atomic-nodes.resources/comp_dyngradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-dynamic/gradient-dynamic.md)
 
 [Degradado (dinámico)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-dynamic/gradient-dynamic.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Mapa de degradado](../../../assets/comp_gradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
+[![Nodo atómico: Mapa de degradado](atomic-nodes.resources/comp_gradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
 [Mapa de degradado](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
@@ -108,37 +108,37 @@ Todos los demás nodos de gráfica de Substance de la [Biblioteca](../../../inte
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: FX-Map](../../../assets/comp_fxmaps.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
+[![Nodo atómico: FX-Map](atomic-nodes.resources/comp_fxmaps.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
 [FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Conversión en escala de grises](../../../assets/comp_grayscaleconversion.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)
+[![Nodo atómico: Conversión en escala de grises](atomic-nodes.resources/comp_grayscaleconversion.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)
 
 [Conversión de escala de grises](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: HSL](../../../assets/comp_hsl.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
+[![Nodo atómico: HSL](atomic-nodes.resources/comp_hsl.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
 
 [HSL](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Color de entrada](../../../assets/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Nodo atómico: Color de entrada](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 [Color de entrada](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Escala de grises de entrada](../../../assets/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Nodo atómico: Escala de grises de entrada](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[Escala de grises de entrada](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Escala de grises de entrada](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>
@@ -148,35 +148,35 @@ Todos los demás nodos de gráfica de Substance de la [Biblioteca](../../../inte
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Valor de entrada](../../../assets/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Nodo atómico: Valor de entrada](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 [Valor de entrada](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Niveles](../../../assets/comp_levels.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)
+[![Nodo atómico: Niveles](atomic-nodes.resources/comp_levels.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)
 
 [Niveles](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Normal](../../../assets/comp_normal.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)
+[![Nodo atómico: Normal](atomic-nodes.resources/comp_normal.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)
 
 [Normal](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Salida](../../../assets/comp_output.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+[![Nodo atómico: Salida](atomic-nodes.resources/comp_output.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 [Salida](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Procesador de píxeles](../../../assets/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
+[![Nodo atómico: Procesador de píxeles](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
 [Procesador de píxeles](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
@@ -188,35 +188,35 @@ Todos los demás nodos de gráfica de Substance de la [Biblioteca](../../../inte
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Enfocar](../../../assets/comp_sharpen.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
+[![Nodo atómico: Enfocar](atomic-nodes.resources/comp_sharpen.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
 
 [Enfocar](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Mezcla de canales](../../../assets/comp_shuffle_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
+[![Nodo atómico: Mezcla de canales](atomic-nodes.resources/comp_shuffle_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
 
 [Orden aleatorio de canales](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: SVG](../../../assets/comp_svg.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
+[![Nodo atómico: SVG](atomic-nodes.resources/comp_svg.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
 
 [SVG](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Texto](../../../assets/comp_text.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
+[![Nodo atómico: Texto](atomic-nodes.resources/comp_text.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
 [Texto](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Transformación 2D](../../../assets/comp_transformation.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
+[![Nodo atómico: Transformación 2D](atomic-nodes.resources/comp_transformation.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
 
 [Transformación 2D](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
 
@@ -228,21 +228,21 @@ Todos los demás nodos de gráfica de Substance de la [Biblioteca](../../../inte
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Color uniforme](../../../assets/comp_uniform.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
+[![Nodo atómico: Color uniforme](atomic-nodes.resources/comp_uniform.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
 
 [Color uniforme](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Procesador de valores](../../../assets/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
+[![Nodo atómico: Procesador de valores](atomic-nodes.resources/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 
 [Procesador de valor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atómico: Deformar](../../../assets/comp_warp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
+[![Nodo atómico: Deformar](atomic-nodes.resources/comp_warp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
 
 [Deformar](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
 
@@ -266,11 +266,11 @@ Hay varias formas de crear nodos atómicos en los gráficos de Substance:
 
 ### <b>La paleta de nodos</b>
 
-![](../../../assets/atomic-bar.png)
+![](atomic-nodes.resources/atomic-bar.png)
 
 La paleta de nodos se encuentra en la [barra de herramientas de la Vista de gráficos](../../../interface/the-graph-view/the-graph-view.md) y proporciona acceso fácil a los nodos atómicos: simplemente haga clic en un nodo o arrástrelo al gráfico.
 
-La paleta se conmuta mediante este botón: ![](../../../assets/node-palette-toggle.png)
+La paleta se activa mediante este botón: ![](atomic-nodes.resources/node-palette-toggle.png)
 
 ### <b>El menú de nodos</b>
 

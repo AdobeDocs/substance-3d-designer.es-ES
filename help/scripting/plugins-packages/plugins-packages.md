@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/plugins-packages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugins-packages.html"
 breadcrumb-title: ''
 description: Aprenda a crear y estructurar paquetes de plugins para scripts de Substance 3D Designer Python.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Paquetes de complementos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Son archivos individuales con una extensión sdplugin que contiene todo lo que u
 
 ## Instalación de paquetes de complementos
 
-![Administrador de complementos](../../assets/screenshot-from-2019-07-18-11-48-56.png "Administrador de complementos")
+![Administrador de complementos](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "Administrador de complementos")
 
 Los paquetes de complementos se instalan mediante <b>Administrador de complementos</b>, en el menú <b>Herramientas</b>:
 

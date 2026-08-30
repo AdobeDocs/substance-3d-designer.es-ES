@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
 breadcrumb-title: ''
 description: Utilice el nodo Deformación multidireccional para aplicar efectos de deformación en varias direcciones para crear patrones de distorsión complejos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Deformación multidireccional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 1%
+source-wordcount: '297'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-directional-warp-color.png)![](../../../../../../assets/multi-directional-warp-grayscalepng.png)
+![](multi-directional-warp.resources/multi-directional-warp-color.png)![](multi-directional-warp.resources/multi-directional-warp-grayscalepng.png)
 
-## Deformación multidireccional (escala de grises)
-
-**En:** *Filtros/Efectos*
-
-**Intermedio**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,27 +37,26 @@ Deformación multidireccional aplica [Deformación direccional](../../../../../.
 
 Se diferencia principalmente de [Non Uniform Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md) en que es ligeramente más limitado: la dirección de la deformación sólo se controla mediante parámetros y no se puede establecer mediante un mapa de entrada. La ventaja es que es ligeramente más fácil de usar y puede ser más preciso dependiendo de su caso de uso.
 
-## Parámetros
-
-### Entradas
-
-* **Entrada**: *Entrada de escala de grises/color*\
-  Mapa base al que se aplicará la deformación. Puede ser en color o en escala de grises.
-* **Entrada de intensidad**: *Entrada en escala de grises*\
-  El mapa de máscara obligatorio que controla la intensidad del efecto de deformación debe ser de escala de grises.
-
-### Parámetros
-
-* **Intensidad**: *0.0 - 20.0*\
-  Define la intensidad del efecto de deformación y la distancia que se deben expulsar los píxeles.
-* **Ángulo de deformación**: *0.0 - 1.0*\
-  Define el ángulo o la dirección en la que se aplica el efecto Deformar.
-* **Modo**: *Promedio, Máx., Mín., Cadena*\
-  Define el modo de fusión para pasadas consecutivas. Solo tiene efecto si Directions es 2 o 4!
-* **Direcciones**: *1, 2, 4* Define el número de ejes que funciona la deformación. 1 significa que se mueve en la dirección del Ángulo, y el opuesto de esa dirección, 2 significa el eje del ángulo, más el eje perpendicular, 4 significa los ejes anteriores, más 45 inclemencias de grados.
-
-## Imágenes de ejemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Entrada de color/escala de grises</i> | Mapa base al que se aplicará la deformación. Puede ser en color o en escala de grises. |
+| <b>Entrada de intensidad</b> <i>Entrada en escala de grises</i> | El mapa de máscara obligatorio que controla la intensidad del efecto de deformación debe ser de escala de grises. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Intensidad</b> <i>0.0 - 20.0</i> | Define la intensidad del efecto de deformación y la distancia que se deben expulsar los píxeles. |
+| <b>Ángulo de deformación</b> <i>0.0 - 1.0</i> | Define el ángulo o la dirección en la que se aplica el efecto Deformar. |
+| <b>Modo</b> <i>Promedio, Máx., Mín., Cadena</i> | Define el modo de fusión para pasadas consecutivas. Solo tiene efecto si Directions es 2 o 4! |
+| <b>Direcciones</b> <i>1, 2, 4</i> | Define el número de ejes que funciona la deformación. 1 significa que se mueve en la dirección del Ángulo, y el opuesto de esa dirección, 2 significa el eje del ángulo, más el eje perpendicular, 4 significa los ejes anteriores, más 45 inclemencias de grados. |

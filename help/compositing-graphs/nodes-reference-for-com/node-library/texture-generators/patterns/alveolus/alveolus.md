@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
 breadcrumb-title: ''
 description: Utilice el nodo Alveolus para generar patrones celulares similares a panales de abeja para crear efectos de textura orgánicos y geométricos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Alvéolo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '94'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/alveolus-1.png){width="128px"}
+![](alveolus.resources/alveolus-1.png){width="128px"}
 
-## Alvéolo
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Un patrón de esfera suave que también puede generar azulejos hexagonales.
 
-## Parámetros
-
-* **Mosaico**: *1 - 16*\
-  Define la cantidad de veces que el resultado debe aparecer en mosaico.
-* **Celdas con degradado rellenado**: *Falso/Verdadero* Cambia a bordes nítidos, lo que crea mosaicos hexagonales de bordes afilados.
-* **Ancho de intersticio**: *0.0 - 1.0* Solo funciona cuando la opción anterior está establecida en &quot;False&quot;. Cambia el tamaño del intersticio.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/alveolus.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Mosaico</b> <i>1 - 16</i> | Define la cantidad de veces que el resultado debe aparecer en mosaico. |
+| <b>Celdas con degradado rellenado</b> <i>Falso/Verdadero</i> | Cambia a bordes afilados, creando mosaicos hexagonales afilados. |
+| <b>Ancho de intersticio</b> <i>0.0 - 1.0</i> | Solo funciona cuando la opción anterior está establecida en &quot;False&quot;. Cambia el tamaño del intersticio. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="alveolus.resources/alveolus.gif" />
+        </td>
+    </tr>
 </table>

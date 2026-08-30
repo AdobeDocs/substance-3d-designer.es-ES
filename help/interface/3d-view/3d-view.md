@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilice la vista 3D de Substance 3D Designer para previsualizar materiales en objetos 3D y probar las condiciones de iluminación.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vista 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Más información aquí: [Procesadores 3D](3d-renderers/3d-renderers.md)
 
 En la sección siguiente se explica cómo realizar acciones comunes en pocas palabras, junto con un archivo gif animado para ilustrar el proceso.
 
-![Navegación por ventanilla](../../assets/3d-navigate.gif "Navegación por ventanilla")
+![Navegación por ventanilla](3d-view.resources/3d-navigate.gif "Navegación por ventanilla")
 
 ### Navegación
 
@@ -84,11 +84,11 @@ Puede interactuar con las mallas directamente en la ventana gráfica:
 
 <b>Presione Escape para deseleccionar.</b> No es necesario que el cursor esté en la malla.
 
-![Vista 3D - Enfocar y deseleccionar](../../assets/sceneBrowser-focus.gif "Vista 3D - Enfocar y deseleccionar"){zoomable="yes"}
+![Vista 3D - Enfocar y deseleccionar](3d-view.resources/sceneBrowser-focus.gif "Vista 3D - Enfocar y deseleccionar"){zoomable="yes"}
 
 *Seleccionar, enfocar y deseleccionar*
 
-![Vista 3D - Menú contextual](../../assets/sceneBrowser-contextualMenu.gif "Vista 3D - Menú contextual"){zoomable="yes"}
+![Vista 3D - Menú contextual](3d-view.resources/sceneBrowser-contextualMenu.gif "Vista 3D - Menú contextual"){zoomable="yes"}
 
 *Seleccionar, menú contextual*
 
@@ -114,13 +114,13 @@ Para utilizar su propio entorno de luz HDR personalizado, importe una imagen HDR
 
 Ve a <b>Luces > Editar propiedades</b> para cambiar las luces puntuales de tu escena.
 
-La luz puntual 1 se puede mover alrededor del origen de la escena manteniendo pulsada la tecla LMB o RMB y arrastrando en la ventanilla en el modo Iluminación. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+La luz puntual 1 se puede mover alrededor del origen de la escena manteniendo pulsada la tecla LMB o RMB y arrastrando en la ventanilla en el modo Iluminación. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-En modo de cámara <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> , también puedes cambiar temporalmente al modo de iluminación manteniendo pulsadas las teclas Ctrl+ ⇧ en combinación con los botones del ratón.
+En modo de cámara <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , también puedes cambiar temporalmente al modo de iluminación manteniendo pulsadas las teclas Ctrl+ ⇧ en combinación con los botones del ratón.
 
 ## Ver datos en vista 3D
 
-![Salidas de gráfica de Substance de vista](../../assets/3d-material.gif "Salidas de gráfica de Substance de vista")
+![Salidas de gráfica de Substance de vista](3d-view.resources/3d-material.gif "Salidas de gráfica de Substance de vista")
 
 ### Gráficos de Substance
 
@@ -140,7 +140,7 @@ Al *cargar un gráfico*, sus resultados se aplican automáticamente en la vista 
 > 
 > Si utiliza mallas personalizadas con más de un material, se le pedirá que elija a qué ranura de material asignar el material. Con cualquiera de los métodos anteriores, haga clic en una ranura para confirmar su elección. Para obtener más información sobre los materiales y su asignación, lea la sección detallada a continuación.
 
-![Visualización de salidas de nodos frente a gráficos en la vista 3D](../../assets/3d-channel.gif "Visualización de salidas de nodos frente a gráficos en la vista 3D")
+![Visualización de salidas de nodos frente a gráficos en la vista 3D](3d-view.resources/3d-channel.gif "Visualización de salidas de nodos frente a gráficos en la vista 3D")
 
 ### Salida de nodo/gráfico individual
 
@@ -152,7 +152,7 @@ También puedes usar *RMB* para arrastrar y soltar cualquier nodo de la vista de
 
 Puede ver cualquier resultado de gráfico individual expandiendo el recurso de gráfico en el conjunto acoplado [Explorer](../the-explorer-window/the-explorer-window.md) y usando *LMB* para arrastrar ese resultado a la vista 3D. Se le mostrará una lista con los canales disponibles para asignar el nodo. Haga clic en cualquiera para confirmar.
 
-![Visualización de mallas 3D personalizadas](../../assets/3d-mesh.gif "Visualización de mallas 3D personalizadas")
+![Visualización de mallas 3D personalizadas](3d-view.resources/3d-mesh.gif "Visualización de mallas 3D personalizadas")
 
 ## Visualización de escenas 3D (personalizadas)
 
@@ -161,7 +161,7 @@ Elija cualquiera de las mallas predeterminadas en el menú desplegable <b>Escena
 
 Para escenas 3D personalizadas, vaya a la sección [Trabajar con escenas 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Cambio de propiedades de material](../../assets/3d-materials.gif "Cambio de propiedades de material")
+![Cambio de propiedades de material](3d-view.resources/3d-materials.gif "Cambio de propiedades de material")
 
 ## Cambiar propiedades del sombreado
 
@@ -184,7 +184,7 @@ Los sombreadores se pueden restablecer mediante las acciones &quot;Restablecer m
 > * <b>Rasterizador/Trazador de ruta de GPU:</b> Situado en la configuración del procesador (Procesador > Editar configuración), afecta a *toda la escena*.
 > * <b>OpenGL:</b> Situado en las propiedades del material, afecta al material.
 
-![Exportando la escena](../../assets/3d-view-export-scene.gif "Exportando la escena")
+![Exportando la escena](3d-view.resources/3d-view-export-scene.gif "Exportando la escena")
 
 ## Exportar escena
 
@@ -221,7 +221,7 @@ Para exportar la malla Vista 3D, vaya a <b>Escena > Exportar malla teselada...</
 >
 > **TDR (solo Windows)**
 > 
-> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
+> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
 
 ## Barra de menús
 
@@ -230,7 +230,7 @@ La barra de menús proporciona 7 menús con opciones relacionadas con la vista 3
 +++Escena
 El menú <b>Escena</b> trata de la geometría (recurso 3D) mostrada y de los estados de vista 3D. Los recursos 3D solo comparten la malla, los estados de escena son luces, cámara y ajustes relacionados, y también pueden contener la malla a lo largo.
 
-![Mallas del menú Escena](../../assets/3d-view-meshes.png "Mallas del menú Escena")
+![Mallas del menú Escena](3d-view.resources/3d-view-meshes.png "Mallas del menú Escena")
 
 
 
@@ -281,7 +281,7 @@ El menú <b>Escena</b> trata de la geometría (recurso 3D) mostrada y de los est
 <b>Exportar escena:</b> *(Solo procesadores de rasterizado/Trazador de ruta de GPU)* Exporta la escena actual como una [escena alisada](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), donde solo se escribe la escena resultante y se pierden todas las referencias a la escena original. El contenido de la escena exportada depende de las funciones admitidas por el formato de exportación seleccionado.\
 Formatos disponibles: STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.
 
-<b>Exportar escena con capas:</b> *(Solo procesadores rasterizer/Trazador de ruta de GPU)*Exporta la escena actual como una [escena con capas](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), en la que todas las ediciones realizadas en la escena original se guardan en archivos independientes en un flujo de trabajo no destructivo. Esta opción solo está disponible para formatos de archivo USD.\
+<b>Exportar escena con capas:</b> *(Solo procesadores rasterizer/Trazador de ruta de GPU)*Exporta la escena actual como una [escena con capas](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), en la que todas las ediciones realizadas en la escena original se guardan en archivos independientes en un flujo de trabajo no destructivo. Solo está disponible para formatos de archivo USD.\
 Los formatos disponibles son: USDC, USD, USDA.
 
 <b>Exportar geometría teselada:</b> *(Solo procesador OpenGL)* Exporta la escena actual con teselación como geometría RAW, consulte la sección Exportar escena.
@@ -305,7 +305,7 @@ El menú &quot;Materiales&quot; muestra una lista de todos los materiales asigna
 
 <b>Cargar definición...: </b>(solo procesador OpenGL) Permite cargar su propio sombreador [GLSLFX personalizado.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) El sombreado se añade a la lista anterior.
 
-<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Cambiar nombre:</b> Cambie la etiqueta de este material.
 
@@ -526,25 +526,25 @@ Cambia la visualización del eje 3D en la ventana gráfica.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Sacrificio posterior</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Sacrificio posterior</b>
 
 Al deshabilitar esta opción, puede ver una cara de malla de *ambos lados*. La opción funciona en combinación con la Malla metálica.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Cuadro delimitador</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Cuadro delimitador</b>
 
 Alterna la visualización del cuadro delimitador de la malla.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Espacio de tangente de vértice</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Espacio de tangente de vértice</b>
 
 Muestra los vectores tangente, binormal y normal para todos los vértices como gizmos de color.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Malla metálica</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Malla metálica</b>
 
 Cambia la visualización de la malla como una malla metálica.
 
@@ -574,7 +574,7 @@ La barra de herramientas <b>Display</b>, que se encuentra en la *parte inferior*
 
 ### Canales de color
 
-Puede mostrar un solo canal de la imagen mediante el botón ![](../../assets/2d-view-icon-channels.png) <b>Canales de color</b>. Se abre un cuadro combinado que permite seleccionar los canales <b>Rojo</b>, <b>Verde</b> y <b>Azul</b> que se deben mostrar. El aspecto normal de la imagen con todos los canales se restaura seleccionando la opción <b>RGB</b>.
+Puede mostrar un solo canal de la imagen mediante el botón ![](3d-view.resources/2d-view-icon-channels.png) <b>Canales de color</b>. Se abre un cuadro combinado que permite seleccionar los canales <b>Rojo</b>, <b>Verde</b> y <b>Azul</b> que se deben mostrar. El aspecto normal de la imagen con todos los canales se restaura seleccionando la opción <b>RGB</b>.
 
 El *icono* del botón <b>Canales de color</b> *cambia* dependiendo de los canales de visualización actuales.
 

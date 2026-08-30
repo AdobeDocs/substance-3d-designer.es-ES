@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
 breadcrumb-title: ''
 description: Utilice el nodo Multicángulo a Albedo para extraer mapas de albedo de imágenes digitalizadas multiángulo para obtener colores de material limpios.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: De múltiples ángulos a Albedo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
+![](multi-angle-to-albedo.resources/multi-angle-to-albedo.png){width="128px"}
 
-## De múltiples ángulos a Albedo
-
-**En:** *Procesamiento De Escaneo/Filtros De Materiales*
-
-**Simple**
+<b>En:</b> Filtros de material > Procesamiento de escaneo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,26 +39,26 @@ Ten en cuenta que cuantas más muestras tengas y cuanto mayor sea la diferencia 
 
 >[!NOTE]
 >
-> Vea [Multi-Angle to Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md) para obtener la versión de mapa normal de este nodo. Si quieres preprocesar tus entradas, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) y [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) pueden ser útiles, ya que están pensados para combinarse con estos nodos.
+> Vea [Multi-Angle to Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md) para obtener la versión de mapa normal de este nodo. Si quieres preprocesar tus entradas, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) y [Multi Clonar Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) pueden ser útiles, ya que están pensados para combinarse con estos nodos.
 > 
 > [La entrada del blog &quot;Tu Smartphone es un escáner de materiales&quot; ilustra este proceso un poco mejor.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
-
-## Parámetros
-
-### Entradas
-
-* **Entrada 1-8**: *Entrada de color* El número de entradas viene determinado por el parámetro Cantidad de muestras.
-
-### Parámetros
-
-* **Cantidad de muestras**: *2 - 8* Establece el número de muestras (entradas) que se utilizarán en el procesamiento.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada 1-8</b> <i>Entrada de color</i> | El número de entradas se determina mediante el parámetro Cantidad de muestras. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Cantidad de muestras</b> <i>2 - 8</i> | Define el número de muestras (entradas) que se utilizarán en el procesamiento. |

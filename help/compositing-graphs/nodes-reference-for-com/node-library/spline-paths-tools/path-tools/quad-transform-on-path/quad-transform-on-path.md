@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
 description: Utilice el nodo Transformación cuádruple en trazado para aplicar transformaciones cuadráticas a elementos de curvas de trazado.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformación cuádruple en trazado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/quad-transform-on-paths-icon.png "Icono de nodo")
+![Icono de nodo](quad-transform-on-path.resources/quad-transform-on-paths-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -39,29 +39,32 @@ Deforme trazados con 4 manejadores.
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Rutas</b> *Color*\
-Una lista de los segmentos codificados de las rutas. Conecte esta entrada al resultado de un nodo de procesamiento de [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a otro nodo de procesamiento de *Path*.
+## Entradas
 
-## Conectores de salida
+|  |  |
+|:---|:---|
+| <b>Rutas</b> <i>Color</i> | Una lista de los segmentos codificados de las rutas. Conecte esta entrada al resultado de un nodo de procesamiento de [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a otro nodo de procesamiento de *Path*. |
 
-<b>Rutas</b> *Color*\
-Los trazados transformados. Puedes usar [rutas de vista previa](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para hacerte una idea de lo que representa el resultado, usar otro nodo de procesamiento de rutas o escribirlo en [rutas de acceso a spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para procesarlo aún más como splines.
+<a name="outputs"></a>
+
+## Salidas
+
+|  |  |
+|:---|:---|
+| <b>Rutas</b> <i>Color</i> | Los trazados transformados. Puedes usar [rutas de vista previa](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para hacerte una idea de lo que representa el resultado, usar otro nodo de procesamiento de rutas o escribirlo en [rutas de acceso a spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para procesarlo aún más como splines. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>p00</b> *Float2*\
-Posición del control superior izquierdo.
-
-<b>p01</b> *Float2*\
-Posición del control superior derecho.
-
-<b>p02</b> *Float2*\
-Posición del control inferior izquierdo.
-
-<b>p03</b> *Float2*\
-Posición del control inferior derecho.
+|  |  |
+|:---|:---|
+| <b>p00</b> <i>Float2</i> | Posición del control superior izquierdo. |
+| <b>p01</b> <i>Float2</i> | Posición del control superior derecho. |
+| <b>p02</b> <i>Float2</i> | Posición del control inferior izquierdo. |
+| <b>p03</b> <i>Float2</i> | Posición del control inferior derecho. |
 
 ## Ejemplos
 
@@ -72,11 +75,11 @@ Posición del control inferior derecho.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -88,11 +91,11 @@ Posición del control inferior derecho.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -106,12 +109,12 @@ Posición del control inferior derecho.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](quad-transform-on-path.resources/QuadTransformOnPaths-Demo2.gif "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](quad-transform-on-path.resources/QuadTransformOnPaths-Demo1.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

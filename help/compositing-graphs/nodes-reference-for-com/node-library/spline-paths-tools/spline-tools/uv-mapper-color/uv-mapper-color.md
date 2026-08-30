@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
-description: Utilice el nodo Color del asignador UV para asignar texturas de color a lo largo de las splines para la generación de texturas de procedimiento.
+description: Utilice el nodo Color del asignador UV para asignar texturas de color a lo largo de las splines para la generación procedimienta de texturas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Color
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color del asignador UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/uv-mapper-color-icon.png "Icono de nodo")
+![Icono de nodo](uv-mapper-color.resources/uv-mapper-color-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -47,20 +43,30 @@ Asigna la imagen de color de entrada utilizando las coordenadas proporcionadas e
 >
 > Consulte también [Escala de grises del asignador UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>UV</b> *Color* Coordenadas de imagen codificadas en los canales rojo (U) y verde (V) de una imagen en color.
+## Entradas
 
-<b>Entrada</b> *Color* Imagen de color que debe asignarse a las coordenadas proporcionadas en la entrada UV.
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>Color</i> | Coordenadas de imagen codificadas en los canales rojo (U) y verde (V) de una imagen en color. |
+| <b>Entrada</b> <i>Color</i> | La imagen en color que debe asignarse a las coordenadas proporcionadas en la entrada UV. |
 
-## Conectores de salida
+<a name="outputs"></a>
 
-<b>Salida</b> *Color* Resultado de asignar la imagen de entrada utilizando las coordenadas UV de entrada como imagen en color.
+## Salidas
+
+|  |  |
+|:---|:---|
+| <b>Salida</b> <i>Color</i> | El resultado de asignar la imagen de entrada utilizando las coordenadas UV de entrada, como una imagen en color. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>Color de fondo</b> *Float4* Color de fondo de la imagen de salida.\
-El fondo es visible en las áreas de la imagen donde no se definen UV (es decir, el valor es (0, 0, 0, 0)).
+|  |  |
+|:---|:---|
+| <b>Color de fondo</b> <i>Float4</i> | El color de fondo de la imagen de salida.<br>El fondo es visible en las áreas de la imagen donde no se han definido UV (es decir, el valor es (0, 0, 0, 0)). |
 
 ## Ejemplos
 
@@ -71,11 +77,11 @@ El fondo es visible en las áreas de la imagen donde no se definen UV (es decir,
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -87,11 +93,11 @@ El fondo es visible en las áreas de la imagen donde no se definen UV (es decir,
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -101,18 +107,4 @@ El fondo es visible en las áreas de la imagen donde no se definen UV (es decir,
 </tr>
 </table>
 
-![Nodo en el gráfico](../../../../../../assets/UVMapperColor-Graph.jpg "Nodo en el gráfico")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![Nodo en el gráfico](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Nodo en el gráfico")

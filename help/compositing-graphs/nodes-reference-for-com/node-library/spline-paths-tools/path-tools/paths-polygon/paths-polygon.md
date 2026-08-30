@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: Utilice el nodo Polígono Trazados para crear trazados poligonales a partir de datos de vértices para la generación de patrones geométricos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Polígono de trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/paths-polygon-icon.png "Icono de nodo")
+![Icono de nodo](paths-polygon.resources/paths-polygon-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -41,16 +41,21 @@ Utilice el nodo [Path 2D Transform](../../../../../../compositing-graphs/nodes-r
 </tr>
 </table>
 
-## Conectores de salida
+<a name="outputs"></a>
 
-<b>Rutas</b> *Color*\
-Contiene una lista de una ruta codificada, que describe una lista de segmentos codificados.\
-Esto no está destinado a ser utilizado o modificado directamente. Busque Rutas para encontrar nodos compatibles.
+## Salidas
+
+|  |  |
+|:---|:---|
+| <b>Rutas</b> <i>Color</i> | Contiene una lista de una ruta codificada, que describe una lista de segmentos codificados.<br>Esto no está destinado a ser usado o modificado directamente. Busque Rutas para encontrar nodos compatibles. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>Número de lados</b> *Entero*\
-Sugerencia: introduzca un número entre 100 y 1000 para generar un círculo.
+|  |  |
+|:---|:---|
+| <b>Número de lados</b> <i>Entero</i> | Sugerencia: introduzca un número entre 100 y 1000 para generar un círculo. |
 
 ## Ejemplos
 
@@ -58,12 +63,12 @@ Sugerencia: introduzca un número entre 100 y 1000 para generar un círculo.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/PathsPolygon_Variant2.jpg "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "Ejemplo de nodo 2")
 
 </td>
 </tr>

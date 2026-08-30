@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
 breadcrumb-title: ''
 description: Acceda a nodos de comparación en gráficos de funciones de Substance 3D Designer para comparar valores y generar resultados booleanos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Comparación
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -24,4 +24,4 @@ Los nodos de comparación comparan el resultado de la entrada superior con el re
 
 Devuelve True o False, dependiendo del resultado de la comparación:
 
-![](../../../../assets/image2015-12-23-11-57-3.png)
+![](comparison-nodes.resources/image2015-12-23-11-57-3.png)

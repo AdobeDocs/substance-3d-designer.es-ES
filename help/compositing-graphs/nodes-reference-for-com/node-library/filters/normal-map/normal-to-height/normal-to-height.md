@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height.html"
 breadcrumb-title: ''
-description: Utilice el nodo Normal a Height para convertir las asignaciones normales en asignaciones de height para extraer información de profundidad de superficie.
+description: Utilice el nodo Normal a Height para convertir mapas de normales en mapas de altura para extraer información de profundidad de superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal to Height
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normal al Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-to-height.png){width="128px"}
+![](normal-to-height.resources/normal-to-height.png){width="128px"}
 
-## Normal al Height
-
-**En:** *Filtros/Mapa Normal*
-
-**Intermedio**
+<b>En:</b> Filtros > Mapa de normales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,19 +37,26 @@ Nodo de conversión inversa que intenta volver a convertir un mapa normal de esp
 
 Útil para cuando sólo tiene un origen Normalmap, pero aún desea realizar operaciones combinándolo con un mapa de altura. Tenga en cuenta que esto nunca podrá proporcionar un resultado 100% correcto, ya que la información se pierde por la naturaleza del proceso cuando el Height se convierte a Normal. Si ajusta la configuración en consecuencia, esta versión que no es HQ realiza un trabajo decente de conversión de detalles simples.
 
-## Parámetros
-
-* **Equilibrio de Relieve**: *0.0 - 1.0* Ajusta hasta qué punto las diferentes frecuencias influyen en el resultado final. Esto depende en gran medida del mapa de entrada y requiere un poco de ajuste.
-* **Formato normal**: *DirectX, OpenGL*\
-  Cambia entre diferentes formatos de Mapa normal (invierte el canal verde).
-* **Opacidad global**: *0.0 - 1.0* Ajusta la opacidad global del efecto.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/normal2heightex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Equilibrio de Relieve</b> <i>0.0 - 1.0</i> | Ajuste la medida en que las distintas frecuencias influyen en el resultado final. Esto depende en gran medida del mapa de entrada y requiere un poco de ajuste. |
+| <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
+| <b>Opacidad global</b> <i>0.0 - 1.0</i> | Ajusta la opacidad global del efecto. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-to-height.resources/normal2heightex.png" />
+        </td>
+    </tr>
 </table>

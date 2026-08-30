@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
 breadcrumb-title: ''
 description: Utilice el nodo Degradado axial para crear degradados axiales para transiciones de color direccionales en Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Degradado axial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 3%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
@@ -22,34 +22,29 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-axial.png){width="128px"}
+![](gradient-axial.resources/gradient-axial.png){width="128px"}
 
-## Degradado axial
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Crea una transición de degradado en escala de grises entre dos puntos definidos personalizados. Permite crear degradados lineales en cualquier ángulo, pero tenga en cuenta que los resultados no siempre se segmentarán en mosaico.
 
-## Parámetros
-
-### Parámetros
-
-* **Punto 1**:\
-  Primer punto desde el que se inicia el degradado (negro)
-* **Punto 2**:\
-  Segundo punto al final del degradado en (blanco)
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Active la compensación de aplastamiento y estiramiento con proporciones que no sean de cuadrados.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Punto 1</b> | Primer punto desde el que se inicia el degradado (negro) |
+| <b>Punto 2</b> | Segundo punto al final del degradado en (blanco) |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de aplastamiento y estiramiento con proporciones que no sean de cuadrados. |

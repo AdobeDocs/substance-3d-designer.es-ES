@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Elija entre los procesadores rasterizador y trazador de trazados en la vista 3D para obtener una calidad de previsualización y un rendimiento diferentes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderizadores 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # Renderizadores 3D
 
-La vista 3D ofrece cuatro procesadores:
+La Vista 3D ofrece cuatro procesadores:
 
 * Dos versiones del procesador 3D interno de Adobe: Rasterizador para visualización en tiempo real con compatibilidad con sombras y Trazador de ruta de GPU para una representación precisa de sombras, reflejos, propiedades de materiales complejos y mucho más.
 * Dos procesadores obsoletos de terceros: OpenGL y NVIDIA&#39;s Iray.
@@ -38,11 +38,11 @@ La vista 3D ofrece cuatro procesadores:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathTracker-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathTracker-2">
       <br><i>Trazador de ruta de GPU</i>
     </td>
   </tr>
@@ -52,18 +52,18 @@ La vista 3D ofrece cuatro procesadores:
 
 El procesador 3D de Adobe se ha creado desde cero para admitir tecnologías modernas como el lenguaje de sombreado [MaterialX](https://materialx.org/) y la descripción de la escena [USD](https://openusd.org/release/index.html), y está preparado para ofrecer una coherencia visual completa en todo el ecosistema de Substance 3D.
 
-Gracias a su dependencia del USD, puede aprovechar el [plugin USDFileFormat](https://github.com/adobe/USD-Fileformat-plugins) de Adobe para importar muchos formatos de escenas 3D, como FBX y GLTF, y renderizar completamente estas escenas, incluidos materiales, texturas, cámaras y luces.
+Gracias a su dependencia de USD, puede aprovechar el [plugin USDFileFormat](https://github.com/adobe/USD-Fileformat-plugins) de Adobe para importar muchos formatos de escenas 3D, como FBX y GLTF, y renderizar estas escenas completamente, incluidos materiales, texturas, cámaras y luces.
 
 +++ Importación de escenas: Rasterizador frente a OpenGL
 
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Gracias a su dependencia del USD, puede aprovechar el [plugin USDFileFormat](htt
 
 >[!TIP]
 >
-> Puede seleccionar el procesador que se utiliza de forma predeterminada al iniciar una nueva vista 3D en la sección [&#x200B; &quot;vista 3D&quot; de la configuración del proyecto](../../../interface/preferences-window/project-settings/project-settings.md).
+> Puede seleccionar el procesador que se utiliza de forma predeterminada al iniciar una nueva Vista 3D en la sección [ &quot;Vista 3D&quot; de la configuración del proyecto](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <a name="rasterizer"></a>
 
@@ -83,19 +83,19 @@ Gracias a su dependencia del USD, puede aprovechar el [plugin USDFileFormat](htt
 
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Muestras** flotantes | Especifica el número de muestras de píxeles que se deben calcular antes de que se considere que la imagen es convergente. |
-| **Opacidad de la oclusión ambiente** Float | Especifica el valor de la opacidad de la oclusión ambiental. |
+| Flotante **Samples** | Especifica el número de muestras de píxeles que se deben calcular antes de que se considere que la imagen es convergente. |
+| Flotante **opacidad de Oclusión ambiental** | Especifica el valor de la opacidad de la oclusión ambiental. |
 | **Habilitar desplazamiento** Boolean | Especifica si se debe habilitar el desplazamiento. |
-| **Umbral de Desplazamiento** Flotante | Configura un umbral para habilitar/deshabilitar la teselación de GPU. |
+| Flotante **umbral de Desplazamiento** | Configura un umbral para habilitar/deshabilitar la teselación de GPU. |
 | **Habilitar el sacrificio posterior** Boolean | Un valor verdadero permitirá el sacrificio de mallas triangulares que tienen normales que miran hacia fuera de la cámara. Un valor falso desactivará el sacrificio de la cara posterior. |
 | **Modo de diagnóstico** Entero | Dicta el modo de diagnóstico que se va a renderizar. |
 | **Modo de sombra de rasterizador** Entero | Especifica la técnica que se debe utilizar para procesar sombras:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Sin sombras:</i> No se procesarán sombras.</li> <li data-preserve-html="true"><i>Voxel marchó:</i> La sombra de los rayos de marzo se transformó en una escena voxelizada.</li> </ul> |
 | **Número de ejemplos de sombras rasterizadoras** Entero | Especifica cuántos rayos de sombra se trazan por píxel. |
-| **Opacidad de la sombra del rasterizador** flotante | Especifica la opacidad de las sombras, de 0,0 (sin sombras) a 1,0 (sombras completas). |
+| Flotante **Rasterizer shadow opacity** | Especifica la opacidad de las sombras, de 0,0 (sin sombras) a 1,0 (sombras completas). |
 | **Transparencia independiente del orden del rasterizador habilitada** Boolean | No tiene en cuenta el orden de las superficies transparentes al procesarlas. Esto sacrifica algo de precisión para una representación más rápida de las superficies transparentes. |
 | **Habilitar SSS de rasterizador** Boolean | Cambia el efecto de dispersión subsuperficial. |
 | **Número de muestras de Rasterizer SSS** Entero | Especifica cuántas muestras se toman por píxel para procesar la dispersión subsuperficial. |
-| **Habilitar suavizado de acumulación de rasterizado** Boolean | Cambia el suavizado de acumulación, que mejora el smoothness o los bordes de la imagen procesada al vibrar procesa y calcular el color medio local de cada píxel, de forma acumulativa. Es decir, acumula valores para calcular un promedio a partir de. |
+| **Habilitar suavizado de acumulación de rasterizador** Boolean | Cambia el suavizado de acumulación, lo que mejora el smoothness o los bordes de la imagen procesada al temblar y calcular el color medio local de cada píxel, de forma acumulativa. Es decir, acumula valores para calcular un promedio a partir de. |
 | **Resolución de cuadrícula de voxel rasterizador** Entero | Dicta la resolución de la cuadrícula de voxel utilizada en el movimiento de voxel del rasterizador.   Los valores más altos dan como resultado sombras más precisas a expensas del rendimiento. |
 | **Recuento de ejemplos de tiempo de ejecución de IBL de rasterizador** Entero | Especifica cuántas muestras se utilizan para calcular los reflejos de specular de IBL cuando la técnica está establecida en `runtimeSampled`. |
 
@@ -106,12 +106,12 @@ Gracias a su dependencia del USD, puede aprovechar el [plugin USDFileFormat](htt
 |                               |                                                                                                                                                              |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Booleano **Enabled** | Cambia el plano de tierra en la escena procesada. |
-| Flotador **Height** | Controla el desplazamiento de height del plano de tierra.   Si se crea, se espera que el valor tenga el sesgo adecuado basado en la escala de la escena. |
-| **Intensidad de la sombra** Flotante | Cuando las sombras están activadas, controla la opacidad de las sombras proyectadas en el plano del suelo, desde 0,0 (sin sombras) a 1,0 (sombras completas). |
+| Flotante **Height** | Controla el desplazamiento de height del plano de tierra.   Si se crea, se espera que el valor tenga el sesgo adecuado hecho un bake, en función de la escala de la escena. |
+| Flotante **Intensidad de sombra** | Cuando las sombras están activadas, controla la opacidad de las sombras proyectadas en el plano del suelo, desde 0,0 (sin sombras) a 1,0 (sombras completas). |
 
 +++
 
-![Rasterizador - Ejemplo 1](../../../assets/3dRendererRasterizer.jpg "Rasterizador - Ejemplo 1"){zoomable="yes"}
+![Rasterizador - Ejemplo 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizador - Ejemplo 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -121,13 +121,13 @@ Gracias a su dependencia del USD, puede aprovechar el [plugin USDFileFormat](htt
 
 |                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Muestras** flotantes | Especifica el número de muestras de píxeles que se deben calcular antes de que se considere que la imagen es convergente. |
+| Flotante **Samples** | Especifica el número de muestras de píxeles que se deben calcular antes de que se considere que la imagen es convergente. |
 | **Habilitar desplazamiento** Boolean | Especifica si se debe habilitar el desplazamiento. |
-| **Umbral de Desplazamiento** Flotante | Configura un umbral para habilitar/deshabilitar la teselación de GPU. |
+| Flotante **umbral de Desplazamiento** | Configura un umbral para habilitar/deshabilitar la teselación de GPU. |
 | **Habilitar el sacrificio posterior** Boolean | Un valor verdadero permitirá el sacrificio de mallas triangulares que tienen normales que miran hacia fuera de la cámara. Un valor falso desactivará el sacrificio de la cara posterior. |
-| **Tipo de ciclo de píxeles** entero | Especifica la técnica que se debe utilizar para reducir la resolución de cálculo para el procesamiento interactivo:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Sin ciclos:</i> Deshabilita el ciclo de píxeles y calcula cada muestra de píxeles completa.</li> <li data-preserve-html="true"><i>Óptimo del dispositivo:</i> Selecciona la resolución ideal de ciclo de píxeles según el dispositivo utilizado para el procesamiento.</li> <li data-preserve-html="true"><i>4x4:</i> Muestras 1/16 de los píxeles por ciclo pasado.</li> <li data-preserve-html="true"><i>8x8:</i> Muestras 1/64 de los píxeles por ciclo pasado.</li><li data-preserve-html="true"><i>Ruido azul:</i> Muestrea de forma adaptable varios píxeles y los separa para alcanzar una velocidad de fotogramas objetiva.</li> </ul> |
+| **Tipo de ciclo de píxeles** entero | Especifica la técnica que se debe utilizar para reducir la resolución de cálculo para el procesamiento interactivo:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Sin ciclos:</i> Deshabilita el ciclo de píxeles y calcula cada muestra de píxeles completa.</li> <li data-preserve-html="true"><i>Óptimo del dispositivo:</i> Selecciona la resolución ideal de ciclo de píxeles según el dispositivo utilizado para el procesamiento.</li> <li data-preserve-html="true"><i>4x4:</i> Muestras 1/16 de los píxeles por ciclo pasado.</li> <li data-preserve-html="true"><i>8x8:</i> Muestras 1/64 de los píxeles por ciclo pasado.</li><li data-preserve-html="true"><i>Ruido azul:</i> Muestrea de forma adaptable varios píxeles y los separa para lograr una velocidad de marco objetiva.</li> </ul> |
 | **Modo de diagnóstico** Entero | Dicta el modo de diagnóstico que se va a renderizar. |
-| **Ver fondo a través de la transmisión** Boolean | Un valor verdadero permite ver la imagen de fondo a través de objetos transmisivos o refractivos.   Cuando esto es falso, los objetos transmisivos mostrarán la imagen refractada del entorno de la escena. |
+| **Ver fondo a través de la transmisión** Boolean | Un valor verdadero permite ver la imagen de fondo a través de transmisivos u objetos refractivos.   Cuando esto es falso, los objetos de transmisivo mostrarán la imagen refractada del entorno de escena. |
 
 +++
 
@@ -136,16 +136,16 @@ Gracias a su dependencia del USD, puede aprovechar el [plugin USDFileFormat](htt
 |                                    |                                                                                                                                                                  |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Booleano **Enabled** | Cambia el plano de tierra en la escena procesada. |
-| Flotador **Height** | Controla el desplazamiento de height del plano de tierra.   Si se crea, se espera que el valor tenga el sesgo adecuado basado en la escala de la escena. |
-| **Intensidad de la sombra** Flotante | Cuando las sombras están activadas, controla la opacidad de las sombras proyectadas en el plano del suelo, desde 0,0 (sin sombras) a 1,0 (sombras completas). |
+| Flotante **Height** | Controla el desplazamiento de height del plano de tierra.   Si se crea, se espera que el valor tenga el sesgo adecuado hecho un bake, en función de la escala de la escena. |
+| Flotante **Intensidad de sombra** | Cuando las sombras están activadas, controla la opacidad de las sombras proyectadas en el plano del suelo, desde 0,0 (sin sombras) a 1,0 (sombras completas). |
 | **Habilitar luces locales** Boolean | Controla si la iluminación directa de las luces locales contribuye a captar sombras. |
 | **Habilitar reflejos** Boolean | Controla la visibilidad de todos los reflejos en el plano del suelo. |
-| Opacidad de **reflejos** flotante | Cuando los reflejos están activados, controla la opacidad de los reflejos, entre 0,0 (sin reflejos) y 1,0 (reflejos completos). |
+| Flotante **Opacidad de reflejos** | Cuando los reflejos están activados, controla la opacidad de los reflejos, entre 0,0 (sin reflejos) y 1,0 (reflejos completos). |
 | Flotante de **rugosidad de reflejos** | Cuando los reflejos están activados, controla la rugosidad del material del plano del suelo que contribuye a los reflejos, desde 0,0 (totalmente brillante) a 1,0 (completamente aproximado). |
 
 +++
 
-![Rastreador de GPU - Ejemplo 1](../../../assets/3dRendererPathtracer.jpg "Rastreador de GPU - Ejemplo 1"){zoomable="yes"}
+![Rastreador de GPU - Ejemplo 1](3d-renderers.resources/3dRendererPathtracer.jpg "Rastreador de GPU - Ejemplo 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -170,7 +170,7 @@ Obtenga más información sobre el OpenPBR en Designer [aquí](../material-prope
 
 +++ Adobe Standard Material
 
-Sombreado estandarizado de Adobe. Garantiza un aspecto correcto entre todas las aplicaciones de Substance 3D de Adobe y admite un amplio conjunto de funciones.
+sombreador estandarizado de Adobe. Garantiza un aspecto correcto entre todas las aplicaciones de Substance 3D de Adobe y admite un amplio conjunto de funciones.
 
 Hay dos técnicas disponibles para visualizar el height:
 
@@ -178,11 +178,11 @@ Hay dos técnicas disponibles para visualizar el height:
 
 <b>Mosaico + Desplazamiento</b>: subdivide la geometría y desplaza los vértices a lo largo de sus normales.
 
-El material estándar de Adobe se documenta detalladamente en [esta sección](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nuestra documentación.
+El Adobe Standard Material se documenta detalladamente en [esta sección](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nuestra documentación.
 
 +++
 
-+++ AxF SVBRDF
++++ SVBRDF AxF
 
 Un sombreador dedicado a visualizar materiales extraídos de [archivos AxF](../../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) y a usar la representación de <b>SVBRDF</b>.
 
@@ -192,13 +192,13 @@ Hay dos técnicas disponibles para visualizar el height:
 
 <b>Mosaico + Desplazamiento</b>: subdivide la geometría y desplaza los vértices a lo largo de sus normales.
 
-Este sombreado es actualmente un *trabajo en curso* y proporciona una descripción general de las características de los materiales, pero no debe usarse para realizar ajustes precisos y algunas características aún no son compatibles.
+Este sombreador es actualmente un *trabajo en curso* y proporciona una descripción general de las características de los materiales, pero no debe usarse para realizar ajustes precisos y algunas características aún no son compatibles.
 
 +++
 
 +++ Blinn
 
-&quot;Old - Generation&quot;, sombreador correcto no PBR. Utiliza los canales Difuso, Specular y Brillo junto a los canales estándar como Opacidad, Height y Normal.
+sombreador de &quot;generación anterior&quot;, no correcto para PBR. Utiliza canales de Difuso, Specular y Brillo junto a canales estándar como Opacidad, Height y Normal.
 
 Hay dos técnicas disponibles para visualizar el height:
 
@@ -272,9 +272,9 @@ Hay dos técnicas disponibles para visualizar el height:
 
 +++
 
-+++ Brillo de specular
++++ brillo de specular
 
-Material PBR estándar para el modelo de brillo de Specular. Utiliza los canales Difuso, Specular y Brillo.
+Material PBR estándar para el modelo de Brillo de Specular. Utiliza Difuso, Specular y canales de Brillo.
 
 Hay dos técnicas disponibles para visualizar el height:
 
@@ -286,7 +286,7 @@ Hay dos técnicas disponibles para visualizar el height:
 
 +++ No iluminado
 
-Anule la iluminación del sombreador de depuración para visualizar los mapas de textura sin ninguna iluminación. Solo usa un canal de color.
+Sombreador de depuración no iluminado para visualizar mapas de textura sin ninguna luz. Solo usa un canal de color.
 
 +++
 
@@ -296,4 +296,4 @@ Designer también ofrece la posibilidad de configurar sus propios sombreadores p
 > 
 > Este procesador está **obsoleto**: No recibirá nuevas funciones y se retirará en una futura versión de Designer.
 
-![OpenGL - Ejemplo 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Ejemplo 1"){zoomable="yes"}
+![OpenGL - Ejemplo 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Ejemplo 1"){zoomable="yes"}

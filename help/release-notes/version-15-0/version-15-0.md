@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: Revise las notas de la versión 15.0 de Substance 3D Designer para obtener más información sobre el nuevo procesador 3D y la compatibilidad nativa con USD.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Esta actualización incluye un nuevo procesador 3D, con modos rasterizador y tra
 
 *Fecha de publicación: 15 de julio de 2025*
 
-![Banner](../../assets/banner-47.png "Versión 15.0")
+![Banner](version-15-0.resources/banner-47.png "Versión 15.0")
 
 ## Nuevo renderizador 3D
 
@@ -32,7 +32,7 @@ Esta actualización incluye un nuevo procesador 3D, con modos rasterizador y tra
 
 Esta nueva versión te da acceso a un avanzado [procesador 3D](../../interface/3d-view/3d-renderers/3d-renderers.md), que incluye un modo de rasterizado (para tener una vista previa en tiempo real mientras trabajas en tu material) y un modo de trazador de trayectorias (un modo de trazado de rayos para obtener una representación perfecta y precisa). Este nuevo procesador mejora la funcionalidad con funciones como sombras en modo rasterizador, mejora la calidad y el rendimiento, y está diseñado para admitir tecnologías futuras como [MaterialX](https://materialx.org/). Complementa los procesadores existentes de OpenGL e Iray en Designer y se alinea con los procesadores disponibles en Substance 3D Viewer y Substance 3D Sampler, lo que garantiza una experiencia uniforme en todo el ecosistema.
 
-![sombras y translucidez en el rasterizador](../../assets/feature_1b.png)
+![sombras y translucidez en el rasterizador](version-15-0.resources/feature_1b.png)
 
 La [barra de herramientas de la vista 3d](../../interface/3d-view/3d-view.md) se ha actualizado para tener acceso rápido a algunas de las nuevas funciones disponibles en este procesador:
 
@@ -51,13 +51,13 @@ Además, la tecla de acceso rápido para girar la luz del entorno ha cambiado pa
 * Asignación de tonos <b>: </b>Ajusta el rango de color con perfiles para obtener un efecto de rango dinámico alto (HDR).
 * <b>Profundidad de campo:</b> simula las propiedades de enfoque de la lente de una cámara (solo rasterizador).
 
-![Post FX en Designer 15.0](../../assets/postfx.gif)
+![Post FX en Designer 15.0](version-15-0.resources/postfx.gif)
 
 ## Edición de activos en contexto
 
 Cuando trabajes en tus materiales, es posible que desees [obtener una vista previa en el contexto de una escena 3D específica](../../working-with-3d-scenes/working-with-3d-scenes.md). Por eso hemos añadido la posibilidad de importar y renderizar una escena completa, con todas sus texturas, cámaras y luces. Y, por encima de todo, si esta escena hace referencia a sombreadores de MaterialX, se procesarán correctamente con el rasterizador.
 
-![Escena de USD cargada y representada en Designer](../../assets/feature_2.png)
+![Escena de USD cargada y representada en Designer](version-15-0.resources/feature_2.png)
 
 Una vez importado, puedes trabajar en tu escena seleccionando una malla (con MAYÚS+Clic o gracias al explorador de escenas) y [anulando cualquiera de sus materiales](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). En ese caso puede:
 
@@ -76,17 +76,17 @@ Se han introducido sugerencias enriquecidas para demostrar mejor el propósito d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![nodo de mezcla](../../assets/blend.gif)
+![nodo de mezcla](version-15-0.resources/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nodo de desenfoque](../../assets/blur.gif)
+![nodo de desenfoque](version-15-0.resources/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nodo de distancia](../../assets/distance.gif)
+![nodo de distancia](version-15-0.resources/distance.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Se han introducido sugerencias enriquecidas para demostrar mejor el propósito d
 
 Si necesita trabajar con texturas que no sean cuadradas, esta nueva opción está diseñada para usted. En las [propiedades de material](../../interface/3d-view/material-properties/material-properties.md) de la vista 3D, en las opciones de UV para controlar el mosaico, ahora puede establecer un valor diferente para ambos ejes.
 
-![escala de U V diferente](../../assets/nonsquare.png){zoomable="yes"}
+![escala de U V diferente](version-15-0.resources/nonsquare.png){zoomable="yes"}
 
 ## Bakers
 
@@ -110,7 +110,7 @@ Todos los años, la [Plataforma de Referencia de VFX](https://vfxplatform.com/) 
 
 ## Vídeo
 
-[![Actualización de Substance 3D Designer: Nuevo procesador, postFX y edición de contexto | Substance 3D de Adobe](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Actualización de Substance 3D Designer: Nuevo procesador, postFX y edición de contexto | Substance 3D de Adobe](version-15-0.resources/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## Notas de la versión
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cubierta del Snow para añadir efectos de acumulación de nieve a los materiales en función del ángulo y la posición de la superficie.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cubierta del Snow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 8%
 
 ---
 
@@ -22,46 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/snow-cover.png){width="128px"}
+![](snow-cover.resources/snow-cover.png){width="128px"}
 
-## Cubierta del Snow
-
-**En:** *Filtros/Efectos De Materiales*
-
-**Intermedio**
+<b>En:</b> Filtros de material > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Efecto todo en uno para añadir acumulación de nieve en un material completo. Se basa en gran medida en un mapa de altura bueno y de alta calidad, como el de un fotoescaneo. El resultado pretende ser una PBR correcta.
 
-## Parámetros
-
-### Entradas
-
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Canales**\
-  Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad.
-* **Snow nuevo**: *0.0 - 1.0* Establece la cantidad de nieve en áreas elevadas. El resultado se asocia al parámetro Snow fundido.
-* **Snow derretido**: *0.0 - 1.0* Establece la cantidad de nieve derretida en las esquinas bajas.
-* **Compilación**: *0.0 - 1.0* Afecta principalmente a la salida de Height y determina el efecto de acumulación de height.
-* **Smoothness**: *0.0 - 1.0* Ajusta el suavizado de los detalles del height por acumulación de nieve.
-* **Intensidad de los escamas**: *0.0 - 1.0* Afecta principalmente a Normalmap, intensidad de los detalles del copo.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Snow nuevo</b> <i>0.0 - 1.0</i> | Define la cantidad de nieve en las áreas elevadas. El resultado se asocia al parámetro Snow fundido. |
+| <b>Snow derretido</b> <i>0.0 - 1.0</i> | Define la cantidad de nieve derretida en las esquinas inferiores. |
+| <b>Compilación</b> <i>0.0 - 1.0</i> | Afecta principalmente a la salida de Height y determina el efecto de acumulación de height. |
+| <b>Smoothness</b> <i>0.0 - 1.0</i> | Ajusta el suavizado de los detalles del height mediante la acumulación de nieve. |
+| <b>Intensidad de los escamas</b> <i>0.0 - 1.0</i> | Afecta principalmente a Normalmap, intensidad de los detalles de escamas. |

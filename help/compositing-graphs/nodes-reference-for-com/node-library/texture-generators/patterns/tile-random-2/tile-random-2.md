@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mosaico aleatorio 2 para crear patrones de mosaico aleatorios con controles de variación avanzados en Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Azulejo aleatorio 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
 
-**En:** *Generadores De Texturas* */Patrones*
-
-**Complejo**
+<b>En:</b> Generadores De Texturas > Motivos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -49,157 +47,91 @@ Una salida dedicada le permite introducir los **UV** de la forma en el **Flood F
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Asignación de tamaño aleatorio</b> <i>Escala de grises</i> | Imagen de entrada de escala de grises que controla la escala aleatoria de las formas.<br><br>Su impacto se controla mediante el parámetro <b>Multiplicador de mapa de entrada de tamaño aleatorio</b>. |
+| <b>Mapa de inclinación aleatoria</b> <i>Escala de grises</i> | Imagen de entrada de escala de grises que controla la inclinación aleatoria de las formas.<br><br>Su impacto se controla mediante el parámetro <b>Multiplicador de mapa de entrada de inclinación aleatoria</b>. |
+| <b>Mapa de radio de vértices redondos</b> <i>Escala de grises</i> | Imagen de entrada de escala de grises que controla el radio de las esquinas redondeadas de las formas.<br><br>Su impacto está controlado por la variable <b>Round Corners Radius Input Map Mult.</b> parámetro. |
+| <b>Mapa de distancia biselado</b> <i>Escala de grises</i> | Imagen de entrada de escala de grises que controla el biselado de las formas.<br><br>Su impacto se controla mediante la <b>Mult. de mapa de entrada de distancia biselada</b> parámetro. |
+| <b>Mapa de máscara</b> <i>Escala de grises</i> | Imagen de entrada de escala de grises que controla el enmascaramiento de las formas.<br><br>Su impacto se controla mediante los parámetros <b>Inicio de entrada de mapa de máscara</b> y <b>Fin de entrada de mapa de máscara</b>. |
+
+<a name="parameters"></a>
+
 ## Parámetros
 
-### Entradas
+|  |  |
+|:---|:---|
+| <b>Importe X</b> <i>Entero</i> | Número de celdas en el eje <b>X</b>. |
+| <b>Importe Y</b> <i>Entero</i> | Número de celdas en el eje <b>Y</b>. |
+| <b>Tamaño</b> |  |
+| <b>Multiplicador de tamaño aleatorio</b> <i>Flotador</i> | Aplica un ajuste <i>global</i> a la intensidad de la escala aleatoria. |
+| <b>Multiplicador de mapa de entrada de tamaño aleatorio</b> <i>Flotador</i> | Ajusta la intensidad de la escala aleatoria utilizando los valores <i>muestreados</i> de la entrada <b>Random Size Map</b>. |
+| <b>Tamaño aleatorio X</b> <i>Flotador</i> | Ajusta la intensidad de la escala aleatoria en el eje <b>X</b> <i>solo</i>. |
+| <b>Tamaño aleatorio Y</b> <i>Flotador</i> | Ajusta la intensidad de la escala aleatoria en el eje <b>Y</b> <i>solo</i>. |
+| <b>Distribución de tamaño aleatorio</b> <i>Entero</i> | Controla el método de distribución de valores de escala aleatoria:<br><br>- <i>Uniforme</i>: la escala aleatoria se aplica de la <i>misma manera</i> en todas las celdas<br>- <i>Blue Noise</i>: la escala aleatoria está <i>ajustada</i> con un patrón de ruido azul |
+| <b>Aspecto de forma - Transformar</b> |  |
+| <b>Thickness intersticial</b> <i>Flotador</i> | Ajusta el thickness del espacio entre las formas. Es <i>igual para todas las formas</i>. |
+| <b>Multiplicador de posición aleatoria</b> <i>Flotador</i> | Aplica un desplazamiento de posición aleatorio a la forma hasta que <i>cumpla con el borde de su celda</i>. |
+| <b>Radio de vértices redondeados</b> <i>Flotador</i> | Ajusta el <i>radio</i> de las esquinas redondeadas de las formas. Un valor de <b>0</b> significa que no se aplica ningún redondeo.<br><br><i>Nota</i>: Este efecto no se puede aplicar cuando el parámetro <b>Habilitar control de bisel por eje</b> está establecido en <i>True</i>. |
+| <b>Mapa de entrada de radio de vértices redondeados múltiple.</b> <i>Flotador</i> | Ajusta la intensidad con la que el mapa de entrada <b>Mapa de radio de vértices redondeados</b> afecta al radio de los vértices redondeados.<br><br>El mapa actúa como un multiplicador <i>por píxel</i> para el parámetro <b>Radio de vértices redondeados</b>.<br><br><i>Nota</i>: Este efecto no se puede aplicar cuando el parámetro <b>Habilitar control de bisel por eje</b> está establecido en <i>True</i>. |
+| <b>Multiplicador de escala</b> <i>Flotador</i> | Ajusta el tamaño de cada forma como proporción del área <i>de su celda</i>. |
+| <b>Escala aleatoria</b> <i>Flotador</i> | Ajusta la intensidad con la que se aplica una escala aleatoria a <i>cada forma</i>. |
+| <b>Rotación</b> <i>Flotador</i> | Rota formas en sus celdas moviendo cada <i>esquina</i> a su <i>vecino</i> a lo largo del borde de la celda.<br><br>Este método hace que se aplique cierta cantidad de <i>distorsión</i> y <i>escala</i> a la forma en la que gira. |
+| <b>Aleatorio de rotación</b> <i>Flotador</i> | Ajusta la intensidad con la que se aplica una cantidad aleatoria de rotación a cada forma.<br><br>El método de rotación se describe en el parámetro <b>Rotation</b>. |
+| Posición aleatoria de <b>esquinas</b> <i>Flotador</i> | Distorsiona las formas aplicando una cantidad aleatoria de <i>offset</i> a cada una de sus <i>esquinas</i> a lo largo del borde de su celda. |
+| <b>Inclinación</b> |  |
+| <b>Multiplicador de inclinación aleatoria</b> <i>Flotador</i> | Aplica un ajuste <i>global</i> a la intensidad de la inclinación aleatoria. |
+| <b>Multiplicador de mapa de entrada de inclinación aleatoria</b> <i>Flotador</i> | Ajusta la intensidad de la inclinación aleatoria utilizando los valores <i>muestreados</i> de la entrada <b>Mapa de inclinación aleatoria</b>. |
+| <b>Inclinación Aleatoria X</b> <i>Flotador</i> | Ajusta la intensidad de la inclinación aleatoria en el eje <b>X</b> <i>solo</i>. |
+| <b>Inclinación aleatoria Y</b> <i>Flotador</i> | Ajusta la intensidad de la inclinación aleatoria en el eje <b>Y</b> <i>solo</i>. |
+| <b>Distribución de inclinación aleatoria</b> <i>Entero</i> | Controla el método de distribución de valores de inclinación aleatorios:<br><br>- <i>Uniforme</i>: la inclinación aleatoria se aplica de la <i>misma manera</i> en todas las celdas<br>- <i>Blue Noise</i>: la inclinación aleatoria está <i>ajustada</i> mediante un patrón de ruido azul |
+| <b>Bisel</b> |  |
+| <b>Modo de distancia biselada</b> <i>Entero</i> | Establece el método de <i>obtención de la distancia</i> por la que se deben biselar las formas:<br><br>- <i>Relativo al tamaño de cuadrícula</i>: Las formas están biseladas según la <i>proporción especificada de su tamaño de cuadrícula</i><br>- <i>Respecto al tamaño de forma</i>: Las formas están biseladas según la <i>proporción especificada de su tamaño</i><br>- <i>Respecto al tamaño de la imagen</i>: Las formas están biseladas según la <i>proporción especificada de la imagen</i> |
+| <b>Multiplicador de distancia biselada</b> <i>Flotador</i> | Aplica un ajuste <i>global</i> a la distancia del biselado. |
+| <b>Mapa de entrada de distancia biselada múltiple.</b> <i>Flotador</i> | Ajusta la distancia del biselado usando el mapa de entrada <b>Mapa de distancia de bisel</b> como multiplicador <i>por píxel</i>. |
+| <b>Curva redondeada biselada</b> <i>Flotador</i> | Ajusta la intensidad del redondeo aplicado al ángulo de biselado para que sea más <i>convexo</i>. |
+| <b>Habilitar control de bisel por eje</b> <i>Booleano</i> | Cuando <i>True</i>, el biselado se puede aplicar y ajustar <i>por separado</i> en los ejes <b>X</b> e <b>Y</b>.<br><br><i>Nota</i>: Este <i> cancela</i> el efecto <b>Vértices redondeados</b>. |
+| <b>Distancia biselada X</b> <i>Flotador</i> | Ajusta la distancia del biselado en el eje <b>X</b> <i>solo</i>. Esta distancia depende del valor del parámetro <b>Modo de distancia biselada</b>.<br><br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Habilitar por control de bisel del eje</b> está establecido en <i>True</i>. |
+| <b>Distancia biselada Y</b> <i>Flotador</i> | Ajusta la distancia del biselado en el eje <b>Y</b> <i>solo</i>. Esta distancia depende del valor del parámetro <b>Modo de distancia biselada</b>.<br><br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Habilitar por control de bisel del eje</b> está establecido en <i>True</i>. |
+| <b>Máscara</b> |  |
+| <b>Inversión aleatoria de máscara</b> <i>Booleano</i> | Invierte la máscara aleatoria de las formas. |
+| <b>Inicio aleatorio de máscara</b> <i>Flotador</i> | Para una determinada <b>Raíz aleatoria</b>, se aplica una máscara pseudoaleatoria siguiendo un <i>orden específico</i> de una forma inicial a una forma final. Este parámetro le permite <i>desplazar el índice</i> de la forma <i>start</i>.<br><br><i>Nota</i>: Esto determina un límite de un <i>intervalo de valores</i> para enmascaramiento. Por lo tanto, el valor puede ser <i>mayor</i> que el valor <b>Final aleatorio de máscara</b>. |
+| <b>Final aleatorio de máscara</b> <i>Flotador</i> | Para una determinada <b>Raíz aleatoria</b>, se aplica una máscara pseudoaleatoria siguiendo un <i>orden específico</i> de una forma inicial a una forma final. Este parámetro le permite <i>desplazar el índice</i> de la forma <i>end</i>.<br><br><i>Nota</i>: Esto determina un límite de un <i>intervalo de valores</i> para enmascaramiento. Por lo tanto, el valor puede ser <i>mayor</i> que el valor de <b>Inicio aleatorio de máscara</b>. |
+| <b>Invertir máscara por área de celda</b> <i>Booleano</i> | Invierte el enmascaramiento de las formas por el área de sus celdas. |
+| <b>Inicio de máscara por área de celda</b> <i>Flotador</i> | Ajusta el umbral de área de la celda <i>mínimo</i> para enmascarar formas.<br><br><i>Nota</i>: Esto determina un límite de un <i>intervalo de valores</i> para enmascaramiento. Por lo tanto, el valor puede ser <i>mayor</i> que el valor <b>Máscara por extremo del área de celda</b>. |
+| <b>Enmascarar por fin de área de celda</b> <i>Flotador</i> | Ajusta el umbral de área de la celda <i>max</i> para enmascarar formas.<br><br><i>Nota</i>: Esto determina un límite de un <i>intervalo de valores</i> para enmascaramiento. Por lo tanto, el valor puede ser <i>inferior</i> al valor <b>Máscara por inicio del área de celdas</b>. |
+| <b>Inversión de entrada de mapa de máscara</b> <i>Booleano</i> | Invierte el enmascaramiento de formas mediante el mapa de entrada <b>Mapa de máscara</b>. |
+| <b>Inicio de entrada de mapa de máscara</b> <i>Flotador</i> | Ajusta el umbral de <i>valor mínimo de escala de grises</i> en el mapa de entrada <b>Mapa de máscara</b> para enmascarar formas.<br><br><i>Nota</i>: Esto determina un límite de un <i>intervalo de valores</i> para enmascaramiento. Por lo tanto, el valor puede ser <i>mayor</i> que el valor <b>Final de entrada de mapa de máscara</b>. |
+| <b>Fin de entrada de mapa de máscara</b> <i>Flotador</i> | Ajusta el umbral de <i>valor máximo de escala de grises</i> en el mapa de entrada <b>Mapa de máscara</b> para enmascarar formas.<br><br><i>Nota</i>: Esto determina un límite de un <i>intervalo de valores</i> para enmascaramiento. Por lo tanto, el valor puede ser <i>inferior</i> al valor de <b>Inicio de entrada de mapa de máscara</b>. |
 
-* **Mapa de tamaño aleatorio** *Escala de grises*\
-  Imagen de entrada de escala de grises que controla la escala aleatoria de las formas.\
-  Su impacto se controla mediante el parámetro **Random Size Input Map Multiplier**.
-* **Mapa de inclinación aleatoria** *Escala de grises* Imagen de entrada de escala de grises que controla la inclinación aleatoria de las formas.\
-  Su impacto se controla mediante el parámetro **Multiplicador de mapa de entrada de inclinación aleatoria**.
-* **Mapa de radio de vértices redondos** *Escala de grises*\
-  Imagen de entrada de escala de grises que controla el radio de las esquinas redondeadas de las formas.\
-  Su impacto está controlado por el mapa de entrada de radio de las esquinas redondeadas mult.**&#x200B;** parámetro.
-* **Mapa de distancia biselado** *Escala de grises*\
-  Imagen de entrada de escala de grises que controla el biselado de las formas.\
-  Su impacto está controlado por el **Mapa de entrada de distancia biselada Mult.** parámetro.
-* **Mapa de máscara** *Escala de grises*\
-  Imagen de entrada de escala de grises que controla el enmascaramiento de las formas.\
-  Su impacto se controla mediante los parámetros **Inicio de entrada de mapa de máscara** y **Fin de entrada de mapa de máscara**.
+## Ejemplos
 
-### Parámetros
-
-* **Cantidad X** *Entero*\
-  Número de celdas en el eje **X**.
-* **Cantidad Y** *Entero*\
-  Número de celdas en el eje **Y**.
-* Tamaño
-  * **Multiplicador de tamaño aleatorio** *Float*\
-    Aplica un ajuste *global* a la intensidad de la escala aleatoria.
-  * **Multiplicador de mapa de entrada de tamaño aleatorio** *Float*\
-    Ajusta la intensidad de la escala aleatoria utilizando los valores *muestreados* de la entrada **Random Size Map**.
-  * **Tamaño Aleatorio X** *Float*\
-    Ajusta la intensidad de la escala aleatoria en el eje **X** *solo*.
-  * **Tamaño aleatorio Y** *Float*\
-    Ajusta la intensidad de la escala aleatoria en el eje **Y** *solo*.
-  * **Distribución de tamaño aleatorio** *Entero*\
-    Controla el método de distribución de valores de escala aleatoria:
-    * *Uniforme*: la escala aleatoria se aplica de la *misma manera* en todas las celdas
-    * *Ruido azul*: la escala aleatoria está *ajustada* con un patrón de ruido azul
-* Aspecto de forma - Transformar
-  * **Thickness intersticial** *Flotante* Ajusta el thickness del espacio entre las formas. Es *igual para todas las formas*.
-  * **Multiplicador de posición aleatoria** *Float*\
-    Aplica un desplazamiento de posición aleatorio a la forma hasta que *cumpla con el borde de su celda*.
-  * **Radio de vértices redondeados** *Flotante* Ajusta el *radio* de los vértices redondeados de las formas. Un valor de **0** significa que no se aplica ningún redondeo.\
-    *Nota*: Este efecto no se puede aplicar cuando el parámetro **Habilitar control de bisel por eje** está establecido en *True*.
-  * **Mapa de entrada de radio de vértices redondeados múltiple.** *Flotante* Ajusta la intensidad con la que el mapa de entrada **Mapa de radio de vértices redondeados** afecta al radio de los vértices redondeados.\
-    El mapa actúa como un multiplicador *por píxel* para el parámetro **Radio de vértices redondeados**.\
-    *Nota*: Este efecto no se puede aplicar cuando el parámetro **Habilitar control de bisel por eje** está establecido en *True*.
-  * **Multiplicador de escala** *Float*\
-    Ajusta el tamaño de cada forma como proporción del área *de su celda*.
-  * **Aleatorio de escala** *Flotante* Ajusta la intensidad con la que se aplica una escala aleatoria a *cada forma*.
-  * **Rotation** *Float* Rota formas en sus celdas moviendo cada *esquina* a su *vecino* a lo largo del borde de la celda.\
-    Este método hace que se aplique cierta cantidad de *distorsión* y *escala* a la forma en sus rotaciones.
-  * **Aleatorio de rotación** *Flotante* Ajusta la intensidad según la cual se aplica una cantidad aleatoria de rotación a cada forma.\
-    El método de rotación se describe en el parámetro **Rotation**.
-  * **Posiciones aleatorias de los vértices** *Flotar* Distorsiona las formas aplicando una cantidad aleatoria de *desplazamiento* a cada uno de sus *vértices* a lo largo del borde de su celda.
-* Inclinación
-  * **Multiplicador de inclinación aleatoria** *Float*\
-    Aplica un ajuste *global* a la intensidad de la inclinación aleatoria.
-  * **Multiplicador de mapa de entrada de inclinación aleatoria** *Float*\
-    Ajusta la intensidad de la inclinación aleatoria utilizando los valores *muestreados* de la entrada **Mapa de inclinación aleatoria**.
-  * **Inclinación Aleatoria X** *Flotante*\
-    Ajusta la intensidad de la inclinación aleatoria\
-    en el eje **X** *solo*.
-  * **Inclinación aleatoria Y** *Float*\
-    Ajusta la intensidad de la inclinación aleatoria\
-    en el eje **Y** *solo*.
-  * **Distribución de inclinación aleatoria** *Entero*\
-    Controla el método de distribución de valores de inclinación aleatorios:
-    * *Uniforme*: la inclinación aleatoria se aplica de la *misma manera* en todas las celdas
-    * *Ruido azul*: la inclinación aleatoria está *ajustada* mediante un patrón de ruido azul
-* Bisel
-  * **Modo de distancia biselada** *Entero*\
-    Establece el método de *obtención de la distancia* por la que se deben biselar las formas:
-    * *Relativo al tamaño de cuadrícula*: Las formas están biseladas según la *proporción especificada de su tamaño de cuadrícula*- *Relativa al tamaño de la forma*: Las formas están biseladas según la *proporción especificada de su tamaño*
-    * *Relativo al tamaño de imagen*: Las formas están biseladas según la *proporción de la imagen* especificada
-  * **Multiplicador de distancia biselada** *Flotador*\
-    Aplica un ajuste *global* a la distancia del biselado.
-  * **Mapa de entrada de distancia biselada múltiple.** *Flotador*\
-    Ajusta la distancia del biselado usando el mapa de entrada **Mapa de distancia de bisel** como multiplicador *por píxel*.
-  * **Curva redondeada biselada** *Flotante*\
-    Ajusta la intensidad del redondeo aplicado al ángulo de biselado para que sea más *convexo*.
-  * **Habilitar control biselado por eje** *Boolean*\
-    Cuando *True*, el biselado se puede aplicar y ajustar *por separado* en los ejes **X** e **Y**.\
-    *Nota*: Esto *cancela* el efecto **Vértices redondeados**.
-  * **Distancia biselada X** *Flotante*\
-    Ajusta la distancia del biselado en el eje **X** *solo*. Esta distancia depende del valor del parámetro **Modo de distancia biselada**.\
-    *Nota*: Este parámetro solo está disponible cuando el parámetro **Habilitar control de bisel por eje** está establecido en *True*.
-  * **Distancia biselada Y** *Flotante*\
-    Ajusta la distancia del biselado en el eje **Y** *solo*. Esta distancia depende del valor del parámetro **Modo de distancia biselada**.\
-    *Nota*: Este parámetro solo está disponible cuando el parámetro **Habilitar control de bisel por eje** está establecido en *True*.
-* Máscara
-  * **Inversión aleatoria de máscara** *Boolean*\
-    Invierte la máscara aleatoria de las formas.
-  * **Inicio aleatorio de máscara** *Flotante*\
-    Para una determinada **Raíz aleatoria**, se aplica una máscara pseudoaleatoria siguiendo un *orden específico* de una forma inicial a una forma final. Este parámetro te permite *desplazar el índice* de la forma *start*.\
-    *Nota*: Esto determina un límite de un *intervalo de valores* para enmascaramiento. Por lo tanto, el valor puede ser *mayor* que el valor **Final aleatorio de máscara**.
-  * **Final aleatorio de máscara** *Float* Para una **Raíz aleatoria** determinada, se aplica una máscara seudoaleatoria siguiendo un *orden específico* de una forma inicial a una forma final. Este parámetro le permite *desplazar el índice* de la forma *end*.\
-    *Nota*: Esto determina un límite de un *intervalo de valores* para enmascaramiento. Por lo tanto, el valor puede ser *mayor* que el valor de **Inicio aleatorio de máscara**.
-  * **Invertir máscara por área de celda** *Boolean*\
-    Invierte el enmascaramiento de las formas por el área de sus celdas.
-  * **Inicio de máscara por área de celda** *Flotante*\
-    Ajusta el umbral de área de la celda *mínimo* para enmascarar formas.\
-    *Nota*: Esto determina un límite de un *intervalo de valores* para enmascaramiento. Por lo tanto, el valor puede ser *mayor* que el valor **Máscara por extremo del área de celda**.
-  * **Enmascarar por extremo de área de celda** *Flotar* Ajusta el umbral de área de la celda *max* para enmascarar formas.\
-    *Nota*: Esto determina un límite de un *intervalo de valores* para enmascaramiento. Por lo tanto, el valor puede ser *inferior* al valor **Máscara por inicio del área de celdas**.
-  * **Inversión De Entrada De Mapa De Máscara** *Booleano*\
-    Invierte el enmascaramiento de formas mediante el mapa de entrada **Mapa de máscara**.
-  * **Inicio de entrada de mapa de máscara** *Float*\
-    Ajusta el umbral de *valor mínimo de escala de grises* en el mapa de entrada **Mapa de máscara** para enmascarar formas.\
-    *Nota*: Esto determina un límite de un *intervalo de valores* para enmascaramiento. Por lo tanto, el valor puede ser *mayor* que el valor **Final de entrada de mapa de máscara**.
-  * **Fin de entrada de mapa de máscara** *Flotante* Ajusta el umbral del *valor máximo de escala de grises* en el mapa de entrada de **mapa de máscara** para enmascarar formas.\
-    *Nota*: Esto determina un límite de un *intervalo de valores* para enmascaramiento. Por lo tanto, el valor puede ser *inferior* al valor de **Inicio de entrada de mapa de máscara**.
-
-## Imágenes de ejemplo
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-inputs.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-demo.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-demo2.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-node.png){width="340px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-node.png" />
+        </td>
+    </tr>
 </table>

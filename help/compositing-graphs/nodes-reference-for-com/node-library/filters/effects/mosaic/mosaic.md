@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mosaico para crear efectos de mosaico dividiendo texturas en bloques y motivos pixelados.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mosaico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 3%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-1.png){width="128px"}
 
-![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-grayscale.png){width="128px"}
 
-## Mosaico (escala de grises)
-
-**En:** *Filtros/Efectos*
-
-**Intermedio**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,25 +39,34 @@ ht-degree: 3%
 
 Esto resulta útil para añadir más definición a los mapas de escala de grises, como el mapa de altura, ya que puede introducir más definición en las formas.
 
-## Parámetros
-
-### Entradas
-
-* **Color**: *Entrada en color/escala de grises*
-* **Mapa de mosaico**: *Entrada en escala de grises*\
-  Mapa del controlador de deformación. Puede ser igual que la primera entrada.
-
-### Parámetros
-
-* **Ejemplos**: *0 - 16* Determina la calidad de la muestra múltiple.
-* **Intensidad**: *0.0 - 1.0* Intensidad del efecto.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Color</b> <i>Entrada en color/escala de grises</i> |  |
+| <b>Mapa de mosaico</b> <i>Entrada en escala de grises</i> | Mapa del controlador de deformación. Puede ser igual que la primera entrada. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Ejemplos</b> <i>0 - 16</i> | Determina la calidad de la muestra múltiple. |
+| <b>Intensidad</b> <i>0.0 - 1.0</i> | Intensidad del efecto. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mosaic.resources/mosaci-ex.png" />
+        </td>
+    </tr>
 </table>

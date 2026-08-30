@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/dissolve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/dissolve.html"
 breadcrumb-title: ''
 description: Utilice el nodo Disolver para fusionar texturas mediante el modo Disolver para crear transiciones y efectos de transición entre texturas.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Disolver
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 7%
 
 ---
@@ -22,41 +22,38 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dissolve-2.png){width="128px"}
+![](dissolve.resources/dissolve-2.png){width="128px"}
 
-## Disolver
-
-**En:** *Filtros/Fusión*
-
-**Simple**
+<b>En:</b> Filtros > Fusión
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Fusiona dos entradas con el ruido blanco como máscara para la transición.
-
-## Parámetros
-
-### Entradas
-
-* **Primer plano**: *Entrada de color*
-* **Fondo**: *Entrada de color*
-* **Máscara**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Opacidad**: *0.0 - 1.0*\
-  Fusión de opacidad entre primer plano y fondo.
-* **Fusión de Alpha**: *Falso/Verdadero*\
-  Alterna la fusión de los canales alfa Primer plano y Fondo. Si se establece en False, se omite el canal alfa del primer plano.
-
-## Imágenes de ejemplo
+Fusión dos entradas junto con el ruido blanco como máscara para la transición.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Primer plano</b> <i>Entrada de color</i> |  |
+| <b>Fondo</b> <i>Entrada de color</i> |  |
+| <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo. |
+| <b>Fusión alfa</b> <i>Falso/Verdadero</i> | Alterna la fusión de los canales alfa Primer plano y Fondo. Si se establece en False, se omite el canal alfa del primer plano. |

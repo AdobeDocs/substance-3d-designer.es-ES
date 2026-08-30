@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
 description: Utilice el nodo Deformación direccional para aplicar distorsión direccional a las texturas para crear efectos de flujo y movimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Deformación direccional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Deformación direccional](../../../../assets/comp_directionalwarp_1.png "Nodo atómico: Deformación direccional"){width="200px"}
+![Nodo atómico: Deformación direccional](directional-warp.resources/comp_directionalwarp_1.png "Nodo atómico: Deformación direccional"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,17 +102,17 @@ El nodo Deformar es un nodo bastante sencillo pero útil que sirve como base par
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Deformación direccional - Ejemplo 1](../../../../assets/dir-warp.gif "Deformación direccional - Ejemplo 1"){zoomable="yes"}
+![Deformación direccional - Ejemplo 1](directional-warp.resources/dir-warp.gif "Deformación direccional - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Deformación direccional - Ejemplo 2](../../../../assets/dir-warp02.gif "Deformación direccional - Ejemplo 2"){zoomable="yes"}
+![Deformación direccional - Ejemplo 2](directional-warp.resources/dir-warp02.gif "Deformación direccional - Ejemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Deformación direccional - Ejemplo 3](../../../../assets/dir-warp03.gif "Deformación direccional - Ejemplo 3"){zoomable="yes"}
+![Deformación direccional - Ejemplo 3](directional-warp.resources/dir-warp03.gif "Deformación direccional - Ejemplo 3"){zoomable="yes"}
 
 </td>
 </tr>

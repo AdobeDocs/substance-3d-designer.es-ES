@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-split.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-split.html"
 breadcrumb-title: ''
 description: Utilice el nodo División de Alpha para extraer el canal alfa de las texturas RGBA para un procesamiento y manipulación independientes.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: División de Alpha
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 2%
+source-wordcount: '56'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgb-a-split.png){width="128px"}
+![](alpha-split.resources/rgb-a-split.png){width="128px"}
 
-## División de Alpha
-
-**En:** *Filtros/Canales*
-
-**Simple**
+<b>En:</b> Filtros > Canales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Elimina y señala la alfa de una imagen de entrada. Vea también [Combinación de Alpha](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) para obtener el resultado opuesto.
 
 Da salida a la imagen despojada de alfa y al canal alfa por separado.
-
-## Parámetros
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
 
 </td>
 </tr>

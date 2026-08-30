@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la vista de gráfica en Substance 3D Designer para crear y editar gráficas de materiales basadas en nodos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vista de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
@@ -49,11 +49,11 @@ Uso de una almohadilla táctil (solo macOS)
 > 
 > La dirección del zoom se puede invertir en [Preferencias](../../interface/preferences-window/preferences-window.md).
 
-![Navegación por ventanilla](../../assets/navigating.gif "Navegación por ventanilla")
+![Navegación por ventanilla](the-graph-view.resources/navigating.gif "Navegación por ventanilla")
 
 Se <b>enfoca</b> en los nodos seleccionados, o en todo el gráfico si no hay nada seleccionado, con la tecla F.
 
-La navegación también se puede realizar mediante <b>los bordes de navegación </b> y la clave F2. Consulte [elementos de gráfico](#graph-items) a continuación[.](../../interface/the-graph-view/graph-items/graph-items.md)
+La navegación también se puede realizar mediante <b>pin de navegación </b> y la clave F2. Consulte [elementos de gráfico](#graph-items) a continuación[.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ## Movimiento de objetos
 
@@ -150,7 +150,7 @@ Los nodos se pueden colocar en gráficos de 5 maneras, independientemente del ti
 * Pulsando <b>Barra espaciadora</b> para acceder al <b>menú Nodo</b>. Consulte a continuación.
 * Utilizar el método abreviado de teclado asignado a un nodo. La asignación se realiza en la [ventana de preferencias](../../interface/preferences-window/preferences-window.md).
 
-![Colocando nodos](../../assets/nodecreation.gif "Colocando nodos")
+![Colocando nodos](the-graph-view.resources/nodecreation.gif "Colocando nodos")
 
 Si se coloca un nodo cuando se selecciona otro, Designer intentará conectar automáticamente el nuevo nodo al antiguo.\
 Esta conexión automática siempre coloca el nuevo nodo *después* del antiguo en el flujo.
@@ -180,7 +180,7 @@ Por ejemplo, solo se muestran los nodos con una [Entrada principal](../../compos
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Vista de gráfico: Menú de nodos](../../assets/graph-node-menu_fuzzy-search.png "Vista de gráficos: Menú Nodo")
+![Vista de gráfico: Menú de nodos](the-graph-view.resources/graph-node-menu_fuzzy-search.png "Vista de gráficos: Menú Nodo")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ Para seleccionar *varios* nodos, hay varios métodos disponibles:
 * <b>Upstream:</b> Haga clic en RMB en un nodo y seleccione la opción <b>Seleccionar nodos ascendentes</b>: se seleccionan el nodo y todos los nodos que forman parte de secuencias conectadas a las *entradas* del nodo;
 * <b>Dirección descendente:</b> Haga clic en RMB en un nodo y seleccione la opción <b>Seleccionar nodos descendentes</b>: se seleccionan el nodo y todos los nodos que forman parte de secuencias conectadas a las *salidas* del nodo.
 
-![Seleccionando nodos](../../assets/graph-selecting-nodes.gif "Seleccionando nodos")
+![Seleccionando nodos](the-graph-view.resources/graph-selecting-nodes.gif "Seleccionando nodos")
 
 ### Menú contextual del nodo
 
@@ -268,7 +268,7 @@ El *conector de salida* de un nodo A se puede conectar al *conector de entrada* 
 > * para un conector *input*: el nodo vuelve a un valor predeterminado establecido para esa entrada;
 > * para un conector *output*: los datos se omiten y se descartan cuando se calcula el gráfico.
 
-![Nodos de conexión](../../assets/links.gif "Nodos de conexión")
+![Nodos de conexión](the-graph-view.resources/links.gif "Nodos de conexión")
 
 Puedes <b>crear</b> un nuevo vínculo haciendo clic en LMB en cada uno de esos conectores, en *cualquier orden*.\
 Además, si se crea un nodo B mientras se selecciona un nodo A, el *primer resultado* del nodo A se conectará automáticamente a la *entrada principal* del nodo B.
@@ -291,12 +291,12 @@ Los nodos se pueden deshabilitar para que no tengan *ningún efecto* en el gráf
 
 Los nodos deshabilitados tienen el siguiente comportamiento:
 
-* Se muestran con la insignia ![](../../assets/graph-badge-disabled.png) <b>Deshabilitado</b>*,* un *contorno discontinuo* y un vínculo interior de *redireccionamiento* en lugar de una miniatura;
+* Se muestran con la insignia ![](the-graph-view.resources/graph-badge-disabled.png) <b>Deshabilitado</b>*,* un *contorno discontinuo* y un vínculo interior de *redireccionamiento* en lugar de una miniatura;
 * Los nodos generarán los datos recibidos en su *entrada principal*;
 * Los nodos deshabilitados se pueden *encadenar* juntos;
 * Sus propiedades y conexiones están *no modificadas*;
 * Su estado deshabilitado es *guardado* y persiste entre sesiones;
-* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1&rbrace; el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
+* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1} el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
 
 Puede deshabilitar un nodo o un grupo de nodos seleccionados usando la pulsación de tecla <b>Mayús+D</b>, o haciendo clic con el botón derecho en el gráfico y seleccionando el elemento <b>Deshabilitar nodo/Deshabilitar selección</b> en el menú contextual.
 
@@ -309,7 +309,7 @@ Puede deshabilitar un nodo o un grupo de nodos seleccionados usando la pulsació
 > * Los *tipos* de la entrada principal y de la salida deben *coincidir*, es decir, de escala de grises a escala de grises, de color a color
 > * Todos los nodos seleccionados deben tener el *mismo estado*; es decir, todos deben estar habilitados; se aplica la misma regla para habilitarlos
 
-![Deshabilitando nodos](../../assets/graph-disable-node.gif "Deshabilitando nodos"){width="512px"}
+![Deshabilitando nodos](the-graph-view.resources/graph-disable-node.gif "Deshabilitando nodos"){width="512px"}
 
 ## Interacción con la vista 2D
 
@@ -341,78 +341,78 @@ Para aplicar un resultado de nodo en la [vista 3D](../../interface/3d-view/3d-vi
 
 La barra de herramientas principal se puede encontrar en todos los tipos de gráficos y proporciona funciones generales, así como conmutadores para la visibilidad de las otras barras de herramientas. Puede encontrar las siguientes funciones:
 
-![](../../assets/image2020-6-26-16-25-57.png) <b>Selección de enfoque</b> (F)\
+![](the-graph-view.resources/image2020-6-26-16-25-57.png) <b>Selección de enfoque</b> (F)\
 Centrar la vista en la selección o en toda la escena si la selección está vacía.
 
-![](../../assets/image2020-6-26-16-26-8.png) <b>Restablecer zoom</b> (Z)\
+![](the-graph-view.resources/image2020-6-26-16-26-8.png) <b>Restablecer zoom</b> (Z)\
 Vuelva a poner el nivel de zoom actual en su estado predeterminado y centre la vista en el centro del gráfico. Puede significar acercar o alejar la imagen.
 
-![](../../assets/image2020-6-26-16-26-26.png) <b>Exportar vista de gráfico\
+![](the-graph-view.resources/image2020-6-26-16-26-26.png) <b>Exportar vista de gráfico\
 </b>Exporta el gráfico completo con una resolución de 1:1 como una imagen. Resulta útil para compartir una captura de pantalla de todo el gráfico.
 
-![](../../assets/image2020-6-26-16-26-37.png) <b>Información del nodo\
+![](the-graph-view.resources/image2020-6-26-16-26-37.png) <b>Información del nodo\
 </b>*- Mostrar nombre de conector:* Cambia la presentación del nombre de cada conector individual en un nodo.\
 *: mostrar insignias de nodo:* Alterna las insignias de nodo en todos los nodos.\
 *: Mostrar tamaño de nodo:* Alterna la presentación de la resolución de nodo ([solo gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md)).\
 *: Mostrar intervalos:* Alterna la presentación de intervalos de milisegundos para cada nodo ([solo gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md)).\
 *: limitar la escala del texto al alejar la imagen:* Mantiene el texto de [elementos de gráfico](../../interface/the-graph-view/graph-items/graph-items.md) con un tamaño de pantalla constante que supera el umbral de zoom, lo que mantiene el texto claramente visible al alejar la imagen.
 
-Buscador de nodos ![](../../assets/image2020-6-26-16-26-52.png)<b></b> (Ctrl+F)\
+Buscador de nodos ![](the-graph-view.resources/image2020-6-26-16-26-52.png)<b></b> (Ctrl+F)\
 Permite a una herramienta buscar nodos, parámetros expuestos y otras variables en el gráfico. Obtenga más información en la [página dedicada](../../interface/the-graph-view/node-finder/node-finder.md).
 
-![](../../assets/image2020-6-26-16-27-43.png) <b>Resaltar flujo\
+![](the-graph-view.resources/image2020-6-26-16-27-43.png) <b>Resaltar flujo\
 </b>Resalte cualquier nodo conectado antes o después del nodo seleccionado actualmente. Ideal para trazar una ruta compleja de nodos.
 
-![](../../assets/image2020-6-26-16-28-30.png) <b>Paleta de nodos\
+![](the-graph-view.resources/image2020-6-26-16-28-30.png) <b>Paleta de nodos\
 </b>Muestra u oculta la barra de herramientas del nodo, consulte a continuación.
 
-![](../../assets/image2020-6-26-16-32-33.png) <b>Vínculos de rectángulo\
+![](the-graph-view.resources/image2020-6-26-16-32-33.png) <b>Vínculos de rectángulo\
 </b>Cambiar entre vínculos redondeados o rectangulares entre nodos. No disponible para [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-![](../../assets/image2020-6-26-16-38-2.png) <b>Herramientas de alineación de nodos\
+![](the-graph-view.resources/image2020-6-26-16-38-2.png) <b>Herramientas de alineación de nodos\
 </b>Permite a las herramientas organizar los nodos seleccionados en el gráfico. Obtenga más información en la [página dedicada](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).
 
 Solo en [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md):
 
-![](../../assets/image2020-6-26-16-29-6.png) <b>Tamaño primario\
+![](the-graph-view.resources/image2020-6-26-16-29-6.png) <b>Tamaño primario\
 </b>Alterna la presentación de la configuración del control de resolución principal, consulte a continuación.
 
-![](../../assets/image2020-6-26-16-31-15.png) <b>Modos de creación de vínculos</b> (1, 2, 3)\
+![](the-graph-view.resources/image2020-6-26-16-31-15.png) <b>Modos de creación de vínculos</b> (1, 2, 3)\
 Elija entre los modos de creación de vínculos Estándar (1), Material (2) y Material compacto (3) para vincular conectores de nodo individualmente o en lote. Obtenga más información en la [página dedicada](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).
 
-Control <b>Timings de ![](../../assets/image2020-6-26-16-33-35.png)\
+Control <b>Timings de ![](the-graph-view.resources/image2020-6-26-16-33-35.png)\
 </b>Permite restablecer todos los nodos y todas las horas.
 
-![](../../assets/image2020-6-26-16-34-12.png) <b>Herramientas\
+![](the-graph-view.resources/image2020-6-26-16-34-12.png) <b>Herramientas\
 </b>*- Limpiar:* Quita todos los nodos que forman parte de una secuencia no conectada a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *: exportar resultados:* Abre la [interfaz de exportación de mapa de bits](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *: volver a exportar resultados:* Vuelve a realizar la operación de exportación anterior.\
 *- Exportador de PSD:* Abre la interfaz [Exportador de PSD](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
-![](../../assets/image2020-6-26-16-37-16.png) <b>Caché de imágenes de nodo\
+![](the-graph-view.resources/image2020-6-26-16-37-16.png) <b>Caché de imágenes de nodo\
 </b>Alterna la visualización del conmutador de caché de imagen de nodo, consulte a continuación.
 
-![](../../assets/graph-cleaner.jpg) Quitar nodos no utilizados\
+![](the-graph-view.resources/graph-cleaner.jpg) Quitar nodos no utilizados\
 </b>Muestra las opciones para eliminar los nodos no utilizados en los gráficos, consulte a continuación.
 
 ### Paleta de nodos
 
 La barra de herramientas del nodo varía en función del tipo de gráfico:
 
-[![Paleta de nodos](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+[![Paleta de nodos](the-graph-view.resources/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
 <b>[Gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md):</b> consulte [nodos atómicos](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) y [elementos de gráficos](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![Paleta de elementos de gráfico](../../assets/image2020-6-26-16-46-32.png "Paleta de elementos de gráfico")<br>
+![Paleta de elementos de gráfico](the-graph-view.resources/image2020-6-26-16-46-32.png "Paleta de elementos de gráfico")<br>
 <b>[Gráficos de funciones de Substance](../../function-graphs/function-graphs.md):</b> consulte [elementos de gráfico](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![Paleta FX-Map](../../assets/image2020-6-26-16-48-4.png "Paleta FX-Map")<br>
+![Paleta FX-Map](the-graph-view.resources/image2020-6-26-16-48-4.png "Paleta FX-Map")<br>
 <b>[Gráficos FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> vea [elementos de gráfico.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### Tamaño principal
 
-![Barra de herramientas Tamaño primario](../../assets/image2020-6-26-17-0-48.png "Barra de herramientas Tamaño primario")
+![Barra de herramientas Tamaño primario](the-graph-view.resources/image2020-6-26-17-0-48.png "Barra de herramientas Tamaño primario")
 
 Esta barra de herramientas solo está disponible en [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) y establece el [tamaño de salida](../../compositing-graphs/output-size/output-size.md) del *principal* del gráfico, lo que afecta al tamaño de salida del gráfico si utiliza el *método de herencia [Relativo al principal*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
@@ -420,7 +420,7 @@ Los tamaños horizontal y vertical están vinculados de forma predeterminada, pe
 
 ### Caché de imagen de nodo
 
-![Configuración de caché de imágenes de nodo](../../assets/graph-toolbar-node-cache.png "Configuración de caché de imágenes de nodo")
+![Configuración de caché de imágenes de nodo](the-graph-view.resources/graph-toolbar-node-cache.png "Configuración de caché de imágenes de nodo")
 
 Esto cambia el uso de la memoria caché al calcular nodos en [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
@@ -432,13 +432,13 @@ Al activar esta opción, se obtiene un gran aumento de la capacidad de respuesta
 
 ### Eliminar nodos no utilizados
 
-![Quitar nodos no utilizados del menú desplegable](../../assets/graph-cleaner-menu.jpg "Quitar nodos no utilizados del menú desplegable")
+![Quitar nodos no utilizados del menú desplegable](the-graph-view.resources/graph-cleaner-menu.jpg "Quitar nodos no utilizados del menú desplegable")
 
 A medida que itera en gráficos y prueba cosas, algunos nodos que no tienen ningún efecto en el resultado final pueden quedarse atrás. Esto añade desorden, así como cálculo derrochador, ya que todos los nodos se evalúan en las primeras etapas de procesamiento de gráficos.
 
-La herramienta ![](../../assets/graph-cleaner.jpg) Quitar nodos no utilizados</b> elimina todos los nodos que *no* forman parte de una secuencia que *termina en un nodo de salida*. La única excepción son los *nodos de entrada*, ya que al eliminarlos se cambiaría la interfaz de los [nodos de instancia](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) que hacen referencia a este gráfico.
+La herramienta ![](the-graph-view.resources/graph-cleaner.jpg) Quitar nodos no utilizados</b> elimina todos los nodos que *no* forman parte de una secuencia que *termina en un nodo de salida*. La única excepción son los *nodos de entrada*, ya que al eliminarlos se cambiaría la interfaz de los [nodos de instancia](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) que hacen referencia a este gráfico.
 
-![Quitar nodos no utilizados](../../assets/graph-cleaner.gif "Quitar nodos no utilizados")
+![Quitar nodos no utilizados](the-graph-view.resources/graph-cleaner.gif "Quitar nodos no utilizados")
 
 La primera opción aplica la limpieza exclusivamente al gráfico *current*.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cube 3D GBuffers para generar búferes de geometría a partir de proyecciones de cubos 3D para efectos de procesamiento avanzados.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cube 3D GBuffers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '105'
+ht-degree: 5%
 
 ---
 
@@ -22,35 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cube3d.png){width="128px"}
+![](cube-3d-gbuffers.resources/cube3d.png){width="128px"}
 
-## Cube 3D GBuffers
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Simple**
+<b>En:</b> Generadores De Texturas > Motivos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Versión avanzada de [Cube 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) que también genera mapas normales y de posición en lugar de solo mapa de altura.
 
-## Parámetros
-
-* **Desplazamiento de orientación**:\
-  Permite una rotación X e Y del cubo similar a la 3D. También se puede realizar manipulando el punto pequeño en la previsualización 2D.
-* **Tamaño**: *0.0 - 1.0* Permite el reescalado no uniforme del cubo.
-* **Escala**: *0.0 - 1.0*\
-  Cambia la escala de todo el cubo uniformemente.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Desplazamiento de orientación</b> | Permite una rotación X e Y del cubo similar a la 3D. También se puede realizar manipulando el punto pequeño en la previsualización 2D. |
+| <b>Tamaño</b> <i>0.0 - 1.0</i> | Permite el reescalado no uniforme del cubo. |
+| <b>Escala</b> <i>0.0 - 1.0</i> | Cambia la escala de todo el cubo uniformemente. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |

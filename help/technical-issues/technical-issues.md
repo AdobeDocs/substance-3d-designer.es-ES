@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: Consulte las guías de solución de problemas técnicos en Substance 3D Designer para resolver problemas rápidamente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas técnicos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Comparte una <b>dirección de correo electrónico válida</b> para que podamos p
 </td>
 <td style="border: 0;" valign="top">
 
-![Cuadro de diálogo Crash Report](../assets/crash-reporter-2.png "Crash Report dialog"){zoomable="yes"}
+![Cuadro de diálogo Crash Report](technical-issues.resources/crash-reporter-2.png "Crash Report dialog"){zoomable="yes"}
 
 *Haga clic para ampliar*
 
@@ -91,7 +91,7 @@ Puede indicarnos el problema en el campo Descripción para que podamos investiga
 </td>
 <td style="border: 0;" valign="top">
 
-![Cuadro de diálogo Informe de errores](../assets/bug-reporter.png "Cuadro de diálogo Informe de errores"){zoomable="yes"}
+![Cuadro de diálogo Informe de errores](technical-issues.resources/bug-reporter.png "Cuadro de diálogo Informe de errores"){zoomable="yes"}
 
 *Haga clic para ampliar*
 

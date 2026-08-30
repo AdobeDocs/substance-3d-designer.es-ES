@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
 breadcrumb-title: ''
 description: Utilice el nodo Desenfoque no uniforme para aplicar el desenfoque con diferentes intensidades en las direcciones X e Y para los efectos anisotrópicos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desenfoque no uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 2%
+source-wordcount: '177'
+ht-degree: 9%
 
 ---
 
@@ -22,47 +22,52 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/non-uniform-blur.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur.png){width="128px"}
 
-## Desenfoque no uniforme (escala de grises)
-
-**En:** *Filtros/Desenfoques*
-
-**Intermedio**
+<b>En:</b> Filtros > Desenfoques
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Realiza un desenfoque de alta calidad, en el que la intensidad se controla mediante una máscara de entrada. Las opciones permiten añadir Anisotropía y asimetría.
 
-## Parámetros
-
-### Entradas
-
-* **Mapa de desenfoque**: *Entrada en escala de grises* Mapa de máscara para aumentar la intensidad del efecto.
-
-### Parámetros
-
-* **Intensidad**: *0.0 - 50.0* Intensidad máxima para aplicar el desenfoque. Enmascarado por el mapa de desenfoque, por lo que este ajuste no tendrá efecto en las áreas negras de ese mapa.
-* **Anisotropía**: *0.0 - 1.0* Si lo desea, añade direccionalidad al efecto de desenfoque. Se controla mediante el parámetro Ángulo.
-* **Asimetría**: *0.0 - 1.0* Opcionalmente agrega un sesgo al muestreo. Se controla mediante el parámetro Ángulo.
-* **Ángulo**: *0.0 - 1.0*&#x200B;Ángulo para establecer la direccionalidad y el sesgo de muestreo.
-* **Ejemplos**: *1 - 16* La cantidad de muestras determina la calidad. Multiplicado por la cantidad de blades.
-* **blades**: *1 -* 9\
-  Cantidad de sectores de muestreo, determina la calidad. Multiplicado por la cantidad de muestras.
-
-## Imágenes de ejemplo
-
-*El siguiente ejemplo está gobernado por una pendiente de degradado (a 90 grados) en la ranura Mapa de desenfoque.*
-
-![](../../../../../../assets/nonuniform-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Mapa de desenfoque</b> <i>Entrada en escala de grises</i> | Mapa de máscara para aumentar la intensidad del efecto. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Intensidad</b> <i>0.0 - 50.0</i> | Intensidad máxima con la que aplicar el desenfoque. Enmascarado por el mapa de desenfoque, por lo que este ajuste no tendrá efecto en las áreas negras de ese mapa. |
+| <b>Anisotropía</b> <i>0.0 - 1.0</i> | De forma opcional, añade direccionalidad al efecto de desenfoque. Se controla mediante el parámetro Ángulo. |
+| <b>Asimetría</b> <i>0.0 - 1.0</i> | Si lo desea, añade un sesgo al muestreo. Se controla mediante el parámetro Ángulo. |
+| <b>Ángulo</b> <i>0.0 - 1.0</i> | Ángulo para definir la direccionalidad y el sesgo de muestreo. |
+| <b>Ejemplos</b> <i>1 - 16</i> | Cantidad de muestras, determina la calidad. Multiplicado por la cantidad de blades. |
+| <b>Blades</b> <i>1 - 9</i> | Cantidad de sectores de muestreo, determina la calidad. Multiplicado por la cantidad de muestras. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-uniform-blur.resources/nonuniform-example.gif" /><br><i>El siguiente ejemplo está gobernado por una pendiente de degradado (a 90 grados) en la ranura Mapa de desenfoque.</i>
+        </td>
+    </tr>
 </table>

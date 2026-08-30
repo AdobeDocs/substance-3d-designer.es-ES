@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fusión de Height de material para fusionar varios materiales en función de los mapas de height para crear efectos de material en capas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusión de Height de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-height-blend.png){width="128px"}
+![](material-height-blend.resources/material-height-blend.png){width="128px"}
 
-## Fusión de Height de material
-
-**En:** *Filtros/Efectos De Materiales*
-
-**Intermedio**
+<b>En:</b> Filtros de material > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,26 +39,19 @@ Esto puede ser útil para combinar dos materiales diferentes de alta calidad sin
 
 Si deseas mezclar agua o nieve, los nodos [Snow Cover](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) y [Water Level](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md) están disponibles en su lugar.
 
-## Parámetros
-
-### Parámetros
-
-* **Canales**\
-  Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad.
-* **Desplazamiento de Height**: *0.0 - 1.0* Desplaza los mapas de altura para que el nivel de fusión se mueva a lo largo del eje del height. Este es el control principal de la fusión.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste de la fusión y perfecciona las transiciones.
-* **Modo**: *height equilibrado, prioridad de height inferior* Cambia entre dos modos de fusión diferentes.
-* **Opacidad**: *0.0 - 1.0*\
-  Opacidad de fusión del height en primer plano, lo funde hacia dentro o hacia fuera.
-* **Coincidencia de Albedo**: *0.0 - 1.0* Cantidad de coincidencia de color interna que se debe realizar entre los colores del Albedo.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Desplazamiento de Height</b> <i>0.0 - 1.0</i> | Desplaza los mapas de altura de forma que el nivel de fusión se mueva a lo largo del eje del height. Este es el control principal de la fusión. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste de la fusión y perfecciona las transiciones. |
+| <b>Modo</b> <i>height equilibrado, prioridad de height inferior</i> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Opacidad de fusión del height en primer plano, lo funde hacia dentro o hacia fuera. |
+| <b>Coincidencia de Albedo</b> <i>0.0 - 1.0</i> | Cantidad de coincidencia de color interna que se debe realizar entre los colores de Albedo. |

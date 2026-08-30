@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mezcla de salpicaduras de formas para fusionar varias salpicaduras de formas y crear patrones de procedimiento complejos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mezcla de salpicaduras de formas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
@@ -22,43 +22,45 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
+![](shape-splatter-blend.resources/shape-splatter-blend.png){width="128px"}
 
-## Mezcla de salpicaduras de formas (color)
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Complejo**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Toma los datos de [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) como entrada para generar mapas en color o escala de grises a partir de.
 
-## Parámetros
-
-* **Color de fondo**: *Entrada de color*
-* **Patrón 1-8**: *Entrada de color*
-* **Entrada de color**: *Entrada de color*
-* **Datos de salpicaduras 1**: *Entrada de color*
-* **Datos de salpicaduras 2**: *Entrada de color*
-
-### Parámetros
-
-* **Número de patrón**: *1 - 8*
-* **Asignación Aleatoria De Motivos (Solo Color)**: *0.0 - 1.0*
-* **&#x200B; Es Mapa Normal &#x200B;**(Solo Color)**&#x200B;**: *Falso/Verdadero*
-* **Ajuste de HSL/luminancia**: *-1.0 - 1.0*
-* **Aleatorio de HSL/luminancia**: *-1.0 - 1.0*
-* **&#x200B;Ángulo normal aleatorio &#x200B;**(Solo color)**&#x200B;**: *0.0 - 1.0*
-* **Opacidad de entrada de color**: *0.0 - 1.0*
-
-## Imágenes de ejemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Color de fondo</b> <i>Entrada de color</i> |  |
+| <b>Patrón 1-8</b> <i>Entrada de color</i> |  |
+| <b>Entrada de color</b> <i>Entrada de color</i> |  |
+| <b>Datos de salpicaduras 1</b> <i>Entrada de color</i> |  |
+| <b>Datos de salpicaduras 2</b> <i>Entrada de color</i> |  |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Número de patrón</b> <i>1 - 8</i> |  |
+| <b>Asignación Aleatoria De Motivos (Solo Color)</b> <i>0.0 - 1.0</i> |  |
+| <b>Es Mapa de normales (Solo Color)</b> <i>Falso/Verdadero</i> |  |
+| <b>Ajuste HSL/Luminancia</b> <i>-1.0 - 1.0</i> |  |
+| <b>Aleatorio de HSL/luminancia</b> <i>-1.0 - 1.0</i> |  |
+| <b>Ángulo normal aleatorio (solo color)</b> <i>0.0 - 1.0</i> |  |
+| <b>Opacidad de entrada de color</b> <i>0.0 - 1.0</i> |  |

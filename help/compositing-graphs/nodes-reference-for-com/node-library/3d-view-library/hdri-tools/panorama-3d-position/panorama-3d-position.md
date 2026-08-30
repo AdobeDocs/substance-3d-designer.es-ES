@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
 breadcrumb-title: ''
 description: Utilice el nodo Posición 3D del panorama para colocar panoramas HDRI en el espacio 3D y crear entornos de iluminación personalizados.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Posición 3D del panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 4%
 
 ---
 
@@ -22,31 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-position.png){width="200px"}
+![](panorama-3d-position.resources/panorama-position.png){width="200px"}
 
-## Posición 3D del panorama
-
-**En:** *Herramientas HDRI/vistas 3D*
-
-**Simple**
+<b>En:</b> Vista 3D > Herramientas HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Nodo auxiliar que representa un mapa de posición del espacio mundial para una imagen panorámica proyectada específicamente. Se puede utilizar para realizar sus propias transformaciones y búsquedas esféricas.
 
-## Parámetros
-
-* **Vector Arriba**: *Arriba Z, Arriba Y*
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/pano3d.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Vector Arriba</b> <i>Z Arriba, Y Arriba</i> |  |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="panorama-3d-position.resources/pano3d.png" />
+        </td>
+    </tr>
 </table>

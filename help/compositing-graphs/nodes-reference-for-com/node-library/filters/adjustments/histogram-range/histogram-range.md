@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
 description: Utilice el nodo Rango de histograma para reasignar valores de textura basados en rangos de histograma para la corrección y los ajustes de color.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rango de histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-1.png){width="128px"}
 
-## Rango de histograma
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -42,15 +38,25 @@ Consulte también [Análisis de histograma](../../../../../../compositing-graphs
 
 [Haga clic aquí para ver un vídeo de la Academia de Substance sobre el Rango de histograma.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-## Parámetros
-
-* **Intervalo**: *0.0 - 1.0* Cuánto se debe reducir el intervalo desde. Esto es similar a mover los reguladores de los niveles mínimo y máximo hacia dentro.
-* **Posición**: *0.0 - 1.0* Desplazamiento para la reducción del rango, estableciendo un punto medio diferente para la reducción del rango.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/histogram-range.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Intervalo</b> <i>0.0 - 1.0</i> | Cuánto hay que reducir el rango desde. Esto es similar a mover los reguladores de los niveles mínimo y máximo hacia dentro. |
+| <b>Posición</b> <i>0.0 - 1.0</i> | Desplazamiento para la reducción del rango, estableciendo un punto medio diferente para la reducción del rango. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-range.resources/histogram-range.gif" />
+        </td>
+    </tr>
 </table>

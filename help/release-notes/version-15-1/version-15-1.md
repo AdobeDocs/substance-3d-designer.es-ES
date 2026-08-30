@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 15.1 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer 15.1 ofrece una ventana de creación de gráficos completamen
 
 *Fecha de publicación: 11 de diciembre de 2025*
 
-![Banner de Designer 15.1](../../assets/bannerweb.png)
+![Banner de Designer 15.1](version-15-1.resources/bannerweb.png)
 
 ## Mejora de la creación de gráficos
 
@@ -36,13 +36,13 @@ Aunque la interfaz principal se ha actualizado, los usuarios siguen teniendo acc
 
 [Más información](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![rediseñar nueva ventana de gráfico](../../assets/newgraph.png){zoomable="yes"}
+![rediseñar nueva ventana de gráfico](version-15-1.resources/newgraph.png){zoomable="yes"}
 
 ## Muestras incrustadas
 
 Con el lanzamiento de nuestra ventana de creación de gráficos rediseñada, hemos agregado una variedad de [<b>materiales de muestra</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directamente dentro del software. Esta mejora responde a su solicitud de un mejor acceso a los recursos de aprendizaje.
 
-![Nueva ventana de creación de gráficos para las muestras](../../assets/GraphSample.png){zoomable="yes"}
+![Nueva ventana de creación de gráficos para las muestras](version-15-1.resources/GraphSample.png){zoomable="yes"}
 
 Para satisfacer esta necesidad hemos incluido muestras de materiales tales como telas (incluyendo cuero y satén), madera, metal, plástico, cerámica y más. Estos ejemplos están pensados para ayudarle a iniciar sus proyectos con facilidad y familiarizarse con los principales nodos de la familia disponibles en Substance 3D Designer
 
@@ -54,7 +54,7 @@ Junto con estos materiales fundamentales, también proporcionamos <b>ejemplos av
 
 [Más información](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![muestra de madera en substance designer](../../assets/samplegraph.png){zoomable="yes"}
+![muestra de madera en substance designer](version-15-1.resources/samplegraph.png){zoomable="yes"}
 
 ## Nuevos ruidos
 
@@ -70,7 +70,7 @@ Consulta la lista completa de ruidos actualizados en las [notas de la versión](
 
 Ejemplos:   [Celdas 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nubes 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Arañazos direccionales](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Ruido de humedad 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![ruido de desorden direccional](../../assets/directionaldisorder.gif){zoomable="yes"}
+![ruido de desorden direccional](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
 
 ## Jerarquía en el menú de nodos
 
@@ -82,12 +82,12 @@ El gran número de nodos disponibles puede dificultar la búsqueda rápida del d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![búsqueda de nodos con categoría 1](../../assets/search1-2.png){zoomable="yes"}
+![búsqueda de nodos con categoría 1](version-15-1.resources/search1-2.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![búsqueda de nodos con categoría 2](../../assets/search2.png){zoomable="yes"}
+![búsqueda de nodos con categoría 2](version-15-1.resources/search2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Juegue con la siguiente imagen para ver la diferencia antes y después de la def
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="Con la salida predeterminada, las miniaturas siempre son relevantes.">
+      <img src="version-15-1.resources/defaultouput1.png" alt="Con la salida predeterminada, las miniaturas siempre son relevantes.">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 
 [Más información](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Se ha definido el nodo](../../assets/isdefined.png){zoomable="yes"}
+![Se ha definido el nodo](version-15-1.resources/isdefined.png){zoomable="yes"}
 
 ## Notas de la versión
 
@@ -200,7 +200,7 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 * [Vista 3D] El Specular edge color no funciona al utilizar el rasterizador de Eclair
 * [Vista 3D] El material añadido por el usuario no se aplica en escenas predeterminadas
 * [Vista 3D] [Panaderos] El color del material es demasiado oscuro una vez se ha anulado o al utilizar un panadero de &quot;Color&quot;
-* [Vista 3D]&#x200B;[Panaderos] No hay color de material del archivo FBX
+* [Vista 3D][Panaderos] No hay color de material del archivo FBX
 * [Bakers] Los colores del material en los archivos FBX no se detectan correctamente
 * [Bakers] La opción &#39;recompute\_tangents&#39; siempre es &#39;false&#39; en las exportaciones de ajustes preestablecidos de JSON
 * [Bakers] CLI: Bloqueo al ejecutar el mismo panadero de forma consecutiva a través del archivo JSON

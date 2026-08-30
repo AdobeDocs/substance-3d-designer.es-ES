@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
 breadcrumb-title: ''
 description: Utilice el nodo Muesca de borde para generar patrones de muesca en los bordes de malla para crear daños de borde y efectos de sangría realistas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Muesca de borde
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-notch.png){width="128px"}
+![](edge-notch.resources/edge-notch.png){width="128px"}
 
-## Muesca de borde
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Simple**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,24 +37,34 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Esta máscara representa una máscara simple para bordes elevados, dividida por un ruido de alta frecuencia. Consulte [Dirt de bordes](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) o [Daños de bordes](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md) para obtener más opciones.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Entradas
 
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para resaltar bordes. ¡Obligatorio!
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para resaltar bordes. ¡Obligatorio! |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-* **Nivel**: *0.0 - 1.0*\
-  Define el nivel del efecto Muesca de borde.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Define el nivel del efecto Muesca de borde. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-![](../../../../../../assets/edge-notch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-notch.resources/edge-notch-ex.gif" />
+        </td>
+    </tr>
 </table>

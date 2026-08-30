@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 11.3 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Fecha de publicación: *24 de noviembre de 2021*
 
 ### Nuevas funcionalidades de gráficos de modelos
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/banner-model.jpg)
 
 Se han añadido muchas mejoras al gráfico del modelo para ampliar las capacidades de modelado:
 
@@ -41,7 +41,7 @@ Se han añadido muchas mejoras al gráfico del modelo para ampliar las capacidad
   * Eliminación de partículas
   * Partículas de las instancias
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/particle-pruning.gif)
 
 * <b>Nuevos nodos de modelado y deformación</b>\
   Se han añadido nuevos nodos adicionales para crear formas más complejas; haga clic en cada nodo para obtener más información sobre ellos:
@@ -59,7 +59,7 @@ Se han añadido muchas mejoras al gráfico del modelo para ampliar las capacidad
 
 ### Interoperabilidad mejorada
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/banner-sendto.jpg)
 
 Las acciones de envío se han ampliado, con dos nuevas posibilidades:
 
@@ -71,24 +71,24 @@ Las acciones de envío se han ampliado, con dos nuevas posibilidades:
 
 ### Miscelánea
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/banner-misc-3.jpg)
 
 Se han hecho varias mejoras en la calidad de vida:
 
 * **Entradas relativas a las entradas**\
   Las entradas de gráficos establecidas en Relativo a entradas ahora heredarán el tamaño del nodo conectado en lugar del tamaño del gráfico principal predeterminado. Esto facilita la administración de diferentes resoluciones mediante entradas de diferentes tamaños.
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
 
 * **Nueva ventana de gráfico**\
   La nueva ventana gráfica se ha rediseñado y ahora permite ver mejor los detalles de una plantilla específica y crear una nueva gráfica directamente en un paquete existente.
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/new-graph.png){width="400px"}
 
 * **Cerrar todos los paquetes**\
   Una pequeña acción que hace menos tedioso administrar muchos paquetes en el explorador. Use **Archivo** > **Cerrar todos** para cerrar todos los paquetes abiertos actualmente.
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/close-all-packages.png)
 
 * **Maximizar vista actual**\
   Use la nueva barra de título **icon** o el método abreviado **MAYÚS+Espacio** para expandir una ventana a pantalla completa. Esto también se puede usar en ventanas flotantes.
@@ -98,16 +98,16 @@ Se han hecho varias mejoras en la calidad de vida:
 
 ### Contenido
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/render-content.jpg)
 
 Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderización PBR:
 
 * <b>Nodos de difusión</b>\
   Los nuevos nodos Color de difusión, Escala de grises de difusión y UV de difusión permiten generar desenfoques de sangrado suaves basados en una máscara de entrada.
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
 
 * **Nodo de Renderización PBR mejorado**\
   Este nodo tuvo los siguientes cambios:
@@ -130,18 +130,18 @@ Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderi
 * [Modelos de Substance] Mejorar el modo en que se visualizan los Basis
 * [Modelos de Substance] Conservar la jerarquía de objetos al exportar un gráfico de modelo de Substance a .fbx
 * [Modelos de Substance] Compatibilidad con varios materiales en la exportación FBX/OBJ desde el gráfico del modelo de Substance
-* [Modelos de Substance]&#x200B;[Contenido] Nodo de objeto
-* [Modelos de Substance]&#x200B;[Contenido] Nodo Transformación generativa
-* [Modelos de Substance]&#x200B;[Contenido] Nodo Organic Pattern
-* [Modelos de Substance]&#x200B;[Contenido] Partículas del nodo Instancias
-* [Modelos de Substance]&#x200B;[Contenido] Nodo de eliminación de partículas
-* [Modelos de Substance]&#x200B;[Contenido] Torno nodo
-* [Substance models]&#x200B;[Content] Nodo de shell
-* [Modelos de Substance]&#x200B;[Contenido] Nodo de proyección
-* [Modelos de Substance]&#x200B;[Contenido] Nodo de recorte de curva
-* [Modelos de Substance]&#x200B;[Contenido] Actualizar el nodo Sampler de la curva
-* [Modelos de Substance]&#x200B;[Contenido] Actualizar nodo Sampler de malla
-* [Modelos de Substance]&#x200B;[Contenido] Actualizar el nodo Variación
+* [Modelos de Substance][Contenido] Nodo de objeto
+* [Modelos de Substance][Contenido] Nodo Transformación generativa
+* [Modelos de Substance][Contenido] Nodo Organic Pattern
+* [Modelos de Substance][Contenido] Partículas del nodo Instancias
+* [Modelos de Substance][Contenido] Nodo de eliminación de partículas
+* [Modelos de Substance][Contenido] Torno nodo
+* [Substance models][Content] Nodo de shell
+* [Modelos de Substance][Contenido] Nodo de proyección
+* [Modelos de Substance][Contenido] Nodo de recorte de curva
+* [Modelos de Substance][Contenido] Actualizar el nodo Sampler de la curva
+* [Modelos de Substance][Contenido] Actualizar nodo Sampler de malla
+* [Modelos de Substance][Contenido] Actualizar el nodo Variación
 * [UX] Botón para maximizar la vista actual
 * [UX] Actualización de la ventana Nuevo gráfico
 * [UX] Añada la opción &quot;Descargar reproductor&quot; en el menú Herramientas y agréguela con &quot;Localizar reproductor&quot;
@@ -179,7 +179,7 @@ Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderi
 * [UI] La tecla de tabulación se debe presionar dos veces para desplazarse por los valores
 * [UI] El zoom con la acción de arrastrar del ratón se invierte entre la vista 3D y otras ventanas gráficas
 * [UI] Al cargar un SBS ya abierto mediante la lista &quot;Archivos recientes&quot;, se activa incorrectamente el mensaje &quot;Paquete no encontrado&quot;
-* [UI]&#x200B;[macOS] Diseño de interfaz predeterminado incorrecto después de iniciar la aplicación
+* [UI][macOS] Diseño de interfaz predeterminado incorrecto después de iniciar la aplicación
 * [UI] Los paquetes no se pueden guardar en la raíz de una unidad (solo Windows)
 * [Graph] La opción &quot;Mostrar automáticamente en vista 2D&quot; no es coherente en un caso específico
 * [Graph] La opción &#39;Open Reference&#39; está disponible para los nodos de instancia SBSAR

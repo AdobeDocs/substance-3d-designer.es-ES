@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
 breadcrumb-title: ''
 description: Utilice el nodo Color de difusión para aplicar efectos de difusión de color para crear transiciones y fusiones de color suaves.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color de difusión
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 3%
+source-wordcount: '263'
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-color-icon.png){width="200px"}
+![](diffusion-color.resources/diffusion-color-icon.png){width="200px"}
 
-**En:** *Filtros/Efectos*
-
-**Intermedio**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,78 +41,59 @@ Solo se difuminan los colores de los píxeles que coinciden con la máscara; otr
 </tr>
 </table>
 
-## Parámetros
-
-* **Iteraciones**: *0.0 - 64.0* El número de iteraciones de difusión que se van a realizar (más alto es mejor pero más lento). Los valores útiles se encuentran en el intervalo [8, 48].\
-  Tenga en cuenta que si no está buscando corrección matemática, los valores bajos están bien o incluso mejor.\
-  **Distancia**: **0.0 - 1.0** Ajusta la distancia máxima de la difusión.
-* **Habilitar tramado**: *Verdadero/Falso* Controla el método de muestreo de cada pasada. El tramado permite la convergencia en menos pasadas, pero introduce ruido.\
-  Sin ella, cada pase es más rápido, pero se requieren más pases para lograr un resultado suave sin defectos de bandas.
-* **Es un mapa normal**: *Verdadero/Falso* Agrega una normalización a los valores en cada paso.
-* **Usar Alpha como máscara**: *Verdadero/Falso* Use el canal alfa de la entrada *Source* como máscara de difusión, en lugar de la entrada *Mask*.
+<a name="inputs"></a>
 
 ## Entradas
 
-* **Origen** *Color*\
-  La imagen que se va a difundir.
-* **Máscara** *Escala de grises*\
-  Máscara de difusión: los píxeles blancos se muestrean en *Source* y se difuminan en píxeles negros. La imagen debe ser en blanco y negro. Si la máscara incluye degradados, el valor de límite es 0,5.
-* **Intensidad** *Escala de grises*\
-  Define localmente qué tan fuerte se aplica el proceso de difusión. Este mapa debe ser *contrastado* para lograr un efecto apreciable.
+|  |  |
+|:---|:---|
+| <b>Origen</b> <i>Color</i> | La imagen que se va a difundir. |
+| <b>Máscara</b> <i>Escala de grises</i> | Máscara de difusión: los píxeles blancos se muestrean en <i>Source</i> y se difuminan en píxeles negros. La imagen debe ser en blanco y negro. Si la máscara incluye degradados, el valor de límite es 0,5. |
+| <b>Intensidad</b> <i>Escala de grises</i> | Define localmente qué tan fuerte se aplica el proceso de difusión. Este mapa debe ser <i>contrastado</i> para lograr un efecto apreciable. |
 
-## Imágenes de ejemplo
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## Parámetros
 
-![](../../../../../../assets/diffusion-color-02-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>Iteraciones</b> <i>0.0 - 64.0</i> | El número de iteraciones de difusión que se deben realizar (más alto es mejor, pero más lento). Los valores útiles se encuentran en el intervalo [8, 48].<br>Tenga en cuenta que si no está buscando corrección matemática, los valores bajos son correctos o incluso mejores. |
+| <b>Distancia</b> <i>0.0 - 1.0</i> | Ajusta la distancia máxima de la difusión. |
+| <b>Habilitar tramado</b> <i>Verdadero/Falso</i> | Controla el método de muestreo de cada pasada. El tramado permite la convergencia en menos pasadas, pero introduce ruido.<br>Sin ella, cada pase es más rápido, pero se requieren más pases para lograr un resultado sin problemas sin defectos de bandas. |
+| <b>Es Mapa de normales</b> <i>Verdadero/Falso</i> | Agrega una normalización a los valores en cada paso. |
+| <b>Usar Alpha como máscara</b> <i>Verdadero/Falso</i> | Use el canal alfa de la entrada <i>Source</i> como máscara de difusión, en lugar de la entrada <i>Mask</i>. |
 
-</td>
-<td style="border: 0;" valign="top">
+## Ejemplos
 
-![](../../../../../../assets/diffusion-color-02a-after.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-02b-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-01-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after-1.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01a-after-1.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-normal.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-normal-render.jpg){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-02-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-02a-after.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-02b-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-01-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-uv-01b-after-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-uv-01a-after-1.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal-render.jpg" />
+        </td>
+    </tr>
 </table>

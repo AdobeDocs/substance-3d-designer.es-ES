@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
 description: Utilice el nodo Azulejo aleatorio para crear patrones de azulejo aleatorios con variación de procedimiento para los efectos de textura orgánica.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Azulejo aleatorio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 0%
+source-wordcount: '631'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-random.png){width="128px"}
+![](tile-random.resources/tile-random.png){width="128px"}
 
-## Azulejo aleatorio (color)
-
-**En:** *Generadores/Patrones*
-
-**Complejo**
+<b>En:</b> Generadores > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,74 +37,76 @@ Tile Random genera un patrón de mosaico de procedimiento que tiene un poco más
 
 Se utiliza Tile Random en lugar de [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) cuando el objetivo es un patrón más antiguo y menos organizado. Sin embargo, tiene sus limitaciones, así que considera [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) para cualquier otra necesidad avanzada.
 
-## Parámetros
-
-### Entradas
-
-* **Entrada de patrón**: *Entrada en escala de grises (entrada de color)*\
-  Imagen de motivo personalizado, utilizada cuando el parámetro &quot;Motivo&quot; se define en &quot;Entrada de imagen&quot;.
-* **Entrada en segundo plano**: *Entrada en escala de grises (entrada de color)*
-
-### Parámetros
-
-* **Cantidad X**: *1 - 64*\
-  Cantidad de repeticiones X del patrón.
-* **Importe Y**: *1 - 64*\
-  Cantidad de repeticiones Y del patrón.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* **Patrón**
-  * **Patrón**: *Entrada De Patrón, Cuadrado, Disco, Paraboloide, Campana, Gaussiano, Espina, Pirámide, Ladrillo, Gradación, Ondas, Media Campana, Campana Redondeada, Media Luna, Cápsula, Cono*\
-    Selecciona la forma de motivo que se va a utilizar.
-  * **Filtrado de entrada de imagen (Motor > v4)**: *Bilineal + Mipmaps, Bilineal, Más Cercano*
-  * **Específico del patrón**: *0.0 - 1.0*\
-    Permite cambiar la forma del motivo seleccionado. El efecto depende del patrón seleccionado.
-  * **Aleatorio específico de patrón**: *0.0 - 1.0* El efecto de aleatorización depende del patrón seleccionado.
-  * **Rotación**: *0, 90, 180, 270, horizontal aleatorio, vertical aleatorio* Establece la rotación en pasos de 90 grados, con aleatorización opcional.
-  * **Aleatorio de rotación**: *0.0 - 1.0* Agrega rotación libre aleatoria.
-  * **Aleatorio de simetría**:  **0.0 - 1.0** Refleja aleatoriamente ciertos patrones según el modo aleatorio de simetría seleccionado. Cuanto más alto sea este valor, más patrones se reflejarán.
-  * **Modo aleatorio de simetría**: *Horizontal + Vertical, Horizontal, Vertical* Determina el comportamiento del reflejo cuando el valor aleatorio de simetría es superior a 0.
-* **División**
-  * **Modo**: *ninguno, automático, horizontal automático, vertical automático, aleatorio h+v* Establece la regla sobre cómo dividir los mosaicos.
-  * **Umbral**: *0.0 - 1.0* Umbral de tamaño para dividir un azulejo.
-  * **Multiplicador**: *0 - 10* Multiplicador de división. Cuanto mayor sea este valor, más se dividirá.
-* **Tamaño**
-  * **Aleatorio X**: *0.0 - 1.0* Aleatoriza la escala no uniforme sobre el eje X.
-  * **Y aleatorio**: *0.0 - 1.0* Aleatoriza la escala no uniforme sobre el eje Y.
-* **Intersticio**
-  * **Modo**: *Relativo al ladrillo más pequeño, Relativo al ladrillo más grande* Establece a qué intersticio de tamaño de ladrillo es relativo.
-  * **Importe**: *0.0 - 1.0* Establece el tamaño de hueco entre los ladrillos.
-* **Forma**
-  * **Escala**: *0.0 - 1.0* Escala globalmente cada mosaico.
-  * **Escala aleatoria**: *0.0 - 1.0* Escala aleatoria por mosaico.
-  * **Rotación**: *0.0 - 1.0* Rotación global por cada mosaico.
-  * **Aleatorio de rotación**: *0.0 - 1.0* Rota aleatoriamente por mosaico.
-  * **Restricción de rotación**: *Falso/Verdadero* Restringe la escala para que los mosaicos rotados nunca se superpongan.
-* **Posición**
-  * **Desplazamiento**: *0.0 - 1.0*\
-    Mueve o traduce los mosaicos globalmente y sólo se desliza sobre el eje X
-  * **Desplazamiento aleatorio**: *0.0 - 1.0* Aleatoriza el desplazamiento por mosaico, se desliza únicamente sobre el eje X
-  * **Aleatorio**: *0.0 - 1.0* Aleatoriza la posición, los mosaicos se mueven en los ejes X e Y.
-  * **Restricciones aleatorias**: *Falso/Verdadero* Restringe la escala para que los mosaicos se toquen, pero no se superpongan. Reduce significativamente el efecto Posición aleatoria.
-* **Color**
-  * **Color**: *(Valor de escala de grises) / (Valor de color)*Establece un color sólido para todos los mosaicos.
-  * **Aleatorio de color**: *0.0 - 1.0* Aleatoriza el color según el azulejo.
-  * **Parametrización de color**: *ninguno, área, tamaño x, tamaño y* Hace que la variación de color dependa de uno de estos valores.
-  * **Intensidad de parametrización de color**: *0.0 - 1.0* Multiplicador para el efecto de parametrización anterior.
-  * **Efecto de parametrización de color (solo para Color):** **RGB+Alpha, solo RGB, solo Alpha** Determina el efecto de parametrización de solo color.
-  * **Color de fondo**: *(Valor de escala de grises) / (Valor de color)*Define el color de fondo sólido.
-  * **Modo De Fusión**: *Agregar/Inferior, Máx./* Agregar/Inferior, Fusión de Alpha (Color)**Establece el modo de fusión de los mosaicos en el fondo.
-* **Máscara**
-  * **Aleatorio**: *0.0 - 1.0* Comienza a enmascarar aleatoriamente los mosaicos. Cuanto mayor sea el valor, más mosaicos desaparecerán.
-  * **Invertir**: *Falso/Verdadero*\
-    Invierte el resultado de la máscara.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/tile-random-1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada de patrón</b> <i>Entrada de escala de grises (entrada de color)</i> | Imagen de motivo personalizado, utilizada cuando el parámetro &quot;Motivo&quot; se define en &quot;Entrada de imagen&quot;. |
+| <b>Entrada en segundo plano</b> <i>Entrada de escala de grises (entrada de color)</i> |  |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Cantidad X</b> <i>1 - 64</i> | Cantidad de repeticiones X del patrón. |
+| <b>Importe Y</b> <i>1 - 64</i> | Cantidad de repeticiones Y del patrón. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Patrón</b> |  |
+| <b>Patrón</b> <i>Entrada De Patrón, Cuadrado, Disco, Paraboloide, Campana, Gaussiano, Espina, Pirámide, Ladrillo, Gradación, Ondas, Media campana, Campana Cuadrada, Media Luna, Cápsula, Cono</i> | Selecciona la forma de motivo que se va a utilizar. |
+| <b>Filtrado de entrada de imagen (Motor > v4)</b> <i>Bilineal + Mipmaps, Bilineal, Más Cercano</i> |  |
+| <b>Específico del patrón</b> <i>0.0 - 1.0</i> | Permite cambiar la forma del motivo seleccionado. El efecto depende del patrón seleccionado. |
+| <b>Aleatorio específico de motivo</b> <i>0.0 - 1.0</i> | El efecto Aleatorización depende del patrón seleccionado. |
+| <b>Rotación</b> <i>0, 90, 180, 270, horizontal al azar, vertical al azar</i> | Define la rotación en pasos de 90 grados, con aleatorización opcional. |
+| <b>Aleatorio de rotación</b> <i>0.0 - 1.0</i> | Añade rotación libre aleatoria. |
+| <b>Aleatorio de Simetría</b> <i>0.0 - 1.0</i> | Refleja aleatoriamente determinados patrones en el modo aleatorio de Simetría seleccionado. Cuanto más alto sea este valor, más patrones se reflejarán. |
+| <b>Modo aleatorio de Simetría</b> <i>Horizontal + Vertical, Horizontal, Vertical</i> | Determina el comportamiento del reflejo cuando el valor aleatorio de Simetría es superior a 0. |
+| <b>División</b> |  |
+| <b>Modo</b> <i>ninguno, automático, horizontal automático, vertical automático, aleatorio h+v</i> | Establece la regla sobre cómo dividir los mosaicos. |
+| <b>Umbral</b> <i>0.0 - 1.0</i> | Umbral de tamaño para dividir un azulejo. |
+| <b>Multiplicador</b> <i>0 - 10</i> | Multiplicador de división. Cuanto mayor sea este valor, más se dividirá. |
+| <b>Tamaño</b> |  |
+| <b>X aleatorio</b> <i>0.0 - 1.0</i> | Aleatoriza la escala no uniforme sobre el eje X. |
+| <b>Y aleatorio</b> <i>0.0 - 1.0</i> | Aleatoriza la escala no uniforme sobre el eje Y. |
+| <b>Intersticio</b> |  |
+| <b>Modo</b> <i>Relativo al ladrillo más pequeño, Relativo al ladrillo más grande</i> | Establece a qué intersticio de tamaño de ladrillo es relativo. |
+| <b>Importe</b> <i>0.0 - 1.0</i> | Define el tamaño del hueco entre los ladrillos. |
+| <b>Forma</b> |  |
+| <b>Escala</b> <i>0.0 - 1.0</i> | Escala globalmente cada mosaico. |
+| <b>Escala aleatoria</b> <i>0.0 - 1.0</i> | Escala aleatoria por mosaico. |
+| <b>Rotación</b> <i>0.0 - 1.0</i> | Rotación global para cada mosaico. |
+| <b>Aleatorio de rotación</b> <i>0.0 - 1.0</i> | Rota aleatoriamente por mosaico. |
+| <b>Restricción de rotación</b> <i>Falso/Verdadero</i> | Restringe la escala para que los mosaicos rotados nunca se superpongan. |
+| <b>Posición</b> |  |
+| <b>Desplazamiento</b> <i>0.0 - 1.0</i> | Mueve o traduce los mosaicos globalmente y sólo se desliza sobre el eje X |
+| <b>Desplazamiento aleatorio</b> <i>0.0 - 1.0</i> | Aleatoriza el desplazamiento por azulejo, sólo se desliza sobre el eje X |
+| <b>Aleatorio</b> <i>0.0 - 1.0</i> | Aleatoriza la posición, los mosaicos se mueven en los ejes X e Y. |
+| <b>Restricciones aleatorias</b> <i>Falso/Verdadero</i> | Las restricciones cambian de escala para que los mosaicos se toquen, pero no se superpongan. Reduce significativamente el efecto Posición aleatoria. |
+| <b>Color</b> |  |
+| <b>Color</b> <i>(valor de escala de grises) / (valor de color)</i> | Define el color sólido de todos los azulejos. |
+| <b>Aleatorio de color</b> <i>0.0 - 1.0</i> | Aleatoriza el color según el azulejo. |
+| <b>Parametrización de color</b> <i>ninguno, área, tamaño x, tamaño y</i> | Hace que la variación de color dependa de uno de estos ajustes. |
+| <b>Intensidad de parametrización de color</b> <i>0.0 - 1.0</i> | Multiplicador para el efecto de parametrización anterior. |
+| <b>Efecto de parametrización de color (solo para Color)</b> <i>RGB+Alpha, solo RGB, solo Alpha</i> | Determina el efecto de parametrización de solo color. |
+| <b>Color de fondo</b> <i>(valor de escala de grises) / (valor de color)</i> | Define el color de fondo sólido. |
+| <b>Modo De Fusión</b> <i>Agregar/Inferior, Máx./Agregar/Inferior, Fusión de Alpha (Color)</i> | Establece el modo de fusión de los mosaicos en el fondo. |
+| <b>Máscara</b> |  |
+| <b>Aleatorio</b> <i>0.0 - 1.0</i> | Comienza a enmascarar los azulejos de forma aleatoria. Cuanto mayor sea el valor, más mosaicos desaparecerán. |
+| <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el resultado de la máscara. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="tile-random.resources/tile-random-1.png" />
+        </td>
+    </tr>
 </table>

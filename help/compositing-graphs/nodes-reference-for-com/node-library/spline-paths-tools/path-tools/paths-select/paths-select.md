@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: Utilice el nodo Selección de trazados para seleccionar y filtrar trazados específicos de una lista de trazados en función de criterios.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Selección de trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/paths-select-icon.png "Icono de nodo")
+![Icono de nodo](paths-select.resources/paths-select-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -39,31 +39,32 @@ Aísle un trazado entre varios contenidos en Trazados.
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Etiqueta</b> *Tipo*\
-Una lista de los segmentos codificados de las rutas. Conecte esta entrada al resultado de [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a otro nodo de procesamiento de rutas.
+## Entradas
 
-## Conectores de salida
+|  |  |
+|:---|:---|
+| <b>Etiqueta</b> <i>Tipo</i> | Una lista de los segmentos codificados de las rutas. Conecte esta entrada al resultado de [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a otro nodo de procesamiento de rutas. |
 
-<b>Rutas</b> *Color*\
-Los trazados se introducen con un solo trazado. Puedes usar [rutas de vista previa](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para hacerte una idea de lo que representa el resultado, usar otro nodo de procesamiento de rutas o escribirlo en [rutas de acceso a spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para procesarlo aún más como splines.
+<a name="outputs"></a>
+
+## Salidas
+
+|  |  |
+|:---|:---|
+| <b>Rutas</b> <i>Color</i> | Los trazados se introducen con un solo trazado. Puedes usar [rutas de vista previa](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para hacerte una idea de lo que representa el resultado, usar otro nodo de procesamiento de rutas o escribirlo en [rutas de acceso a spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para procesarlo aún más como splines. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>Modo de selección</b> *Entero* Método utilizado para seleccionar los trazados:\
-*- Por id.:* Selecciona la ruta de la lista cuyo índice coincide con el especificado en <b>Id. de ruta</b>;\
-*- Por longitud:* Selecciona las rutas cuya longitud es superior o inferior al umbral especificado en <b>Longitud de destino</b>.
-
-<b>Id. de ruta</b> *Entero* (disponible cuando el <b>Modo de selección</b> está establecido en *Por id.*)\
-Índice del trazado seleccionado.\
-Un valor mayor que el número de rutas de acceso de <b>Rutas *genera*</b> un resultado en blanco.
-
-<b>Longitud mayor o menor?</b> *Booleano* (disponible cuando el <b>Modo de selección</b> está establecido en *Por longitud*)\
-Controla si la selección debe incluir una longitud mayor o menor que la <b>Longitud de destino</b>.
-
-<b>Longitud de destino</b> *Float*(Disponible cuando <b>Selection Mode</b> está establecido en *By Length*)\
-Umbral de longitud utilizado para seleccionar splines.
+|  |  |
+|:---|:---|
+| <b>Modo de selección</b> <i>Entero</i> | El método utilizado para seleccionar las rutas:<br>*- Por id.:* Selecciona la ruta de la lista cuyo índice coincide con el especificado en <b>Id. de ruta</b>;<br>*- Por longitud:* Selecciona las rutas cuya longitud es superior o inferior al umbral especificado en <b>Longitud de destino</b>. |
+| <b>Id. de ruta</b> <i>Entero</i> (disponible cuando el <b>Modo de selección</b> está establecido en *Por id.*) | El índice de la ruta de acceso seleccionada.<br>Un valor mayor que el número de rutas de acceso de <b>Rutas *genera*</b> un resultado en blanco. |
+| <b>Longitud mayor o menor?</b> <i>Booleano</i> (disponible cuando el <b>Modo de selección</b> está establecido en *Por longitud*) | Controla si la selección debe incluir una longitud mayor o menor que la <b>Longitud de destino</b>. |
+| <b>Longitud de destino</b> <i>Flotante</i> (disponible cuando el <b>Modo de selección</b> está establecido en *Por longitud*) | Umbral de longitud utilizado para seleccionar splines. |
 
 ## Ejemplos
 
@@ -74,11 +75,11 @@ Umbral de longitud utilizado para seleccionar splines.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -90,11 +91,11 @@ Umbral de longitud utilizado para seleccionar splines.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
       <br><i>Después De</i>
     </td>
   </tr>

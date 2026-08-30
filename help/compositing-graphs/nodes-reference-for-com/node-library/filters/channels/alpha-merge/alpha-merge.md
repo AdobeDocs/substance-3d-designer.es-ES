@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
 breadcrumb-title: ''
 description: Utilice el nodo Combinación de Alpha para combinar texturas de RGB con canales alfa para crear texturas RGBA.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Combinación de Alpha
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '89'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgb-a-merge.png)
+![](alpha-merge.resources/rgb-a-merge.png)
 
-## Combinación de Alpha
-
-**En:** *Filtros/Canales*
-
-**Simple**
+<b>En:</b> Filtros > Canales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,23 +37,15 @@ Agrega un canal alfa a una entrada sin canal alfa. No debe confundirse con [Comb
 
 Nodo simple pero práctico para cuando solo quieres enmascarar algo, o cuando tu resultado requiere un alfa.
 
-## Parámetros
-
-### Entradas
-
-* **RGB**: *Entrada de color*\
-  Imagen en color sin alfa
-* **A**: *Entrada en escala de grises*\
-  Imagen en escala de grises que se utilizará como alfa del resultado.
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>RGB</b> <i>Entrada de color</i> | Imagen en color sin alfa |
+| <b>A</b> <i>Entrada en escala de grises</i> | Imagen en escala de grises que se utilizará como alfa del resultado. |

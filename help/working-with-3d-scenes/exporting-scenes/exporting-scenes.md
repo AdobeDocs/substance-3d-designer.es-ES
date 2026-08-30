@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
-description: Exporte escenas 3D con todas las ediciones realizadas en Designer mediante la acción Exportar escena del menú Ver escena 3D.
+description: Exporte escenas 3D con todas las ediciones realizadas en Designer mediante la acción Exportar escena del menú Escena de Vista 3D.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportar escenas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Exportar escenas
 
-Cuando necesite exportar la escena con todas las ediciones realizadas en Designer, utilice el comando Exportar escena... acciones en el menú &quot;Escena&quot; de la [Vista 3D](../../interface/3d-view/3d-view.md).
+Cuando necesite exportar la escena con todas las ediciones realizadas en Designer, utilice el comando Exportar escena... acciones en el menú &quot;Escena&quot; de [Vista 3D](../../interface/3d-view/3d-view.md).
 
-Para las exportaciones a formatos USD, el contenido de la escena coincidirá con el árbol mostrado en el [Explorador de escenas](../../interface/3d-view/scene-browser/scene-browser.md).
+Para las exportaciones a USD formatos, el contenido de la escena coincidirá con el árbol mostrado en el [Explorador de escenas](../../interface/3d-view/scene-browser/scene-browser.md).
 
 Para otros formatos, el contenido de la escena y su estructura interna dependerán de las funciones admitidas por el formato de archivo seleccionado.
 
@@ -30,7 +30,7 @@ Para otros formatos, el contenido de la escena y su estructura interna depender�
 >
 > Todos los elementos añadidos a la escena por Designer se incluirán en la escena exportada: En la cámara predeterminada, el entorno predeterminado, todo el material copia las luces adicionales.
 
-![Acciones de exportación de escena](../../assets/exportActions.png "Acciones de exportación de escena"){zoomable="yes"}
+![Acciones de exportación de escena](exporting-scenes.resources/exportActions.png "Acciones de exportación de escena"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ Esto significa que las ediciones en la escena original no afectan en absoluto a 
 </td>
 <td style="border: 0;" valign="top">
 
-![Archivos de escena exportados - Acoplados](../../assets/exportFlattened.png "Archivos de escena exportados - Acoplados"){zoomable="yes"}
+![Archivos de escena exportados - Acoplados](exporting-scenes.resources/exportFlattened.png "Archivos de escena exportados - Acoplados"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Esto significa que las ediciones de la escena original se transfieren a la escen
 </td>
 <td style="border: 0;" valign="top">
 
-![Archivos de escena exportados - Con capas](../../assets/exportLayered.png "Archivos de escena exportados - Con capas"){zoomable="yes"}
+![Archivos de escena exportados - Con capas](exporting-scenes.resources/exportLayered.png "Archivos de escena exportados - Con capas"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,6 +102,6 @@ Los archivos exportados siguen esta estructura:
 
 ## Texturas
 
-Las texturas se exportan en un directorio junto al archivo exportado y se les asigna su nombre, con un sufijo ‘<b>\_textures</b>’.
+Las texturas se exportan en un directorio junto al archivo exportado y se les asigna su nombre, con un sufijo ‘<b>\_texturas</b>’.
 
 Utilizan el formato <b>PNG</b>, excepto texturas HDR (coma flotante) que usan el formato <b>EXR</b>.

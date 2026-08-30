@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure.html"
 breadcrumb-title: ''
 description: Utilice el nodo Exposición para ajustar los niveles de exposición en entornos HDRI y controlar el brillo y la iluminación generales.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Exposición
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 9%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/exposure-9.png){width="250px"}
+![](exposure.resources/exposure-9.png){width="250px"}
 
-## Exposición
-
-**En:** *Herramientas HDRI/vistas 3D*
-
-**Simple**
+<b>En:</b> Vista 3D > Herramientas HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Ajuste la exposición de la imagen de entrada. Ilumina u oscurece las fotografías HDR con el concepto de valor &quot;stop&quot;, como en el software de edición de fotos.
 
-## Parámetros
-
-* **Exposición (VE)** : *-8.0 - 8.0* Valor de exposición, en paradas.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Exposición (VE)</b> <i>-8.0 - 8.0</i> | Valor de exposición, en paradas. |

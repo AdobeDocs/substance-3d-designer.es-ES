@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
 breadcrumb-title: ''
 description: Utilice el nodo Height a unidades de mundo normales para convertir mapas de height a mapas normales utilizando la escala de unidades de mundo para obtener detalles precisos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Height a Unidades Mundiales Normales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-hq.png){width="128px"}
+![](height-to-normal-world-units.resources/normal-hq.png){width="128px"}
 
-## Height a Unidades Mundiales Normales
-
-**En:** *Filtros/Mapa Normal*
-
-**Simple**
+<b>En:</b> Filtros > Mapa de normales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,20 +37,17 @@ Nodo de conversión de Height a normal avanzado que utiliza unidades del mundo r
 
 Útil para cuando conozca las dimensiones de Heightmap de origen y desee realizar la conversión más precisa, como cuando se trabaja con material digitalizado.
 
-## Parámetros
-
-* **Tamaño de superficie (cm)**: *0.0 - 1000.0* Dimension del mapa de altura de entrada.
-* **Profundidad de Height (cm)**: *0.0 - 100.0* profundidad máxima de los detalles del mapa de altura.
-* **Formato normal**: *OpenGL, DirectX*\
-  Cambia entre diferentes formatos de Mapa normal (invierte el canal verde).
-* **Muestreo**: *Estándar, Sobel* Cambia entre dos modos de muestreo para determinar la precisión.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Tamaño de superficie (cm)</b> <i>0.0 - 1000.0</i> | Dimension de la entrada Heightmap. |
+| <b>Profundidad de Height (cm)</b> <i>0.0 - 100.0</i> | Profundidad máxima de los detalles del mapa de altura. |
+| <b>Formato normal</b> <i>OpenGL, DirectX</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
+| <b>Muestreo</b> <i>Estándar, Sobel</i> | Cambia entre dos modos de muestreo para determinar la precisión. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
 breadcrumb-title: ''
 description: Utilice el nodo Noise Upscale 3 para aumentar la escala de las texturas mediante algoritmos avanzados basados en ruido para conservar los detalles en resoluciones más altas.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ampliación de ruido 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '132'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-3.resources/noise-upscale.png){width="128px"}
 
-## Ampliación de ruido 3
-
-**En:** *Filtros/Transformaciones*
-
-**Simple**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,23 +39,25 @@ Este nodo está destinado principalmente a optimizar gráficos lentos que utiliz
 
 Vea también [Noise Upscale 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) y [Noise Upscale 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md), que en la mayoría de los casos tienden a ser ligeramente mejores para ocultar el mosaico.
 
-## Parámetros
-
-### Entradas
-
-* **Escala de grises**: *Entrada en escala de grises*\
-  Imagen de ruido de destino.
-* **Máscara**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise3ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Escala de grises</b> <i>Entrada en escala de grises</i> | Imagen de ruido de destino. |
+| <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-3.resources/noise3ex.png" />
+        </td>
+    </tr>
 </table>

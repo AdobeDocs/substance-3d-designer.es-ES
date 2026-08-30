@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
 breadcrumb-title: ''
 description: Utilice el nodo Blanqueamiento solar para generar máscaras basadas en la exposición solar y crear efectos descoloridos y blanqueados por el sol realistas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Blanqueador solar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/sun-bleach.png){width="128px"}
+![](sun-bleach.resources/sun-bleach.png){width="128px"}
 
-## Blanqueador solar
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Simple**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,26 +37,36 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Esta máscara es similar a [Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md), pero también es compatible con el AO, lo que da lugar a una máscara que representa un blanqueamiento suave y un desvanecimiento en la parte superior de un efecto.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Entradas
 
-* **Espacio normal**: *Entrada de color*
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
+|  |  |
+|:---|:---|
+| <b>Espacio normal</b> <i>Entrada de color</i> |  |
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-* **Nivel**: *0.0 - 1.0*\
-  Define la cantidad total de blanqueamiento y desplaza el efecto hacia abajo.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
-* **Oclusión**: *0.0 - 1.0* Establece la influencia del AO en el resultado final.
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Define la cantidad total de blanqueamiento y desplaza el efecto hacia abajo. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
+| <b>Oclusión</b> <i>0.0 - 1.0</i> | Establece la influencia del AO en el resultado final. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-![](../../../../../../assets/sun-bleach-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="sun-bleach.resources/sun-bleach-ex.gif" />
+        </td>
+    </tr>
 </table>

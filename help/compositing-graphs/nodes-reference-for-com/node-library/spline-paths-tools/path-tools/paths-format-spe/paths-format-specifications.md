@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Obtenga información sobre las especificaciones de formato de rutas y la estructura de datos que utilizan los nodos de rutas y splines.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Especificaciones de formato de trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Cualquier dato de un píxel en la parte &#39;superior&#39; está semánticamente
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Rutas Datos codificados por polígono](../../../../../../assets/PathsPolygon_Data.jpg "Rutas Datos codificados por polígono")
+![Rutas Datos codificados por polígono](paths-format-specifications.resources/PathsPolygon_Data.jpg "Rutas Datos codificados por polígono")
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Esto es útil cuando se leen las rutas de acceso desde un [procesador de píxele
 
 La dirección del último vértice definido en este documento. Esto resulta útil para anexar nuevos datos.
 
-Por lo tanto, puede ser realmente cualquier dirección mayor (en orden de escaneado) que la dirección del último vértice. Debe estar en el intervalo &rbrack;0, 1[×]0, .5&lbrack;
+Por lo tanto, puede ser realmente cualquier dirección mayor (en orden de escaneado) que la dirección del último vértice. Debe estar en el intervalo ]0, 1[×]0, .5[
 
 <b>ZW</b>
 
@@ -201,7 +201,7 @@ si |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_
 
 Si desea crear sus propios nodos de procesamiento de trazados, dispone de varias herramientas.
 
-Los conceptos básicos los proporcionan los nodos [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) y [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), que básicamente se pueden usar del mismo modo que un [procesador de píxeles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
+Los conceptos básicos los proporcionan los nodos [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) y [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), que básicamente se pueden usar de la misma manera que un [Procesador de píxeles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
 
 Si necesita características más allá de lo que ofrecen los nodos del procesador de vértices de rutas (más texturas de entrada, o más vértices anteriores o siguientes), copiar la implementación de este gráfico podría ser un buen punto de partida (suponiendo que reemplace el nodo <b>Get(&quot;%perVertex&quot;)</b> por su procesamiento personalizado).
 
@@ -269,11 +269,11 @@ Tenga en cuenta que para simplificar, se supone que <b>la información de rutas 
 
 Puede comprobar `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), en el parámetro Iterations del tercer nodo iterate, para obtener un ejemplo de cómo usarlo.
 
-![Caso de uso mínimo de sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Caso de uso mínimo de sample_next")
+![Caso de uso mínimo de sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Caso de uso mínimo de sample_next")
 
 
 
-![Caso de uso de sample_next en rutas de previsualización (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Caso de uso de sample_next en rutas de previsualización (path_trace)")
+![Caso de uso de sample_next en rutas de previsualización (path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "Caso de uso de sample_next en rutas de previsualización (path_trace)")
 
 
 

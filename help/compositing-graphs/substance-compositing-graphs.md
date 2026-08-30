@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la composición gráfica de Substance en Substance 3D Designer para crear texturas de procedimiento y flujos de trabajo de materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gráficos de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Los gráficos de Substance son [el tipo de gráfico más ampliamente admitido](.
 A continuación, puede encontrar algunos ejemplos típicos de casos de uso comunes.
 
 +++Forma simple
-![Forma simple en el gráfico del Substance](../assets/simpleshape.png "Forma simple en el gráfico del Substance"){width="512px"}
+![Forma simple en el gráfico del Substance](substance-compositing-graphs.resources/simpleshape.png "Forma simple en el gráfico del Substance"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ El texto con el número o el thickness del borde se puede exponer externamente p
 +++
 
 +++Filtro de ajuste
-![Filtro de ajuste en el gráfico de Substance](../assets/simplefilter.png "Filtro de ajuste en el gráfico de Substance"){width="512px"}
+![Filtro de ajuste en el gráfico de Substance](substance-compositing-graphs.resources/simplefilter.png "Filtro de ajuste en el gráfico de Substance"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Los valores de contraste establecidos en el histograma pueden ser expuestos, hac
 +++
 
 +++Material completo
-![Material completo en el gráfico del Substance](../assets/simplematerial.png "Material completo en el gráfico del Substance"){width="512px"}
+![Material completo en el gráfico del Substance](substance-compositing-graphs.resources/simplematerial.png "Material completo en el gráfico del Substance"){width="512px"}
 
 
 

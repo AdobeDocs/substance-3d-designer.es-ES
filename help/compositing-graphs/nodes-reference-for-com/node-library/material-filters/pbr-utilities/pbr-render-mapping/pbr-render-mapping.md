@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
 breadcrumb-title: ''
 description: Utilice el nodo Asignación de Renderizaciones PBR para convertir salidas de material a diferentes formatos de asignación de Renderizaciones PBR.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Asignación de renderizaciones PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 1%
+source-wordcount: '187'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
+![](pbr-render-mapping.resources/pbr-render-mapping-color.png)![](pbr-render-mapping.resources/pbr-render-mapping-grayscale.png)
 
-## Asignación de renderizaciones PBR (color/escala de grises)
-
-**En:** *Utilidades de filtros de materiales/PBR*
-
-**Simple**
+<b>En:</b> Filtros de material > Utilidades de PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,24 +37,38 @@ Este es un nodo de extensión para el [nodo Renderización PBR](../../../../../.
 
 Existe una versión en color y en escala de grises para los dos tipos de datos: utilice color para mapas difusos, utilice escala de grises para mapas de rugosidad, de metal y otros mapas en escala de grises.
 
-### Entradas
+</td>
+</tr>
+</table>
 
-* **Textura**: *Entrada en color/escala de grises*\
-  Textura para asignar a una forma.
-* **UV**: *Entrada de color* Entrada de datos UV obligatoria desde un [nodo de Renderización PBR.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Textura</b> <i>Entrada en color/escala de grises</i> | Textura para asignar a una forma. |
+| <b>UV</b> <i>Entrada de color</i> | Entrada de datos UV obligatoria desde un [nodo Renderización PBR.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md) |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-* **Color de fondo**: *(Valor de color)*Defina un valor de color sólido para utilizarlo en el fondo.
+|  |  |
+|:---|:---|
+| <b>Color de fondo</b> <i>(Valor de color)</i> | Defina un valor de color sólido para utilizarlo en el fondo. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-El ejemplo es una composición de cuatro nodos de asignación de Renderizaciones PBR diferentes, que usan una selección de histograma [en un degradado lineal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md) como máscaras.[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md)
+El ejemplo es una composición de cuatro nodos de asignación de Renderizaciones PBR diferentes, que usan una selección de histograma [en un degradado lineal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md) como máscaras.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md)[
 
-![](../../../../../../assets/pbr-render-mapping-ex.png){width="256px"}
-
-![](../../../../../../assets/pbr-render-mapping-ex-2.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex-2.png" />
+        </td>
+    </tr>
 </table>

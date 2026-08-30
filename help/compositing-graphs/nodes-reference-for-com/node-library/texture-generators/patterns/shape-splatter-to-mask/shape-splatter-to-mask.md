@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-to-mask.html"
 breadcrumb-title: ''
 description: Utilice el nodo Dispersión de forma a máscara para convertir patrones de salpicaduras de formas en máscaras para la fusión de materiales y efectos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dispersión de forma a máscara
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 4%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-to-mask.png){width="128px"}
+![](shape-splatter-to-mask.resources/shape-splatter-to-mask.png){width="128px"}
 
-## Dispersión de forma a máscara
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Intermedio**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Convierte los datos de [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) en una máscara en blanco y negro basada en el identificador de motivo. Permite, por ejemplo, crear una máscara de un solo tipo determinado de patrón. Dispone de opciones adicionales para seleccionar un rango de ID de motivo y ocultar aleatoriamente algunas formas.
 
-## Parámetros
-
-### Parámetros
-
-* **Intervalo de inicio de id. de patrón**: *1 - 8* Establecer el primer Id. de motivo en el intervalo para seleccionarlo.
-* **Intervalo de fin de id. de patrón**: *1 - 8* Establecer el último Id. de patrón en el intervalo para seleccionarlo.
-* **Máscara aleatoria**: *0.0 - 1.0* Establecer una proporción de patrones para enmascarar aleatoriamente.
-* **Salida**: *Máscara binaria, Máscara de enteros, Valores de escala de grises* Determine el tipo de valores de salida. Máscara binaria devuelve solo blanco y negro, valores de 0 o 1, Máscara de enteros codificará valores más altos hasta 8 para cada patrón en formato HDR, Valores de escala de grises se extenderá el rango proporcionalmente entre 0 y 1.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Intervalo de inicio de id. de patrón</b> <i>1 - 8</i> | Defina el primer ID de motivo en el rango que desea seleccionar. |
+| <b>Intervalo de fin de id. de patrón</b> <i>1 - 8</i> | Defina el último ID de patrón del rango que desea seleccionar. |
+| <b>Máscara aleatoria</b> <i>0.0 - 1.0</i> | Defina la proporción de motivos para enmascarar aleatoriamente. |
+| <b>Salida</b> <i>Máscara binaria, Máscara de enteros, Valores de escala de grises</i> | Determinar el tipo de valores de salida. Máscara binaria devuelve solo blanco y negro, valores de 0 o 1, Máscara de enteros codificará valores más altos hasta 8 para cada patrón en formato HDR, Valores de escala de grises se extenderá el rango proporcionalmente entre 0 y 1. |

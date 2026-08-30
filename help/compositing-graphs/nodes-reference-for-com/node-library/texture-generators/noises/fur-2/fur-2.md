@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
 breadcrumb-title: ''
 description: Usa el nodo Piel 2 para crear texturas de piel con controles mejorados para simular el pelo y los materiales fibrosos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Piel 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 9%
 
 ---
 
@@ -22,38 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-2.png){width="128px"}
+![](fur-2.resources/fur-2.png){width="128px"}
 
-## Piel 2
-
-**En:** *Generadores De Texturas**/Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de texturas > Ruidos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Esto genera un tipo de ruido ondulado parecido al de un pelo.
 
-## Parámetros
-
-* **Escala**: *1 - 8*\
-  Establece la escala global del efecto.
-* Escala de **ondas**: *0.0 - 1.0*\
-  Modifica la escala de las ondas, más grande significa menos repeticiones.
-* Rotación de **ondas**: *0.0 - 1.0*\
-  Gira más las olas. Este valor probablemente debería mantenerse bajo, ya que los resultados pueden ser extremos.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/fur-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Escala</b> <i>1 - 8</i> | Establece la escala global del efecto. |
+| Escala de <b>ondas</b> <i>0.0 - 1.0</i> | Modifica la escala de las ondas, más grande significa menos repeticiones. |
+| Rotación de <b>ondas</b> <i>0.0 - 1.0</i> | Gira más las olas. Este valor probablemente debería mantenerse bajo, ya que los resultados pueden ser extremos. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fur-2.resources/fur-2-ex.gif" />
+        </td>
+    </tr>
 </table>

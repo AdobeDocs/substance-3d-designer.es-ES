@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-014.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-014.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de Suciedades 014 para generar texturas de suciedades de procedimiento para añadir detalles de superficie y efectos de desgaste a los materiales.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mapa de suciedades 014
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 8%
 
 ---
 
@@ -22,37 +22,41 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-014.png){width="128px"}
+![](grunge-map-014.resources/grungemap-014.png){width="128px"}
 
-## Mapa de suciedades 014
-
-**En:** *Generadores De Texturas**/Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Esto genera un mapa de ruido complejo y combinado. Puede ser muy útil como procedimiento detallado, pero tenga en cuenta que estos son muy intensivos en rendimiento y, por lo tanto, más lentos de generar.
 
-## Parámetros
-
-* **Saldo**: *0.0 - 1.0*
-* **Contraste**: *0.0 - 1.0*
-* **Invertir**: *Falso/Verdadero*
-* **Patrón de pincel**: *0.0 - 1.0*\
-  Añade una máscara alrededor de los bordes para cuando se usa como pincel alfa.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/grungemap-014-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>0.0 - 1.0</i> |  |
+| <b>Contraste</b> <i>0.0 - 1.0</i> |  |
+| <b>Invertir</b> <i>Falso/Verdadero</i> |  |
+| <b>Patrón de pincel</b> <i>0.0 - 1.0</i> | Añade una máscara alrededor de los bordes para cuando se usa como pincel alfa. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-map-014.resources/grungemap-014-ex.gif" />
+        </td>
+    </tr>
 </table>

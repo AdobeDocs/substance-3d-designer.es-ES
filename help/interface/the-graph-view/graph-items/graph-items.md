@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
-description: Obtenga más información sobre los elementos de gráfica en Substance 3D Designer, incluidos marcos, comentarios, ubicaciones y nodos de portal para organizar gráficas.
+description: Obtenga más información sobre los elementos de gráfica en Substance 3D Designer, incluidos los marcos, comentarios, pin y nodos de portal para organizarlos.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elementos de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ Los elementos de gráficos son objetos especiales que le ayudan a organizar sus 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icono de nodo de punto](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Icono de nodo de punto](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Nodo de punto (también Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Icono de fotograma](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![Icono de Marco](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Marco
 
@@ -60,14 +60,14 @@ Agrupe nodos con etiquetas y códigos de color y, a continuación, muévalos fá
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icono de comentario](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![Icono de comentario](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Comentario
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Icono de borde de navegación](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Icono de borde de navegación](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Pin
 

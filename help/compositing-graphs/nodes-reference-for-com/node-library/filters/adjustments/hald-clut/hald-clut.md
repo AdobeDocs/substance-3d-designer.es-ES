@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
 breadcrumb-title: ''
 description: Utilice el nodo Hald CLUT para aplicar tablas de consulta de color utilizando el formato Hald CLUT para la gradación y corrección de color.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Hald CLUT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '90'
 ht-degree: 4%
 
 ---
@@ -22,37 +22,46 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hald-clut.png){width="128px"}
+![](hald-clut.resources/hald-clut.png){width="128px"}
 
-## Hald CLUT
-
-**En:** *Filtros/Ajustes*
-
-**Intermedio**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Aplica una LUT a la imagen de entrada. La LUT debe estar en formato Hald con resolución 4096\*4096. Vea <http://www.quelsolaar.com/technology/clut.html> para obtener más información.
 
-### Entradas
+</td>
+</tr>
+</table>
 
-* **entrada**: *Entrada de color*\
-  Imagen en la que se aplica la LUT.
-* **lut**: *Entrada de color* Ranura de entrada Lut. Debe ser 4096x4096.
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>entrada</b> <i>Entrada de color</i> | Imagen en la que se aplica la LUT. |
+| <b>lut</b> <i>Entrada de color</i> | Ranura de entrada Lut. Debe ser 4096x4096. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-* **Intensidad LUT del Alpha**: *Falso/Verdadero* Define si el efecto LUT está ponderado por el canal alfa.
+|  |  |
+|:---|:---|
+| <b>Intensidad LUT del Alpha</b> <i>Falso/Verdadero</i> | Define si el efecto LUT está ponderado por el canal alfa. |
 
-Ejemplos
+## Ejemplos
 
-![](../../../../../../assets/content-hald-clut.jpg)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="hald-clut.resources/content-hald-clut.jpg" />
+        </td>
+    </tr>
 </table>

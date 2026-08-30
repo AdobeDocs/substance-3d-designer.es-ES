@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Utilice la vista 2D de Substance 3D Designer para previsualizar e inspeccionar las salidas de textura de los gráficos de materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vista 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página describe la interfaz de usuario y las características del panel **Vista 2D** en Substance 3D Designer.
 
-![Vista 2D](../../assets/2d-view-main.png "Vista 2D")
+![Vista 2D](2d-view.resources/2d-view-main.png "Vista 2D")
 
 ## Información general
 
@@ -34,7 +34,7 @@ La [vista 2D](https://substance3d.adobe.com/) es uno de los paneles principales 
 * controlando parámetros de *gizmos*
 
 Cuando se modifica una imagen o un valor mostrados, la vista 2D *se actualiza automáticamente* para estar sincronizada con el estado actual de los datos.\
-*Varios* paneles de vista 2D pueden estar activos en cualquier momento, y cada uno puede mostrar diferentes imágenes o valores. Puede controlar cuándo se debe utilizar un nuevo panel mediante la función ![](../../assets/2d-view-icon-pin.png) <b>Pin</b> del panel de la interfaz de usuario.
+*Varios* paneles de vista 2D pueden estar activos en cualquier momento, y cada uno puede mostrar diferentes imágenes o valores. Puede controlar cuándo se debe utilizar un nuevo panel mediante la función ![](2d-view.resources/2d-view-icon-pin.png) <b>Pin</b> del panel de la interfaz de usuario.
 
 ### Visualización de contenido en la vista 2D
 
@@ -66,14 +66,14 @@ La ventana gráfica es el *área de visualización* de la <b>vista en 2D</b> y t
 
 * <b>Panorámica:</b> Ctrl+RMB/MMB
 * <b>Zoom:</b> Alt+RMB / MouseWheel / herramienta &quot;Mostrar escala&quot;:\
-  ![](../../assets/2d-view-icon-zoom.png)
-* <b>Ajustar para ajustar a la ventana gráfica:</b> F / botón &#39;Ajustar a la vista&#39; ![](../../assets/2d-view-icon-fit-to-view.png)
-* <b>Ajustar a escala 1:1:</b> Z / botón &#39;Ajustar a escala&#39; ![](../../assets/2d-view-icon-fit-to-scale.png)
+  ![](2d-view.resources/2d-view-icon-zoom.png)
+* <b>Ajustar para ajustar a la ventana gráfica:</b> F / botón &#39;Ajustar a la vista&#39; ![](2d-view.resources/2d-view-icon-fit-to-view.png)
+* <b>Ajustar a escala 1:1:</b> Z / botón &#39;Ajustar a escala&#39; ![](2d-view.resources/2d-view-icon-fit-to-scale.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Navegación de ventanilla de vista en 2D](../../assets/2d-view-viewport-navigation.gif "Navegación de ventanilla de vista en 2D")
+![Navegación de ventanilla de vista en 2D](2d-view.resources/2d-view-viewport-navigation.gif "Navegación de ventanilla de vista en 2D")
 
 </td>
 </tr>
@@ -107,43 +107,43 @@ La imagen nativa *resolución*, *formato de color* y *profundidad de bits* apare
 
 Además de la navegación, la ventana gráfica ofrece las siguientes funciones:
 
-* Pantalla en mosaico: *repite la imagen* en la ventana gráfica en un patrón en mosaico. Esto resulta útil para comprobar cómo se repetirá un patrón o una textura. Se habilita mediante el botón **Barra espaciadora** o ![](../../assets/2d-view-icon-tiling.png) **Pantalla en mosaico**
-* Visualización del tamaño físico: Muestra la imagen con una *proporción* que coincide con la propiedad [Tamaño físico](../../compositing-graphs/graph-parameters/graph-parameters.md) del gráfico. Está habilitada usando el botón ![](../../assets/2d-view-icon-physical-size.png) **proporción de Tamaño físico**
-* Mantener tamaño de vista: Esta opción *bloquea la escala de visualización* para que sea coherente en todas las imágenes. Está *habilitado de forma predeterminada* y se puede deshabilitar usando el botón ![](../../assets/2d-view-icon-lock-scale.png) **Mantener tamaño de vista**
+* Pantalla en mosaico: *repite la imagen* en la ventana gráfica en un patrón en mosaico. Esto resulta útil para comprobar cómo se repetirá un patrón o una textura. Se habilita mediante el botón **Barra espaciadora** o ![](2d-view.resources/2d-view-icon-tiling.png) **Pantalla en mosaico**
+* Visualización del tamaño físico: Muestra la imagen con una *proporción* que coincide con la propiedad [Tamaño físico](../../compositing-graphs/graph-parameters/graph-parameters.md) del gráfico. Está habilitada usando el botón ![](2d-view.resources/2d-view-icon-physical-size.png) **proporción de Tamaño físico**
+* Mantener tamaño de vista: Esta opción *bloquea la escala de visualización* para que sea coherente en todas las imágenes. Está *habilitado de forma predeterminada* y se puede deshabilitar usando el botón ![](2d-view.resources/2d-view-icon-lock-scale.png) **Mantener tamaño de vista**
 
 ## Barra de herramientas principal
 
 La barra de herramientas principal del panel <b>Vista 2D</b> te permite hacer más cosas con las imágenes que se muestran y ofrece las siguientes funciones:
 
 +++Imagen de fondo
-![Imagen de fondo de vista 2D](../../assets/2d-view-background.png "Imagen de fondo de vista 2D"){width="360px"}
+![Imagen de fondo de vista 2D](2d-view.resources/2d-view-background.png "Imagen de fondo de vista 2D"){width="360px"}
 
 
 
-Puedes *superponer una imagen diferente* encima de la que se muestra actualmente. Pulsa el botón ![](../../assets/2d-view-icon-background.png) <b>Imagen de fondo</b> y se te pedirá que selecciones un archivo de imagen para usarlo como superposición.
+Puedes *superponer una imagen diferente* encima de la que se muestra actualmente. Pulsa el botón ![](2d-view.resources/2d-view-icon-background.png) <b>Imagen de fondo</b> y se te pedirá que selecciones un archivo de imagen para usarlo como superposición.
 
 Una vez seleccionado el archivo, aparece una nueva barra de herramientas con los siguientes controles para la imagen superpuesta:
 
-<b>![](../../assets/2d-view-icon-background-close.png) Cerrar:</b> *cierra* la barra de herramientas de controles de superposición y *deshabilita* la superposición de imagen de fondo.
+<b>![](2d-view.resources/2d-view-icon-background-close.png) Cerrar:</b> *cierra* la barra de herramientas de controles de superposición y *deshabilita* la superposición de imagen de fondo.
 
-<b>![](../../assets/2d-view-icon-background-loadpng.png) Cargar imagen:</b> selecciona *otro archivo de imagen* para usarlo como superposición.
+<b>![](2d-view.resources/2d-view-icon-background-loadpng.png) Cargar imagen:</b> selecciona *otro archivo de imagen* para usarlo como superposición.
 
-<b>![](../../assets/2d-view-icon-background-0.png) Imagen de origen:</b> establece la imagen superpuesta en la opacidad del *0%*.
+<b>![](2d-view.resources/2d-view-icon-background-0.png) Imagen de origen:</b> establece la imagen superpuesta en la opacidad del *0%*.
 
-<b>![](../../assets/2d-view-icon-background-100.png) Imagen de fondo:</b> establece la imagen superpuesta en la opacidad *100%*.
+<b>![](2d-view.resources/2d-view-icon-background-100.png) Imagen de fondo:</b> establece la imagen superpuesta en la opacidad *100%*.
 
-<b>![](../../assets/2d-view-icon-background-50.png) Restablecer:</b> establece la imagen superpuesta en la opacidad del *50%*.
+<b>![](2d-view.resources/2d-view-icon-background-50.png) Restablecer:</b> establece la imagen superpuesta en la opacidad del *50%*.
 
 Un regulador te da *control manual* sobre la opacidad de la imagen superpuesta.
 
 +++
 
 +++Exportar imagen
-![Imagen de exportación de vista 2D](../../assets/2d-view-export-bitmap.png "Imagen de exportación de vista 2D"){width="360px"}
+![Imagen de exportación de vista 2D](2d-view.resources/2d-view-export-bitmap.png "Imagen de exportación de vista 2D"){width="360px"}
 
 
 
-La imagen mostrada actualmente se puede *exportar a un archivo de imagen*. Presione ![](../../assets/2d-view-icon-export.png) <b>Guardar imagen...</b> y se le pedirá que seleccione una *ubicación*, *nombre* y *formato de archivo* para el archivo exportado.
+La imagen mostrada actualmente se puede *exportar a un archivo de imagen*. Presione ![](2d-view.resources/2d-view-icon-export.png) <b>Guardar imagen...</b> y se le pedirá que seleccione una *ubicación*, *nombre* y *formato de archivo* para el archivo exportado.
 
 Aunque la imagen se exportará con su *resolución nativa*, que se muestra en el área inferior izquierda de la ventana gráfica, la *profundidad de bits* y el *formato de color* dependerán del formato de imagen *seleccionado.* Por ejemplo, las imágenes de precisión de punto flotante de 32 bits solo se pueden exportar en su rango de datos completo con formatos de imagen que admitan esta precisión, como TIFF, EXR y HDR. Si el formato de imagen no admite los datos, es probable que se produzcan abrazaderas o bandas de color en la imagen exportada.\
 En general, tenga en cuenta qué precisión y funciones ofrecen los formatos de imagen que pretende utilizar: compatibilidad con coma flotante, perfiles ICC, etc.
@@ -153,37 +153,37 @@ Si <b>OCIO</b> o <b>Adobe ACE</b> [el modo de administración de color](../../co
 +++
 
 +++Copiar en el portapapeles
-![Copia de vista 2D al portapapeles](../../assets/2d-view-copy-clipboard.gif "Copia de vista 2D al portapapeles"){width="360px"}
+![Copia de vista 2D al portapapeles](2d-view.resources/2d-view-copy-clipboard.gif "Copia de vista 2D al portapapeles"){width="360px"}
 
 
 
-La imagen mostrada actualmente se puede *copiar en el portapapeles*. Pulsa el botón ![](../../assets/2d-view-icon-copy.png) <b>Copiar imagen en el portapapeles</b> y la imagen estará lista para pegarse en cualquier software de terceros, como Adobe Photoshop.
+La imagen mostrada actualmente se puede *copiar en el portapapeles*. Pulsa el botón ![](2d-view.resources/2d-view-icon-copy.png) <b>Copiar imagen en el portapapeles</b> y la imagen estará lista para pegarse en cualquier software de terceros, como Adobe Photoshop.
 
 La imagen se copiará como una imagen de precisión de *8 bits* con su *resolución nativa*, que se muestra en el área inferior izquierda de la ventana gráfica.
 
 +++
 
 +++Salidas de gráficos de conmutación
-![Salidas del gráfico del conmutador de vista 2D](../../assets/2d-view-switch-graph-outputs.gif "Salidas del gráfico del conmutador de vista 2D"){width="360px"}
+![Salidas del gráfico del conmutador de vista 2D](2d-view.resources/2d-view-switch-graph-outputs.gif "Salidas del gráfico del conmutador de vista 2D"){width="360px"}
 
 
 
-Si la imagen que se muestra actualmente es una *salida de gráfico*, puedes *cambiar rápidamente a cualquier* salida de gráfico mediante el botón ![](../../assets/2d-view-icon-view-outputs.png) <b>Seleccionar salida</b>.
+Si la imagen que se muestra actualmente es una *salida de gráfico*, puedes *cambiar rápidamente a cualquier* salida de gráfico mediante el botón ![](2d-view.resources/2d-view-icon-view-outputs.png) <b>Seleccionar salida</b>.
 
 Esta característica *no* está disponible para otros nodos, incluidos los nodos que tienen más de un resultado.
 
 +++
 
 +++Superposición UV
-![Superposición UV de vista 2D](../../assets/2d-view-uv.png "Superposición UV de vista 2D"){width="357px"}
+![Superposición UV de vista 2D](2d-view.resources/2d-view-uv.png "Superposición UV de vista 2D"){width="357px"}
 
 
 
-Si la opción <b>Mostrar UV en vista 2D</b> está habilitada en el menú <b>Escena</b> del conjunto acoplado de [vista 3D](../../interface/3d-view/3d-view.md), la función de superposición UV está disponible en la vista 2D.
+Si la opción <b>Mostrar UV en vista 2D</b> está habilitada en el menú <b>Escena</b> del dock [Vista 3D](../../interface/3d-view/3d-view.md), la característica de superposición UV está disponible en la vista 2D.
 
-Puede habilitarlo mediante el botón <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
+Puede habilitarlo mediante el botón <b>UV</b>. ![](2d-view.resources/2d-view-icon-uv.png)
 
-Esto muestra las UV de la malla [&#x200B; seleccionada actualmente en la vista 3D](../../interface/3d-view/3d-view.md) como una malla metálica de color.
+Esto muestra las UV de la malla [ seleccionada actualmente en el Vista 3D ](../../interface/3d-view/3d-view.md) como una malla metálica de color.
 
 Si la información de color de material está disponible en el archivo de malla, el color de material se utiliza como color de la superposición UV.
 
@@ -192,11 +192,11 @@ Si la malla tiene <b>varios conjuntos UV</b>, se pueden seleccionar los UV desea
 +++
 
 +++Información de imagen
-![Información de imagen de vista 2D](../../assets/2d-view-information.png "Información de imagen de vista 2D"){width="360px"}
+![Información de imagen de vista 2D](2d-view.resources/2d-view-information.png "Información de imagen de vista 2D"){width="360px"}
 
 
 
-Puede mostrar los *valores de píxeles exactos* *y las coordenadas* en una imagen con el panel <b>Información</b>, que está habilitado mediante el botón ![](../../assets/2d-view-icon-information.png) <b>Información de la imagen</b>. Esto resulta muy útil al inspeccionar imágenes HDR, por ejemplo, o para asegurarse de que el paso entre píxeles sigue la progresión deseada.
+Puede mostrar los *valores de píxeles exactos* *y las coordenadas* en una imagen con el panel <b>Información</b>, que está habilitado mediante el botón ![](2d-view.resources/2d-view-icon-information.png) <b>Información de la imagen</b>. Esto resulta muy útil al inspeccionar imágenes HDR, por ejemplo, o para asegurarse de que el paso entre píxeles sigue la progresión deseada.
 
 Los colores están representados por los valores <b>RGBA</b> y <b>HSV</b>, y se muestran según la *precisión* de la imagen, de la siguiente manera:
 
@@ -213,11 +213,11 @@ Las coordenadas de píxeles están representadas por los valores <b>X</b> e <b>Y
 +++
 
 +++Histograma
-![histograma de vista 2D](../../assets/2d-view-histogram.png "histograma de vista 2D"){width="360px"}
+![histograma de vista 2D](2d-view.resources/2d-view-histogram.png "histograma de vista 2D"){width="360px"}
 
 
 
-Puede mostrar el *histograma* de la imagen con el panel <b>Histograma</b>, que está habilitado mediante el botón ![](../../assets/2d-view-icon-histogram.png) <b>Mostrar histograma</b>.
+Puede mostrar el *histograma* de la imagen con el panel <b>Histograma</b>, que está habilitado mediante el botón ![](2d-view.resources/2d-view-icon-histogram.png) <b>Mostrar histograma</b>.
 
 Están disponibles los siguientes *modos de histograma*:
 
@@ -273,11 +273,11 @@ La sección *más a la izquierda* incluye controles para *color* y *transparenci
 >
 > La barra de herramientas se puede *recolocar* alrededor del panel **Vista en 2D** usando el *controlador* más a la izquierda representado por tres líneas paralelas.
 
-![Canales de color de vista 2D](../../assets/2d-view-color-channel.png "Canales de color de vista 2D"){width="360px"}
+![Canales de color de vista 2D](2d-view.resources/2d-view-color-channel.png "Canales de color de vista 2D"){width="360px"}
 
 ### Canales de color
 
-Puede mostrar un solo canal de la imagen mediante el botón ![](../../assets/2d-view-icon-channels.png) <b>Canales de color</b>. Se abre un cuadro combinado que permite seleccionar los canales <b>Rojo</b>, <b>Verde</b>, <b>Azul</b> y <b>Alpha</b> que se deben mostrar. El aspecto normal de la imagen con todos los canales se restaura seleccionando la opción <b>RGB</b>.
+Puede mostrar un solo canal de la imagen mediante el botón ![](2d-view.resources/2d-view-icon-channels.png) <b>Canales de color</b>. Se abre un cuadro combinado que permite seleccionar los canales <b>Rojo</b>, <b>Verde</b>, <b>Azul</b> y <b>Alpha</b> que se deben mostrar. El aspecto normal de la imagen con todos los canales se restaura seleccionando la opción <b>RGB</b>.
 
 Se pueden usar los siguientes *métodos abreviados de teclado* para cambiar rápidamente a canales de color diferentes:
 
@@ -295,27 +295,27 @@ El *icono* del botón <b>Canales de color</b> *cambia* dependiendo de los canale
 > 
 > Dado que el panel necesita foco, estos métodos abreviados *no interfieren* con ningún *método abreviado personalizado* que hayas establecido para crear nodos en el gráfico. Obtén más información sobre esta función [aquí](../../interface/preferences-window/preferences-window.md).
 
-![conmutador de transparencia de vista 2D](../../assets/2d-view-transparency.png "conmutador de transparencia de vista 2D"){width="360px"}
+![conmutador de transparencia de vista 2D](2d-view.resources/2d-view-transparency.png "conmutador de transparencia de vista 2D"){width="360px"}
 
 ### Alternar Transparencia
 
-La visualización de transparencias se puede activar y desactivar mediante el botón ![](../../assets/2d-view-icon-transparency-off.png)/![](../../assets/2d-view-icon-transparency-on.png) <b>Mostrar tablero de ajedrez</b>. Cuando esta opción está activada, la transparencia se muestra mediante un patrón de tablero de ajedrez.
+La visualización de transparencias se puede activar y desactivar mediante el botón ![](2d-view.resources/2d-view-icon-transparency-off.png)/![](2d-view.resources/2d-view-icon-transparency-on.png) <b>Mostrar tablero de ajedrez</b>. Cuando esta opción está activada, la transparencia se muestra mediante un patrón de tablero de ajedrez.
 
-Hay dos formas principales de interpretar la transparencia, que se pueden seleccionar mediante el botón ![](../../assets/2d-view-icon-transparency-straight.png)/![](../../assets/3d-view-icon-transparency-premultiplied.png) <b>Modo de transparencia</b>:
+Hay dos formas principales de interpretar la transparencia, que se pueden seleccionar mediante el botón ![](2d-view.resources/2d-view-icon-transparency-straight.png)/![](2d-view.resources/3d-view-icon-transparency-premultiplied.png) <b>Modo de transparencia</b>:
 
-<b>![](../../assets/2d-view-icon-transparency-straight.png) Recto:</b> la información de transparencia solo se almacena en el canal alfa y no afecta a ningún otro aspecto de la imagen
+<b>![](2d-view.resources/2d-view-icon-transparency-straight.png) Recto:</b> la información de transparencia solo se almacena en el canal alfa y no afecta a ningún otro aspecto de la imagen
 
-<b>![](../../assets/3d-view-icon-transparency-premultiplied.png) Premultiplicado:</b> la información de transparencia se almacena en el canal alfa y también afecta a los canales RGB, ya que se multiplican de forma efectiva en el canal alfa
+<b>![](2d-view.resources/3d-view-icon-transparency-premultiplied.png) Premultiplicado:</b> la información de transparencia se almacena en el canal alfa y también afecta a los canales RGB, ya que se multiplican de forma efectiva en el canal alfa
 
-Para mostrar *colores correctos*, debe seleccionarse el modo de transparencia apropiado en el panel <b>Vista 2D</b> para que coincida con el método de transparencia que se aplicó cuando se *creó* la imagen.
+Para mostrar *colores correctos*, debe seleccionarse el modo de transparencia apropiado en el panel <b>vista 2D</b> para que coincida con el método de transparencia que se aplicó cuando se *creó* la imagen.
 
-![Espacio de color de vista 2D](../../assets/2d-view-viewport-color-space.png "Espacio de color de vista 2D"){width="360px"}
+![Espacio de color de vista 2D](2d-view.resources/2d-view-viewport-color-space.png "Espacio de color de vista 2D"){width="360px"}
 
 ### Espacio de color
 
 Para obtener la representación más precisa del color, las imágenes se muestran de forma predeterminada en un *espacio de color* que coincide con el utilizado por el *monitor*.
 
-Los controles disponibles y el efecto del botón ![](../../assets/2d-view-icon-color-space.png)/![](../../assets/2d-view-icon-color-space-linear.png) <b>Espacio de color</b> dependerán del [Modo de administración de color](../../color-management/color-management.md) establecido en la [configuración del proyecto](../../interface/preferences-window/project-settings/project-settings.md). Obtenga más información sobre estos controles en la sección Administración de color de esta página.
+Los controles disponibles y el efecto del botón ![](2d-view.resources/2d-view-icon-color-space.png)/![](2d-view.resources/2d-view-icon-color-space-linear.png) <b>Espacio de color</b> dependerán del [Modo de administración de color](../../color-management/color-management.md) establecido en la [configuración del proyecto](../../interface/preferences-window/project-settings/project-settings.md). Obtenga más información sobre estos controles en la sección Administración de color de esta página.
 
 <table>
 <tr style="border: 0;">
@@ -335,7 +335,7 @@ Las <b>herramientas de pintura de mapas de bits</b> están disponibles para [rec
 </td>
 <td style="border: 0;" valign="top">
 
-![Herramientas de pintura de mapa de bits de vista 2D](../../assets/2dview-paintingtools-main.png "Herramientas de pintura de mapa de bits de vista 2D")
+![Herramientas de pintura de mapa de bits de vista 2D](2d-view.resources/2dview-paintingtools-main.png "Herramientas de pintura de mapa de bits de vista 2D")
 
 </td>
 </tr>
@@ -360,7 +360,7 @@ El <b>Editor de gráficos vectoriales</b> está disponible para *recursos de [SV
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de gráficos vectoriales de vista 2D](../../assets/2dview-vectorediting-main.png "Editor de gráficos vectoriales de vista 2D")
+![Editor de gráficos vectoriales de vista 2D](2d-view.resources/2dview-vectorediting-main.png "Editor de gráficos vectoriales de vista 2D")
 
 </td>
 </tr>
@@ -370,7 +370,7 @@ El <b>Editor de gráficos vectoriales</b> está disponible para *recursos de [SV
 >
 > Puede obtener más información en la página [Herramientas de edición de vectores](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (obsoletas) de la documentación.
 
-![Administración de color de vista 2D](../../assets/2d-view-color-management-ocio.png "Administración de color de vista 2D"){width="360px"}
+![Administración de color de vista 2D](2d-view.resources/2d-view-color-management-ocio.png "Administración de color de vista 2D"){width="360px"}
 
 ## Gestión de colores
 
@@ -378,13 +378,13 @@ La <b>vista 2D</b> ofrece controles sencillos de *administración del color* par
 
 Estos controles se adaptarán al [modo de administración de color](../../color-management/color-management.md) actual establecido en la [configuración del proyecto](../../interface/preferences-window/project-settings/project-settings.md), de la siguiente manera:
 
-* <b>Heredado:</b> se puede disp.lay la imagen en los espacios de color sRGB ![](../../assets/2d-view-icon-color-space.png) o sRGB lineal ![](../../assets/2d-view-icon-color-space-linear.png);
-* <b>ACE de Adobe:</b> puede ![](../../assets/2d-view-icon-color-space.png)habilitar *la administración de color y establecer el espacio de color más apropiado para el* monitor actual *según lo detectado por el motor ACE de Adobe, o ![](../../assets/2d-view-icon-color-space-linear.png)* deshabilitar *la administración de color y mostrar la imagen usando los valores de color RAW;*
-* <b>OCIO:</b> puedes ![](../../assets/2d-view-icon-color-space.png) *habilitar* la administración de color y establecer la más adecuada para el *monitor actual* según lo detecte el motor OCIO, usar el cuadro combinado y seleccionar cualquiera de los *espacios de color de visualización* disponibles en el [archivo de configuración OCIO](../../color-management/color-management.md) que se usa actualmente, o ![](../../assets/2d-view-icon-color-space-linear.png)deshabilitar *la administración de color y mostrar la imagen usando los valores de color Raw.*
+* <b>Heredado:</b> se puede disp.lay la imagen en los espacios de color sRGB ![](2d-view.resources/2d-view-icon-color-space.png) o sRGB lineal ![](2d-view.resources/2d-view-icon-color-space-linear.png);
+* <b>ACE de Adobe:</b> puedes *habilitar* la administración de color y establecer el espacio de color más apropiado para el *monitor actual* según lo detectado por el motor de ACE de Adobe, o ![](2d-view.resources/2d-view-icon-color-space-linear.png) *deshabilitar* la administración de color y mostrar la imagen usando los valores de color RAW;![](2d-view.resources/2d-view-icon-color-space.png)
+* <b>OCIO:</b> puede ![](2d-view.resources/2d-view-icon-color-space.png)habilitar *la administración de color y establecer la más adecuada para el* monitor actual *según lo detecte el motor de OCIO, usar el cuadro combinado y seleccionar cualquiera de los* espacios de color de visualización *disponibles en el [OCIO archivo de configuración](../../color-management/color-management.md) que se usa actualmente, o ![](2d-view.resources/2d-view-icon-color-space-linear.png)* deshabilitar *la administración de color y mostrar la imagen usando los valores de color Raw.*
 
 >[!WARNING]
 >
-> Ten en cuenta que estos controles *solo* afectan al *espacio de color de visualización*. El *espacio de color original* de las imágenes y el *espacio de color de trabajo* también deben tenerse en cuenta para garantizar que los colores se muestren correctamente en la **vista 2D**.
+> Ten en cuenta que estos controles *solo* afectan al *espacio de color de visualización*. El *espacio de color original* de las imágenes y el *espacio de color de trabajo* también deben tenerse en cuenta para garantizar que los colores se muestren correctamente en el **vista 2D**.
 
 >[!TIP]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
 breadcrumb-title: ''
 description: Utilice el nodo Dirt para generar máscaras de acumulación de dirt basadas en la curvatura, posición y oclusión de la malla.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Tierra
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 7%
 
 ---
 
@@ -22,57 +22,59 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt.png){width="128px"}
 
-## Tierra
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Intermedio**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) en [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esta máscara representa los dirtes en bordes y esquinas ocluidos y hundidos, en función del AO horneado y la curvatura.
-
-## Parámetros
-
-### Entradas
-
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras. ¡Obligatorio!
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras. ¡Obligatorio!
-* **Entrada de Suciedad**: *Entrada en escala de grises*\
-  Entrada de mapa de suciedad personalizada, opcional, activada por parámetro.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-* **Normal del Espacio Mundial**: *Entrada de color*\
-  Solo se usa para triplanar.
-* **Posición**: *Entrada de color*\
-  Solo se usa para triplanar.
-
-### Parámetros
-
-* **Nivel de Dirt**: *0.0 - 1.0* Control principal de la cantidad de dirt.
-* **Contraste de Dirt**: *0.0 - 1.0* Controla el contraste principal del dirt de la máscara.
-* **Cantidad de Suciedades**: *0.0 - 1.0* Establece qué grado de suciedad tiene el dirt. Ajuste a 0 para obtener un dirt perfectamente suave.
-* **Enmascaramiento de bordes**: *0.0 - 1.0* Cantidad de dirt que se debe quitar de los bordes elevados (según el mapa de curvatura).
-* **Usar Suciedad personalizada**: *Falso/Verdadero* Permite el uso de la entrada de mapa de suciedad personalizado en lugar de la Suciedad integrada.
-* **Escala de Suciedad**: *1 - 16* Define la escala de mosaico de los detalles de la Suciedad.
-* **Usar triplanar**: *Falso/Verdadero* Usa la [proyección triplanar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) para la asignación de Suciedades y elimina las costuras.
-* **Contraste de fusión triplanar**: *0.001 - 1.0* Establece el contraste de la proyección triplanar.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/dirt-ex.gif)
+Esta máscara representa dirtes en bordes y esquinas ocluidos y hundidos, en función de la AO y la curvatura hechas un bake.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. ¡Obligatorio! |
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. ¡Obligatorio! |
+| <b>Entrada de Suciedad</b> <i>Entrada en escala de grises</i> | Entrada de mapa de suciedad personalizada, opcional, activada por parámetro. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+| <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> | Solo se usa para triplanar. |
+| <b>Posición</b> <i>Entrada de color</i> | Solo se usa para triplanar. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Nivel de Dirt</b> <i>0.0 - 1.0</i> | Control principal de la cantidad de dirt. |
+| <b>Contraste de Dirt</b> <i>0.0 - 1.0</i> | Controla el contraste principal del dirt de la máscara. |
+| <b>Cantidad de Suciedades</b> <i>0.0 - 1.0</i> | Define qué grado de suciedad tiene el dirt. Ajuste a 0 para obtener un dirt perfectamente suave. |
+| <b>Enmascaramiento de bordes</b> <i>0.0 - 1.0</i> | Cantidad de dirt que se debe quitar de los bordes elevados (según el mapa de curvatura). |
+| <b>Usar Suciedad personalizada</b> <i>Falso/Verdadero</i> | Permite el uso de entradas de mapa de suciedad personalizadas en lugar de Suciedad integrada. |
+| <b>Escala de Suciedad</b> <i>1 - 16</i> | Establece la escala de mosaico de los detalles de Suciedad. |
+| <b>Usar triplanar</b> <i>Falso/Verdadero</i> | Usa la [proyección triplanar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) para la asignación de Suciedades y elimina las costuras. |
+| <b>Contraste de fusión triplanar</b> <i>0.001 - 1.0</i> | Define el contraste de la proyección triplanar. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dirt.resources/dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: Utilice el nodo Irradiancia RT para calcular la información de irradiancia en tiempo real a partir de la geometría para realizar cálculos de iluminación realistas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: RT Irradiancia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance.png){width="128px"}
 
-**En:** *Filtros/Efectos*
-
-**Complejo**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,37 +39,44 @@ Genera una irradiancia trazo de rayo en una entrada de mapa de height generada a
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>Entrada en escala de grises</i> | El height es la única entrada necesaria de la ranura de material. Sin él, el nodo no funcionará bien. |
+| <b>Emissive</b> <i>Entrada de color</i> | El emisivo debe estar en un formato en el que el negro puro no emite luz, cualquier otro valor de color emite luz. Alpha se omite. Se requiere una conexión a esta ranura o a la ranura Entorno para ver el resultado. |
+| <b>Entorno</b> <i>Entrada de color</i> | Entorno de iluminación HDR con el que calcular la irradiancia. Se requiere una conexión a esta ranura o a la ranura Emissive para ver el resultado. |
+
+<a name="parameters"></a>
+
 ## Parámetros
 
-### Entradas
+|  |  |
+|:---|:---|
+| <b>Escala de Height</b> <i>0.0 - 1.0</i> | Escalar para interpretar el height en. Afecta a todo el aspecto de la escena. |
+| <b>Calidad</b> <i>32 rayos, 64 rayos, 128 rayos</i> | Determina la calidad del resultado, pero también afecta al rendimiento. Menos rayos significa más ruido. |
+| <b>Rebotes de cálculo</b> <i>Falso/Verdadero</i> | Conmutar el cálculo de rebotes. Afecta a la calidad y velocidad. |
+| <b>Rotación de entorno</b> <i>0.0 - 1.0</i> | Rota el entorno. |
+| <b>Exposición del entorno (VE)</b> <i>-4.0 - 4.0</i> | El valor de exposición que se debe utilizar para el entorno afecta al brillo total del efecto. |
+| <b>Intensidad de emisión</b> <i>0.0 - 20.0</i> | El multiplicador para la entrada Emissive, afecta la intensidad de la irradiancia de la emisión. |
+| <b>Espacio de color del Emisivo</b> <i>sRGB, lineal</i> | Espacio de color utilizado para interpretar la entrada ensiva. |
+| <b>Sombras IBL en el Alpha de irradiancia sin procesar</b> <i>Falso/Verdadero</i> | Alternar entre añadir sombras a la |
+| <b>Emisivo LOD Bias</b> <i>-1.0 - 1.0</i> | Ajusta la calidad de la irradiancia del emisivo. Un valor más bajo significa más ruido. |
 
-* **Height:** *El Height de entrada de escala de grises* es la única entrada necesaria de la ranura del material. Sin él, el nodo no funcionará bien.
-* **Emisor:** La *entrada de color* Emisor debe tener un formato en el que el negro puro no emite luz, cualquier otro valor de color emite luz. Alpha se omite. Se requiere una conexión a esta ranura o a la ranura Entorno para ver el resultado.
-* **Entorno**: *Entrada de color*\
-  Entorno de iluminación HDR con el que calcular la irradiancia. Se requiere una conexión a esta ranura o a la ranura Emissive para ver el resultado.
+## Ejemplos
 
-### Parámetros
-
-* **Escala de Height**: *0.0 - 1.0*\
-  Escalar para interpretar el height en. Afecta a todo el aspecto de la escena.
-* **Calidad**: *32 rayos, 64 rayos, 128 rayos*\
-  Determina la calidad del resultado, pero también afecta al rendimiento. Menos rayos significa más ruido.
-* **Rebotes de cálculo**: *Falso/Verdadero*\
-  Conmutar el cálculo de rebotes. Afecta a la calidad y velocidad.
-* **Rotación de entorno**: *0.0 - 1.0*\
-  Rota el entorno.
-* **Exposición del entorno (VE)**: *-4.0 - 4.0*\
-  El valor de exposición que se debe utilizar para el entorno afecta al brillo total del efecto.
-* **Intensidad de emisión**: *0.0 - 20.0*\
-  El multiplicador para la entrada Emissive, afecta la intensidad de la irradiancia de la emisión.
-* **Espacio de color emisivo**: *sRGB, lineal*\
-  Espacio de color utilizado para interpretar la entrada ensiva.
-* **Sombras de IBL en el Alpha de irradiancia sin procesar**: *Falso/Verdadero*\
-  Alternar entre añadir sombras a la
-* **Compensación LOD emisiva**: *-1.0 - 1.0* Ajuste de la calidad de la irradiancia emisiva. Un valor más bajo significa más ruido.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/rt-irr-03-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/rt-irr-01-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/rt-irr-02-1.jpg" width="300px"/></div> |
-| --- | --- | --- |
-|  |  |  |
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irr-03-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irr-01-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irr-02-1.jpg" />
+        </td>
+    </tr>
+</table>

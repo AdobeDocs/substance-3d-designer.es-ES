@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
 breadcrumb-title: ''
 description: Utilice el nodo Desgaste de pintura para generar máscaras de desgaste de pintura basadas en la geometría de malla para crear efectos realistas de recorte de pintura.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desgaste de pintura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/paint-wear.png){width="128px"}
+![](paint-wear.resources/paint-wear.png){width="128px"}
 
-## Desgaste de pintura
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Intermedio**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,34 +37,40 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Esta máscara representa el desgaste de la pintura y el desgaste en los bordes.
 
-## Parámetros
-
-### Entradas
-
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Máscara de variación**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Nivel**: *0.0 - 1.0*\
-  Define la cantidad total de desgaste de la pintura, revelando gradualmente.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
-* **Oclusión**: *0.0 - 1.0* Define la cantidad de efecto que tiene el AO horneado en la prevención del desgaste en áreas más oscuras.
-* **Radio**: *0.0 - 2.0* Establece hasta dónde se extiende el efecto de recorte desde los bordes convexos.
-* **Variación**: *0.0 - 1.0* Establezca la cantidad de variación (suciedad) que se mezclará en el efecto.
-* **Omitir máscara de variación**: *Falso/Verdadero* Habilita la ranura de entrada de mapa de variación personalizada (suciedad).
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/paint-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Máscara de variación</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Define la cantidad total de desgaste de la pintura, revelando gradualmente. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
+| <b>Oclusión</b> <i>0.0 - 1.0</i> | Define la cantidad de efecto que tiene el AO hecho un bake en la prevención del desgaste en áreas más oscuras. |
+| <b>Radio</b> <i>0.0 - 2.0</i> | Define hasta dónde se extiende el efecto de recorte desde los bordes convexos. |
+| <b>Variación</b> <i>0.0 - 1.0</i> | Defina la cantidad de variación (suciedad) que se fusionará en el efecto. |
+| <b>Omitir máscara de variación</b> <i>Falso/Verdadero</i> | Habilita la ranura de entrada de mapa de variación personalizada (suciedad). |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="paint-wear.resources/paint-wear-ex.gif" />
+        </td>
+    </tr>
 </table>

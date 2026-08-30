@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-12-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-3.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 12.3 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -24,49 +24,49 @@ ht-degree: 0%
 
 Fecha de publicación: *6 de octubre de 2022*
 
-![](../../assets/largef.png){width="1111px"}
+![](version-12-3.resources/largef.png){width="1111px"}
 
 ## Funciones principales
 
 ### Compatibilidad de instancias de gráficos en gráficos de modelos de Substance
 
 Si está acostumbrado a crear gráficas, desea poder crear subgráficos (o instancias de gráficas) para reutilizar su trabajo, hacerlo menos recargado y ser más eficiente.\
-Esto también es posible para los modelos de gráfica de Substance: Solo tienes que arrastrar y soltar el subgráfico desde el Explorador al gráfico principal para utilizarlo como nodo de instancia.
+Esto también es posible ahora para los gráficos de modelos de Substance: Solo tienes que arrastrar y soltar el subgráfico desde el Explorador al gráfico principal para utilizarlo como nodo de instancia.
 
-![](../../assets/subgraph.gif){width="600px"}
+![](version-12-3.resources/subgraph.gif){width="600px"}
 
-También hemos introducido el concepto de nodos de salida para los Substance de modelos, como el escenario de salida. Ahora tiene la posibilidad de tener una o más salidas en el gráfico.\
+También hemos introducido el concepto de nodos de salida para gráficos de modelos de Substance, como la escena de salida. Ahora tiene la posibilidad de tener una o más salidas en el gráfico.\
 Cada salida corresponderá a un pin de salida cuando el gráfico se instancie en otro gráfico.
 
-![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
+![](version-12-3.resources/image2022-10-4-15-31-27.png){width="600px"}
 
 Al pulsar con el botón derecho del ratón en un nodo de instancia, se puede acceder a su subgráfico de referencia para visualizarlo o editarlo.
 
-![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
+![](version-12-3.resources/image2022-10-4-16-28-36.png){width="600px"}
 
 Gracias a los subgráficos y parámetros expuestos, puede crear recursos complejos y aplicar variaciones infinitas, como se muestra en la ilustración siguiente.
 
-![](../../assets/seasons.gif){width="600px"}
+![](version-12-3.resources/seasons.gif){width="600px"}
 
 ### Otras mejoras para los gráficos de modelos de Substance
 
 * <b>Visible si para los parámetros expuestos</b>\
   Al exponer parámetros, es posible que desee ocultar o mostrar los parámetros en función del estado de otros parámetros. Por ejemplo, un control deslizante solo se muestra cuando se activa un botón.\
-  Con <b>Visible If</b>, puedes agregar condiciones a la visibilidad de los parámetros, manteniendo una interfaz de usuario limpia y funcional. Este mecanismo ya disponible para los Substance se extiende ahora a los Substance de modelos, utilizando, por supuesto, la misma sintaxis. <b>\
+  Con <b>Visible If</b>, puedes agregar condiciones a la visibilidad de los parámetros, manteniendo una interfaz de usuario limpia y funcional. Este mecanismo ya disponible para los gráficos de Substance ahora se extiende a los gráficos de modelos de Substance, utilizando, por supuesto, la misma sintaxis. <b>\
   </b>
 
-  ![](../../assets/visibleif.gif){width="600px"}
+  ![](version-12-3.resources/visibleif.gif){width="600px"}
 
 * <b>Nuevos nodos dedicados a la edición curva\
   </b>Esta versión incluye algunos nodos nuevos dedicados a la edición curva: <b>Curva inversa</b> intercambia las dos extremidades de una curva, <b>Curva subdividida</b> agrega más vértices en los segmentos de acuerdo con dos métodos, <b>Curva de suavizado </b>suaviza todos los ángulos de una curva 2D y, por último, <b>Curva de desplazamiento</b> infla o desinfla una curva 2D, como se muestra a continuación.<b>
 
   </b>
 
-  ![](../../assets/curve-offset-4.gif){width="600px"}
+  ![](version-12-3.resources/curve-offset-4.gif){width="600px"}
 * <b>Nueva ventana de gráfico </b>\
-  La ventana <b>Nuevo gráfico de modelo de Substance</b> también está disponible para los gráficos de modelo de Substance. Puede añadir sus propias plantillas o seleccionar una predeterminada, a continuación, introduzca directamente el nombre del gráfico y seleccione el paquete al que se añadirá el gráfico.
+  La ventana <b>Nuevo gráfico de modelo de Substance</b> ahora también está disponible para los gráficos de modelo de Substance. Puede añadir sus propias plantillas o seleccionar una predeterminada, a continuación, introduzca directamente el nombre del gráfico y seleccione el paquete al que se añadirá el gráfico.
 
-  ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
+  ![](version-12-3.resources/image2022-10-5-15-25-42.png){width="600px"}
 
 ### Paneles Bienvenido y Novedades
 
@@ -76,9 +76,9 @@ En primer lugar, el <b>panel de bienvenida </b>que se muestra la primera vez que
 
 También se puede acceder a estos dos paneles desde el menú Ayuda .
 
-![](../../assets/image2022-10-3-15-47-28.png)
+![](version-12-3.resources/image2022-10-3-15-47-28.png)
 
-![](../../assets/image2022-10-3-15-47-55.png)
+![](version-12-3.resources/image2022-10-3-15-47-55.png)
 
 ### Miscelánea
 
@@ -88,7 +88,7 @@ También se puede acceder a estos dos paneles desde el menú Ayuda .
   En versiones anteriores, Designer no podía controlar correctamente el factor de escala definido en el sistema operativo. Como puedes ver en la siguiente ilustración, todo se gestiona perfectamente en una pantalla 4K con una escala del 125 %, con todas las fuentes y botones mostrados en un tamaño coherente.\
   Tenga en cuenta que la opción &quot;Deshabilitar alta PPP&quot; en Preferencias se ha restablecido a *False* en esta nueva versión, ya que esta opción ya no es necesaria para tener una interfaz utilizable.
 
-  ![](../../assets/highdpi-fix.gif){width="600px"}
+  ![](version-12-3.resources/highdpi-fix.gif){width="600px"}
 
 * **Compatibilidad nativa con Apple Silicon (M1 / M2) para la versión de Steam**\
   La versión 12.2 de Designer fue la primera en ofrecer compatibilidad total con las nuevas máquinas Apple basadas en chips M1 o M2, pero esa compatibilidad no figuraba en la edición de Steam. A partir de ahora, todos los usuarios de Designer pueden beneficiarse de una experiencia más rápida y eficaz en estas máquinas.

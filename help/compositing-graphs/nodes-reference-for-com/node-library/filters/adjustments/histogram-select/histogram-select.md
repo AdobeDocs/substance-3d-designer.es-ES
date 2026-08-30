@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
 breadcrumb-title: ''
 description: Utilice el nodo Selección de histograma para seleccionar y extraer rangos específicos de histogramas de texturas para ajustes específicos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Selección de histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-select.png){width="128px"}
+![](histogram-select.resources/histogram-select.png){width="128px"}
 
-## Selección de histograma
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,17 +37,26 @@ De forma similar a [Análisis de histograma](../../../../../../compositing-graph
 
 [Haz clic aquí para ver un vídeo de la Academia de Substance sobre la selección de histograma.](https://youtu.be/p9wcmJBFyGA?t=535)
 
-## Parámetros
-
-* **Posición**: *0.0 - 1.0* Establece la posición central donde se realiza la selección del intervalo.
-* **Intervalo**: *0.0 - 1.0* Establece el ancho del intervalo de selección.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste/atenuación del resultado.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/histoselect-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Posición</b> <i>0.0 - 1.0</i> | Establece la posición central en la que se produce la selección del intervalo. |
+| <b>Intervalo</b> <i>0.0 - 1.0</i> | Establece la anchura del intervalo de selección. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste/atenuación del resultado. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-select.resources/histoselect-ex.gif" />
+        </td>
+    </tr>
 </table>

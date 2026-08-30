@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
 description: Utilice el nodo Meteorización de musgo para añadir patrones de crecimiento de musgo a los materiales en función de la curvatura y posición de la malla.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Meteorización del musgo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 1%
+source-wordcount: '285'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering.png){width="128px"}
 
-## Meteorización del musgo
-
-**En:** *Generadores Basados En Malla**/Meteorología*
-
-**Complejo**
+<b>En:</b> Generadores Basados En Malla > Meteorización
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,50 +39,48 @@ Este efecto funciona mejor con un mapa de posición del espacio mundial al horno
 
 Asegúrate de entender correctamente los [Modos de creación de vínculos](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) al trabajar con materiales completos.
 
-## Parámetros
-
-### Entradas
-
-* **Posición**: *Entrada de color*\
-  Posición espacial del mundo al horno.
-* **Height**: *Entrada en escala de grises*\
-  Entrada adicional de Heightmap.
-* **Máscara** : *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;.
-
-### Parámetros
-
-* **Canales**
-  * Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad.
-* **Avanzado**
-  * **Formato normal**: *DirectX, OpenGL*\
-    Cambia entre diferentes formatos de Mapa normal (invierte el canal verde).
-  * **Máscara**: *Falso/Verdadero*\
-    Activa o desactiva el uso del mapa de máscara.
-* **Efecto**
-  * **Propagación de musgo**: *0.0 - 1.0* Establece la extensión del musgo. Crece en pasos desde una ligera cobertura hasta musgo oscuro grueso y pesado.
-* **Fusión**
-  * **Intensidad de difusión**: *0.0 - 1.0*\
-    Intensidad de fusión de la difusión.
-  * **Intensidad de color base**: *0.0 - 1.0*\
-    Intensidad de fusión del color base.
-  * **Intensidad normal**: *0.0 - 1.0*\
-    Intensidad de fusión de la Normal.
-  * **Intensidad del Specular**: *0.0 - 1.0*\
-    Fusión del Specular.
-  * **Intensidad de brillo**: *0.0 - 1.0*\
-    Fuerza de fusión del Brillo.
-  * **Intensidad de rugosidad**: *0.0 - 1.0*\
-    Fuerza de fusión de la rugosidad.
-  * **Intensidad de Oclusión ambiente**: *0.0 - 1.0*\
-    Fuerza de fusión de la Oclusión ambiente.
-  * **Intensidad de Height**: *0.0 - 1.0*\
-    Fusión del Height.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/moss-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Posición</b> <i>Entrada de color</i> | Posición espacial del mundo al horno. |
+| <b>Height</b> <i>Entrada en escala de grises</i> | Entrada adicional de Heightmap. |
+| <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Avanzado</b> |  |
+| <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
+| <b>Máscara</b> <i>Falso/Verdadero</i> | Activa o desactiva el uso del mapa de máscara. |
+| <b>Efecto</b> |  |
+| <b>Propagación de musgo</b> <i>0.0 - 1.0</i> | Define la extensión del musgo. Crece en pasos desde una ligera cobertura hasta musgo oscuro grueso y pesado. |
+| <b>Fusión</b> |  |
+| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la difusión. |
+| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Intensidad de fusión del color base. |
+| <b>Intensidad normal</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la Normal. |
+| <b>Intensidad del Specular</b> <i>0.0 - 1.0</i> | Fusión del Specular. |
+| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Brillo. |
+| <b>Intensidad de rugosidad</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la rugosidad. |
+| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiente. |
+| <b>Intensidad de Height</b> <i>0.0 - 1.0</i> | Fusión del Height. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="moss-weathering.resources/moss-ex.gif" />
+        </td>
+    </tr>
 </table>

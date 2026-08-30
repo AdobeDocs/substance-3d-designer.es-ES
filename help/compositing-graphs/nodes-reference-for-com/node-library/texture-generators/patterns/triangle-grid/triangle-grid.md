@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: Utilice el nodo Triangle Grid para generar patrones de cuadrícula triangular para crear texturas geométricas en Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -24,18 +24,18 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
 
-![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
 
-<b>En:</b> Generadores De Texturas > Motivos
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
 
 ## Descripción
 
-El nodo **Triangle Grid** genera una representación en escala de grises de una *superficie triangulada* a partir de *vértices* en el espacio 3D, utilizando una proyección ortográfica de Z hacia abajo.
+El nodo **Triangle Grid** genera una representación en escala de grises de una *superficie triangulada* a partir de *vértices* en el espacio 3D, mediante una proyección ortográfica de Z hacia abajo.
 
 El parámetro **Salida de color** le permite seleccionar los datos utilizados para la representación, lo que da como resultado varios estilos visuales.\
 Es posible ajustar las *posiciones* de los vértices, lo que afecta a la malla generada.
@@ -44,44 +44,30 @@ Es posible ajustar las *posiciones* de los vértices, lo que afecta a la malla g
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parámetros
-
-</td>
-</tr>
-</table>
-
-## Conectores de entrada
+## Entradas
 
 |  |  |
-| --- | --- |
-| <b>Height</b> *Escala de grises* PRINCIPAL | Entrada de imagen de escala de grises utilizada para asignar el *height*, es decir, la posición Z, de los vértices.    La influencia de esta entrada se controla mediante el parámetro &#39;Multiplicador de entrada de Height&#39;. |
-| <b>Mapa de vectores</b> *Color* | La entrada de imagen de color utilizada para asignar el *desplazamiento* de los vértices en los ejes X e Y.    Los desplazamientos X/Y se asignan a los canales R/G de la imagen respectivamente.    La influencia de esta entrada se controla mediante el parámetro &quot;Desplazamiento de mapa de vectores&quot;. |
-| <b>Entrada de color</b> *Color* | La entrada de imagen de color utilizada para asignar el *color* de los vértices, segmentos o triángulos.    Esta entrada se utiliza cuando el parámetro &#39;Color Source&#39; se establece en &#39;Color Input&#39;. |
+|:---|:---|
+| <b>Height</b> <i>Escala de grises</i> PRINCIPAL | Entrada de imagen de escala de grises utilizada para asignar el *height*, es decir, la posición Z, de los vértices.    La influencia de esta entrada se controla mediante el parámetro &#39;Multiplicador de entrada de Height&#39;. |
+| <b>Mapa de vectores</b> <i>Color</i> | La entrada de imagen de color utilizada para asignar el *desplazamiento* de los vértices en los ejes X e Y.    Los desplazamientos X/Y se asignan a los canales R/G de la imagen respectivamente.    La influencia de esta entrada se controla mediante el parámetro &quot;Desplazamiento de mapa de vectores&quot;. |
+| <b>Entrada de color</b> <i>Color</i> | La entrada de imagen de color utilizada para asignar el *color* de los vértices, segmentos o triángulos.    Esta entrada se utiliza cuando el parámetro &#39;Color Source&#39; se establece en &#39;Color Input&#39;. |
 
-## Conectores de salida
+<a name="outputs"></a>
+
+## Salidas
 
 |  |  |
-| --- | --- |
-| <b>Salida</b> *Color* | La imagen de salida. |
+|:---|:---|
+| <b>Salida</b> <i>Color</i> | La imagen de salida. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Salida de color</b> *Entero* | Método de representación de la superficie triangulada:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Por vértice:</b> se asigna un color a cada vértice y se interpola en la superficie del triángulo</li> <li data-preserve-html="true"><b>Por triángulo:</b> se asigna un color plano a cada triángulo</li> <li data-preserve-html="true"><b>Línea fina</b><b>:</b> aplica un contorno a los segmentos entre los vértices</li> <li data-preserve-html="true"><b>Distancia al borde</b><b>:</b> representa la distancia al segmento más cercano en cada triángulo</li> <li data-preserve-html="true"><b>Centro</b><b>:</b> procesa la distancia normalizada al centro de barras de cada triángulo</li> </ul> |
 | <b>Triangulación</b> *Entero* | Establece el método de triangulación para la superficie, es decir, qué *par de vértices opuestos* de un cuadrado se deben conectar:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Automático:</b> selecciona automáticamente el par de vértices que dan como resultado triángulos <i>que miran lo menos posible</i> desde la cámara<br/> <b>45°:</b> conecta vértices opuestos dando como resultado una línea <i>girada 45 grados</i> con respecto al eje X-derecho</li> <li data-preserve-html="true"><b>-45°:</b> conecta vértices opuestos dando como resultado una línea <i>girada -45 grados</i> con respecto al eje X-derecho</li> <li data-preserve-html="true"><b>Quincux horizontal:</b> alterna la orientación de triangulación <i>cada dos filas</i> de vértices</li> <li data-preserve-html="true"><b>Quincux vertical:</b> alterna la orientación de triangulación <i>cada dos columnas</i> de vértices<br/> </li> </ul> |
 | <b>Cantidad X</b> *Entero* | Cantidad de vértices generados en el eje X. |
@@ -105,23 +91,23 @@ Es posible ajustar las *posiciones* de los vértices, lo que afecta a la malla g
 | <b>Raíz de color aleatoria</b> *Entero* *Disponible cuando el parámetro &#39;Random Color Seed Mode&#39; está establecido en &#39;Manual Seed&#39; y el parámetro &#39;Color Source&#39; está establecido en &#39;Random&#39;.* | El valor semilla discreto utilizado en la distribución de color pseudoaleatoria. |
 | <b>Expansión no cuadrada</b> *Booleano* | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Ejemplo 1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid: Ejemplo 1"){zoomable="yes"}
+![Triangle Grid: Ejemplo 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid: Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Ejemplo 2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid: Ejemplo 2"){zoomable="yes"}
+![Triangle Grid: Ejemplo 2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid: Ejemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Ejemplo 3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid: Ejemplo 3"){zoomable="yes"}
+![Triangle Grid: Ejemplo 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid: Ejemplo 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -131,17 +117,17 @@ Es posible ajustar las *posiciones* de los vértices, lo que afecta a la malla g
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Ejemplo 4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid: Ejemplo 4"){zoomable="yes"}
+![Triangle Grid: Ejemplo 4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid: Ejemplo 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Ejemplo 5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid: Ejemplo 5"){zoomable="yes"}
+![Triangle Grid: Ejemplo 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid: Ejemplo 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Ejemplo 6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid: Ejemplo 6"){zoomable="yes"}
+![Triangle Grid: Ejemplo 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid: Ejemplo 6"){zoomable="yes"}
 
 </td>
 </tr>
@@ -151,12 +137,12 @@ Es posible ajustar las *posiciones* de los vértices, lo que afecta a la malla g
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Cuero](../../../../../../assets/trianglegrid-demo.png "Triangle Grid: Cuero"){zoomable="yes"}
+![Triangle Grid: Cuero](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid: Cuero"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Gráfico](../../../../../../assets/trianglegrid-node.png "Triangle Grid: Gráfico"){zoomable="yes"}
+![Triangle Grid: Gráfico](triangle-grid.resources/trianglegrid-node.png "Triangle Grid: Gráfico"){zoomable="yes"}
 
 </td>
 </tr>

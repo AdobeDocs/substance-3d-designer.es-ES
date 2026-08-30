@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Noise Upscale 1 para aumentar la escala de las texturas mediante algoritmos basados en ruido para conservar los detalles al aumentar la resolución de la textura.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Noise Upscale 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-1.resources/noise-upscale.png){width="128px"}
 
-## Noise Upscale 1
-
-**En:** *Filtros/Transformaciones*
-
-**Simple**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,20 +39,27 @@ Este nodo está destinado principalmente a optimizar gráficos lentos que utiliz
 
 Consulta [Noise Upscale 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md) y [Noise Upscale 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) para obtener diferentes variaciones de este proceso.
 
-## Parámetros
-
-* **Desplazamiento1X**: *0.0 - 1.0* Desliza las partes superior e inferior sobre el eje X.
-* **Desplazamiento1Y**: *0.0 - 1.0*\
-  Desliza las partes superior e inferior sobre el eje Y.
-* **Desplazamiento2X**: *0.0 - 1.0* Desliza las partes izquierda y derecha sobre el eje X.
-* **Desplazamiento2Y**: *0.0 - 1.0* Desliza las partes izquierda y derecha sobre el eje Y.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise1ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Desplazamiento1X</b> <i>0.0 - 1.0</i> | Desliza las partes superior e inferior sobre el eje X. |
+| <b>Desplazamiento1Y</b> <i>0.0 - 1.0</i> | Desliza las partes superior e inferior sobre el eje Y. |
+| <b>Desplazamiento2X</b> <i>0.0 - 1.0</i> | Desliza las partes izquierda y derecha sobre el eje X. |
+| <b>Desplazamiento2Y</b> <i>0.0 - 1.0</i> | Desliza las partes izquierda y derecha sobre el eje Y. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-1.resources/noise1ex.png" />
+        </td>
+    </tr>
 </table>

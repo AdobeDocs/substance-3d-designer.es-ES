@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Aprenda a crear y utilizar ajustes preestablecidos de parámetros en Substance 3D Designer para guardar y aplicar configuraciones de parámetros.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parámetros preestablecidos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Los ajustes preestablecidos de parámetros permiten al usuario almacenar y trans
 
 Hay dos formas de almacenar y cargar ajustes preestablecidos, ambas con diferentes casos de uso, que se detallan a continuación.
 
-![Cargar/guardar ajuste preestablecido menú desplegable](../../../assets/preset-menu.gif "Cargar/guardar ajuste preestablecido menú desplegable"){width="512px"}
+![Cargar/guardar ajuste preestablecido menú desplegable](parameter-presets.resources/preset-menu.gif "Cargar/guardar ajuste preestablecido menú desplegable"){width="512px"}
 
 ## Ajustes preestablecidos externos
 
@@ -36,9 +36,9 @@ Simplemente se guardan y se cargan en este menú. Los archivos SBSPRS guardados 
 
 >[!NOTE]
 >
-> Incluso las coincidencias parciales funcionarán: los parámetros almacenados en un SBSPRS que no existen en el nodo cargado, simplemente se omitirán. Esto significa que puede transferir propiedades entre nodos que son en su mayoría similares, [&#x200B; como la versión en color y escala de grises de Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md). Se cargarán todos los parámetros compartidos. La coincidencia se produce en el identificador y el tipo.
+> Incluso las coincidencias parciales funcionarán: los parámetros almacenados en un SBSPRS que no existen en el nodo cargado, simplemente se omitirán. Esto significa que puede transferir propiedades entre nodos que son en su mayoría similares, [ como la versión en color y escala de grises de Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md). Se cargarán todos los parámetros compartidos. La coincidencia se produce en el identificador y el tipo.
 
-![Edición de ajustes preestablecidos incrustados](../../../assets/preset-embed.gif "Edición de ajustes preestablecidos incrustados"){width="512px"}
+![Edición de ajustes preestablecidos incrustados](parameter-presets.resources/preset-embed.gif "Edición de ajustes preestablecidos incrustados"){width="512px"}
 
 ## Ajustes preestablecidos integrados
 

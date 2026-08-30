@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 breadcrumb-title: ''
 description: Aprenda a trabajar con trazados y herramientas de spline para crear patrones de procedimiento y formas orgánicas en los gráficos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Uso de Herramientas de spline de trazado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Por ejemplo, la imagen de la derecha representa la salida de imagen de un nodo [
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Trazados Salida de polígono](../../../../../assets/PathsPolygon_Data.jpg "Trazados Salida de polígono")
+![Trazados Salida de polígono](working-with-path-and-spline-tools.resources/PathsPolygon_Data.jpg "Trazados Salida de polígono")
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ Por ejemplo, los nodos de generación de splines como [Spline (Cubic)](../../../
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cúbica polinomial en vista 2D](../../../../../assets/SplineCubic-Demo.gif "Cúbica polinomial en vista 2D")
+![Cúbica polinomial en vista 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Cúbica polinomial en vista 2D")
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Las rutas y las herramientas de spline requieren cálculos intensivos, por lo qu
 
 Observará una mejora significativa del rendimiento al cambiar cualquiera de estas dos configuraciones al estado recomendado.
 
-![Herramientas de ruta en la biblioteca](../../../../../assets/PathsTools.jpg "Herramientas de ruta en la biblioteca")
+![Herramientas de ruta en la biblioteca](working-with-path-and-spline-tools.resources/PathsTools.jpg "Herramientas de ruta en la biblioteca")
 
 ## Herramientas de Ruta
 
@@ -97,7 +97,7 @@ El [Polígono de trazados](../../../../../compositing-graphs/nodes-reference-for
 También se pueden extraer rutas de una imagen en escala de grises mediante el nodo [Mask to Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md).\
 Esta es actualmente la única forma de producir formas complejas, y te permite aprovechar toda la biblioteca de [nodos de gráficos Substance](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md) para producir las formas que eventualmente se convertirán en trazados.
 
-![Nodos de generación de rutas](../../../../../assets/Paths_Generation.jpg "Nodos de generación de rutas"){width="600px"}
+![Nodos de generación de rutas](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "Nodos de generación de rutas"){width="600px"}
 
 ### Edición de trazados
 
@@ -121,7 +121,7 @@ Los trazados independientes tienen un color único en la previsualización para 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo de rutas de vista previa](../../../../../assets/PreviewPaths_Node.jpg "Nodo de rutas de vista previa")
+![Nodo de rutas de vista previa](working-with-path-and-spline-tools.resources/PreviewPaths_Node.jpg "Nodo de rutas de vista previa")
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Una combinación muy útil para aprovechar el conjunto de herramientas de spline
 
 <b>Máscara > Máscara a trazados > Trazados a spline</b>
 
-![Ruta a la spline](../../../../../assets/Spline_PathToSpline.jpg "Ruta a la spline")
+![Ruta a la spline](working-with-path-and-spline-tools.resources/Spline_PathToSpline.jpg "Ruta a la spline")
 
 ### Especificaciones de formato de trazado
 
@@ -146,7 +146,7 @@ Esta codificación sigue una especificación descrita en la página [Especificac
 
 Puede usar esta especificación para producir sus propios nodos con este formato y aprovechar al máximo los nodos [Paths Vertex Processor](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
 
-![Herramientas de spline en la biblioteca](../../../../../assets/SplineTools.jpg "Herramientas de spline en la biblioteca")
+![Herramientas de spline en la biblioteca](working-with-path-and-spline-tools.resources/SplineTools.jpg "Herramientas de spline en la biblioteca")
 
 ## Herramientas de Spline
 
@@ -185,7 +185,7 @@ Por lo tanto, es muy importante tener en cuenta el orden en el que se añaden la
 
 Esto afecta a los nodos que necesitan combinar splines, como [Puente spline (lista)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [Asignador de puente spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) y [Lista de combinación spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md).
 
-![Anexar splines con modos de creación de vínculos](../../../../../assets/LinkCreationMode_Splines.gif "Anexar splines con modos de creación de vínculos")
+![Anexar splines con modos de creación de vínculos](working-with-path-and-spline-tools.resources/LinkCreationMode_Splines.gif "Anexar splines con modos de creación de vínculos")
 
 ### Entradas y salidas polinomiales
 
@@ -212,7 +212,7 @@ Esta vista previa se puede ajustar en los parámetros del nodo, mediante los par
 </td>
 <td style="border: 0;" valign="top">
 
-![Salida de vista previa en nodo de spline](../../../../../assets/Spline_PreviewOutput.jpg "Salida de vista previa en nodo de spline")
+![Salida de vista previa en nodo de spline](working-with-path-and-spline-tools.resources/Spline_PreviewOutput.jpg "Salida de vista previa en nodo de spline")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Para dibujar una spline como píxeles, el conjunto de herramientas las simplific
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline procesado como segmentos](../../../../../assets/Spline_Segments.jpg "Spline procesado como segmentos")
+![Spline procesado como segmentos](working-with-path-and-spline-tools.resources/Spline_Segments.jpg "Spline procesado como segmentos")
 
 </td>
 </tr>

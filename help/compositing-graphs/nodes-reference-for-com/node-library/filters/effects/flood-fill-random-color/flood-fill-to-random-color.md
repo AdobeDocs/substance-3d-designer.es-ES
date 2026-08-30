@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
 breadcrumb-title: ''
-description: Utilice el nodo Flood Fill a color aleatorio para rellenar regiones conectadas con colores aleatorios para crear patrones de texturas variados.
+description: Utilice el nodo Flood Fill a color aleatorio para rellenar regiones conectadas con colores aleatorios para crear patrones de textura variados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Random Color
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Flood Fill a color aleatorio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '53'
 ht-degree: 3%
 
 ---
@@ -22,33 +22,32 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-random-color.png){width="128px"}
+![](flood-fill-to-random-color.resources/floodfill-to-random-color.png){width="128px"}
 
-## Flood Fill a color aleatorio
-
-**En:** *Filtros/Efectos*
-
-**Simple**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Genera mosaicos con colores de RGB aleatorios a partir de una base de [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Útil para añadir variaciones de color a los azulejos.
 
-## Parámetros
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodrandomcolor-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodrandomcolor-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-random-color.resources/floodrandomcolor-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-random-color.resources/floodrandomcolor-ex1.png" />
+        </td>
+    </tr>
 </table>

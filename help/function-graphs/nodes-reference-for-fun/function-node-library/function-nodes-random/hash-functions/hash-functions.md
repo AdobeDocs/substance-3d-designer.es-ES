@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
 description: Utilice funciones hash en gráficos de funciones para generar valores aleatorios determinísticos basados en coordenadas de entrada.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Funciones Hash
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo hash: icon](../../../../../assets/hash-icon.png "Nodo hash: icon"){width="200px"}
+![Nodo hash: icon](hash-functions.resources/hash-icon.png "Nodo hash: icon"){width="200px"}
 
 <b>En:</b> Funciones > Aleatorio
 
@@ -82,12 +82,12 @@ Versiones disponibles, con su tipo de entrada y tipo de salida:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Hash 14 ejemplo](../../../../../assets/hash14-example.png "Hash 14 ejemplo"){zoomable="yes"}
+![Hash 14 ejemplo](hash-functions.resources/hash14-example.png "Hash 14 ejemplo"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Hash 32 ejemplo](../../../../../assets/hash32-example.png "Hash 32 ejemplo"){zoomable="yes"}
+![Hash 32 ejemplo](hash-functions.resources/hash32-example.png "Hash 32 ejemplo"){zoomable="yes"}
 
 </td>
 </tr>

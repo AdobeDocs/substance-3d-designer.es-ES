@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
-description: Utilice el nodo Polvoriento de salpicaduras de Suciedad para crear patrones de salpicaduras polvorientas para añadir detalles de textura intemperizada.
+description: Utilice el nodo Polvoriento de Salpicaduras de Suciedad para crear patrones de salpicaduras polvorientas para añadir detalles de textura intemperizada.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Splashes Dusty
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Suciedad salpicaduras Polvoriento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungesplashesdusty.jpg){width="200px"}
+![](grunge-splashes-dusty.resources/grungesplashesdusty.jpg){width="200px"}
 
-**En:** *Generadores De Texturas* */Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,31 +39,31 @@ El nodo **Suciedad Splashes Dusty** genera un mapa de suciedades similar a salpi
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Equilibrio** *Flotante* Ajusta el equilibrio entre los valores oscuros y brillantes.
-* **Contraste** *Flotante* Ajusta el contraste de la imagen.
-* **Invertir** *Boolean* Invierte el resultado de la imagen mediante una operación `1-x`.
-* **Expansión no cuadrada** *Booleano* Habilita la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* Avanzadas
-  * **Cantidad de salpicaduras** *Flotante* Ajusta la cantidad de salpicaduras en la superficie.
-  * **Distorsión de salpicaduras** *Flotante* Ajusta la intensidad del efecto de deformación aplicado a las salpicaduras.
-  * **Proporción de salpicaduras/Dirtes** *Flotante* Ajusta la *proporción* de dirt y salpicaduras en la superficie.
-  * **Difusión de Dirt** *Flotador* Ajusta la extensión del dirt.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Avanzado</b> |  |
+| <b>Cantidad de salpicaduras</b> <i>Flotador</i> | Ajusta la cantidad de salpicaduras en la superficie. |
+| <b>Distorsión de salpicaduras</b> <i>Flotador</i> | Ajusta la intensidad del efecto de deformación aplicado a las salpicaduras. |
+| <b>Relación de salpicaduras/Dirt</b> <i>Flotador</i> | Ajusta la *proporción* de dirt y salpicaduras en la superficie. |
+| <b>Difusión de Dirt</b> <i>Flotador</i> | Ajusta la extensión del dirt. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungesplashesdusty-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungesplashesdusty-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" />
+        </td>
+    </tr>
 </table>

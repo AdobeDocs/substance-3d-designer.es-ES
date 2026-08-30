@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fugas de Suciedad para generar patrones de fugas para crear manchas de agua y efectos de intemperismo en las superficies.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Fugas de suciedades
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grungeleaks.jpg){width="200px"}
 
-**En:** *Generadores De Texturas* */Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de texturas > Ruidos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,31 +39,31 @@ El nodo **Fugas de Suciedades** genera un mapa de suciedades parecido a los gote
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Equilibrio** *Flotante* Ajusta el equilibrio entre los valores oscuros y brillantes.
-* **Contraste** *Flotante* Ajusta el contraste de la imagen.
-* **Invertir** *Boolean* Invierte el resultado de la imagen mediante una operación `1-x`.
-* **Expansión no cuadrada** *Booleano* Habilita la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* Avanzadas
-  * **Longitud de goteo** *Flotante* Ajusta la longitud de las rayas de goteo.
-  * **Contraste de forma** *Flota* Cambia entre formas brillantes y oscuras, contrastando entre los goteos.
-  * **Nitidez por goteo** *Flotador* Ajusta la nitidez y la incomodidad de los goteos.
-  * **Intensidad de enfoque** *Flotante* Ajusta la suavidad general de la imagen.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Avanzado</b> |  |
+| <b>Longitud de goteo</b> <i>Flotador</i> | Ajusta la longitud de las bandas de goteo. |
+| <b>Contraste de forma</b> <i>Flotador</i> | Cambia entre formas brillantes y oscuras, contrastando entre los goteos. |
+| <b>Crispness por goteo</b> <i>Flotador</i> | Ajusta la nitidez y la curvatura de los goteos. |
+| <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajuste la suavidad general de la imagen. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
+        </td>
+    </tr>
 </table>

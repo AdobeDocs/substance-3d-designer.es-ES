@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/ground-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/ground-dirt.html"
 breadcrumb-title: ''
 description: Utilice el nodo Dirt de tierra para generar máscaras de acumulación de dirt basadas en la posición y orientación de la malla en relación con el suelo.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dirt de tierra
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '150'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ground-dirt.png){width="128px"}
+![](ground-dirt.resources/ground-dirt.png){width="128px"}
 
-## Dirt de tierra
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Simple**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,25 +37,35 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Esta máscara representa el dirt acumulado desde cero, lo contrario de [De abajo arriba](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/bottom-to-top/bottom-to-top.md) o [Dust](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/dust/dust.md). No tiene anulación de mapa personalizada.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Entradas
 
-* **Posición**: *Entrada en escala de grises*\
-  Mapa de posición al horno en el que basar el efecto. ¡Obligatorio!
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
+|  |  |
+|:---|:---|
+| <b>Posición</b> <i>Entrada en escala de grises</i> | Mapa de posición hecho un bake en el que basar el efecto. ¡Obligatorio! |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-* **Nivel**: *0.0 - 1.0*\
-  Define el nivel de apariencia total del dirt.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
-* **Height de Dirt**: *0.0 - 1.0* Configura el height (proporcionalmente) en el que debe aparecer el dirt.
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Define el nivel de apariencia total del dirt. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
+| <b>Height de Dirt</b> <i>0.0 - 1.0</i> | Define el height (proporcionalmente) en el que debe aparecer el dirt. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-![](../../../../../../assets/ground-dirt-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ground-dirt.resources/ground-dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

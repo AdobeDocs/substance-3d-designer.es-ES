@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
-description: Utilice el nodo Conmutador múltiple para cambiar entre varias texturas de entrada en función de un selector para la selección de texturas condicionales.
+description: Utilice el nodo Conmutador múltiple para cambiar entre varias texturas de entrada en función de un selector para la selección de textura condicional.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Multi Switch
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Conmutador múltiple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
+![](multi-switch.resources/multi-switch-greyscale.png){width="128px"}
 
-![](../../../../../../assets/multi-switch.png){width="128px"}
+![](multi-switch.resources/multi-switch.png){width="128px"}
 
-## Interruptor múltiple (escala de grises)
-
-**En:** *Filtros/Fusión*
-
-**Simple**
+<b>En:</b> Filtros > Fusión
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -45,19 +41,23 @@ Muy útil para añadir muchas opciones diferentes en un gráfico. Combinado con 
 
 Importante: asegúrese de utilizar la versión adecuada para su entrada! Utilice &quot;Multi Switch&quot; para las entradas de color y &quot;Multi Switch Grayscale&quot; para las entradas de escala de grises.
 
-## Parámetros
-
-### Entradas
-
-* **Entrada 1-20**: *Entrada de color*
-
-### Parámetros
-
-* **Número de entrada**: *2 - 20* Cantidad de entradas para exponer. Importante: no elimina las conexiones cuando se reduce el número.
-* **Selección de entrada**: *1 - 20* Qué entrada se devuelve como resultado.
-
-## Imágenes de ejemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada 1-20</b> <i>Entrada de color</i> |  |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Número de entrada</b> <i>2 - 20</i> | Cantidad de entradas que se van a exponer. Importante: no elimina las conexiones cuando se reduce el número. |
+| <b>Selección de entrada</b> <i>1 - 20</i> | Qué entrada se devuelve como resultado. |

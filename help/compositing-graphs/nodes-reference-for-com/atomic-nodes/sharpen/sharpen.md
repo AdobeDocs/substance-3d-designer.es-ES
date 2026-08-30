@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: Utilice el nodo Perfilar para mejorar los detalles de la textura y las aristas para crear detalles de superficie definidos y nítidos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Enfocar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Perfilar nodo](../../../../assets/sharpen-4.png "Icono Perfilar nodo")
+![Icono Perfilar nodo](sharpen.resources/sharpen-4.png "Icono Perfilar nodo")
 
 <b>En:</b> nodos atómicos
 
@@ -56,4 +56,4 @@ Determina si el canal alfa de la imagen se debe enfocar o dejar intacto.
 
 ## Ejemplos
 
-![Enfocar nodo - Ejemplo 1](../../../../assets/sharpen-ex.png "Enfocar nodo - Ejemplo 1")
+![Enfocar nodo - Ejemplo 1](sharpen.resources/sharpen-ex.png "Enfocar nodo - Ejemplo 1")

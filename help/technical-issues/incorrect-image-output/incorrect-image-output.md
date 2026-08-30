@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Solucione problemas de salida de imágenes incorrectas en Substance 3D Designer y aprenda a corregir problemas de procesamiento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Salida de imagen incorrecta
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ En esta página se enumeran los problemas técnicos de Substance 3D Designer que
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](incorrect-image-output.resources/error.svg) Problema**
 
 Los degradados de la imagen de salida se escalonan en lugar de suavizarse. El paso se debe a que el intervalo de valores *que usa la imagen es demasiado estrecho*.\
 Esto significa que no hay suficientes valores para realizar una transición fluida de un paso de un degradado al siguiente.
@@ -36,20 +36,20 @@ Esto significa que no hay suficientes valores para realizar una transición flui
 Los valores de luminancia/RGBA se pueden codificar usando valores enteros o de punto flotante, lo que afecta a su *precisión*:
 
 * **Integer** ofrece precisión de 8 bits (de 0 a 255, de modo que 256 valores posibles) y precisión de 16 bits (de 0 a 65535 de modo que 65536 valores posibles) para almacenar un valor en el intervalo 0-1.
-* El **punto flotante** ofrece una precisión de 16 bits (HDR 16F) y 32 bits (HDR 32F), con la capacidad de almacenar valores fuera del intervalo 0-1, incluidos los valores negativos. Esto le permite trabajar con imágenes de alto rango dinámico (HDR), donde el valor de luminancia puede ser muy superior a 1.0.
+* El **punto flotante** ofrece una precisión de 16 bits (HDR. 16F) y 32 bits (HDR. 32F), con la capacidad de almacenar valores fuera del intervalo 0-1, incluidos los valores negativos. Esto le permite trabajar con imágenes de alto rango dinámico (HDR.), donde el valor de luminancia puede superar con creces la 1.0.
 
-Si no necesita trabajar específicamente con imágenes HDR, es probable que la mayoría de los nodos generen un valor en el rango 0-1 codificado mediante enteros. Si el formato de salida de la imagen es de 8 bits, la imagen solo puede utilizar 256 valores, lo que a menudo dará como resultado un paso visible en los degradados. Esto puede afectar especialmente al resultado de los nodos Normal.
+Si no necesita trabajar específicamente con imágenes HDR., es probable que la mayoría de los nodos generen un valor en el rango 0-1 codificado mediante enteros. Si el formato de salida de la imagen es de 8 bits, la imagen solo puede utilizar 256 valores, lo que a menudo dará como resultado un paso visible en los degradados. Esto puede afectar especialmente al resultado de los nodos Normal.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](incorrect-image-output.resources/check.svg) Pasos recomendados**
 
 Compruebe el **Formato de salida** (es decir, profundidad de bits) del nodo y de todos los nodos anteriores y asegúrese de que estos nodos utilizan *precisión Integer de al menos 16 bits*.
 
@@ -73,7 +73,7 @@ Por ejemplo:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![(error)](../../assets/error.svg) Problema</b>
+<b>![(error)](incorrect-image-output.resources/error.svg) Problema</b>
 
 La calidad de las imágenes generadas por un archivo de Substance 3D (SBSAR) es notablemente inferior a la del gráfico del archivo de Substance 3D desde el que se publica, como se muestra en la imagen de la derecha.\
 El resultado aparece con baja resolución.
@@ -81,13 +81,13 @@ El resultado aparece con baja resolución.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
+<b>![(marca)](incorrect-image-output.resources/check.svg) Pasos recomendados</b>
 
 Asegúrese de que la propiedad [Output size](../../compositing-graphs/output-size/output-size.md) de todos los nodos [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) esté establecida en el *método de herencia [Absolute*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
@@ -99,20 +99,20 @@ Si no es así, su [recurso de mapa de bits](../../resources/bitmap-resource/bitm
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](incorrect-image-output.resources/error.svg) Problema**
 
 Las formas aparecen ligeramente desenfocadas después de usar algunos nodos, como [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) o [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](incorrect-image-output.resources/check.svg) Pasos recomendados**
 
 Al reorganizar los píxeles de una imagen, por ejemplo, al cambiar el tamaño de una forma o la resolución de una imagen, hay dos formas de determinar cómo se deben *asignar* píxeles del origen al destino:
 

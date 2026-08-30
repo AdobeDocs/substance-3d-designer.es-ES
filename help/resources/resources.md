@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Aprenda a importar, crear y administrar recursos en Substance 3D Designer, incluidos mapas de bits, fuentes y escenas 3D.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Recursos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ Los recursos son el contenido de los paquetes de Substance 3D Designer. Se utili
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/graph-5.png)
+![](resources.resources/graph-5.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ Los recursos de gráficos son los recursos principales creados dentro de Designe
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/folder-4.png)
+![](resources.resources/folder-4.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,10 +55,10 @@ Los recursos de gráficos son los recursos principales creados dentro de Designe
 
 Los recursos que no son gráficos suelen ser recursos auxiliares que se utilizan como datos adicionales en gráficos o para ayudar a visualizar los resultados de gráficos. Existen los siguientes tipos, cada uno tiene una subpágina en esta sección de los documentos:
 
-* [Mapa de bits](../resources/bitmap-resource/bitmap-resource.md)
-* [Gráficos vectoriales (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Recurso de escena 3D](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Fuente](../resources/font-resource/font-resource.md)
+* [Mapa de bits](bitmap-resource/bitmap-resource.md)
+* [Gráficos vectoriales (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Recurso de escena 3D](3d-scene-resource/3d-scene-resource.md)
+* [Fuente](font-resource/font-resource.md)
 
 </td>
 </tr>

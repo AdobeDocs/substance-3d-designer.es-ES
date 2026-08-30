@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
-description: Utilice el nodo Filtro de espejo para reflejar texturas horizontal o verticalmente para crear efectos y patrones simétricos.
+description: Utilice el nodo Filtro simétrico para reflejar texturas horizontal o verticalmente y crear patrones y efectos simétricos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Mirror (Filter Node)
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Duplicar (nodo de filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 1%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-2.png){width="128px"}
 
-![](../../../../../../assets/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-grayscale.png){width="128px"}
 
-## Espejo (escala de grises)
-
-**En:** *Filtros/Transformaciones*
-
-**Intermedio**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Refleja la imagen de entrada sobre un eje elegido, desde un lado elegido. Una forma muy útil y rápida de obtener efectos simétricos.
 
-## Parámetros
-
-* **Modo**: *Eje de simetría X, Eje de simetría Y, Espejo* *Esquina* Elija entre reflejar izquierda-derecha, superior-inferior o ambas cosas.
-* **Desplazamiento del eje X**: *0.0 - 1.0* Sólo se usa cuando se elige el eje X, defina un desplazamiento.
-* **Desplazamiento eje Y**: *0.0 - 1.0* Sólo se usa cuando se elige el eje Y, defina un desplazamiento.
-* **Invertir eje X**: *Falso/Verdadero* Sólo se usa cuando se elige el Eje X, Voltear dirección.
-* **Invertir eje Y**: *Falso/Verdadero* Sólo se usa cuando se elige el eje Y, Voltear dirección.
-* **Tipo de esquina**: *Superior izquierdo, Superior derecho, Inferior izquierdo, Inferior derecho* Solo se usa cuando se elige el tipo de vértice, defina de qué vértice se debe reflejar.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mirror-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Modo</b> <i>Eje de simetría X, Eje de simetría Y, Esquina de espejo</i> | Elija reflejar izquierda-derecha, superior-inferior o ambas cosas. |
+| <b>Desplazamiento del eje X</b> <i>0.0 - 1.0</i> | Sólo se utiliza cuando se selecciona el eje X, defina un desvío. |
+| <b>Desplazamiento Y Del Eje</b> <i>0.0 - 1.0</i> | Sólo se utiliza cuando se selecciona el eje Y, defina un desvío. |
+| <b>Invertir eje X</b> <i>Falso/Verdadero</i> | Sólo se utiliza cuando se selecciona el eje X, Girar dirección. |
+| <b>Invertir eje Y</b> <i>Falso/Verdadero</i> | Sólo se utiliza cuando se selecciona el eje Y, Voltear dirección. |
+| <b>Tipo de vértice</b> <i>Superior Izquierdo, Superior Derecho, Inferior Izquierdo, Inferior Derecho</i> | Solo se utiliza cuando se elige el tipo de vértice, defina el vértice desde el que desea crear la duplicación. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mirror-filter-node.resources/mirror-example.png" />
+        </td>
+    </tr>
 </table>

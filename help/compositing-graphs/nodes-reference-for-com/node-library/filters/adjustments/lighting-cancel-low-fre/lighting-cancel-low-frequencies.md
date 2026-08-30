@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
 breadcrumb-title: ''
 description: Utilice el nodo Baja frecuencia de cancelación de iluminación para eliminar las variaciones de iluminación de baja frecuencia de las texturas para la extracción de materiales.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Iluminación Cancelar frecuencias bajas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 3%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/lighting-cancel-high-low.png){width="128px"}
+![](lighting-cancel-low-frequencies.resources/lighting-cancel-high-low.png){width="128px"}
 
-## Iluminación Cancelar frecuencias bajas
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,16 +37,24 @@ Similar a Paso alto, pero sin desaturar el resultado final.
 
 Consulte también [Paso alto de luminancia](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) para obtener una versión más avanzada.
 
-## Parámetros
-
-* **Radio de cancelación**: *0.0 - 64.0* Radio del efecto paso alto.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-lowfrequencies-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Radio de cancelación</b> <i>0.0 - 64.0</i> | Radio del efecto Paso alto. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-lowfrequencies-example.png" />
+        </td>
+    </tr>
 </table>
