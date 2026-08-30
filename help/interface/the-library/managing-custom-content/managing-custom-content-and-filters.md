@@ -89,7 +89,7 @@ Puede *agregar o quitar* condiciones mediante los botones &#39;**+**&#39; y &#39
 
 >[!NOTE]
 >
-> Un filtro sin ninguna condición configurada hará que se muestre *todo el contenido de **Biblioteca**de*.
+> Un filtro sin ninguna condición configurada hará que se muestre *todo el contenido de **Biblioteca**&#x200B;de*.
 
 ## Prácticas recomendadas
 
@@ -104,6 +104,6 @@ Puede *agregar o quitar* condiciones mediante los botones &#39;**+**&#39; y &#39
 ### Administración de contenido de ámbito variable
 
 * Puede agregar recursos a *categorías existentes* si esto tiene más sentido. No será tan fácil administrar y mantener los filtros, y puedes usar un estilo de icono especial para *diferenciarlos*.
-* Puedes definir tus carpetas y filtros en un *archivo global* (de nivel de estudio) de [configuración del proyecto](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) y, a continuación, agregarles contenido simplemente añadiendo rutas controladas de *archivos de proyecto*](../../../interface/preferences-window/project-settings/project-settings.md) [consecutivos
+* Puedes definir tus carpetas y filtros en un *archivo global* (de nivel de estudio) de [configuración del proyecto](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) y, a continuación, agregarles contenido simplemente añadiendo rutas controladas de *archivos de proyecto*[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md) consecutivos
 * Puede definir carpetas y filtros específicos para *cada proyecto* para mantenerlos separados
 * Puede mezclar, hacer coincidir y utilizar métodos de los tres anteriores: utilizar filtros existentes, definir nuevos filtros globales y crear filtros únicos por proyecto

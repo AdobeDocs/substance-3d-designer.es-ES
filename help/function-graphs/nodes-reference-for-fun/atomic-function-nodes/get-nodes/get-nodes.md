@@ -179,7 +179,7 @@ Texto
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ está definido: El icono de nodo](get-nodes.resources/fn_variables_isdefined.png " está definido: Icono de nodo"){width="200px"}
+![&#x200B; está definido: El icono de nodo](get-nodes.resources/fn_variables_isdefined.png " está definido: Icono de nodo"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

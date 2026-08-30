@@ -9,11 +9,11 @@ ht-degree: 0%
 
 Este archivo proporciona orientación a Claude Code (claude.ai/code) cuando se trabaja con código en este repositorio.
 
-# Documentación de Substance 3D Designer
+&#x200B;# Documentación de Substance 3D Designer
 
 Este repositorio contiene la documentación de Substance 3D Designer. No hay código de aplicación, paso de compilación ni conjunto de pruebas: el repositorio *es* el contenido, escrito en Markdown y publicado en [Adobe Experience League](https://experienceleague.adobe.com/docs/substance3d-designer.html?lang=en).
 
-# Estructura del repositorio
+&#x200B;# Estructura del repositorio
 
 * `help/`: todo el contenido de la documentación, organizado para reflejar la tabla de contenido.
 * `help/guide/TOC.md`: la tabla de contenido. Cada entrada es un vínculo relativo (con raíz en `/help/...`) al archivo de marcado de una página. `TOC.md` también lleva metadatos de árbol de páginas (`user-guide-title`, `breadcrumb-title`, `nudge`, anclajes de sección como `{#section-id}`).
@@ -58,20 +58,20 @@ user-guide-title: ""
 
 Mantén `description` preciso y conciso: se usa para fragmentos de SEO y búsqueda.
 
-# Reglas de creación de contenido
+&#x200B;# Reglas de creación de contenido
 
 * El inglés es la fuente de la verdad; todos los demás idiomas se traducen desde él.
 * Todos los vínculos a otras páginas de documentación deben ser vínculos **relativos**; todos los vínculos a recursos externos deben ser vínculos **absolutos**.
 * El contenido se escribe en el marcado con sabor a GitHub con las extensiones/gotchas personalizadas de Experience League, documentadas [aquí](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown). Utilice la aptitud `write-experience-league-markdown` (si existe) para los detalles específicos.
 * Cada cambio enviado pasa por comprobaciones automatizadas de pelusa y validación de vínculos en CI (véase a continuación): compruebe `markdownlint_custom.json` y `linkcheckexclude.json` antes de asumir que se aplica una regla o que es necesario corregir un vínculo.
 
-# Validación / IC
+&#x200B;# Validación / IC
 
 * `.github/workflows/validate-articles.yml` se ejecuta en relaciones públicas y se inserta en `main` (y a través de un comentario de relaciones públicas de `retest`), llamando al flujo de trabajo reutilizable compartido de `Adobe-Enterprise-Docs/workflows` para depurar marcas y validar vínculos. No hay un script equivalente local en este repositorio: CI es la fuente de confianza para la acción de aprobado/suspenso.
 * `.github/workflows/mirror.yml` duplica `main` en el repositorio público al insertarlo; se trata de infraestructura, no de algo que los cambios de contenido deban tocar.
 * `markdownlint_custom.json` extiende el conjunto de reglas de `markdownlint.json` compartidas y deshabilita varias reglas (MD005, MD007, MD018, MD032, MD033, MD034, MD037, MD040) que entran en conflicto con las extensiones de marcado personalizadas de Experience League (por ejemplo, HTML en línea, énfasis no estándar). No &quot;arregle&quot; el contenido para cumplir estas reglas deshabilitadas.
 * `linkcheckexclude.json` listas blancas con patrones de vínculos (actualmente `example.com`/`example-end.com`) que el verificador de vínculos debe omitir.
 
-# Convenciones de trabajo
+&#x200B;# Convenciones de trabajo
 
 * Esta es una documentación con muchas notas de la versión: las notas de la versión están activas en `help/release-notes/`, una carpeta por versión (p. ej. `version-16-0`), más `all-changes` y `old-versions` páginas de agregación. Siga la carpeta de la versión existente como plantilla al añadir una nueva versión.
