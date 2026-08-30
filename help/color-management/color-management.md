@@ -104,13 +104,13 @@ Puede agregar *sus propios* perfiles ICC colocando estos archivos en la ubicaci�
 
 |  |  |
 | --- | --- |
-| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [Vista 2D](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado:*** Perfil ICC para la pantalla principal, recuperado del sistema operativo **** |
+| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [Vista 2D](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado:*** Perfil ICC para la pantalla principal, recuperado del sistema operativo &#x200B;**&#x200B;** |
 
 ### Visualización de gráficos
 
 |  |  |
 | --- | --- |
-| <b>Administrar color de miniaturas</b> | Cuando *se haya marcado*, Designer transformará las *miniaturas de nodo* en el *espacio de color de trabajo* actual. *Valor predeterminado:*** Desmarcado **** |
+| <b>Administrar color de miniaturas</b> | Cuando *se haya marcado*, Designer transformará las *miniaturas de nodo* en el *espacio de color de trabajo* actual. *Valor predeterminado:*** Desmarcado &#x200B;**&#x200B;** |
 
 ## Modo heredado
 
