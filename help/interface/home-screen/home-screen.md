@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Utilice la pantalla Inicio de Substance 3D Designer para acceder a proyectos, plantillas y recursos de aprendizaje recientes.
 helpx_creative_field: ""

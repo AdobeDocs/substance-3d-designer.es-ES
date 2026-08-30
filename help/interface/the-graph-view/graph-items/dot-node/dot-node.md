@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Utilice nodos de puntos y nodos de portal en Substance 3D Designer para crear puntos de conexión y organizar el flujo de gráficos.
 helpx_creative_field: ""

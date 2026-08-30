@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cuadrante en FXMaps para dividir las texturas en cuatro secciones y crear motivos en mosaico y variaciones.
 helpx_creative_field: ""

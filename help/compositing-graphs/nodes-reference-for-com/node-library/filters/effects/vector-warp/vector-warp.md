@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
 breadcrumb-title: ''
 description: Utilice el nodo Deformación vectorial para deformar texturas mediante campos vectoriales para crear efectos de distorsión fluida y orgánica.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 La deformación vectorial es un efecto de distorsión avanzado, similar a [Deformar](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) y [Deformación direccional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md), con la principal diferencia de que se basa en un mapa de bits vectorial (de color) en lugar de un mapa de escala de grises. Esto significa que es más potente y versátil que sus primos nodo atómico.
 
-El mapa vectorial es similar a un mapa normal, pero no es necesario normalizarlo y solo se utilizan los canales R y verde (X e Y). Los canales azul y alfa pueden dejarse en negro si lo desea. La construcción de un buen Mapa de Vectores puede ser el mayor desafío en el uso de este nodo; puede [convertir mapas en escala de grises a Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) o construir el mapa combinando canales con [Combinación RGBA.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md) Como alternativa, también se puede usar algo como [&quot;Flow Map&quot;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/advanced-channel-painting/flow-map-painting).
+El mapa vectorial es similar a un mapa normal, pero no es necesario normalizarlo y solo se utilizan los canales R y verde (X e Y). Los canales azul y alfa pueden dejarse en negro si lo desea. La construcción de un buen Mapa de Vectores puede ser el mayor desafío en el uso de este nodo; puede [convertir mapas en escala de grises a Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) o construir el mapa combinando canales con [Combinación RGBA.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md) Como alternativa, también se puede usar algo como [&quot;Flow Map&quot;](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/painting/advanced-channel-painting/flow-map-painting).
 
 Este nodo puede ser útil cuando se desea realizar distorsiones muy específicas con direcciones variables, donde los nodos de deformación estándar no lo cortan.
 

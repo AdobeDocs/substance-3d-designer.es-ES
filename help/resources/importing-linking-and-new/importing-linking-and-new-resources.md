@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Aprenda a importar, vincular y crear nuevos recursos en Substance 3D Designer para sus proyectos de materiales.
 helpx_creative_field: ""

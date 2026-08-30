@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la interfaz del espacio de trabajo de Substance 3D Designer, incluidas las vistas, los paneles y las opciones de personalización.
 helpx_creative_field: ""

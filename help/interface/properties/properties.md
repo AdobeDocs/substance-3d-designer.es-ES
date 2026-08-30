@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Utilice el panel Propiedades de Substance 3D Designer para ver y editar propiedades de nodo y parámetros de gráfico.
 helpx_creative_field: ""
