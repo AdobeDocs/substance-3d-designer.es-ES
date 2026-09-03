@@ -57,7 +57,7 @@ En el gráfico MDL, la exposición de un parámetro al nivel del gráfico, es de
 
 Los nodos que se pueden exponer tienen la opción <b>Expose</b> en su menú contextual. En la mayoría de los casos, se trata de nodos que generan un valor o datos como coordenadas de flotante, color o textura.
 
-Opción &quot;Expose&quot; de ![ en el menú contextual de un nodo](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&amp;quot;Expose&amp;quot; en el menú contextual de un nodo")
+Opción &quot;Expose&quot; de ![&#x200B; en el menú contextual de un nodo](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&quot;Expose&quot; en el menú contextual de un nodo")
 
 Opción &quot;Expose&quot; de *en el menú contextual de un nodo*
 

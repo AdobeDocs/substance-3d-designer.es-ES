@@ -59,7 +59,7 @@ Ahora es posible [copiar los parámetros de un nodo y pegarlos en otro](../../co
 
 La nueva [herramienta Sampler de color](../../interface/2d-view/color-sampler/color-sampler.md) de la vista 2D te permite rastrear el valor de un píxel seleccionado colocando una chincheta sobre él. Esto resulta muy útil para asegurarse de que siempre está viendo la información del mismo píxel en varios nodos de un gráfico. Abra el panel de información para acceder a la herramienta y probarla.
 
-![Muestra de color: con la herramienta ](version-14-1.resources/version-14-1-05.gif "Muestra de color: usar la herramienta"){width="640px" zoomable="yes"}
+![Muestra de color: con la herramienta &#x200B;](version-14-1.resources/version-14-1-05.gif "Muestra de color: usar la herramienta"){width="640px" zoomable="yes"}
 
 ## Mejoras de búsqueda
 
@@ -146,7 +146,7 @@ La herramienta [Buscador de nodos](../../interface/the-graph-view/node-finder/no
 * [Gráfica de funciones] Los valores largos aparecen superpuestos en los nodos &#39;Float&#39;
 * [Fx-Map] Bloqueo al mostrar las propiedades del nodo Cuadrante
 * [Graph] [UDIM] Tener una barra de desplazamiento en la lista UDIM da como resultado 1.1 1.2 entradas
-* [Graph][Shortcuts] El nodo creado mediante un método abreviado no se coloca en el vínculo existente después de la duplicación del nodo
+* [Graph]&#x200B;[Shortcuts] El nodo creado mediante un método abreviado no se coloca en el vínculo existente después de la duplicación del nodo
 * [Propiedades] Visualización incorrecta del parámetro cuando el valor no es válido
 * [Publish] Las dependencias recíprocas producen un bucle infinito al publicar un paquete
 * [Publish] Error silencioso al utilizar la acción &quot;Publish&quot; en un paquete con dependencia descargada

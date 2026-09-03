@@ -272,7 +272,7 @@ A continuación, puede pegar la función copiada desde el nodo del visor 3D en e
 Asegúrate de ajustar el parámetro **Tamaño de marco delimitador de SDF** para que coincida con el [marco delimitador](#the-bounding-frame) que estabas utilizando en el nodo del visor 3D y asegúrate de que la forma se dibuja correctamente.
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-functions-12.png)\
-*Shape splatter v2 con un **tipo de forma**establecido en `SDF function`. Tenga en cuenta que el **tamaño del marco delimitador SDF**se ajustó para ajustarse a la forma.*
+*Shape splatter v2 con un **tipo de forma**&#x200B;establecido en `SDF function`. Tenga en cuenta que el **tamaño del marco delimitador SDF**&#x200B;se ajustó para ajustarse a la forma.*
 
 >[!TIP]
 > 

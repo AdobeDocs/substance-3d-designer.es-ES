@@ -54,7 +54,7 @@ El nodo raíz incluye una miniatura que muestra una vista previa de su resultado
 
 ![Nodo raíz del gráfico MDL](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-02.png "Nodo raíz del gráfico MDL")
 
-*Nodo raíz en un gráfico MDL y sus propiedades se muestran en el [panel de propiedades](../../interface/properties/properties.md)**4}*
+*Nodo raíz en un gráfico MDL y sus propiedades se muestran en el [panel de propiedades](../../interface/properties/properties.md)**4&rbrace;*
 
 ## Conectores y tipos
 

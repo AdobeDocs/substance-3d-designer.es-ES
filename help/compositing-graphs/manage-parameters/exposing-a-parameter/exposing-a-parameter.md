@@ -22,7 +22,7 @@ ht-degree: 4%
 
 La exposición de parámetros es una de las herramientas más potentes y es clave para abrir los gráficos a otras aplicaciones como Substance 3D Painter, Substance 3D Sampler e integraciones de Substance para Maya y 3DS Max.
 
-Esta página explica todos los conceptos necesarios para comenzar a exponer. Se recomienda [que primero conozca lo que es una instancia de gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) antes de continuar en esta página. También es bueno tener una idea de[ la diferencia entre Publish y exportar, así como los tipos de archivo involucrados.](../../../getting-started/overview/overview.md)
+Esta página explica todos los conceptos necesarios para comenzar a exponer. Se recomienda [que primero conozca lo que es una instancia de gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) antes de continuar en esta página. También es bueno tener una idea de[&#x200B; la diferencia entre Publish y exportar, así como los tipos de archivo involucrados.](../../../getting-started/overview/overview.md)
 
 ![Visualización simplificada de parámetros](exposing-a-parameter.resources/exposing-a-parameter-01.png "Visualización simplificada de parámetros")
 

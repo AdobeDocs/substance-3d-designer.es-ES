@@ -111,7 +111,7 @@ Esta versión 12.4 también ofrece compatibilidad total con gráficos de modelos
 * [Vista 3D] La propiedad de visualización de Mallas metálicas no se guarda
 * [Contenido] Los parámetros de color de desenfoque radial no afectan al canal alfa
 * [Localización] Se muestran reguladores y botones adicionales en Propiedades de OpenGL de entorno.
-* [MDL][Modelo de Substance] Bloqueo al eliminar nodos expuestos
+* [MDL]&#x200B;[Modelo de Substance] Bloqueo al eliminar nodos expuestos
 * [Preferencias] El archivo Default\_config nunca se vuelve a crear si se elimina
 * [Modelo de Substance] Parámetro de reordenación de bloqueo que no aparece en el nivel de instancia
 * [API] SDProperty.getDefaultValue() casi siempre devuelve None
