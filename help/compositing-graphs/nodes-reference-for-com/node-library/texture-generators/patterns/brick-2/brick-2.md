@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
 breadcrumb-title: ''
 description: Utilice el nodo Ladrillo 2 para generar patrones de ladrillo avanzados con controles mejorados para crear texturas de mampostería realistas.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
 breadcrumb-title: ''
 description: Utilice el nodo Degradado lineal 2 para crear degradados lineales con controles mejorados para transiciones de color direccionales.
 helpx_creative_field: ""

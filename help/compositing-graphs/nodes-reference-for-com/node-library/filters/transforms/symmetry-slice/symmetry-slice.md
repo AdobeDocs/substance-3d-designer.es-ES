@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
 breadcrumb-title: ''
 description: Utilice el nodo Sector de Simetría para dividir texturas a lo largo de los ejes de simetría y crear patrones y efectos reflejados.
 helpx_creative_field: ""

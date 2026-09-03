@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mosaico automático inteligente para crear automáticamente mosaicos perfectos a partir de materiales digitalizados mediante la detección inteligente de patrones.
 helpx_creative_field: ""

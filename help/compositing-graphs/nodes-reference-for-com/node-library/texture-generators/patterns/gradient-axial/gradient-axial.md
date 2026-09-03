@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
 breadcrumb-title: ''
 description: Utilice el nodo Degradado axial para crear degradados axiales para transiciones de color direccionales en Substance 3D Designer.
 helpx_creative_field: ""

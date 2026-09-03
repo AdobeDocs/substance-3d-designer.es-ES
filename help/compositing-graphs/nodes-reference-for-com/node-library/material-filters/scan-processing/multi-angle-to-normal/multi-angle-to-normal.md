@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
 breadcrumb-title: ''
 description: Utilice el nodo Multicángulo a Normal para generar mapas de normales a partir de imágenes digitalizadas multiángulo para obtener detalles de superficie precisos.
 helpx_creative_field: ""

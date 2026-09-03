@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
 description: Utilice el nodo Filtro simétrico para reflejar texturas horizontal o verticalmente y crear patrones y efectos simétricos.
 helpx_creative_field: ""

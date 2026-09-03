@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
 breadcrumb-title: ''
 description: Utilice el nodo Polar a Cartesiano para convertir texturas de coordenadas polares a coordenadas cartesianas.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
 breadcrumb-title: ''
 description: Utilice el nodo Convertir a lineal para convertir texturas de sRGB a espacio de color lineal para realizar cálculos de color precisos.
 helpx_creative_field: ""

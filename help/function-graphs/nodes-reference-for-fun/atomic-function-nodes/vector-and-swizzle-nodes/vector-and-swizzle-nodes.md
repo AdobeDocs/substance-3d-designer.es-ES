@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
 breadcrumb-title: ''
 description: Utilice nodos vectoriales y de deslizar en los gráficos de funciones de Substance 3D Designer para manipular los datos y componentes vectoriales.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: Utilice la ventana Explorador de Substance 3D Designer para examinar, organizar y administrar los archivos y recursos del proyecto.
 helpx_creative_field: ""
@@ -61,7 +61,7 @@ Esta barra de herramientas le permite realizar rápidamente funciones relacionad
 ![](the-explorer-window.resources/the-explorer-window-03.jpg) <b>Publish o [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> elementos seleccionados:
 
 * [Publish envía cualquier paquete seleccionado a un recurso de Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
-* Envía el paquete seleccionado a [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
+* Envía el paquete seleccionado a [Substance 3D Sampler](https://www.adobe.com/es/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) o [Substance 3D Stager](https://www.adobe.com/es/products/substance3d-stager.html).
 
 ![](the-explorer-window.resources/the-explorer-window-04.png) <b>Publish o enviar como anterior:</b> Publish o enviar los elementos seleccionados con la misma configuración que antes. Esta opción solo está disponible en un paquete que ya se ha publicado *al menos una vez* en la *sesión actual*.
 
@@ -120,7 +120,7 @@ El espacio vacío solo está disponible debajo de los paquetes abiertos actualme
 
 <b>La exportación con dependencias</b> es diferente de guardar y publicar. Toma sus archivos SBS, recopila todos los recursos y dependencias a los que se hace referencia y crea un paquete independiente. El cuadro de diálogo le permite elegir qué bibliotecas recopilar y si el archivo debe ser un archivo comprimido (7-zip). Esta es una buena opción para compartir un archivo SBS con otra persona, sin preocuparse por la falta de dependencias.
 
-<b>Enviar a...</b> abre un submenú que te permite [enviar](send-to-interoperability/send-to-interoperability.md) tu paquete directamente a [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Enviar a...</b> abre un submenú que te permite [enviar](send-to-interoperability/send-to-interoperability.md) tu paquete directamente a [Substance 3D Sampler](https://www.adobe.com/es/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/es/products/substance3d-stager.html) o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copiar</b> copia el paquete seleccionado.
 

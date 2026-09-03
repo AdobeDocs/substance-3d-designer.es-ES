@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
 description: Utilice el nodo Paso alto para extraer detalles de alta frecuencia de las texturas para crear efectos de enfoque y mejora de detalles.
 helpx_creative_field: ""

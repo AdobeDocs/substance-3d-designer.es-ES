@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
 description: Utilice el nodo iterar de FXMaps para crear patrones repetidos y variaciones de procedimiento en los materiales.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: Utilice el nodo Grietas de intemperismo para añadir patrones de grietas a los materiales en función de la curvatura de la malla y los puntos de tensión.
 helpx_creative_field: ""

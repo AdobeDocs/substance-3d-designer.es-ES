@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/logical-nodes.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/logical-nodes.html"
 breadcrumb-title: ''
 description: Acceder a nodos lógicos en gráficos de funciones de Substance 3D Designer para realizar operaciones y comparaciones lógicas booleanas.
 helpx_creative_field: ""

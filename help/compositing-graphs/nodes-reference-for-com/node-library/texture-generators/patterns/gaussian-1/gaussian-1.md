@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Gaussiano 1 para generar patrones de ruido gaussianos para crear texturas y variaciones orgánicas.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: Aprenda a usar Substance 3D Designer para crear materiales, texturas y recursos 3D de procedimientos con flujos de trabajo basados en nodos.
 helpx_creative_field: ""

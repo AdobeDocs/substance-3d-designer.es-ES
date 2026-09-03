@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
 breadcrumb-title: ''
 description: Utilice el nodo Noise Upscale 3 para aumentar la escala de las texturas mediante algoritmos avanzados basados en ruido para conservar los detalles en resoluciones más altas.
 helpx_creative_field: ""

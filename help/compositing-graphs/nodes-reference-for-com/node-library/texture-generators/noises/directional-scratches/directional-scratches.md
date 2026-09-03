@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
 description: Utilice el nodo Scratches direccionales para crear patrones de rayado direccionales para añadir efectos de desgaste y daños a los materiales.
 helpx_creative_field: ""

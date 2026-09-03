@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: Utilice el nodo Suavizado de curvatura para generar mapas de curvatura suaves a partir de mapas de height para la extracción de detalles de superficie.
 helpx_creative_field: ""

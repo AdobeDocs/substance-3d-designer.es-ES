@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los archivos de configuración de proyecto SBSPRJ en Substance 3D Designer para administrar la configuración del proyecto.
 helpx_creative_field: ""

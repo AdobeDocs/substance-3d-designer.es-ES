@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: Acceda a nodos constantes en los gráficos de funciones de Substance 3D Designer para definir parámetros y valores constantes.
 helpx_creative_field: ""

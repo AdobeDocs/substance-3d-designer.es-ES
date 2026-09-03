@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
 breadcrumb-title: ''
 description: Utilice el nodo Transformar normal para aplicar transformaciones a los mapas de normales conservando correctamente las direcciones vectoriales.
 helpx_creative_field: ""

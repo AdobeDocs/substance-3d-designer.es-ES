@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
 breadcrumb-title: ''
 description: Utilice el nodo Desenfoque radial para aplicar efectos de desenfoque radiales desde un punto central para crear efectos de movimiento y zoom.
 helpx_creative_field: ""

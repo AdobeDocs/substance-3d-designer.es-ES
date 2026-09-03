@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
 breadcrumb-title: ''
 description: Utilice el nodo Transformación vectorial para transformar texturas entre dos entradas mediante campos vectoriales para transiciones suaves.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
 breadcrumb-title: ''
 description: Utilice el nodo Edge Wear para generar máscaras de desgaste en los bordes de malla para crear daños realistas en los bordes y efectos de intemperismo.
 helpx_creative_field: ""
