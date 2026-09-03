@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Renderizado de superficie de textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesurfacerender.png){width="200px"}
+![](3d-texture-surface-render.resources/3d-texture-surface-render-01.png){width="200px"}
 
-**En:** *Filtro/Efecto*
-
-**Simple**
+<b>En:</b> Filtro > Efecto
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -48,75 +46,50 @@ La superficie se representa dentro de los límites de un *cubo de unidades*. La 
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Campo de distancia 3D</b> <i>Escala de grises</i> | Imagen de 4096x4096 que representa los 256 <i>sectores</i> del <i>campo de distancia</i> de una forma, organizados en una cuadrícula de 16x16.<br>Puede usar el nodo [SDF de Textura 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) para calcular el campo de distancia de una textura 3D de 256 sectores. |
+| <b>Entorno</b> <i>Color</i> | La imagen que representa el <i>entorno</i>, que debe asignarse a una esfera infinita en el renderizado y utilizarse para calcular la <i>iluminación</i>.<br>La imagen también se usa para representar el fondo de la escena cuando el parámetro <b>Background Mode</b> está establecido en <i>Ambient</i> o <i>Environment</i>. |
+
+<a name="parameters"></a>
+
 ## Parámetros
 
-### Entradas
+|  |  |
+|:---|:---|
+| <b>Resolución de salida</b> <i>Entero2</i> | La resolución de la imagen de salida en <b>X</b> e <b>Y</b>, expresada como una <i>potencia de dos</i>. |
+| <b>Posición de la cámara</b> <i>Float2</i> | Posición de la cámara alrededor de la forma.<br>Cuando se selecciona el nodo, puedes usar el gizmo de posición en el <b>vista 2D</b> para <i>orbitar</i> la cámara. |
+| <b>Distancia de cámara</b> <i>Flotador</i> | La distancia desde la cámara a la forma. |
+| <b>FOV de cámara</b> <i>Flotador</i> | Campo de visión de la cámara en <i>grados</i>. |
+| <b>Albedo</b> <i>Float3</i> | Color de albedo de la superficie de la forma. |
+| <b>Modo en segundo plano</b> <i>Entero</i> | El método para representar el fondo de la escena representada:<br>- <i>Irradiancia del suelo</i>: La irradiancia calculada del plano de tierra<br>- <i>Ambiente</i>: El color de ambiente de la entrada de imagen <b>Environment</b> asignada a una esfera infinita, que es similar a una versión muy borrosa de la imagen<br>- <i>Color uniforme</i>: Rellene el fondo de manera uniforme con un color especificado: <br>- <i>Entorno</i>: La entrada de imagen <b>Environment</b> está asignada a una esfera infinita |
+| <b>Color de fondo</b> <i>Float4</i> | Color utilizado para rellenar uniformemente el fondo de la escena procesada.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Background Mode</b> está establecido en <i>Uniform Color</i>. |
+| <b>Habilitar plano de tierra</b> <i>Booleano</i> | Cuando <i>True</i>, representa un plano de tierra. El <i>cubo de unidades</i> que encierra la forma descansa en este plano. |
+| <b>Plano infinito</b> <i>Booleano</i> | Establece el plano de tierra en <i>extender infinitamente</i> hasta el horizonte.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Habilitar plano de tierra</b> está establecido en <i>True</i>. |
+| <b>Tamaño de plano de tierra</b> <i>Float2</i> | Ajusta el tamaño del plano de tierra.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Habilitar plano de tierra</b> está establecido en <i>True</i> y el parámetro <b>Plano infinito</b> está establecido en <i>False</i>. |
 
-* **Campo de distancia 3D** *Escala de grises*\
-  Imagen de 4096x4096 que representa los 256 *sectores* del *campo de distancia* de una forma, organizados en una cuadrícula de 16x16.\
-  Puede utilizar el nodo [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) para calcular el campo de distancia de una textura 3D de 256 sectores.
-* **Entorno** *Color*\
-  La imagen que representa el *entorno*, que debe asignarse a una esfera infinita en el renderizado y utilizarse para calcular la *iluminación*.\
-  La imagen también se usa para representar el fondo de la escena cuando el parámetro **Background Mode** está establecido en *Ambient* o *Environment*.
+## Ejemplos
 
-### Parámetros
-
-* **Resolución de salida** *Integer2*\
-  La resolución de la imagen de salida en **X** e **Y**, expresada como una *potencia de dos*.
-* **Posición de la cámara** *Float2*\
-  Posición de la cámara alrededor de la forma.\
-  Cuando el nodo esté seleccionado, puedes usar el gizmo de posición en la **Vista en 2D** para *orbitar* la cámara.
-* **Distancia de cámara** *Flotante*\
-  La distancia desde la cámara a la forma.
-* **Fov de cámara** *Float*\
-  Campo de visión de la cámara en *grados*.
-* **Albedo** *Float3*\
-  Color de albedo de la superficie de la forma.
-* **Modo en segundo plano** *Entero*\
-  El método para representar el fondo de la escena procesada:
-  * *Irradiancia del suelo*: La irradiancia calculada del plano de tierra
-  * *Ambiente*: El color de ambiente de la entrada de imagen **Environment** asignada a una esfera infinita, que es similar a una versión muy borrosa de la imagen
-  * *Color uniforme*: Rellenar el fondo de manera uniforme con un color especificado
-  * *Entorno*: La entrada de imagen **Environment** asignada a una esfera infinita
-* **Color de fondo** *Float4*\
-  El color utilizado para rellenar uniformemente el fondo de la escena procesada.\
-  *Nota*: Este parámetro solo está disponible cuando el parámetro **Background Mode** está establecido en *Uniform Color*.
-* **Habilitar plano de tierra** *Boolean*\
-  Cuando *True*, representa un plano de tierra. El *cubo de unidades* que encierra la forma descansa en este plano.
-* **Plano infinito** *Booleano*\
-  Establece el plano de tierra para *extender infinitamente* hasta el horizonte.\
-  *Nota*: Este parámetro solo está disponible cuando el parámetro **Habilitar plano de tierra** está establecido en *True*.
-* **Tamaño de plano de tierra** *Float2* Ajusta el tamaño del plano de tierra.\
-  *Nota*: Este parámetro solo está disponible cuando el parámetro **Habilitar plano de tierra** está establecido en *True* y el parámetro **Plano infinito** está establecido en *False*.
-
-## Imágenes de ejemplo
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-node.png){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-06.png" />
+        </td>
+    </tr>
 </table>

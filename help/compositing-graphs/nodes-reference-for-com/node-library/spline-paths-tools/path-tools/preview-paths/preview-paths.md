@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Previsualizar trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/preview-paths-icon.png "Icono de nodo")
+![Icono de nodo](preview-paths.resources/preview-paths-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -41,24 +41,24 @@ Obtendrás un resultado similar al de la salida de <b>Vista previa</b> de [Másc
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Fondo</b> *Color*\
-Una imagen de fondo encima de con muestra el trazado. Esto también controla el tamaño de procesamiento.
+## Entradas
 
-<b>Rutas</b> *Color*\
-Una lista de los segmentos codificados de las rutas. Conecte esta entrada al resultado de [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a otro nodo de procesamiento de rutas.
+|  |  |
+|:---|:---|
+| <b>Fondo</b> <i>Color</i> | Una imagen de fondo encima de con muestra el trazado. Esto también controla el tamaño de procesamiento. |
+| <b>Rutas</b> <i>Color</i> | Una lista de los segmentos codificados de las rutas. Conecte esta entrada al resultado de [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a otro nodo de procesamiento de rutas. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>Mostrar vértices</b> *Boolean*\
-Muestra un cuadrado en cada vértice marcado como esquina (fusión aditiva).
-
-<b>Mostrar vértices</b> *Boolean*\
-Muestra una forma circular en cada vértice (fusión aditiva). Las esquinas se siguen mostrando como cuadrados.
-
-<b>Thickness de segmentos (px)</b> *Float*\
-Ajusta el thickness de los segmentos procesados en píxeles.
+|  |  |
+|:---|:---|
+| <b>Mostrar vértices</b> <i>Booleano</i> | Muestra un cuadrado en cada vértice marcado como esquina (fusión aditiva). |
+| <b>Mostrar vértices</b> <i>Booleano</i> | Muestra una forma circular en cada vértice (fusión aditiva). Las esquinas se siguen mostrando como cuadrados. |
+| <b>Thickness de segmentos (px)</b> <i>Flotador</i> | Ajusta el thickness de los segmentos procesados en píxeles. |
 
 ## Ejemplos
 
@@ -66,12 +66,12 @@ Ajusta el thickness de los segmentos procesados en píxeles.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](preview-paths.resources/preview-paths-02.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](preview-paths.resources/preview-paths-03.jpg "Ejemplo de nodo 2")
 
 </td>
 </tr>

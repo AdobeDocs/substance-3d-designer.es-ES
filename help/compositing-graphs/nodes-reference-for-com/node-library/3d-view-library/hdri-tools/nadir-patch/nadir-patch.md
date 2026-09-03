@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 5%
 
 ---
 
@@ -22,61 +22,59 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/nadir-patch-01.png){width="200px"}
 
-## Nadir patch
-
-**En:** *Herramientas HDRI/vistas 3D*
-
-**Complejo**
+<b>En:</b> Vista 3D > Herramientas HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Este nodo proporciona la funcionalidad de aplicar parches sobre el punto central del suelo (nadir) de una imagen asignada esféricamente. Se puede utilizar para ocultar o &quot;clonar&quot; un nadir feo, o cámara visible o trípode. Funciona como un [parche de clonación](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md), pero con ajustes para imágenes asignadas esféricamente. El usuario selecciona un punto en otra parte de la imagen, es decir, el punto clonado y mezclado en el nadir. No se requieren otras entradas externas que no sean un único HDRI para procesar, pero se puede utilizar una máscara externa como alfa para el efecto de parche.
+Este nodo proporciona la funcionalidad de aplicar parches sobre el punto central del suelo (nadir) de una imagen asignada esféricamente. Se puede utilizar para ocultar o &quot;clonar&quot; un nadir feo, o cámara visible o trípode. Funciona como un [parche de Clonar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md), pero con ajustes para imágenes asignadas esféricamente. El usuario selecciona un punto en otra parte de la imagen, es decir, el punto clonado y mezclado en el nadir. No se requieren otras entradas externas que no sean un único HDRI para procesar, pero se puede utilizar una máscara externa como alfa para el efecto de parche.
 
 se puede comprobar y validar rápidamente con [Nadir extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Entradas
 
-* **Entrada**: *Entrada de color*
-* **Entrada de máscara**: *Entrada en escala de grises*\
-  Ranura de máscara opcional utilizada para enmascarar el parche. Funciona como un alfa.
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Entrada de color</i> |  |
+| <b>Entrada de máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara opcional utilizada para enmascarar el parche. Funciona como un alfa. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-* **Habilitar**: *Falso/Verdadero*\
-  Activar o desactivar el efecto de aplicación de parches.
-* **Ayuda para mostrar fotogramas**: *Falso/Verdadero*\
-  Mostrar u ocultar las líneas auxiliares, con fines de depuración.
-* **Thickness de fotogramas**: *0.0 - 1.0*\
-  Thickness de líneas auxiliares.
-* **Escala del parche**: *0.0 - 1.0*\
-  Escala de parche global y uniforme. Afecta tanto al origen como al destino.
-* **Tamaño de parche**: *0.0 - 1.0*\
-  Tamaño no uniforme del parche.
-* **Rotación de parche**: *0.0 - 1.0*\
-  Rotación del parche. Afecta al origen y al destino.
-* **Alpha de parches**: *Cuadrado suave, gaussiano, entrada de máscara*\
-  Defina qué alfa se utiliza para fusionar el parche con el fondo.
-* **Dureza del parche**: *0.0 - 1.0*\
-  Definir dureza/contraste de alfa.
-* **Desplazamiento de rotación de origen**: *0.0 - 1.0*\
-  Rotación sólo para el origen del parche.
-* **Coordenadas de posición**
-  * **Posición de origen**:\
-    Posición del origen. Tiene control en vista 2D.
-  * **Posición del parche**:\
-    Posición del objetivo. Tiene control en vista 2D.
+|  |  |
+|:---|:---|
+| <b>Habilitar</b> <i>Falso/Verdadero</i> | Activar o desactivar el efecto de aplicación de parches. |
+| <b>Mostrar Ayudante de Marcos</b> <i>Falso/Verdadero</i> | Mostrar u ocultar las líneas auxiliares, con fines de depuración. |
+| <b>Thickness de Marco</b> <i>0.0 - 1.0</i> | Thickness de líneas auxiliares. |
+| <b>Escala del parche</b> <i>0.0 - 1.0</i> | Escala de parche global y uniforme. Afecta tanto al origen como al destino. |
+| <b>Tamaño de parche</b> <i>0.0 - 1.0</i> | Tamaño no uniforme del parche. |
+| <b>Rotación de parche</b> <i>0.0 - 1.0</i> | Rotación del parche. Afecta al origen y al destino. |
+| <b>Alpha de parches</b> <i>Cuadrado suave, gaussiano, entrada de máscara</i> | Defina qué alfa se utiliza para fusionar el parche con el fondo. |
+| <b>Dureza del parche</b> <i>0.0 - 1.0</i> | Definir dureza/contraste de alfa. |
+| <b>Desplazamiento de rotación de origen</b> <i>0.0 - 1.0</i> | Rotación sólo para el origen del parche. |
+| <b>Coordenadas de posición</b> |  |
+| <b>Posición de origen</b> | Posición del origen. Tiene control en vista 2D. |
+| <b>Posición del parche</b> | Posición del objetivo. Tiene control en vista 2D. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-![](../../../../../../assets/nadir-patch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="nadir-patch.resources/nadir-patch-02.gif" />
+        </td>
+    </tr>
 </table>

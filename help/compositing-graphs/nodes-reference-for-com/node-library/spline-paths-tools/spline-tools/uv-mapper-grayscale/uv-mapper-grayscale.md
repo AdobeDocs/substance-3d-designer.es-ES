@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Escala de grises del asignador UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 1%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/uv-mapper-grayscale-icon.png "Icono de nodo")
+![Icono de nodo](uv-mapper-grayscale.resources/uv-mapper-grayscale-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -47,15 +43,22 @@ Asigna la imagen de escala de grises de entrada mediante las coordenadas proporc
 >
 > Consulte también [Color del asignador UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>UV</b> *Color* Coordenadas de imagen codificadas en los canales rojo (U) y verde (V) de una imagen en color.
+## Entradas
 
-<b>Entrada</b> *Color* Imagen en escala de grises que debe asignarse a las coordenadas proporcionadas en la entrada UV.
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>Color</i> | Coordenadas de imagen codificadas en los canales rojo (U) y verde (V) de una imagen en color. |
+| <b>Entrada</b> <i>Color</i> | La imagen en escala de grises que debe asignarse a las coordenadas proporcionadas en la entrada UV. |
 
-## Conectores de salida
+<a name="outputs"></a>
 
-<b>Salida</b> *Color* Resultado de asignar la imagen de entrada utilizando las coordenadas UV de entrada como imagen en escala de grises.
+## Salidas
+
+|  |  |
+|:---|:---|
+| <b>Salida</b> <i>Color</i> | El resultado de asignar la imagen de entrada utilizando las coordenadas UV de entrada, como una imagen en escala de grises. |
 
 ## Ejemplos
 
@@ -66,11 +69,11 @@ Asigna la imagen de escala de grises de entrada mediante las coordenadas proporc
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-02.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-03.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -82,11 +85,11 @@ Asigna la imagen de escala de grises de entrada mediante las coordenadas proporc
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-04.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-05.jpg" alt="UVMapper-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -96,18 +99,4 @@ Asigna la imagen de escala de grises de entrada mediante las coordenadas proporc
 </tr>
 </table>
 
-![Ejemplo de nodo 1](../../../../../../assets/UVMapper-Graph.jpg "Ejemplo de nodo 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![Ejemplo de nodo 1](uv-mapper-grayscale.resources/uv-mapper-grayscale-06.jpg "Ejemplo de nodo 1")

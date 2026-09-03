@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Scratches de suciedades Rough
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
+![](grunge-scratches-rough.resources/grunge-scratches-rough-01.jpg){width="200px"}
 
-**En:** *Generadores De Texturas* */Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,40 +39,40 @@ El nodo **Suciedad Scratches Rough** genera un mapa de suciedades similar a una 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Equilibrio** *Flotante* Ajusta el equilibrio entre los valores oscuros y brillantes.
-* **Contraste** *Flotante* Ajusta el contraste de la imagen.
-* **Invertir** *Boolean* Invierte el resultado de la imagen mediante una operación `1-x`.
-* **Expansión no cuadrada** *Booleano* Habilita la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* Avanzadas
-  * **Cantidad de arañazos** *Flotante* Ajusta la cantidad de arañazos en la superficie.
-  * **Mosaico de muestras** *Entero* Ajusta la cantidad de mosaico aplicado a los arañazos.
-  * **Desenfoque por rascado** *Flotante* Ajusta el desenfoque de los rasguños.
-  * **Anchura de rascado** *Flotante* Ajusta la anchura de los rasguños.
-  * **Longitud de rasguño** *Flotante* Ajusta la longitud de los rasguños.
-  * **Enmascaramiento de arañazos** *Flotante* Ajusta la intensidad de la máscara aplicada en partes de los arañazos.
-  * **Suciedad de rasguños** *Flotador* Ajusta la suciedad de los rasguños, lo que rompe su nitidez y continuidad.
-  * **Doble rasguño** *Flotante* Ajusta la opacidad de un segundo rasguño aplicado junto a cada rasguño con un ligero efecto de deformación.
-  * **Intensidad de manchas de rayado** *Flotador* Ajusta la intensidad de las manchas dañadas aplicadas junto con las rayaduras.
-  * **Mosaico de manchas de rayado** *Entero* Ajusta el mosaico de las manchas dañadas.
-  * **Intensidad del Dust** *Flotante* Ajusta la intensidad de la superposición del dust.
-  * **Mosaico de Dust** *Entero* Ajusta el mosaico de la superposición de dust.
-  * **Intensidad de enfoque** *Flotante* Ajusta la intensidad del efecto de enfoque global.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Avanzado</b> |  |
+| <b>Cantidad de memoria virtual</b> <i>Flotante</i> | Ajusta la cantidad de arañazos en la superficie. |
+| <b>Mosaico de memoria virtual</b> <i>Entero</i> | Ajusta la cantidad de mosaico aplicado a los arañazos. |
+| <b>Desenfoque de memoria virtual</b> <i>Flotador</i> | Ajusta el desenfoque de los arañazos. |
+| <b>Ancho de memoria virtual</b> <i>Flotador</i> | Ajusta la anchura de los arañazos. |
+| <b>Longitud de memoria virtual</b> <i>Flotador</i> | Ajusta la longitud de los arañazos. |
+| <b>Enmascaramiento de memoria virtual</b> <i>Flotador</i> | Ajusta la intensidad de la máscara aplicada en partes de los arañazos. |
+| <b>Suciedad de rascado</b> <i>Flotador</i> | Ajusta la suciedad de los arañazos, lo que rompe su nitidez y continuidad. |
+| <b>Doble rascado</b> <i>Flotador</i> | Ajusta la opacidad de un segundo rasguño aplicado junto a cada rasguño con un ligero efecto de deformación. |
+| <b>Intensidad de manchas de rayado</b> <i>Flotador</i> | Ajusta la intensidad de los puntos dañados aplicados junto con los arañazos. |
+| <b>Mosaico de manchas de memoria virtual</b> <i>Entero</i> | Ajusta el mosaico de los puntos dañados. |
+| <b>Intensidad de Dust</b> <i>Flotador</i> | Ajusta la intensidad de la superposición de dust. |
+| <b>Mosaico de Dust</b> <i>Entero</i> | Ajusta el mosaico de la superposición de dust. |
+| <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajusta la intensidad del efecto de enfoque global. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungescratchesrough-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungescratchesrough-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-03.jpg" />
+        </td>
+    </tr>
 </table>

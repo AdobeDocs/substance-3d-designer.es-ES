@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desenfoque de pendiente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '214'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/slope-blur.png){width="128px"}
+![](slope-blur.resources/slope-blur-01.png){width="128px"}
 
-![](../../../../../../assets/slope-blur-grayscale.png){width="128px"}
+![](slope-blur.resources/slope-blur-02.png){width="128px"}
 
-## Desenfoque de pendiente (escala de grises)
-
-**En:** *Filtros/Desenfoques*
-
-**Intermedio**
+<b>En:</b> Filtros > Desenfoques
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -45,26 +41,37 @@ Este es uno de los desenfoques más interesantes y potentes de Designer. Se pued
 
 Importante: asegúrese de utilizar la versión adecuada para su entrada! Utiliza &quot;Desenfoque de Pendiente&quot; para las entradas de color o &quot;Desenfoque de Pendiente en escala de grises&quot; para las entradas de escala de grises.
 
-## Parámetros
-
-### Entradas
-
-* **Pendiente**: *Entrada en escala de grises* mapa de Pendiente para controlar el ángulo de la anisotropía. Debe contener idealmente degradados inclinados; las transiciones duras y nítidas no funcionarán bien.
-
-### Parámetros
-
-* **Ejemplos**: *0 - 32* La cantidad de muestras afecta la calidad a expensas de la velocidad.
-* **Intensidad**: *0.0 - 16.0*\
-  Cantidad o intensidad del desenfoque.
-* **Modo**: *Desenfocar, Mín., Máx.*|\
-  Modo de fusión para las pasadas de desenfoque consiguientes. &quot;Desenfocar&quot; se comporta más como un [Desenfoque Anisotrópico](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) estándar, mientras que Min &quot;comerá&quot; las áreas existentes y Max &quot;manchará&quot; las áreas blancas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/slopeblur01.gif)
-
-![](../../../../../../assets/slopeblur02.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Pendiente</b> <i>Entrada en escala de grises</i> | Mapa de pendiente para controlar el ángulo de la anisotropía. Debe contener idealmente degradados inclinados; las transiciones duras y nítidas no funcionarán bien. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Ejemplos</b> <i>0 - 32</i> | Cantidad de muestras, afecta a la calidad a expensas de la velocidad. |
+| <b>Intensidad</b> <i>0.0 - 16.0</i> | Cantidad o intensidad del desenfoque. |
+| <b>Modo</b> <i>Desenfocar, Mín., Máx.</i> | Modo de fusión para las pasadas de desenfoque consiguientes. &quot;Desenfocar&quot; se comporta más como un [Desenfoque Anisotrópico](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) estándar, mientras que Min &quot;comerá&quot; las áreas existentes y Max &quot;manchará&quot; las áreas blancas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="slope-blur.resources/slope-blur-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="slope-blur.resources/slope-blur-04.gif" />
+        </td>
+    </tr>
 </table>

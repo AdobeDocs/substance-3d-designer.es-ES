@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ID para enmascarar escala de grises
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 1%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Id. para enmascarar icono de escala de grises](../../../../../../assets/IDToMask.png "Id. para enmascarar icono de escala de grises"){width="200px"}
+![Id. para enmascarar icono de escala de grises](id-to-mask.resources/id-to-mask-01.png "Id. para enmascarar icono de escala de grises"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -41,42 +41,28 @@ Un mapa de ID es una imagen en la que los píxeles que forman parte de un todo (
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parámetros
-
-</td>
-</tr>
-</table>
-
-## Conectores de entrada
+## Entradas
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *Escala de grises* PRINCIPAL | Mapa de ID de entrada del que se debe extraer una máscara. |
+|:---|:---|
+| <b>ID</b> <i>Escala de grises</i> PRINCIPAL | Mapa de ID de entrada del que se debe extraer una máscara. |
 
-## Conectores de salida
+<a name="outputs"></a>
+
+## Salidas
 
 |  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises* | Máscara binaria extraída de la asignación de ID de entrada. |
+|:---|:---|
+| <b>Salida</b> <i>Escala de grises</i> | Máscara binaria extraída de la asignación de ID de entrada. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Modo de selección</b> *Entero* | Método de selección de los valores de píxeles en el mapa de ID que deben ser blancos en la máscara:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Solo:</b> Seleccione un valor de píxel único</li> <li data-preserve-html="true"><b>Rango:</b> Seleccione un rango de valores de píxeles</li> </ul> |
 | <b>Entero de Id.</b> *Entero* *Disponible cuando &#39;Selection Mode&#39; está establecido en &#39;Solo&#39;* | El valor de píxel en el mapa de ID que debe ser blanco en la máscara de salida. |
 | <b>Intervalo de ID</b> *Integer2* *Disponible cuando &#39;Selection Mode&#39; está establecido en &#39;Range&#39;* | Rango de valores de píxeles del mapa de ID, de principio a fin, que debería ser blanco en la máscara de salida. |
@@ -86,11 +72,11 @@ Un mapa de ID es una imagen en la que los píxeles que forman parte de un todo (
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id-to-mask-02.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id-to-mask-03.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -100,12 +86,12 @@ Un mapa de ID es una imagen en la que los píxeles que forman parte de un todo (
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Id. para enmascarar: Ejemplo 2](../../../../../../assets/id_to_mask_example_2.gif "ID para enmascarar: Ejemplo 2"){zoomable="yes"}
+![Id. para enmascarar: Ejemplo 2](id-to-mask.resources/id-to-mask-04.gif "ID para enmascarar: Ejemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Id. para enmascarar: Ejemplo 3](../../../../../../assets/id_to_mask_example_3.png "ID que enmascarar: Ejemplo 3"){zoomable="yes"}
+![Id. para enmascarar: Ejemplo 3](id-to-mask.resources/id-to-mask-05.png "ID que enmascarar: Ejemplo 3"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversión de escala de grises
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Conversión de escala de grises](../../../../assets/comp_grayscaleconversion_1.png "Nodo atómico: Conversión en escala de grises"){width="200px"}
+![Nodo atómico: Conversión de escala de grises](grayscale-conversion.resources/grayscale-conversion-01.png "Nodo atómico: Conversión en escala de grises"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -92,9 +92,9 @@ Esto significa que, por lo general, un nodo de conversión de escala de grises s
 
 |  |  |
 | --- | --- |
-| <b>Grosores de canal</b> *Float4* | Define el grosor de cada uno de los canales RGBA en la conversión de escala de grises.   De forma predeterminada, se realiza una división uniforme entre los canales del RGB. |
-| <b>Acoplar alfa</b> *Booleano* | Establece el comportamiento del Alpha en el resultado final de la escala de grises, ya que los valores de escala de grises no pueden contener información del Alpha.   Cuando es *True*, la conversión de escala de grises se multiplica por el canal Alpha de la imagen de entrada |
-| <b>Valor de fondo</b> *Flotador* | Establece el valor de fondo base cuando la entrada tiene una máscara alfa. Es decir, determina qué píxeles deben tratarse como transparentes.   *Disponible cuando &#39;Acoplar alfa&#39; está establecido en &#39;Verdadero&#39;.* |
+| <b>Grosores de canal</b> *Float4* | Define el grosor de cada uno de los canales RGBA en la conversión de escala de grises.   De forma predeterminada, se realiza una división uniforme entre los canales del RGB. |
+| <b>Acoplar alfa</b> *Booleano* | Establece el comportamiento del Alpha en el resultado final de la escala de grises, ya que los valores de escala de grises no pueden contener información del Alpha.   Cuando es *True*, la conversión de escala de grises se multiplica por el canal Alpha de la imagen de entrada |
+| <b>Valor de fondo</b> *Flotador* | Establece el valor de fondo base cuando la entrada tiene una máscara alfa. Es decir, determina qué píxeles deben tratarse como transparentes.   *Disponible cuando &#39;Acoplar alfa&#39; está establecido en &#39;Verdadero&#39;.* |
 
 ## Conectores de entrada
 

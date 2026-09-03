@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mezclador de canales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 1%
+source-wordcount: '120'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/channel-mixer.png){width="128px"}
+![](channel-mixer.resources/channel-mixer-01.png){width="128px"}
 
-## Mezclador de canales
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Permite mezclar, intercambiar y fusionar canales RGB. Se puede utilizar para cambiar canales, realizar conversiones de escala de grises más precisas y diferentes tipos de empaquetado.
 
-## Parámetros
-
-* **Canal rojo**: *-200.0 -* 200.0\
-  Determina la cantidad de canales del RGB de entrada que se van al canal rojo de salida.
-* **Canal Verde**: *-200.0 - 200.0*\
-  Determina qué cantidad de canales del RGB de entrada van al canal verde de salida.
-* **Canal azul**: *-200.0 - 200.0* Determina la cantidad de canales de RGB de entrada que van al canal azul de salida.
-* **Monocromo**: *Falso/Verdadero* Salida a monocromo. Permite una conversión de escala de grises más precisa.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/channelmixer.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canal rojo</b> <i>-200.0 - 200.0</i> | Determina la cantidad de canales del RGB de entrada que se van al canal rojo de salida. |
+| <b>Canal Verde</b> <i>-200.0 - 200.0</i> | Determina qué cantidad de canales del RGB de entrada van al canal verde de salida. |
+| <b>Canal azul</b> <i>-200.0 - 200.0</i> | Determina qué cantidad de canales del RGB de entrada van al canal azul de salida. |
+| <b>Monocromo</b> <i>Falso/Verdadero</i> | Salida a monocromo. Permite una conversión de escala de grises más precisa. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="channel-mixer.resources/channel-mixer-02.gif" />
+        </td>
+    </tr>
 </table>

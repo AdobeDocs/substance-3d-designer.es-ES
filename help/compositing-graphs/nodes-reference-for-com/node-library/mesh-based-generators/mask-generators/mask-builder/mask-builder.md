@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Creador de máscaras
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 0%
+source-wordcount: '762'
+ht-degree: 10%
 
 ---
 
@@ -22,116 +22,101 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder-01.png){width="128px"}
 
-## Creador de máscaras
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Complejo**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Esta es prácticamente la versión de Designer del Creador de máscaras de Painter.
 
-Se trata de una herramienta complicada pensada como un creador de máscaras todo-abarcador, basado en mapas con bake, parámetros de usuario y patrones y mapas de suciedad. Está pensado principalmente como un nodo muy avanzado y de control total para mezclar el dirt de pliegue y el desgaste de los bordes. Este nodo es lo suficientemente potente como para imitar a cualquier otro generador de máscaras.
+Se trata de una herramienta complicada pensada como un creador de máscaras todo-abarcador, basado en mapas con bake, parámetros de usuario y patrones y mapas de suciedad. Está pensado principalmente como un nodo muy avanzado y de control total para mezclar el dirt de pliegue y el desgaste de los bordes. Este nodo es lo suficientemente potente como para imitar cualquier otro Generador de máscaras.
 
-No se requieren pasteles explícitamente, pero cuanto más suministre, más podrá hacer este nodo.
-
-## Parámetros
-
-### Entradas
-
-* **Oclusión de ambiente**: *Entrada en escala de grises*
-* **Curvatura**: *Entrada en escala de grises*
-* **Normal del Espacio Mundial**: *Entrada de color*
-* **Entrada de Suciedad**: *Entrada en escala de grises*
-* **Entrada de Suciedad 2**: *Entrada en escala de grises*
-* **Entrada de Dispersión**: *Entrada en escala de grises*\
-  Sello de dispersión personalizado, necesario para utilizar los parámetros de Dispersión.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-* **Posición**: *Entrada de color*\
-  Se utiliza para los efectos Triplanar y Superior-Inferior.
-
-### Parámetros
-
-* **Nivel**: *0.0 - 1.0*\
-  Define el nivel total del efecto y lo revela gradualmente.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
-* **Invertir**: *Falso/Verdadero*\
-  Invierte el resultado. Útil para lograr lo contrario de la máscara que está construyendo.
-* **Usar triplanar**: *Falso/Verdadero* Permite la proyección triplanar, evitando cualquier costura con mapas de suciedades.
-* **Contraste de fusión triplanar**: *0.0 - 1.0* Establece el contraste para la fusión triplanar.
-* **Suciedad**: *0.0 - 1.0* Establece la cantidad de Suciedad que se debe fusionar a nivel global.
-* **Suciedad**
-  * **Escala**: *0 - 10* Establece la escala de la Suciedad global.
-  * **Usar Suciedad personalizada**: *Falso/Verdadero* Habilita la entrada de Suciedad personalizada.
-  * **Suciedad personalizada secundaria**: *0.0 - 1.0* Habilita una segunda entrada de Suciedad personalizada.
-  * **Invertir**: *Falso/Verdadero*\
-    Invierte el mapa de Suciedades.
-* **AO**: *-1.0 - 1.0* Establece la medida en que el efecto debe aparecer en áreas de AO ocluidas. Se puede ajustar con el grupo siguiente.
-* **AO**
-  * **Intervalo**: *0.0 - 1.0* Establece el umbral o intervalo para la apariencia del dirt.
-  * **Contraste**: *0.0 - 1.0*\
-    Ajusta el contraste del efecto AO.
-  * **Ruido**: *0.0 - 1.0* Define la cantidad de ruido/suciedad que se mezclará en el efecto AO.
-  * **Escala de ruido**: *0 - 10* Establece la escala del ruido/suciedad del AO.
-  * **Tipo de ruido**: *Manchas, Nube, Humedad, Ruido Blanco* Cambia entre 4 tipos diferentes de ruido AO.
-  * **Invertir**: *Falso/Verdadero*\
-    Invierte la interpretación del mapa AO: El ruido aparecerá en las áreas de AO brillantes, no en las oscuras.
-* **Curvatura**: *0.0 - 1.0* Establece el efecto que debe aparecer en los bordes de curvatura; puede ser tanto convexo como cóncavo. Ajusta esto con el grupo de abajo.
-* **Curvatura**
-  * **Rango convexo**: *-1.0 - 1.0* Establece el efecto que debe aparecer en los bordes de curvatura convexos (brillantes).
-  * **Contraste convexo**: *0.0 - 1.0* Establece el contraste del efecto Convexo.
-  * **Inversión convexa**: *False/True* Invierte la interpretación de los bordes convexos.
-  * **Rango cóncavo**: *-1.0 - 1.0* Establece el efecto que debe aparecer en los bordes de curvatura cóncavos (oscuros).
-  * **Contraste cóncavo**: *0.0 - 1.0* Establece el contraste del rango cóncavo.
-  * **Invertir cóncavo**: *Falso/Verdadero* Invierte la interpretación de los bordes cóncavos.
-  * **Smoothness**: *0.0 - 16.0* Cantidad de desenfoque y suavizado que se aplica a los bordes de Curvatura.
-  * **Aumento de nivel**: *0.0 - 1.0* Refuerzo adicional si el efecto no es suficientemente visible.
-  * **Ruido**: *0.0 - 1.0* Establece la influencia del ruido/suciedad en el efecto Curvatura.
-  * **Escala de ruido**: *0 - 10* Establece la escala del ruido.
-  * **Tipo de ruido**: *Manchas, Nube, Humedad, Ruido Blanco* Elige entre 4 tipos diferentes de Ruido.
-* **Degradado superior/inferior**: *-1.0 - 1.0* Se fusiona o enmascara con un degradado de arriba a abajo basado en el mapa de posición. Los valores positivos hacen que las cosas sean más brillantes, mientras que los valores negativos enmascaran los efectos existentes.
-* **Degradado**
-  * **Intervalo**: *0.0 - 1.0* Establece la posición del degradado.
-  * **Contraste**: *0.0 - 1.0*\
-    Ajusta el contraste del degradado.
-  * **Invertir**: *Falso/Verdadero*\
-    Invierte el degradado. Intercambia de forma efectiva la parte inferior y superior.
-* **Normal del Espacio Mundial**: *0.0 - 1.0* Similar a Degradado arriba/abajo, pero con el mapa de posición y en seis direcciones, parecido a una iluminación falsa. Los valores positivos se aclaran, los negativos se oscurecen.
-* **Normal del Espacio Mundial**
-  * **Intensidad superior**: *-1.0 - 1.0*
-  * **Intensidad inferior**: *-1.0 - 1.0*
-  * **Intensidad frontal**: *-1.0 - 1.0*
-  * **Intensidad De Respaldo**: *-1.0 - 1.0*
-  * **Intensidad Derecha**: *-1.0 - 1.0*
-  * **Intensidad izquierda**: *-1.0 - 1.0*
-* **Scratches**: *-1.0 - 1.0* Fusiona arañazos en las áreas blancas.
-* **Scratches**
-  * **Importe**: *0 - 4096* Define la cantidad total de arañazos.
-  * **Escala**: *0.0 - 1.0* Establece la escala de arañazos individuales.
-* **Dispersión**: *-1.0 - 1.0* Dispersión un sello personalizado dentro de áreas blancas.
-* **Dispersión**
-  * **Escala**: *0 - 50* Escala total del efecto.
-  * **Densidad**: *0.0 - 1.0* Control de densidad de dispersión, número que debe aparecer.
-  * **Tamaño**: *0.0 - 4.0* Tamaño del sello disperso.
-  * **Variación de tamaño**: *0.0 - 1.0* Variación dentro del tamaño de sello.
-  * **Variación de opacidad**: *0.0 - 1.0* Variación dentro de la opacidad del sello.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
+No se requieren hagas un bake explícitamente, pero cuanto más suministre, más podrá hacer este nodo.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> |  |
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> |  |
+| <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> |  |
+| <b>Entrada de Suciedad</b> <i>Entrada en escala de grises</i> |  |
+| <b>Entrada de Suciedad 2</b> <i>Entrada en escala de grises</i> |  |
+| <b>Entrada de Dispersión</b> <i>Entrada en escala de grises</i> | Sello de dispersión personalizado, necesario para utilizar los parámetros de Dispersión. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+| <b>Posición</b> <i>Entrada de color</i> | Se utiliza para los efectos Triplanar y Superior-Inferior. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Define el nivel total del efecto y lo revela gradualmente. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
+| <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el resultado. Útil para lograr lo contrario de la máscara que está construyendo. |
+| <b>Usar triplanar</b> <i>Falso/Verdadero</i> | Permite la proyección triplanar, evitando cualquier costura con mapas de suciedad. |
+| <b>Contraste de fusión triplanar</b> <i>0.0 - 1.0</i> | Define el contraste para la fusión triplanar. |
+| <b>Suciedad</b> <i>0.0 - 1.0</i> | Define la cantidad de Suciedad que se debe fusionar globalmente. |
+| <b>Suciedad</b> |  |
+| <b>Escala</b> <i>0 - 10</i> | Define la escala de la Suciedad global. |
+| <b>Usar Suciedad personalizada</b> <i>Falso/Verdadero</i> | Habilita la entrada de Suciedad personalizada. |
+| <b>Suciedad secundaria personalizada</b> <i>0.0 - 1.0</i> | Habilita una segunda entrada de Suciedad personalizada. |
+| <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el mapa de Suciedades. |
+| <b>AO</b> <i>-1.0 - 1.0</i> | Define el grado en el que el efecto debe aparecer en áreas de AO ocluidas. Se puede ajustar con el grupo siguiente. |
+| <b>AO</b> |  |
+| <b>Intervalo</b> <i>0.0 - 1.0</i> | Establece el umbral o el intervalo para el aspecto del dirt. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del efecto AO. |
+| <b>Ruido</b> <i>0.0 - 1.0</i> | Define la cantidad de ruido/suciedad que se debe fusionar en el efecto AO. |
+| <b>Escala de ruido</b> <i>0 - 10</i> | Define la escala del ruido/suciedad de AO. |
+| <b>Tipo de ruido</b> <i>Manchas, Nube, Humedad, Ruido Blanco</i> | Cambia entre 4 tipos diferentes de ruido de AO. |
+| <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte la interpretación del mapa AO: El ruido aparecerá en las áreas de AO brillantes, no en las oscuras. |
+| <b>Curvatura</b> <i>0.0 - 1.0</i> | Define el efecto que debe aparecer en los bordes de curvatura; puede ser tanto convexo como cóncavo. Ajusta esto con el grupo de abajo. |
+| <b>Curvatura</b> |  |
+| <b>Rango convexo</b> <i>-1.0 - 1.0</i> | Define el efecto que debe aparecer en los bordes de curvatura convexos (brillantes). |
+| <b>Contraste convexo</b> <i>0.0 - 1.0</i> | Define el contraste del efecto Convexo. |
+| <b>Inversión convexa</b> <i>Falso/Verdadero</i> | Invierte la interpretación de los bordes convexos. |
+| <b>Rango cóncavo</b> <i>-1.0 - 1.0</i> | Define el efecto que debe aparecer en los bordes de curvatura cóncavos (oscuros). |
+| <b>Contraste cóncavo</b> <i>0.0 - 1.0</i> | Define el contraste del rango cóncavo. |
+| <b>Invertir cóncavo</b> <i>Falso/Verdadero</i> | Invierte la interpretación de los bordes cóncavos. |
+| <b>Smoothness</b> <i>0.0 - 16.0</i> | Cantidad de desenfoque y suavizado que se aplica a los bordes de Curvatura. |
+| <b>Aumento de nivel</b> <i>0.0 - 1.0</i> | Refuerzo adicional si el efecto no es lo suficientemente visible. |
+| <b>Ruido</b> <i>0.0 - 1.0</i> | Define la influencia del ruido/suciedad en el efecto Curvatura. |
+| <b>Escala de ruido</b> <i>0 - 10</i> | Define la escala del ruido. |
+| <b>Tipo de ruido</b> <i>Manchas, Nube, Humedad, Ruido Blanco</i> | Elija entre 4 tipos de ruido diferentes. |
+| <b>Degradado superior/inferior</b> <i>-1.0 - 1.0</i> | Fusiones sobre o máscaras con un degradado de arriba abajo basado en el mapa de posición. Los valores positivos hacen que las cosas sean más brillantes, mientras que los valores negativos enmascaran los efectos existentes. |
+| <b>Degradado</b> |  |
+| <b>Intervalo</b> <i>0.0 - 1.0</i> | Establece la posición del degradado. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del degradado. |
+| <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el degradado. Intercambia de forma efectiva la parte inferior y superior. |
+| <b>Normal del Espacio Mundial</b> <i>0.0 - 1.0</i> | Similar a Degradado arriba/abajo, pero con el mapa de posición y en seis direcciones, parecido a una iluminación falsa. Los valores positivos se aclaran, los negativos se oscurecen. |
+| <b>Normal del Espacio Mundial</b> |  |
+| <b>Intensidad superior</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensidad inferior</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensidad frontal</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensidad De Respaldo</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensidad derecha</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensidad izquierda</b> <i>-1.0 - 1.0</i> |  |
+| <b>Scratches</b> <i>-1.0 - 1.0</i> | Fusión arañazos en las áreas blancas. |
+| <b>Scratches</b> |  |
+| <b>Importe</b> <i>0 - 4096</i> | Define la cantidad total de arañazos. |
+| <b>Escala</b> <i>0.0 - 1.0</i> | Define la escala de arañazos individuales. |
+| <b>Dispersión</b> <i>-1.0 - 1.0</i> | Dispersión un sello personalizado dentro de áreas blancas. |
+| <b>Dispersión</b> |  |
+| <b>Escala</b> <i>0 - 50</i> | Escala total del efecto. |
+| <b>Densidad</b> <i>0.0 - 1.0</i> | Control de densidad de dispersión, número que debe aparecer. |
+| <b>Tamaño</b> <i>0.0 - 4.0</i> | Tamaño del sello disperso. |
+| <b>Variación de tamaño</b> <i>0.0 - 1.0</i> | Variación dentro del tamaño de sello. |
+| <b>Variación de opacidad</b> <i>0.0 - 1.0</i> | Variación dentro de la opacidad del sello. |

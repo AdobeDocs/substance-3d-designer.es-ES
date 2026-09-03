@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
-description: Utilice el nodo HQ Normal a Height para convertir mapas normales en mapas de height de alta calidad para la extracción de detalles de superficie.
+description: Utilice el nodo HQ Normal a Height para convertir mapas de normales en mapas de altura de alta calidad para la extracción de detalles de superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normal Al Height HQ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '190'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
+![](normal-to-height-hq.resources/normal-to-height-hq-01.png){width="128px"}
 
-## Normal Al Height HQ
-
-**En:** *Filtros/Mapa Normal*
-
-**Intermedio**
+<b>En:</b> Filtros > Mapa de normales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,21 +37,28 @@ Nodo de conversión inversa que intenta volver a convertir un mapa normal de esp
 
 Útil para cuando sólo tiene un origen Normalmap, pero aún desea realizar operaciones combinándolo con un mapa de altura. Tenga en cuenta que esto nunca podrá proporcionar un resultado 100% correcto, ya que la información se pierde por la naturaleza del proceso cuando el Height se convierte a Normal. Nunca puede reemplazar un mapa de altura correctamente generado!
 
-## Parámetros
-
-* **Formato normal**: *DirectX, OpenGL*\
-  Cambia entre diferentes formatos de Mapa normal (invierte el canal verde).
-* **Equilibrio de Relieve**: *0.0 - 1.0* Mezcla entre el sesgo de frecuencia baja y alta.
-* **Intensidad de Height**: *0.0 - 1.0* Intensidad o multiplicador para el mapa de altura, funciona un poco como la opacidad global.
-* **Normalizar Height**: *Falso/Verdadero* Ajusta automáticamente el rango de mapa de altura para usar contraste completo, como un [nivel automático](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md).
-* **Calidad**: *Normal, Alta* Cambia entre velocidad y calidad.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/normal2height-hq-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
+| <b>Equilibrio de Relieve</b> <i>0.0 - 1.0</i> | Fusiones entre el sesgo de baja y alta frecuencia. |
+| <b>Intensidad de Height</b> <i>0.0 - 1.0</i> | Intensidad o multiplicador para el mapa de altura, funciona un poco como la opacidad global. |
+| <b>Normalizar Height</b> <i>Falso/Verdadero</i> | Ajusta automáticamente el rango de mapa de altura para utilizar contraste completo, como un [nivel automático](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md). |
+| <b>Calidad</b> <i>Normal, Alta</i> | Cambia entre velocidad o calidad. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-to-height-hq.resources/normal-to-height-hq-02.png" />
+        </td>
+    </tr>
 </table>

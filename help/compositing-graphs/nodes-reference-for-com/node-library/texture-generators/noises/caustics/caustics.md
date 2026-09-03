@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cáustico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '229'
+ht-degree: 5%
 
 ---
 
@@ -22,52 +22,47 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
+![](caustics.resources/caustics-01.png){width="128px"}
 
-**En:** *Generadores De Texturas**/Ruidos*
-
-**Complejo**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Genera cáusticos proyectados basados en un mapa de height y una dirección de la luz.Tanto en la versión en escala de grises como en la de color, las diferencias son sutiles, pero la versión en color añade efectos de dispersión de color. La luz se proyecta desde un único punto, no se utiliza ningún mapa de entorno.
+Genera cáusticos proyectados en función de un mapa de altura y una dirección de la luz.Tanto en la versión en escala de grises como en la de color, las diferencias son sutiles, pero la versión en color añade efectos de dispersión de color. La luz se proyecta desde un único punto, no se utiliza ningún mapa de entorno.
 
 </td>
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Espacio de color de salida**: *Raw, sRGB*\
-  Establecer el espacio de color de salida.
-* **Tamaño de cuadrícula de fotones**: *Auto, 512, 1024, 2048, 4096*\
-  Establece la calidad ajustando el tamaño de la cuadrícula, pero de forma predeterminada la entrada coincidente. Se puede utilizar para acelerar el cálculo.
-* **Escala de Height de superficie**: *0.0 - 1.0*\
-  Multiplicador para determinar la interpretación del height.
-* **Posición del Height de superficie**: *0.0 - 1.0*\
-  Ajuste la distancia de la superficie de refracción a la proyección.
-* **IOR de superficie**: *1.0 - 2.0*\
-  Defina el índice de refracción; en la versión de color, esto añade más dispersión de color.
-* **Tamaño del fotón**: *1.0 - 50.0*\
-  El tamaño del fotón afecta a la nitidez del efecto.
-* **Dispersión**: *0.0 - 0.01 (solo versión de color)*\
-  Afecta solo a la dispersión del color. No es visible cuando el IOR es bajo.
-* **Vibración**: *0.0 - 1.0*\
-  Añada vibraciones irregulares a las partículas de fotones fundidos.
-* **Posición de la luz**:\
-  Mueve la posición de la luz. También se realiza mediante un gizmo en la vista 2D.
-* **Color de fondo**: *(Valor de color) (Solo versión de color)*\
-  Cambiar el color de fondo. Limitado al negro en la versión en escala de grises.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Active la compensación de aplastamiento y estiramiento con proporciones que no sean de cuadrados.
+|  |  |
+|:---|:---|
+| <b>Espacio de color de salida</b> <i>Raw, sRGB</i> | Establecer el espacio de color de salida. |
+| <b>Tamaño de cuadrícula de fotones</b> <i>Auto, 512, 1024, 2048, 4096</i> | Establece la calidad ajustando el tamaño de la cuadrícula, pero de forma predeterminada la entrada coincidente. Se puede utilizar para acelerar el cálculo. |
+| <b>Escala de Height de superficie</b> <i>0.0 - 1.0</i> | Multiplicador para determinar la interpretación del height. |
+| <b>Posición del Height de superficie</b> <i>0.0 - 1.0</i> | Ajuste la distancia de la superficie de refracción a la proyección. |
+| <b>IOR de superficie</b> <i>1.0 - 2.0</i> | Defina el índice de refracción; en la versión de color, esto añade más dispersión de color. |
+| <b>Tamaño de fotón</b> <i>1.0 - 50.0</i> | El tamaño del fotón afecta a la nitidez del efecto. |
+| <b>Dispersión</b> <i>0.0 - 0.01 (solo versión de color)</i> | Afecta solo a la dispersión del color. No es visible cuando el IOR es bajo. |
+| <b>Vibración</b> <i>0.0 - 1.0</i> | Añada vibraciones irregulares a las partículas de fotones fundidos. |
+| <b>Posición de luz</b> | Mueve la posición de la luz. También se realiza mediante un gizmo en el Vista 2D. |
+| <b>Color de fondo</b> <i>(Valor de color) (Solo versión de color)</i> | Cambiar el color de fondo. Limitado al negro en la versión en escala de grises. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de aplastamiento y estiramiento con proporciones que no sean de cuadrados. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/rt-caustics-grayscale-1.png" width="300px"/></div> |
-| --- |
-|  |
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="caustics.resources/caustics-02.png" />
+        </td>
+    </tr>
+</table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aprendizaje de Tutorials
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%
@@ -26,7 +26,7 @@ La documentación está destinada principalmente a ser una referencia técnica e
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Ilustración del tutorial de los primeros pasos de ![](../../assets/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
+[Ilustración del tutorial de los primeros pasos de ![](tutorials-learning.resources/tutorials-learning-01.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ Serie para principiantes centrada en dar tus primeros pasos con Designer. Presen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Ilustración del tutorial de ![&#39;Creación de tu primer material&#39;](../../assets/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
+[Ilustración del tutorial de ![&#39;Creación de tu primer material&#39;](tutorials-learning.resources/tutorials-learning-02.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Una gran serie de vídeos para principiantes que te lleva a través de todo el p
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Ilustración del tutorial de sugerencias rápidas de ![](../../assets/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
+[Ilustración del tutorial de sugerencias rápidas de ![](tutorials-learning.resources/tutorials-learning-03.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Cada vídeo de sugerencias rápidas se centra en un conjunto de nodos y técnica
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![&#39;La ilustración del tutorial de tu smartphone es un escáner de materiales](../../assets/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
+[![&#39;La ilustración del tutorial de tu smartphone es un escáner de materiales](tutorials-learning.resources/tutorials-learning-04.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">

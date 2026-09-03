@@ -10,10 +10,10 @@ helpx_tags: ""
 title: División RGBA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-split.png){width="128px"}
+![](rgba-split.resources/rgba-split-01.png){width="128px"}
 
-## División RGBA
-
-**En:** *Filtros/Canales*
-
-**Simple**
+<b>En:</b> Filtros > Canales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Divide una imagen de entrada en sus canales rojo, verde, azul y Alpha respectivos. &quot;Desempaqueta&quot; una imagen de forma efectiva.
 
 Útil para analizar y utilizar canales empaquetados por separado. Cuando se utiliza un mapa de posición al horno o un mapa normalizado de espacio mundial al horno para efectos en Substance Painter, permite seleccionar el componente X, Y o Z, por ejemplo.
-
-## Parámetros
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
 
 </td>
 </tr>

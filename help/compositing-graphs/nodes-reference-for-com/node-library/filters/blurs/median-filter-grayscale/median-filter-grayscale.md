@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mediana del filtro Escala de grises
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '326'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Escala de grises del filtro mediano: icon](../../../../../../assets/MedianFilter_Icon_Grayscale.png "escala de grises del filtro mediano: icon")
+![Escala de grises del filtro mediano: icon](median-filter-grayscale.resources/median-filter-grayscale-01.png "escala de grises del filtro mediano: icon")
 
 <b>En:</b> Filtros > Desenfoques
 
@@ -45,36 +45,41 @@ Para cada píxel, el nodo calcula un valor de escala de grises de acuerdo con el
 >
 > Consulte también [Color del filtro mediano](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/median-filter-color/median-filter-color.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Entrada </b>*Escala de grises* Imagen de escala de grises a la que se debe aplicar el filtro.
+## Entradas
 
-## Conectores de salida
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Escala de grises</i> | Imagen en escala de grises a la que se debe aplicar el filtro. |
 
-<b>Salida </b>*Escala de grises* La imagen de escala de grises calculada aplicando el filtro a la imagen de escala de grises de entrada.
+<a name="outputs"></a>
+
+## Salidas
+
+|  |  |
+|:---|:---|
+| <b>Salida</b> <i>Escala de grises</i> | Imagen en escala de grises calculada aplicando el filtro a la imagen en escala de grises de entrada. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>Tamaño del núcleo</b> *Entero* Un núcleo es un grupo específico de valores utilizados en los cálculos de un filtro. En este contexto, son los valores de los píxeles vecinos.\
-Para cada píxel, el filtro toma todos los vecinos alrededor de ese píxel en un núcleo cuadrado y calcula el valor medio de todos los vecinos.\
-Este parámetro controla el tamaño de ese núcleo cuadrado, en píxeles. Un núcleo más grande produce un efecto de suavizado más fuerte y de mayor alcance a costa de algunos detalles.\
-*- 3x3:* un núcleo de 3 píxeles de ancho y 3 píxeles de alto, con un total de 8 píxeles vecinos.\
-*- 5x5:* un núcleo de 5 píxeles de ancho y 5 píxeles de alto, con un total de 24 píxeles vecinos.
-
-<b>Tipo de filtro</b> *Entero* El cálculo se aplicó a los vecinos muestreados en el núcleo.\
-*- Mediana:* Use el valor de mediana de todos los vecinos directamente.\
-*- MLMAD:* Significa &#39;Mediana de la desviación absoluta mínima mediana&#39;. La desviación explica la diferencia entre un valor y la mediana. En lugar de utilizar el valor de la mediana directamente, que puede ser sesgado por un píxel anómalo con una desviación alta, el método MLMAD utiliza la mediana de todas las desviaciones. Este método produce un efecto de suavizado más fuerte que puede aplanar las áreas según el tamaño del núcleo.
+|  |  |
+|:---|:---|
+| <b>Tamaño del núcleo</b> *Entero* | Un núcleo es un grupo específico de valores utilizados en los cálculos de un filtro. En este contexto, son los valores de los píxeles vecinos.<br><br>Por cada píxel, el filtro toma todos los vecinos alrededor de ese píxel en un núcleo cuadrado y calcula el valor medio de todos los vecinos.<br><br>Este parámetro controla el tamaño de ese núcleo cuadrado, en píxeles. Un núcleo más grande produce un efecto de suavizado más fuerte y de mayor alcance a costa de algunos detalles.<br><br>*- 3x3:* un núcleo de 3 píxeles de ancho y 3 píxeles de alto, con un total de 8 píxeles vecinos.<br>*- 5x5:* un núcleo de 5 píxeles de ancho y 5 píxeles de alto, con un total de 24 píxeles vecinos. |
+| <b>Tipo de filtro</b> *Entero* | El cálculo aplicado a los vecinos muestreados en el núcleo.<br><br>*- Mediana:* Use el valor de mediana de todos los vecinos directamente.<br>*- MLMAD:* Significa &#39;Mediana de la desviación absoluta de la mediana mínima&#39;. La desviación explica la diferencia entre un valor y la mediana. En lugar de utilizar el valor de la mediana directamente, que puede ser sesgado por un píxel anómalo con una desviación alta, el método MLMAD utiliza la mediana de todas las desviaciones. Este método produce un efecto de suavizado más fuerte que puede aplanar las áreas según el tamaño del núcleo. |
 
 ## Ejemplos
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-02.png" alt="MedianFilter_Variant2A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-03.png" alt="MedianFilter_Variant2B">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -83,11 +88,11 @@ Este parámetro controla el tamaño de ese núcleo cuadrado, en píxeles. Un nú
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-04.png" alt="MedianFilter_Variant4A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-05.png" alt="MedianFilter_Variant4B">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -96,11 +101,11 @@ Este parámetro controla el tamaño de ese núcleo cuadrado, en píxeles. Un nú
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-06.png" alt="MedianFilter_Variant1A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-07.png" alt="MedianFilter_Variant1B">
       <br><i>Después De</i>
     </td>
   </tr>

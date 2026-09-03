@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Texto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Text](../../../../assets/comp_text_1.png "Atomic node: Texto"){width="200px"}
+![Nodo atómico: Text](text.resources/text-01.png "Atomic node: Texto"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

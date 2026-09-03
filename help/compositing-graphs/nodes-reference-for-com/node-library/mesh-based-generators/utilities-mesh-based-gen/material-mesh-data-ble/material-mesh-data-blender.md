@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mezclador de datos de malla de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 8%
 
 ---
 
@@ -22,94 +22,76 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
 
-## Mezclador de datos de malla de material
-
-**En:** *Generadores basados en malla**/Utilities*
-
-**Complejo**
+<b>En:</b> Generadores basados en malla > Utilidades
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Este nodo está diseñado para facilitar la adición de detalles en función de los datos predefinidos. Viene con una gran cantidad de reguladores para modificar una entrada de material completo, basado en cualquier y todos los mapas con bake como entrada. Experimenta con él, ya que hay muchas opciones.
+Este nodo está diseñado para facilitar en gran medida la adición de detalles en función de los datos hechos un bake. Viene con una gran cantidad de reguladores para modificar una entrada de material completo, basado en cualquier y todos los mapas con bake como entrada. Experimenta con él, ya que hay muchas opciones.
 
-Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u otros mapas, mezclar en algunos AO con el color difuso/básico, añadir Oclusión de Specular basada en curvatura y/o AO, etc.
-
-## Parámetros
-
-### Entradas
-
-* **Entrada completa de material (grupo &quot;Material&quot;):** conjunto completo de mapas de material.\
-  Este nodo los modifica y, a continuación, los devuelve de nuevo como resultados.
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Height**: *Entrada en escala de grises*
-* **Normal**: *Entrada de color*
-* **Color de vértice**: *Entrada de color*
-* **Normal del Espacio Mundial**: *Entrada de color*
-
-### Parámetros
-
-* **Canales**
-  * Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. Afecta a la disponibilidad de los siguientes parámetros.
-* **Mapas con bake**
-  * Si se deben o no utilizar los mapas con bake enumerados para los cálculos. Afecta a la disponibilidad de los siguientes parámetros.
-* **OA difusa**: *0.0 - 1.0* Cantidad de Oclusión ambiental que se debe mezclar en la difusión.
-* **Difuminar bordes afilados**: 0,0 - 1,0\
-  Cantidad del mapa de curvatura que se va a fusionar en la difusión.
-* **Color De Difusión Del Color Del Vértice**: 0,0 - 1,0\
-  Cantidad de cocción del color del vértice que se va a fusionar en la difusión.
-* **Iluminación previa de difusión**: 0,0 - 1,0\
-  Cantidad de preiluminación (falsa), basada en las normas espaciales mundiales.
-* **Equilibrio de iluminación de dibujos animados difusos**: 0,0 - 1,0\
-  Cambia entre la iluminación realista y caricaturesca para la difusión.
-* **Difuminar capas de iluminación previa de dibujos animados**: 0 - 10\
-  Controla el aspecto de los cálculos de iluminación de dibujos animados.
-* **Contornos De Dibujos Animados Difusos**: 0,0 - 1,0\
-  Controla el aspecto de los cálculos de iluminación de dibujos animados.
-* **Color base AO**: 0,0 - 1,0\
-  Cantidad de Oclusión ambiental que se va a fusionar en el color base.
-* **Bordes de color base nítidos**: 0,0 - 1,0\
-  Cantidad del mapa de curvatura que se va a fusionar en el color base.
-* **Color Base Del Color Del Vértice**: 0,0 - 1,0\
-  Cantidad de cocción del color del vértice que se va a fusionar en el color base.
-* **Intensidad de material normal**: 0,0 - 1,0\
-  Intensidad de fusión del mapa normal (tangente) al horno.
-* **SpecularAO**: 0,0 - 1,0\
-  Fuerza de fusión del AO en el Specular.
-* **Specular Brillante Bordes Afilados**: 0,0 - 1,0\
-  Intensidad de fusión de la Curvatura en el Specular.
-* **Contornos de dibujos animados de Specular**: 0,0 - 1,0\
-  Intensidad de fusión de un efecto de contorno de borde de un Specular de dibujos animados, basado en la curvatura.
-* **Bordes nítidos y oscuros brillantes**: 0,0 - 1,0\
-  Intensidad de fusión de la curvatura en el brillo.
-* **Bordes brillantes y nítidos de rugosidad**: 0,0 - 1,0\
-  Intensidad de fusión de la curvatura en la rugosidad.
-* **Contornos de dibujos animados de rugosidad**: 0,0 - 1,0\
-  Intensidad de fusión de un efecto de contorno de borde de Rugosidad de dibujo animado, basado en la Curvatura.
-* **Bordes brillantes y brillantes metálicos**: 0,0 - 1,0\
-  Intensidad de fusión de la curvatura en el panel Metálico.
-* **Contornos De Dibujos Animados Metálicos**: 0,0 - 1,0\
-  Intensidad de fusión de un efecto de contorno de borde metálico de dibujo animado, basado en la curvatura.
-* **Intensidad del material AO**: 0,0 - 1,0\
-  Fusión de mezcla de mapa con bake AO con material-generado AO, qué grado para combinar ambos mapas AO en.
-* **Intensidad del material de Height**: 0,0 - 1,0\
-  Fusiona la fuerza del Height de mapa con bake con el Height generado por el material, en qué grado combinar ambos mapas de altura.
-* **Tipo De Fusión De Material De Height**: Reforzar, interpolación\
-  Modo de fusión para combinar ambos mapas de altura.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/blenddata-ex.gif)
+Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u otros mapas, mezclar en algunos AO con el color Difuso/base, añadir Oclusión de Specular basada en Curvatura y/o AO, etc.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada de material completa (grupo &quot;Material&quot;)</b> | Conjunto completo de mapas de materiales.<br><br>Este nodo los modifica y, a continuación, se devuelven de nuevo como resultados. |
+| <b>Oclusión ambiental</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Height</b> <i>Entrada en escala de grises</i> |  |
+| <b>Normal</b> <i>Entrada de color</i> |  |
+| <b>Color de vértice</b> <i>Entrada de color</i> |  |
+| <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> |  |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad. Afecta a la disponibilidad de los siguientes parámetros. |
+| <b>Mapas con bake</b> | Si se deben o no utilizar los mapas con bake enumerados para los cálculos. Afecta a la disponibilidad de los siguientes parámetros. |
+| <b>Difuso AO</b> <i>0.0 - 1.0</i> | Cantidad de Oclusión ambiental que se va a fusionar en la Difuso. |
+| <b>Bordes afilados de Difuso</b> <i>0.0 - 1.0</i> | Cantidad del mapa de curvatura que se va a fusionar en la Difuso. |
+| <b>Color De Difuso Del Color Del Vértice</b> <i>0.0 - 1.0</i> | Cantidad de color del vértice hecho un bake para fusionarse en la Difuso. |
+| <b>Iluminación previa de Difuso</b> <i>0.0 - 1.0</i> | Cantidad de preiluminación (falsa), basada en las normas espaciales mundiales. |
+| <b>Equilibrio de iluminación de dibujos animados</b> <i>0.0 - 1.0</i> | Cambia entre una iluminación realista y caricaturesca para el Difuso. |
+| <b>Capas de iluminación previa de dibujos animados de Difuso</b> <i>0 - 10</i> | Controla el aspecto de los cálculos de iluminación de dibujos animados. |
+| <b>Contornos de dibujos animados de Difuso</b> <i>0.0 - 1.0</i> | Controla el aspecto de los cálculos de iluminación de dibujos animados. |
+| <b>Color base AO</b> <i>0.0 - 1.0</i> | Cantidad de Oclusión ambiental que se va a fusionar en el color base. |
+| <b>Color base bordes afilados</b> <i>0.0 - 1.0</i> | Cantidad del mapa de curvatura que se va a fusionar en el color base. |
+| <b>Color base Del Color Del Vértice</b> <i>0.0 - 1.0</i> | Cantidad de color del vértice hecho un bake para fusionarse en el color base. |
+| <b>Intensidad de material normal</b> <i>0.0 - 1.0</i> | Intensidad de fusión del mapa normal hecho un bake (tangente). |
+| <b>SpecularAO</b> <i>0.0 - 1.0</i> | Fuerza de fusión del AO en el Specular. |
+| <b>Specular Brillante Bordes Afilados</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la Curvatura en el Specular. |
+| <b>Contornos de dibujos animados de Specular</b> <i>0.0 - 1.0</i> | Intensidad de fusión de un efecto de contorno de borde de un Specular de dibujos animados, basado en la curvatura. |
+| <b>Bordes nítidos oscuros de Brillo</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la curvatura en el Brillo. |
+| <b>Bordes brillantes y nítidos de rugosidad</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la curvatura en la rugosidad. |
+| <b>Contornos de dibujos animados de rugosidad</b> <i>0.0 - 1.0</i> | Intensidad de fusión de un efecto de contorno de borde de Rugosidad de dibujo animado, basado en la Curvatura. |
+| <b>Bordes brillantes y brillantes metálicos</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la curvatura en el panel Metálico. |
+| <b>Contornos de dibujos animados metálicos</b> <i>0.0 - 1.0</i> | Intensidad de fusión de un efecto de contorno de borde metálico de dibujo animado, basado en la curvatura. |
+| <b>Intensidad del material AO</b> <i>0.0 - 1.0</i> | Intensidad de Fusión del mapa con bake AO con material-generado AO, qué grado combinar ambos mapas AO en. |
+| <b>Intensidad del material de Height</b> <i>0.0 - 1.0</i> | Fuerza de Fusión del Height de mapa con bake con Height generado por Material, qué grado combinar ambos mapas de Altura en. |
+| <b>Tipo De Fusión De Material De Height</b> <i>Reforzar, Interpolación</i> | Modo de Fusión para combinar ambos mapas de altura. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
+        </td>
+    </tr>
 </table>

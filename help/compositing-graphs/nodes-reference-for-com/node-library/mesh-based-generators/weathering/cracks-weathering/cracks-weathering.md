@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Grietas Desgaste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 1%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering-01.png){width="128px"}
 
-## Grietas Desgaste
-
-**En:** *Generadores Basados En Malla**/Meteorología*
-
-**Complejo**
+<b>En:</b> Generadores Basados En Malla > Meteorización
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,36 +37,41 @@ Se trata de un efecto de material completo que funciona en varios canales a la v
 
 Asegúrate de entender correctamente los [Modos de creación de vínculos](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) al trabajar con materiales completos.
 
-## Parámetros
-
-### Entradas
-
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa horneado o generado utilizado para efectos internos y enmascaramiento.
-* **Height**: *Entrada en escala de grises*\
-  Mapa horneado o generado utilizado para efectos internos y enmascaramiento.
-* **Máscara** : *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;.
-
-### Parámetros
-
-* **Canales**
-  * Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad.
-* **Avanzado**
-  * **Formato normal**: *DirectX, OpenGL*\
-    Cambia entre diferentes formatos de Mapa normal (invierte el canal verde).
-  * **Máscara**: *Falso/Verdadero*\
-    Activa o desactiva el uso del mapa de máscara.
-* **Efecto**
-  * **Propagación de Grietas**: *0.0 - 1.0* Hasta dónde deben extenderse las grietas. Este es el control principal de este efecto.
-  * **Profundidad de Grietas**: *0.0 - 1.0* Profundidad del efecto de grieta. Esto afecta principalmente al height y afecta ligeramente al thickness visual.
-* **Fusión**
-  * Controla la intensidad con la que el efecto se fusiona en cada canal resultante.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/cracks-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa horneado o generado utilizado para efectos internos y enmascaramiento. |
+| <b>Height</b> <i>Entrada en escala de grises</i> | Mapa horneado o generado utilizado para efectos internos y enmascaramiento. |
+| <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Avanzado</b> |  |
+| <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
+| <b>Máscara</b> <i>Falso/Verdadero</i> | Activa o desactiva el uso del mapa de máscara. |
+| <b>Efecto</b> |  |
+| <b>Propagación de Grietas</b> <i>0.0 - 1.0</i> | Hasta dónde deben extenderse las grietas. Este es el control principal de este efecto. |
+| <b>Profundidad de Grietas</b> <i>0.0 - 1.0</i> | Profundidad del efecto crack. Esto afecta principalmente al height y afecta ligeramente al thickness visual. |
+| <b>Fusión</b> | Controla la intensidad con la que el efecto se fusiona en cada canal resultante. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cracks-weathering.resources/cracks-weathering-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
-description: Utilice el nodo Flood Fill a tamaño de cuadro para rellenar regiones con valores de tamaño de cuadro delimitador para efectos de escala de procedimiento.
+description: Utilice el nodo Flood Fill a tamaño de cuadro para rellenar regiones con valores de tamaño de cuadro delimitador para los efectos de escala procedimienta.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to BBox Size
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill a tamaño de cuadro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-bbox-size.png){width="128px"}
+![](flood-fill-to-bbox-size.resources/flood-fill-to-bbox-size-01.png){width="128px"}
 
-## Flood Fill a tamaño de cuadro
-
-**En:** *Filtros/Efectos*
-
-**Simple**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,16 +37,24 @@ Genera un mapa en escala de grises a partir de una base [Flood Fill](../../../..
 
 Los valores son relativos al tamaño total del lienzo (un azulejo blanco completo significaría que estira todo el lienzo), por lo que el contraste suele ser bajo.
 
-## Parámetros
-
-* **Salida**: *max(X, Y), X, Y* Establece en qué métrica se basa el valor: ancho, largo o ambos.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodbbox-ex1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Salida</b> <i>max(X, Y), X, Y</i> | Define en qué métrica se basa el valor: ancho, largo o ambos. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-bbox-size.resources/flood-fill-to-bbox-size-02.png" />
+        </td>
+    </tr>
 </table>

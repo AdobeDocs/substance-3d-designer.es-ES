@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Reemplazar color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color.png){width="128px"}
+![](replace-color.resources/replace-color-01.png){width="128px"}
 
-## Reemplazar color
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,17 +37,25 @@ Tono cambia el color de origen al color de destino.
 
 Consulte [Reemplazar rango de color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) o [coincidencia de color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md) para obtener versiones más avanzadas.
 
-## Parámetros
-
-* **Color de origen**: *(Valor de color)*Color desde el que se empieza a cambiar el tono.
-* **Color de destino**: *(Valor de color)*Color al que se va a desplazar el tono.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Color de origen</b> <i>(Valor de color)</i> | Color desde el que se empieza a cambiar el tono. |
+| <b>Color de destino</b> <i>(Valor de color)</i> | Color hacia el que cambiar el tono. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="replace-color.resources/replace-color-02.png" />
+        </td>
+    </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
 breadcrumb-title: ''
-description: Utilice el nodo Creased para generar patrones de pliegues para crear efectos de textura de tejidos doblados y superficies arrugadas.
+description: Utilice el nodo Creased para generar patrones de pliegues para crear efectos de textura de superficies dobladas y arrugadas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Creased
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Arrugado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased-01.png){width="128px"}
 
-## Arrugado
-
-**En:** *Generadores De Texturas**/Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,20 +37,27 @@ Este nodo genera un ruido parecido al de una tela. Se puede interpretar como map
 
 Creased es útil para cuando se necesita un semi-direccional-ruido con gran variación de escala.
 
-## Parámetros
-
-* **Escala**: *1 - 8*\
-  Establece la escala global del efecto.
-* **Intensidad de deformación**: *0.0 - 128.0* Establece la intensidad del efecto de curvar/deformar.
-* **Trastorno**: *0.0 - 100.0*\
-  Desplaza ligeramente las capas utilizadas para generar el ruido para introducir variaciones.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/creased-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Escala</b> <i>1 - 8</i> | Establece la escala global del efecto. |
+| <b>Intensidad de deformación</b> <i>0.0 - 128.0</i> | Define la intensidad del efecto de deformación/plegado. |
+| <b>Desorden</b> <i>0.0 - 100.0</i> | Desplaza ligeramente las capas utilizadas para generar el ruido para introducir variaciones. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="creased.resources/creased-02.gif" />
+        </td>
+    </tr>
 </table>

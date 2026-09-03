@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Preferencias del usuario: Automatizar la configuración'
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Como alternativa, puede omitir completamente la modificación de las preferencia
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de archivo XML](../../assets/xml-5.png "Icono de archivo XML")
+![Icono de archivo XML](user-preferences-automating-setup.resources/user-preferences-automating-setup-01.png "Icono de archivo XML")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Hay dos formas diferentes de configurar Designer para que use otro [archivo de c
 
 Si no hay ninguna configuración automatizada, o con fines de prueba, se puede ir manualmente a <b>Editar > Preferencias...</b> y, a continuación, haga clic en la sección &quot;<b>Proyectos</b>&quot; de la izquierda.
 
-![Configuración del proyecto](../../assets/preferences-ui.png "Configuración del proyecto")
+![Configuración del proyecto](user-preferences-automating-setup.resources/user-preferences-automating-setup-02.png "Configuración del proyecto")
 
 El botón marcado en rojo permite al usuario elegir otro [archivo SBSCFG](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md).
 
@@ -194,7 +194,7 @@ def SetConfigurationFile(p_ConfigPath):
 ```
 
 
-## Método abreviado de argumento de la línea de comandos
+## Método abreviado de argumento de línea de comandos
 
 De una manera mucho más sencilla, se le puede indicar a Designer que use un SBSCFG específico al inicio a través del argumento &quot;—config-file&quot; (opcional).
 
@@ -210,4 +210,4 @@ Aunque no se recomienda utilizar un método manual en un entorno de producción,
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![Entrada del archivo de configuración en las propiedades del archivo ejecutable](../../assets/shortcutargument.jpg "Entrada del archivo de configuración en las propiedades del archivo ejecutable")
+![Entrada del archivo de configuración en las propiedades del archivo ejecutable](user-preferences-automating-setup.resources/user-preferences-automating-setup-03.jpg "Entrada del archivo de configuración en las propiedades del archivo ejecutable")

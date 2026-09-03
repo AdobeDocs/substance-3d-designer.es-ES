@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Normal doblada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo normal doblado](../../../../../../assets/rt-bent-normal.png "Icono de nodo normal doblado")
+![Icono de nodo normal doblado](bent-normal.resources/bent-normal-01.png "Icono de nodo normal doblado")
 
-<b>En:</b> *Filtros/mapa normal*
+<b>En:</b> Filtros > Mapa de normales
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -42,33 +42,27 @@ Este nodo no debe utilizarse en combinación con el motor de CPU (SSE) debido al
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-<b>Usar Tamaño físico</b> *Booleano*\
-Active esta opción para usar la configuración de Tamaño físico para determinar la escala de height.
+|  |  |
+|:---|:---|
+| <b>Usar Tamaño físico</b> <i>Booleano</i> | Active esta opción para usar la configuración de Tamaño físico para determinar la escala de height. |
+| <b>Tamaño físico</b> <i>Float3</i> | (Disponible cuando <b>Usar Tamaño físico</b> está establecido en <i>Verdadero</i>) Ajusta la escala de height en función del tamaño físico real de la superficie. |
+| <b>Ejemplos</b> <i>Entero</i> | Número de rayos utilizados para calcular la normal doblada.<br>Un valor más alto proporciona un resultado más suave y preciso a costa del rendimiento. |
+| <b>Escala de Height</b> <i>Flotador</i> | (Disponible cuando Usar Tamaño físico está establecido en Falso) Multiplicador para la intensidad de la entrada del mapa de altura. |
+| <b>Distribución</b> <i>Entero</i> | Establece el método de distribución. Afecta a la difuminación hacia áreas sombreadas. |
+| <b>Distancia máxima</b> <i>Flotador</i> | Define la distancia máxima que los rayos pueden recorrer para ser ocluidos. |
+| <b>Ángulo de pliego</b> <i>Flotador</i> | Define el ángulo de propagación de los rayos a los que se disparará. Un valor de 1 es un hemisferio completo. |
+| <b>Formato normal</b> <i>Entero</i> | Invierte el canal verde de la salida. |
 
-<b>Tamaño físico</b> *Float3* (disponible cuando <b>Usar Tamaño físico</b> está establecido en *Verdadero*)\
-Ajusta la escala de height en función del tamaño físico real de la superficie.
+## Ejemplos
 
-<b>Ejemplos</b> *Entero*\
-Número de rayos utilizados para calcular la normal doblada.\
-Un valor más alto proporciona un resultado más suave y preciso al coste del rendimiento.
-
-<b>Escala de Height</b> *Float (disponible cuando Usar Tamaño físico está establecido en False)*\
-Multiplicador de la intensidad de la entrada del mapa de height.
-
-<b>Distribución</b> *Entero*\
-Establece el método de distribución. Afecta a la difuminación hacia áreas sombreadas.
-
-<b>Distancia máxima</b> *Flotador*\
-Define la distancia máxima que los rayos pueden recorrer para ser ocluidos.
-
-<b>Ángulo de pliego</b> *Flotador*\
-Define el ángulo de propagación de los rayos a los que se disparará. Un valor de 1 es un hemisferio completo.
-
-<b>Formato normal</b> *Entero*\
-Invierte el canal verde de la salida.
-
-## Imágenes de ejemplo
-
-![Nodo normal doblado - Ejemplo 1](../../../../../../assets/bent-normal-ex-1.jpg "Nodo normal doblado - Ejemplo 1")
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bent-normal.resources/bent-normal-02.jpg" />
+        </td>
+    </tr>
+</table>

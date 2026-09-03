@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color seguro para el Albedo PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-albedo-safe-color.png){width="128px"}
+![](pbr-albedo-safe-color.resources/pbr-albedo-safe-color-01.png){width="128px"}
 
-## Color seguro para el Albedo PBR
-
-**En:** *Utilidades de filtros de materiales/PBR*
-
-**Simple**
+<b>En:</b> Filtros de material > Utilidades de PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,17 +39,15 @@ Consulta también [PBR BaseColor / Metallic Validate](../../../../../../composit
 
 Esto es útil como una herramienta de corrección rápida, especialmente cuando todavía se está aprendiendo PBR, pero no está pensada como una medida absoluta que siempre se supone que es correcta.
 
-## Parámetros
-
-* **Flujo de trabajo de PBR**: *Color base - Metálico, Difuso - Specular* Cambia entre dos flujos de trabajo PBR diferentes.
-* **Tolerancia**: *0.0 - 1.0* Nivel de tolerancia para valores fuera del intervalo.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Flujo de trabajo de PBR</b> <i>Color base - Metálico, Difuso - Specular</i> | Cambia entre dos flujos de trabajo PBR diferentes. |
+| <b>Tolerancia</b> <i>0.0 - 1.0</i> | Nivel de tolerancia para valores que están fuera del intervalo. |

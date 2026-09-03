@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Advertencias y errores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '816'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ Por lo general, las advertencias y los errores se muestran en el elemento que lo
 
 ### Explorer
 
-Para cualquier elemento del panel [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) que tenga una advertencia, dicha advertencia se muestra con un icono ![](../../assets/warning-icon.png) en el extremo derecho de la entrada del elemento en la lista. Deje el cursor sobre ese icono durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
+Para cualquier elemento del panel [Explorer](../../interface/the-explorer-window/the-explorer-window.md) que tenga una advertencia, dicha advertencia se muestra con un icono ![](warnings-and-errors.resources/warnings-and-errors-01.png) en el extremo derecho de la entrada del elemento en la lista. Deje el cursor sobre ese icono durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
 
 Siguen estas reglas:
 
@@ -48,7 +48,7 @@ Siguen estas reglas:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-02.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Siguen estas reglas:
 
 ### Vista de gráfico
 
-Para cualquier elemento del panel [Graph view](../../interface/the-graph-view/the-graph-view.md) que tenga una advertencia, dicha advertencia se muestra con texto en color en la *esquina inferior izquierda* de la ventana gráfica. Si la advertencia la desencadena un nodo específico, dicho nodo tendrá un distintivo de advertencia ![](../../assets/warning-badge.png). Deje el cursor en esa insignia durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
+Para cualquier elemento del panel [Graph view](../../interface/the-graph-view/the-graph-view.md) que tenga una advertencia, dicha advertencia se muestra con texto en color en la *esquina inferior izquierda* de la ventana gráfica. Si la advertencia la desencadena un nodo específico, dicho nodo tendrá un distintivo de advertencia ![](warnings-and-errors.resources/warnings-and-errors-03.png). Deje el cursor en esa insignia durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
 
 Siguen estas reglas:
 
@@ -71,7 +71,7 @@ Siguen estas reglas:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-04.png){width="256px"}
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Siguen estas reglas:
 
 ### Propiedades
 
-Para cualquier elemento del panel [Properties](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) que tenga una advertencia, dicha advertencia se muestra con un icono ![](../../assets/warning-icon.png) en el extremo derecho de la entrada del elemento en la lista. Deje el cursor sobre ese icono durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
+Para cualquier elemento del panel [Properties](../../interface/properties/properties.md) que tenga una advertencia, dicha advertencia se muestra con un icono ![](warnings-and-errors.resources/warnings-and-errors-01.png) en el extremo derecho de la entrada del elemento en la lista. Deje el cursor sobre ese icono durante unos segundos para mostrar una *información sobre herramientas* que enumere todas las advertencias en detalle.
 
 Siguen estas reglas:
 
@@ -94,7 +94,7 @@ Siguen estas reglas:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-05.png){width="256px"}
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Siguen estas reglas:
 
 ### Consola
 
-Se informa tanto de advertencias como de errores en el panel **Consola**, al que puedes acceder a través del menú **Windows** en el [menú principal](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). Puede aislar advertencias y errores del resto de las entradas de la consola estableciendo la configuración de **Canal** en `ErrorMgr`.
+Se informa tanto de advertencias como de errores en el panel **Consola**, al que puedes acceder a través del menú **Windows** en el [menú principal](../../interface/the-main-toolbar/the-main-toolbar.md). Puede aislar advertencias y errores del resto de las entradas de la consola estableciendo la configuración de **Canal** en `ErrorMgr`.
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Se informa tanto de advertencias como de errores en el panel **Consola**, al que
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-06.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ A continuación se muestra una lista de advertencias y errores que puede encontr
 ### Advertencias en los gráficos de Substance
 
 * No se ha definido ningún nodo de salida
-* La función del parámetro [x] tiene algunas advertencias
+* La función del parámetro `[x]` tiene algunas advertencias
 * Los datos a los que se hace referencia tienen algunas advertencias
 * Recurso de referencia no encontrado
 * El nodo de texto utiliza una fuente no válida

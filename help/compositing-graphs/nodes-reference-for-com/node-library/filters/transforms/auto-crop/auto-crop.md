@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Recorte automático
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,87 +22,69 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropgrayscale.png){width="200px"}
+![](auto-crop.resources/auto-crop-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropcolor.png){width="200px"}
+![](auto-crop.resources/auto-crop-02.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**En:** Filtros*/Transformaciones*
-
-**Simple**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 El nodo **Recorte automático** ajusta la **Entrada** para que su contenido se coloque en el *centro* de la imagen sin que se le cambie el tamaño, o *se cambie de tamaño según el tamaño* de la imagen.
 
-El contenido de la imagen se define mediante un cuadro ajustado a los *primeros y últimos píxeles* de **X** e **Y**, cuyos valores son *superiores a 0* (es decir, no negros). La versión de **Color** te permite elegir entre los canales de RGB y Alpha para definir ese cuadro.
+El contenido de la imagen se define mediante un cuadro ajustado a los *primeros y últimos píxeles* de **X** e **Y**, cuyos valores son *superiores a 0* (es decir, no negros). La versión de **Color** te permite elegir entre los canales RGB y Alfa para definir ese cuadro.
 
 </td>
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Modo** *Entero* Establezca el método de recorte que debe aplicarse:
-  * *Cuadrado de recorte*: la imagen se recorta de modo que la forma esté en el centro de la imagen más pequeña de *cuadrado* que pueda incluirla por completo
-  * *Recortar automáticamente*: La imagen se recorta de modo que la forma esté en el centro de la imagen más pequeña *cuadrada o no cuadrada* que pueda incluirla por completo
-  * *Ajustar (Mantener proporción)*: El tamaño de la imagen cambia al *tamaño completo* de la imagen, manteniendo sus *proporciones* (es decir, la relación entre anchura y longitud)
-  * *Rellenar (estirar)*: El tamaño de la imagen cambia al *tamaño completo* de la imagen
-* **Usar alfa** *booleano* Usa el canal alfa de **Input** para determinar los *límites* del contenido de la imagen para el recorte. Cuando se establece en *False*, se utilizan píxeles negros en su lugar.\
-  *Nota*: Este parámetro solo está disponible en la versión **Color** del nodo.
-* **Modo de filtrado** *Entero* Define cómo tratar los resultados muestreados al *interpolar* entre píxeles:
-  * *Más cercano*: mostrará exactamente el valor *same* (más rápido)
-  * *Bilineal*: aplicará un filtro bilineal en el resultado para obtener un aspecto *más suave*
-  * *Automático*: Utiliza el más adecuado de los dos modos anteriores, dependiendo del **Modo** seleccionado para el recorte
+|  |  |
+|:---|:---|
+| <b>Modo</b> <i>Entero</i> | Establezca el método de recorte que se debe aplicar:<br><br>- <i>Cuadrado de recorte</i>: la imagen se recorta de modo que la forma esté en el centro de la imagen más pequeña de <i>cuadrado</i> que pueda incluirla<br>- <i>Recortar auto</i>: La imagen se recorta de modo que la forma esté en el centro de la imagen más pequeña <i>cuadrada o no cuadrada</i> que pueda incluirla<br>- <i>Ajustar (mantener relación)</i>: El tamaño de la imagen cambia al <i>tamaño completo</i> de la imagen, pero se mantienen sus <i>proporciones</i> (es decir, la relación entre anchura y longitud)<br>- <i>Rellenar (Estirar)</i>: El tamaño de la imagen cambia al <i>tamaño completo</i> de la imagen |
+| <b>Usar alfa</b> <i>Booleano</i> | Use el canal alfa de <b>Input</b> para determinar los <i>límites</i> del contenido de la imagen para el recorte. Cuando se establece en <i>False</i>, se usan píxeles negros.<br><br><i>Nota:</i> Este parámetro solo está disponible en la versión <b>Color</b> del nodo. |
+| <b>Modo de filtro</b> <i>Entero</i> | Define cómo tratar los resultados muestreados al <i>interpolar</i> entre píxeles:<br><br>- <i>Más cercano</i>: mostrará exactamente el <i>mismo valor</i> (más rápido)<br>- <i>Bilineal</i>: aplicará un filtro bilineal en el resultado para un aspecto <i>más suave</i><br>- <i>Automático</i>: Utiliza el más adecuado de los dos modos anteriores, dependiendo del <b>Modo</b> seleccionado para el recorte |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-demo-01-resized.gif){width="768px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant.jpg){width="128px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant4.png){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant3.png){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-node.png){width="420px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/auto-crop-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/auto-crop-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/auto-crop-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/auto-crop-06.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/auto-crop-07.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/auto-crop-08.png" />
+        </td>
+    </tr>
 </table>

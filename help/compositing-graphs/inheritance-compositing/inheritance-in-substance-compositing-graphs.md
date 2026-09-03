@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Herencia en gráficos de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 En esta página se describe cómo se aplica la herencia en [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) en [Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html) y el impacto que tiene en la salida del gráfico.
 
-![Métodos de herencia](../../assets/inheritance-overview-1.jpg "Métodos de herencia"){width="1400px"}
+![Métodos de herencia](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-01.jpg "Métodos de herencia"){width="1400px"}
 
 ## Información general
 
@@ -38,7 +38,7 @@ Todos los nodos de un gráfico de Substance pueden *heredar* el valor de algunos
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icono del método de herencia &#39;Absolute&#39;](../../assets/ds-inheritance-absolute.png "Icono del método de herencia &#39;Absolute&#39;"){width="128px"}
+![Icono del método de herencia &#39;Absolute&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-02.png "Icono del método de herencia &#39;Absolute&#39;"){width="128px"}
 
 <b>Absoluto</b>
 
@@ -47,7 +47,7 @@ Sin herencia, el valor se define *arbitrariamente y localmente* para el parámet
 </td>
 <td style="border: 0;" valign="top">
 
-![Icono para el método de herencia &#39;Relativo a la entrada&#39;](../../assets/ds-inheritance-relative-to-input.png "Icono para el método de herencia &#39;Relativo a la entrada&#39;"){width="128px"}
+![Icono para el método de herencia &#39;Relativo a la entrada&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "Icono para el método de herencia &#39;Relativo a la entrada&#39;"){width="128px"}
 
 <b>Relativo a la entrada</b>
 
@@ -56,7 +56,7 @@ El valor se ha heredado de los datos conectados a la *entrada principal* del nod
 </td>
 <td style="border: 0;" valign="top">
 
-![Icono para el método de herencia &#39;Relativo al principal&#39;](../../assets/ds-inheritance-relative-to-parent.png "Icono para el método de herencia &#39;Relativo al principal&#39;"){width="128px"}
+![Icono para el método de herencia &#39;Relativo al principal&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "Icono para el método de herencia &#39;Relativo al principal&#39;"){width="128px"}
 
 <b>Relativo al primario</b>
 
@@ -66,7 +66,7 @@ El valor se ha heredado del *elemento principal* del nodo o gráfico
 </tr>
 </table>
 
-![Demostración de métodos de herencia](../../assets/inheritance-overview.gif "Demostración de métodos de herencia")
+![Demostración de métodos de herencia](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-05.gif "Demostración de métodos de herencia")
 
 Los métodos de herencia se aplican para los [parámetros base](../../compositing-graphs/graph-parameters/graph-parameters.md) de un nodo, que es el conjunto de parámetros comunes que tienen todos los nodos que controlan *aspectos fundamentales* de su comportamiento. Estos parámetros incluyen:
 
@@ -86,8 +86,8 @@ Esto debería permitirte apreciar cómo los cambios en *un nodo* pueden afectar 
 
 >[!NOTE]
 >
-> **Tamaño de salida:** Use el botón de bloqueo ![](../../assets/props-output-size-lock.jpg) para que el valor de Height *coincida* con el valor de ancho\
-> **Raíz aleatoria:** Utilice el botón ![](../../assets/prop-randomise.jpg) para asignar un nuevo valor aleatorio a la semilla aleatoria.
+> **Tamaño de salida:** Use el botón de bloqueo ![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-06.jpg) para que el valor de Height *coincida* con el valor de ancho\
+> **Raíz aleatoria:** Utilice el botón ![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-07.jpg) para asignar un nuevo valor aleatorio a la semilla aleatoria.
 
 ## Realización de cambios
 
@@ -96,7 +96,7 @@ Esto debería permitirte apreciar cómo los cambios en *un nodo* pueden afectar 
 En el panel Propiedades, todos los parámetros enumerados en la sección [Parámetros base](../../compositing-graphs/graph-parameters/graph-parameters.md) de las propiedades de un nodo tienen un botón desplegable (icono) <b>Establecer método de herencia</b> frente a su etiqueta.\
 Este botón le permite seleccionar el método de herencia que debe utilizarse para un parámetro.
 
-![Cambiando método de herencia](../../assets/inheritance-change.gif "Cambiando método de herencia"){width="512px"}
+![Cambiando método de herencia](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-08.gif "Cambiando método de herencia"){width="512px"}
 
 En la mayoría de los casos, los parámetros Base de *node* se establecen en *Relative to input*, para aprovechar el comportamiento procedimental de encadenar nodos juntos, mientras que los parámetros Base de *graph* se establecen en *Relative to parent*, de modo que los parámetros globales se puedan adaptar al contexto en el que se usa el gráfico.
 
@@ -146,7 +146,7 @@ Cuando un gráfico tiene varias entradas, cada entrada puede heredar de sus dato
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icono para el método de herencia &#39;Relativo a la entrada&#39;](../../assets/ds-inheritance-relative-to-input.png "Icono para el método de herencia &#39;Relativo a la entrada&#39;"){width="128px"}
+![Icono para el método de herencia &#39;Relativo a la entrada&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "Icono para el método de herencia &#39;Relativo a la entrada&#39;"){width="128px"}
 
 <b>Relativo a la entrada</b>
 
@@ -155,7 +155,7 @@ La entrada hereda de sus datos de entrada discretos, independientemente de los p
 </td>
 <td style="border: 0;" valign="top">
 
-![Icono para el método de herencia &#39;Relativo al principal&#39;](../../assets/ds-inheritance-relative-to-parent.png "Icono para el método de herencia &#39;Relativo al principal&#39;"){width="128px"}
+![Icono para el método de herencia &#39;Relativo al principal&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "Icono para el método de herencia &#39;Relativo al principal&#39;"){width="128px"}
 
 <b>Relativo al primario</b>
 
@@ -180,17 +180,17 @@ La entrada se hereda del gráfico y los datos que recibe se adaptan en consecuen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Color de entrada principal/escala de grises](../../assets/inheritance-primary-input-both.png){width="48px"}
+![Color de entrada principal/escala de grises](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-09.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Color de entrada principal](../../assets/inheritance-primary-input-color.png){width="48px"}
+![Color de entrada principal](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-10.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Escala de grises de entrada principal](../../assets/inheritance-primary-input-grayscale.png){width="48px"}
+![Escala de grises de entrada principal](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-11.png){width="48px"}
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ Una de las entradas se puede establecer como **entrada principal** del gráfico;
 </td>
 <td style="border: 0;" valign="top">
 
-![Tipos de conector de entrada](../../assets/inheritance-primary-input.jpg "Tipos de conector de entrada")
+![Tipos de conector de entrada](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-12.jpg "Tipos de conector de entrada")
 
 </td>
 </tr>
@@ -233,14 +233,14 @@ Las letras representan *conjuntos separados* de parámetros base y deben ayudar 
 
 **Ejemplo A**
 
-![Diagrama de herencia A](../../assets/inheritance-schematic-a.png "Diagrama de herencia A"){zoomable="yes"}
+![Diagrama de herencia A](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-13.png "Diagrama de herencia A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Ejemplo B**
 
-![Diagrama de herencia B](../../assets/inheritance-schematic-b.png "Diagrama de herencia B"){zoomable="yes"}
+![Diagrama de herencia B](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-14.png "Diagrama de herencia B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Las letras representan *conjuntos separados* de parámetros base y deben ayudar 
 
 **Ejemplo C**
 
-![Diagrama de herencia C](../../assets/inheritance-schematic-c.png "Diagrama de herencia C"){zoomable="yes"}
+![Diagrama de herencia C](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-15.png "Diagrama de herencia C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Ejemplo D**
 
-![Diagrama de herencia D](../../assets/inheritance-schematic-d.png "Diagrama de herencia D"){zoomable="yes"}
+![Diagrama de herencia D](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-16.png "Diagrama de herencia D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -295,6 +295,6 @@ En particular, el concepto de *entrada principal* se *pasa por alto* y puede pro
 
 El nodo [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) es muy susceptible a esto, ya que se usa con mucha frecuencia. Su entrada <b>Background</b> es su entrada principal.
 
-![Herencia de tamaño de salida](../../assets/inheritance-blend.jpg "Herencia de tamaño de salida"){width="512px"}
+![Herencia de tamaño de salida](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-17.jpg "Herencia de tamaño de salida"){width="512px"}
 
 Debe prestar atención al orden en que se mezclan las dos entradas: la entrada cuya resolución y precisión desea mantener hacia abajo en el gráfico debe estar conectada a la entrada Fondo, si el modo de fusión que necesita lo hace posible. Si no es así, es posible que deba ajustar los parámetros base del nodo de fusión y su método de herencia para compensar.

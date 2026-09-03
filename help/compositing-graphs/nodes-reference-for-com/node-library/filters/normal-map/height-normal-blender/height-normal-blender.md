@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Height Normal Blender
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-normal-blender.png){width="128px"}
+![](height-normal-blender.resources/height-normal-blender-01.png){width="128px"}
 
-## Height Normal Blender
-
-**En:** *Filtros/Mapa Normal*
-
-**Simple**
+<b>En:</b> Filtros > Mapa de normales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,27 +37,24 @@ Nodo de acceso directo que fusiona un mapa de altura en escala de grises en un m
 
 Esta es una forma más rápida de fusionar detalles que hacerlo manualmente con nodos separados, pero es posible que le falte control y perfeccionamiento para ciertas necesidades.
 
-## Parámetros
-
-### Entradas
-
-* **Height**: *Entrada en escala de grises*\
-  Mapa de altura en escala de grises con el que fusionarse.
-* **Normal**: *Entrada de color*\
-  Base Normalmap para fusionar.
-
-### Parámetros
-
-* **Intensidad normal**: *0.0 - 16.0* Intensidad de la conversión normal de la entrada de Height.
-* **Formato normal**: *DirectX, OpenGL*\
-  Cambia entre diferentes formatos de Mapa normal (invierte el canal verde).
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>Entrada en escala de grises</i> | Mapa de altura en escala de grises con el que fusionarse. |
+| <b>Normal</b> <i>Entrada de color</i> | Base Normalmap para fusionar. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Intensidad normal</b> <i>0.0 - 16.0</i> | Intensidad de la conversión normal de la entrada de Height. |
+| <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |

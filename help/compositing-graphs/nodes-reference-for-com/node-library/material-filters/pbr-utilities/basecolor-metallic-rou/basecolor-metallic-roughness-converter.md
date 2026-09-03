@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Convertidor de rugosidad Metálico BaseColor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-convert.png){width="128px"}
+![](basecolor-metallic-roughness-converter.resources/basecolor-metallic-roughness-converter-01.png){width="128px"}
 
-## Convertidor BaseColor / Metálico / Rugosidad
-
-**En:** *Utilidades de filtros de materiales/PBR*
-
-**Simple**
+<b>En:</b> Filtros de material > Utilidades de PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,17 +37,15 @@ Este nodo convierte los mapas Basecolor, Metálico y de Rugosidad a diferentes s
 
 Esto es útil si tienes gráficos o materiales que se hacen con un modelo de PBR, mientras que tu objetivo requiere un modelo diferente.
 
-## Parámetros
-
-* **Usar entrada SpecularLevel**: *False/True* Expone una ranura de entrada adicional a la entrada SpecularLevel. Esto también se tiene en cuenta durante la conversión.
-* ***Destino**: *PBR Diffuse/Specular/Gloss, Vray (GGX), Corona, Corona 1.6+, Redshift 1.x, Arnold 4 (AiStandard), Arnold 4 (AlSurface), RenderMan (PxrSurface)**Define el modelo de destino de conversión.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Usar entrada SpecularLevel</b> <i>Falso/Verdadero</i> | Expone una ranura de entrada adicional a la entrada SpecularLevel. Esto también se tiene en cuenta durante la conversión. |
+| <b>Destino</b> <i>PBR Difuso/Specular/Gloss, Vray (GGX), Corona, Corona 1.6+, Redshift 1.x, Arnold 4 (AiStandard), Arnold 4 (AlSurface), RenderMan (PxrSurface)</i> | Establece el modelo de destino de conversión. |

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Extracción de datos de salpicaduras de formas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 3%
+source-wordcount: '71'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,28 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-data-extract.png){width="128px"}
+![](shape-splatter-data-extract.resources/shape-splatter-data-extract-01.png){width="128px"}
 
-## Extracción de datos de salpicaduras de formas
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Complejo**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Utilidad de separación o división de datos para datos de [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md). Permite convertir y mostrar datos individuales para realizar cálculos personalizados, comprobar datos u obtener más información acerca de Shape Splatter.
 
-## Parámetros
-
-### Entradas
-
-* **Datos de salpicaduras 1**: *Entrada de color*
-* **Datos de salpicaduras 2**: *Entrada de color*
-
-*No hay parámetros.*
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Datos de salpicaduras 1</b> <i>Entrada de color</i> |  |
+| <b>Datos de salpicaduras 2</b> <i>Entrada de color</i> |  |

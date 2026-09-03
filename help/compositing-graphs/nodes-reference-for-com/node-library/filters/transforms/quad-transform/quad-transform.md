@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
-description: Utilice el nodo Transformación cuádruple para aplicar transformaciones cuadrilaterales a las texturas para la corrección y deformación de la perspectiva.
+description: Utilice el nodo Transformar cuádruple para aplicar transformaciones cuadrilaterales a las texturas para la corrección y deformación de la Perspectiva.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformación cuádruple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 2%
 
 ---
 
@@ -22,40 +22,46 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-01.png){width="128px"}
 
-![](../../../../../../assets/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform-02.png){width="128px"}
 
-## Transformación cuádruple (escala de grises)
-
-**En:** *Filtros/Transformaciones*
-
-**Intermedio**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Nodo de transformación especial que permite la transformación de una forma cuádruple a través de la interacción con sus puntos de vértice. Permite transformaciones muy específicas de forma práctica.
-
-## Parámetros
-
-* **p00**: Punto superior izquierdo.
-* **p01**: Punto inferior izquierdo
-* **p10**: Punto superior derecho.
-* **p1**: Punto inferior derecho.
-* **Sacrificio**: *Solo frente, Solo espalda, Delante sobre atrás, Reverso sobre frente* Establece el sacrificio/ocultamiento de la forma cuando los puntos se crucen entre sí.
-* **Habilitar Mosaico**: *Falso/Verdadero*
-* **Color de fondo**: *(Valor de escala de grises)*Color de fondo sólido si el mosaico está desactivado.
-* **Muestreo**: *Bilineal, Más cercana* Establece la calidad del muestreo.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/quad-example.gif)
+Nodo de transforme especial que permite la transformación de una forma de cuadrante a través de la interacción con sus puntos de vértice. Permite transformes muy específicas de forma práctica.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>p00</b> | Punto superior izquierdo. |
+| <b>p01</b> | Punto inferior izquierdo |
+| <b>p10</b> | Punto superior derecho. |
+| <b>p11</b> | Punto inferior derecho. |
+| <b>Sacrificio</b> <i>Solo frontal, Solo posterior, Delantero sobre trasero, Reverso sobre frontal</i> | Establecer el sacrificio/ocultación de la forma cuando los puntos se cruzan entre sí. |
+| <b>Habilitar Mosaico</b> <i>Falso/Verdadero</i> |  |
+| <b>Color de fondo</b> <i>(valor de escala de grises)</i> | Color de fondo sólido si el mosaico está desactivado. |
+| <b>Muestreo</b> <i>Bilineal, Más Cercana</i> | Definir la calidad de muestreo. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="quad-transform.resources/quad-transform-03.gif" />
+        </td>
+    </tr>
 </table>

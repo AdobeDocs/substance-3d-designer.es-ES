@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Simetría
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-01.png){width="128px"}
 
-## Simetría
-
-**En:** *Filtros/Transformaciones*
-
-**Intermedio**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,17 +37,25 @@ Realiza diversas operaciones de simetría en una imagen de entrada. Se puede uti
 
 Este nodo es muy similar a [Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md), pero tiene controles adicionales para los modos de fusión.
 
-## Parámetros
-
-* **Modo de simetría**: *Espejo Y, Espejo X, Diagonal Izquierda, Diagonal Derecha, Espejo X/Espejo Y, Diagonal Izquierda/Diagonal Derecha, Diagonal Derecha/Diagonal Izquierda, 8* Elige el modo geométrico de simetría.
-* **Modo de transferencia**: *0 - 6* Elige el modo de fusión de simetría: Copiar, Agregar, Restar, Multiplicar, Agregar Sub, Max, Min.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symmetry-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Modo de Simetría</b> <i>Espejo Y, Espejo X, Diagonal Izquierda, Diagonal Derecha, Espejo X/Y, Espejo X/Espejo Y, Diagonal Izquierda/Diagonal Derecha, Diagonal Derecha/Diagonal Izquierda, 8</i> | Selecciona el modo geométrico de simetría. |
+| <b>Modo de transferencia</b> <i>0 - 6</i> | Selecciona el modo de fusión de simetría: Copiar, Agregar, Restar, Multiplicar, Agregar Sub, Max, Min. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="symmetry.resources/symmetry-02.png" />
+        </td>
+    </tr>
 </table>

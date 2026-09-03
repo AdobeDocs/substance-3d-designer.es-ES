@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline (cuadrático)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline (Quadratic): icon](../../../../../../assets/spline-quadratic-icon.png "Spline (Quadratic): icon")
+![Spline (Quadratic): icon](spline-quadratic.resources/spline-quadratic-01.png "Spline (Quadratic): icon")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -43,81 +43,59 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
+
+## Entradas
 
 |  |  |
-| --- | --- |
-| <b>Vista previa</b> *Escala de grises* | Vista previa de las splines de entrada como una imagen en escala de grises. |
-| <b>Códigos polinómicos</b> *Color* | Las coordenadas de los puntos de las splines de entrada codificados en los canales RGBA de una imagen en color: <b>R</b> - Posición X <b>G</b> - Posición Y <b>B</b> - Height <b>A</b> - Datos empaquetados:          - Firma: La spline está cerrada (negativa) o abierta (positiva);          - Valor absoluto: Thickness + 1. |
-| <b>Datos de spline</b> *Color* | Datos adicionales de las splines de entrada codificadas en los canales RGBA de una imagen en color:  <b>R</b> - Tangentes X <b>G</b> - Tangentes Y <b>B</b> - Tangentes Z <b>A</b> - Sin Usar |
-| <b>Cantidad de spline</b> *Entero* | Número de splines de entrada. |
+|:---|:---|
+| <b>Vista previa</b> <i>Escala de grises</i> | Vista previa de las splines de entrada como una imagen en escala de grises. |
+| <b>Códigos polinómicos</b> <i>Color</i> | Las coordenadas de los puntos de las splines de entrada codificadas en los canales RGBA de una imagen en color:<br><b>R</b> - Posición X<br><b>G</b> - Posición Y<br><b>B</b> - Height<br><b>A</b> - Datos empaquetados:<br> - Firma: La spline está cerrada (negativa) o abierta (positiva);<br> - Valor absoluto: Thickness + 1. |
+| <b>Datos de spline</b> <i>Color</i> | Datos adicionales de las splines de entrada codificadas en los canales RGBA de una imagen en color:<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Tangents Z<br><b>A</b> - Sin usar |
+| <b>Cantidad de spline</b> <i>Entero</i> | Número de splines de entrada. |
 
-## Conectores de salida
+<a name="outputs"></a>
+
+## Salidas
 
 |  |  |
-| --- | --- |
-| <b>Vista previa</b> *Escala de grises* | Vista previa de las splines de salida como una imagen en escala de grises. |
-| <b>Códigos polinómicos</b> *Color* | Las coordenadas de los puntos de las splines de salida codificados en los canales RGBA de una imagen en color:  <b>R</b> - Posición X <b>G</b> - Posición Y <b>B</b> - Height <b>A</b> - Datos empaquetados:          - Firma: La spline está cerrada (negativa) o abierta (positiva);          - Valor absoluto: Thickness + 1. |
-| <b>Datos de spline</b> *Color* | Datos adicionales de las splines de salida codificadas en los canales RGBA de una imagen en color:  <b>R</b> - Tangentes X <b>G</b> - Tangentes Y <b>B</b> - Tangentes Z <b>A</b> - Sin Usar |
-| <b>Cantidad de spline</b> *Entero* | Número de splines de salida. |
+|:---|:---|
+| <b>Vista previa</b> <i>Escala de grises</i> | Vista previa de las splines de salida como una imagen en escala de grises. |
+| <b>Códigos polinómicos</b> <i>Color</i> | Las coordenadas de los puntos de las splines de salida codificadas en los canales RGBA de una imagen en color:<br><b>R</b> - Posición X<br><b>G</b> - Posición Y<br><b>B</b> - Height<br><b>A</b> - Datos empaquetados:<br> - Firma: La spline está cerrada (negativa) o abierta (positiva);<br> - Valor absoluto: Thickness + 1. |
+| <b>Datos de spline</b> <i>Color</i> | Datos adicionales de las splines de salida codificadas en los canales RGBA de una imagen en color:<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Tangents Z<br><b>A</b> - Sin usar |
+| <b>Cantidad de spline</b> <i>Entero</i> | Número de splines de salida. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
 |  |  |
-| --- | --- |
-| <b>Voltear dirección</b> *Booleano* | Invierte la dirección de la spline. |
-| <b>Distribución uniforme</b> *Booleano* | Cuando *True*, los puntos de la spline se espacian uniformemente de principio a fin. |
-| <b>Anexar spline de entrada</b> *Booleano* | Agrega la spline generada al final de la lista de splines conectadas a las entradas <b>Spline</b>. |
-| <b>Corrección no cuadrada</b> *Booleano* | Ajuste la posición y el thickness de los puntos para conservar la forma de la spline en resoluciones que no sean cuadradas. Esto también afecta a la distribución uniforme. |
-| <b>Smoothness</b> *Flotador* | Ajusta el *rango del arco* formado por la spline, donde 1 significa que la longitud completa de la spline es arqueada y 0 significa que la spline es completamente recta. El arco avanza desde el punto <b>p3</b> a lo largo de la spline hasta sus extremidades. |
-
-+++Altura
-
-|  |  |
-| --- | --- |
-| <b>Iniciar height</b> *Flotador* | Ajusta el height del punto <b>p1</b> en el que un valor inferior significa una ubicación más baja o más profunda.  Esto afecta al height de la spline en <b>p1</b>. |
-| <b>Finalizar height</b> *Flotador* | Ajusta el height del punto <b>p3</b> en el que un valor inferior significa una ubicación más baja o más profunda.  Esto afecta al thickness de la spline en <b>p3</b>. |
-| <b>height de tangente automática</b> *Booleano* | Ajusta el height del punto <b>p3</b> en el que un valor inferior significa una ubicación más baja o más profunda.  Esto afecta al thickness de la spline en <b>p3</b>. |
-| <b>height Tangent</b> *Flotador* | Ajusta el height controlado por las tangentes controladas por el punto <b>p2</b>.  Esto afecta al height a lo largo de la spline a medida que se aleja de <b>p1</b> y se adentra en <b>p3</b>.   *Nota:* Este parámetro solo está disponible cuando <b>height de tangente automática</b> está establecido en &#39;False&#39;. |
-
-
-+++
-
-+++Grosor
-
-|  |  |
-| --- | --- |
-| <b>Iniciar thickness</b> *Flotador* | Ajusta el thickness del punto <b>p1</b>. Esto afecta al thickness de la spline en <b>p1</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos. |
-| <b>Finalizar thickness</b> *Flotador* | Ajusta el thickness del punto <b>p3</b>. Esto afecta al thickness de la spline en <b>p3</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos. |
-| <b>thickness de tangente automática</b> *Booleano* | Establece automáticamente el thickness de las tangentes polinomiales para que se interpolen linealmente desde el <b>Thickness inicial</b> hasta el <b>Thickness final</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos. |
-| <b>thickness Tangent</b> *Flotador* | Ajusta el thickness controlado por las tangentes controladas por el punto <b>p2</b>.  Esto afecta al thickness a lo largo de la spline a medida que se aleja de <b>p1</b> y se adentra en <b>p3</b>.   El Thickness *Note:* lo utilizan nodos Spline específicos.  *Nota 2:* Este parámetro solo está disponible cuando <b>thickness de tangente automática</b> está establecido en &#39;False&#39;. |
-
-
-+++
-
-+++Puntos y coordenadas
-
-|  |  |
-| --- | --- |
-| <b>p1</b> *Float2* | Establece la posición del punto <b>p1</b> en el espacio de textura. |
-| <b>p2</b> *Float2* | Establece la posición del punto <b>p2</b> en el espacio de textura.  El punto <b>p2</b> controla las *tangentes* de los puntos <b>p1</b> y <b>p3</b>. |
-| <b>p3</b> *Float2* | Establece la posición del punto <b>p3</b> en el espacio de textura. |
-
-
-+++
-
-+++Vista previa
-
-|  |  |
-| --- | --- |
-| <b>Mostrar tangentes</b> *Booleano* | Muestra la tangente del punto de salida <b>p1</b> y la tangente del punto de entrada <b>p3</b> en la salida <b>Preview</b>.Invierte la dirección de la spline. |
-| <b>Mostrar ayuda de dirección</b> *Booleano* | Muestra un punto al principio de la spline y una punta de flecha al final en la salida <b>Preview</b>. |
-| <b>Mostrar envolvente de thickness</b> *Booleano* | Muestra líneas adicionales en los bordes del thickness de la spline. |
-| <b>Importe de segmentos</b> *Entero* | Ajusta el número de segmentos utilizados para dibujar la visualización de spline en la salida de <b>Preview</b>.  Un valor más alto produce una línea más suave. |
-| <b>Thickness (px)</b> *Flotador* | Ajusta el thickness en píxeles de la visualización de spline en la salida de <b>Preview</b>. |
-
-
-+++
+|:---|:---|
+| <b>Voltear dirección</b> <i>Booleano</i> | Invierte la dirección de la spline. |
+| <b>Distribución uniforme</b> <i>Booleano</i> | Cuando <i>True</i>, los puntos de la spline se espacian uniformemente de principio a fin. |
+| <b>Anexar spline de entrada</b> <i>Booleano</i> | Agrega la spline generada al final de la lista de splines conectadas a las entradas <b>Spline</b>. |
+| <b>Corrección no cuadrada</b> <i>Booleano</i> | Ajuste la posición y el thickness de los puntos para conservar la forma de la spline en resoluciones que no sean cuadradas. Esto también afecta a la distribución uniforme. |
+| <b>Smoothness</b> <i>Flotador</i> | Ajusta el <i>rango del arco</i> formado por la spline, donde 1 significa que la longitud completa de la spline es arqueada y 0 significa que la spline es completamente recta. El arco avanza desde el punto <b>p3</b> a lo largo de la spline hasta sus extremidades. |
+| <b>Height</b> |  |
+| <b>Iniciar height</b> <i>Flotador</i> | Ajusta el height del punto <b>p1</b> en el que un valor inferior significa una ubicación más baja o más profunda.<br>Esto afecta al height de la spline en <b>p1</b>. |
+| <b>Finalizar height</b> <i>Flotador</i> | Ajusta el height del punto <b>p3</b> en el que un valor inferior significa una ubicación más baja o más profunda.<br>Esto afecta al thickness de la spline en <b>p3</b>. |
+| <b>height de tangente automática</b> <i>Booleano</i> | Ajusta el height del punto <b>p3</b> en el que un valor inferior significa una ubicación más baja o más profunda.<br>Esto afecta al thickness de la spline en <b>p3</b>. |
+| <b>height Tangent</b> <i>Flotador</i> | Ajusta el height controlado por las tangentes controladas por el punto <b>p2</b>.<br>Esto afecta al height a lo largo de la spline a medida que se retira de <b>p1</b> y va a <b>p3</b>.<br><i>Nota:</i> Este parámetro solo está disponible cuando <b>height de tangente automática</b> está establecido en &#39;False&#39;. |
+| <b>Thickness</b> |  |
+| <b>Iniciar thickness</b> <i>Flotador</i> | Ajusta el thickness del punto <b>p1</b>. Esto afecta al thickness de la spline en <b>p1</b>.<br><i>Nota:</i> nodos de spline específicos utilizan el Thickness Spline. |
+| <b>Finalizar thickness</b> <i>Flotador</i> | Ajusta el thickness del punto <b>p3</b>. Esto afecta al thickness de la spline en <b>p3</b>.<br><i>Nota:</i> nodos específicos de spline utilizan el Thickness Spline. |
+| <b>thickness de tangente automática</b> <i>Booleano</i> | Establece automáticamente el thickness de las tangentes polinomiales para que se interpolen linealmente desde el <b>Thickness de inicio</b> hasta el <b>Thickness de fin</b>.<br><i>Nota:</i> nodos polinomiales específicos utilizan el Thickness. |
+| <b>thickness Tangent</b> <i>Flotador</i> | Ajusta el thickness controlado por las tangentes controladas por el punto <b>p2</b>.<br>Esto afecta al thickness a lo largo de la spline a medida que se aleja de <b>p1</b> y va al Thickness <b>p3</b>.<br><i>Nota:</i> nodos de spline específicos lo utilizan.<br><i>Nota 2:</i> Este parámetro solo está disponible cuando <b>thickness de tangente automática</b> está establecido en &#39;False&#39;. |
+| <b>Coordenadas de puntos</b> |  |
+| <b>p1</b> <i>Float2</i> | Establece la posición del punto <b>p1</b> en el espacio de textura. |
+| <b>p2</b> <i>Float2</i> | Establece la posición del punto <b>p2</b> en el espacio de textura.<br>El punto <b>p2</b> controla las <i>tangentes</i> de los puntos <b>p1</b> y <b>p3</b>. |
+| <b>p3</b> <i>Float2</i> | Establece la posición del punto <b>p3</b> en el espacio de textura. |
+| <b>Vista previa</b> |  |
+| <b>Mostrar tangentes</b> <i>Booleano</i> | Muestra la tangente del punto de salida <b>p1</b> y la tangente del punto de entrada <b>p3</b> en la salida <b>Preview</b>. Invierte la dirección de la spline. |
+| <b>Mostrar ayuda de dirección</b> <i>Booleano</i> | Muestra un punto al principio de la spline y una punta de flecha al final en la salida <b>Preview</b>. |
+| <b>Mostrar envolvente de thickness</b> <i>Booleano</i> | Muestra líneas adicionales en los bordes del thickness de la spline. |
+| <b>Importe de segmentos</b> <i>Entero</i> | Ajusta el número de segmentos utilizados para dibujar la visualización de spline en la salida de <b>Preview</b>.<br>Un valor más alto produce una línea más suave. |
+| <b>Thickness (px)</b> <i>Flotador</i> | Ajusta el thickness en píxeles de la visualización de spline en la salida de <b>Preview</b>. |
 
 ## Ejemplos
 
@@ -125,12 +103,12 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Ejemplo 1](../../../../../../assets/spline-quadratic-example-1.png "Spline (Quadratic): Ejemplo 1"){zoomable="yes"}
+![Spline (Quadratic): Ejemplo 1](spline-quadratic.resources/spline-quadratic-02.png "Spline (Quadratic): Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Ejemplo 2](../../../../../../assets/spline-quadratic-example-2.png "Spline (Quadratic): Ejemplo 2"){zoomable="yes"}
+![Spline (Quadratic): Ejemplo 2](spline-quadratic.resources/spline-quadratic-03.png "Spline (Quadratic): Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -140,7 +118,7 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Demostración](../../../../../../assets/spline-quadratic-demo.gif "Spline (Quadratic): Demostración"){zoomable="yes"}
+![Spline (Quadratic): Demostración](spline-quadratic.resources/spline-quadratic-04.gif "Spline (Quadratic): Demostración"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

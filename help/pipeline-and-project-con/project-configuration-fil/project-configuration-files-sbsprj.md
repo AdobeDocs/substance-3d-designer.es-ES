@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 'Archivos de configuración del proyecto: SBSPRJ'
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Son especiales en el sentido de que puede utilizar varios archivos de configurac
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de archivo SBSPRJ](../../assets/sbsprj.png "Icono de archivo SBSPRJ")
+![Icono de archivo SBSPRJ](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "Icono de archivo SBSPRJ")
 
 </td>
 </tr>
@@ -41,7 +41,7 @@ De forma predeterminada, Designer tiene dos configuraciones de proyecto activas:
 
 <b>Proyecto predeterminado: </b>Contiene toda la configuración predeterminada y la biblioteca Designer se incluye en una instalación nueva.*Sólo lectura; no se puede modificar ni quitar.*
 
-<b>Proyecto de usuario: </b>Dado que los valores predeterminados son de solo lectura, *cualquier cambio realizado por el usuario* se incluye en este proyecto de forma predeterminada. *No se puede quitar.*
+<b>Proyecto de usuario: </b>Dado que los valores predeterminados son de solo lectura, *todos los cambios realizados por el usuario* entran en este proyecto de manera predeterminada. *No se puede quitar.*
 
 Esta configuración básica garantiza que la biblioteca predeterminada y otras configuraciones no se puedan dañar o modificar, pero permite que usuarios únicos y aficionados agreguen sus propias modificaciones sin tener que preocuparse por configuraciones complejas.
 
@@ -55,21 +55,19 @@ Sin embargo, hay algunas configuraciones que <b>expanden</b> en la configuració
 
 Los archivos de proyecto pueden contener las siguientes configuraciones:
 
-<b>Vista 3D: </b>Sombreador predeterminado, HDR y definiciones de estado de escena.
+<b>Vista 3D: </b>Definiciones predeterminadas de Sombreador, HDR y estado de escena.
 
 <b>Alias: </b>Alias de palabras clave para rutas relativas.
 
-<b>Horneado: </b>Configuración para las convenciones de nomenclatura de horneado.
+<b>Horneado: </b>Configuración de las convenciones de asignación de nombres.
 
 <b>General: </b>Plantillas de gráficos, complementos de espacio de tangente, valores predeterminados de formato normal y de imagen.
 
-<b>Biblioteca: </b>Rutas controladas para mostrar en la biblioteca, así como [filtros y categorías para la vista de biblioteca](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+<b>Biblioteca: </b>Rutas controladas para mostrar en la biblioteca.
 
-<b>MDL: </b>MDL observó rutas.
+<b>Secuencias de comandos: </b>Scripts e intérpretes de devolución de llamada.
 
-<b>Secuencias de comandos: </b>Secuencias de comandos e intérpretes de devolución de llamada.
-
-<b>Control de versiones: </b>Configuración para integrar el control de versiones en Designer.
+Control de versiones de <b>: </b>Configuración para integrar el control de versiones en Designer.
 
 ## Modificación de archivos de proyecto
 
@@ -79,7 +77,7 @@ Las configuraciones de proyecto, como todos los demás tipos, se guardan como ar
 
 Consulte la página [Configuración del proyecto](../../interface/preferences-window/project-settings/project-settings.md) para obtener más información sobre cómo administrar archivos de proyecto y cambiar la configuración del proyecto.
 
-Los archivos de proyecto también incluyen <b>categorías</b> y <b>filtros</b> personalizados para la [biblioteca](../../interface/the-library/the-library.md), sobre los que puedes obtener más información en la página [Administración de contenido y filtros personalizados](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+Los archivos de proyecto también incluyen <b>categorías</b> y <b>filtros</b> personalizados para la [biblioteca](../../interface/the-library/the-library.md), sobre los que puedes obtener más información en la página [Administración de contenido y filtros personalizados](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ## Editar XML externamente
 
@@ -87,11 +85,11 @@ Para Windows, [Notepad++](https://notepad-plus-plus.org) es una buena opción gr
 
 Una vez que abra el archivo SBSPRJ en un editor, debería ver un diseño estructurado bastante sencillo, con secciones correspondientes a pestañas en la interfaz de usuario. No todos los escenarios serán documentados aquí, ya que es bastante auto-explicativo.
 
-![Edición XML](../../assets/project-xml.png "Edición XML")
+![Edición XML](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "Edición XML")
 
 ## Rutas y alias relativos
 
-Las rutas de acceso relativas combinadas con alias son una de las partes más complicadas y, sin embargo, más importantes de la configuración de un proyecto, esta sección las aclarará. La adición de alias personalizados para un archivo de proyecto específico se realiza en [Configuración del proyecto](../../interface/preferences-window/project-settings/project-settings.md).
+Las rutas de acceso relativas combinadas con alias son una de las partes más complicadas y, sin embargo, más importantes de la configuración de un proyecto, esta sección las aclarará. La adición de alias personalizados para un archivo de proyecto específico se realiza en [Configuración del proyecto](../../interface/preferences-window/project-settings/project-settings.md).
 
 Uno de los principales problemas con los archivos que hacen referencia a otros archivos de un sistema en el equipo de varios usuarios es que las rutas de archivo absolutas no funcionarán. Los usuarios pueden definir sus repositorios SVN en ubicaciones completamente diferentes (p. ej. C:/John/Gamedev/SubstanceLibrary o D:/Dev/SubstanceLibrary). Los alias y las rutas relativas funcionan juntos para resolver este problema. De lo contrario, podría abrir el archivo de otra persona e intentará buscar el nodo personalizado utilizado en la ubicación específica en la que el usuario lo tenía localmente, que probablemente no habrá definido exactamente de la misma manera.
 

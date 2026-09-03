@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Reacción Difusión Rápida
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo de difusión de reacción](../../../../../../assets/reaction-diffusion.png "Icono de nodo de difusión de reacción")
+![Icono de nodo de difusión de reacción](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "Icono de nodo de difusión de reacción")
 
 <b>En:</b> Filtros > Efectos
 
@@ -43,20 +43,30 @@ Este nodo está optimizado para el rendimiento y realiza algunas compensaciones 
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Entrada</b> *Escala de grises* Imagen de escala de grises a la que se debe aplicar el efecto Reacción-difusión.
+## Entradas
 
-## Conectores de salida
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Escala de grises</i> | Imagen en escala de grises a la que se debe aplicar el efecto Reacción-difusión. |
 
-<b>Salida </b>*Escala de grises* Imagen en escala de grises que representa el efecto Reacción-difusión aplicado a la imagen de entrada.
+<a name="outputs"></a>
+
+## Salidas
+
+|  |  |
+|:---|:---|
+| <b>Salida</b> <i>Escala de grises</i> | Imagen en escala de grises que representa el efecto Reacción-difusión aplicado a la imagen de entrada. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>Radio</b> *Flotante* Hasta dónde debe extenderse el efecto.
-
-<b>Contraste</b> *Flotante*\
-Ajusta el contraste de la entrada y sirve como una especie de umbral.
+|  |  |
+|:---|:---|
+| <b>Radio</b> *Flotador* | Hasta dónde debe extenderse el efecto. |
+| <b>Contraste</b> *Flotador* | Ajusta el contraste de la entrada y sirve como una especie de umbral. |
 
 ## Ejemplos
 
@@ -64,17 +74,17 @@ Ajusta el contraste de la entrada y sirve como una especie de umbral.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo 1](../../../../../../assets/reactdiff03.png "Ejemplo 1")
+![Ejemplo 1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "Ejemplo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo 2](../../../../../../assets/reactdiff02.png "Ejemplo 2")
+![Ejemplo 2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "Ejemplo 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo 3](../../../../../../assets/reactdiff01.gif "Ejemplo 3")
+![Ejemplo 3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "Ejemplo 3")
 
 </td>
 </tr>

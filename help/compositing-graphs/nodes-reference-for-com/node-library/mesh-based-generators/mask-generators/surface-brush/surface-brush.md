@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pincel de superficie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/surface-brush.png){width="128px"}
+![](surface-brush.resources/surface-brush-01.png){width="128px"}
 
-## Pincel de superficie
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Intermedio**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,35 +37,42 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Esta máscara representa un efecto interesante del cepillado de metal en una superficie de objeto, ocluida por la geometría de objeto y el AO.
 
-## Parámetros
-
-### Entradas
-
-* **Normal del Espacio Mundial**: *Entrada de color*
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Posición**: *Entrada en escala de grises*
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Nivel**: *0.0 - 1.0*\
-  Define el nivel de efecto global y lo revela gradualmente.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
-* **Longitud de los Scratches**: *0.0 - 8.0* Establece la longitud de los arañazos. Los valores más pequeños son más parecidos a los puntos, los valores más altos son rayas largas.
-* **Ocluir Eje**: *X, Y, Z, none* Eje del objeto que debe recibir rasguños. No altera la dirección de los arañazos.
-* **Intensidad del eje de oclusión**: *0,0 - 1,0* Intensidad del efecto de oclusión de ejes.
-* **Oclusión**: *0.0 - 1.0* Resistencia del AO en arañazos oclusivos.
-* **Intensidad de enfoque**: *0.0 - 1.0* Establezca la cantidad de enfoque posterior que se aplicará a los arañazos.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/surface-brush-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> |  |
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Posición</b> <i>Entrada en escala de grises</i> |  |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Define el nivel de efecto global y lo revela gradualmente. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
+| <b>Longitud de Scratches</b> <i>0.0 - 8.0</i> | Define la longitud de los arañazos. Los valores más pequeños son más parecidos a los puntos, los valores más altos son rayas largas. |
+| <b>Ocluir Axis</b> <i>X, Y, Z, ninguno</i> | Eje del objeto que debe recibir rasguños. No altera la dirección de los arañazos. |
+| <b>Intensidad del eje de oclusión</b> <i>0.0 - 1.0</i> | Intensidad del efecto de oclusión del eje. |
+| <b>Oclusión</b> <i>0.0 - 1.0</i> | Intensidad del AO en arañazos oclusivos. |
+| <b>Intensidad de enfoque</b> <i>0.0 - 1.0</i> | Defina la cantidad de enfoque posterior que se aplicará a los arañazos. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="surface-brush.resources/surface-brush-02.gif" />
+        </td>
+    </tr>
 </table>

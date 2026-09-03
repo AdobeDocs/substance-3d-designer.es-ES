@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bitmap para luz de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 0%
+source-wordcount: '517'
+ht-degree: 11%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/b2m-light.png)
+![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
 
-## Bitmap para luz de material
-
-**En:** *Filtros De Materiales/1 Clic*
-
-**Intermedio**
+<b>En:</b> Filtros de material > 1-Clic
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,56 +37,51 @@ Este nodo convierte una sola entrada Diffuse/Basecolor en un material completo. 
 
 Aunque no se garantiza que dé como resultado materiales perfectos y correctos para la PBR, es una forma buena y rápida de empezar si solo tienes una imagen y quieres un material completo.
 
-## Parámetros
-
-* **Canales**
-  * Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad.
-* **Global**
-  * **Saldo de Profundidad**: *-1.0 - 1.0* Establece un sesgo/cambio para el mapa de altura.
-* **Difusión**
-  * **Perfilar**: *0.0 - 1.0* Agrega enfoque al resultado de difusión.
-  * **Tono**: *0.0 - 1.0* Los matices se difuminan con un cambio de tono seleccionado por el usuario.
-  * **Saturación**: *0.0 - 1.0* Modifica la saturación del resultado de difusión.
-  * **Brillo**: *0.0 - 1.0* Ajusta el brillo del resultado de difusión.
-  * **Contraste**: *-1.0 - 1.0*\
-    Ajusta el contraste del resultado.
-* **Relieve**\
-  El grupo Relieve controla las salidas Normal y Height.
-  * **Formato Normal De Salida**: *DirectX, OpenGL* Cambia entre los formatos Normal (voltea el verde).
-  * **Invertir Relieve generado**: *Falso/Verdadero* Invierte la interpretación del height.
-  * **Intensidad normal**: *0.0 - 20.0* Establece la intensidad del mapa normal generado.
-  * **Ecualizador de Relieve**: *0.0 - 1.0* Establece saldos de conversión para escalas de detalle diferentes.
-  * **Intensidad De Pellizque**: *0.0 - 1.0* Hace que las transiciones normales sean más nítidas. Añade de forma efectiva un filtro de enfoque antes de convertir a normal, lo que hace que los bordes sean más pronunciados.
-  * **Enfoque normal**: *0.0 - 1.0* Enfoca el mapa normal después de la conversión y resalta los detalles.
-  * **Suavizado normal**: *0.0 - 1.0* Suaviza el mapa normal después de la conversión y oculta los detalles.
-* **Specular**
-  * **Influencia De Difusión De Specular**: *0.0 - 1.0* Establece la influencia de la difusión en el Specular. Afecta también a las salidas de brillo y rugosidad.
-  * **Saturación del Specular**: *0.0 - 1.0* Cambia la saturación de la salida del Specular.
-  * **Enfoque de Specular**: *0.0 - 1.0* Enfoca la salida del Specular.
-  * **Speculares leveles En**: *0.0 - 1.0* Define los niveles de entrada para la interpretación del Specular.
-  * **Salida de Speculares leveles**: *0.0 - 1.0* Modifica los niveles de salida del Specular.
-  * **Influencia De Speculares Metálicos**: *0.0 - 1.0* Determina la influencia de la entrada metálica opcional en el mapa de Speculares.
-* **Brillo**
-  * **Niveles De Brillo En**: *0.0 - 1.0* Define los niveles de entrada para la interpretación de Brillo.
-  * **Salida de niveles de brillo**: *0.0 - 1.0* Modifica los niveles de salida de Brillo.
-  * **Influencia de brillo metálico**: *0.0 - 1.0* Determina la influencia de la entrada metálica opcional en el mapa de brillo.
-* **Rugosidad**
-  * **Niveles De Rugosidad En**: *0.0 - 1.0* Define los niveles de entrada para la interpretación de Rugosidad.
-  * **Salida de niveles de rugosidad**: *0.0 - 1.0* Modifica los niveles de salida de Rugosidad.
-  * **Influencia De Rugosidad Metálica**: *0.0 - 1.0* Determina la influencia de la entrada metálica opcional en el mapa de brillo.
-* **Oclusión de ambiente**
-  * **Oclusión De Ambiente En Difusión**: *0.0 - 1.0* Fusiona el AO generado en la salida de difusión.
-  * **Extensión de Oclusión ambiental**: *0.0 - 1.0* Establece hasta dónde se extiende el AO generado.
-  * **Distancia de luz de la Oclusión ambiente**: *0.0 - 1.0* Define la interpretación de &quot;profundidad&quot; de AO. Tiene menos influencia cuando hay un pliego grande.
-  * **Ángulo de luz de la Oclusión ambiente**: *0.0 - 1.0* Establece un ángulo de proyección de AO de iluminación falsa. Se puede utilizar para compensar cualquier AO direccional que ya esté en la difusión, si se define en un ángulo opuesto.
-  * **Niveles De Oclusión Ambiental**: *0.0 - 1.0* Modifica los niveles de salida de AO.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Global</b> |  |
+| <b>Saldo de Profundidad</b> <i>-1.0 - 1.0</i> | Define un sesgo/desplazamiento para el mapa de altura. |
+| <b>Difusión</b> |  |
+| <b>Perfilar</b> <i>0.0 - 1.0</i> | Añade enfoque al resultado de difusión. |
+| <b>Tono</b> <i>0.0 - 1.0</i> | Los Matices se difuminan con un cambio de tono seleccionado por el usuario. |
+| <b>Saturación</b> <i>0.0 - 1.0</i> | Modifica la saturación del resultado de la Difuso. |
+| <b>Brillo</b> <i>0.0 - 1.0</i> | Ajusta el brillo del resultado de Difuso. |
+| <b>Contraste</b> <i>-1.0 - 1.0</i> | Ajusta el contraste del resultado. |
+| <b>Relieve</b> | El grupo Relieve controla las salidas Normal y Height. |
+| <b>Formato Normal De Salida</b> <i>DirectX, OpenGL</i> | Cambia entre los formatos Normal (voltea el verde). |
+| <b>Invertir Relieve generado</b> <i>Falso/Verdadero</i> | Invierte la interpretación del height. |
+| <b>Intensidad normal</b> <i>0.0 - 20.0</i> | Establece la intensidad del mapa normal generado. |
+| <b>Ecualizador de Relieve</b> <i>0.0 - 1.0</i> | Define los saldos de conversión para diferentes escalas de detalle. |
+| <b>Intensidad De Pellizque</b> <i>0.0 - 1.0</i> | Mejora el enfoque de las transiciones normales. Añade de forma efectiva un filtro de enfoque antes de convertir a normal, lo que hace que los bordes sean más pronunciados. |
+| <b>Enfoque normal</b> <i>0.0 - 1.0</i> | Enfoca el mapa normal después de la conversión, resalta los detalles. |
+| <b>Suavizar normal</b> <i>0.0 - 1.0</i> | Suaviza el mapa normal después de la conversión y oculta los detalles. |
+| <b>Specular</b> |  |
+| <b>Influencia del Difuso de Specular</b> <i>0.0 - 1.0</i> | Establece la influencia de la difusión en el Specular. Afecta también a las salidas de brillo y rugosidad. |
+| <b>Saturación del Specular</b> <i>0.0 - 1.0</i> | Cambia la saturación de la salida del Specular. |
+| <b>Enfoque de Specular</b> <i>0.0 - 1.0</i> | Enfoca la salida de Specular. |
+| <b>Speculares leveles En</b> <i>0.0 - 1.0</i> | Define los niveles de entrada para la interpretación del Specular. |
+| <b>Salida de Speculares leveles</b> <i>0.0 - 1.0</i> | Modifica los niveles de salida del Specular. |
+| <b>Influencia de Speculares metálicos</b> <i>0.0 - 1.0</i> | Determina la influencia de la entrada metálica opcional en el mapa del Specular. |
+| <b>Brillo</b> |  |
+| <b>Niveles De Brillo En</b> <i>0.0 - 1.0</i> | Define los niveles de entrada para la interpretación del Brillo. |
+| <b>Salida de niveles de Brillo</b> <i>0.0 - 1.0</i> | Modifica los niveles de salida del Brillo. |
+| <b>Influencia de Brillo metálico</b> <i>0.0 - 1.0</i> | Determina la influencia de la entrada metálica opcional en el mapa de Brillo. |
+| <b>Rugosidad</b> |  |
+| <b>Niveles De Rugosidad En</b> <i>0.0 - 1.0</i> | Define los niveles de entrada para la interpretación de Rugosidad. |
+| <b>Salida de niveles de rugosidad</b> <i>0.0 - 1.0</i> | Modifica los niveles de salida de Rugosidad. |
+| <b>Influencia de Rugosidad metálica</b> <i>0.0 - 1.0</i> | Determina la influencia de la entrada metálica opcional en el mapa de Brillo. |
+| <b>Oclusión ambiental</b> |  |
+| <b>Oclusión ambiental En El Difuso</b> <i>0.0 - 1.0</i> | Fusiones en el AO generado en la salida de Difuso. |
+| <b>Difusión de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define el grado de propagación del AO generado. |
+| <b>Distancia de luz de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define la interpretación de &quot;profundidad&quot; de AO. Tiene menos influencia cuando hay un pliego grande. |
+| <b>Ángulo claro de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define el ángulo de proyección de iluminación falsa AO. Se puede utilizar para compensar cualquier AO direccional que ya esté en el Difuso, si se define en un ángulo opuesto. |
+| <b>Niveles de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Modifica los niveles de salida de AO. |

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusión de color de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
@@ -22,81 +22,62 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-color-blend.png){width="128px"}
+![](material-color-blend.resources/material-color-blend-01.png){width="128px"}
 
-## Fusión de color de material
-
-**En:** *Filtros/Fusión De Materiales*
-
-**Intermedio**
+<b>En:</b> Filtros de material > Fusión
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Este nodo permite realizar ajustes en un material completo multicanal mediante la fusión de colores sólidos en la parte superior. Esta es la principal diferencia con [Fusión de ajuste de material](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md), que solo permite ajustes de tipo [Niveles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) en los canales, mientras que este nodo utiliza ajustes de tipo [Fusionar](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) con un color sólido.
+Este nodo permite realizar ajustes en un material completo multicanal mediante la fusión de colores sólidos en la parte superior. Esta es la principal diferencia con [Fusión de ajuste de material](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md), que solo permite ajustes de tipo [Niveles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) en los canales, mientras que este nodo usa ajustes de tipo [Fusión](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) con un color sólido.
 
-Este nodo es muy útil cuando desea introducir una sugerencia de color plano en Color base o Difusión, o cuando desea &quot;acoplar&quot; otros canales mediante un valor de color sólido definido.
-
-## Parámetros
-
-### Entradas
-
-* **IDcolor**: *Entrada de color*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-* **Máscara de escala de grises**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Canales**
-  * Activa y desactiva los canales de material en este grupo cuando utilice mapas de Specular/Brillo en lugar de Metálico/Rugosidad, por ejemplo.
-* **Difusión**
-  * **Color**: *(Valor de color)*Valor de color que se va a fusionar encima del canal de difusión.
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo.
-  * **Modo De Fusión**: *Modo de fusión Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar* para usar en la operación.
-* **Color base**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Normal**
-  * **Origen**: *Height, máscara*
-  * **Modo De Fusión**: *Combinar, Fusionar*
-  * **Intensidad de Height**: *0.0 - 1.0*
-  * **Opacidad del Height**: *0.0 - 1.0*
-  * **Formato**: *DirectX, OpenGL*
-* **Specular**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Emissive**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Brillo**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Rugosidad**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Metálico**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Specular level**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Oclusión de ambiente**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Height**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Opacidad**
-  * Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión.
-* **Máscara de ID de color**: *Falso/Verdadero* Usar Máscara de ID de color en lugar de máscara de escala de grises. Tenga en cuenta que esto es solo para un color!\
-  Activa todas las opciones siguientes.
-* **Color**: *(Valor de color)*Qué color seleccionar y convertir a blanco.
-* **Rugosidad**: *0.01 - 1.0* Hasta qué punto el color que has elegido se fusiona con el color de tus vecinos.
-* **Relleno**: *0.0 - 1.0* Contraste de transición del color elegido.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
+Este nodo es muy útil cuando desea introducir una sugerencia de color plano en un Difuso o Color base, o cuando desea &quot;acoplar&quot; otros canales mediante un valor de color sólido definido.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>IDcolor</b> <i>Entrada de color</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+| <b>Máscara de escala de grises</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo cuando utilice mapas de Specular/Brillo en lugar de Metálico/Rugosidad, por ejemplo. |
+| <b>Difusión</b> |  |
+| <b>Color</b> <i>(Valor de color)</i> | El valor de color que se debe fusionar en la parte superior del canal de Difuso. |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo. |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> | Modo de Fusión para utilizar en la operación. |
+| <b>Color base</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
+| <b>Normal</b> |  |
+| <b>Origen</b> <i>Height, máscara</i> |  |
+| <b>Modo De Fusión</b> <i>Combinar, Fusión</i> |  |
+| <b>Intensidad de Height</b> <i>0.0 - 1.0</i> |  |
+| <b>Opacidad del Height</b> <i>0.0 - 1.0</i> |  |
+| <b>Formato</b> <i>DirectX, OpenGL</i> |  |
+| <b>Specular</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
+| <b>Emissive</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Brillo</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Rugosidad</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
+| <b>Metálico</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
+| <b>Specular level</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
+| <b>Oclusión ambiental</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
+| <b>Height</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Opacidad</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Máscara de ID de color</b> <i>Falso/Verdadero</i> | Utilice Máscara de ID de color en lugar de máscara de escala de grises. Tenga en cuenta que esto es solo para un color.<br><br>Habilita todas las opciones siguientes. |
+| <b>Color</b> <i>(Valor de color)</i> | Qué color elegir y convertir en blanco. |
+| <b>Rugosidad</b> <i>0.01 - 1.0</i> | La medida en que el color que has elegido se fusiona con los colores vecinos. |
+| <b>Relleno</b> <i>0.0 - 1.0</i> | Contraste de transición del color elegido. |

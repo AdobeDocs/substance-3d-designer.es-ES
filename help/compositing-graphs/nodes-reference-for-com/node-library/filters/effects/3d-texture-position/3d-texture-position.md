@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Posición de textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3d-texture-position-01.png){width="256px"}
 
-**En:** *Filtro/Efecto*
-
-**Simple**
+<b>En:</b> Filtro > Efecto
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,23 +41,15 @@ Esto se puede usar para hornear ruidos 3D o funciona como un *atlas de texturas 
 </tr>
 </table>
 
-## Parámetros
+## Ejemplos
 
-Sin parámetros.
-
-## Imágenes de ejemplo
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-node.png){width="128px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-position.resources/3d-texture-position-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-position.resources/3d-texture-position-03.png" />
+        </td>
+    </tr>
 </table>

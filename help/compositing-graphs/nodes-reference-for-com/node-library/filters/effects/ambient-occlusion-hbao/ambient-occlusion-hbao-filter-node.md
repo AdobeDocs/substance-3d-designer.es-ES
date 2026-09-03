@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Oclusión ambiental (HBAO) (nodo de filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 1%
+source-wordcount: '197'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hbao.png){width="128px"}
+![](ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-01.png){width="128px"}
 
-## Oclusión ambiental (HBAO)
-
-**En:** *Filtros/Efectos*
-
-**Intermedio**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,23 +37,33 @@ Toma un mapa de altura como entrada y genera un mapa de Oclusión ambiente a par
 
 Para obtener una versión alternativa más avanzada pero más lenta del AO, consulte [Oclusión ambiental (RTAO)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 
-## Parámetros
-
-* **Usar unidades del mundo**: *Falso/Verdadero* Cambia el uso de las unidades de espacio en el mundo o en la pantalla. Activa parámetros adicionales que permiten un control más preciso.
-* **Profundidad de Height**: *0.0 - 1.0* Sólo se usa cuando World Units está establecido en False. Controla la escala global.
-* **Tamaño de superficie**: **0.0 - 1000.0** Solo se usa cuando World Units está establecido en True. Controla la escala global.
-* **Escala de Height (cm)**: *0.0 - 1000.0* Solo se usa cuando World Units está establecido en True. Controla la escala global.
-* **Radio**: *0.0 - 1.0* Controla la propagación del AO.
-* **Calidad**: *4 muestras, 8 muestras, 16 muestras*\
-  Establece el nivel de calidad determinando la cantidad de muestras utilizadas para el cálculo.
-* **Optimización de GPU**: *Falso/Verdadero* Habilita la optimización interna de la GPU y acelera el procesamiento.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/image2021-6-18-11-11-11-1.png" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/image2021-6-18-11-11-22.png" width="300px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Usar unidades de mundo</b> <i>Falso/Verdadero</i> | Cambia el uso de las unidades de espacio de pantalla o de mundo. Activa parámetros adicionales que permiten un control más preciso. |
+| <b>Profundidad de Height</b> <i>0.0 - 1.0</i> | Sólo se utiliza cuando Unidades del mundo está establecido en False. Controla la escala global. |
+| <b>Tamaño de superficie</b> <i>0.0 - 1000.0</i> | Sólo se utiliza cuando Unidades del mundo está establecido en Verdadero. Controla la escala global. |
+| <b>Escala de Height (cm)</b> <i>0.0 - 1000.0</i> | Sólo se utiliza cuando Unidades del mundo está establecido en Verdadero. Controla la escala global. |
+| <b>Radio</b> <i>0.0 - 1.0</i> | Controla la propagación del AO. |
+| <b>Calidad</b> <i>4 muestras, 8 muestras, 16 muestras</i> | Establece el nivel de calidad determinando la cantidad de muestras utilizadas para el cálculo. |
+| <b>Optimización de GPU</b> <i>Falso/Verdadero</i> | Permite la optimización interna de la GPU y acelera el procesamiento. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-03.png" />
+        </td>
+    </tr>
 </table>

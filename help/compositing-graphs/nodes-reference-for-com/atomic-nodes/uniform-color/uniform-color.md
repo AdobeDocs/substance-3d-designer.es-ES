@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Uniform color](../../../../assets/comp_uniform_1.png "Atomic node: Color uniforme"){width="200px"}
+![Nodo atómico: Uniform color](uniform-color.resources/uniform-color-01.png "Atomic node: Color uniforme"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,7 +96,7 @@ Es un nodo simple que se utiliza muy a menudo como punto de partida para añadir
 |  |  |
 | --- | --- |
 | <b>Modo de color</b> *Booleano* | Alterna entre una imagen de salida en escala de grises y en color. |
-| <b>Color de salida</b> *Float/Float4* | Selecciona el color plano que se va a utilizar en la imagen de salida.   Cuando se utiliza el modo de color &quot;Color&quot;, el canal del Alpha se utiliza para la opacidad, donde 0 es completamente transparente y 1 es completamente opaco. |
+| <b>Color de salida</b> *Float/Float4* | Selecciona el color plano que se va a utilizar en la imagen de salida.   Cuando se utiliza el modo de color &quot;Color&quot;, el canal del Alpha se utiliza para la opacidad, donde 0 es completamente transparente y 1 es completamente opaco. |
 
 ## Conectores de salida
 

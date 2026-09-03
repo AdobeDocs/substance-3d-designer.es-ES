@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Etiqueta de creación de gráficos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -28,27 +28,27 @@ La creación de gráficos grandes y complejos puede resultar confusa y difícil 
 
 #### Elementos de gráfico
 
-Los elementos gráficos son objetos auxiliares que se pueden colocar junto a los nodos y alrededor de ellos en [la vista gráfica](../../interface/the-graph-view/the-graph-view.md). De los tres, el fotograma proporciona las ventajas más rápidas y grandes, mientras que el comentario y el borde de navegación son más adecuados para situaciones específicas.
+Los elementos gráficos son objetos auxiliares que se pueden colocar junto a los nodos y alrededor de ellos en [la vista gráfica](../../interface/the-graph-view/the-graph-view.md). De los tres, el Marco proporciona las ventajas más rápidas y grandes, mientras que el Pin Comentario y Navegación son más adecuados para escenarios específicos.
 
-#### Fotogramas
+#### Marcos
 
-La primera cosa que conduce a gráficos más limpios y fáciles de leer es la colocación de marcos alrededor de los grupos centrales de su gráfico. Sin marcos, un gráfico grande es casi ilegible, e incluso los gráficos pequeños se vuelven mucho más fáciles de entender una vez que se dibujan los marcos. Una gran ventaja de Frames es que sus <b> nombres siempre se representan a la misma escala</b>, incluso si se aleja mucho.
+La primera cosa que conduce a gráficas más limpias y fáciles de leer es la colocación de Marcos alrededor de los grupos centrales de la gráfica. Sin Marcos, un gráfico grande es casi ilegible, e incluso los gráficos pequeños se vuelven mucho más fáciles de entender una vez que se dibujan los marcos. Una gran ventaja de los Marcos es que sus <b> nombres siempre se representan a la misma escala</b>, incluso si se aleja mucho.
 
-![Marcos en Substance](../../assets/frames.gif "Marcos en Substance")
+![Marcos en Substance](graph-creation-etiquette.resources/graph-creation-etiquette-01.gif "Marcos en Substance")
 
-Los marcos facilitan en gran medida la comprensión de lo que está sucediendo en un gráfico. Pueden ayudarle como autor volviendo a su trabajo meses más tarde, o como otro usuario, como un compañero, a encontrar su camino alrededor de un Gráfico al que no están acostumbrados.
+Los marcos facilitan en gran medida la comprensión de lo que está sucediendo en una gráfica. Pueden ayudarle como autor volviendo a su trabajo meses más tarde, o como otro usuario, como un compañero, a encontrar su camino alrededor de un Gráfico al que no están acostumbrados.
 
-Utilice los siguientes criterios al colocar marcos:
+Utilice los siguientes criterios al colocar Marcos:
 
-* Identifique **fragmentos de funcionalidad** (por ejemplo, 8 nodos que juntos crean un efecto de dirt) y agrúpalos mediante fotogramas.
-* Intenta siempre **usar diferentes colores** para tus marcos: Los fotogramas con el mismo color azul predeterminado no se distinguen mucho entre sí.
+* Identifique **fragmentos de funcionalidad** (por ejemplo, 8 nodos que juntos crean un efecto de dirt) y agrúpalos usando Marcos.
+* Intenta siempre **usar diferentes colores** para tus Marcos: Los marcos con el mismo color azul predeterminado no se distinguen mucho entre sí.
 * Utilice **nombres descriptivos claros** que no sean demasiado largos (consulte la sección siguiente para obtener más sugerencias)
-* No pongas **demasiado o demasiado poco** en un fotograma, ya que esto no ayuda a la legibilidad. La cantidad exacta obviamente difiere entre gráficos y funcionalidad.
+* No pongas **demasiado o muy poco** en un Marco, ya que esto no ayuda a la legibilidad. La cantidad exacta obviamente difiere entre gráficos y funcionalidad.
 * Si es necesario, **agregue texto en la descripción** para ayudar a comprender lo que sucede en un marco.
 
-#### Comentarios y pines
+#### Comentarios y Pin
 
-Los comentarios y los bordes solo son secundarios a los fotogramas y no son imprescindibles para los gráficos bien creados. Se pueden utilizar en los siguientes casos:
+Los comentarios y los pin solo son secundarios a los Marcos y no son imprescindibles en el caso de los gráficos bien creados. Se pueden utilizar en los siguientes casos:
 
 * Los comentarios son útiles para agregar texto adicional más allá de lo que permite la descripción de un marco. Puedes añadir pequeños fragmentos de texto por nodo, principalmente para pequeños fragmentos detallados de información. Los comentarios no se escalan bien y no se leen desde un nivel de zoom distante.
 * Los bordes de navegación le permiten desplazarse por áreas específicas del gráfico mediante el método abreviado F2. Esto puede resultar útil para gráficos muy grandes en los que a menudo es necesario saltar entre dos áreas que están muy alejadas entre sí.
@@ -57,7 +57,7 @@ Los comentarios y los bordes solo son secundarios a los fotogramas y no son impr
 
 Las entradas y salidas deben colocarse en los extremos extremos de los gráficos: todas las salidas a la derecha, todas las entradas a la izquierda, cada una alineada verticalmente. Esto facilita su búsqueda e identificación.
 
-![Colocación de entrada y salida](../../assets/inout.gif "Colocación de entrada y salida")
+![Colocación de entrada y salida](graph-creation-etiquette.resources/graph-creation-etiquette-02.gif "Colocación de entrada y salida")
 
 El ejemplo anterior es un caso extremo: Los fotogramas no siempre son necesarios o posibles, pero debe quedar claro que la alineación vertical de las entradas y salidas es mucho más clara que la colocación aleatoria y reordenada.
 
@@ -65,7 +65,7 @@ El ejemplo anterior es un caso extremo: Los fotogramas no siempre son necesarios
 
 En gráficos grandes y muy largos, a veces los vínculos se crean en un intervalo muy grande. Esto lleva a confundir los cables de enlace que atraviesan el gráfico sin mucho control. El método abreviado &quot;Alt + Mayús Arrastrar&quot; le permite reorganizar estos vínculos, redireccionándolos en un trazado diferente subdividiendo un vínculo y añadiendo un control adicional en el centro. Se recomienda hacer uso de esto en escenarios donde tenga sentido.
 
-![Redireccionamiento de vínculos](../../assets/linkjreroute.gif "Redireccionamiento de vínculos")
+![Redireccionamiento de vínculos](graph-creation-etiquette.resources/graph-creation-etiquette-03.gif "Redireccionamiento de vínculos")
 
 ### Etiqueta, identificador y uso
 
@@ -73,15 +73,15 @@ Cualquier gráfico destinado a compartirse o publicarse debe tener el cuidado ad
 
 Las etiquetas sugeridas predeterminadas nunca son suficientes; dedique tiempo y esfuerzo a agregar etiquetas personalizadas a los parámetros expuestos y a las entradas y salidas.
 
-![Identificador y etiqueta](../../assets/output-label.png "Identificador y etiqueta")
+![Identificador y etiqueta](graph-creation-etiquette.resources/graph-creation-etiquette-04.png "Identificador y etiqueta")
 
 Intente que el identificador y la etiqueta no difieran demasiado: en el caso de que el identificador se utilice en otra parte (en varias funciones), puede resultar muy difícil encontrar qué propiedad de interfaz de usuario está relacionada con qué variable.
 
-![Claridad del identificador](../../assets/labelvsidentifier.png "Claridad del identificador")
+![Claridad del identificador](graph-creation-etiquette.resources/graph-creation-etiquette-05.png "Claridad del identificador")
 
 Intente hacer coincidir las etiquetas con los términos que utilice en marcos (etiquetas de marco) y comentarios. Facilita averiguar qué sección del gráfico está vinculada a qué parámetro expuesto
 
-![Etiquetas de fotograma y parámetro coincidentes](../../assets/match-labels.png "Etiquetas de fotograma y parámetro coincidentes")
+![Etiquetas de fotograma y parámetro coincidentes](graph-creation-etiquette.resources/graph-creation-etiquette-06.png "Etiquetas de fotograma y parámetro coincidentes")
 
 ### Configuración de parámetros
 
@@ -103,7 +103,7 @@ Se requiere un gran cuidado al usar los datos de color y escala de grises, la me
 * Lo ideal es mantener los datos en la escala de grises el mayor tiempo posible y convertirlos solo cuando sea absolutamente necesario. Esto reduce la complejidad y ahorra en rendimiento.
 * Las entradas y salidas deben crearse o configurarse teniendo en cuenta el tipo correcto: por ejemplo, no tiene sentido tener una entrada &quot;mask&quot; definida en color si se va a convertir a escala de grises para su uso como máscara binaria.
 
-![Conversiones de color y escala de grises](../../assets/colorgray01.png "Conversiones de color y escala de grises")
+![Conversiones de color y escala de grises](graph-creation-etiquette.resources/graph-creation-etiquette-07.png "Conversiones de color y escala de grises")
 
 ### Control de resolución
 

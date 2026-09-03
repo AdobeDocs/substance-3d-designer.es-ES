@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Coincidencia de color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-match-3.png){width="128px"}
+![](color-match.resources/color-match-01.png){width="128px"}
 
-## Coincidencia de color
-
-**En:** *Filtros/Ajustes*
-
-**Complejo**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,38 +37,32 @@ Intenta hacer coincidir el rango de *color de origen* definido con un rango de *
 
 Para obtener versiones más sencillas, vea [Reemplazar rango de color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) o [Reemplazar color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color/replace-color.md).
 
-## Parámetros
-
-### Entradas
-
-* **Entrada**: Entrada *Color*\
-  Entrada principal que modificar para el resultado.
-* **Color de origen**: *Entrada de color*\
-  Ranura de entrada para el color de origen, que solo se usa cuando el modo de color de origen está establecido en *Entrada*.
-* **Color de destino**: *Entrada de color* Ranura de entrada para el color de destino, que solo se usa cuando &#39;Modo de color de destino&#39; está establecido en *Entrada*.
-
-### Parámetros
-
-* **Modo de color de origen**: *Average, Parameter, Input* Establece si el color de origen se define calculando el promedio de la imagen de entrada, estableciendo un parámetro o utilizando una ranura de entrada.
-* **Color de origen**: *(Valor de color)* Si el modo de color de origen está establecido en *Parámetro*, este parámetro determina el color de origen.
-* **Modo de color de destino**: *Parámetro, entrada de imagen* Establece si el color de origen se define promediando la imagen de entrada, estableciendo un parámetro o utilizando una ranura de entrada.
-* **Color de destino**: *(Valor de color)* Si el modo de color de destino está establecido en *Parámetro*, este parámetro determina el color de destino.
-* **Variación de color personalizada**: False/True\
-  Permite una variación de color adicional.
-* **Variación de color**\
-  Establece las variaciones de tono, crominancia o luminancia en el resultado si está activado.
-* **Usar máscara**: *Falso/Verdadero*\
-  Cambia el uso de Entrada o Salida de máscara, en función del modo de máscara que se muestra a continuación.
-* **Modo de máscara**: *Parámetro, entrada* El modo de parámetro emite una máscara que detalla cómo se cambió el color. El modo de entrada permite que una máscara controle la intensidad del efecto Coincidencia de color.
-* **Máscara**\
-  Genera una máscara que muestra dónde se aplicó exactamente el efecto Coincidencia de color, con controles adicionales para suavizar y desenfocar la máscara resultante.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Entrada de color</i> | Entrada principal que modificar para el resultado. |
+| <b>Color de origen</b> <i>Entrada de color</i> | Ranura de entrada para el color de origen, que solo se usa cuando el modo de color de origen está establecido en *Entrada*. |
+| <b>Color de destino</b> <i>Entrada de color</i> | Ranura de entrada para el color de destino, que solo se usa cuando el modo de color de destino está establecido en *Entrada*. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Modo de color de origen</b> <i>Promedio, parámetro, entrada</i> | Establece si el color de origen se define calculando el promedio de la imagen de entrada, estableciendo un parámetro o utilizando una ranura de entrada. |
+| <b>Color de origen</b> <i>(Valor de color)</i> | Si el modo de color de origen está establecido en *Parámetro*, este parámetro determina el color de origen. |
+| <b>Modo de color de destino</b> <i>Parámetro, entrada de imagen</i> | Establece si el color de origen se define calculando el promedio de la imagen de entrada, estableciendo un parámetro o utilizando una ranura de entrada. |
+| <b>Color de destino</b> <i>(Valor de color)</i> | Si el modo de color de destino está establecido en *Parámetro*, este parámetro determina el color de destino. |
+| <b>Variación de color personalizada</b> <i>Falso/Verdadero</i> | Permite una variación de color adicional. |
+| <b>Variación de color</b> | Establece las variaciones de tono, crominancia o luminancia en el resultado si está activado. |
+| <b>Usar máscara</b> <i>Falso/Verdadero</i> | Cambia el uso de Entrada o Salida de máscara, en función del modo de máscara que se muestra a continuación. |
+| <b>Modo de máscara</b> <i>Parámetro, entrada</i> | El modo de parámetros emite una máscara que detalla el cambio de color. El modo de entrada permite que una máscara controle la intensidad del efecto Coincidencia de color. |
+| <b>Máscara</b> | Genera una máscara que muestra dónde se aplicó exactamente el efecto Coincidencia de color, con controles adicionales para suavizar y desenfocar la máscara resultante. |

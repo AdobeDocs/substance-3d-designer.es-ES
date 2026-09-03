@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Convertir en lineal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '44'
+ht-degree: 2%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/convert-to-linear.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear-01.png){width="128px"}
 
-![](../../../../../../assets/convert-to-linear-grayscale.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear-02.png){width="128px"}
 
-## Convertir en lineal (escala de grises)
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Convierte una imagen de espacio de color sRGB a lineal. Resulta útil, por ejemplo, al convertir material de origen fotográfico.
-
-## Parámetros
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
 
 </td>
 </tr>

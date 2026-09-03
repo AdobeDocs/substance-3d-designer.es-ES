@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '339'
+ht-degree: 1%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill.png){width="128px"}
+![](flood-fill.resources/flood-fill-01.png){width="128px"}
 
-## Flood Fill
-
-**En:** *Filtros/Efectos*
-
-**Simple**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -47,20 +43,31 @@ Los otros efectos de Flood Fill son [Flood Fill a degradado](../../../../../../c
 > 
 > Se producen problemas si los mosaicos no están separados por píxeles totalmente negros, normalmente cuando se utilizan valores inclinados de escala de grises. Esto se puede identificar por una falta general de valores rojos en el resultado y, posiblemente, líneas de artefactos extraños. En tales casos, ajuste el contraste en el mapa de entrada o cambie el mapa de entrada hacia fuera. Asegúrese de cambiar el ajuste de compensación Seguridad/Velocidad para ver si hay alguna mejora.
 
-## Parámetros
-
-* **Compensación de seguridad/velocidad**: *Formas simples o pequeñas, formas complejas o grandes, modo sin errores.*Establezca el modo de cálculo para que se adapte mejor a las formas de entrada. Permite obtener resultados mucho más precisos si se elige el modo correcto.
-* **Opciones avanzadas**: *Mostrar parámetros avanzados y Generar/Ocultar parámetros y resultados avanzados*
-* **Anular intercambio de seguridad/velocidad**: *-1 - 100* Solo visible con Opciones avanzadas activadas. Permite la modificación de funciones internas. Muy avanzado, sirve para crear sus propios efectos o depurar.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/flood-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/flood-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
-Buenos y malos ejemplos de resultados de Flood Fill.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Compensación de seguridad/velocidad</b> <i>Formas simples o pequeñas, Formas complejas o grandes, Modo sin errores.</i> | Defina el modo de cálculo para que se adapte mejor a las formas de entrada. Permite obtener resultados mucho más precisos si se elige el modo correcto. |
+| <b>Opciones avanzadas</b> <i>Mostrar parámetros avanzados y Generar/Ocultar parámetros y resultados avanzados</i> |  |
+| <b>Anular intercambio de seguridad/velocidad</b> <i>-1 - 100</i> | Solo visible con Opciones avanzadas activado. Permite la modificación de funciones internas. Muy avanzado, sirve para crear sus propios efectos o depurar. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-fill-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-fill-03.png" />
+        </td>
+    </tr>
+</table>
+
+Buenos y malos ejemplos de resultados de Flood Fill.

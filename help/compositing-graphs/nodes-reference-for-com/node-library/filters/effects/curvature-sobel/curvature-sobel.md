@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sobel de curvatura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel-01.png){width="128px"}
 
-## Sobel de curvatura
-
-**En:** *Filtros/Efectos*
-
-**Simple**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,17 +37,25 @@ Realiza una conversión de curvatura de un solo paso simple y estricta para intr
 
 Este nodo es útil para resaltar u oscurecer rápidamente determinados bordes. Es ligeramente diferente de [Curvature](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md), ya que produce resultados de mejor calidad, pero sigue siendo nítido y duro.
 
-## Parámetros
-
-* **Intensidad**: *0.0 - 1.0* Intensidad del efecto, ajusta el contraste.
-* **Tipo normal**: *DirectX, OpenGL*
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curv-sobel-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Intensidad</b> <i>0.0 - 1.0</i> | Intensidad del efecto, ajusta el contraste. |
+| <b>Tipo normal</b> <i>DirectX, OpenGL</i> |  |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="curvature-sobel.resources/curvature-sobel-02.png" />
+        </td>
+    </tr>
 </table>

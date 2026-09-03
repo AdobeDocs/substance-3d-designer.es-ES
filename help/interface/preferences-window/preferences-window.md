@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Ventana Preferencias
 
-![Ventana de preferencias](../../assets/image2021-6-22-20-56-1.png "Ventana de preferencias")
+![Ventana de preferencias](preferences-window.resources/preferences-window-01.png "Ventana de preferencias")
 
 Esta página presenta la ventana <b>Preferencias</b> y toda su configuración.
 
@@ -111,7 +111,7 @@ Tenga en cuenta también que los guardados automáticos deben abrirse *después 
 
 |  |  |
 | --- | --- |
-| <b>Guardar siempre el archivo .sbs al publicar en .sbsar o enviar a otra aplicación</b>  *Valor predeterminado: True* | Controla el guardado automático del paquete SBS al [publicarlo](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) o enviarlo a otra aplicación. |
+| <b>Guardar siempre el archivo .sbs al publicar en .sbsar o enviar a otra aplicación</b>  *Valor predeterminado: True* | Controla el guardado automático del paquete de SBS al [publicarlo](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) o enviarlo a otra aplicación. |
 
 ### Cocina
 
@@ -141,7 +141,7 @@ Consulte la página [Configuración de proyectos](../../interface/preferences-wi
 | --- | --- |
 | <b>La tecla de tabulación muestra el menú de nodos</b>  *Valor predeterminado: Comprobado* | Si se marca, la tecla &quot;Tab&quot; abrirá el menú <b>Nodo</b>, replicando la funcionalidad de la clave &quot;Space&quot;. |
 | <b>Habilitar la creación de nodos haciendo clic y arrastrando conectores</b>  *Valor predeterminado: Comprobado* | Si está marcado, al hacer clic en cualquier conector, arrastre el cursor y suelte el vínculo creado en el espacio vacío del gráfico para mostrar el <b>menú Nodo</b>.   El menú también se *filtrará* según el tipo de conector en el que se haya hecho clic. Esto significa que sólo se mostrarán los nodos compatibles con el conector en el que se ha hecho clic. |
-| <b>Ver resultados en vista 3D al abrir un gráfico</b>  *Valor predeterminado: Comprobado* | Si se marca, todas las salidas de gráficos se aplican automáticamente en la [vista 3D](../../interface/3d-view/3d-view.md) cuando se abre ese gráfico.   Esto también tiene el efecto de representar todos los nodos que forman parte de una secuencia que conduce a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
+| <b>Ver resultados en vista 3D al abrir un gráfico</b>  *Valor predeterminado: Comprobado* | Si se marca, todas las salidas de gráficos se aplican automáticamente en el [Vista 3D](../../interface/3d-view/3d-view.md) cuando se abre ese gráfico.   Esto también tiene el efecto de representar todos los nodos que forman parte de una secuencia que conduce a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
 
 ### Gráfico de composición de Substance
 
@@ -157,14 +157,14 @@ Consulte la página [Configuración de proyectos](../../interface/preferences-wi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Edición en contexto deshabilitada](../../assets/substance3ddesigner_incontext_no.gif "Edición en contexto deshabilitada")
+![Edición en contexto deshabilitada](preferences-window.resources/preferences-window-02.gif "Edición en contexto deshabilitada")
 
 *Abrir referencia*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Edición en contexto habilitada](../../assets/substance3ddesigner_incontext_yes.gif "Edición en contexto habilitada")
+![Edición en contexto habilitada](preferences-window.resources/preferences-window-03.gif "Edición en contexto habilitada")
 
 *Abrir Referencia En Contexto*
 

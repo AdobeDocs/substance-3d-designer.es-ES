@@ -2,10 +2,10 @@
 name: write-experience-league-markdown
 description: ""
 Source: https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 5%
+source-wordcount: '647'
+ht-degree: 6%
 
 ---
 
@@ -62,11 +62,13 @@ etiqueta, p. ej. `Getting started{#getting-started}`.
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * Se admiten parámetros de consulta de tamaño y optimización opcionales:
-  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
 * **El texto alternativo no debe contener guiones bajos**; no se representan correctamente;
 en su lugar, utilice guiones o espacios.
-* Las imágenes específicas de la página están activas en `<page-name>.resources/`; iconos compartidos/de aplicaciones
-vivo en `help/assets/` (vea CLAUDE.md).
+* Las imágenes específicas de la página se encuentran en una carpeta del mismo nivel `<page-name>.resources/`
+junto a `.md`, referenciado relativamente (p. ej.
+  `<page-name>.resources/image.png`). `help/assets/` es un legado compartido
+  carpeta — no agregue imágenes nuevas allí (vea CLAUDE.md).
 
 ## Tablas
 

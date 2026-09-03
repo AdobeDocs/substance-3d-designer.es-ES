@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas técnicos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -37,13 +37,13 @@ En cada una de las páginas enumeradas, encontrará *pasos de solución de probl
 
 ## Informar de un problema
 
-Designer incluye formas de informar directamente de bloqueos y errores.
+Designer incluye formas de informar directamente sobre bloqueos y errores.
 
 >[!TIP]
 >
 > Por favor, sea descriptivo.
 > 
-> Un miembro del equipo de Designer revisará *todos los informes de errores y bloqueos* que nos envíes *.*
+> Un miembro del equipo de Designer revisará *cada* informe de bloqueos e errores que nos envíe *.*
 > 
 > Al informar de un problema, <b>incluye tantos detalles y contexto como puedas</b>, lo que facilita y agiliza considerablemente la comprensión del problema y la búsqueda de una solución.
 > 
@@ -55,16 +55,16 @@ Designer incluye formas de informar directamente de bloqueos y errores.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Cuando la aplicación se bloquea, en la mayoría de los casos se muestra el cuadro de diálogo Crash Report.
+Cuando se produce un bloqueo en la aplicación, en la mayoría de los casos se muestra el cuadro de diálogo Informe de Bloqueos.
 
 Puede indicarnos las circunstancias del bloqueo en el campo Descripción para que podamos investigarlo y, con suerte, corregirlo en una futura versión de Designer.
 
-Comparte una <b>dirección de correo electrónico válida</b> para que podamos ponernos en contacto contigo si necesitamos más detalles o podemos ofrecerte una solución alternativa al bloqueo que has experimentado.
+Comparte una <b>dirección de correo electrónico válida</b> para que podamos ponernos en contacto contigo si necesitamos más detalles o podemos ofrecerte una solución alternativa al bloqueo que experimentaste.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cuadro de diálogo Crash Report](../assets/crash-reporter-2.png "Crash Report dialog"){zoomable="yes"}
+![cuadro de diálogo Informe de Bloqueo](technical-issues.resources/technical-issues-01.png "cuadro de diálogo Informe de Bloqueo"){zoomable="yes"}
 
 *Haga clic para ampliar*
 
@@ -74,7 +74,7 @@ Comparte una <b>dirección de correo electrónico válida</b> para que podamos p
 
 >[!NOTE]
 >
-> Los informes de bloqueos incluyen el archivo de registro de Designer, las preferencias y los archivos de proyecto *de forma predeterminada*. Por lo tanto, algunas <b>rutas de acceso del sistema y del archivo pueden aparecer</b> en estos archivos.
+> Los informes de bloqueo incluyen el archivo de registro de Designer, las preferencias y los archivos de proyecto *de forma predeterminada*. Por lo tanto, algunas <b>rutas de acceso del sistema y del archivo pueden aparecer</b> en estos archivos.
 > 
 > El uso de estos archivos es <b>estrictamente interno y limitado</b> al ámbito de investigación del problema notificado.
 
@@ -91,7 +91,7 @@ Puede indicarnos el problema en el campo Descripción para que podamos investiga
 </td>
 <td style="border: 0;" valign="top">
 
-![Cuadro de diálogo Informe de errores](../assets/bug-reporter.png "Cuadro de diálogo Informe de errores"){zoomable="yes"}
+![Cuadro de diálogo Informe de errores](technical-issues.resources/technical-issues-02.png "Cuadro de diálogo Informe de errores"){zoomable="yes"}
 
 *Haga clic para ampliar*
 

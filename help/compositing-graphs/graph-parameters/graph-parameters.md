@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Parámetros de gráficos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 0%
+source-wordcount: '1492'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,7 @@ A su vez, los valores de los parámetros base del gráfico dependerán del conte
 </td>
 <td style="border: 0;" valign="top">
 
-![Parámetros base](../../assets/doc-graph-props-base-params.png "Parámetros base"){width="512px" zoomable="yes"}
+![Parámetros base](graph-parameters.resources/graph-parameters-01.png "Parámetros base"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ En la mayoría de los casos, la herencia desempeña un papel importante en la de
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Tamaño de salida</b> | Este parámetro le permite elegir la *resolución base* de las imágenes en el gráfico.  Utilice la <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> Botón de bloqueo para que los valores de altura y anchura coincidan y mantener la imagen cuadrada al realizar ajustes de tamaño.<br><br>*Valor predeterminado: (0,0) - Relativo al primario* [Más información](../../compositing-graphs/output-size/output-size.md) |
-| <b>Formato de salida</b> | Permite elegir *profundidad de bits base* en el gráfico, entre estas opciones:<ul data-preserve-html="true"><li data-preserve-html="true">8 bits</li><li data-preserve-html="true">16 bits</li><li data-preserve-html="true">HDR 16F de baja precisión (punto flotante de 16 bits)</li><li data-preserve-html="true">HDR High Precision 32F (punto flotante de 32 bits)</li></ul>*Valor predeterminado: 8 bits por canal - Relativo al primario* |
+| <b>Tamaño de salida</b> | Este parámetro le permite elegir la *resolución base* de las imágenes en el gráfico.  Utilice la <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-02.jpg"/></div> Botón de bloqueo para que los valores de altura y anchura coincidan y mantener la imagen cuadrada al realizar ajustes de tamaño.<br><br>*Valor predeterminado: (0,0) - Relativo al primario* [Más información](../../compositing-graphs/output-size/output-size.md) |
+| <b>Formato de salida</b> | Permite elegir *profundidad de bits base* en el gráfico, entre estas opciones:<ul data-preserve-html="true"><li data-preserve-html="true">8 bits</li><li data-preserve-html="true">16 bits</li><li data-preserve-html="true">HDR. Baja precisión 16F (punto flotante de 16 bits)</li><li data-preserve-html="true">HDR. High Precision 32F (punto flotante de 32 bits)</li></ul>*Valor predeterminado: 8 bits por canal - Relativo al primario* |
 | <b>Tamaño de píxel</b> | Define el tamaño en píxeles. Se recomienda dejar los valores **Width** y **Height** establecidos en **1**.*Valor predeterminado: (1,1) - Relativo Al Padre* |
 | <b>Modo de segmentación</b> | Define el *modo de mosaico* base en el gráfico a partir de estas opciones:<ul data-preserve-html="true"> <li data-preserve-html="true">Sin mosaico</li> <li data-preserve-html="true">Mosaico horizontal</li> <li data-preserve-html="true">Mosaico vertical</li> <li data-preserve-html="true">Mosaico H+V (horizontal y vertical)</li> </ul>*Valor predeterminado: Mosaico H y V - Relativo al primario* |
-| <b>Raíz aleatoria</b> | Define la base *semilla aleatoria* para el gráfico.  Utilice la <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> para asignar un nuevo valor aleatorio a la semilla aleatoria.<br><br>*Valor predeterminado: 0 - Relativo Al Principal* |
+| <b>Raíz aleatoria</b> | Define la base *semilla aleatoria* para el gráfico.  Utilice la <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-03.jpg"/></div> para asignar un nuevo valor aleatorio a la semilla aleatoria.<br><br>*Valor predeterminado: 0 - Relativo Al Principal* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ La sección <b>Atributos</b> contiene *metadatos* para el gráfico, que proporci
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atributos de gráficos](../../assets/doc-graph-props-attributes.png "Atributos de gráficos"){zoomable="yes"}
+![Atributos de gráficos](graph-parameters.resources/graph-parameters-04.png "Atributos de gráficos"){zoomable="yes"}
 
 </td>
 </tr>
@@ -83,8 +83,8 @@ La sección <b>Atributos</b> contiene *metadatos* para el gráfico, que proporci
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Identificador** | Este es el nombre del gráfico y debe ser *único*; no puede tener dos o más gráficos con el mismo <b>Identificador</b> en el mismo paquete. Se usa como *nombre* del gráfico en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md).<br><br>*Nota:* El identificador *no puede ser una cadena vacía*. Las cadenas vacías se reemplazan automáticamente por `_` o `Substance_graph`. Puede usar *solo* los siguientes caracteres para este valor: *`A-Z, 1-9, @$%[{]}_-`.* Los caracteres no autorizados se reemplazan automáticamente por `_`.<br><br>*Valor predeterminado: Nuevo\_Gráfico o definido por el usuario al crear el gráfico* |
-| **Etiqueta** | Se utiliza <b>Label</b> en lugar del <b>Identificador</b> para mostrar el *nombre* del gráfico para facilitar la lectura en escenarios de *cara al usuario*, p. ej. [Entrada de biblioteca](../../interface/the-library/the-library.md) o etiqueta de [nodo de instancia](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).  Una etiqueta puede ser *no única* y puede contener caracteres especiales.<br><br>*Sugerencia:* Si cambia el nombre de un gráfico (p. ej., en el [Explorador](../../interface/the-explorer-window/the-explorer-window.md)), es posible que también desee cambiar su etiqueta.<br><br>*Valor predeterminado: Vacío* |
-| **Tipo** | El <b>Tipo</b> se usa para definir el propósito deseado de un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md). Está pensado principalmente para la característica de interoperabilidad [&#39;Enviar&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md) [.](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) |
+| **Etiqueta** | Se utiliza <b>Label</b> en lugar del <b>Identificador</b> para mostrar el *nombre* del gráfico para facilitar su lectura en escenarios de *cara al usuario*, p. ej. [Entrada de biblioteca](../../interface/the-library/the-library.md) o etiqueta de [nodo de instancia](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).  Una etiqueta puede ser *no única* y puede contener caracteres especiales.<br><br>*Sugerencia:* Si cambia el nombre de un gráfico (p. ej., en el [Explorador](../../interface/the-explorer-window/the-explorer-window.md)), es posible que también desee cambiar su etiqueta.<br><br>*Valor predeterminado: Vacío* |
+| **Tipo** | El <b>Tipo</b> se usa para definir el propósito deseado de un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md). Está pensado principalmente para la característica de interoperabilidad [&#39;Enviar&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md). |
 | **Modelo de material** | Al establecer el modelo de material del gráfico, se garantiza que se utilice el sombreado apropiado en la vista 3D, si hay disponible un sombreado *que coincida con el modelo*.<br>P. ej. al ver un gráfico con el modo de material `OpenPBR v1.1` en la vista 3D, se seleccionará el sombreador `OpenPBR Surface` en para el material de destino.<br><br>Si no se encuentra ningún sombreado coincidente o el modelo del gráfico está establecido en `Undefined`, el sombreado utilizado para el material de destino en la vista 3D es *inalterado*. |
 | **Tamaño físico** | Este valor especifica la dimensión de la textura en el *mundo físico*, en X (longitud), Y (anchura) y Z (height). Por lo tanto, está intrínsecamente relacionado con el material que se produce en el gráfico. El tamaño físico se puede usar, por ejemplo, para mostrar la textura en su proporción correcta en la <b>Vista 2D</b> y la <b>Vista 3D</b>.<br><br>*Sugerencia:* El tamaño físico de un gráfico de Substance se puede recuperar como un valor Float3 en gráficos de funciones de Substance aplicados a cualquier nodo de ese gráfico, utilizando la variable [&#x200B; integrada &#x200B;](../../function-graphs/variables/system-variables/system-variables.md) $fisicsize *Nota:**El valor**&#x200B;Z<br><br>* no se tiene en cuenta *en el **Vista 3D**.* Por lo tanto, el valor **Escala de Height** del material debe establecerse mediante un nodo **Output** establecido en el uso de **heightscale** o directamente en **Propiedades de material**.<br><br>*Valor predeterminado: (0,0,0)* |
 | **Icono** | Esta área le permite definir un *icono* que usará la <b>Biblioteca</b> para mostrar la entrada de este gráfico, tanto como <b>SBS</b> como <b>SBSAR</b>. El icono también se usa en otras situaciones, como <b>Shelf</b> de [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html). El área ofrece las siguientes opciones:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Examinar</b>: Permite examinar los archivos del sistema en busca de la <i>imagen existente</i> que debe utilizarse como icono</li> <li data-preserve-html="true"><b>Generar</b>: Esto genera un icono usando un <i>ajuste preestablecido integrado</i> del nodo <b>Renderización PBR</b></li> <li data-preserve-html="true"><b>Pegar</b>: Permite pegar los datos de imagen actualmente en el <i>portapapeles</i> como un icono</li> <li data-preserve-html="true"><b>Quitar</b>: Esta opción <i>quita</i> el icono existente y deja la ranura del icono <i>vacía</i></li> </ul>*Nota:* La opción **Generate** usa el **Tamaño físico** para determinar la **escala de Height** de la **Renderización PBR** para su efecto de desplazamiento. Si en el gráfico existe un nodo **Output** con el uso **ficalsize**, se usa este resultado. Si no existe tal salida, se usa el valor de **Atributos** del gráfico *en su lugar*. Si el valor del atributo es (0,0,0), se usa el *valor preestablecido* de 0,1.<br><br>*Nota:* Cuando se ha definido *ningún icono*, se usa en su lugar la *primera salida de imagen* para el gráfico.<br><br>*Valor predeterminado: Vacío* |
@@ -116,7 +116,7 @@ También se pueden crear [ajustes preestablecidos de parámetros](../../composit
 </td>
 <td style="border: 0;" valign="top">
 
-![Parámetros de entrada](../../assets/doc-graph-props-input-parameters.png "Parámetros de entrada"){zoomable="yes"}
+![Parámetros de entrada](graph-parameters.resources/graph-parameters-05.png "Parámetros de entrada"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Puede reordenarlos arrastrándolos y soltándolos en el controlador situado más
 </td>
 <td style="border: 0;" valign="top">
 
-![Entradas](../../assets/doc-graph-props-inputs.png "Entradas"){zoomable="yes"}
+![Entradas](graph-parameters.resources/graph-parameters-06.png "Entradas"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Puede reordenarlos arrastrándolos y soltándolos en el controlador situado más
 </td>
 <td style="border: 0;" valign="top">
 
-![Salidas](../../assets/doc-graph-props-outputs.png "Salidas"){zoomable="yes"}
+![Salidas](graph-parameters.resources/graph-parameters-07.png "Salidas"){zoomable="yes"}
 
 </td>
 </tr>

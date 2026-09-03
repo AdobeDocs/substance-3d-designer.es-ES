@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Recurso de escena 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -56,7 +56,7 @@ La vinculación de una escena 3D en el paquete es la única forma de [eliminar l
 * Con el recurso cargado en [Explorer](../../interface/the-explorer-window/the-explorer-window.md), haz clic en *RMB* y selecciona la opción <b>Bake Model Information</b> en el menú contextual
 * Aparece el cuadro de diálogo [Información del modelo de horneado](../../bakers/bakers.md) para que configure y ejecute los horneados de los mapas de malla
 
-![Mapas de malla de cocción](../../assets/bake-model-information.gif "Mapas de malla de cocción"){width="512px"}
+![Mapas de malla de cocción](3d-scene-resource.resources/3d-scene-resource-01.gif "Mapas de malla de cocción"){width="512px"}
 
 ## UDIM/UV-tile usage
 

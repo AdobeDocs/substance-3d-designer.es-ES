@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ruido simple en 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 1%
+source-wordcount: '129'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
+![](3d-simplex-noise.resources/3d-simplex-noise-01.png){width="128px"}
 
-## Ruido simple en 3D
-
-**En:** *Generadores De Texturas**/Ruidos*
-
-**Intermedio**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -42,16 +38,25 @@ Similar a [Ruido 3D Perlin](../../../../../../compositing-graphs/nodes-reference
 
 Este ruido se puede probar con [Cube 3D GBuffers](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers) como entrada en lugar de un mapa con bake real (como se muestra en la imagen de ejemplo siguiente).
 
-## Parámetros
-
-* **Escala**: *0.0 - 64.0*\
-  Establezca la escala global del efecto.
-* **Tamaño**: *0.0 - 2.0* Realice escalas no uniformes en los ejes X, Y y Z por separado.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/3d-simplex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Escala</b> <i>0.0 - 64.0</i> | Establezca la escala global del efecto. |
+| <b>Tamaño</b> <i>0.0 - 2.0</i> | Realice escalas no uniformes en los ejes X, Y y Z por separado. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-simplex-noise.resources/3d-simplex-noise-02.gif" />
+        </td>
+    </tr>
 </table>

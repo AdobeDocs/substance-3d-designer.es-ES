@@ -10,10 +10,10 @@ helpx_tags: ""
 title: De abajo arriba
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bottom-to-top.png){width="128px"}
+![](bottom-to-top.resources/bottom-to-top-01.png){width="128px"}
 
-## De abajo arriba
-
-**En:** *Generadores/Generadores De Máscara Basados En Malla*
-
-**Simple**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,29 +37,36 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Esto genera una transición de blanco a negro desde la parte inferior a la superior de un modelo, útil para realizar falloffs y selecciones basadas en geometría.
 
-## Parámetros
-
-### Entradas
-
-* **Posición**: *Entrada de color*\
-  Mapa de posición horneada. ¡Obligatorio!
-* **Rugosidad:** *Entrada en escala de grises*\
-  Esto no tiene nada que ver con la rugosidad de la PBR, pero es un mapa de variación (opcional) para romper la transición. Solo aparece cuando el valor de Rugosidad es superior a 0.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Nivel**: *0.0 - 1.0*\
-  Cambia el nivel medio del resultado entre blanco o negro, como un ajuste de brillo.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste de la transición.
-* **Rugosidad\_Variación**: *0.0 - 1.0* Determina la cantidad del mapa de rugosidad que se debe fusionar para variar. Si se aumenta este valor por encima de 0, se muestra la ranura del mapa.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/bottom-to-top-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Posición</b> <i>Entrada de color</i> | Mapa de posición hecho un bake. ¡Obligatorio! |
+| <b>Rugosidad</b> <i>Entrada en escala de grises</i> | Esto no tiene nada que ver con la rugosidad de la PBR, pero es un mapa de variación (opcional) para romper la transición. Solo aparece cuando el valor de Rugosidad es superior a 0. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Cambia el nivel medio del resultado entre blanco o negro, como un ajuste de brillo. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste de la transición. |
+| <b>Variación_de_rugosidad</b> <i>0.0 - 1.0</i> | Determina la cantidad del mapa de rugosidad en la que se fusionará para la variación. Si se aumenta este valor por encima de 0, se muestra la ranura del mapa. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bottom-to-top.resources/bottom-to-top-02.gif" />
+        </td>
+    </tr>
 </table>

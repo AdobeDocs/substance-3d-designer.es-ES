@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entrada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nodo atómico: Color de entrada](../../../../assets/comp_inputcolor_1.png "Nodo atómico: Color de entrada"){width="200px"}
+![Nodo atómico: Color de entrada](input.resources/input-01.png "Nodo atómico: Color de entrada"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atómico: Entrada en escala de grises](../../../../assets/comp_inputgrayscale_1.png "Nodo atómico: Escala de grises de entrada"){width="200px"}
+![Nodo atómico: Entrada en escala de grises](input.resources/input-02.png "Nodo atómico: Escala de grises de entrada"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atómico: Valor de entrada](../../../../assets/comp_inputnumeric_1.png "Nodo atómico: Valor de entrada"){width="200px"}
+![Nodo atómico: Valor de entrada](input.resources/input-03.png "Nodo atómico: Valor de entrada"){width="200px"}
 
 </td>
 </tr>
@@ -119,12 +119,12 @@ Si desea verla con los resultados de otro gráfico, deberá exportar dicho gráf
 <td width="100.00%" style="border: 0;" valign="top">
 
 Cuando hay varias entradas, debes prestar atención a la forma en que el gráfico [heredará sus parámetros base](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) de estas entradas.\
-Los parámetros base incluyen, entre otros, <b>Tamaño de salida</b>, <b>Formato de salida</b> y <b>Modo de segmentación</b>.
+Los parámetros base incluyen, entre otros, <b>Tamaño de salida</b>, <b>Formato de salida</b> y <b>Modo de mosaico</b>.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Entrada principal en el gráfico del Substance](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Entrada principal en el gráfico del Substance](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Por último, puede reemplazar cualquier valor para un atributo determinado estab
 
 ## Atributos de integración
 
-Las entradas no se envían directamente a la vista 3D, pero [Substance 3D Painter](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/home) usa sus atributos de uso para rellenar automáticamente las ranuras con determinados mapas (la mayoría de ellos se usan con [Filtros](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/effects/filter)).
+Las entradas no se envían directamente a la Vista 3D, pero [Substance 3D Painter](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/home) utiliza sus atributos de uso para rellenar automáticamente las ranuras con determinados mapas (la mayoría de ellos se usan con [Filters](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/effects/filter)).
 
 Además, los atributos de uso también se utilizan con [Modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), para que coincidan con las ranuras de entrada y salida correctas.
 

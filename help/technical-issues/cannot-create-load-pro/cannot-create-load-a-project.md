@@ -10,9 +10,9 @@ helpx_tags: ""
 title: No se puede crear un proyecto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ En esta página se enumeran las causas comunes por las que no se pueden crear o 
 
 ## La aplicación es demasiado antigua para abrir la URL
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](cannot-create-load-a-project.resources/error.svg) Problema**
 
 El **archivo Substance 3D (SBS)** se está cargando en una versión de Substance 3D Designer que *no admite su formato*. Es probable que el archivo de Substance 3D *se haya guardado en una versión más reciente* del software que usa un formato actualizado para estos archivos.
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](cannot-create-load-a-project.resources/check.svg) Pasos recomendados**
 
 A medida que Substance 3D Designer evoluciona, también lo hace el formato de archivo Substance 3D (SBS). La mayoría de las veces, una nueva versión del software tendrá que *actualizar tus archivos* para que puedan admitir las funciones más recientes.
 
@@ -54,7 +54,7 @@ En primer lugar, compruebe que utiliza la versión más reciente de Substance 3D
 
 ## Bloqueo al crear o cargar un proyecto
 
-<b>![(error)](../../assets/error.svg) Problema</b>
+<b>![(error)](cannot-create-load-a-project.resources/error.svg) Problema</b>
 
 A menudo, un bloqueo al crear o cargar un proyecto se debe a un error durante la inicialización de la [vista 3D](../../interface/3d-view/3d-view.md), que se produce cuando se configura el área de trabajo.
 
@@ -62,7 +62,7 @@ Si el sistema es un portátil, una aplicación de terceros puede aplicar un *pla
 
 También puede producirse un bloqueo al cambiar la configuración de visualización o la escala *entre sesiones, de modo que el marco de procesamiento de la vista 3D se cree en coordenadas no válidas.*
 
-<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
+<b>![(marca)](cannot-create-load-a-project.resources/check.svg) Pasos recomendados</b>
 
 Teniendo en cuenta las múltiples causas posibles de este bloqueo, le recomendamos que siga estos pasos de solución de problemas en orden:
 
@@ -180,13 +180,13 @@ Desconecte el segundo monitor del sistema y conéctelo de nuevo (omita este paso
 
 Inicie Designer, pero *no* cree o abra ningún proyecto
 
-* En la barra superior, abre el menú <b>Windows</b> y selecciona la opción <b>Nueva vista 3D</b>
+* En la barra superior, abre el menú <b>Windows</b> y selecciona la opción <b>Nuevo Vista 3D</b>
 
-En la barra superior, abre el menú <b>Windows</b> y selecciona la opción <b>Nueva vista 3D</b>
+En la barra superior, abre el menú <b>Windows</b> y selecciona la opción <b>Nuevo Vista 3D</b>
 
-* Compruebe que la <b>Vista 3D</b> está inicializada correctamente y pruebe con diferentes mallas de vista previa en el menú <b>Escena</b> de la barra superior del panel
+* Compruebe que <b>Vista 3D</b> está inicializado correctamente y pruebe con diferentes mallas de vista previa en el menú <b>Scene</b> de la barra superior del panel
 
-Compruebe que la <b>Vista 3D</b> está inicializada correctamente y pruebe con diferentes mallas de vista previa en el menú <b>Escena</b> de la barra superior del panel
+Compruebe que <b>Vista 3D</b> está inicializado correctamente y pruebe con diferentes mallas de vista previa en el menú <b>Scene</b> de la barra superior del panel
 
 * Crear o abrir un material
 

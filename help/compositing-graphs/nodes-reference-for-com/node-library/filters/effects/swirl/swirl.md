@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Remolino
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '87'
+ht-degree: 6%
 
 ---
 
@@ -22,33 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/swirl-grayscale.png)![](../../../../../../assets/swirl.png)
+![](swirl.resources/swirl-01.png)![](swirl.resources/swirl-02.png)
 
-## Remolino (escala de grises)
-
-**En:** *Filtros/Efectos*
-
-**Simple**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Esto transforma una imagen de entrada deformándola en una dirección en espiral. Tiene control adicional para mover el remolino a partes del lienzo.
 
-## Parámetros
-
-* **Matriz**\
-  Permite mover manualmente el efecto de remolino. También se puede modificar interactuando con los controles de la previsualización 2D.
-  * **Matriz**: *(Matriz de transformación)*
-  * **Desplazamiento**: *0.0 - 1.0*
-* **Importe**: *-16.0 - 16.0* Intensidad del efecto de remolino.
-
-## Imágenes de ejemplo
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Matriz</b> | Permite mover manualmente el efecto de remolino. También se puede modificar interactuando con los controles de la previsualización 2D. |
+| <b>Matriz</b> <i>(Matriz de transformación)</i> |  |
+| <b>Desplazamiento</b> <i>0.0 - 1.0</i> |  |
+| <b>Importe</b> <i>-16.0 - 16.0</i> | Intensidad del efecto de remolino. |

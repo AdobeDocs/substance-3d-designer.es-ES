@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tintas planas (Pantone)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -48,26 +48,26 @@ En resumen, la configuración de la gestión de color para tintas planas implica
 
 Incluso si configura la gestión de color, los selectores de color seguirán teniendo como valor predeterminado los selectores de color RGB o HSV. Debe cambiarlos a tintas planas manualmente. Este ajuste se almacena por parámetro e incluso se prolonga al exponer un parámetro.
 
-1. Haga clic en el botón ![](../../assets/image2021-1-25-9-40-40.png) <b>Tipo de selector de color</b> situado junto a la muestra de color del RGB.
+1. Haga clic en el botón ![](spot-colors-pantone.resources/spot-colors-pantone-01.png) <b>Tipo de selector de color</b> situado junto a la muestra de color del RGB.
 1. En lugar de <b>colores de RGB</b>, elige cualquier <b>libro de colores</b> de la lista desplegable.
-1. El icono del ![](../../assets/image2021-1-25-9-40-25.png) <b>tipo de selector de color</b> cambia y su interfaz cambia al modo <b>Mancha de color</b>.
+1. El icono del ![](spot-colors-pantone.resources/spot-colors-pantone-02.png) <b>tipo de selector de color</b> cambia y su interfaz cambia al modo <b>Mancha de color</b>.
 
-![Cambiar al modo de tinta plana](../../assets/spot-switch.gif "Cambiar al modo de tinta plana"){width="512px"}
+![Cambiar al modo de tinta plana](spot-colors-pantone.resources/spot-colors-pantone-03.gif "Cambiar al modo de tinta plana"){width="512px"}
 
 ### Selección y búsqueda de tintas planas
 
 Hay varias formas de buscar y elegir tintas planas en un libro de colores.
 
-* Puedes usar las ![](../../assets/image2021-1-25-10-40-28.png) ![](../../assets/image2021-1-25-10-40-53.png) <b>flechas izquierda y derecha</b> a cada lado de las páginas del libro para cambiar de página. También puede hacer clic y arrastrar en la presentación de la página para desplazarse por las páginas.
+* Puedes usar las ![](spot-colors-pantone.resources/spot-colors-pantone-04.png) ![](spot-colors-pantone.resources/spot-colors-pantone-05.png) <b>flechas izquierda y derecha</b> a cada lado de las páginas del libro para cambiar de página. También puede hacer clic y arrastrar en la presentación de la página para desplazarse por las páginas.
 * Puede hacer clic en cualquier color de la página actual para seleccionarlo. A menudo, hay más colores disponibles y es necesario desplazarse un poco hacia abajo.
 * Puede utilizar la barra de búsqueda para buscar colores por nombre o número. Esta búsqueda solo coincide con los nombres de los colores del libro, no hay una lógica compleja; buscar &quot;gris&quot; solo producirá resultados con la palabra &quot;gris&quot; en su nombre, no verá ningún color gris que solo tenga números en su nombre.
-* Para obtener una interfaz más grande y fácil de usar para el libro de colores, haz clic en el cuadro de vista previa de color entre el icono ![](../../assets/image2021-1-25-10-39-18.png) <b>Cuentagotas</b> y la ![](../../assets/image2021-1-25-10-40-28.png) <b>flecha izquierda</b>.
+* Para obtener una interfaz más grande y fácil de usar para el libro de colores, haz clic en el cuadro de vista previa de color entre el icono ![](spot-colors-pantone.resources/spot-colors-pantone-06.png) <b>Cuentagotas</b> y la ![](spot-colors-pantone.resources/spot-colors-pantone-04.png) <b>flecha izquierda</b>.
 
-![Examinar tintas planas](../../assets/spot-choose.gif "Examinar tintas planas"){width="512px"}
+![Examinar tintas planas](spot-colors-pantone.resources/spot-colors-pantone-07.gif "Examinar tintas planas"){width="512px"}
 
 ### Selección y conversión de colores planos
 
-Las tintas planas se pueden seleccionar con la herramienta ![](../../assets/image2021-1-25-10-39-18.png) <b>Cuentagotas</b>. En el modo de tinta plana, el color del RGB muestreado se convertirá a la tinta plana que más se asemeje del libro seleccionado.
+Las tintas planas se pueden seleccionar con la herramienta ![](spot-colors-pantone.resources/spot-colors-pantone-06.png) <b>Cuentagotas</b>. En el modo de tinta plana, el color del RGB muestreado se convertirá a la tinta plana que más se asemeje del libro seleccionado.
 
 La herramienta <b>Cuentagotas</b> de Designer se puede usar en cualquier parte de la pantalla sin limitaciones, por lo que puedes usar Designer como herramienta de conversión de tinta plana,
 
@@ -77,4 +77,4 @@ Si cambia Libros o incluso vuelve a cambiar a RGB desde un libro de tintas plana
 >
 > La conversión de tintas planas entre libros es una operación con pérdidas. Hacer una conversión de ida y vuelta a menudo no llevará al mismo color que el que comenzó con!
 
-![Selección y conversión de tintas planas](../../assets/spot-pick.gif "Selección y conversión de tintas planas"){width="512px"}
+![Selección y conversión de tintas planas](spot-colors-pantone.resources/spot-colors-pantone-08.gif "Selección y conversión de tintas planas"){width="512px"}

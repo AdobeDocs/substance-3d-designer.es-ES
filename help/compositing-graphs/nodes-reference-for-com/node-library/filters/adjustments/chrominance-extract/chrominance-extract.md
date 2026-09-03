@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
 breadcrumb-title: ''
-description: Utilice el nodo Extracción de crominancia para extraer información de crominancia de texturas para el análisis y procesamiento de color.
+description: Utilice el nodo Extracción de crominancia para extraer información de crominancia de las texturas para el análisis y procesamiento de color.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Chrominance Extract
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Extracto de crominancia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 4%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
@@ -22,33 +22,29 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/chrominance-extract.png)
+![](chrominance-extract.resources/chrominance-extract-01.png)
 
-## Extracto de crominancia
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Extrae el valor de crominancia de la entrada. El resultado tiene la luminancia despojada.
 
-## Parámetros
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/chrominance-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="chrominance-extract.resources/chrominance-extract-02.png" />
+        </td>
+    </tr>
 </table>

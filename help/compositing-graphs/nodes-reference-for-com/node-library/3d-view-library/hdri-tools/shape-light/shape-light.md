@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Luz de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 0%
+source-wordcount: '335'
+ht-degree: 5%
 
 ---
 
@@ -22,67 +22,62 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-shape.png){width="200px"}
+![](shape-light.resources/shape-light-01.png){width="200px"}
 
-## Luz de forma
-
-**En:** *Herramientas HDRI/vistas 3D*
-
-**Complejo**
+<b>En:</b> Vista 3D > Herramientas HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Genera una forma rectangular proyectada esféricamente. La transformación de la forma se controla mediante un gizmo de transformación.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Entradas
 
-* **Entrada de imagen de fondo**: *Entrada de color* Fondo opcional sobre el que componer la luz generada.
-* **Entrada de imagen de forma**: *Entrada de color* Imagen opcional para asignar a la luz Esfera. Solo se usa cuando el modo Color de forma está establecido en Entrada de imagen.
+|  |  |
+|:---|:---|
+| <b>Entrada de imagen de fondo</b> <i>Entrada de color</i> | Fondo opcional sobre el que componer la luz generada. |
+| <b>Entrada de imagen de forma</b> <i>Entrada de color</i> | Imagen opcional para asignar a la luz Esfera. Solo se usa cuando el modo Color de forma está establecido en Entrada de imagen. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-* **Matriz de formas**
-  * **Matriz**: *(Matriz de transformación)*\
-    Control de transformación para el resultado. El resultado se puede modificar interactuando directamente con el lienzo.
-  * **Desplazamiento**: *-2.0 - 2.0*\
-    Mueve o traduce el resultado. El resultado se puede modificar interactuando directamente con el lienzo.
-* **Forma**: *Rectángulo, disco*\
-  Elige la forma que quieres colocar.
-* **Modo de color de forma**: *RGB, Temperatura (Kelvin), Entrada De Imagen*\
-  Elija el método que desee utilizar para definir el color de la forma. La entrada de imagen permite utilizar la segunda ranura de entrada.
-* **Color**: *(Valor de color)*\
-  Solo con el modo Color de forma establecido en RGB. Selecciona el color de la forma.
-* **Temperatura de forma**: *800.0 - 20000.0*\
-  Solo con el modo Color de forma establecido en Temperatura. Establece el valor Kelvin para el color de la forma.
-* **Gamma de entrada de imagen de forma**: *sRGB, lineal*\
-  Solo con el modo Color de forma establecido en Entrada de imagen. Determine cómo interpretar la entrada de imágenes de formas.
-* **Exposición de forma (EV)**: *0.0 - 10.0*\
-  Defina el valor de exposición para la forma generada, que se corresponde perfectamente con el valor de exposición de la imagen de fondo.
-* **Dureza de forma**: *0.0 - 1.0*\
-  Defina la dureza de los bordes de la forma.
-* **Exposición de zona interactiva (EV)**: *0.0 - 10.0*\
-  Definir exposición de zona interactiva central. Tenga en cuenta que esto no es muy visible en el modo de RGB.
-* **Tamaño de zona interactiva**: *0.0 - 1.0*\
-  Tamaño de la zona interactiva central.
-* **Difuminación de zona interactiva**: *0.0 - 1.0*\
-  Caída del punto de conexión central.
-* **Posición del área interactiva**: *0.0 - 1.0*\
-  Posición X e Y de la zona interactiva central.
-* **Habilitar entrada de fondo**: *Falso/Verdadero*\
-  Cambia el uso de la imagen de fondo opcional. Las composiciones generan luz sobre el fondo.
-* **Color de fondo**: *(Valor de color)*\
-  Si no se utiliza Entrada de fondo, defina aquí un valor de fondo de color sólido.
-* **Gama de fondo**: *sRGB, lineal* Si se utiliza Entrada de fondo, establezca cómo interpretar la entrada de fondo.
+|  |  |
+|:---|:---|
+| <b>Matriz de formas</b> |  |
+| <b>Matriz</b> <i>(Matriz de transformación)</i> | Control de transformación para el resultado. El resultado se puede modificar interactuando directamente con el lienzo. |
+| <b>Desplazamiento</b> <i>-2.0 - 2.0</i> | Mueve o traduce el resultado. El resultado se puede modificar interactuando directamente con el lienzo. |
+| <b>Forma</b> <i>Rectángulo, disco</i> | Elige la forma que quieres colocar. |
+| <b>Modo de color de forma</b> <i>RGB, Temperatura (Kelvin), Entrada De Imagen</i> | Elija el método que desee utilizar para definir el color de la forma. La entrada de imagen permite utilizar la segunda ranura de entrada. |
+| <b>Color</b> <i>(Valor de color)</i> | Solo con el modo Color de forma establecido en RGB. Selecciona el color de la forma. |
+| <b>Temperatura de forma</b> <i>800.0 - 20000.0</i> | Solo con el modo Color de forma establecido en Temperatura. Establece el valor Kelvin para el color de la forma. |
+| <b>Gamma de entrada de imagen de forma</b> <i>sRGB, lineal</i> | Solo con el modo Color de forma establecido en Entrada de imagen. Determine cómo interpretar la entrada de imágenes de formas. |
+| <b>Exposición de forma (EV)</b> <i>0.0 - 10.0</i> | Defina el valor de exposición para la forma generada, que se corresponde perfectamente con el valor de exposición de la imagen de fondo. |
+| <b>Dureza de forma</b> <i>0.0 - 1.0</i> | Defina la dureza de los bordes de la forma. |
+| <b>Exposición de zona interactiva (EV)</b> <i>0.0 - 10.0</i> | Definir exposición de zona interactiva central. Tenga en cuenta que esto no es muy visible en el modo de RGB. |
+| <b>Tamaño de zona interactiva</b> <i>0.0 - 1.0</i> | Tamaño de la zona interactiva central. |
+| <b>Difuminación de zona interactiva</b> <i>0.0 - 1.0</i> | Caída del punto de conexión central. |
+| <b>Posición de zona interactiva</b> <i>0.0 - 1.0</i> | Posición X e Y de la zona interactiva central. |
+| <b>Habilitar entrada de fondo</b> <i>Falso/Verdadero</i> | Cambia el uso de la imagen de fondo opcional. Las composiciones generan luz sobre el fondo. |
+| <b>Color de fondo</b> <i>(Valor de color)</i> | Si no se utiliza Entrada de fondo, defina aquí un valor de fondo de color sólido. |
+| <b>Gama de fondo</b> <i>sRGB, lineal</i> | Si se utiliza Entrada en segundo plano, defina cómo interpretar la entrada en segundo plano. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-![](../../../../../../assets/shape-light-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape-light.resources/shape-light-02.gif" />
+        </td>
+    </tr>
 </table>

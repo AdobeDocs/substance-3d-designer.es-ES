@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sombra paralela de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 6%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-dropshadow-grayscale.png){width="128px"}
+![](shape-drop-shadow.resources/shape-drop-shadow-01.png){width="128px"}
 
-![](../../../../../../assets/shape-dropshadow.png){width="128px"}
+![](shape-drop-shadow.resources/shape-drop-shadow-02.png){width="128px"}
 
-## Sombra paralela de forma (escala de grises)
-
-**En:** *Filtros/Efectos*
-
-**Intermedio**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,25 +39,32 @@ Realiza el conocido efecto &quot;Sombra paralela&quot; de otro software de proce
 
 Difiere del efecto [Sombras](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md) en que devuelve imágenes con transparencia total aplicada, lo que hace que el efecto sea más completo y similar al que esperarías de otro software.
 
-## Parámetros
-
-* **Ángulo**: *0.0 - 1.0*&#x200B;Ángulo de incidencia de la luz (falsa).
-* **Distancia**: *-0.5 - 0.5* Distancia entre la sombra y/o la forma.
-* **Tamaño**: *0.0 - 1.0* Controla el desenfoque/difuminado de la sombra.
-* **Difusión**: *0.0 - 1.0* Límite/umbral para el efecto de desenfoque, hace que la sombra se extienda aún más.
-* **Opacidad**: *0.0 - 1.0*\
-  Opacidad de fusión para el efecto de sombra.
-* **(Sombra) Color**: *(Valor de color)*Matiz de color que se aplicará a la sombra.
-* **Color de máscara**: *(Valor de color) *(Solo versión de escala de grises)**Color sólido que se va a utilizar para la salida de transparencia asignada.
-* **La Entrada Está Premultiplicada**: *False/True *(Solo versión de color)**Si la entrada debe asumirse como premultiplicada.
-* **Salida de premultiplicación**: *Falso/Verdadero* Especifica si el resultado debe premultiplicarse.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/dropshadowex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Ángulo</b> <i>0.0 - 1.0</i> | Ángulo de incidencia de la luz (falsa). |
+| <b>Distancia</b> <i>-0.5 - 0.5</i> | Distancia a la que se desplaza la sombra hacia abajo o se aleja de la forma. |
+| <b>Tamaño</b> <i>0.0 - 1.0</i> | Controla el desenfoque/difuminado de la sombra. |
+| <b>Difusión</b> <i>0.0 - 1.0</i> | Límite/umbral para el efecto de desenfoque, hace que la sombra se extienda aún más. |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Opacidad de fusión para el efecto de sombra. |
+| <b>(Sombra) Color</b> <i>(Valor de color)</i> | Matiz de color que se aplicará a la sombra. |
+| <b>Color de máscara</b> <i>(valor de color) (solo versión de escala de grises)</i> | Color sólido que se va a utilizar para la salida asignada de transparencia. |
+| <b>La Entrada Está Premultiplicada</b> <i>Falso/Verdadero (solo versión de color)</i> | Si la entrada debe asumirse como premultiplicada. |
+| <b>Salida de premultiplicación</b> <i>Falso/Verdadero</i> | Si la salida debe premultiplicarse. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape-drop-shadow.resources/shape-drop-shadow-03.png" />
+        </td>
+    </tr>
 </table>

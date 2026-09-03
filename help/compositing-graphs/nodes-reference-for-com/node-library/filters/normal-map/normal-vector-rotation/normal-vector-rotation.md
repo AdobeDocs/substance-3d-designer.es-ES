@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rotación de vectores normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '118'
+ht-degree: 5%
 
 ---
 
@@ -22,39 +22,37 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-vector-rotation.png){width="128px"}
+![](normal-vector-rotation.resources/normal-vector-rotation-01.png){width="128px"}
 
-## Rotación de vectores normal
-
-**En:** *Filtros/Mapa Normal*
-
-**Simple**
+<b>En:</b> Filtros > Mapa de normales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Nodo de utilidad normal que gira todos los vectores de un mapa normal de entrada en el espacio Tangente. En realidad no transforma los píxeles, sino que modifica los valores que representan. Puede utilizar un mapa opcional para añadir rotaciones aleatorias a facetas en escala de grises.
 
-## Entradas
-
-* **Normal**: *Entrada de color*\
-  Mapa base sobre el que realizar la rotación. Requerido.
-* **Mapa de rotación (opcional)**: *Entrada en escala de grises*\
-  Mapa de escala de grises que modula la intensidad de rotación.
-
-## Parámetros
-
-* **Ángulo de rotación**: *0.0 - 1.0*\
-  Establece el ángulo por el que se gira el mapa normal
-* **Formato normal**: *DirectX, OpenGL*\
-  Cambiar entre diferentes Formatos de mapa de normales (invierte el canal verde)
-
-## Ejemplos
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Normal</b> <i>Entrada de color</i> | Mapa base sobre el que realizar la rotación. Requerido. |
+| <b>Mapa de rotación (opcional)</b> <i>Entrada en escala de grises</i> | Mapa de escala de grises que modula la intensidad de rotación. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Ángulo de rotación</b> <i>0.0 - 1.0</i> | Establece el ángulo por el que se gira el mapa normal |
+| <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambiar entre diferentes Formatos de mapa de normales (invierte el canal verde) |

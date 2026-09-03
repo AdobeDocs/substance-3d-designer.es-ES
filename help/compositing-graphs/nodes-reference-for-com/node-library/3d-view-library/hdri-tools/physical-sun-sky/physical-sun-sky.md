@@ -10,10 +10,10 @@ helpx_tags: ""
 title: CieloSolFísico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
@@ -22,45 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
+![](physical-sun-sky.resources/physical-sun-sky-01.png){width="200px"}
 
-## Sol/Cielo físico
-
-**En:** *Herramientas HDRI/vistas 3D*
-
-**Intermedio**
+<b>En:</b> Vista 3D > Herramientas HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Implementación física de Sol y Cielo basada en el modelo de claraboya Hosek-Wikie. Proporciona una base excelente para un HDRI artificial.
 
-## Parámetros
-
-* **Posición Sun**:\
-  intervalo = [0,1]x[0,1] (ángulos de longitud-latitud)
-* **Turbidez**: *1.0 - 10.0*\
-  La turbidez varía de 1 a 10
-* **Albedo**: *0.0 - 1.0*\
-  El albedo va de 0 a 1.
-* **Color de tierra**: *(Valor de color)*\
-  Color del plano de tierra.
-* **Exposición (VE)**: *-1.0 - 4.0*\
-  Valor de exposición del resultado.
-* **Tamaño Sun**: *0.0 - 4.0*\
-  Escala del Sol, cualquier valor diferente a 1 no es físicamente correcto. ¡El valor tiene efectos sutiles!
-* **Intensidad del sol**: *0.0 - 1.0*\
-  Intensidad del disco solar. El disco Sun es bastante pequeño, por lo que el efecto no se ve inmediatamente.
-* **Intensidad del cielo**: *0.0 - 1.0* Intensidad del cielo. También afecta la llamarada del sol en el cielo, no el disco en sí.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/sky-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Posición Sun</b> | intervalo = [0,1]x[0,1] (ángulos de longitud-latitud) |
+| <b>Turbidez</b> <i>1.0 - 10.0</i> | La turbidez varía de 1 a 10 |
+| <b>Albedo</b> <i>0.0 - 1.0</i> | El albedo va de 0 a 1. |
+| <b>Color de tierra</b> <i>(Valor de color)</i> | Color del plano de tierra. |
+| <b>Exposición (VE)</b> <i>-1.0 - 4.0</i> | Valor de exposición del resultado. |
+| <b>Tamaño del sol</b> <i>0.0 - 4.0</i> | Escala del Sol, cualquier valor diferente a 1 no es físicamente correcto. ¡El valor tiene efectos sutiles! |
+| <b>Intensidad del sol</b> <i>0.0 - 1.0</i> | Intensidad del disco solar. El disco Sun es bastante pequeño, por lo que el efecto no se ve inmediatamente. |
+| <b>Intensidad del cielo</b> <i>0.0 - 1.0</i> | Intensidad del cielo. También afecta la llamarada del sol en el cielo, no el disco en sí. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="physical-sun-sky.resources/physical-sun-sky-02.gif" />
+        </td>
+    </tr>
 </table>

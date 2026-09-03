@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Extend Shape
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -22,85 +22,71 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
+![](extend-shape.resources/extend-shape-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapecolor.png){width="200px"}
+![](extend-shape.resources/extend-shape-02.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**En:** Filtros*/Efectos*
-
-**Simple**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-El nodo **Extend Shape** extiende una *sección* de **Input** en una dirección y distancia establecidas.
+El nodo <b>Extend Shape</b> extiende una <i>sección</i> de <b>Input</b> en una dirección y distancia establecidas.
 
-El parámetro **Show helper** te permite visualizar la sección extendida y la dirección de la extensión.
+El parámetro <b>Show helper</b> te permite visualizar la sección extendida y la dirección de la extensión.
 
 </td>
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Modo** *Entero* Define los *parámetros* utilizados para aplicar la extensión:
-  * *Bidireccional*: La sección de **Entrada** especificada por **Posición de extensión** y **Ángulo de extensión** se extiende sobre la **Distancia de extensión** en *direcciones opuestas*
-  * *Unidireccional*: La sección de la **Entrada** especificada por la **Posición de extensión** y el **Ángulo de extensión** se extiende sobre la **Distancia de extensión** en una *dirección única*
-  * *Posiciones de inicio/finalización*: La extensión *vector* está definida por **Posición inicial** y **Posición final**. La sección *perpendicular* de **Input** en **Start Position** se extiende *sobre este vector* hasta **End Position**
-* **Distancia de extensión** *Flotante* Distancia a la que se debe extender la sección especificada por **Posición de extensión** y **Ángulo de extensión**. La distancia se expresa como *proporción* del tamaño de la imagen.
-* **Posición de extensión** *Float* Posición en la imagen de la sección que debe extenderse. El valor se expresa como un *desplazamiento desde el centro*.
-* **Ángulo de extensión** *Flotante* El ángulo de la sección que debe extenderse, teniendo en cuenta que el punto de partida es una *sección vertical*.
-* **Posición inicial** *Float2* Posición inicial del *vector de extensión*.
-* **Posición final** *Float2* Posición final del *vector de extensión*.
-* **Desplazamiento de luminancia inicial** *Flotante* Aplica un desplazamiento de luminancia al área de la imagen *anterior* a la sección extendida. Este desplazamiento de luminancia se *interpola a lo largo de la sección* a la luminancia del área de la imagen que sigue a la sección.\
-  *Nota*: Este parámetro solo está disponible en la versión **Grayscale** del nodo.
-* **Desplazamiento de luminancia final** *Flotante* Aplica un desplazamiento de luminancia al área de la imagen *después* de la sección extendida. Este desplazamiento de luminancia se *interpola a lo largo de la sección* a la luminancia del área de la imagen que precede a la sección.\
-  *Nota*: Este parámetro solo está disponible en la versión **Grayscale** del nodo.
-* **Lum. Desplazamiento omite los píxeles negros** *Boolean* Si se establece en *True*, los desplazamientos de luminancia especificados en *tanto* Desplazamiento de luminancia inicial **como** Desplazamiento de luminancia final **solo se aplican a** píxeles no negros *, es decir, píxeles cuyo valor es superior a 0.*\
-  *Nota*: Este parámetro solo está disponible en la versión **Grayscale** del nodo.
-* **Modo de filtrado** *Entero* Define cómo tratar los resultados muestreados al *interpolar* entre píxeles:
-  * *Más cercano*: mostrará exactamente el valor *same* (más rápido)
-  * *Bilineal*: aplicará un filtro bilineal en el resultado para obtener un aspecto *más suave*
-* **Mostrar asistente** *Boolean* Visualiza la *sección extendida* como una superposición con flechas que muestran la *dirección* de la extensión.
+|  |  |
+|:---|:---|
+| <b>Modo</b> <i>Entero</i> | Define los <i>parámetros</i> utilizados para aplicar la extensión:<br><br>- <i>Bidireccional</i>: La sección de <b>Entrada</b> especificada por <b>Posición de extensión</b> y <b>Ángulo de extensión</b> se extiende sobre la <b>Distancia de extensión</b> en <i>direcciones opuestas</i><br>- <i>Unidireccional</i>: La sección de <b>Entrada</b> especificada por <b>Posición de extensión</b> y <b>Ángulo de extensión</b> se extiende sobre la <b>Distancia de extensión</b> en una <i>dirección única</i><br>- <i>Posiciones de inicio/fin</i>: La extensión <i>vector</i> está definida por <b>Posición inicial</b> y <b>Posición final</b>. La sección <i>perpendicular</i> de <b>Input</b> en <b>Start Position</b> se extiende <i>sobre este vector</i> hasta <b>End Position</b> |
+| <b>Distancia de extensión</b> <i>Flotador</i> | Distancia a la que se debe extender la sección especificada por <b>Posición de extensión</b> y <b>Ángulo de extensión</b>. La distancia se expresa como <i>proporción</i> del tamaño de la imagen. |
+| <b>Posición de extensión</b> <i>Flotador</i> | La posición en la imagen de la sección que debe extenderse. El valor se expresa como un <i>desplazamiento desde el centro</i>. |
+| <b>Ángulo de extensión</b> <i>Flotador</i> | El ángulo de la sección que debe extenderse, teniendo en cuenta el punto de partida, es una <i>sección vertical</i>. |
+| <b>Posición inicial</b> <i>Float2</i> | Posición inicial del <i>vector de extensión</i>. |
+| <b>Posición final</b> <i>Float2</i> | Posición final del <i>vector de extensión</i>. |
+| <b>Desplazamiento de luminancia inicial</b> <i>Flotador</i> | Aplica un desplazamiento de luminancia al área de la imagen <i>anterior</i> a la sección extendida. Este desplazamiento de luminancia está <i>interpolado a lo largo de la sección</i> a la luminancia del área de la imagen que sigue a la sección.<br><br><i>Nota</i>: Este parámetro solo está disponible en la versión <b>Grayscale</b> del nodo. |
+| <b>Desplazamiento de luminancia final</b> <i>Flotador</i> | Aplica un desplazamiento de luminancia al área de la imagen <i>que sigue</i> a la sección extendida. Este desplazamiento de luminancia está <i>interpolado a lo largo de la sección</i> a la luminancia del área de la imagen que precede a la sección.<br><br><i>Nota</i>: Este parámetro solo está disponible en la versión <b>Grayscale</b> del nodo. |
+| <b>Lum. El desplazamiento omite los píxeles negros</b> <i>Booleano</i> | Cuando se establece en <i>True</i>, los desplazamientos de luminancia especificados en <i>both</i> <b>Desplazamiento de luminancia inicial</b> y <b>Desplazamiento de luminancia final</b> solo se aplican a <i>píxeles no negros</i>, es decir, píxeles cuyo valor es superior a 0.<br><br><i>Nota</i>: Este parámetro solo está disponible en la versión <b>Grayscale</b> del nodo. |
+| <b>Modo de filtrado</b> <i>Entero</i> | Define cómo tratar los resultados muestreados al <i>interpolar</i> entre píxeles:<br><br>- <i>Más cercano</i>: mostrará exactamente el <i>mismo valor</i> (más rápido)<br>- <i>Bilineal</i>: aplicará un filtro bilineal en el resultado para obtener un aspecto <i>más suave</i> |
+| <b>Mostrar ayudante</b> <i>Booleano</i> | Visualice la <i>sección extendida</i> como una superposición con flechas que muestran la <i>dirección</i> de la extensión. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-node.png){width="360px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-06.png" />
+        </td>
+    </tr>
 </table>

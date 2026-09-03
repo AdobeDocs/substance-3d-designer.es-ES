@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
 breadcrumb-title: ''
-description: Utilice el nodo Recortar para recortar salidas de material a regiones específicas para procesar texturas y materiales digitalizados.
+description: Utilice el nodo Recortar para recortar salidas de material a regiones específicas para procesar materiales y texturas digitalizados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Crop
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Recortar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-10.png){width="128px"}
+![](crop.resources/crop-01.png){width="128px"}
 
-![](../../../../../../assets/crop-grayscale.png){width="128px"}
+![](crop.resources/crop-02.png){width="128px"}
 
-## Recortar (escala de grises)
-
-**En:** *Procesamiento De Escaneo/Filtros De Materiales*
-
-**Intermedio**
+<b>En:</b> Filtros de material > Procesamiento de escaneo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -46,22 +42,18 @@ Puede ser útil de muchas maneras, ya que realizar una operación de recorte con
 Muy importante de entender es que para utilizar este nodo con facilidad, debe hacer un buen uso de la capacidad de previsualizar un nodo diferente de aquel cuyos parámetros está editando!\
 En resumen: **Haga doble clic** en el nodo que está utilizando como entrada para este (la imagen original sin recortar) y, a continuación, **haga clic una vez** en el nodo de recorte que sigue justo después de él. A continuación, puede modificar el gizmo de recorte para que se ajuste al área que desea recortar.
 
-## Parámetros
-
-* **Tamaño de entrada**: *0 - 8192* Resolución y proporciones de la imagen de entrada. Muy importante para imágenes no cuadradas.
-* **Fondo**: *(Valor de color) / (Valor de escala de grises)*Valor uniforme de fondo para áreas no cubiertas por Recortar.
-* **Transformar**: *(Matriz de transformación)*\
-  Rota y escala el resultado. El resultado se puede modificar interactuando directamente con el lienzo.
-* **Desplazamiento**: *0.0 - 1.0*\
-  Mueve o traduce el resultado. El resultado se puede modificar interactuando directamente con el lienzo.
-* **Es normal (solo para la versión Color)**: *Falso/Verdadero* Indica si la entrada debe tratarse o no como un mapa normal.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Tamaño de entrada</b> <i>0 - 8192</i> | Resolución y proporciones de la imagen de entrada. Muy importante para imágenes no cuadradas. |
+| <b>Fondo</b> <i>(Valor de color) / (Valor de escala de grises)</i> | Valor uniforme de fondo para áreas no cubiertas por Recorte. |
+| <b>Transformar</b> <i>(Matriz de transformación)</i> | Rota y escala el resultado. El resultado se puede modificar interactuando directamente con el lienzo. |
+| <b>Desplazamiento</b> <i>0.0 - 1.0</i> | Mueve o traduce el resultado. El resultado se puede modificar interactuando directamente con el lienzo. |
+| <b>Es normal (solo para la versión Color)</b> <i>Falso/Verdadero</i> | Si la entrada debe tratarse o no como un mapa normal. |

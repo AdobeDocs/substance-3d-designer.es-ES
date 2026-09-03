@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Reemplazar rango de color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 5%
 
 ---
 
@@ -22,39 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color-range.png){width="128px"}
+![](replace-color-range.resources/replace-color-range-01.png){width="128px"}
 
-## Reemplazar rango de color
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Reemplaza Color de origen por Color de destino, con controles adicionales. Por ejemplo, se puede utilizar para cambiar el color de partes de un mapa de ID de material (hornear).
+Reemplaza Color de origen por Color de destino, con controles adicionales. Por ejemplo, se puede utilizar para cambiar el color de partes de un mapa de ID de material (hacer un bake).
 
 Para obtener una versión más avanzada, vea [Coincidencia de color.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 
-## Parámetros
-
-* **Color de origen**: *(Valor de color)*Color que se va a reemplazar.
-* **Color de destino**: *(Valor de color)*Color que se va a sustituir.
-* **Intervalo de origen**: *0.0 -* 1.0\
-  Rango o tolerancia del origen seleccionado. Se puede aumentar para que los colores contiguos también cambien de tono.
-* **Umbral**: *0,0 - 1,0* Difuminación/contraste para el rango. Establezca bajo para reemplazar solo el color de origen, o más alto para reemplazar también los colores que se fusionan en origen.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-range-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Color de origen</b> <i>(Valor de color)</i> | Color que reemplazar. |
+| <b>Color de destino</b> <i>(Valor de color)</i> | Color con el que reemplazar. |
+| <b>Intervalo de origen</b> <i>0.0 - 1.0</i> | Rango o tolerancia del origen seleccionado. Se puede aumentar para que los colores contiguos también cambien de tono. |
+| <b>Umbral</b> <i>0.0 - 1.0</i> | Difuminación/contraste para el rango. Establezca bajo para reemplazar solo el color de origen, o más alto para reemplazar también los colores que se fusionan en origen. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="replace-color-range.resources/replace-color-range-02.png" />
+        </td>
+    </tr>
 </table>

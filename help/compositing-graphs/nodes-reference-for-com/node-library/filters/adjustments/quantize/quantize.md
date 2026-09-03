@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Cuantificar color (simple)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](../../../../../../assets/quantize.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](quantize.resources/quantize-01.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -39,14 +39,13 @@ Aproxima el rango de entrada a un número predefinido de valores. Introduce las 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-<b>Cuantificar canal rojo</b> *Entero* Establece el número de pasos por los que se aproxima el canal rojo.
-
-<b>Cuantificar canal verde</b> *Entero* Establece el número de pasos que se deben realizar para obtener una aproximación del canal Verde.
-
-<b>Cuantificar canal azul</b> *Entero*
-
-Define el número de pasos por los que se aproxima el canal azul.
-
-<b>Cuantificar canal de Alpha</b> *Entero* Establece el número de pasos por los que se aproximará el Canal Alpha.
+|  |  |
+|:---|:---|
+| <b>Cuantificar canal rojo</b> *Entero* | Define el número de pasos por los que se aproxima el canal rojo. |
+| <b>Cuantificar canal verde</b> *Entero* | Define el número de pasos por los que se aproxima el canal verde. |
+| <b>Cuantificar canal azul</b> *Entero* | Define el número de pasos por los que se aproxima el canal azul. |
+| <b>Cuantificar canal de Alpha</b> *Entero* | Define el número de pasos por los que se aproxima el canal alfa. |

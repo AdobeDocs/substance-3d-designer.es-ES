@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D voronoi fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -22,130 +22,79 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoifractal.png){width="200px"}
+![](3d-voronoi-fractal.resources/3d-voronoi-fractal-01.png){width="200px"}
 
-**En:** *Generadores De Texturas* */Ruidos*
-
-**Intermedio**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-El nodo **3D voronoi fractal** genera un ruido *fractal* Voronoi en el espacio 3D basado en la entrada **Position Map**.
+El nodo <b>3D voronoi fractal</b> genera un ruido <i>fractal</i> Voronoi en el espacio 3D basado en la entrada <b>Position Map</b>.
 
 Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) como entrada en lugar de un mapa con bake real (como se muestra en la imagen de ejemplo siguiente).
-
->[!WARNING]
->
-> Este ruido está destinado a utilizarse únicamente con el *motor de GPU* (es decir, **Direct3D** o **OpenGL**). Vaya a **Herramientas > Cambiar motor...** o presione la tecla **F9** para seleccionar el motor deseado.
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> Este ruido está destinado a utilizarse únicamente con el <i>motor de GPU</i> (es decir, <b>Direct3D</b> o <b>OpenGL</b>). Vaya a <b>Herramientas > Cambiar motor...</b> o presione la tecla <b>F9</b> para seleccionar el motor deseado.
+
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Invertir** *Booleano*\
-  Invierte la imagen de salida.
-* **Escala** *Flotante*\
-  Controla la escala del ruido fractal de Voronoi 3D.\
-  *Nota*: Cuando **Tiling** está habilitado en *cualquier eje*, el ajuste de escala es *stepped*. Esto es de esperar.
-* **Tamaño** *Float3*\
-  Controla el tamaño del ruido fractal 3D Voronoi en los ejes **X**, **Y** y **Z**. Los valores no uniformes dan como resultado un efecto de *estiramiento o aplastamiento*.\
-  *Nota*: Cuando **Mosaico** está habilitado en *cualquier eje*, el ajuste de tamaño es *escalonado*. Esto es de esperar.
-* **Desplazamiento** *Flotador*\
-  Aplica un desplazamiento a la *posición* del ruido fractal 3D Voronoi en los ejes **X**, **Y** y **Z**.
-* **Desorden** *Float3*\
-  Intensidad del *desplazamiento aleatorio* aplicado a cada punto del ruido en los ejes **X**, **Y** y **Z**.
-* **Intensidad de Distorsión** *Float*\
-  Controla la intensidad de un *efecto de deformación* aplicado al ruido fractal 3D Voronoi.
-* **Multiplicador de escala de Distorsión** *Float*\
-  Controla la escala del *patrón de deformación* utilizado en el efecto de deformación controlado por la **Intensidad de Distorsión**.
-* **Nivel Mínimo** *Entero*\
-  Nivel mínimo de *repetición* usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un *patrón más enriquecido* con variaciones en rangos de frecuencia más amplios.
-* **Nivel máximo** *Entero*\
-  Nivel máximo de *repetición* usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un *patrón más enriquecido* con variaciones en rangos de frecuencia más amplios.
-* **Rugosidad** *Flotante*\
-  Controla el *equilibrio* entre los *niveles de repetición* bajos y altos en el patrón fractal.\
-  *Nota*: Un valor de **0** da como resultado un resultado que está *fuera de línea* con otros valores bajos que lo siguen. Esto es de esperar.\
-  *Nota 2*: Este parámetro solo está disponible cuando el parámetro **Blend Mode** está establecido en *Add*.
-* **Lacunaridad** *Flotante*\
-  Controla cómo el patrón fractal aplicado *rellena el espacio*. Un valor *superior* provoca *menos brechas* en el patrón y un ruido *más denso*.
-* **Opacidad global** *Float*\
-  Controla el *intervalo* de los valores de ruido fractal de Perlin 3D desde 0.
-* **Curva redondeada** *Flotante*\
-  Redondea la *pendiente* alrededor de cada punto del ruido para que sea *convexa*.\
-  *Nota*: Este parámetro no está disponible cuando el parámetro **Style** está establecido en *Edge*.
-* **Escala de distancia** *Flotante*\
-  Ajusta la *distancia del degradado* alrededor de cada punto del ruido.
-* **Modo de distancia** *Entero*\
-  Establece el método para *calcular el degradado de distancia* alrededor de cada punto del ruido:
-  * *Euclidean*
-  * *Manhattan*
-  * *Chebyshev*
-  * *Minkowski*
-* **Número de Minkowski** *Flotador*\
-  El orden *p* de la distancia de Minkowski. Si dividimos el gradiente de distancia en cuadrantes, este número afecta a estos cuadrantes de la siguiente manera:
-  * p es *exactamente* 1: Recto
-  * p es *inferior* a 1: Cóncavo
-  * p es *mayor* que 1: Convexo\
-    Valores interesantes:\
-    *- 1.0*: Distancia a Manhattan\
-    *- 2.0*: Distancia euclidiana\
-    *- Infinito*: Distancia de Chebyshev\
-    *Nota*: Este parámetro solo está disponible cuando el parámetro **Distance Mode** está establecido en *Minkowski*.
-* **Modo de fusión** *Entero*\
-  Establece el método para fusionar los valores de *celdas superpuestas* en el espacio 3D:
-  * *Agregar*: Agregar los valores
-  * *Máx.*: Conservar el valor *más alto*
-  * *Min*: Mantener el valor *más bajo*
-* **Estilo** *Entero* Establece el método *que representa los datos* del ruido fractal 3D Voronoi, teniendo en cuenta que el ruido se basa en un conjunto de puntos en el espacio 3D:
-  * *F1*: la distancia al *punto más cercano* en el espacio 3D
-  * *F2*: la distancia al *segundo punto más cercano* en el espacio 3D
-  * *F2-F1*- *F1\* F2 *-* F1/F2 *-* Edge *: el* borde entre cada celda* del ruido en el espacio 3D
-  * *Color aleatorio*: asigne un *color plano aleatorio* a cada celda del ruido en el espacio 3D
-* **Thickness Edge** *Float* Ajusta el thickness de los bordes detectados entre las celdas del ruido fractal 3D Voronoi. Los bordes se detectan en los ejes X, Y y Z, por lo que algunos grosores pueden aumentar más rápido que otros dependiendo de la *profundidad* de las celdas.\
-  *Nota*: Este parámetro solo está disponible cuando el parámetro **Style** está establecido en *Edge*.
-* **Habilitar Mosaico** *Booleano*\
-  Ajusta el ruido fractal de Voronoi 3D para que el patrón resultante *se repita* en los ejes X, Y y Z.
+|  |  |
+|:---|:---|
+| <b>Invertir</b> <i>Booleano</i> | Invierte la imagen de salida. |
+| <b>Escala</b> <i>Flotante</i> | Controla la escala del ruido fractal 3D Voronoi.<br><br><i>Nota</i>: Cuando <b>Tiling</b> está habilitado en <i>cualquier eje</i>, el ajuste de escala es <i>stepped</i>. Esto es de esperar. |
+| <b>Tamaño</b> <i>Flotante3</i> | Controla el tamaño del ruido fractal 3D Voronoi en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto <i>estirar o aplastar</i>.<br><br><i>Nota</i>: Cuando <b>Mosaico</b> está habilitado en <i>cualquier eje</i>, el ajuste de tamaño es <i>escalonado</i>. Esto es de esperar. |
+| <b>Desplazamiento</b> <i>Flotante3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido fractal 3D Voronoi en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
+| <b>Desorden</b> <i>Flotante3</i> | Intensidad del <i>desplazamiento aleatorio</i> aplicado a cada punto del ruido en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
+| <b>Intensidad de Distorsión</b> <i>Flotador</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido fractal 3D Voronoi. |
+| <b>Multiplicador de escala de Distorsión</b> <i>Flotador</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
+| <b>Nivel Mínimo</b> <i>Entero</i> | Nivel mínimo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |
+| <b>Nivel máximo</b> <i>Entero</i> | Nivel máximo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |
+| <b>Rugosidad</b> <i>Flotante</i> | Controla el <i>equilibrio</i> entre los <i>niveles de repetición</i> bajos y altos en el patrón fractal.<br><br><i>Nota</i>: Un valor de <b>0</b> da como resultado un resultado que está <i>fuera de línea</i> con otros valores bajos que lo siguen. Esto es de esperar.<br><br><i>Nota 2</i>: Este parámetro solo está disponible cuando el parámetro <b>Modo de Fusión</b> está establecido en <i>Agregar</i>. |
+| <b>Lacunaridad</b> <i>Flotante</i> | Controla cómo el patrón fractal aplicado <i> rellena el espacio </i>. Un valor <i>superior</i> provoca <i>menos brechas</i> en el patrón y un ruido <i>más denso</i>. |
+| <b>Opacidad global</b> <i>Flotador</i> | Controla el <i>intervalo</i> de los valores de ruido fractal de Perlin 3D desde 0. |
+| <b>Curva redondeada</b> <i>Flotador</i> | Redondea la <i>pendiente</i> alrededor de cada punto del ruido para que sea <i>convexa</i>.<br><br><i>Nota</i>: Este parámetro no está disponible cuando el parámetro <b>Style</b> está establecido en <i>Edge</i>. |
+| <b>Escala de distancia</b> <i>Flotador</i> | Ajusta la <i>distancia del degradado</i> alrededor de cada punto del ruido. |
+| <b>Modo de distancia</b> <i>Entero</i> | Establece el método para <i>calcular el degradado de distancia</i> alrededor de cada punto del ruido:<br><br>- <i>Euclidean</i><br>- <i>Manhattan</i><br>- <i>Chebyshev</i><br>- <i>Minkowski</i> |
+| <b>Número de Minkowski</b> <i>Flotador</i> | El orden <i>p</i> de la distancia de Minkowski. Si dividimos el gradiente de distancia en cuadrantes, este número afecta a estos cuadrantes de la siguiente manera:<br><br>- p es <i>exactamente</i> 1: Straight<br>- p es <i>inferior</i> a 1: Cóncavo<br>- p es <i>mayor</i> que 1: Convexo<br><br>Valores interesantes:<br>- <i>1.0</i>: Distancia de Manhattan<br>- <i>2.0</i>: Distancia euclidiana<br>- <i>Infinito</i>: Distancia de Chebyshev<br><br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Distance Mode</b> está establecido en <i>Minkowski</i>. |
+| <b>Modo de fusión</b> <i>Entero</i> | Establece el método para fusionar los valores de <i>celdas superpuestas</i> en el espacio 3D:<br><br>- <i>Agregar</i>: Agregue los valores<br>- <i>Máximo</i>: Mantener el <i>valor más alto</i><br>- <i>Mín</i>: Mantener el valor <i>más bajo</i> |
+| <b>Estilo</b> <i>Entero</i> | Establece el método <i>que representa los datos</i> del ruido fractal 3D Voronoi, teniendo en cuenta que el ruido se basa en un conjunto de puntos en el espacio 3D:<br><br>- <i>F1</i>: la distancia al <i>punto más cercano</i> en el espacio 3D<br>- <i>F2</i>: la distancia al <i>segundo punto más cercano</i> en el espacio 3D<br>- <i>F2-F1</i><br>- <i>F1\*F2</i><br>- <i>F1/F2</i><br>- <i>Edge</i>: el <i>borde entre cada celda</i> del ruido en el espacio 3D<br>- <i>Color aleatorio</i>: asignar un <i>color plano aleatorio</i> a cada celda del ruido en el espacio 3D |
+| <b>Thickness Edge</b> <i>Flotador</i> | Ajusta el thickness de los bordes detectados entre las celdas del ruido fractal Voronoi 3D. Se detectan bordes en los ejes X, Y y Z, por lo que algunos grosores pueden aumentar más rápido que otros dependiendo de la <i>profundidad</i> de las celdas.<br><br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Style</b> está establecido en <i>Edge</i>. |
+| <b>Habilitar Mosaico</b> <i>Booleano</i> | Ajusta el ruido fractal de Voronoi 3D para que el patrón resultante <i>se repita</i> en los ejes X, Y y Z. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant6.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant3.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-04.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-07.jpg" />
+        </td>
+    </tr>
 </table>

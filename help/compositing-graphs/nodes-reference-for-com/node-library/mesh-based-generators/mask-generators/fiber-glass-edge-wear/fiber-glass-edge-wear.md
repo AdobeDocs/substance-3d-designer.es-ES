@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Edge Wear de fibra de vidrio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '290'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fiber-glass-edge-wear.png){width="128px"}
+![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear-01.png){width="128px"}
 
-## Edge Wear de fibra de vidrio
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Intermedio**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,39 +37,45 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Representa una máscara específicamente destinada a un tipo de fibra de vidrio de desgaste, tal vez podría ser utilizado para tela. Debido a la naturaleza muy enlosada y repetitiva de las fibras, la fusión triplanar puede habilitarse opcionalmente.
 
-## Parámetros
-
-### Entradas
-
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para el resaltado de bordes. ¡Obligatorio!
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para enmascarar áreas ocluidas. No es obligatorio, pero definitivamente recomendable.
-* **Entrada de Suciedad**: *Entrada en escala de grises*\
-  Ranura personalizada opcional para anular el patrón de fibra.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-* **Normal del Espacio Mundial**: *Entrada de color*\
-  Solo se usa para triplanar.
-* **Posición**: *Entrada de color*\
-  Solo se usa para triplanar.
-
-### Parámetros
-
-* **Nivel de desgaste**: *0.0 - 1.0* Como un [Histograma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), revela progresivamente el desgaste.
-* **Contraste de desgaste**: *0.0 - 1.0* Establece el contraste total del efecto.
-* **Smoothness de bordes**: *0.0 - 16.0* Define el sangrado/desenfoque de los bordes resaltados.
-* **Cantidad de Suciedades**: *0.0 - 1.0* Establece la cantidad de efecto de fibra que se debe mezclar entre los bordes. Ajusta esto junto con el nivel de desgaste para obtener el máximo control.
-* **Enmascaramiento de Oclusión ambiental**: *0.0 - 1.0* Define la influencia que tiene el AO sobre la ocultación del efecto.
-* **Peso de curvatura**: *0.0 - 1.0* Establece la cantidad de influencia que tienen los bordes convexos de la Curvatura.
-* **Usar Suciedad personalizada**: *Falso/Verdadero* Reemplaza las fibras integradas con mapa personalizado.
-* **Usar triplanar**: *False/True* Permite que [Tri Planar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) oculte las costuras.
-* **Contraste de fusión triplanar**: *0.0 - 1.0* Controla el contraste del efecto Triplanar.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/fiber-glass-edge-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para el resaltado de bordes. ¡Obligatorio! |
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para enmascarar áreas ocluidas. No es obligatorio, pero definitivamente recomendable. |
+| <b>Entrada de Suciedad</b> <i>Entrada en escala de grises</i> | Ranura personalizada opcional para anular el patrón de fibra. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+| <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> | Solo se usa para triplanar. |
+| <b>Posición</b> <i>Entrada de color</i> | Solo se usa para triplanar. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Nivel de desgaste</b> <i>0.0 - 1.0</i> | Como un [Histograma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), revela progresivamente el desgaste. |
+| <b>Contraste de desgaste</b> <i>0.0 - 1.0</i> | Define el contraste total del efecto. |
+| <b>Smoothness de bordes</b> <i>0.0 - 16.0</i> | Define el sangrado/desenfoque de aristas resaltadas. |
+| <b>Cantidad de Suciedades</b> <i>0.0 - 1.0</i> | Define la cantidad de efecto de fibra que se debe fusionar entre los bordes. Ajusta esto junto con el nivel de desgaste para obtener el máximo control. |
+| <b>Enmascaramiento de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define la cantidad de influencia que tiene el AO para ocultar el efecto. |
+| <b>Peso de curvatura</b> <i>0.0 - 1.0</i> | Define la cantidad de influencia que tienen las aristas convexas de la curvatura. |
+| <b>Usar Suciedad personalizada</b> <i>Falso/Verdadero</i> | Reemplaza las fibras integradas con el mapa personalizado. |
+| <b>Usar triplanar</b> <i>Falso/Verdadero</i> | Permite que [Tri Plana](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) oculte las costuras. |
+| <b>Contraste de fusión triplanar</b> <i>0.0 - 1.0</i> | Controla el contraste del efecto Triplanar. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: SVG](../../../../assets/comp_svg_1.png "Nodo atómico: SVG"){width="200px"}
+![Nodo atómico: SVG](svg.resources/svg-01.png "Nodo atómico: SVG"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -61,7 +61,7 @@ Puede crear el nodo desde cero o soltar un archivo de SVG en la vista de gráfic
 
 >[!TIP]
 >
-> Las imágenes de SVG generadas o importadas se pueden editar mediante las [herramientas de edición vectorial](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) del conjunto acoplado de la [vista en 2D](../../../../interface/2d-view/2d-view.md).
+> Las imágenes de SVG generadas o importadas se pueden editar mediante las [herramientas de edición vectorial](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) del conjunto acoplado [Vista 2D](../../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desgaste de tela
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cloth-wear.png){width="128px"}
+![](cloth-wear.resources/cloth-wear-01.png){width="128px"}
 
-## Desgaste de tela
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Simple**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,26 +37,35 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 La máscara representa los bordes rasgados sobre los materiales de tela. Utiliza un detalle de tela Heightmap que determina la mayor parte del look; sin un mapa adecuado, el efecto parece muy básico.
 
-## Parámetros
-
-### Entradas
-
-* **Height de tela**: *Entrada en escala de grises*\
-  Height solo para el patrón de tela. Este no es el height de su objeto (horneado), sino más bien un patrón de detalle de azulejos.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-* **Curvatura**: *Entrada en escala de grises*\
-  Curvatura horneada/generada para determinar bordes elevados.
-
-### Parámetros
-
-* **Cantidad de bordes definidos**: *0.0 - 1.0*
-* **Suavizado de desgaste**: *0.0 - 5.0* Determina lo difuminados o suaves que están los bordes desgastados.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/cloth-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Height de tela</b> <i>Entrada en escala de grises</i> | Height solo para el patrón de tela. Este no es el height de su objeto (hecho un bake), sino más bien un patrón de detalle de mosaico. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Curvatura hecha un bake/generada para determinar bordes elevados. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Cantidad de bordes definidos</b> <i>0.0 - 1.0</i> |  |
+| <b>Suavizado de desgaste</b> <i>0.0 - 5.0</i> | Determina el grado de desenfoque o suavidad de los bordes desgastados. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cloth-wear.resources/cloth-wear-02.gif" />
+        </td>
+    </tr>
 </table>

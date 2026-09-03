@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gráficos de Substance y materiales MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Al usar la opción <b>Ver salidas en vista 3D</b> para un gráfico de Substance 
 
 Las texturas individuales de una gráfica de Substance se pueden conectar a cualquiera de los parámetros de material MDL que admitan el muestreo de texturas, independientemente del identificador, pulsando RMB en el nodo de gráfica de Substance y arrastrando hasta la vista 3D. Se muestra una lista de los usos de muestra disponibles y puede seleccionar el uso de destino para la textura seleccionada.
 
-![Entradas de gráfica MDL expuesta](../../assets/mdl-graph-inputs-samplers.png "Entradas de gráfica MDL expuesta")
+![Entradas de gráfica MDL expuesta](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "Entradas de gráfica MDL expuesta")
 
 *Las texturas generadas por un gráfico de Substance están conectadas a los parámetros expuestos de un gráfico MDL en la vista 3D*
 
@@ -48,7 +48,7 @@ Las texturas individuales de una gráfica de Substance se pueden conectar a cual
 Las instancias de gráfica de Substance se pueden colocar directamente en gráficas MDL arrastrándolas del panel <b>Explorador</b> al gráfico MDL. Se pueden usar gráficas de Substance de <b>Substance 3D files</b> (SBS) y <b>Substance 3D asset files</b> (SBSAR) en gráficas MDL.
 
 +++Gráfico de Substance del archivo Substance 3D (SBS)
-![Gráfico de Substance del archivo SBS en el gráfico MDL](../../assets/mdl-sbs-instance-hl.png "Gráfico de Substance del archivo SBS en el gráfico MDL")
+![Gráfico de Substance del archivo SBS en el gráfico MDL](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "Gráfico de Substance del archivo SBS en el gráfico MDL")
 
 
 
@@ -57,7 +57,7 @@ Las instancias de gráfica de Substance se pueden colocar directamente en gráfi
 +++
 
 +++Gráfico de Substance de Substance 3D Asset (SBSAR)
-![Gráfico de Substance del archivo SBSAR en el gráfico MDL](../../assets/mdl-sbsar-instance-hl.png "Gráfico de Substance del archivo SBSAR en el gráfico MDL")
+![Gráfico de Substance del archivo SBSAR en el gráfico MDL](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "Gráfico de Substance del archivo SBSAR en el gráfico MDL")
 
 
 

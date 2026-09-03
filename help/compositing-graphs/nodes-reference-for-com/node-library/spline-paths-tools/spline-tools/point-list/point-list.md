@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Lista de puntos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/point-list-icon.png "Icono de nodo")
+![Icono de nodo](point-list.resources/point-list-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -49,72 +49,43 @@ Si se proporciona una lista de puntos existente a las entradas <b>Point</b>, la 
 >
 > Los conectores <b>Point List</b> y <b>Point Number</b> son *incompatibles* con los conectores <b>Spline Code</b>, <b>Spline Data</b> y <b>Spline Amount</b>, ya que se basan en datos diferentes.
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Vista previa </b>*Escala de grises* Vista previa de los puntos como una imagen en escala de grises.
+## Entradas
 
-<b>Entrada de lista de puntos</b> *Color*\
-Una lista de puntos de entrada codificados en los canales RGBA de una imagen en color:\
-Posición <b>R</b> - X\
-<b>G</b> - Posición Y\
-<b>B</b> - Height\
-<b>A</b> - Datos empaquetados:\
-* Parte entera: Smoothness;\
-* Parte fraccional: Thickness.
+|  |  |
+|:---|:---|
+| <b>Vista previa</b> <i>Escala de grises</i> | Vista previa de los puntos como una imagen en escala de grises. |
+| <b>Entrada de lista de puntos</b> <i>Color</i> | Una lista de puntos de entrada codificados en los canales RGBA de una imagen de color:<br><b>R</b> - Posición X<br><b>G</b> - Posición Y<br><b>B</b> - Height<br><b>A</b> - Datos empaquetados:<br> * Parte entera: Smoothness;<br> * Parte fraccional: Thickness. |
+| <b>Entrada de número de punto</b> <i>Entero</i> | Número de puntos de entrada. |
 
-<b>Entrada de número de punto</b> *Entero*\
-Número de puntos de entrada.
+<a name="outputs"></a>
 
-## Conectores de salida
+## Salidas
 
-<b>Vista previa </b>*Escala de grises* Vista previa de los puntos como una imagen en escala de grises.
+|  |  |
+|:---|:---|
+| <b>Vista previa</b> <i>Escala de grises</i> | Vista previa de los puntos como una imagen en escala de grises. |
+| <b>Lista de puntos</b> <i>Color</i> | La lista de salida de puntos codificados en los canales RGBA de una imagen de color:<br><b>R</b> - Posición X<br><b>G</b> - Posición Y<br><b>B</b> - Height<br><b>A</b> - Datos empaquetados:<br> * Parte entera: Smoothness;<br> * Parte fraccional: Thickness. |
+| <b>Número de punto</b> <i>Entero</i> | Número de puntos de salida. |
 
-<b>Lista de puntos </b>*Color*\
-La lista de salida de puntos codificados en los canales RGBA de una imagen en color:\
-Posición <b>R</b> - X\
-<b>G</b> - Posición Y\
-<b>B</b> - Height\
-<b>A</b> - Datos empaquetados:\
-* Parte entera: Smoothness;\
-* Parte fraccional: Thickness.
-
-<b>Número de punto </b>*Entero*\
-Número de puntos de salida.
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>Número de punto</b> *Entero* Número de puntos generados.
-
-<b>Ajuste de Smoothness global</b> *Flotante* Aplica un desplazamiento uniforme al valor de smoothness de todos los puntos.\
-El valor de smoothness resultante se fija al rango [0;1].
-
-+++Propiedades de puntos
-<b>Propiedades de p#</b> *Float3* Establece las propiedades del punto p#.\
-*- Height:* Ajusta el height del punto en el que un valor inferior significa una ubicación más baja o más profunda;\
-*- Smoothness:* Desplaza el inicio del suavizado de la spline en p#, donde un valor de 0 da como resultado una trayectoria dura y 1 en una completamente suave;\
-*- Thickness:* Ajusta el thickness de la spline en p#. El thickness se utiliza en nodos Spline específicos.
-
-+++
-
-+++Puntos y coordenadas
-<b>p#</b> *Float2* Establece la posición del punto p# en el espacio de textura.
-
-+++
-
-+++Vista previa
-<b>Mostrar etiquetas</b> *Booleano*\
-Para cada punto, muestra el nombre del punto junto a él en la salida &quot;Vista previa&quot;.
-
-<b>Tamaño de etiqueta</b> *Float* (disponible cuando &#39;Mostrar etiquetas&#39; está establecido en &#39;True&#39;)\
-El tamaño de la etiqueta para cada punto en el espacio de textura, donde 0,1 es una décima parte del ancho de la textura.
-
-<b>Mostrar puntos</b> *Booleano*\
-Muestra los puntos en la salida de &#39;Vista previa&#39;.
-
-<b>Tamaño de puntos</b> *Float* (disponible cuando &#39;Mostrar puntos&#39; está establecido en &#39;True&#39;)\
-El radio de los puntos en el espacio de textura, donde 0,1 es una décima parte del ancho de la textura.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Número de punto</b> <i>Entero</i> | Número de puntos generados. |
+| <b>Ajuste de Smoothness global</b> <i>Flotador</i> | Aplica un desplazamiento uniforme al valor de smoothness de todos los puntos.<br>El valor de smoothness resultante se fija al intervalo [0;1]. |
+| <b>Propiedades de puntos</b> |  |
+| <b>Propiedades de p#</b> <i>Float3</i> | Establece las propiedades del punto p#.<br>*- Height:* Ajusta el height del punto en el que un valor inferior significa una ubicación más baja o más profunda;<br>*- Smoothness:* Desplaza el inicio del suavizado de la spline en p#, donde un valor de 0 da como resultado una trayectoria dura y 1 en una completamente suave;<br>*- Thickness:* Ajusta el thickness de la spline en p#. El thickness se utiliza en nodos Spline específicos. |
+| <b>Coordenadas de puntos</b> |  |
+| <b>p#</b> <i>Float2</i> | Establece la posición del punto p# en el espacio de textura. |
+| <b>Vista previa</b> |  |
+| <b>Mostrar etiquetas</b> <i>Booleano</i> | Para cada punto, muestra el nombre del punto junto a él en la salida &quot;Vista previa&quot;. |
+| <b>Tamaño de etiqueta</b> <i>Float</i> (disponible cuando &#39;Mostrar etiquetas&#39; está establecido en &#39;True&#39;) | El tamaño de la etiqueta para cada punto en el espacio de textura, donde 0,1 es una décima parte del ancho de la textura. |
+| <b>Mostrar puntos</b> <i>Booleano</i> | Muestra los puntos en la salida de &#39;Vista previa&#39;. |
+| <b>Tamaño de puntos</b> <i>Float</i> (disponible cuando &#39;Mostrar puntos&#39; está establecido en &#39;True&#39;) | El radio de los puntos en el espacio de textura, donde 0,1 es una décima parte del ancho de la textura. |
 
 ## Ejemplos
 
@@ -122,12 +93,12 @@ El radio de los puntos en el espacio de textura, donde 0,1 es una décima parte 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/PointList-Variant1.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](point-list.resources/point-list-02.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/PointList-Demo1.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](point-list.resources/point-list-03.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

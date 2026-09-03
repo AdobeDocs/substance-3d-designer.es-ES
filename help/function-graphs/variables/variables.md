@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variables
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -45,13 +45,13 @@ En Substance 3D Designer, hay dos familias de variables: Numéricos y booleanos.
 Las variables numéricas son básicamente números. Pero hacemos una distinción clara entre dos tipos de números:
 
 * Enteros : 0 | 1 | -1 | 203568 , etc...
-* Flotantes: 0,23 | 1,0 | -0,3546 | etc..
+* Flotante: 0,23 | 1,0 | -0,3546 | etc..
 
 >[!WARNING]
 >
 > Designer establece una distinción clara entre enteros y elementos flotantes : de forma predeterminada, no se pueden utilizar de forma conjunta.
 > 
-> Afortunadamente, puede utilizar los nodos *To Integer* o To Float para realizar conversiones de tipos.
+> Afortunadamente, puede utilizar los nodos *To Integer* o To Flotante para realizar conversiones de tipos.
 
 ### Varios valores numéricos en la misma variable
 
@@ -61,7 +61,7 @@ Una vez más, todos los valores deben ser del mismo tipo.
 
 Para ello, puede elegir entre todos estos valores numéricos:
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/variables-01.png)
 
 ## Booleano
 

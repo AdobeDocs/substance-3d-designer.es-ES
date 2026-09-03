@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Degradado lineal 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 6%
 
 ---
 
@@ -22,34 +22,39 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient3.png)
+![](gradient-linear-3.resources/gradient-linear-3-01.png)
 
-## Degradado lineal 3
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 El degradado lineal más avanzado. En lugar del perfil redondeado similar a una canalización de [Degradado lineal 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md), este nodo devuelve una pendiente recta y nítida, además de proporcionar un control adicional para el punto medio.
 
-## Parámetros
-
-* **Mosaico**: *1 - 16*\
-  Define la cantidad de veces que el resultado debe aparecer en mosaico.
-* **Posición**: *0.0 - 1.0* Establece dónde se encuentra el punto medio o pico del degradado.
-* **Rotación**: **0, 90°** Cambia la dirección de izquierda a derecha a superior-inferior, o viceversa.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/gradient3-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Mosaico</b> <i>1 - 16</i> | Define la cantidad de veces que el resultado debe aparecer en mosaico. |
+| <b>Posición</b> <i>0.0 - 1.0</i> | Define dónde se encuentra el punto medio o pico del degradado. |
+| <b>Rotación</b> <i>0, 90°</i> | Cambia la dirección de izquierda a derecha a superior-inferior, o viceversa. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-3.resources/gradient-linear-3-02.gif" />
+        </td>
+    </tr>
 </table>

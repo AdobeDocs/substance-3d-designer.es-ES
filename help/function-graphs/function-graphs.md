@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gráficas de funciones de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](function-graphs.resources/function-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ A continuación se muestran algunos ejemplos de casos de uso comunes de Function
 
 ### Función simple
 
-![](../assets/lerpfunction_1.png)
+![](function-graphs.resources/function-graphs-02.png)
 
 Una función simple en el contexto de un parámetro expuesto. Obtiene un valor flotante de entrada denominado &quot;Intensity&quot; (Intensidad) que se determina para ir de 0 a 1 (un rango fácil de entender) y lo reasigna a un rango establecido de 0,1 a 0,8. Eso significa que si el usuario establece Intensity en 0, internamente se utilizará 0.1, si la interfaz de usuario se establece en 1, se utilizará 0.8 y cualquier valor intermedio se interpolará linealmente. Este tipo de función se suele usar cuando se [exponen parámetros](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), pero se usan funciones personalizadas.
 
@@ -51,7 +51,7 @@ Esta función también se puede escribir como *lerp(0.1, 0.8, Intensity)* en un 
 
 ### Función avanzada
 
-![](../assets/pixel-function_1.png){width="545px"}
+![](function-graphs.resources/function-graphs-03.png){width="545px"}
 
 Esta función avanzada muestra el funcionamiento interno de un [procesador de píxeles](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado a ajustar el tono de una entrada de mapa de color en función de la intensidad de una segunda entrada de máscara de escala de grises.
 

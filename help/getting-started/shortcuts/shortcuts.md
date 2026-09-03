@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mét. abrev.
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ En esta página encontrará una descripción general de todos los métodos abrev
 
 **Windows**
 
-![Métodos abreviados de teclado en Windows](../../assets/keyboard_shortcuts_win.png "Métodos abreviados de teclado en Windows"){zoomable="yes"}
+![Métodos abreviados de teclado en Windows](shortcuts.resources/shortcuts-01.png "Métodos abreviados de teclado en Windows"){zoomable="yes"}
 
 **macOS**
 
-![Métodos abreviados de teclado en macOS](../../assets/keyboard_shortcuts_mac.png "Métodos abreviados de teclado en macOS"){zoomable="yes"}
+![Métodos abreviados de teclado en macOS](shortcuts.resources/shortcuts-02.png "Métodos abreviados de teclado en macOS"){zoomable="yes"}
 
 ## Listas de accesos directos
 

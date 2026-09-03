@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Tejido 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-2.png){width="128px"}
+![](weave-2.resources/weave-2-01.png){width="128px"}
 
-## Tejido 2
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Genera un patrón de trama simple. Tiene controles para la aleatorización. En el trastorno máximo, esto puede incluso ser utilizado como un ruido.
 
-## Parámetros
-
-* **Mosaico**: *1 - 16*\
-  Define la cantidad de veces que el resultado debe aparecer en mosaico.
-* **Trastorno**: *0.0 - 100.0*\
-  Jumble alrededor de los puntos del tejido para introducir variación.
-* **Rotar 45 Grados**: *Falso/Verdadero* Gira al ángulo preestablecido.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/weave2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Mosaico</b> <i>1 - 16</i> | Define la cantidad de veces que el resultado debe aparecer en mosaico. |
+| <b>Desorden</b> <i>0.0 - 100.0</i> | Jumble alrededor de los puntos del tejido para introducir variación. |
+| <b>Rotar 45 Grados</b> <i>Falso/Verdadero</i> | Gira al ángulo preestablecido. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="weave-2.resources/weave-2-02.gif" />
+        </td>
+    </tr>
 </table>

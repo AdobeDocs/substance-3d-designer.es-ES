@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Proyección plana 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '253'
+ht-degree: 7%
 
 ---
 
@@ -22,54 +22,59 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-planar-gray.png)![](../../../../../../assets/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-projection-01.png)![](3d-planar-projection.resources/3d-planar-projection-02.png)
 
-## Proyección plana en 3D (color)
-
-**En:** *Generadores basados en malla**/Utilities*
-
-**Complejo**
+<b>En:</b> Generadores basados en malla > Utilidades
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Realiza una proyección plana basada en datos de malla horneada (Mapas de posición y normales del mundo). Permite proyectar y colocar pegatinas a través de las costuras, independientemente de la asignación UV original.
 
-## Parámetros
-
-### Entradas
-
-* **Mapa de posición**: *Entrada de color* Mapa de posición horneada
-* **Normal del Espacio Mundial**: *Entrada de color* Mapa normal del espacio del mundo horneado
-* **Textura proyectada**: *Entrada de color* Introduce la textura en el proyecto en el destino.
-
-### Parámetros
-
-* **Colocación**
-  * **Entrada de proyecto**: *Posición UV, posición del espacio mundial* Elija si la posición de la proyección está definida en 2D/UV o en el espacio 3D/Mundo.
-  * **Posición UV de destino**:\
-    Solo con entrada de posición UV, se recomienda utilizar para seleccionar un punto en la vista 2D en el mapa de posición.
-  * **Posición de destino**: *(Valor de color)*Solo con Entrada de posición de espacio mundial, permite definir una coordenada 3D exacta.
-  * **Objetivo normal**: *(Valor de color)*
-  * **Rotación**: *0,0 - 1,0\
-    Gira la textura proyectada a lo largo de su eje normal.*
-  * **Escala**: *0.0 - 1.0*\
-    Establezca la escala global de la textura proyectada.
-  * **Tamaño**: *0.0 - 2.0* Realizar escalado no uniforme en la textura proyectada.
-* **Enmascaramiento**
-  * **Profundidad máxima**: *0.0 - 1.0* Controla la profundidad a la que aparecerá la textura proyectada y el momento en que se cortará.
-  * **Desvanecimiento de Profundidad**: *0.0 - 1.0* Establezca la transición para que la profundidad de corte sea repentina o desvanecida.
-  * **Umbral normal**: *-1.0 - 1.0* Establezca el umbral para las superficies que no estén exactamente alineadas con la proyección normal.
-  * **Transición normal**: *0.0 - 1.0* Establezca la transición para las superficies que no estén alineadas con las zonas repentinas o de transición.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/3d-planar-projection-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Mapa de posición</b> <i>Entrada de color</i> | Mapa de posición hecho un bake |
+| <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> | Mapa Normal del Espacio Mundial hecho un bake |
+| <b>Textura proyectada</b> <i>Entrada de color</i> | Textura de entrada al proyecto en el destino. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Colocación</b> |  |
+| <b>Entrada de proyecto</b> <i>Posición UV, Posición Espacial Mundial</i> | Elija si la posición de proyección está definida en 2D/UV o en el espacio 3D/Mundo. |
+| <b>Posición UV de destino</b> | Solo con entrada de posición UV, se recomienda utilizar para seleccionar un punto en la vista 2D en el mapa de posición. |
+| <b>Posición de destino</b> <i>(Valor de color)</i> | Solo con Entrada de posición de espacio mundial, permite definir una coordenada 3D exacta. |
+| <b>Destino normal</b> <i>(Valor de color)</i> |  |
+| <b>Rotación</b> <i>0.0 - 1.0</i> | Gira la textura proyectada a lo largo del eje normal. |
+| <b>Escala</b> <i>0.0 - 1.0</i> | Establezca la escala global de la textura proyectada. |
+| <b>Tamaño</b> <i>0.0 - 2.0</i> | Realizar escalado no uniforme en la textura proyectada. |
+| <b>Enmascaramiento</b> |  |
+| <b>Profundidad máxima</b> <i>0.0 - 1.0</i> | Controla la profundidad a la que aparecerá la textura proyectada y el momento en que se cortará. |
+| <b>Desvanecimiento de Profundidad</b> <i>0.0 - 1.0</i> | Defina la transición para que la profundidad de corte sea repentina o descolorida. |
+| <b>Umbral normal</b> <i>-1.0 - 1.0</i> | Defina el umbral para las superficies que no estén exactamente alineadas con la proyección normal. |
+| <b>Transición normal</b> <i>0.0 - 1.0</i> | Defina la transición para las superficies que no estén alineadas como repentinas o fundidas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-planar-projection.resources/3d-planar-projection-03.gif" />
+        </td>
+    </tr>
 </table>

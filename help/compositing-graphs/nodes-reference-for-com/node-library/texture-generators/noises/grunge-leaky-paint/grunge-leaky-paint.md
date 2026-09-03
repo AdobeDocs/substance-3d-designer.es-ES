@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Suciedad Leaky Paint
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
 
-**En:** *Generadores De Texturas* */Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de texturas > Ruidos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,31 +39,31 @@ El nodo **Suciedad con fuga** genera un mapa de suciedades parecido a la pintura
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Equilibrio** *Flotante* Ajusta el equilibrio entre los valores oscuros y brillantes.
-* **Contraste** *Flotante* Ajusta el contraste de la imagen.
-* **Invertir** *Boolean* Invierte el resultado de la imagen mediante una operación `1-x`.
-* **Expansión no cuadrada** *Booleano* Habilita la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* Avanzadas
-  * **Intensidad de fuga** *Float* Ajusta la densidad y la intensidad de los goteos.
-  * **Escala de fuga** *Entero* Ajusta la escala de la separación de goteos.
-  * **Ángulo de fuga aleatorio** *Flotante* Ajusta el *ángulo máximo* goteos que se pueden rotar aleatoriamente, en *número de vueltas*.
-  * **Nitidez de la fuga** *Flotador* Ajusta la nitidez y nitidez de los goteos.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Avanzado</b> |  |
+| <b>Intensidad de fuga</b> <i>Flotador</i> | Ajusta la densidad y la intensidad de los goteos. |
+| <b>Escala de fuga</b> <i>Entero</i> | Ajusta la escala de la separación de los goteos. |
+| <b>Ángulo de fuga aleatorio</b> <i>Flotador</i> | Ajusta los goteos de *ángulo máximo* que se pueden rotar aleatoriamente en *número de vueltas*. |
+| <b>Nitidez de la fuga</b> <i>Flotador</i> | Ajusta la nitidez y la nitidez de los goteos. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleakypaint-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleakypaint-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
+        </td>
+    </tr>
 </table>

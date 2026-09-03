@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Escala de grises de difusión
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 3%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-grayscale-icon.png){width="200px"}
+![](diffusion-grayscale.resources/diffusion-grayscale-01.png){width="200px"}
 
-**En:** *Filtros/Efectos*
-
-**Intermedio**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,61 +41,49 @@ Solo se difunden los valores de los píxeles que coinciden con la máscara; otro
 </tr>
 </table>
 
-## Parámetros
-
-* **Iteraciones**: *0.0 - 64.0* El número de iteraciones de difusión que se van a realizar (más alto es mejor pero más lento). Los valores útiles se encuentran en el intervalo [8, 48].\
-  Tenga en cuenta que si no está buscando corrección matemática, los valores bajos están bien o incluso mejor.\
-  **Distancia**: **0.0 - 1.0** Ajusta la distancia máxima de la difusión.
-* **Habilitar tramado**: *Verdadero/Falso* Controla el método de muestreo de cada pasada. El tramado permite la convergencia en menos pasadas, pero introduce ruido.\
-  Sin ella, cada pase es más rápido, pero se requieren más pases para lograr un resultado suave sin defectos de bandas.
+<a name="inputs"></a>
 
 ## Entradas
 
-* **Origen** *Escala de grises*\
-  La imagen que se va a difundir.
-* **Máscara** *Escala de grises*\
-  Máscara de difusión: los píxeles blancos se muestrean en *Source* y se difuminan en píxeles negros. La imagen debe ser en blanco y negro. Si la máscara incluye degradados, el valor de límite es 0,5.
-* **Intensidad** *Escala de grises*\
-  Define localmente qué tan fuerte se aplica el proceso de difusión. Este mapa debe ser *contrastado* para lograr un efecto apreciable.
+|  |  |
+|:---|:---|
+| <b>Origen</b> <i>Escala de grises</i> | La imagen que se va a difundir. |
+| <b>Máscara</b> <i>Escala de grises</i> | Máscara de difusión: los píxeles blancos se muestrean en <i>Source</i> y se difuminan en píxeles negros. La imagen debe ser en blanco y negro. Si la máscara incluye degradados, el valor de límite es 0,5. |
+| <b>Intensidad</b> <i>Escala de grises</i> | Define localmente qué tan fuerte se aplica el proceso de difusión. Este mapa debe ser <i>contrastado</i> para lograr un efecto apreciable. |
 
-## Imágenes de ejemplo
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## Parámetros
 
-![](../../../../../../assets/diffusion-grayscale-01-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>Iteraciones</b> <i>0.0 - 64.0</i> | El número de iteraciones de difusión que se deben realizar (más alto es mejor, pero más lento). Los valores útiles se encuentran en el intervalo [8, 48].<br>Tenga en cuenta que si no está buscando corrección matemática, los valores bajos son correctos o incluso mejores. |
+| <b>Distancia</b> <i>0.0 - 1.0</i> | Ajusta la distancia máxima de la difusión. |
+| <b>Habilitar tramado</b> <i>Verdadero/Falso</i> | Controla el método de muestreo de cada pasada. El tramado permite la convergencia en menos pasadas, pero introduce ruido.<br>Sin ella, cada pase es más rápido, pero se requieren más pases para lograr un resultado sin problemas sin defectos de bandas. |
 
-</td>
-<td style="border: 0;" valign="top">
+## Ejemplos
 
-![](../../../../../../assets/diffusion-grayscale-01a-after.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-02-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-02-after.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-02-render.jpg){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-04.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-07.jpg" />
+        </td>
+    </tr>
 </table>

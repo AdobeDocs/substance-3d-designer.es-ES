@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Previsualización de exposición
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
@@ -22,33 +22,38 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-exposure-preview.png){width="200px"}
+![](exposure-preview.resources/exposure-preview-01.png){width="200px"}
 
-## Previsualización de exposición
-
-**En:** *Herramientas HDRI/vistas 3D*
-
-**Simple**
+<b>En:</b> Vista 3D > Herramientas HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Nodo auxiliar para previsualizar los pasos de exposición. El usuario establece un valor mínimo y máximo, el nodo genera una imagen mucho más grande con un número de versiones expuestas de la entrada original. Las diferentes versiones siempre se apilan horizontalmente, la cantidad depende de la resolución del nodo o gráfico.
 
-## Parámetros
-
-* **Exposición máxima (VE)**: *-8.0 - 8.0*\
-  Exposición máxima de la imagen superior más brillante.
-* **Exposición Mínima (EV)**: *-8.0 - 8.0* Exposición mínima de la imagen inferior más oscura.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/exp-preview-ex.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Exposición Máxima (EV)</b> <i>-8.0 - 8.0</i> | Exposición máxima de la imagen superior más brillante. |
+| <b>Exposición Mínima (EV)</b> <i>-8.0 - 8.0</i> | Exposición mínima de la imagen inferior más oscura. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="exposure-preview.resources/exposure-preview-02.png" />
+        </td>
+    </tr>
 </table>

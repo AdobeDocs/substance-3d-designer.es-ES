@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dirt Edge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '160'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-dirt.png){width="128px"}
+![](edge-dirt.resources/edge-dirt-01.png){width="128px"}
 
-## Dirt Edge
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Simple**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,30 +37,37 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Esta máscara representa un efecto de dirt que se acumula alrededor de los bordes, basándose únicamente en un mapa de curvatura.
 
-## Parámetros
-
-### Entradas
-
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para la colocación de efectos. ¡Obligatorio!
-* **Máscara de variación**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo, solo se utiliza cuando está activado el parámetro override.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Nivel**: *0.0 - 1.0*\
-  Define la cantidad de dirt.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
-* **Variación**: *0.0 - 1.0* Se mezcla en la cantidad de enmascaramiento/separación a gran escala que debe ocurrir.
-* **Omitir máscara de variación**: *Falso/Verdadero*
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/edge-dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para la colocación de efectos. ¡Obligatorio! |
+| <b>Máscara de variación</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo, solo se utiliza cuando está activado el parámetro override. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Define la cantidad de dirt. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
+| <b>Variación</b> <i>0.0 - 1.0</i> | Fusiones en la cantidad de enmascaramiento o separación a gran escala que debe producirse. |
+| <b>Omitir máscara de variación</b> <i>Falso/Verdadero</i> |  |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-dirt.resources/edge-dirt-02.gif" />
+        </td>
+    </tr>
 </table>

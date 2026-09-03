@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D linear gradient
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
+![](3d-linear-gradient.resources/3d-linear-gradient-01.png){width="128px"}
 
-## 3D linear gradient
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Intermedio**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,20 +37,27 @@ Crea un degradado volumétrico basado en el mapa de posición de entrada. Genera
 
 Consulte también [Máscara de volumen 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) para ver un efecto similar.
 
-## Parámetros
-
-* **Modo de posición de puntos**: *Posiciones UV, Posiciones espaciales mundiales* Elija si los puntos de degradado funcionan en el espacio UV (funciona mejor cuando se establecen en la vista 2D) o en coordenadas 3D, si desea especificar manualmente una posición exacta.
-* **Punto 1**:\
-  Punto inicial del degradado. Pueden ser coordenadas 2D o 3D basadas en el modo de posición.
-* **Punto 2**:\
-  Punto final del degradado. Pueden ser coordenadas 2D o 3D basadas en el modo de posición.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/3d-gradient.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Modo de posición de puntos</b> <i>Posiciones UV, Posiciones Espaciales Mundiales</i> | Elija si los puntos de degradado funcionan en el espacio UV (funciona mejor cuando se establecen en Vista 2D) o en coordenadas 3D, si desea introducir manualmente una posición exacta. |
+| <b>Punto 1</b> | Punto inicial del degradado. Pueden ser coordenadas 2D o 3D basadas en el modo de posición. |
+| <b>Punto 2</b> | Punto final del degradado. Pueden ser coordenadas 2D o 3D basadas en el modo de posición. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-linear-gradient.resources/3d-linear-gradient-02.gif" />
+        </td>
+    </tr>
 </table>

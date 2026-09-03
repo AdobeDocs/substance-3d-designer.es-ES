@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
 breadcrumb-title: ''
-description: Utilice el nodo Dispersión para realizar dispersiones de formas entre texturas y así crear patrones aleatorios y detalles de texturas orgánicas.
+description: Utilice el nodo Dispersión para crear dispersiones de formas entre texturas y así crear patrones aleatorios y detalles de textura orgánica.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Salpicadura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 9%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter.png)
+![](splatter.resources/splatter-01.png)
 
-![](../../../../../../assets/splatter-color.png)
+![](splatter.resources/splatter-02.png)
 
-## Salpicadura (color)
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Complejo**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -45,34 +41,43 @@ La salpicadura funciona bien para conseguir rápidamente algunas formas estampad
 
 Tenga en cuenta que los parámetros predeterminados de Splatter no son aleatorios: es necesario ajustar algunos de ellos para obtener la aleatorización (principalmente parámetros de trastorno). También tenga en cuenta que Splatter requiere una entrada de mapa para funcionar.
 
-## Parámetros
-
-* **Ancho del tamaño del patrón**: *0.0 - 1000.0* Número de patrones para usar en el eje X.
-* **Height de tamaño de motivo**: *0.0 - 1000.0* Número de patrones para usar en el eje Y.
-* **Rotación**: *-360.0 - 360.0* Gira cada patrón en una cantidad definida.
-* **Variación de rotación**: *0.0 - 360.0* Introduce una rotación aleatoria para cada forma independiente.
-* **Zoom**: *100.0 - 10000.0* Aumenta el resultado final. Tenga en cuenta que esto rompe la baldosa!
-* **Ganancia**: *0.0 - 10.0* Ajusta la ganancia de fusión de cada patrón. Hace que destaquen más.
-* **panorámica X**: *-100.0 - 100.0* Panorama el resultado completo en el eje X.
-* **panorámica Y**: *-100.0 - 100.0* Panorama el resultado completo en el eje Y.
-* **Trastorno**: *0.0 - 100.0*\
-  Cambia formas aleatoriamente.
-* **Número de cuadrícula**: *0 - 8* Pasa por diferentes tamaños de cuadrícula para ajustar la escala de resultados. Mantiene el azulejo.
-* **Ángulo de desorden**: *0.0 - 360.0* Controla el ángulo de desplazamiento del desorden.
-* **Aleatorio de trastorno**: *Falso/Verdadero* Aleatoriza el ángulo de desorden, agregando mucho más caos.
-* **Tamaño de patrón**: *5 - 12*
-* **Variación de tamaño**: *0.0 - 100.0* Introduce una escala aleatoria para cada forma.
-* **Filtrado de entrada de imagen (Motor > v4 únicamente)**: *Bilineal + Mipmaps, Bilineal, Más cercano* Qué filtro aplicar a la imagen de entrada.
-* **Nivel De Salida Mínimo**: *0.0 - 1.0* Ajuste de nivel mínimo de salida.
-* **Nivel de salida máx.**: *0.0 - 1.0* Ajuste de nivel máximo saliente.
-* **Color de fondo**: *(Valor de escala de grises)*Define el color de fondo sólido.
-* **Variación de luminancia**: *0.0 - 1.0 (Solo versión en escala de grises)*Introduce la variación de luminancia.
-* **Variación de color**: *0.0 - 1.0 (Solo versión de color)*Introduce la variación de color.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/splatter-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Ancho de tamaño de motivo</b> <i>0.0 - 1000.0</i> | Número de patrones que se utilizarán en el eje X. |
+| <b>Height de tamaño de motivo</b> <i>0.0 - 1000.0</i> | Número de patrones que se utilizarán en el eje Y. |
+| <b>Rotación</b> <i>-360.0 - 360.0</i> | Rota cada motivo en una cantidad definida. |
+| <b>Variación de rotación</b> <i>0.0 - 360.0</i> | Introduce un giro aleatorio para cada forma independiente. |
+| <b>Zoom</b> <i>100.0 - 10000.0</i> | Aumenta el resultado final. Tenga en cuenta que esto rompe la baldosa! |
+| <b>Ganancia</b> <i>0.0 - 10.0</i> | Ajusta la ganancia de fusión de cada patrón. Hace que destaquen más. |
+| <b>Panorámica X</b> <i>-100.0 - 100.0</i> | Muestra el resultado completo en el eje X. |
+| <b>Panorámica Y</b> <i>-100.0 - 100.0</i> | Muestra el resultado completo en el eje Y. |
+| <b>Desorden</b> <i>0.0 - 100.0</i> | Cambia formas aleatoriamente. |
+| <b>Número de cuadrícula</b> <i>0 - 8</i> | Pasa por diferentes tamaños de cuadrícula para ajustar la escala de resultados. Mantiene el azulejo. |
+| <b>Ángulo de desorden</b> <i>0.0 - 360.0</i> | Controla el ángulo de desplazamiento del trastorno. |
+| <b>Aleatorio de trastorno</b> <i>Falso/Verdadero</i> | Aleatoriza el ángulo del desorden, agregando mucho más caos. |
+| <b>Tamaño de patrón</b> <i>5 - 12</i> |  |
+| <b>Variación de tamaño</b> <i>0.0 - 100.0</i> | Introduce una escala aleatoria para cada forma. |
+| <b>Filtrado de entrada de imagen (Motor > v4 únicamente)</b> <i>Bilineal + Mipmaps, Bilineal, Más Cercano</i> | Filtrado que se aplicará a la imagen de entrada. |
+| <b>Nivel De Salida Mínimo</b> <i>0.0 - 1.0</i> | Ajuste del nivel mínimo de salida. |
+| <b>Nivel de salida máx.</b> <i>0.0 - 1.0</i> | Ajuste de nivel máximo de salida. |
+| <b>Color de fondo</b> <i>(valor de escala de grises)</i> | Define el color de fondo sólido. |
+| <b>Variación de luminancia</b> <i>0.0 - 1.0 (solo versión de escala de grises)</i> | Introduce la variación de luminancia. |
+| <b>Variación de color</b> <i>0.0 - 1.0 (solo versión de color)</i> | Introduce la variación de color. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="splatter.resources/splatter-03.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desplazamiento del histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-shift-1.png){width="128px"}
+![](histogram-shift.resources/histogram-shift-01.png){width="128px"}
 
-## Desplazamiento del histograma
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,17 +37,27 @@ Cambia por completo todo el rango de la imagen, ajustándose cuando se alcanzan 
 
 [Haz clic aquí para ver un vídeo de la Academia de Substance sobre el cambio de histograma.](https://youtu.be/p9wcmJBFyGA?t=492)
 
-## Parámetros
-
-* **Posición**: *0.0 - 1.0*\
-  Cuánto se debe desplazar la entrada. 1.0 es una rotación completa y es igual a 0.0.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/histogram-shift.gif)
-
-![](../../../../../../assets/histogram-shift2.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Posición</b> <i>0.0 - 1.0</i> | Cuánto se debe desplazar la entrada. 1.0 es una rotación completa y es igual a 0.0. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-shift.resources/histogram-shift-02.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-shift.resources/histogram-shift-03.gif" />
+        </td>
+    </tr>
 </table>

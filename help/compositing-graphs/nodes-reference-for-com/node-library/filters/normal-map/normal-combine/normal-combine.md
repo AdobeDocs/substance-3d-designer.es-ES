@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Combinación normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine-01.png){width="128px"}
 
 <b>En:</b> Filtros > Mapa normal
 
@@ -45,17 +45,21 @@ Esta es la forma mejor y más correcta de añadir detalles de mapa normal genera
 
 Si quieres fusionar dos mapas normales sin combinar sus detalles (usando una máscara, por ejemplo), deberías usar [Fusión normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Normal 2</b> *Color* Descripción
+## Entradas
 
-<b>Normal 1</b> *Color* Descripción
+|  |  |
+|:---|:---|
+| <b>Normal 2</b> <i>Color</i> | Descripción |
+| <b>Normal 1</b> <i>Color</i> | Descripción |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>Técnica</b> *Entero* Establece qué técnica de fusión interna se debe usar, cambiando la velocidad por la calidad.\
-*- Whiteout (baja calidad)
-* Mezclador de canales (alta calidad)
-* Orientado a los detalles (alta calidad)*
+|  |  |
+|:---|:---|
+| <b>Técnica</b> *Entero* | Define qué técnica de fusión interna usar, cambiando la velocidad por la calidad.<br><br>*- Whiteout (baja calidad)<br>* Mezclador de canales (alta calidad)<br>* Orientado al detalle (alta calidad)* |
 
 ## Ejemplos

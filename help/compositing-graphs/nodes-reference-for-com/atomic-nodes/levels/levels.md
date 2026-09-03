@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Niveles
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Niveles](../../../../assets/comp_levels_1.png "Nodo atómico: Niveles"){width="200px"}
+![Nodo atómico: Niveles](levels.resources/levels-01.png "Nodo atómico: Niveles"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ El botón amarillo resaltado alterna la interfaz entre los reguladores de valor 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-02.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-03.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Echa un vistazo a esta descripción general en vídeo del nodo Niveles y su edit
 
 En la barra de encabezado &quot;Parámetros específicos&quot;, encontrará botones para acceder a las prácticas funciones del histograma:
 
-![Acciones rápidas de nodos de niveles](../../../../assets/levels-2.png "Acciones rápidas de nodos de niveles")
+![Acciones rápidas de nodos de niveles](levels.resources/levels-04.png "Acciones rápidas de nodos de niveles")
 
 <b>1 - Invertir:</b> Intercambia los valores de los parámetros &quot;Nivel de salida bajo&quot; y &quot;Nivel de salida alto&quot;.
 
@@ -113,7 +113,7 @@ En la barra de encabezado &quot;Parámetros específicos&quot;, encontrará boto
 
 El editor del histograma está diseñado para ajustes visuales rápidos donde realmente no se necesitan valores precisos y exponer parámetros no es importante. En general, es la forma más rápida y sencilla de trabajar con Niveles.
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-05.gif)
 
 En función del tipo de entrada (color o escala de grises), puede utilizar el menú desplegable situado sobre el histograma para elegir el canal que desea modificar.
 

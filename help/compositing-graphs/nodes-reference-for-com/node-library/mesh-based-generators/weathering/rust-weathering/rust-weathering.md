@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Óxido Weathering
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 14%
 
 ---
 
@@ -22,73 +22,66 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rust-weathering.png){width="128px"}
+![](rust-weathering.resources/rust-weathering-01.png){width="128px"}
 
-## Óxido Weathering
-
-**En:** *Generadores Basados En Malla**/Meteorología*
-
-**Complejo**
+<b>En:</b> Generadores Basados En Malla > Meteorización
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-## Parámetros
-
-### Entradas
-
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Posición**: *Entrada de color*
-* **Máscara** : *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;.
-
-### Parámetros
-
-* **Canales**
-  * Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad.
-* **Avanzado**
-  * **Formato normal**: *DirectX, OpenGL*\
-    Cambia entre diferentes formatos de Mapa normal (invierte el canal verde).
-  * **Máscara**: *Falso/Verdadero*\
-    Activa o desactiva el uso del mapa de máscara.
-* **Efecto**
-  * **Difusión de Óxido**: *0.0 - 1.0*
-  * **Smoothness de propagación**: *0.0 - 1.0*
-  * **Escala de daños de Vernish**: *0.0 - 1.0*
-  * **Intensidad de goteo**: *0.0 - 1.0*
-  * **Cantidad de muestras de goteo**: *0 - 32*
-  * **Smoothness de goteos**: *0.0 - 1.0*
-* **Fusión**
-  * **Intensidad de difusión**: *0.0 - 1.0*\
-    Intensidad de fusión de la difusión.
-  * **Intensidad de color base**: *0.0 - 1.0*\
-    Intensidad de fusión del color base.
-  * **Intensidad normal**: *0.0 - 32.0*\
-    Intensidad de fusión de la Normal.
-  * **Intensidad del Specular**: *0.0 - 1.0*\
-    Fusión del Specular.
-  * **Intensidad de brillo**: *0.0 - 1.0*\
-    Fuerza de fusión del Brillo.
-  * **Intensidad de rugosidad**: *0.0 - 1.0*\
-    Fuerza de fusión de la rugosidad.
-  * **Intensidad metálica**: *0.0 - 1.0*\
-    Intensidad de fusión del metal.
-  * **Intensidad de Oclusión ambiente**: *0.0 - 1.0*\
-    Fuerza de fusión de la Oclusión ambiente.
-  * **Intensidad de Height**: *0.0 - 1.0*\
-    Fusión del Height.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/rust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Posición</b> <i>Entrada de color</i> |  |
+| <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Avanzado</b> |  |
+| <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
+| <b>Máscara</b> <i>Falso/Verdadero</i> | Activa o desactiva el uso del mapa de máscara. |
+| <b>Efecto</b> |  |
+| <b>Difusión de Óxido</b> <i>0.0 - 1.0</i> |  |
+| <b>Smoothness de propagación</b> <i>0.0 - 1.0</i> |  |
+| <b>Escala de daños de Vernish</b> <i>0.0 - 1.0</i> |  |
+| <b>Intensidad de goteo</b> <i>0.0 - 1.0</i> |  |
+| <b>Cantidad de muestras de goteo</b> <i>0 - 32</i> |  |
+| <b>Smoothness de goteos</b> <i>0.0 - 1.0</i> |  |
+| <b>Fusión</b> |  |
+| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la difusión. |
+| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Intensidad de fusión del color base. |
+| <b>Intensidad normal</b> <i>0.0 - 32.0</i> | Intensidad de fusión de la Normal. |
+| <b>Intensidad del Specular</b> <i>0.0 - 1.0</i> | Fusión del Specular. |
+| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Brillo. |
+| <b>Intensidad de rugosidad</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la rugosidad. |
+| <b>Intensidad metálica</b> <i>0.0 - 1.0</i> | Intensidad de fusión del metal. |
+| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiente. |
+| <b>Intensidad de Height</b> <i>0.0 - 1.0</i> | Fusión del Height. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rust-weathering.resources/rust-weathering-02.gif" />
+        </td>
+    </tr>
 </table>

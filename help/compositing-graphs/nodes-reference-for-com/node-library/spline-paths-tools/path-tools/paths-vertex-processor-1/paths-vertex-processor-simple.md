@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Procesador de vértices de trazados simple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/paths-vertex-processor-simple-icon.png "Icono de nodo")
+![Icono de nodo](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 Aplica una transformación en la posición de los vértices de la entrada <b>Paths</b>.
 
 1. Edite la función de parámetro <b>Por función de vértice</b>;
-1. Use un nodo <b>Get Float2</b> en la variable *vertex.pos*;
+1. Use un nodo <b>Get Flotante2</b> en la variable *vertex.pos*;
 1. Realice algunas operaciones con este valor (p. ej., multiplíquelo para escalar los trazados);
 1. Defina el resultado del cálculo como salida.
 
@@ -55,28 +55,31 @@ También puede tener acceso a las variables *vertex.corner* (bool) y *path.id* (
 >
 > Consulte también [Procesador de vértices de rutas](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Rutas</b> *Color*\
-Una lista de los segmentos codificados de las rutas. Conecte esta entrada al resultado de [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a otro nodo de procesamiento de rutas.
+## Entradas
 
-<b>Entrada #</b> *Color/Escala de grises*\
-Entradas para imágenes que deben muestrearse en la función de parámetro <b>Por función de vértice</b>.
+|  |  |
+|:---|:---|
+| <b>Rutas</b> <i>Color</i> | Una lista de los segmentos codificados de las rutas. Conecte esta entrada al resultado de [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a otro nodo de procesamiento de rutas. |
+| <b>Entrada #</b> <i>Color/Escala de grises</i> | Entradas para imágenes que deben muestrearse en la función de parámetro <b>Por función de vértice</b>. |
 
-## Conectores de salida
+<a name="outputs"></a>
 
-<b>Rutas</b> *Color*\
-Los trazados transformados. Puedes usar [rutas de vista previa](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para hacerte una idea de lo que representa el resultado, usar otro nodo de procesamiento de rutas o escribirlo en [rutas de acceso a spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para procesarlo aún más como splines.
+## Salidas
+
+|  |  |
+|:---|:---|
+| <b>Rutas</b> <i>Color</i> | Los trazados transformados. Puedes usar [rutas de vista previa](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para hacerte una idea de lo que representa el resultado, usar otro nodo de procesamiento de rutas o escribirlo en [rutas de acceso a spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para procesarlo aún más como splines. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
-<b>Recuento de entrada de imagen</b> *Entero* Número de conectores de entrada <b>Input #</b> visibles para conectar imágenes que se deben muestrear en la función de parámetro <b>Por función de vértice</b>.\
-Una vez que haya terminado de configurar todas las muestras deseadas, puede ocultar los bordes no utilizados reduciendo el valor de este parámetro de nuevo a 0.\
-Si necesitas más entradas, usa el [procesador de vértices de rutas](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) en su lugar.
-
-<b>Por función de vértice</b> *Float2*\
-Función aplicada a cada vértice. Debe devolver la nueva posición del vértice.\
-Consulte la sección <b>Descripción</b> de esta página para obtener instrucciones.
+|  |  |
+|:---|:---|
+| <b>Recuento de entrada de imagen</b> <i>Entero</i> | Número de conectores de entrada <b>Input #</b> visibles para conectar imágenes que se deben muestrear en la función de parámetro <b>Por función de vértice</b>.<br>Una vez que hayas terminado de configurar todas las muestras deseadas, puedes ocultar los pin no utilizados reduciendo el valor de este parámetro a 0.<br>Si necesitas más entradas, usa [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) en su lugar. |
+| <b>Por función de vértice</b> <i>Float2</i> | Función aplicada a cada vértice. Debe devolver la nueva posición del vértice.<br>Consulte la sección <b>Descripción</b> de esta página para obtener instrucciones. |
 
 ## Ejemplos
 
@@ -84,7 +87,7 @@ Consulte la sección <b>Descripción</b> de esta página para obtener instruccio
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "Ejemplo de nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">

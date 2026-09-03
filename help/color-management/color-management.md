@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestión de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -52,30 +52,30 @@ Al utilizar el modo OpenColorIO para la gestión de color, Designer utilizará l
 Substance 3D Designer se suministra con las siguientes configuraciones:
 
 * Substance: una configuración sencilla que incluye espacios de color comunes
-* [ACES 1.0.3](https://github.com/hpd/OpenColorIO-Configs/tree/master/aces_1.0.3): la completa configuración de [Academy Color Encoding System](https://www.oscars.org/science-technology/sci-tech-projects/aces) (ACES), un estándar del sector para los flujos de trabajo de gestión de color
+* [ACE 1.0.3](https://github.com/hpd/OpenColorIO-Configs/tree/master/aces_1.0.3): la configuración completa de [Academy Color Encoding System](https://www.oscars.org/science-technology/sci-tech-projects/aces) (ACE), un estándar del sector para los flujos de trabajo de gestión de color
 
 Puede encontrar estos archivos de configuración en la carpeta <b>resources > ocio</b> de los archivos de instalación de Designer.
 
 |  |  |
 | --- | --- |
-| <b>Configuración de OpenColorIO</b> | Esta opción le permite seleccionar el archivo de configuración de OpenColorIO que se utilizará en Designer. Como alternativa, puede establecer el archivo de configuración OpenColorIO mediante la variable de entorno OCIO.  Cuando exista, el archivo de configuración se *bloqueará* en Designer. Todavía es posible cambiar los espacios de color predeterminados y muestra las transformaciones (consulte la siguiente configuración).  **Alerta:** Después de agregar la variable de entorno, se recomienda cerrar Designer, *cerrar sesión* de la sesión de usuario en el sistema operativo y luego volver a iniciar sesión. Esto garantiza que la variable de entorno esté en vigor al iniciar Designer. También puede usar la línea de comandos para crear una variable de entorno temporal e iniciar Designer desde el entorno de línea de comandos *same*.  *Valor predeterminado: Substance* |
-| **Archivo de configuración personalizado** | Si la opción **Custom** está establecida en **OpenColorIO Configuration**, puede seleccionar el *archivo \*.config específico *para utilizarlo como archivo de configuración en este campo.* Valor predeterminado: establecido por el archivo de configuración OpenColorIO o la variable de entorno OCIO* |
+| <b>Configuración de OpenColorIO</b> | Esta opción le permite seleccionar el archivo de configuración de OpenColorIO que se utilizará en Designer. Como alternativa, puede definir el fichero de configuración de OpenColorIO mediante la variable de entorno OCIO.  Cuando exista, el archivo de configuración se *bloqueará* en Designer. Todavía es posible cambiar los espacios de color predeterminados y mostrar transformes (consulte los ajustes a continuación).  **Alerta:** Después de agregar la variable de entorno, se recomienda cerrar Designer, *cerrar sesión* de la sesión de usuario en el sistema operativo y luego volver a iniciar sesión. Esto garantiza que la variable de entorno esté en vigor al iniciar Designer. También puede usar la línea de comandos para crear una variable de entorno temporal e iniciar Designer desde el entorno de línea de comandos *same*.  *Valor predeterminado: Substance* |
+| **Archivo de configuración personalizado** | Si la opción **Custom** está establecida en **OpenColorIO Configuration**, puede seleccionar el *archivo \*.config específico *para utilizarlo como archivo de configuración en este campo.* Valor predeterminado: establecido por OpenColorIO archivo de configuración o OCIO variable de entorno* |
 
 ### Valores predeterminados de espacio de color de mapa de bits
 
 |  |  |
 | --- | --- |
-| <b>imágenes de 8 bits</b> | Establece el espacio de color predeterminado para los mapas de bits de 8 bits. *Valor predeterminado: Establecido por el archivo de configuración de OpenColorIO* |
-| <b>imágenes de 16 bits</b> | Establece el espacio de color predeterminado para los mapas de bits de 16 bits. *Valor predeterminado: Establecido por el archivo de configuración de OpenColorIO* |
-| <b>Imágenes de punto flotante</b> | Establece el espacio de color predeterminado para mapas de bits de precisión de punto flotante, como imágenes *HDR* en los formatos *\*.exr *o*\*.hdr*. *Valor predeterminado: Establecido por el archivo de configuración de OpenColorIO* |
-| <b>Usar nombre de archivo para detectar espacio de color</b> | Permite a Designer asignar un espacio de color automáticamente si el *sufijo* de un nombre de archivo de mapa de bits *coincide exactamente* con el nombre en minúscula de un espacio de color incluido en la configuración *actual de OpenColorIO*. Ejemplo: un recurso de mapa de bits *mybitmap\_aces\_acescg.png* se establecería automáticamente en el espacio de color *ACES - ACEScg* y se aplicaría la transformación adecuada al espacio de color de trabajo. *Valor predeterminado: Comprobado* |
+| <b>imágenes de 8 bits</b> | Establece el espacio de color predeterminado para los mapas de bits de 8 bits. *Valor predeterminado: Establecido por OpenColorIO archivo de configuración* |
+| <b>imágenes de 16 bits</b> | Establece el espacio de color predeterminado para los mapas de bits de 16 bits. *Valor predeterminado: Establecido por OpenColorIO archivo de configuración* |
+| <b>Imágenes de punto flotante</b> | Establece el espacio de color predeterminado para los mapas de bits de precisión de punto flotante, como las imágenes *HDR.* en los formatos *\*.exr *o*\*.hdr*. *Valor predeterminado: Establecido por OpenColorIO archivo de configuración* |
+| <b>Usar nombre de archivo para detectar espacio de color</b> | Permite a Designer asignar un espacio de color automáticamente si el *sufijo* de un nombre de archivo de mapa de bits *coincide exactamente* con el nombre en minúscula de un espacio de color incluido en la OpenColorIO actual *configuración*. Ejemplo: un recurso de mapa de bits *mybitmap\_aces\_acescg.png* se establecerá automáticamente en el espacio de color *ACE - ACEScg* y se aplicará el transforme correspondiente al espacio de color de trabajo. *Valor predeterminado: Comprobado* |
 
 ### Visualización predeterminada de vistas 2D y 3D
 
 |  |  |
 | --- | --- |
-| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [2D view](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado: Establecido por el archivo de configuración de E/S de OpenColor* |
-| <b>Administrar color de miniaturas</b> | Permite que Designer transforme automáticamente el nodo *thumbnails* en el espacio de color *working* del gráfico. *Valor predeterminado: Comprobado* |
+| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [Vista 2D](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado: Establecido por el archivo de configuración de E/S de OpenColor* |
+| <b>Administrar color de miniaturas</b> | Permite a Designer transformar automáticamente el nodo *thumbnails* en el espacio de color *working* del gráfico. *Valor predeterminado: Comprobado* |
 
 ## Adobe ACE
 
@@ -89,7 +89,7 @@ Puede agregar *sus propios* perfiles ICC colocando estos archivos en la ubicaci�
 |  |  |
 | --- | --- |
 | <b>Espacio de trabajo</b> | Esta configuración le permite seleccionar el espacio de color de trabajo para *realizar operaciones de color* en Substance 3D Designer. *Valor predeterminado: sRGB IEC61966-2.1* |
-| <b>Intento de renderizado</b> | Esta opción te permite controlar cómo deben transformarse los colores cuando están *fuera de la gama* del espacio de color *en funcionamiento*. *Valor predeterminado: Colorimétrica relativa* |
+| <b>Intento de renderizado</b> | Esta opción te permite controlar cómo se deben transformar los colores cuando están *fuera de la gama* del *espacio de color de trabajo*. *Valor predeterminado: Colorimétrica relativa* |
 
 ### Valores predeterminados de espacio de color de mapa de bits
 
@@ -97,20 +97,20 @@ Puede agregar *sus propios* perfiles ICC colocando estos archivos en la ubicaci�
 | --- | --- |
 | <b>imágenes de 8 bits</b> | Establece el perfil ICC predeterminado que se utilizará para los mapas de bits de 8 bits. *Valor predeterminado:* sRGB IEC61966-2.1 ** |
 | <b>imágenes de 16 bits</b> | Establece el perfil ICC predeterminado para utilizar mapas de bits de 16 bits. **Valor predeterminado: *sRGB IEC61966-2.1*** |
-| <b>Imágenes de punto flotante</b> | Establece el perfil ICC predeterminado que se utilizará para los mapas de bits de precisión de punto flotante, como las imágenes *HDR* en los formatos *\*.exr *o*\*.hdr*. *Valor predeterminado: Sin formato (es decir, sin perfil aplicado)* |
+| <b>Imágenes de punto flotante</b> | Establece el perfil ICC predeterminado que se utilizará para los mapas de bits de precisión de punto flotante, como las imágenes *HDR.* en los formatos *\*.exr *o*\*.hdr*. *Valor predeterminado: Sin formato (es decir, sin perfil aplicado)* |
 | <b>Usar perfiles ICC incrustados cuando estén disponibles</b> | Permite a Designer utilizar el perfil ICC incrustado en un mapa de bits en lugar de los valores predeterminados mostrados anteriormente. *Valor predeterminado: Comprobado* |
 
 ### Espacio predeterminado de visualización de vistas 2D y 3D
 
 |  |  |
 | --- | --- |
-| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [2D view](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado:*** Perfil ICC para la pantalla principal, recuperado del sistema operativo &#x200B;**&#x200B;** |
+| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [Vista 2D](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado:*** Perfil ICC para la pantalla principal, recuperado del sistema operativo &#x200B;**&#x200B;** |
 
 ### Visualización de gráficos
 
 |  |  |
 | --- | --- |
-| <b>Administrar color de miniaturas</b> | Cuando *se marque*, Designer transformará las *miniaturas de nodo* en el *espacio de color de trabajo* actual. *Valor predeterminado:*** Desmarcado &#x200B;**&#x200B;** |
+| <b>Administrar color de miniaturas</b> | Cuando *se haya marcado*, Designer transformará las *miniaturas de nodo* en el *espacio de color de trabajo* actual. *Valor predeterminado:*** Desmarcado &#x200B;**&#x200B;** |
 
 ## Modo heredado
 
@@ -152,18 +152,18 @@ Puede cambiar el espacio de color de un mapa de bits en cualquier momento, la op
 > 
 > En particular, **nombre de archivo** se puede usar para establecer el espacio de color apropiado *automáticamente*. Tenga en cuenta que el nombre del espacio de color del nombre de archivo debe *coincidir con el nombre* del archivo de configuración OpenColorIO (p. ej. *myImage\_utility - linear -srgb.png* se establecerá en el espacio de color *Utility - Linear - sRGB*).
 
-![Configuración del espacio de color de mapa de bits](../assets/2019-3-0-bitmap-clr-space.png "Configuración del espacio de color de mapa de bits")
+![Configuración del espacio de color de mapa de bits](color-management.resources/color-management-01.png "Configuración del espacio de color de mapa de bits")
 
 ## Exportación de salidas
 
 Al utilizar el cuadro de diálogo <b>Exportar salidas</b>, es posible asignar un <b>espacio de color</b> (OCIO) o adjuntar un <b>perfil ICC</b> (Adobe ACE) para *cada salida*.\
 Designer *convertirá* imágenes en los espacios de color especificados antes de guardar los archivos de imagen.
 
-![Cuadro de diálogo Exportar salidas](../assets/2019-3-0-clr-mgt-export-outputs.png "Cuadro de diálogo Exportar salidas"){width="512px"}
+![Cuadro de diálogo Exportar salidas](color-management.resources/color-management-02.png "Cuadro de diálogo Exportar salidas"){width="512px"}
 
 También puedes asignar un espacio de color (OCIO) o adjuntar un perfil ICC (Adobe ACE) a las imágenes *guardadas* desde la [vista 2D](../interface/2d-view/2d-view.md).
 
-![Opciones de exportación de vista 2D](../assets/2019-3-0-clr-mgt-save-image.png "Opciones de exportación de vista 2D")
+![Opciones de exportación de vista 2D](color-management.resources/color-management-03.png "Opciones de exportación de vista 2D")
 
 ## Vistas 2D y 3D
 
@@ -171,16 +171,16 @@ También puedes asignar un espacio de color (OCIO) o adjuntar un perfil ICC (Ado
 
 Puede activar o desactivar *la gestión de color* y cambiar la *transformación de visualización* de la vista en cualquier momento mediante el menú desplegable de la barra de herramientas de visualización.
 
-![Configuración del espacio de color en la vista 2D](../assets/2019-3-0-clr-mgt-display-toolbar.png "Configuración del espacio de color en la vista 2D"){width="512px"}
+![Configuración del espacio de color en la vista 2D](color-management.resources/color-management-04.png "Configuración del espacio de color en la vista 2D"){width="512px"}
 
 ### Entornos de HDRI de biblioteca
 
 Los entornos HDRI suministrados con Designer se encuentran en el espacio de color <b>Linear sRGB</b>.\
-Cuando se usa una configuración OpenColorIO donde el espacio de color lineal de la escena es *no* sRGB lineal, como la configuración [ACES](https://acescentral.com/t/getting-started-with-aces/1372), el entorno mostrará *colores incorrectos*.
+Al utilizar una configuración de OpenColorIO en la que el espacio de color lineal de la escena es *no* sRGB lineal, como la configuración [ACE](https://acescentral.com/t/getting-started-with-aces/1372), el entorno mostrará *colores incorrectos*.
 
 En ese caso, el espacio de color para los entornos HDRI de la biblioteca debe establecerse *manualmente* en las propiedades del entorno, disponibles en el menú <b>Entorno</b> del panel Vista 3D.
 
-![Configuración del espacio de color del entorno de vista 3D](../assets/2019-3-0-clr-mgt-hdri-env.png "Configuración del espacio de color del entorno de vista 3D"){width="512px"}
+![Configuración del espacio de color del entorno de Vista 3D](color-management.resources/color-management-05.png "Configuración del espacio de color del entorno de Vista 3D"){width="512px"}
 
 ## Nodos de conversión de color
 
@@ -211,11 +211,11 @@ La [biblioteca](../interface/the-library/the-library.md) incluye los siguientes 
 
 Son útiles cuando se trabaja con gráficos creados *sin* gestión de color o materiales de la biblioteca [Substance 3D Assets](https://substance3d.adobe.com/assets).
 
-![Nodos de conversión de color en la biblioteca](../assets/2019-3-0-clr-mgt-nodes.png "Nodos de conversión de color en la biblioteca"){width="512px"}
+![Nodos de conversión de color en la biblioteca](color-management.resources/color-management-06.png "Nodos de conversión de color en la biblioteca"){width="512px"}
 
 ## Limitaciones conocidas
 
 La implementación actual de la gestión de color en Substance 3D Designer tiene las siguientes limitaciones:
 
 * La administración de color está *no* expuesta en la [API de Python](../scripting/scripting.md);
-* [OpenColorIO](https://opencolorio.org/) *looks* *no* compatibles.
+* [OpenColorIO](https://opencolorio.org/) *looks* no son *compatibles*.

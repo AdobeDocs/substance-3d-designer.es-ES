@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: FX-Map](../../../../assets/fxmap.png "Nodo atómico: FX-Map"){width="200px"}
+![Nodo atómico: FX-Map](fx-map.resources/fx-map-01.png "Nodo atómico: FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Tenga en cuenta que, a diferencia de otros nodos, la mayoría del comportamiento
 
 |  |  |
 | --- | --- |
-| <b>Modo de color</b> *Booleano* | Alterna entre una imagen de salida en escala de grises y en color. El color será mucho más lento que la escala de grises. |
+| <b>Modo de color</b> *Booleano* | Alterna entre una imagen de salida en escala de grises y en color. El color será mucho más lento que la escala de grises. |
 | <b>Fondo</b> *Float/Float4* | Define el color inicial del fondo en el que se deben componer los resultados. |
 | <b>Área de procesamiento</b> *Float4* | Permite definir el rango de píxeles inicial para cada lado del FX-Map, lo que resulta en un efecto de estiramiento. |
 | <b>Región de mosaico</b> *Float4* | Permite desplazar la distancia de mosaico del FX-Map. |
@@ -102,4 +102,4 @@ Tenga en cuenta que, a diferencia de otros nodos, la mayoría del comportamiento
 
 ## Ejemplos
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)

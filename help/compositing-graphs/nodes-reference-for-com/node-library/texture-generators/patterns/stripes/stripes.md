@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rayas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 4%
+source-wordcount: '111'
+ht-degree: 11%
 
 ---
 
@@ -22,38 +22,43 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/stripes.png){width="128px"}
+![](stripes.resources/stripes-01.png){width="128px"}
 
-## Rayas
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Intermedio**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Genera un motivo de mosaico, en ángulo y de rayas. El patrón se ajusta a sí mismo para garantizar siempre la continuidad.
 
-## Parámetros
-
-* **Stripe**: *1 - 100* Establece la cantidad de bandas. Cambia automáticamente el resultado para garantizar el mosaico.
-* **Ancho**: *0.0 - 1.0* Establece la anchura del Stripe.
-* **Suavizado**: *0.0 - 1.0* Establece la transición de los bordes de banda.
-* **Mayús**: *0 - 20* Inclina las franjas. Añade automáticamente más franjas para garantizar el mosaico.
-* **Alinear**: *Bordes, Centro* Establece el giro para el cambio.
-* **Filtrado**: *Falso/Verdadero* Habilita el filtrado.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/stripes-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Stripe</b> <i>1 - 100</i> | Define la cantidad de bandas. Cambia automáticamente el resultado para garantizar el mosaico. |
+| <b>Ancho</b> <i>0.0 - 1.0</i> | Establece la anchura del Stripe. |
+| <b>Suavizado</b> <i>0.0 - 1.0</i> | Define la transición de las aristas de banda. |
+| <b>Mayús</b> <i>0 - 20</i> | Inclina las rayas. Añade automáticamente más franjas para garantizar el mosaico. |
+| <b>Alinear</b> <i>Bordes, Centro</i> | Define el giro para el cambio. |
+| <b>Filtrado</b> <i>Falso/Verdadero</i> | Activa el filtrado. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="stripes.resources/stripes-02.gif" />
+        </td>
+    </tr>
 </table>

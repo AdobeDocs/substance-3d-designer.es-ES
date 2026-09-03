@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
-description: Utilice el nodo Cuadrante en FXMaps para dividir las texturas en cuatro secciones y crear motivos en mosaico y variaciones.
+description: Utilice el nodo Cuadrante en FXMaps para dividir las texturas en cuatro secciones para crear patrones en mosaico y variaciones.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > The Quadrant Node
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: El nodo del cuadrante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -86,7 +86,7 @@ De forma predeterminada, la opción Sin motivo está seleccionada, por lo que no
 
 La siguiente opción, *Input image*, es usar una imagen suministrada al nodo FX-Map. El nodo FX-Map acepta imágenes en color o en escala de grises para su uso como fondo o como sustitución de uno de los patrones integrados. Tenga en cuenta que el nodo Cuadrante solo puede procesar una imagen de entrada de escala de grises en un mapa de efectos de escala de grises y, a la inversa, solo puede procesar una imagen de entrada de color en un mapa de efectos de color. Si desea mezclar el tipo de color, debe convertir las entradas antes en el gráfico.
 
-Por último, puede elegir uno de los motivos integrados: Cuadrado, Disco, Paraboloide, Campana, Gaussiano, Espinoso, Pirámide, Ladrillo, Gradación, Ondas, Media Campana, Campana Redondeada, Media Luna y Cápsula.
+Por último, puede elegir uno de los motivos integrados: Cuadrado, Disco, paraboloide, Campana, Gaussiano, Espina, Pirámide, Ladrillo, Gradación, Ondas, Media campana, Campana con bordes, Media luna y Cápsula.
 
 Nota adicional: tiene la posibilidad de crear una función dinámica en este parámetro, pero solo funcionará en Substance 3D Designer. Para tener acceso a la entrada de imagen mediante una función dinámica, deberá utilizar valores de 256 (entrada de imagen 1) a valores superiores (257 para entrada de imagen 2, etc.).
 
@@ -102,12 +102,12 @@ El parámetro Variación de patrón ajusta una función definida del patrón.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../assets/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/the-quadrant-node-01.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/the-quadrant-node-02.jpg)
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
 breadcrumb-title: ''
-description: Utilice el nodo Iluminación > Cancelar altas frecuencias para eliminar los detalles de iluminación de alta frecuencia de las texturas para el análisis de materiales.
+description: Utilice el nodo Lighting Cancel High Frequencies para quitar los detalles de iluminación de alta frecuencia de las texturas para el análisis de materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel High Frequencies
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Iluminación Cancelar altas frecuencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 2%
+source-wordcount: '94'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/lighting-cancel-high-frequencies.png){width="128px"}
+![](lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-01.png){width="128px"}
 
-## Iluminación Cancelar altas frecuencias
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,18 +37,25 @@ Similar a [Highpass](../../../../../../compositing-graphs/nodes-reference-for-co
 
 Consulte también [Cancelación de iluminación con frecuencias bajas](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md) y la opción más avanzada recomendada: [Paso alto de luminancia](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md).
 
-## Parámetros
-
-* **Intensidad**: *0.0 -* 1.0\
-  Intensidad del efecto de cancelación de iluminación.
-* **Radio**: *0.0 - 10.0* Radio o tamaño de los detalles de iluminación que se van a cancelar.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-highfrequencies-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Intensidad</b> <i>0.0 - 1.0</i> | Intensidad del efecto de cancelación de iluminación. |
+| <b>Radio</b> <i>0.0 - 10.0</i> | Radio o tamaño de los detalles de iluminación que se van a cancelar. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-02.png" />
+        </td>
+    </tr>
 </table>

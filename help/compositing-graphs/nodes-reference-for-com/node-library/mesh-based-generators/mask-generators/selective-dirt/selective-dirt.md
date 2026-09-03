@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dirt selectivo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 5%
+source-wordcount: '168'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/selective-dirt.png){width="128px"}
+![](selective-dirt.resources/selective-dirt-01.png){width="128px"}
 
-## Dirt selectivo
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Simple**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,30 +37,37 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Esta máscara [Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html) representa un simple efecto de dirt en bordes convexos.
 
-## Parámetros
-
-### Entradas
-
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa con bake utilizado para efectos internos y máscaras.
-* **Máscara de variación**: *Entrada en escala de grises*\
-  Mapa de variación opcional, se puede activar a través de parámetros.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Nivel**: *0.0 - 1.0*\
-  Define el nivel total del efecto y lo revela gradualmente.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
-* **Variación**: *0.0 - 1.0* Define la cantidad de variación/suciedad que se mezclará en el efecto.
-* **Omitir máscara de variación**: *Falso/Verdadero* Permite reemplazar la variación con una ranura de entrada personalizada.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/selective-dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Máscara de variación</b> <i>Entrada en escala de grises</i> | Mapa de variación opcional, se puede activar a través de parámetros. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Nivel</b> <i>0.0 - 1.0</i> | Define el nivel total del efecto y lo revela gradualmente. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
+| <b>Variación</b> <i>0.0 - 1.0</i> | Define la cantidad de variación/suciedad que se fusionará en el efecto. |
+| <b>Omitir máscara de variación</b> <i>Falso/Verdadero</i> | Permite anular la variación con una ranura de entrada personalizada. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="selective-dirt.resources/selective-dirt-02.gif" />
+        </td>
+    </tr>
 </table>

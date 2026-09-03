@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conceptos principales de gráficos MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Los materiales MDL utilizan una descripción pensada para soluciones de represen
 </td>
 <td style="border: 0;" valign="top">
 
-[![Logotipo de NVIDIA Iray](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![Logotipo de NVIDIA Iray](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ Por ejemplo, si desea trabajar en un material similar al cristal, puede que dese
 
 El nodo raíz incluye una miniatura que muestra una vista previa de su resultado actual.
 
-![Nodo raíz del gráfico MDL](../../assets/mdl-root-hl.png "Nodo raíz del gráfico MDL")
+![Nodo raíz del gráfico MDL](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-02.png "Nodo raíz del gráfico MDL")
 
 *Nodo raíz en un gráfico MDL y sus propiedades se muestran en el [panel de propiedades](../../interface/properties/properties.md)**4&rbrace;*
 
@@ -81,7 +81,7 @@ El *tipo de datos* que va desde un conector de salida o que espera un conector d
 >
 > Solo los conectores de *tipos de datos coincidentes* se pueden vincular entre sí. El único propósito del código de colores es aumentar la legibilidad con respecto al tipo de datos que se pasan en el gráfico y a qué conectores se pueden vincular.
 
-![Tipos de conector de nodo MDL](../../assets/mdl-connector-types.png "Tipos de conector de nodo MDL"){width="512px"}
+![Tipos de conector de nodo MDL](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-03.png "Tipos de conector de nodo MDL"){width="512px"}
 
 *El aspecto de los conectores varía según el tipo de valor de E/S, que se muestra entre paréntesis después del identificador de E/S*
 
@@ -101,16 +101,16 @@ Es posible que desee tener en cuenta las *reglas* aplicadas para el filtrado:
 * si se muestra el menú Nodo *arrastrando un vínculo* fuera de un conector *output*, la lista incluye nodos donde el tipo de datos de *primera entrada* coincide con el tipo de datos de *salida* seleccionado
 * si se muestra el menú Nodo *arrastrando un vínculo* fuera de un conector *input*, la lista incluye nodos donde el tipo de datos de *output* coincide con el tipo de datos *selected input*
 
-![Creación de nodo filtrado](../../assets/mdl-filtered-node-creation.gif "Creación de nodo filtrado")
+![Creación de nodo filtrado](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-04.gif "Creación de nodo filtrado")
 
 *Creación de nodos filtrados en el gráfico MDL, observe que la lista cambia según el tipo de valor del conector*
 
 ## Entradas y texturas de gráficos
 
-Los materiales MDL pueden recibir datos de fuentes externas, en forma de valores y texturas por ejemplo. Esto se consigue <b>exponiendo un nodo</b>, a diferencia del [gráfico del Substance](../../compositing-graphs/substance-compositing-graphs.md), donde existen nodos de entrada dedicados para este propósito.
+Los materiales MDL pueden recibir datos de fuentes externas, en forma de valores y texturas, por ejemplo. Esto se consigue <b>exponiendo un nodo</b>, a diferencia del [gráfico del Substance](../../compositing-graphs/substance-compositing-graphs.md), donde existen nodos de entrada dedicados para este propósito.
 
-Los datos se pueden pasar al nodo expuesto según su *tipo*. Por ejemplo, los valores flotantes se pueden pasar a un nodo <b>float</b> expuesto, y una textura se puede pasar a un nodo <b>color</b> expuesto (en este caso, los valores RGBA del píxel muestreado se pasan como un valor de color).
+Los datos se pueden pasar al nodo expuesto según su *tipo*. Por ejemplo, los valores de Flotante se pueden pasar a un nodo <b>float</b> expuesto, y una textura se puede pasar a un nodo <b>color</b> expuesto (en este caso, los valores RGBA del píxel muestreado se pasan como un valor de color).
 
-![Entradas de gráficos expuestos](../../assets/mdl-graph-inputs-samplers.png "Entradas de gráficos expuestos")
+![Entradas de gráficos expuestos](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-05.png "Entradas de gráficos expuestos")
 
-*Los nodos expuestos crean entradas de gráficos que son entradas de valor sin formato y muestras para texturas*
+*Los nodos expuestos crean entradas gráficas que son tanto entradas de valor sin formato como muestras para las texturas*

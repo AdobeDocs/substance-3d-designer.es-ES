@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Textura 3D SDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3d-texture-sdf-01.png){width="200px"}
 
-**En:** *Filtro/Efecto*
-
-**Simple**
+<b>En:</b> Filtro > Efecto
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,40 +39,35 @@ El nodo **3D Texture SDF** genera el *campo de distancia firmado* de una forma a
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada de máscara</b> <i>Escala de grises</i> | La máscara de <i>textura 3D</i> representa los sectores del <i>volumen</i> de una forma. |
+
+<a name="parameters"></a>
+
 ## Parámetros
 
-### Entradas
+|  |  |
+|:---|:---|
+| <b>Umbral</b> <i>Flotador</i> | Cuando el volumen de la forma se describe mediante un <i>degradado</i>, establece el valor de degradado en el que se <i>detecta</i> la <i>superficie</i> de la forma. |
+| <b>Salida</b> <i>Entero</i> | El tipo de campo de distancia que debe generarse:<br>- <i>Campo de distancia</i>: muestra un campo de distancia que describe las distancias <i>fuera</i> de la forma.<br>- <i>Campo de distancia con signo</i>: genera un campo de distancia que describe las distancias <i>exterior</i> (positivo) e <i>interior</i> (negativo) de la forma. |
 
-* **Entrada de máscara** *Escala de grises*\
-  La máscara de *textura 3D* representa los sectores del *volumen* de una forma.
+## Ejemplos
 
-### Parámetros
-
-* **Umbral** *Flotante*\
-  Cuando el volumen de la forma se describe mediante un *degradado*, establece el valor de degradado en el que se *detecta* la *superficie* de la forma.
-* **Salida** *Entero*\
-  El tipo de campo de distancia que debe generarse:
-  * *Campo de distancia*: genera un campo de distancia que describe las distancias *fuera* de la forma.
-  * *Campo de distancia con signo*: genera un campo de distancia que describe las distancias *exterior* (positivo) e *interior* (negativo) de la forma.
-
-## Imágenes de ejemplo
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-04.png" />
+        </td>
+    </tr>
 </table>

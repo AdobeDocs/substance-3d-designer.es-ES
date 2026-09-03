@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Combinación RGBA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '93'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-merge.png){width="128px"}
+![](rgba-merge.resources/rgba-merge-01.png){width="128px"}
 
-## Combinación RGBA
-
-**En:** *Filtros/Canales*
-
-**Simple**
+<b>En:</b> Filtros > Canales
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,23 +37,17 @@ Empaqueta una entrada de escala de grises independiente en cada uno de los cuatr
 
 Nodo muy útil para los mapas de canal-empaquetado juntos. Por ejemplo, se puede utilizar para el Smoothness de empaquetado, Metálico y AO en los canales R, G y B respectivos.
 
-## Parámetros
-
-### Entradas
-
-* **R**: *Entrada en escala de grises*
-* **G**: *Entrada en escala de grises*
-* **B**: *Entrada en escala de grises*
-* **A**: *Entrada en escala de grises*
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>R</b> <i>Entrada en escala de grises</i> |  |
+| <b>G</b> <i>Entrada en escala de grises</i> |  |
+| <b>B</b> <i>Entrada en escala de grises</i> |  |
+| <b>A</b> <i>Entrada en escala de grises</i> |  |

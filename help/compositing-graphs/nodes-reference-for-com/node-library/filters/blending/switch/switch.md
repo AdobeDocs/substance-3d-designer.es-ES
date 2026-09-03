@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cambiar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/switch-1.png){width="128px"}
+![](switch.resources/switch-01.png){width="128px"}
 
-![](../../../../../../assets/switch-grayscale.png){width="128px"}
+![](switch.resources/switch-02.png){width="128px"}
 
-## Interruptor (escala de grises)
-
-**En:** *Filtros/Fusión*
-
-**Simple**
+<b>En:</b> Filtros > Fusión
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -45,19 +41,23 @@ Muy útil para exponer una opción booleana (Verdadero/Falso) en un gráfico, do
 
 Importante: asegúrese de utilizar la versión adecuada para su entrada! Utilice &quot;Cambiar&quot; para las entradas de color y &quot;Cambiar escala de grises&quot; para las entradas de escala de grises.
 
-## Parámetros
-
-### Entradas
-
-* **Entrada 1 (True)**: *Entrada en color o escala de grises*
-* **Entrada 2 (False)**: *Entrada en color o escala de grises*
-
-### Parámetros
-
-* **Cambiar**: *Falso/Verdadero* Cambia entre Entrada 1 (Verdadero) y 2 (Falso).
-
-## Imágenes de ejemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada 1 (True)</b> <i>Entrada de color o escala de grises</i> |  |
+| <b>Entrada 2 (False)</b> <i>Entrada de color o escala de grises</i> |  |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Cambiar</b> <i>Falso/Verdadero</i> | Cambia entre Input 1 (True) y 2 (False). |

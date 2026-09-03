@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Detección de bordes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-detect.png){width="128px"}
+![](edge-detect.resources/edge-detect-01.png){width="128px"}
 
-## Detección de bordes
-
-**En:** *Filtros/Efectos*
-
-**Simple**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,20 +37,27 @@ Detecta el contraste en imágenes en blanco y negro y, a continuación, crea una
 
 Útil en muchos casos donde se necesita algún tipo de máscara para los bordes. Tenga en cuenta que funciona mejor con entradas de alto contraste; si es necesario, ajusta el contraste antes de pasar algo a este nodo.
 
-## Parámetros
-
-* **Ancho del borde**: *1.0 - 16.0* Anchura de las áreas detectadas alrededor de los bordes.
-* **Redondez de borde**: *0.0 - 16.0* Redondea, desenfoca y suaviza la máscara generada.
-* **Invertir**: *Falso/Verdadero*\
-  Invierte el resultado.
-* **Tolerancia**: *0.0 - 1.0* Factor de umbral de tolerancia para dónde deben aparecer los bordes.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/edge-detect-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Ancho del borde</b> <i>1.0 - 16.0</i> | Ancho de las áreas detectadas alrededor de los bordes. |
+| <b>Redondez de borde</b> <i>0.0 - 16.0</i> | Redondea, desenfoca y suaviza la máscara generada. |
+| <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el resultado. |
+| <b>Tolerancia</b> <i>0.0 - 1.0</i> | Factor de umbral de tolerancia para el lugar en el que deben aparecer los bordes. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-detect.resources/edge-detect-02.png" />
+        </td>
+    </tr>
 </table>

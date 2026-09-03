@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Parche de Clonación de Material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '326'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-material.png){width="128px"}
+![](material-clone-patch.resources/material-clone-patch-01.png){width="128px"}
 
-## Parche de Clonación de Material
-
-**En:** *Procesamiento De Escaneo/Filtros De Materiales*
-
-**Complejo**
+<b>En:</b> Filtros de material > Procesamiento de escaneo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,35 +37,33 @@ Esta es la versión de material completo multicanal de [Clone Patch](../../../..
 
 Esto resulta muy útil si desea quitar un detalle de todos los canales de un material. Emite imágenes de depuración para varios canales para ver exactamente el aspecto del área de revisión inteligente.
 
-## Parámetros
-
-### Entradas
-
-* **Máscara**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;.
-
-### Parámetros
-
-* **Canales**
-  * Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad.
-* **Forma**: *Cuadrado, disco* Establece la forma del sello. Sólo se usa como base.
-* **Edge**
-  * **Umbral (para varios canales)**: *0.0 - 1.0* Establece hasta dónde debe llegar el área mezclada. Esto crece en pasos, a lo largo de las formas en el área de destino, por lo que tiene muy poco efecto con fondos uniformes*.*Tenga cuidado con cambiar esto demasiado entre canales, ya que podría conducir a discrepancias visuales!
-  * **Desenfocar**: *0.0 - 2.0* Desenfoca los bordes del área de sello en caso de que se necesite una transición más suave.
-  * **Smoothness**: *0.0 - 2.0* Redondea los bordes de la forma de sello para que los contornos fluyan más suavemente.
-  * **Resolución de cuadrícula**: *1 - 11* Establece la resolución de calidad del análisis de fusión. Un valor más alto significa una fusión más precisa.
-* **Transformaciones**
-  * **Matriz de origen**: *(Matriz de transformación)*Transforma el origen (Escala y rotación). No se puede realizar en el lienzo; cambie solo mediante estos parámetros.
-  * **Desplazamiento de origen**: *-0.5 - 0.5* Traduce la ubicación de origen. No se puede realizar en el lienzo; cambie solo mediante estos parámetros. *Este parámetro es probablemente el principal que desea cambiar.*
-  * **Matriz de destino**: *(Matriz de transformación)*Transforma la ubicación de destino (Escala y rotación). También se puede hacer a través de Gizmo en lienzo.
-  * **Desplazamiento de destino**: *-0.5 - 0.5* Traduce la ubicación de destino. También se puede hacer a través de Gizmo en lienzo.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Forma</b> <i>Cuadrado, disco</i> | Establece la forma del sello. Sólo se usa como base. |
+| <b>Edge</b> |  |
+| <b>Umbral (para varios canales)</b> <i>0.0 - 1.0</i> | Define hasta dónde debe llegar el área mezclada. Esto crece en pasos, a lo largo de las formas en el área de destino, por lo que tiene muy poco efecto con fondos uniformes. Tenga cuidado con cambiar esto demasiado entre canales, ya que podría conducir a discrepancias visuales! |
+| <b>Desenfocar</b> <i>0.0 - 2.0</i> | Desenfoca los bordes del área de sello en caso de que sea necesaria una transición más suave. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Redondea los bordes de la forma de sello para que los contornos fluyan más suavemente. |
+| <b>Resolución de cuadrícula</b> <i>1 - 11</i> | Define la resolución de calidad del análisis de fusión. Un valor más alto significa una fusión más precisa. |
+| <b>Transformaciones</b> |  |
+| <b>Matriz de origen</b> <i>(Matriz de transformación)</i> | Transforma el origen (Escala y rotación). No se puede realizar en el lienzo; cambie solo mediante estos parámetros. |
+| <b>Desplazamiento de origen</b> <i>-0.5 - 0.5</i> | Traduce la ubicación de origen. No se puede realizar en el lienzo; cambie solo mediante estos parámetros. *Este parámetro es probablemente el principal que desea cambiar.* |
+| <b>Matriz de destino</b> <i>(Matriz de transformación)</i> | Transforma la ubicación de destino (Escala y rotación). También se puede hacer a través de Gizmo en lienzo. |
+| <b>Desplazamiento de destino</b> <i>-0.5 - 0.5</i> | Traduce la ubicación de destino. También se puede hacer a través de Gizmo en lienzo. |

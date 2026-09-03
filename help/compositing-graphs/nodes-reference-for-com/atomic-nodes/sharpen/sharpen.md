@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Enfocar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Perfilar nodo](../../../../assets/sharpen-4.png "Icono Perfilar nodo")
+![Icono Perfilar nodo](sharpen.resources/sharpen-01.png "Icono Perfilar nodo")
 
 <b>En:</b> nodos atómicos
 
@@ -56,4 +56,4 @@ Determina si el canal alfa de la imagen se debe enfocar o dejar intacto.
 
 ## Ejemplos
 
-![Enfocar nodo - Ejemplo 1](../../../../assets/sharpen-ex.png "Enfocar nodo - Ejemplo 1")
+![Enfocar nodo - Ejemplo 1](sharpen.resources/sharpen-02.png "Enfocar nodo - Ejemplo 1")

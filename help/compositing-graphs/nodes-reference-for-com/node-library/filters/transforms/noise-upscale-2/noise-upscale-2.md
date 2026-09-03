@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ampliación de ruido 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-2.resources/noise-upscale-2-01.png){width="128px"}
 
-## Ampliación de ruido 2
-
-**En:** *Filtros/Transformaciones*
-
-**Simple**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,20 +39,27 @@ Este nodo está destinado principalmente a optimizar gráficos lentos que utiliz
 
 Consulta [Noise Upscale 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) y [Noise Upscale 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) para obtener diferentes variaciones de este proceso.
 
-## Parámetros
-
-* **Desplazamiento1X**: *0.0 - 1.0* Desliza las partes superior e inferior sobre el eje X.
-* **Desplazamiento1Y**: *0.0 - 1.0*\
-  Desliza las partes superior e inferior sobre el eje Y.
-* **Desplazamiento2X**: *0.0 - 1.0* Desliza las partes izquierda y derecha sobre el eje X.
-* **Desplazamiento2Y**: *0.0 - 1.0* Desliza las partes izquierda y derecha sobre el eje Y.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise2ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Desplazamiento1X</b> <i>0.0 - 1.0</i> | Desliza las partes superior e inferior sobre el eje X. |
+| <b>Desplazamiento1Y</b> <i>0.0 - 1.0</i> | Desliza las partes superior e inferior sobre el eje Y. |
+| <b>Desplazamiento2X</b> <i>0.0 - 1.0</i> | Desliza las partes izquierda y derecha sobre el eje X. |
+| <b>Desplazamiento2Y</b> <i>0.0 - 1.0</i> | Desliza las partes izquierda y derecha sobre el eje Y. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-2.resources/noise-upscale-2-02.png" />
+        </td>
+    </tr>
 </table>

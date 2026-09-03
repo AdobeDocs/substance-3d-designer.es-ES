@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Generador de mosaicos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 0%
+source-wordcount: '922'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-generator.png){width="128px"}
+![](tile-generator.resources/tile-generator-01.png){width="128px"}
 
-## Tile Generator (color)
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Complejo**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -51,84 +47,87 @@ Algunas sugerencias de uso general:
 * A continuación, ajuste la **escala** global y el **tamaño** no uniforme.
 * Por último, modifique cualquier parámetro **&quot;Variation&quot;** hasta que cumpla sus necesidades. ¡La sutileza es clave con la variación!
 
-## Parámetros
-
-### Entradas
-
-* **Entrada de patrón 1-6**: *Entrada en escala de grises*\
-  Imagen de motivo personalizado, utilizada cuando el parámetro &quot;Motivo&quot; se define en &quot;Entrada de imagen&quot;.
-* **Fondo**:*Entrada en escala de grises* Fondo que se va a usar en lugar de color sólido.
-
-### Parámetros
-
-* **Cantidad X**: *1 - 64*\
-  Cantidad de repeticiones X del patrón.
-* **Importe Y**: *1 - 64*\
-  Cantidad de repeticiones Y del patrón.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* **Patrón**
-  * **Patrón**: *Entrada De Imagen, Cuadrado, Disco, Paraboloide, Campana, Gaussiano, Espina, Pirámide, Ladrillo, Gradación, Ondas, Media Campana, Campana Cortada, Media Luna, Cápsula, Cono*\
-    Selecciona la forma de motivo que se va a utilizar.
-  * **Número de entrada de patrón**: *1 - 6* Número de entradas de imagen diferentes que se deben usar. Solo está disponible cuando *Image Input* está seleccionado arriba.
-  * **Distribución De Entrada De Patrón**: *Aleatorio, por número de motivo* Cómo elegir entre las diferentes entradas de imagen, si hay más de 1 seleccionado.
-  * **Específico del patrón**: *0.0 - 1.0*\
-    Permite cambiar la forma del motivo seleccionado. El efecto depende del patrón seleccionado.
-  * **Filtrado de entrada de imagen (motor > v4 únicamente)**: *Bilineal + Mipmaps, Bilineal, Más Cercano*
-  * **Rotación**: *0, 90, 180, 270* Gira todos los mosaicos globalmente por un ángulo definido en pasos de 90 grados.
-  * **Aleatorio de rotación**: *0.0 - 1.0* La aleatoriedad gira un azulejo en uno de cuatro pasos de 90 grados.
-  * **Voltear Quincunx**: *Falso/Verdadero* Gira cada dos mosaicos 90 grados.
-  * **Aleatorio de simetría**: *0.0 - 1.0* Refleja aleatoriamente ciertos patrones según el modo aleatorio de simetría seleccionado. Cuanto más alto sea este valor, más patrones se reflejarán.
-  * **Modo aleatorio de simetría**: *Horizontal + Vertical, Horizontal, Vertical* Determina el comportamiento del reflejo cuando el valor aleatorio de simetría es superior a 0.
-* **Tamaño**
-  * **&#x200B;**&#x200B;Modo Tamaño **:***Normal - Intersticio, Normal - Tamaño, Mantener proporción, Absoluto, Píxel*Establece el comportamiento general del tamaño del patrón.\
-    Normal : Intersticio permite definir el espacio entre los elementos de patrón. Se ve afectada por la cantidad X e Y.\
-    Normal : Tamaño permite definir el tamaño de los elementos de patrón, independientemente del espacio. Se ve afectada por la cantidad X e Y.\
-    Mantener proporción le permite establecer un tamaño afectado por la cantidad de X e Y, pero la proporción de X e Y entre los dos se deja intacta.\
-    Absoluto le permite establecer un tamaño absoluto que no se vea afectado por la cantidad X e Y.\
-    El píxel le permite establecer un tamaño absoluto en píxeles, sin que se vea afectado por la cantidad de X e Y. El cambio de la resolución afectará al tamaño de los elementos.
-  * **Tamaño medio**: *0.0 - 1.0* Cambia el tamaño alternando columnas y filas.
-  * **Intersticio X/Y**: *0.0 - 1.0* Solo disponible en modo Normal - Tamaño intersticial. Cambia la brecha intersticial. Afecta a la unión entre las formas, permite un control no uniforme a diferencia de **Scale**.
-  * **Tamaño (absoluto/píxel)**: *0.0 - 1.0*\
-    Solo disponible fuera del modo de tamaño normal - intersticio. Establece un tamaño no uniforme, a diferencia de **Scale**.
-  * **Escala**: *0.0 - 2.0* Establece la escala global.
-  * **Escala aleatoria**: *0.0 - 1.0* Establece la variación de escala global por mosaico.
-  * **Velocidad aleatoria de escala**: *0 - 1000* Desplazamientos de velocidad de variación de escala.
-* **Posición**
-  * **Desplazamiento**: *0.0 - 1.0* Desplaza todo el patrón de forma incremental en cada fila o columna consecutiva (el comportamiento depende del parámetro Desplazamiento vertical).
-  * **Desplazamiento aleatorio**: *0.0 - 1.0* Aleatoriza el desplazamiento de línea.
-  * **Desplazar semilla aleatoria**: *0 - 1000* Cambia la velocidad relativa del efecto de desplazamiento aleatorio.
-  * **Desplazamiento vertical**: *Falso/Verdadero* Establece si el efecto Desplazamiento se produce sobre filas o líneas; Horizontal o Vertical.
-  * **Posición aleatoria**: *0.0 - 1.0* Aleatoriza la posición de forma no uniforme, con control independiente para X e Y.
-  * **Desplazamiento global**: *0.0 - 1.0* Desplaza todo el resultado en los ejes X e Y.
-* **Rotación**
-  * **Rotación**: *0.0 - 1.0* Realiza una rotación uniforme y libre de todos los mosaicos de motivos.
-  * **Aleatorio de rotación**: *0.0 - 1.0* Aleatoriza la rotación libre de todos los mosaicos. Cuanto más alto sea este valor, más mosaicos se pueden girar.
-* **Color**
-  * **Color**: *(Valor de escala de grises)*Define el color sólido del azulejo.
-  * **Aleatorio de luminancia/color**: *0.0 - 1.0* Introduce la variación de color o luminancia por mosaico.
-  * **Luminancia Por Número**: *Falso/Verdadero* Desvanece la luminancia en todo el patrón.
-  * **Luminancia Por Escala**: *Falso/Verdadero* Hace que la variación de luminancia dependa de la escala del azulejo.
-  * **Máscara de verificador**: *Falso/Verdadero* Oculta cada dos mosaicos.
-  * **Máscara horizontal**: *Falso/Verdadero* Oculta las columnas alternas.
-  * **Máscara vertical**: *Falso/Verdadero* Oculta las filas alternas.
-  * **Máscara aleatoria**: *0.0 - 1.0* Oculta los mosaicos de forma aleatoria. Cuanto más alto sea este valor, más mosaicos desaparecerán.
-  * **Invertir máscara**: *Falso/Verdadero* Invierte el resultado de cualquier efecto de máscara de esta sección.
-  * **Modo De Fusión**: *Agregar, Máx., Agregar Sub* Establece qué modo de fusión usar.
-  * **Color de fondo**: *(Valor de escala de grises)*Define el color de fondo sólido.
-  * **Opacidad global**: *0.0 - 1.0* Establece la opacidad de los mosaicos globales.
-  * **Orden de procesamiento inverso**: *Falso/Verdadero* Muestra los mosaicos de vuelta al frente o viceversa.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/tilesampler-ex.png)
-
-![](../../../../../../assets/image2020-9-17-14-50-18.png)
-
-![](../../../../../../assets/image2020-9-17-14-52-4.png)
-
-![](../../../../../../assets/image2020-9-17-14-53-47.png)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada de patrón 1-6</b> <i>Entrada en escala de grises</i> | Imagen de motivo personalizado, utilizada cuando el parámetro &quot;Motivo&quot; se define en &quot;Entrada de imagen&quot;. |
+| <b>Fondo</b> <i>Entrada en escala de grises</i> | Fondo que se va a utilizar en lugar de color sólido. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Cantidad X</b> <i>1 - 64</i> | Cantidad de repeticiones X del patrón. |
+| <b>Importe Y</b> <i>1 - 64</i> | Cantidad de repeticiones Y del patrón. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Patrón</b> |  |
+| <b>Patrón</b> <i>Entrada de imagen, Cuadrado, Disco, Paraboloide, Campana, Gaussiano, Espina, Pirámide, Ladrillo, Gradación, Ondas, Media campana, Campana con bordes, Media luna, Cápsula, Cono</i> | Selecciona la forma de motivo que se va a utilizar. |
+| <b>Número de entrada de patrón</b> <i>1 - 6</i> | Número de entradas de imagen distintas que se van a utilizar. Solo está disponible cuando <i>Image Input</i> está seleccionado arriba. |
+| <b>Distribución de entrada de patrón</b> <i>Aleatorio, Por Número De Motivo</i> | Cómo elegir entre las diferentes entradas de imagen, si hay más de 1 seleccionado. |
+| <b>Específico del patrón</b> <i>0.0 - 1.0</i> | Permite cambiar la forma del motivo seleccionado. El efecto depende del patrón seleccionado. |
+| <b>Filtrado de entrada de imágenes (motor > v4 únicamente)</b> <i>Bilineal + Mipmaps, Bilineal, Más Cercano</i> |  |
+| <b>Rotación</b> <i>0, 90, 180, 270</i> | Gira todos los azulejos globalmente por un ángulo definido en pasos de 90 grados. |
+| <b>Aleatorio de rotación</b> <i>0.0 - 1.0</i> | Aleatoriamente gira un azulejo en uno de los cuatro pasos de 90 grados. |
+| <b>Volteado de Quincunx</b> <i>Falso/Verdadero</i> | Rota cada dos mosaicos 90 grados. |
+| <b>Aleatorio de Simetría</b> <i>0.0 - 1.0</i> | Refleja aleatoriamente determinados patrones en el modo aleatorio de Simetría seleccionado. Cuanto más alto sea este valor, más patrones se reflejarán. |
+| <b>Modo aleatorio de Simetría</b> <i>Horizontal + Vertical, Horizontal, Vertical</i> | Determina el comportamiento del reflejo cuando el valor aleatorio de Simetría es superior a 0. |
+| <b>Tamaño</b> |  |
+| <b>Modo de tamaño</b> <i>Normal - Intersticio, Normal - Tamaño, Mantener Proporción, Absoluto, Píxel</i> | Define el comportamiento general del tamaño del patrón.<br><br>Normal - Intersticio permite definir el espacio entre los elementos de patrón. Se ve afectada por la cantidad X e Y.<br><br>Normal - Tamaño permite definir el tamaño de los elementos de patrón, independientemente del espacio. Se ve afectada por la cantidad X e Y.<br><br>Mantener proporción te permite establecer un tamaño afectado por la cantidad de X e Y, pero la proporción de X e Y entre los dos se deja intacta.<br><br>Absoluto te permite establecer un tamaño absoluto que no se vea afectado por la cantidad de X e Y.<br><br>Píxel te permite establecer un tamaño absoluto en píxeles, sin que la cantidad de X e Y te afecte. El cambio de la resolución afectará al tamaño de los elementos. |
+| <b>Tamaño medio</b> <i>0.0 - 1.0</i> | Cambia el tamaño alternando columna y fila. |
+| <b>Intersticio X/Y</b> <i>0.0 - 1.0</i> | Solo disponible en el modo Normal - Tamaño intersticial. Cambia la brecha intersticial. Afecta a la unión entre las formas, permite un control no uniforme a diferencia de <b>Scale</b>. |
+| <b>Tamaño (Absoluto/Píxel)</b> <i>0.0 - 1.0</i> | Solo disponible fuera del modo de tamaño normal - intersticio. Establece un tamaño no uniforme, a diferencia de <b>Scale</b>. |
+| <b>Escala</b> <i>0.0 - 2.0</i> | Define la escala global. |
+| <b>Escala aleatoria</b> <i>0.0 - 1.0</i> | Establece la variación de escala global por mosaico. |
+| <b>Velocidad aleatoria de escala</b> <i>0 - 1000</i> | Desvíos de la variación de escala |
+| <b>Posición</b> |  |
+| <b>Desplazamiento</b> <i>0.0 - 1.0</i> | Desplaza todo el patrón de forma incremental en cada fila o columna consecutiva (el comportamiento depende del parámetro Desplazamiento vertical ). |
+| <b>Desplazamiento aleatorio</b> <i>0.0 - 1.0</i> | Aleatoriza el desplazamiento de línea. |
+| <b>Desplazar semilla aleatoria</b> <i>0 - 1000</i> | Cambia la velocidad relativa del efecto de compensación aleatoria. |
+| <b>Desplazamiento vertical</b> <i>Falso/Verdadero</i> | Establece si el efecto Desplazamiento se produce sobre filas o líneas; Horizontal o Vertical. |
+| <b>Posición aleatoria</b> <i>0.0 - 1.0</i> | Aleatoriza la posición de forma no uniforme, con control separado para X e Y. |
+| <b>Desplazamiento global</b> <i>0.0 - 1.0</i> | Desplaza el resultado completo en los ejes X e Y. |
+| <b>Rotación</b> |  |
+| <b>Rotación</b> <i>0.0 - 1.0</i> | Hace una rotación libre uniforme de todos los azulejos del patrón. |
+| <b>Aleatorio de rotación</b> <i>0.0 - 1.0</i> | Aleatoriza la rotación libre de todos los azulejos. Cuanto más alto sea este valor, más mosaicos se pueden girar. |
+| <b>Color</b> |  |
+| <b>Color</b> <i>(valor de escala de grises)</i> | Establece el color sólido del azulejo. |
+| <b>Aleatorio de luminancia/color</b> <i>0.0 - 1.0</i> | Introduce la variación de color o luminancia por azulejo. |
+| <b>Luminancia por número</b> <i>Falso/Verdadero</i> | Atenua la luminancia en todo el motivo. |
+| <b>Luminancia Por Escala</b> <i>Falso/Verdadero</i> | La variación de luminancia depende de la escala del azulejo. |
+| <b>Máscara de verificador</b> <i>Falso/Verdadero</i> | Oculta los demás azulejos. |
+| <b>Máscara horizontal</b> <i>Falso/Verdadero</i> | Oculta todas las demás columnas. |
+| <b>Máscara vertical</b> <i>Falso/Verdadero</i> | Oculta las filas alternas. |
+| <b>Máscara aleatoria</b> <i>0.0 - 1.0</i> | Oculta los azulejos al azar. Cuanto más alto sea este valor, más mosaicos desaparecerán. |
+| <b>Invertir máscara</b> <i>Falso/Verdadero</i> | Invierte el resultado de cualquier efecto de máscara de esta sección. |
+| <b>Modo De Fusión</b> <i>Agregar, Máx., Agregar Sub</i> | Define el modo de fusión que se va a utilizar. |
+| <b>Color de fondo</b> <i>(valor de escala de grises)</i> | Define el color de fondo sólido. |
+| <b>Opacidad global</b> <i>0.0 - 1.0</i> | Establece la opacidad de los mosaicos globales. |
+| <b>Orden de procesamiento inverso</b> <i>Falso/Verdadero</i> | Procesa los mosaicos de vuelta al frente o viceversa. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="tile-generator.resources/tile-generator-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-generator.resources/tile-generator-03.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-generator.resources/tile-generator-04.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-generator.resources/tile-generator-05.png" />
+        </td>
+    </tr>
 </table>

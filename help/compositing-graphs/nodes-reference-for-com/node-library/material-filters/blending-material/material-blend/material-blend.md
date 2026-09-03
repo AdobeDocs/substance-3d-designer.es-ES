@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
-description: Utilice el nodo Fusión de materiales para fusionar materiales enteros mediante máscaras para crear efectos de materiales compuestos.
+description: Utilice el nodo Fusión de material para fusionar materiales enteros mediante máscaras para crear efectos de material compuesto.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusión de materiales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 0%
+source-wordcount: '458'
+ht-degree: 6%
 
 ---
 
@@ -22,96 +22,77 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-blend.png){width="128px"}
+![](material-blend.resources/material-blend-01.png){width="128px"}
 
-## Fusión de materiales
-
-**En:** *Filtros/Fusión De Materiales*
-
-**Complejo**
+<b>En:</b> Filtros de material > Fusión
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Mezcla de materiales es el equivalente multicanal de material completo de [el nodo de mezcla atómica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Se mezcla entre dos materiales completos (todos los canales posibles) basados en una máscara de escala de grises, u opcionalmente basados en un solo color de una Máscara de ID de color.
+La Fusión de material es el equivalente multicanal de material completo de [el nodo de Fusión atómica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Se mezcla entre dos materiales completos (todos los canales posibles) basados en una máscara de escala de grises, u opcionalmente basados en un solo color de una Máscara de ID de color.
 
-Este nodo es útil si desea fusionar dos materiales y tener un mapa en escala de grises, pero no un ID de color completo. Si tienes una torta con ID de color y deseas mezclar más de dos materiales, te recomendamos que uses [Mezcla de varios materiales](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
-
-## Parámetros
-
-### Entradas
-
-* **IDcolor**: *Entrada de color*\
-  Mapa de ID de color al horno opcional.
-* **Máscara de escala de grises**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Canales**
-  * Activa y desactiva los canales de material en este grupo cuando utilice mapas de Specular/Brillo en lugar de Metálico/Rugosidad, por ejemplo.
-* **Difusión**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Color base**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Normal**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-* **Specular**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Emissive**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Brillo**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Rugosidad**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Metálico**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Specular level**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Oclusión de ambiente**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Height**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Opacidad**
-  * **Opacidad**: *0.0 - 1.0*\
-    Fusión de opacidad entre primer plano y fondo
-  * **Modo De Fusión**: *Normal, Agregar, Restar, Multiplicar, Agregar/Separar, Máx., Mín., Cambiar*
-* **Máscara de ID de color**: *Falso/Verdadero* Usar Máscara de ID de color en lugar de máscara de escala de grises. Tenga en cuenta que esto es solo para un color!
-* **Color**: *(Valor de color)*Qué color seleccionar y convertir a blanco.
-* **Rugosidad**: *0.01 - 1.0* Hasta qué punto el color que has elegido se fusiona con el color de tus vecinos.
-* **Relleno**: *0.0 - 1.0* Contraste de transición del color elegido.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
+Este nodo es útil si desea fusionar dos materiales y tener un mapa en escala de grises, pero no hace un bake el ID de color completo. Si tienes un ID de color para hacer un bake y deseas fusionar más de dos materiales, te recomendamos que uses la [Fusión de varios materiales](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>IDcolor</b> <i>Entrada de color</i> | Mapa de ID de color Hecho un bake opcional. |
+| <b>Máscara de escala de grises</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo cuando utilice mapas de Specular/Brillo en lugar de Metálico/Rugosidad, por ejemplo. |
+| <b>Difusión</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Color base</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Normal</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Specular</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Emissive</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Brillo</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Rugosidad</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Metálico</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Specular level</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Oclusión ambiental</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Height</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Opacidad</b> |  |
+| <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
+| <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
+| <b>Máscara de ID de color</b> <i>Falso/Verdadero</i> | Utilice Máscara de ID de color en lugar de máscara de escala de grises. Tenga en cuenta que esto es solo para un color! |
+| <b>Color</b> <i>(Valor de color)</i> | Qué color elegir y convertir en blanco. |
+| <b>Rugosidad</b> <i>0.01 - 1.0</i> | La medida en que el color que has elegido se fusiona con los colores vecinos. |
+| <b>Relleno</b> <i>0.0 - 1.0</i> | Contraste de transición del color elegido. |

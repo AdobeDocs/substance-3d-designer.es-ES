@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ajustar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 14%
 
 ---
 
@@ -22,37 +22,41 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clamp-grayscale.png){width="128px"}
+![](clamp.resources/clamp-01.png){width="128px"}
 
-![](../../../../../../assets/clamp-1.png){width="128px"}
+![](clamp.resources/clamp-02.png){width="128px"}
 
-## Abrazadera (escala de grises)
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Fija los valores de entrada a los límites definidos.
 
-## Parámetros
-
-* **Min**: *0.0 -* 1.0\
-  Límite inferior de la abrazadera.
-* **Máx.**: *0.0 - 1.0* Límite de abrazadera superior.
-* **Aplicar al Alpha**: *Falso/Verdadero* (solo versión de color)\
-  Elija si la sujeción se aplica también al alfa.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/clamp.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Min</b> <i>0.0 - 1.0</i> | Límite inferior de la abrazadera. |
+| <b>Máx.</b> <i>0.0 - 1.0</i> | Límite de la abrazadera superior. |
+| <b>Aplicar al Alpha</b> <i>False/True</i> (solo versión de color) | Elija si la sujeción se aplica también al alfa. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="clamp.resources/clamp-03.gif" />
+        </td>
+    </tr>
 </table>

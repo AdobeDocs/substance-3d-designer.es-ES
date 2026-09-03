@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Óxido goteo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dripping-rust.png){width="128px"}
+![](dripping-rust.resources/dripping-rust-01.png){width="128px"}
 
-## Óxido goteo
-
-**En:** *Generadores Basados En Malla**/Generadores De Máscara*
-
-**Intermedio**
+<b>En:</b> Generadores basados en malla > Generadores de máscaras
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,32 +37,40 @@ Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usua
 
 Esta máscara representa los copos de óxido y las motas, con las fugas que corren hacia abajo.
 
-## Parámetros
-
-### Entradas
-
-* **Curvatura**: *Entrada en escala de grises*\
-  Mapa horneado o generado para ayudar con la colocación del óxido.
-* **Oclusión de ambiente**: *Entrada en escala de grises*\
-  Mapa horneado o generado para ayudar con la colocación del óxido.
-* **Posición**: *Entrada en escala de grises*\
-  Mapa horneado o generado para direcciones de goteo.
-* **Máscara (opcional)**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo.
-
-### Parámetros
-
-* **Difusión de Óxido**: *0.0 - 1.0* Control principal de la cantidad de óxido.
-* **Contraste de Óxido**: *0.0 - 1.0* Define la cantidad de contraste en las motas de óxido generadas (no afecta a los goteos).
-* **Smoothness de propagación**: *0.0 - 1.0* Efecto difuminado/manchado que se aplica a las motas de óxido.
-* **Intensidad de goteo**: *0.0 - 1.0* Establece la fuerza y la longitud de los goteos de los flecos.
-* **Smoothness de goteos**: *0.0 - 1.0* Cantidad de desenfoque y suavizado que se aplica a los goteos.
-* **Cantidad de muestras de goteo**: *0 - 32* Define el nivel de calidad (pasos) para el efecto de goteo. Tiene un ligero efecto en la velocidad.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/dripping-rust-ex3.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa hecho un bake o generado para ayudar con la colocación del óxido. |
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa hecho un bake o generado para ayudar con la colocación del óxido. |
+| <b>Posición</b> <i>Entrada en escala de grises</i> | Mapa hecho un bake o generado para direcciones de goteo. |
+| <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Difusión de Óxido</b> <i>0.0 - 1.0</i> | Control principal de la cantidad de óxido. |
+| <b>Contraste de Óxido</b> <i>0.0 - 1.0</i> | Define la cantidad de óxido en las motas generadas (no afecta a los goteos). |
+| <b>Smoothness de propagación</b> <i>0.0 - 1.0</i> | Cantidad de efecto de desenfoque/mancha que se aplica a las motas de óxido. |
+| <b>Intensidad de goteo</b> <i>0.0 - 1.0</i> | Establece la fuerza y la longitud de los goteos de los manchas. |
+| <b>Smoothness de goteos</b> <i>0.0 - 1.0</i> | Cantidad de desenfoque y suavizado que se aplica a los goteos. |
+| <b>Cantidad de muestras de goteo</b> <i>0 - 32</i> | Define el nivel de calidad (pasos) para el efecto de goteos. Tiene un ligero efecto en la velocidad. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dripping-rust.resources/dripping-rust-02.gif" />
+        </td>
+    </tr>
 </table>

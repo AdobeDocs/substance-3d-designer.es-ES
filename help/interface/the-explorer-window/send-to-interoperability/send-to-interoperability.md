@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Enviar a...  Interoperabilidad
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 # Enviar a...  Interoperabilidad
 
-![Enviar desde Designer a aplicaciones de Substance 3D](../../../assets/explorer-interop.png "Enviar desde Designer a aplicaciones de Substance 3D"){width="512px"}
+![Enviar desde Designer a aplicaciones de Substance 3D](send-to-interoperability.resources/send-to-interoperability-01.png "Enviar desde Designer a aplicaciones de Substance 3D"){width="512px"}
 
 Adobe Substance 3D Designer tiene interoperabilidad con [Substance 3D Sampler](https://www.adobe.com/es/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) y [Substance 3D Stager](https://www.adobe.com/es/products/substance3d-stager.html). Te permite *enviar* y *reenviar* el trabajo rápidamente, lo que facilita la iteración en el ecosistema de Substance 3D.
 
 El flujo de trabajo suele ser el siguiente:
 
 1. Establezca el atributo <b>Type</b> en las propiedades de un gráfico de [Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md)
-1. En el panel [Explorer](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), seleccione el paquete que desea enviar
+1. En el panel [Explorer](../the-explorer-window.md), seleccione el paquete que desea enviar
 1. En el menú desplegable <b>Publish/Send</b> del Explorador, seleccione la aplicación de destino
 1. Realizar cambios en los gráficos
 1. Repita el paso 3 para volver a enviar el paquete y actualizar el activo enviado existente con sus cambios
@@ -49,7 +49,7 @@ En la sección <b>Atributos </b>de las propiedades de un gráfico de [Substance]
 </td>
 <td style="border: 0;" valign="top">
 
-![Atributo de tipo de gráfico de Substance](../../../assets/type-attribute.jpg "Atributo de tipo de gráfico de Substance")
+![Atributo de tipo de gráfico de Substance](send-to-interoperability.resources/send-to-interoperability-02.jpg "Atributo de tipo de gráfico de Substance")
 
 </td>
 </tr>
@@ -75,13 +75,13 @@ El proceso de envío implicó [publicar](../../../compositing-graphs/publishing-
 
 El envío de contenido se puede realizar de las siguientes maneras:
 
-* Haga clic con el botón derecho en un paquete y abra <b>Enviar a...Submenú </b> en el menú contextual y, a continuación, seleccione <b>Enviar a...Opción </b> para la aplicación de destino;
-* Haz clic en el botón ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b> situado en la parte superior del panel [Explorador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) y, a continuación, elige <b>Enviar a...Opción </b> para la aplicación de destino.
+* Haga clic con el botón derecho en un paquete y abra <b>Enviar a...Submenú </b> en el menú contextual, luego elige <b>Enviar a...Opción </b> para la aplicación de destino;
+* Haz clic en el botón ![](send-to-interoperability.resources/send-to-interoperability-03.jpg) <b>Publish/Send</b> situado en la parte superior del panel Explorador y, a continuación, elige <b>Enviar a...Opción </b> para la aplicación de destino.
 
 </td>
 <td style="border: 0;" valign="top">
 
-Menú ![Publish/Enviar a en el Explorador](../../../assets/explorer-sendto-displayed.jpg "Menú Publish/Enviar a en el Explorador")
+Menú ![Publish/Enviar a en el Explorador](send-to-interoperability.resources/send-to-interoperability-04.jpg "Menú Publish/Enviar a en el Explorador")
 
 </td>
 </tr>

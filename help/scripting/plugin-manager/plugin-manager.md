@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestor de plugins
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -20,9 +20,9 @@ ht-degree: 3%
 
 # Gestor de plugins
 
-Se puede acceder al cuadro de diálogo <b>Administrador de complementos</b> desde el menú <b>Herramientas</b> en la barra de menú principal. Permite ver qué complementos están *activos*, así como *cargar y descargar* complementos.
+Se puede acceder al cuadro de diálogo <b>Administrador de complementos</b> desde el menú <b>Herramientas</b> en la barra de menú principal. Permite ver qué complementos están *activos*, así como *cargar y descargar* complementos.
 
-![Administrador de complementos](../../assets/pluginmgr.png "Administrador de complementos")
+![Administrador de complementos](plugin-manager.resources/plugin-manager-01.png "Administrador de complementos")
 
 También es posible cargar *manualmente* complementos, usando el botón <b>Examinar</b> y eligiendo un archivo de Python.
 

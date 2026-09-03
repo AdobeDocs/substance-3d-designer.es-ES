@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Renderizado de volumen de textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
 
-**En:** *Filtro/Efecto*
-
-**Simple**
+<b>En:</b> Filtro > Efecto
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -48,108 +46,63 @@ El volumen se representa dentro de los límites de un *cubo de unidades*. La ilu
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Campo de distancia con signo 3D</b> <i>Escala de grises</i> | Imagen de 4096x4096 que representa los 256 <i>sectores</i> del <i>campo de distancia firmado</i> de una forma, organizados en una cuadrícula de 16x16.<br>Puede usar el nodo [SDF de Textura 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) para calcular el campo de distancia firmado para una textura 3D de 256 sectores. |
+| <b>Densidad</b> <i>Escala de grises</i> | Imagen de 4096x4096 que representa los 256 <i>sectores</i> de la <i>densidad</i> de una forma, organizados en una cuadrícula de 16x16. La densidad se asigna usando valores de escala de grises de 0 (totalmente transparente) a 1 (totalmente opaco).<br>Puede usar [Máscara de volumen 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) o nodos de ruido 3D ([Ruido de Perlin 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), [Voronoi 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md), [Fractal de ruido de borde 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md), etc.), combinados con un nodo [Posición de Textura 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md) como entrada de posición, para generar una máscara de volumen como una textura 3D de 256 sectores. |
+
+<a name="parameters"></a>
+
 ## Parámetros
 
-### Entradas
+|  |  |
+|:---|:---|
+| <b>Resolución de salida</b> <i>Entero2</i> | La resolución de la imagen de salida en <b>X</b> e <b>Y</b>, expresada como una <i>potencia de dos</i>. |
+| <b>Posición de la cámara</b> <i>Float2</i> | Posición de la cámara alrededor de la forma.<br>Cuando se selecciona el nodo, puedes usar el gizmo de posición en el <b>vista 2D</b> para <i>orbitar</i> la cámara. |
+| <b>Posición de luz</b> <i>Float2</i> | Posición de la <i>luz direccional</i> alrededor de la forma.<br>Cuando el nodo esté seleccionado, puedes usar el gizmo de posición en el <b>vista 2D</b> para <i>orbitar</i> la fuente de luz. |
+| <b>Distancia de cámara</b> <i>Flotador</i> | La distancia desde la cámara a la forma. |
+| <b>FOV de cámara</b> <i>Flotador</i> | Campo de visión de la cámara en <i>grados</i>. |
+| <b>Absorción</b> <i>Flotador</i> | Ajusta la cantidad de luz que se absorbe al pasar <i>a través</i> del volumen. |
+| <b>Calado</b> <i>Flotador</i> | Multiplica el valor proporcionado por la entrada <b>Density</b> por el valor del campo de distancia <i>inner</i>.<br>Esto ajusta efectivamente la anchura del <i>degradado</i> desde el límite exterior del volumen hacia adentro. |
+| <b>Modo de color claro</b> <i>Entero</i> | Establece el método para adquirir el color de la luz direccional:<br>- <i>Temperatura (Kelvin)</i>: El color es el resultado de la temperatura de la luz, donde un valor <i>inferior</i> da como resultado un color <i>más cálido</i><br>- <i>color RGB</i>: Definir el color mediante valores de RGB |
+| <b>Temperatura de la luz (Kelvin)</b> <i>Flotador</i> | La temperatura de la luz direccional, que afecta a su <i>color</i>. Un valor <i>inferior</i> produce un color <i>más cálido</i>.<br>Valores útiles:<br>1800 K - Luz de vela<br>2800 K - Bombilla incandescente<br>5500 K - Luz del día<br>6200 K - Blanco natural<br>7000 K - Cielo nublado<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Modo de color claro</b> está establecido en <i>Temperatura (Kelvin)</i>. |
+| <b>Color claro</b> <i>Float3</i> | El color de la luz direccional.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Modo de color claro</b> está establecido en <i>Color RGB</i>. |
+| <b>Intensidad de luz</b> <i>Flotador</i> | Intensidad de la luz direccional. |
+| <b>Color de ambiente</b> <i>Float3</i> | El color del tragaluz ambiente. |
+| <b>Intensidad del ambiente</b> <i>Flotador</i> | La intensidad del tragaluz ambiente. |
+| <b>Albedo</b> <i>Float3</i> | Color de albedo del volumen. |
+| <b>Modo en segundo plano</b> <i>Entero</i> | Método de sombreado del fondo de la escena representada, basado en el <b>color de fondo</b>:<br>- <i>sombreado</i>: El color se ve afectado por el <i>color</i> y la <i>intensidad</i><br>- <i>color constante</i> de la luz direccional: El color se aplica de manera uniforme <i>independientemente</i> de la luz direccional |
+| <b>Color de fondo</b> <i>Float4</i> | El color utilizado para rellenar el fondo de la escena procesada. |
+| <b>Tramado</b> <i>Flotador</i> | Ajusta la intensidad del <i>tramado de ruido azul</i> que se usa para suavizar el sombreado. |
+| <b>Habilitar plano de tierra</b> <i>Booleano</i> | Cuando <i>True</i>, representa un plano de tierra <i>infinito</i>. El <i>cubo de unidades</i> que encierra la forma descansa en este plano. |
+| <b>Plano infinito</b> <i>Booleano</i> | Establece el plano de tierra en <i>extender infinitamente</i> hasta el horizonte.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Habilitar plano de tierra</b> está establecido en <i>True</i>. |
+| <b>Tamaño de plano de tierra</b> <i>Float2</i> | Ajusta el tamaño del plano de tierra.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Habilitar plano de tierra</b> está establecido en <i>True</i> y el parámetro <b>Plano infinito</b> está establecido en <i>False</i>. |
 
-* **Campo de distancia con signo 3D** *Escala de grises*\
-  Imagen de 4096x4096 que representa los 256 *sectores* del *campo de distancia firmado* de una forma, organizados en una cuadrícula de 16x16.\
-  Puede utilizar el nodo [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) para calcular el campo de distancia firmado para una textura 3D de 256 sectores.
-* **Densidad** *Escala de grises*\
-  Imagen de 4096x4096 que representa los 256 *sectores* de la *densidad* de una forma, organizados en una cuadrícula de 16x16. La densidad se asigna utilizando valores de escala de grises de 0 (completamente transparente) a 1 (completamente opaco).\
-  Puede usar [Máscara de volumen 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) o nodos de ruido 3D ([Ruido de Perlin 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), [Voronoi 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md), [Fractal de ruido de reborde 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md), etc.), combinados con un nodo [Posición de textura 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md) como entrada de posición, para generar una máscara de volumen como una textura 3D de 256 sectores.
+## Ejemplos
 
-### Parámetros
-
-* **Resolución de salida** *Integer2*\
-  La resolución de la imagen de salida en **X** e **Y**, expresada como una *potencia de dos*.
-* **Posición de la cámara** *Float2*\
-  Posición de la cámara alrededor de la forma.\
-  Cuando el nodo esté seleccionado, puedes usar el gizmo de posición en la **Vista en 2D** para *orbitar* la cámara.
-* **Posición de la luz** *Float2*\
-  Posición de la *luz direccional* alrededor de la forma.\
-  Cuando el nodo esté seleccionado, puedes usar el gizmo de posición en la **Vista en 2D** para *orbitar* la fuente de luz.
-* **Distancia de cámara** *Flotante*\
-  La distancia desde la cámara a la forma.
-* **Fov de cámara** *Float*\
-  Campo de visión de la cámara en *grados*.
-* **Absorción** *Flotante*\
-  Ajusta la cantidad de luz que se absorbe al pasar *a través* del volumen.
-* **Pluma** *Flotante*\
-  Multiplica el valor proporcionado por la entrada **Density** por el valor del campo de distancia *inner*.\
-  Esto ajusta efectivamente la anchura del *degradado* desde el límite exterior del volumen hacia adentro.
-* **Modo Color claro** *Entero*\
-  Define el método para adquirir el color de la luz direccional:
-  * *Temperatura (Kelvin)*: El color es el resultado de la temperatura de la luz, donde un valor *inferior* da como resultado un color *más cálido*
-  * *Color de RGB*: Definir el color mediante valores de RGB
-* **Temperatura de la luz (Kelvin)** *Flotador*\
-  La temperatura de la luz direccional, que afecta a su *color*. Un valor *inferior* produce un color *más cálido*.\
-  Valores útiles:\
-  1800 K - Luz de vela\
-  2800 K - Bombilla incandescente\
-  5500 K - Luz de día\
-  6200 K - Blanco natural\
-  7000 K - Cielo nublado\
-  *Nota*: Este parámetro solo está disponible cuando el parámetro **Modo de color claro** está establecido en *Temperatura (Kelvin)*.
-* **Color claro** *Float3*\
-  El color de la luz direccional.\
-  *Nota*: Este parámetro solo está disponible cuando el parámetro **Modo de color claro** está establecido en *Color RGB*.
-* **Intensidad de luz** *Flotante*\
-  Intensidad de la luz direccional.
-* **Color ambiente** *Float3*\
-  El color del tragaluz ambiente.
-* **Intensidad ambiente** *Flotante*\
-  La intensidad del tragaluz ambiente.
-* **Albedo** *Float3*\
-  Color de albedo del volumen.
-* **Modo en segundo plano** *Entero*\
-  Método de sombreado del fondo de la escena procesada, basado en el **color de fondo**:
-  * *Sombreado*: El color se ve afectado por el *color* y la *intensidad*- *color constante* de la luz direccional: El color se aplica uniformemente *independientemente* de la luz direccional
-* **Color de fondo** *Float4*\
-  El color utilizado para rellenar el fondo de la escena procesada.
-* **Tramado** *Flotante*\
-  Ajusta la intensidad del *tramado de ruido azul* que se usa para suavizar el sombreado.
-* **Habilitar plano de tierra** *Boolean*\
-  Cuando *True*, representa un plano de tierra *infinito*. El *cubo de unidades* que encierra la forma descansa en este plano.
-* **Plano infinito** *Booleano*\
-  Establece el plano de tierra para *extender infinitamente* hasta el horizonte.\
-  *Nota*: Este parámetro solo está disponible cuando el parámetro **Habilitar plano de tierra** está establecido en *True*.
-* **Tamaño de plano de tierra** *Float2* Ajusta el tamaño del plano de tierra.\
-  *Nota*: Este parámetro solo está disponible cuando el parámetro **Habilitar plano de tierra** está establecido en *True* y el parámetro **Plano infinito** está establecido en *False*.
-
-## Imágenes de ejemplo
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-node.png){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
+        </td>
+    </tr>
 </table>

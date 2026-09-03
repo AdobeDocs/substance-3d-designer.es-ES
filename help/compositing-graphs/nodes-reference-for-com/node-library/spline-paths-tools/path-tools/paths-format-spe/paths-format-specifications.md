@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Especificaciones de formato de trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Cualquier dato de un píxel en la parte &#39;superior&#39; está semánticamente
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Rutas Datos codificados por polígono](../../../../../../assets/PathsPolygon_Data.jpg "Rutas Datos codificados por polígono")
+![Rutas Datos codificados por polígono](paths-format-specifications.resources/paths-format-specifications-01.jpg "Rutas Datos codificados por polígono")
 
 </td>
 </tr>
@@ -261,19 +261,19 @@ Probablemente no desee usar esto directamente, sino más bien usar una de las fu
 +++
 
 +++sample_next, sample_prev
-Dado el valor muestreado de la parte superior `*sampled*` y su posición `*sampled\_position*`, devuelve el valor muestreado de la parte superior del vértice siguiente (respectivamente anterior) y establece una variable Float2 `*next\_sampled\_pos*` en la posición (en la parte superior) de este vecino (es decir, &lt;valor devuelto> = SampleColor(next\_sampled\_pos, image0). `*input0PixSize*` debe ser igual al tamaño de píxel del trazado (top[(0,0)].YZ).
+Dado el valor muestreado de la parte superior `*sampled*` y su posición `*sampled\_position*`, devuelve el valor muestreado de la parte superior del vértice siguiente (respectivamente anterior) y establece una variable Flotante2 `*next\_sampled\_pos*` en la posición (en la parte superior) de este vecino (es decir, &lt;valor devuelto> = SampleColor(next\_sampled\_pos, image0). `*input0PixSize*` debe ser igual al tamaño de píxel del trazado (top[(0,0)].YZ).
 
 Si el píxel actual (`*sampled*`) es un vértice <b>Start</b>, *sample\_prev* devolverá el siguiente elemento relacionado de este vértice; del mismo modo, si es un vértice <b>End</b>, *sample\_next* devolverá el siguiente hermano de este vértice (es decir, tal vez no sea lo que desee). Consulte `*sample\_next\_advanced*` y `*sample\_prev\_advanced*` a continuación para resolver este problema.
 
 Tenga en cuenta que para simplificar, se supone que <b>la información de rutas se almacena en input0!</b> Además, a diferencia de lo que indica el documento de la función, no es necesario declarar previamente `*next\_sampled\_pos*`. `*[out]next\_sampled\_pos*` es un parámetro ficticio para recordarle que este segundo &quot;valor devuelto&quot; existe.
 
-Puede comprobar `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), en el parámetro Iterations del tercer nodo iterate, para obtener un ejemplo de cómo usarlo.
+Puede comprobar `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), en el parámetro Iteraciones del tercer nodo iterado, para obtener un ejemplo de cómo usarlo.
 
-![Caso de uso mínimo de sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Caso de uso mínimo de sample_next")
+![Caso de uso mínimo de sample_next](paths-format-specifications.resources/paths-format-specifications-02.png "Caso de uso mínimo de sample_next")
 
 
 
-![Caso de uso de sample_next en rutas de previsualización (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Caso de uso de sample_next en rutas de previsualización (path_trace)")
+![Caso de uso de sample_next en rutas de previsualización (path_trace)](paths-format-specifications.resources/paths-format-specifications-03.png "Caso de uso de sample_next en rutas de previsualización (path_trace)")
 
 
 
@@ -286,7 +286,7 @@ Esto está destinado a trabajar en caminos cerrados. En el caso de los trazados 
 
 ### Funciones de &#39;escritura&#39;
 
-En la carpeta `Write`, encontrará pequeños ayudantes que crean un Float4 listo para ser escrito <b> por un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
+En la carpeta `Write`, encontrará pequeños ayudantes que crean un Flotante4 listo para ser escrito <b> por un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
 
 De hecho, [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) multiplica RGB por Alpha antes de dibujar, por lo que los valores reales no se premultiplican para compensar eso. Si desea utilizar estas funciones, por ejemplo, en un [procesador de píxeles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), le recomendamos que vuelva a aplicar la premultiplicación o que escriba una versión personalizada (más optimizada para su caso de uso y más fácil de usar).
 

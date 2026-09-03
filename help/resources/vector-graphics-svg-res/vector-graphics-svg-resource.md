@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Recurso de gráficos vectoriales (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ Los recursos de SVG de un paquete tienen una serie de atributos que puede person
 | Etiquetas | Se usa para [ordenar y seleccionar el recurso](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) en la [biblioteca](../../interface/the-library/the-library.md). |
 | Datos del usuario | Datos adicionales opcionales que no se utilizan en gráficos vectoriales. |
 | Mostrar en biblioteca | Determina si el recurso SVG debe estar oculto en [la vista Biblioteca.](../../interface/the-library/the-library.md) |
-| Calidad de gráficos vectoriales | Afecta a la calidad de procesamiento. El rango no es lineal y la mejor calidad se alcanza en 0,5. |
+| calidad de gráficos vectoriales | Afecta a la calidad de procesamiento. El rango no es lineal y la mejor calidad se alcanza en 0,5. |
 
 ## Creación de SVG
 
@@ -60,7 +60,7 @@ En general, lo siguiente es cierto:
 * El trazo es compatible, pero solo produce un trazo de 1 píxel de ancho y el estilo del trazo se omite;
 * Los estilos de línea discontinua se romperán definitivamente;
 * El texto debe convertirse en trazados o contornos para que se pueda representar;
-* No se admiten [rutas compuestas](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths);
+* No se admiten [rutas compuestas](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html);
 * Las funciones avanzadas como los degradados no son compatibles;
 * No se admiten elementos de estilo para propiedades CSS.
 
@@ -87,7 +87,7 @@ La imagen de la derecha muestra las opciones de exportación recomendadas, haga 
 > Las mesas de trabajo pueden afectar al resultado del archivo de SVG generado. Algunas plantillas de archivo de Illustrator presentan varias mesas de trabajo.\
 > Intente tener solo una mesa de trabajo recortada correctamente y seleccionarla en la ventana Mesa de trabajo al guardarla como SVG.
 
-![Opciones de exportación de SVG de Illustrator](../../assets/svg-export-options-ai.jpg "Opciones de exportación de SVG de Illustrator"){width="512px"}
+![Opciones de exportación de SVG de Illustrator](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Opciones de exportación de SVG de Illustrator"){width="512px"}
 
 ### Inkscape
 

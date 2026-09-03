@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desenfoque anisotrópico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '133'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-01.png){width="128px"}
 
-![](../../../../../../assets/anisotropic-blur.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-02.png){width="128px"}
 
-## Desenfoque anisotrópico (escala de grises)
-
-**En:** *Filtros/Desenfoques*
-
-**Simple**
+<b>En:</b> Filtros > Desenfoques
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,17 +39,27 @@ Realiza un [desenfoque direccional](../../../../../../compositing-graphs/nodes-r
 
 Importante: asegúrese de utilizar la versión adecuada para su entrada! Utiliza &quot;Desenfoque anisotrópico&quot; para las entradas de color o &quot;Desenfoque anisotrópico en escala de grises&quot; para las entradas de escala de grises.
 
-## Parámetros
-
-* **Intensidad**: *0,0 - 16,0* Intensidad (radio) del desenfoque. Cuanto más alto sea este valor, mayor será el desenfoque.
-* **Anisotropía**: *0.0 - 1.0* Direccionalidad del desenfoque. Establecer esto en 0.0 es lo mismo que realizar un desenfoque normal.
-* **Ángulo**: *0.0 - 1.0* Establece el ángulo para la dirección del desenfoque.
-* **Calidad**: *0 - 1* Cambia entre un[desenfoque de cuadro](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) y un desenfoque de HQ internamente. Intercambia velocidad por calidad.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/aniso-blur-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Intensidad</b> <i>0.0 - 16.0</i> | Intensidad (radio) del desenfoque. Cuanto más alto sea este valor, mayor será el desenfoque. |
+| <b>Anisotropía</b> <i>0.0 - 1.0</i> | Direccionalidad del desenfoque. Establecer esto en 0.0 es lo mismo que realizar un desenfoque normal. |
+| <b>Ángulo</b> <i>0.0 - 1.0</i> | Define el ángulo de la dirección del desenfoque. |
+| <b>Calidad</b> <i>0 - 1</i> | Cambia entre un [desenfoque de cuadro](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) y un desenfoque de HQ internamente. Intercambia velocidad por calidad. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="anisotropic-blur.resources/anisotropic-blur-03.gif" />
+        </td>
+    </tr>
 </table>

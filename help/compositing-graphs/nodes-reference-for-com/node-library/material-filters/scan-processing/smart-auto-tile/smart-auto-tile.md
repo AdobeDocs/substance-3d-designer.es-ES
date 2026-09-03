@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mosaico automático inteligente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '393'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/smart-auto-tile.png){width="128px"}
+![](smart-auto-tile.resources/smart-auto-tile-01.png){width="128px"}
 
-## Mosaico automático inteligente
-
-**En:** *Procesamiento De Escaneo/Filtros De Materiales*
-
-**Complejo**
+<b>En:</b> Filtros de material > Procesamiento de escaneo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,44 +37,40 @@ Este nodo convierte un conjunto no segmentado de mapas de altura, normales y de 
 
 Para utilizar este nodo, comience por definir el área Recortada y, a continuación, utilice la configuración de Borde para determinar cómo se fusionan los bordes en mosaico en el centro. Los parámetros del umbral son de importancia clave para esto. Tenga en cuenta que las áreas grandes y uniformes no funcionan muy bien con este efecto; cuanto más detalles y formas haya, más se necesita para trabajar.
 
-## Parámetros
-
-### Entradas
-
-* **Máscara**: *Entrada en escala de grises*\
-  Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Usar máscara&quot;.
-
-### Parámetros
-
-* **Recortar**
-  * **Tamaño de entrada**: *0 - 8192* Resolución y proporciones de las imágenes de entrada. Muy importante para imágenes no cuadradas.
-  * **Transformar**: *(Matriz de transformación)*\
-    Rota y escala el resultado. El resultado se puede modificar interactuando directamente con el lienzo.
-  * **Desplazamiento**: *0.0 - 1.0*\
-    Mueve o traduce el resultado. El resultado se puede modificar interactuando directamente con el lienzo.
-* **Edge**
-  * **Detectar bordes**: *Falso/Verdadero* Activa o desactiva la fusión de bordes especiales detectados.
-  * **Usar umbral por canal**: *Falso/Verdadero* Cambia entre un valor de umbral global o uno para cada canal.
-  * **Umbral**: *0.0 - 1.0*
-  * **Color base del umbral**: *0.0 - 1.0*
-  * **Umbral normal**: *0.0 - 1.0*
-  * **Height de umbral**: *0.0 - 1.0*
-  * **Desplazamiento de corte**: *0.0 - 0.5* Control principal para mover el corte; los ejes X e Y están separados.
-  * **Desenfocar**: *0.0 - 2.0* Difumina la transición de fusión.
-  * **Smoothness**: *0.0 - 2.0* Controla la dentadura de los resultados del análisis de bordes.
-  * **Resolución de cuadrícula**: *1 - 11* Resolución de calidad del análisis de bordes.
-  * **Usar color base**: *Falso/Verdadero* Alterna el procesamiento del color base (entrada y salida).
-  * **Usar normal**: *False/True* Alterna el procesamiento normal (entrada y salida).
-  * **Usar Height**: *False/True* Alterna el procesamiento normal (entrada y salida).
-  * **Usar máscara**: *Falso/Verdadero*\
-    Activa o desactiva el uso del mapa de máscara para las formas de máscara de sello personalizadas.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Usar máscara&quot;. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Recortar</b> |  |
+| <b>Tamaño de entrada</b> <i>0 - 8192</i> | Introduce la resolución y las proporciones de las imágenes. Muy importante para imágenes no cuadradas. |
+| <b>Transformar</b> <i>(Matriz de transformación)</i> | Rota y escala el resultado. El resultado se puede modificar interactuando directamente con el lienzo. |
+| <b>Desplazamiento</b> <i>0.0 - 1.0</i> | Mueve o traduce el resultado. El resultado se puede modificar interactuando directamente con el lienzo. |
+| <b>Edge</b> |  |
+| <b>Detectar bordes</b> <i>Falso/Verdadero</i> | Activa o desactiva la fusión de arista especial detectada. |
+| <b>Usar umbral por canal</b> <i>Falso/Verdadero</i> | Cambia entre un valor de umbral global o uno para cada canal. |
+| <b>Umbral</b> <i>0.0 - 1.0</i> |  |
+| <b>Color base de umbral</b> <i>0.0 - 1.0</i> |  |
+| <b>Umbral normal</b> <i>0.0 - 1.0</i> |  |
+| <b>Height de umbral</b> <i>0.0 - 1.0</i> |  |
+| <b>Desplazamiento de corte</b> <i>0.0 - 0.5</i> | Control principal para mover el corte, los ejes X e Y están separados. |
+| <b>Desenfocar</b> <i>0.0 - 2.0</i> | Desenfoca la transición de fusión. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Controla la irregularidad de los resultados del análisis de bordes. |
+| <b>Resolución de cuadrícula</b> <i>1 - 11</i> | Resolución de calidad del análisis de bordes. |
+| <b>Usar Color base</b> <i>Falso/Verdadero</i> | Alterna el procesamiento del Color base (entrada y salida). |
+| <b>Usar normal</b> <i>Falso/Verdadero</i> | Alterna el procesamiento normal (entrada y salida). |
+| <b>Usar Height</b> <i>Falso/Verdadero</i> | Alterna el procesamiento normal (entrada y salida). |
+| <b>Usar máscara</b> <i>Falso/Verdadero</i> | Activa o desactiva el uso del mapa de máscara para las formas de máscara de sello personalizadas. |

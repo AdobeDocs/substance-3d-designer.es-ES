@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Transformación vectorial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
+![](vector-morph.resources/vector-morph-01.png)![](vector-morph.resources/vector-morph-02.png)
 
-## Transformación vectorial (escala de grises)
-
-**En:** *Filtros/Efectos*
-
-**Intermedio**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -43,19 +39,23 @@ Este nodo en sí no es el más difícil de usar, pero la creación de un mapa de
 
 La transformación vectorial es muy similar a [Deformación vectorial](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md): la principal diferencia es que este nodo de transformación no &quot;repite&quot; ni &quot;segmenta&quot; el resultado cuando se coloca fuera de los límites del lienzo. En su lugar, se sujeta y repite los bordes.
 
-## Parámetros
-
-### Entradas
-
-* **Entrada**: *Entrada en color/escala de grises* Entrada de origen que debe ser el destino de la deformación.
-* **Campo vectorial**: *Entrada de color* El mapa de vectores utilizado para controlar la deformación.
-
-### Parámetros
-
-* **Importe**: *0.0 - 1.0* Define la intensidad del efecto de deformación y funciona como un multiplicador para el mapa de vectores.
-
-## Imágenes de ejemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Entrada en color/escala de grises</i> | Entrada de origen que debe ser el destino de la deformación. |
+| <b>Campo vectorial</b> <i>Entrada de color</i> | Mapa vectorial utilizado para controlar la deformación. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Importe</b> <i>0.0 - 1.0</i> | Define la intensidad del efecto de deformación y funciona como un multiplicador para el mapa de vectores. |

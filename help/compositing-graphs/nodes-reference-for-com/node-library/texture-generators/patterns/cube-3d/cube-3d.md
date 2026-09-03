@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cubo 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 1%
+source-wordcount: '128'
+ht-degree: 5%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cube3-ex.png)
+![](cube-3d.resources/cube-3d-01.png)
 
-## Cubo 3D
-
-**En:** *Generadores De Texturas**/Patrones*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Interpreta un cubo 3D en escala de grises con sombreado que también sirve como profundidad de pantalla. El cubo resultante tiene bordes muy nítidos y nítidos cuando se utiliza con profundidades de bits de alta precisión. Muy interesante y útil!
 
-## Parámetros
-
-* **Desplazamiento de orientación**:\
-  Permite una rotación X e Y del cubo similar a la 3D. También se puede realizar manipulando el punto pequeño en la previsualización 2D (como se muestra en el ejemplo siguiente)
-* **Tamaño**: *0.0 - 1.0* Permite el reescalado no uniforme del cubo.
-* **Escala**: *0.0 - 1.0*\
-  Cambia la escala de todo el cubo uniformemente.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/cube3d-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Desplazamiento de orientación</b> | Permite una rotación X e Y del cubo similar a la 3D. También se puede realizar manipulando el punto pequeño en la previsualización 2D (como se muestra en el ejemplo siguiente) |
+| <b>Tamaño</b> <i>0.0 - 1.0</i> | Permite el reescalado no uniforme del cubo. |
+| <b>Escala</b> <i>0.0 - 1.0</i> | Cambia la escala de todo el cubo uniformemente. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cube-3d.resources/cube-3d-02.gif" />
+        </td>
+    </tr>
 </table>

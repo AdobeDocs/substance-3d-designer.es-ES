@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Óxido de suciedad bien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungerustfine.jpg){width="200px"}
+![](grunge-rust-fine.resources/grunge-rust-fine-01.jpg){width="200px"}
 
-**En:** *Generadores De Texturas* */Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,32 +39,32 @@ El nodo **Óxido de Suciedades Fine** genera un mapa de suciedades similar a una
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Equilibrio** *Flotante* Ajusta el equilibrio entre los valores oscuros y brillantes.
-* **Contraste** *Flotante* Ajusta el contraste de la imagen.
-* **Invertir** *Boolean* Invierte el resultado de la imagen mediante una operación `1-x`.
-* **Expansión no cuadrada** *Booleano* Habilita la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-* Avanzadas
-  * **Contraste de Suciedad base** *Flotante* Ajusta el contraste de la textura de suciedad utilizada como base para el óxido.
-  * **Intensidad de deformación de base** *Flotante* Ajusta la intensidad del efecto de deformación aplicado en el mapa de suciedades utilizado como base para el óxido.
-  * **Intensidad de rayas** *Flotante* Ajusta la intensidad de las rayas y puntos más brillantes superpuestos en la textura de la suciedad base.
-  * **Intensidad de ruido** *Flotante* Ajusta la intensidad del ruido aplicado en la textura de la suciedad base.
-  * **Intensidad de enfoque** *Flotante* Ajusta la intensidad del efecto de enfoque global.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
+| <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Avanzado</b> |  |
+| <b>Contraste de Suciedad base</b> <i>Flotador</i> | Ajusta el contraste de la textura de suciedad utilizada como base para el óxido. |
+| <b>Intensidad de deformación de base</b> <i>Flotador</i> | Ajusta la intensidad del efecto de deformación aplicado en el mapa de suciedades utilizado como base para el óxido. |
+| <b>Intensidad de rayas</b> <i>Flotador</i> | Ajusta la intensidad de las rayas y puntos más brillantes superpuestos en la textura de suciedad base. |
+| <b>Intensidad de ruido</b> <i>Flotador</i> | Ajusta la intensidad del ruido aplicado en la textura de suciedad base. |
+| <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajusta la intensidad del efecto de enfoque global. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungerustfine-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungerustfine-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rust-fine.resources/grunge-rust-fine-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rust-fine.resources/grunge-rust-fine-03.jpg" />
+        </td>
+    </tr>
 </table>

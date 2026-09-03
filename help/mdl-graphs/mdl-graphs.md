@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gráficos MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página presenta gráficos MDL en Substance 3D Designer, que le permiten crear materiales MDL y previsualizar su comportamiento en tiempo real.
 
-![Material de Malaquita MDL](../assets/mdl-malachite-example.jpg "Material de Malaquita MDL")
+![Material de Malaquita MDL](mdl-graphs.resources/mdl-graphs-01.jpg "Material de Malaquita MDL")
 
 *Malaquita con crisocola, material MDL de [Mark Foreman](https://www.artstation.com/oggyart)* *disponible en nuestro [Substance share heredado](https://share-legacy.substance3d.com/libraries/4043)* *plataforma*
 
@@ -62,7 +62,7 @@ Sugerimos revisar las secciones de esta documentación *en orden* para obtener u
 >
 > Puede obtener más información sobre la implementación técnica del lenguaje de definición de materiales en la [Documentación de NVIDIA MDL](https://raytracing-docs.nvidia.com/mdl/index.html), que incluye vínculos a la especificación MDL y al [Manual MDL](http://mdlhandbook.com/), todos creados y mantenidos por NVIDIA.
 
-![Propiedades de gráfico MDL](../assets/mdl-main.png "Propiedades de gráfico MDL")
+![Propiedades de gráfico MDL](mdl-graphs.resources/mdl-graphs-02.png "Propiedades de gráfico MDL")
 
 *Propiedades de gráfico MDL en el panel Propiedades*
 

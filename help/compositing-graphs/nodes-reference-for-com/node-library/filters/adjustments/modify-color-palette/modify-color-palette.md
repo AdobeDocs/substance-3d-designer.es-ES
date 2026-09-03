@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Modificar paleta de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](../../../../../../assets/ModifyColorPalette.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](modify-color-palette.resources/modify-color-palette-01.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -45,44 +45,30 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Cuantific
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parámetros
-
-</td>
-</tr>
-</table>
-
-## Conectores de entrada
+## Entradas
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *Escala de grises* PRINCIPAL | Mapa de ID de entrada utilizado para seleccionar colores, con el fin de modificarlos y distribuirlos en la salida.   Un mapa de ID es una imagen en la que los píxeles que forman parte de un todo (por ejemplo, una forma) tienen el mismo valor de identificación único. En este caso, el valor es un entero.   Se puede generar una asignación de ID usando un nodo [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
-| <b>Paleta</b> *Color* | Una lista ordenada de colores de RGB codificados como una fila de píxeles. La paleta puede contener un máximo de 256 colores. Esta es la paleta que modifica el nodo.   Las paletas se pueden producir con los nodos [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) o [Create Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md). |
+|:---|:---|
+| <b>ID</b> <i>Escala de grises</i> PRINCIPAL | Mapa de ID de entrada utilizado para seleccionar colores, con el fin de modificarlos y distribuirlos en la salida.   Un mapa de ID es una imagen en la que los píxeles que forman parte de un todo (por ejemplo, una forma) tienen el mismo valor de identificación único. En este caso, el valor es un entero.   Se puede generar una asignación de ID usando un nodo [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
+| <b>Paleta</b> <i>Color</i> | Una lista ordenada de colores de RGB codificados como una fila de píxeles. La paleta puede contener un máximo de 256 colores. Esta es la paleta que modifica el nodo.   Las paletas se pueden producir con los nodos [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) o [Create Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md). |
 
-## Conectores de salida
+<a name="outputs"></a>
+
+## Salidas
 
 |  |  |
-| --- | --- |
-| <b>Salida</b> *Color* | El resultado de asignar los colores de la paleta modificada a los índices del mapa de ID. |
-| <b>Paleta</b> *Color* | La paleta actualizada con las modificaciones de color especificadas aplicadas.   La paleta se puede aplicar a otra imagen con el nodo [Apply Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) o visualizarse con el nodo [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+|:---|:---|
+| <b>Salida</b> <i>Color</i> | El resultado de asignar los colores de la paleta modificada a los índices del mapa de ID. |
+| <b>Paleta</b> <i>Color</i> | La paleta actualizada con las modificaciones de color especificadas aplicadas.   La paleta se puede aplicar a otra imagen con el nodo [Apply Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) o visualizarse con el nodo [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Modo de selección de color</b> *Entero* | Método de selección del color de destino en la paleta que se debe modificar:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Índice de color:</b> Índice del color de destino</li> <li data-preserve-html="true"><b>Espacio de imagen:</b> Posición en el mapa de ID donde se debe muestrear el índice. Cuando se selecciona este modo, un gizmo de posición está disponible en la vista 2D para facilitar la selección</li> </ul> |
 | <b>Posición de color</b> *Float2* *Disponible cuando &#39;Modo de selección de color&#39; está establecido en &#39;Espacio de imagen&#39;* | Posición en el mapa de ID donde se debe muestrear el índice.   Utilice el gizmo de la vista 2D para seleccionar fácilmente una ubicación en la imagen.   Sugerencia: Puede mostrar la imagen cuantificada de la que se extrae el mapa de ID y, a continuación, seleccionar el nodo Modificar paleta de colores para mostrar el gizmo. Esto hace que la selección de un color para modificarlo sea más intuitiva. |
 | <b>Índice de color</b> *Entero* *Disponible cuando &#39;Modo de selección de color&#39; está establecido en &#39;Índice de color&#39;* | Índice del color de destino.   Los colores de la paleta se ordenan de izquierda a derecha y el índice del primer color es 0. |
@@ -96,18 +82,18 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Cuantific
 
 ## Ejemplos
 
-![Modificar paleta de colores: Ejemplo 1](../../../../../../assets/modify_color_palette_example_1.png "Modificar la paleta de colores: Ejemplo 1"){zoomable="yes"}
+![Modificar paleta de colores: Ejemplo 1](modify-color-palette.resources/modify-color-palette-02.png "Modificar la paleta de colores: Ejemplo 1"){zoomable="yes"}
 
-![Modificar paleta de colores: Ejemplo 2](../../../../../../assets/modify_color_palette_example_3.png "Modificar la paleta de colores: Ejemplo 2"){zoomable="yes"}
+![Modificar paleta de colores: Ejemplo 2](modify-color-palette.resources/modify-color-palette-03.png "Modificar la paleta de colores: Ejemplo 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="modify-color-palette.resources/modify-color-palette-04.jpg" alt="modify_color_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="modify-color-palette.resources/modify-color-palette-05.jpg" alt="modify_color_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>

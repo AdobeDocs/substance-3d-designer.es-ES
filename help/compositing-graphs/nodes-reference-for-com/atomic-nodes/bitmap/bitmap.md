@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de bits
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Bitmap](../../../../assets/comp_bitmap.png "Nodo atómico: Bitmap"){width="200px"}
+![Nodo atómico: Bitmap](bitmap.resources/bitmap-01.png "Nodo atómico: Bitmap"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

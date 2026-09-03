@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ruido de Perlin en 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 0%
+source-wordcount: '274'
+ht-degree: 1%
 
 ---
 
@@ -22,72 +22,58 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dperlinnoise.png){width="200px"}
+![](3d-perlin-noise.resources/3d-perlin-noise-01.png){width="200px"}
 
-**En:** *Generadores De Texturas**/Ruidos*
-
-**Intermedio**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-El nodo **3D Perlin Noise** genera un ruido Perlin en el espacio 3D basado en la entrada **Position Map**.
+El nodo <b>3D Perlin Noise</b> genera un ruido Perlin en el espacio 3D basado en la entrada <b>Position Map</b>.
 
 Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) como entrada en lugar de un mapa con bake real (como se muestra en la imagen de ejemplo siguiente).
-
->[!WARNING]
->
-> Este ruido está destinado a utilizarse únicamente con el *motor de GPU* (es decir, **Direct3D** o **OpenGL**). Vaya a **Herramientas > Cambiar motor...** o presione la tecla **F9** para seleccionar el motor deseado.
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> Este ruido está destinado a utilizarse únicamente con el <i>motor de GPU</i> (es decir, <b>Direct3D</b> o <b>OpenGL</b>). Vaya a <b>Herramientas > Cambiar motor...</b> o presione la tecla <b>F9</b> para seleccionar el motor deseado.
+
+<a name="parameters"></a>
+
 ## Parámetros
 
-* **Invertir** *Booleano*\
-  Invierte la imagen de salida.
-* **Escala** *Flotante*\
-  Controla la escala del ruido de Perlin 3D.
-* **Tamaño** *Float3*\
-  Controla el tamaño del ruido de Perlin 3D en los ejes **X**, **Y** y **Z**. Los valores no uniformes dan como resultado un efecto de *estiramiento o aplastamiento*.
-* **Desplazamiento** *Flotador*\
-  Aplica un desplazamiento a la *posición* del ruido de Perlin 3D en los ejes **X**, **Y** y **Z**.
-* **Intensidad de Distorsión** *Float*\
-  Controla la intensidad de un *efecto de deformación* aplicado al ruido de Perlin 3D.
-* **Multiplicador de escala de Distorsión** *Float*\
-  Controla la escala del *patrón de deformación* utilizado en el efecto de deformación controlado por la **Intensidad de Distorsión**.
-* **Línea de base** *Flotante*\
-  Aplica un *desplazamiento* al valor de *luminancia* de línea de base para la distribución de valor de ruido de Perlin 3D.
-* **Contraste** *Flotante*\
-  Ajusta el contraste del ruido de Perlin 3D.
-* **Absoluto** *Booleano*\
-  Utiliza valores absolutos en el ruido de Perlin 3D. Esto *invierte* la distribución de valor para los valores *inferiores a 0,5*.
-* **Habilitar Mosaico** *Booleano*\
-  Ajusta el ruido de Perlin 3D para que el patrón resultante *se repita* en los ejes X, Y y Z.
+|  |  |
+|:---|:---|
+| <b>Invertir</b> <i>Booleano</i> | Invierte la imagen de salida. |
+| <b>Escala</b> <i>Flotador</i> | Controla la escala del ruido de Perlin 3D. |
+| <b>Tamaño</b> <i>Float3</i> | Controla el tamaño del ruido de Perlin 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto de <i>estiramiento o aplastamiento</i>. |
+| <b>Desplazamiento</b> <i>Float3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido de Perlin 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
+| <b>Intensidad de Distorsión</b> <i>Flotador</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido de Perlin 3D. |
+| <b>Multiplicador de escala de Distorsión</b> <i>Flotador</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
+| <b>Línea de base</b> <i>Flotador</i> | Aplica un <i>desplazamiento</i> al valor de <i>luminancia</i> de línea de base para la distribución de valor de ruido de Perlin 3D. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste del ruido de Perlin 3D. |
+| <b>Absoluto</b> <i>Booleano</i> | Utiliza valores absolutos en el ruido de Perlin 3D. Esto <i>invierte</i> la distribución de valor para los valores <i>inferiores a 0,5</i>. |
+| <b>Habilitar Mosaico</b> <i>Booleano</i> | Ajusta el ruido de Perlin 3D para que el patrón resultante <i>se repita</i> en los ejes X, Y y Z. |
 
-## Imágenes de ejemplo
+## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlin.gif){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlinnoise-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlinnoise-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-02.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-04.jpg" />
+        </td>
+    </tr>
 </table>

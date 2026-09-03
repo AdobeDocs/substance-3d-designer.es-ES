@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Polar a cartesiano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 3%
+source-wordcount: '47'
+ht-degree: 4%
 
 ---
 
@@ -22,35 +22,31 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polar-to-cartesian.png){width="128px"}
+![](polar-to-cartesian.resources/polar-to-cartesian-01.png){width="128px"}
 
-![](../../../../../../assets/polar-to-cartesian-grayscale.png){width="128px"}
+![](polar-to-cartesian.resources/polar-to-cartesian-02.png){width="128px"}
 
-## Polar a cartesiano (escala de grises)
-
-**En:** *Filtros/Transformaciones*
-
-**Simple**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Convierte una entrada en coordenadas polares (ángulo y radio) en coordenadas cartesianas (X e Y). Lo contrario es posible con [Cartesiano a Polar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md).
 
-## Parámetros
-
-*No hay parámetros.*
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/polar-to-cartesian-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="polar-to-cartesian.resources/polar-to-cartesian-03.png" />
+        </td>
+    </tr>
 </table>

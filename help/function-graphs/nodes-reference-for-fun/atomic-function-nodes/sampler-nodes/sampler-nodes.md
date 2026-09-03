@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Samplers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nodos de Sampler
 
-![Nodos de Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nodos de Sampler")
+![Nodos de Sampler](sampler-nodes.resources/sampler-nodes-01.png "Nodos de Sampler")
 
 Estos nodos muestrean un valor en una imagen de entrada en las coordenadas 2D proporcionadas:
 
@@ -39,7 +39,7 @@ Las posiciones fuera de este intervalo se controlan según el <b>modo de direcci
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordenadas de píxeles](../../../../assets/samplercoords.png "Coordenadas de píxeles")
+![Coordenadas de píxeles](sampler-nodes.resources/sampler-nodes-02.png "Coordenadas de píxeles")
 
 </td>
 </tr>

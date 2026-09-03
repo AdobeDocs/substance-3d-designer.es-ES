@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Combinación HDR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 9%
+source-wordcount: '98'
+ht-degree: 13%
 
 ---
 
@@ -22,35 +22,37 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-merge.png){width="200px"}
+![](hdr-merge.resources/hdr-merge-01.png){width="200px"}
 
-## Combinación HDR
-
-**En:** *Herramientas HDRI/vistas 3D*
-
-**Simple**
+<b>En:</b> Vista 3D > Herramientas HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Combina varias exposiciones fotográficas para crear una imagen de Alto rango dinámico. La primera entrada es la imagen más subexpuesta.
 
-## Entradas
-
-* **Entrada 1-**&#x200B;**&#x200B; 16**: *Entrada de color*Entrada de imágenes. La cantidad disponible depende del parámetro.
-
-## Parámetros
-
-* **Entradas**: *2 - 16*\
-  Define la cantidad de entradas disponibles.
-* **Delta de exposición (VE)**: *0.0 - 4.0*\
-  Define la diferencia de exposición que se debe interpretar entre imágenes.
-* **Punto blanco**: *0.0 - 13.0* Establecer punto blanco para realizar algún ajuste en el resultado final.
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada 1-16</b> <i>Entrada de color</i> | Introduce imágenes. La cantidad disponible depende del parámetro. |
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Entradas</b> <i>2 - 16</i> | Define la cantidad de entradas disponibles. |
+| <b>Delta de exposición (VE)</b> <i>0.0 - 4.0</i> | Define la diferencia de exposición que se debe interpretar entre imágenes. |
+| <b>Punto blanco</b> <i>0.0 - 13.0</i> | Definir punto blanco para realizar algún ajuste en el resultado final. |

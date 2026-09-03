@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Reflectancia de metal PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-metal-reflectance.png){width="128px"}
+![](pbr-metal-reflectance.resources/pbr-metal-reflectance-01.png){width="128px"}
 
-## Reflectancia de metal PBR
-
-**En:** *Utilidades de filtros de materiales/PBR*
-
-**Simple**
+<b>En:</b> Filtros de material > Utilidades de PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -41,16 +37,14 @@ Este es un nodo de ayuda de preajuste rápido para devolver los colores de refle
 
 Este nodo es útil cuando desea un punto de partida para un metal puro y le permite evitar la selección de color de un gráfico.
 
-## Parámetros
-
-* **Color de metal**: *Oro, Plata, Aluminio, Hierro, Cobre, Titanio, Níquel, Cobalto, Platino* Elige un valor de metal predefinido.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Color de metal</b> <i>Oro, Plata, Aluminio, Hierro, Cobre, Titanio, Níquel, Cobalto, Platino</i> | Selecciona un valor de metal predefinido. |

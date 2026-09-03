@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Degradado lineal (HDRI)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
@@ -22,38 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear.png){width="200px"}
+![](gradient-linear-hdri.resources/gradient-linear-hdri-01.png){width="200px"}
 
-## Degradado lineal
-
-**En:** *Herramientas HDRI/vistas 3D*
-
-**Simple**
+<b>En:</b> Vista 3D > Herramientas HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Crea un degradado lineal en el centro y con un punto colocado por el usuario. El resultado final se ajusta por proyección esférica, a diferencia del [Degradado lineal 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md) normal.
 
-## Parámetros
-
-* **Posición de punto**:\
-  Posición del punto utilizado para determinar la dirección del degradado.
-* **Color superior**: *(Valor de color)*\
-  Color de la parte superior del degradado (en el punto)
-* **Color inferior**: *(Valor de color)*\
-  Color de la parte inferior del degradado (lejos del punto).
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta el contraste del resultado.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/gradient-ex1.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Posición de punto</b> | Posición del punto utilizado para determinar la dirección del degradado. |
+| <b>Color superior</b> <i>(Valor de color)</i> | Color de la parte superior del degradado (en el punto) |
+| <b>Color inferior</b> <i>(Valor de color)</i> | Color de la parte inferior del degradado (lejos del punto). |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-hdri.resources/gradient-linear-hdri-02.gif" />
+        </td>
+    </tr>
 </table>

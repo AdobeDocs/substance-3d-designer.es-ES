@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Crystal 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '86'
+ht-degree: 8%
 
 ---
 
@@ -22,36 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-1.png){width="128px"}
+![](crystal-1.resources/crystal-1-01.png){width="128px"}
 
-## Crystal 1
-
-**En:** *Generadores De Texturas**/Ruidos*
-
-**Simple**
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Genera un ruido de tipo Worlye Voronoi, con una métrica de distancia de angular ligeramente más amplia. Puede ser útil para ciertos propósitos geométricos y de angular.
 
-## Parámetros
-
-* **Escala**: *1 - 256*\
-  Establece la escala global del efecto.
-* **Trastorno**: *0.0 - 1.0*\
-  Desplaza la fase del ruido para introducir pequeñas variaciones.
-* **Expansión no cuadrada**: *Falso/Verdadero*\
-  Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/crystal-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Escala</b> <i>1 - 256</i> | Establece la escala global del efecto. |
+| <b>Desorden</b> <i>0.0 - 1.0</i> | Desplaza la fase del ruido para introducir pequeñas variaciones. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="crystal-1.resources/crystal-1-02.gif" />
+        </td>
+    </tr>
 </table>

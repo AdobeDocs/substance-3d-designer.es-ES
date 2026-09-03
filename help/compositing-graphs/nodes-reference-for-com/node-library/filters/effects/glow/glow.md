@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Resplandor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/glow-greyscale.png){width="128px"}
+![](glow.resources/glow-01.png){width="128px"}
 
-![](../../../../../../assets/glow-3.png){width="128px"}
+![](glow.resources/glow-02.png){width="128px"}
 
-## Resplandor
-
-**En:** *Filtros/Efectos*
-
-**Simple**
+<b>En:</b> Filtros > Efectos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -45,19 +41,27 @@ Tenga en cuenta que esto no está destinado a funcionar para imágenes con canal
 
 Importante: asegúrese de utilizar la versión adecuada para su entrada! Utilice &quot;Resplandor&quot; para las entradas de color o &quot;Escala de grises&quot; para las entradas de escala de grises.
 
-## Parámetros
-
-* **Cantidad de brillo**: *0.0 - 1.0* Opacidad global para el efecto de resplandor.
-* **Borrar cantidad**: *0.0 - 1.0* Umbral para cortar el efecto de resplandor. Útil para áreas semitransparentes.
-* **Tamaño de resplandor**: *0.0 - 20.0* Controla hasta dónde llega el efecto de brillo.
-* **Color de brillo**: *(Valor de color) (Solo versión de color)*Establece el color del efecto de resplandor.
-
-## Imágenes de ejemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/glow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Cantidad de resplandor</b> <i>0.0 - 1.0</i> | Opacidad global para el efecto de resplandor. |
+| <b>Borrar cantidad</b> <i>0.0 - 1.0</i> | Umbral para cuando cortar el efecto de resplandor. Útil para áreas semitransparentes. |
+| <b>Tamaño de resplandor</b> <i>0.0 - 20.0</i> | Controla hasta dónde llega el efecto de brillo. |
+| <b>Color de resplandor</b> <i>(valor de color) (solo versión de color)</i> | Define el color del efecto de resplandor. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="glow.resources/glow-03.png" />
+        </td>
+    </tr>
 </table>

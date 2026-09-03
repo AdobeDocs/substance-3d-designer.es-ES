@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Orden aleatorio de canales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -24,14 +24,14 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Reorganización de canales](../../../../assets/comp_shuffle.png "Nodo atómico: Mezcla de canales"){width="200px"}
+![Nodo atómico: Reorganización de canales](channel-shuffle.resources/channel-shuffle-01.png "Nodo atómico: Mezcla de canales"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Reorganiza los canales de color de una o dos imágenes de entrada en la imagen de salida.
 
-Es decir, toma dos entradas y le permite devolver una salida donde cualquiera de los canales Rojo, Verde, Azul y Alpha se intercambian o se establecen en cualquiera de los canales de la entrada.
+Es decir, toma dos entradas y le permite devolver una salida donde cualquiera de los canales Rojo, Verde, Azul y Alfa se intercambian o se establecen en cualquiera de los canales de la entrada.
 
 Básicamente, te permite empaquetar e intercambiar canales de RGB de cualquier forma posible. Las entradas de escala de grises se tratan como si fueran de color: El rojo, el verde, el azul y el Alpha devuelven los mismos valores.
 
@@ -39,7 +39,7 @@ Básicamente, te permite empaquetar e intercambiar canales de RGB de cualquier f
 </tr>
 </table>
 
-El Mezcla de canales tiene opciones básicas, pero en la mayoría de los casos de empaquetado de canales o Desmontaje y configuración de canales Alpha es más rápido usar [Combinación RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [División RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [Combinación de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) y [División de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). Están configurados para realizar acciones predeterminadas que no requieren cambiar varios parámetros y convertir a escala de grises posteriormente. Si buscas una versión más avanzada con más opciones de fusión, consulta [Mezclador de canales](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
+El Mezcla de canales tiene opciones básicas, pero en la mayoría de los casos de empaquetado de canales o de eliminación y configuración de canales alfa es más rápido usar [Combinación RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [División RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [Combinación de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) y [División de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). Están configurados para realizar acciones predeterminadas que no requieren cambiar varios parámetros y convertir a escala de grises posteriormente. Si buscas una versión más avanzada con más opciones de fusión, consulta [Mezclador de canales](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
 
 <table>
 <tr style="border: 0;">
@@ -83,7 +83,7 @@ El Mezcla de canales tiene opciones básicas, pero en la mayoría de los casos d
 | <b>Canal rojo</b> *Entero* | Elija el canal de origen que se insertará en el canal rojo de la imagen de salida. |
 | <b>Canal verde</b> *Entero* | Elija el canal de origen que se insertará en el canal verde de la imagen de salida. |
 | <b>Canal azul</b> *Entero* | Elija el canal de origen que se insertará en el canal azul de la imagen de salida. |
-| <b>canal de Alpha</b> *Entero* | Elija el canal de origen que se insertará en el canal del Alpha de la imagen de salida. |
+| <b>canal de Alpha</b> *Entero* | Elija el canal de origen que se insertará en el canal alfa de la imagen de salida. |
 
 ## Conectores de entrada
 

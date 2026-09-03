@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ContrasteLuminosidad
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 3%
+source-wordcount: '52'
+ht-degree: 13%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/contrast-luminosity-color.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-01.png){width="128px"}
 
-![](../../../../../../assets/contrast-luminosity-grayscale.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-02.png){width="128px"}
 
-## Contraste/luminosidad (escala de grises)
-
-**En:** *Filtros/Ajustes*
-
-**Simple**
+<b>En:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Un sencillo ajuste de contraste y luminosidad (brillo).
 
-## Parámetros
-
-* **Contraste**: *-1.0 - 1.0*\
-  Ajusta el contraste del resultado.
-* **Luminosidad**: *-1.0 - 1.0*\
-  Ajusta la luminosidad (brillo) del resultado.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/contrastluminosity-optim.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Contraste</b> <i>-1.0 - 1.0</i> | Ajusta el contraste del resultado. |
+| <b>Luminosidad</b> <i>-1.0 - 1.0</i> | Ajusta la luminosidad (brillo) del resultado. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="contrast-luminosity.resources/contrast-luminosity-03.gif" />
+        </td>
+    </tr>
 </table>

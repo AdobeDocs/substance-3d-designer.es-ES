@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sesgar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 3%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,35 +22,41 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/skew-5.png){width="128px"}
+![](skew.resources/skew-01.png){width="128px"}
 
-![](../../../../../../assets/skew-grayscale.png){width="128px"}
+![](skew.resources/skew-02.png){width="128px"}
 
-## Sesgar (escala de grises)
-
-**En:** *Filtros/Transformaciones*
-
-**Simple**
+<b>En:</b> Filtros > Transforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
 Sesga una imagen de entrada.
 
-## Parámetros
-
-* **Eje**: *Horizontal, Vertical* Elija sesgar vertical u horizontalmente.
-* **Importe**: *-1.0 - 1.0* Cantidad de sesgo.
-* **Alinear**: *Centro, Superior Izquierdo, Inferior Derecho* Establece el punto de origen de la transformación de sesgo.
-
-## Imágenes de ejemplo
-
-![](../../../../../../assets/skew-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Eje</b> <i>Horizontal, Vertical</i> | Elija sesgar vertical u horizontalmente. |
+| <b>Importe</b> <i>-1.0 - 1.0</i> | Cantidad de sesgo. |
+| <b>Alinear</b> <i>Centro, superior izquierdo, inferior derecho</i> | Define el punto de origen de la transformación de sesgo. |
+
+## Ejemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="skew.resources/skew-03.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barra de herramientas principal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barra de herramientas principal](../../assets/mainmenu.png "Barra de herramientas principal")
+![Barra de herramientas principal](the-main-toolbar.resources/the-main-toolbar-01.png "Barra de herramientas principal")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 ## Botones de acceso rápido
 
-![](../../assets/newsubstance.png) <b>Nuevo gráfico de Substance...:</b> (Ctrl+N)Presenta la ventana [Nuevo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) y, a continuación, crea un nuevo paquete con un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>Nuevo gráfico de Substance...:</b> (Ctrl+N)Presenta la ventana [Nuevo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) y, a continuación, crea un nuevo paquete con un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](../../assets/open.png) <b>Abrir...:</b> (Ctrl+O) Abra un [paquete de Substance existente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>Abrir...:</b> (Ctrl+O) Abra un [paquete de Substance existente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](../../assets/saveall.png) <b>Guardar todo:</b> (Ctrl+⇧+S) Guarda todos los paquetes enumerados en el [Explorador](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>Guardar todo:</b> (Ctrl+⇧+S) Guarda todos los paquetes enumerados en el [Explorador](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](../../assets/undo.png) <b>Deshacer:</b> (Ctrl+Z) Deshacer la última operación.
+![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>Deshacer:</b> (Ctrl+Z) Deshacer la última operación.
 
-![](../../assets/redo.png) <b>Rehacer:</b> (Ctrl+Y) Rehacer la última operación deshecha.
+![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>Rehacer:</b> (Ctrl+Y) Rehacer la última operación deshecha.
 
 ## Archivo
 
@@ -122,7 +122,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Administrador de dependencias:</b> Muestra u oculta el [Administrador de dependencias](../../interface/dependency-manager/dependency-manager.md).
 
-<b>Vistas 2D:</b> Muestra u oculta la [vista 2D](../2d-view/2d-view.md).
+<b>Vistas 2D:</b> Muestra u oculta el [vista 2D](../2d-view/2d-view.md).
 
 <b>Biblioteca:</b> Muestra u oculta la [ventana de biblioteca.](../../interface/the-library/the-library.md)
 

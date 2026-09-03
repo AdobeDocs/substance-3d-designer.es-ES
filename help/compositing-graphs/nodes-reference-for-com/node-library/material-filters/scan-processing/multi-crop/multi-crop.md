@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
 breadcrumb-title: ''
-description: Utilice el nodo Recorte múltiple para recortar varios canales de textura al mismo tiempo para procesar materiales digitalizados de forma eficaz.
+description: Utilice el nodo Recorte múltiple para recortar varios canales de textura simultáneamente para procesar materiales digitalizados de forma eficaz.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Crop
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Recorte múltiple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 1%
+source-wordcount: '173'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-multi.png){width="128px"}
+![](multi-crop.resources/multi-crop-01.png){width="128px"}
 
-![](../../../../../../assets/crop-multi-grayscale.png){width="128px"}
+![](multi-crop.resources/multi-crop-02.png){width="128px"}
 
-## Recorte múltiple (escala de grises)
-
-**En:** *Procesamiento De Escaneo/Filtros De Materiales*
-
-**Intermedio**
+<b>En:</b> Filtros de material > Procesamiento de escaneo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
@@ -45,25 +41,19 @@ Esta es la versión multicanal de Crop. Recorta un área a partir de una imagen 
 >
 > Consulta el [Recorte](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) original para obtener más información.
 
-## Parámetros
-
-### Parámetros
-
-* **Recuento de entradas**: *1 - 8* Establece el número de entradas para procesar en paralelo.
-* **Tamaño de entrada**: *0 - 8192* Resolución y proporciones de las imágenes de entrada. Muy importante para imágenes no cuadradas.
-* **Fondo**: *(Valor de color) / (Valor de escala de grises)*Valor uniforme de fondo para áreas no cubiertas por Recortar.
-* **Transformar**: *(Matriz de transformación)*\
-  Rota y escala el resultado. El resultado se puede modificar interactuando directamente con el lienzo.
-* **Desplazamiento**: *0.0 - 1.0*\
-  Mueve o traduce el resultado. El resultado se puede modificar interactuando directamente con el lienzo.
-* **Es normal (solo para la versión Color)**: *Falso/Verdadero* Indica si la entrada debe tratarse o no como un mapa normal.
-
-## Imágenes de ejemplo
-
-|  |
-| --- |
-| No hay imágenes adjuntas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parámetros
+
+|  |  |
+|:---|:---|
+| <b>Recuento de entradas</b> <i>1 - 8</i> | Define el número de entradas que se procesarán en paralelo. |
+| <b>Tamaño de entrada</b> <i>0 - 8192</i> | Introduce la resolución y las proporciones de las imágenes. Muy importante para imágenes no cuadradas. |
+| <b>Fondo</b> <i>(Valor de color) / (Valor de escala de grises)</i> | Valor uniforme de fondo para áreas no cubiertas por Recorte. |
+| <b>Transformar</b> <i>(Matriz de transformación)</i> | Rota y escala el resultado. El resultado se puede modificar interactuando directamente con el lienzo. |
+| <b>Desplazamiento</b> <i>0.0 - 1.0</i> | Mueve o traduce el resultado. El resultado se puede modificar interactuando directamente con el lienzo. |
+| <b>Es normal (solo para la versión Color)</b> <i>Falso/Verdadero</i> | Si la entrada debe tratarse o no como un mapa normal. |
