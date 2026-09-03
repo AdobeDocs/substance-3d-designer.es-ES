@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 breadcrumb-title: ''
-description: Utilice el nodo Distancia direccional para calcular los campos de distancia en direcciones específicas para los efectos procedimientos.
+description: Utilice el nodo Distancia direccional para calcular los campos de distancia en direcciones específicas para efectos de procedimiento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Directional distance
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distancia direccional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de escala de grises Kuwahara anisotrópico](directional-distance.resources/directional_distance.png "Icono de escala de grises Kuwahara anisotrópico"){width="200px"}
+![Icono de escala de grises Kuwahara anisotrópico](directional-distance.resources/directional-distance-01.png "Icono de escala de grises Kuwahara anisotrópico"){width="200px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -88,11 +88,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_1_before.jpg" alt="directional_distance_example_1_before">
+      <img src="directional-distance.resources/directional-distance-02.jpg" alt="directional_distance_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_1_after.jpg" alt="directional_distance_example_1_after">
+      <img src="directional-distance.resources/directional-distance-03.jpg" alt="directional_distance_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_3_before.jpg" alt="directional_distance_example_3_before">
+      <img src="directional-distance.resources/directional-distance-04.jpg" alt="directional_distance_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_3_after.jpg" alt="directional_distance_example_3_after">
+      <img src="directional-distance.resources/directional-distance-05.jpg" alt="directional_distance_example_3_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -125,11 +125,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_2_before.jpg" alt="directional_distance_example_2_before">
+      <img src="directional-distance.resources/directional-distance-06.jpg" alt="directional_distance_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_2_after.jpg" alt="directional_distance_example_2_after">
+      <img src="directional-distance.resources/directional-distance-07.jpg" alt="directional_distance_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -141,11 +141,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_5_before.jpg" alt="directional_distance_example_5_before">
+      <img src="directional-distance.resources/directional-distance-08.jpg" alt="directional_distance_example_5_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_5_after.jpg" alt="directional_distance_example_5_after">
+      <img src="directional-distance.resources/directional-distance-09.jpg" alt="directional_distance_example_5_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_4_before.jpg" alt="directional_distance_example_4_before">
+      <img src="directional-distance.resources/directional-distance-10.jpg" alt="directional_distance_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_4_after.jpg" alt="directional_distance_example_4_after">
+      <img src="directional-distance.resources/directional-distance-11.jpg" alt="directional_distance_example_4_after">
       <br><i>Después De</i>
     </td>
   </tr>

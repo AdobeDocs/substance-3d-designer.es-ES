@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
 description: Utilice el nodo Sampler de mosaico para muestrear y organizar los mosaicos de las texturas de entrada para crear patrones de mosaico en Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sampler en mosaico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
 
-<b>En:</b> Generadores De Texturas > Motivos
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 Tile Sampler es el nodo de generación de patrones de mosaico definitivo. Es una versión evolucionada y más compleja de [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). A partir de 2017 2.1, las diferencias son mucho menores entre Tile Sampler y [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Las principales diferencias están ahora solo en las siete ranuras de mapas diferentes que están disponibles para la escala de conducción, posición, rotación, tamaño, color y máscara. Su efecto se puede fusionar por separado.
 
-El Sampler de mosaico es útil para crear patrones procedimientos creados por el hombre, con un control adicional sobre ciertos parámetros controlados por mapas de entrada externos.
+El Sampler de mosaico es útil para crear patrones de procedimientos creados por el hombre, con un control adicional sobre ciertos parámetros controlados por mapas de entrada externos.
 
 Asegúrate de estar familiarizado con [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) antes de pasar al Sampler de mosaico. En la mayoría de los casos, encontrarás [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) suficiente y no necesitarás la complejidad añadida de Tile Sampler.
 
@@ -122,7 +122,7 @@ Asegúrate de estar familiarizado con [Tile Generator](../../../../../../composi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>El ejemplo muestra cómo se controlan los parámetros mediante mapas de entrada (distribución de patrones, escala, rotación).</i>
+            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>El ejemplo muestra cómo se controlan los parámetros mediante mapas de entrada (distribución de patrones, escala, rotación).</i>
         </td>
     </tr>
 </table>

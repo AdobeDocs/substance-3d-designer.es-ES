@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
 breadcrumb-title: ''
-description: Utilice el nodo Cube 3D GBuffers para generar búferes de geometría a partir de proyecciones de cubos 3D para efectos de procesamiento avanzados.
+description: Utilice el nodo Cube 3D GBuffers para generar búferes de geometría a partir de proyecciones de cubos 3D para obtener efectos de procesamiento avanzados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D GBuffers
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cube 3D GBuffers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 5%
@@ -24,16 +24,16 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d-gbuffers.resources/cube3d.png){width="128px"}
+![](cube-3d-gbuffers.resources/cube-3d-gbuffers-01.png){width="128px"}
 
-<b>En:</b> Generadores De Texturas > Motivos
+<b>En:</b> Generadores de Textura > Patrones
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descripción
 
-Versión avanzada de [Cube 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) que también genera mapas normales y de posición en lugar de solo mapa de altura.
+Versión avanzada de [Cube 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) que también genera Posición y mapas de normales en lugar de solo mapa de altura.
 
 </td>
 </tr>

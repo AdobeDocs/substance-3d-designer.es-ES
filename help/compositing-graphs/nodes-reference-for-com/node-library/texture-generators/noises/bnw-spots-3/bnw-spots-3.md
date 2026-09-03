@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
 breadcrumb-title: ''
 description: Utilice el nodo Manchas BnW 3 para generar patrones avanzados de manchas en blanco y negro para crear variaciones de textura y máscaras.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BnW spots 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Manchas BnW 3 - Icono](bnw-spots-3.resources/bnw_spots_3.png "Manchas BnW 3 - Icono"){width="200px"}
+![Manchas BnW 3 - Icono](bnw-spots-3.resources/bnw-spots-3-01.png "Manchas BnW 3 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -69,12 +69,12 @@ Consulte también: [Puntos BnW 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Manchas BnW 3 - Ejemplo 1](bnw-spots-3.resources/bnw_spots_3_1.png "Manchas BnW 3 - Ejemplo 1"){zoomable="yes"}
+![Manchas BnW 3 - Ejemplo 1](bnw-spots-3.resources/bnw-spots-3-02.png "Manchas BnW 3 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Manchas BnW 3 - Ejemplo 2](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso0.gif "Manchas BnW 3 - Ejemplo 2"){zoomable="yes"}
+![Manchas BnW 3 - Ejemplo 2](bnw-spots-3.resources/bnw-spots-3-03.gif "Manchas BnW 3 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Consulte también: [Puntos BnW 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Manchas BnW 3 - Ejemplo 3](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso1.gif "Manchas BnW 3 - Ejemplo 3"){zoomable="yes"}
+![Manchas BnW 3 - Ejemplo 3](bnw-spots-3.resources/bnw-spots-3-04.gif "Manchas BnW 3 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Manchas BnW 3 - Ejemplo 4](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.3_aniso0.6.gif "Manchas BnW 3 - Ejemplo 4"){zoomable="yes"}
+![Manchas BnW 3 - Ejemplo 4](bnw-spots-3.resources/bnw-spots-3-05.gif "Manchas BnW 3 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

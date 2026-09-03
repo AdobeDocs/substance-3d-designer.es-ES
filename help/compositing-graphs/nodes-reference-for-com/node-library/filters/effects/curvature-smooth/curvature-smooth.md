@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: Utilice el nodo Suavizado de curvatura para generar mapas de curvatura suaves a partir de mapas de height para la extracción de detalles de superficie.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curvatura suave
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo suave de curvatura](curvature-smooth.resources/CurvatureSmooth.png "Icono de nodo suave de curvatura"){width="200px"}
+![Icono de nodo suave de curvatura](curvature-smooth.resources/curvature-smooth-01.png "Icono de nodo suave de curvatura"){width="200px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -64,7 +64,7 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 |:---|:---|
 | <b>Curvatura</b> <i>Escala de grises</i> | Mapa de curvatura calculado a partir del mapa normal de entrada.   Las áreas planas son 50% grises. Las áreas convexas son más brillantes, mientras que las áreas cóncavas son más oscuras. |
 | <b>Convexidad</b> <i>Escala de grises</i> | Mapa de convexidad calculado a partir del mapa normal de entrada.   Cuanto más convexa es una zona, más brillante es en el mapa.  Las áreas planas o cóncavas son negras. |
-| <b>Concavidad</b> <i>Escala de grises</i> | Mapa de concavidad calculado a partir del mapa de normales de entrada.   Cuanto más cóncava es una zona, más brillante es en el mapa.  Las áreas planas o convexas son negras. |
+| <b>Concavidad</b> <i>Escala de grises</i> | Mapa de concavidad calculado a partir del mapa normal de entrada.   Cuanto más cóncava es una zona, más brillante es en el mapa.  Las áreas planas o convexas son negras. |
 
 <a name="parameters"></a>
 
@@ -72,18 +72,18 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 
 |  |  |
 |:---|:---|
-| <b>Formato normal</b> *Entero* | Formato del mapa de normales de entrada. Invierte el canal verde de forma efectiva.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> El eje Y señala hacia arriba</li> <li data-preserve-html="true"><b style="">OpenGL:</b> El eje Y señala hacia abajo</li> </ul> |
+| <b>Formato normal</b> *Entero* | Formato del mapa normal de entrada. Invierte el canal verde de forma efectiva.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> El eje Y señala hacia arriba</li> <li data-preserve-html="true"><b style="">OpenGL:</b> El eje Y señala hacia abajo</li> </ul> |
 
 ## Ejemplos
 
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="curvature-smooth.resources/curvature-smooth-02.jpg" alt="curvature_smooth_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="curvature-smooth.resources/curvature-smooth-03.jpg" alt="curvature_smooth_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Ejemplo 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Suavizado de curvatura: Ejemplo 2"){zoomable="yes"}
+![Curvatura suave: Ejemplo 2](curvature-smooth.resources/curvature-smooth-04.jpg "Suavizado de curvatura: Ejemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Ejemplo 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Suavizado de curvatura: Ejemplo 3"){zoomable="yes"}
+![Curvatura suave: Ejemplo 3](curvature-smooth.resources/curvature-smooth-05.jpg "Suavizado de curvatura: Ejemplo 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
+      <img src="curvature-smooth.resources/curvature-smooth-06.jpg" alt="curvature_smooth_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
+      <img src="curvature-smooth.resources/curvature-smooth-07.jpg" alt="curvature_smooth_example_4_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Ejemplo 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Suavizado de curvatura: Ejemplo 4"){zoomable="yes"}
+![Curvatura suave: Ejemplo 4](curvature-smooth.resources/curvature-smooth-08.jpg "Suavizado de curvatura: Ejemplo 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Ejemplo 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Suavizado de curvatura: Ejemplo 5"){zoomable="yes"}
+![Curvatura suave: Ejemplo 5](curvature-smooth.resources/curvature-smooth-09.jpg "Suavizado de curvatura: Ejemplo 5"){zoomable="yes"}
 
 </td>
 </tr>

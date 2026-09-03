@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: Utilice el nodo Suavizado de bisel para crear bordes biselados suaves en formas y patrones para superficies realistas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suavizado de bisel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de escala de grises Kuwahara anisotrópico](bevel-smooth.resources/bevel_smooth.png "Icono de escala de grises Kuwahara anisotrópico"){width="200px"}
+![Icono de escala de grises Kuwahara anisotrópico](bevel-smooth.resources/bevel-smooth-01.png "Icono de escala de grises Kuwahara anisotrópico"){width="200px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -76,7 +76,7 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 | <b>Dirección</b> *Entero* *Disponible cuando &#39;Modo de salida&#39; está establecido en &#39;Bisel&#39; o &#39;Dilación&#39;* | El lado del borde de la máscara que debe dilatarse:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>En:</b> dibuje hacia el interior de la máscara</li> <li data-preserve-html="true"><b>Salida:</b> dibuje hacia el exterior de la máscara</li> <li data-preserve-html="true"><b>Entrada/salida:</b> dibuje hacia el interior y el exterior de la máscara</li> </ul> |
 | <b>Distancia máxima</b> *Flotador* | La distancia de dilatación, en el espacio de imagen normalizado donde 1 es la longitud del lado más corto de la imagen de entrada. |
 | <b>smoothness de máscara</b> *Flotador* | Intensidad del suavizado aplicado a la máscara.   El valor es el radio del desenfoque y 1 unidad es 1/256 de la imagen. |
-| <b>Desplazamiento de máscara</b> *Flotador* | Mueve los bordes de la máscara hacia dentro o hacia fuera. |
+| <b>Desplazamiento de máscara</b> *Flotante* | Mueve los bordes de la máscara hacia dentro o hacia fuera. |
 | <b>Umbral de máscara</b> *Flotador* | Valor utilizado para detectar los bordes de la máscara en la imagen &quot;Entrada de máscara&quot;.   Los valores por encima de este umbral son el *interior* de las formas de máscara, mientras que los valores por debajo son el *exterior*. |
 | <b>Escala</b> *Float2* | Ajusta la distancia horizontal (X) y vertical (Y) de la dilatación.   Estos valores son multiplicadores del valor del parámetro &#39;Distancia máxima&#39;. |
 | <b>Multiplicador de Mapa de distancia</b> *Entero* | Ajusta el impacto del Mapa de distancia sobre la distancia máxima. |
@@ -87,12 +87,12 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Suavizado de bisel: Ejemplo 1](bevel-smooth.resources/bevel_smooth_example_1.gif "Suavizado de bisel: Ejemplo 1"){width="1024px" zoomable="yes"}
+![Suavizado de bisel: Ejemplo 1](bevel-smooth.resources/bevel-smooth-02.gif "Suavizado de bisel: Ejemplo 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Suavizado de bisel: Ejemplo 8](bevel-smooth.resources/bevel_smooth_example_8.jpg "Suavizado de bisel: Ejemplo 8"){width="1024px" zoomable="yes"}
+![Suavizado de bisel: Ejemplo 8](bevel-smooth.resources/bevel-smooth-03.jpg "Suavizado de bisel: Ejemplo 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -105,11 +105,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
+      <img src="bevel-smooth.resources/bevel-smooth-04.jpg" alt="bevel_smooth_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
+      <img src="bevel-smooth.resources/bevel-smooth-05.jpg" alt="bevel_smooth_example_4_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -121,11 +121,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
+      <img src="bevel-smooth.resources/bevel-smooth-06.jpg" alt="bevel_smooth_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
+      <img src="bevel-smooth.resources/bevel-smooth-07.jpg" alt="bevel_smooth_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
+      <img src="bevel-smooth.resources/bevel-smooth-08.jpg" alt="bevel_smooth_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
+      <img src="bevel-smooth.resources/bevel-smooth-09.jpg" alt="bevel_smooth_example_3_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
+      <img src="bevel-smooth.resources/bevel-smooth-10.jpg" alt="bevel_smooth_example_5_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
+      <img src="bevel-smooth.resources/bevel-smooth-11.jpg" alt="bevel_smooth_example_5_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -175,11 +175,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
+      <img src="bevel-smooth.resources/bevel-smooth-12.jpg" alt="bevel_smooth_example_7_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
+      <img src="bevel-smooth.resources/bevel-smooth-13.jpg" alt="bevel_smooth_example_7_after">
       <br><i>Después De</i>
     </td>
   </tr>

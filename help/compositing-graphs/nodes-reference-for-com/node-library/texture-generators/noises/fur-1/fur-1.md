@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
 breadcrumb-title: ''
-description: Usa el nodo Piel 1 para crear texturas básicas de piel para crear efectos de cabello, tejido y materiales fibrosos.
+description: Usa el nodo Piel 1 para generar texturas básicas de piel para crear efectos de cabello, tejido y materiales fibrosos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Piel 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fur-1.resources/fur-1.png){width="128px"}
+![](fur-1.resources/fur-1-01.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -54,7 +54,7 @@ Esto genera un tipo de ruido de piel recta.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fur-1.resources/fur-1-ex.gif" />
+            <img src="fur-1.resources/fur-1-02.gif" />
         </td>
     </tr>
 </table>

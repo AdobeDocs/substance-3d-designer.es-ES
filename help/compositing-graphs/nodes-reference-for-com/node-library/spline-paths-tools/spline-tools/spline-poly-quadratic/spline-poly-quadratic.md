@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
 breadcrumb-title: ''
 description: Utilice el nodo Poly Quadratic polinomial para crear splines cuadráticas complejas con varios puntos de control.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (poli cuadrático)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-poly-quadratic.resources/spline-poly-quadratic-icon.png "Icono de nodo")
+![Icono de nodo](spline-poly-quadratic.resources/spline-poly-quadratic-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -115,11 +115,11 @@ La trayectoria de la spline se puede suavizar alejándola de sus puntos intermed
 <table>
   <tr>
     <td>
-      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-02.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-03.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -128,7 +128,7 @@ La trayectoria de la spline se puede suavizar alejándola de sus puntos intermed
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](spline-poly-quadratic.resources/SplinePolyQuadratic-Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-poly-quadratic.resources/spline-poly-quadratic-04.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

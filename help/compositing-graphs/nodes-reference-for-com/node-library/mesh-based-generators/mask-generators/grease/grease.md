@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: Utilice el nodo Grasa para generar máscaras de acumulación de grasa basadas en la geometría de malla y las áreas de contacto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Grasa
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grease.resources/grease.png){width="128px"}
+![](grease.resources/grease-01.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Generadores de máscaras
 
@@ -47,7 +47,7 @@ Esta máscara está diseñada específicamente para las caras de los personajes 
 
 |  |  |
 |:---|:---|
-| <b>Thickness</b> <i>Entrada en escala de grises</i> | Mapa de grosor hecho un bake en el que se basa todo el efecto. ¡Obligatorio! |
+| <b>Thickness</b> <i>Entrada en escala de grises</i> | Mapa de Thickness al horno en el que se basa todo el efecto. ¡Obligatorio! |
 | <b>Ruido</b> <i>Entrada en escala de grises</i> | Mapa de ruido opcional para anular la suciedad de grasa. |
 | <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
 
@@ -59,7 +59,7 @@ Esta máscara está diseñada específicamente para las caras de los personajes 
 |:---|:---|
 | <b>Nivel</b> <i>0.0 - 1.0</i> | Define la cantidad total de efecto que debe aparecer. |
 | <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
-| <b>Umbral de Thickness</b> <i>0.0 - 1.0</i> | Establece un thickness mínimo en el que debe aparecer el efecto. Igual de importante que Level; ajústelo para que se ajuste a su mapa de grosor. |
+| <b>Umbral de Thickness</b> <i>0.0 - 1.0</i> | Establece un thickness mínimo en el que debe aparecer el efecto. Igual de importante que Level; retoca esto para que se ajuste a tu mapa de Thickness. |
 | <b>Anular ruido</b> <i>Falso/Verdadero</i> | Ajuste para anular el mapa interno de suciedades de grasa con una ranura de entrada personalizada. |
 
 ## Ejemplos
@@ -67,7 +67,7 @@ Esta máscara está diseñada específicamente para las caras de los personajes 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grease.resources/grease-ex.gif" />
+            <img src="grease.resources/grease-02.gif" />
         </td>
     </tr>
 </table>

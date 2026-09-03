@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Configure los ajustes de tamaño de salida para que los Substance que componen gráficos controlen la resolución y la calidad de la textura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tamaño de salida
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Es el primero de los <b>parámetros base</b> de un gráfico y, junto con el <b>f
 
 >[!NOTE]
 >
-> Use el botón de bloqueo ![](output-size.resources/props-output-size-lock.jpg) para que el valor de Height *coincida* con el valor de ancho.
+> Use el botón de bloqueo ![](output-size.resources/output-size-01.jpg) para que el valor de Height *coincida* con el valor de ancho.
 
 <table>
 <tr style="border: 0;">
@@ -98,7 +98,7 @@ En la mayoría de los casos, el [método de herencia](../../compositing-graphs/i
 
 Para mostrar las propiedades de un nodo o gráfico, haga clic en ese elemento y, a continuación, en el panel [Propiedades](../../interface/properties/properties.md), busque la propiedad <b>Tamaño de salida</b> en la sección <b>Parámetros base</b>. Haga clic en el menú desplegable del método de herencia y seleccione el método de herencia deseado.
 
-![Método de herencia de tamaño de salida](output-size.resources/change-mode.gif "Método de herencia de tamaño de salida"){width="512px"}
+![Método de herencia de tamaño de salida](output-size.resources/output-size-02.gif "Método de herencia de tamaño de salida"){width="512px"}
 
 ## Problemas de ejemplo
 
@@ -107,7 +107,7 @@ Si es un nuevo usuario de [Adobe Substance 3D Designer](https://www.adobe.com/es
 +++Problema 1
 **![(error)](output-size.resources/error.svg) Problema**
 
-![Ejemplo de problema 1](output-size.resources/problem2-bad.png "Ejemplo de problema 1")
+![Ejemplo de problema 1](output-size.resources/output-size-03.png "Ejemplo de problema 1")
 
 
 
@@ -117,7 +117,7 @@ En las propiedades del gráfico, el método de herencia de la propiedad Tamaño 
 
 **![(marca)](output-size.resources/check.svg) Solución**
 
-![Ejemplo de problema 1 Solución](output-size.resources/problem2-good.png "Ejemplo de problema 1 Solución")
+![Ejemplo de problema 1 Solución](output-size.resources/output-size-04.png "Ejemplo de problema 1 Solución")
 
 
 
@@ -128,7 +128,7 @@ Establezca el método de herencia para el tamaño de salida del gráfico en *Rel
 +++Problema 2
 **![(error)](output-size.resources/error.svg) Problema**
 
-![Ejemplo de problema 2](output-size.resources/problem1-bad.png "Ejemplo de problema 2")
+![Ejemplo de problema 2](output-size.resources/output-size-05.png "Ejemplo de problema 2")
 
 
 
@@ -138,7 +138,7 @@ El problema se debe al nodo [Bitmap](../../compositing-graphs/nodes-reference-fo
 
 **![(marca)](output-size.resources/check.svg) Solución**
 
-![Ejemplo de problema 2 Solución](output-size.resources/problem1-good.png "Ejemplo de problema 2 Solución")
+![Ejemplo de problema 2 Solución](output-size.resources/output-size-06.png "Ejemplo de problema 2 Solución")
 
 
 
@@ -149,7 +149,7 @@ Establezca el método de herencia del tamaño de salida del nodo Bitmap en *Rela
 +++Problema 3
 **![(error)](output-size.resources/error.svg) Problema**
 
-![Ejemplo de problema 3](output-size.resources/problem3-bad.png "Ejemplo de problema 3")
+![Ejemplo de problema 3](output-size.resources/output-size-07.png "Ejemplo de problema 3")
 
 
 
@@ -159,7 +159,7 @@ El problema se debe a un modificador relativo de 3 en el nodo [Transformación 2
 
 **![(marca)](output-size.resources/check.svg) Solución**
 
-![Ejemplo de problema 3 Solución](output-size.resources/problem3-good.png "Ejemplo de problema 3 Solución")
+![Ejemplo de problema 3 Solución](output-size.resources/output-size-08.png "Ejemplo de problema 3 Solución")
 
 
 

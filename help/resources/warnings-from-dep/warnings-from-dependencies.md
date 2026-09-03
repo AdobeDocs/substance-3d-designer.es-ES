@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Conozca las advertencias de las dependencias de recursos en Substance 3D Designer y cómo resolverlas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Advertencias de dependencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Existen dos formas principales de corregir este problema:
 
    A continuación, vuelve a cargar el paquete host haciendo clic en RMB en él en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) y seleccionando la opción <b>Volver a cargar</b> en el menú contextual.
 
-   ![&#39;Paquete dependiente no válido&#39; solución 1](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg.gif "&#39;Paquete dependiente no válido&#39; solución 1")
+   ![&#39;Paquete dependiente no válido&#39; solución 1](warnings-from-dependencies.resources/warnings-from-dependencies-01.gif "&#39;Paquete dependiente no válido&#39; solución 1")
 1. <b>Reubicar la dependencia en el paquete</b>
 
    Puede reubicar la dependencia mediante el [Administrador de dependencias](../../interface/dependency-manager/dependency-manager.md) . Haga clic en RMB en el paquete host en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) y seleccione la opción <b>Administrador de dependencias</b> en el menú contextual.
@@ -47,7 +47,7 @@ Existen dos formas principales de corregir este problema:
 
    A continuación, vuelve a cargar el paquete host haciendo clic en RMB en él en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) y seleccionando la opción <b>Volver a cargar</b> en el menú contextual.
 
-   ![&#39;Paquete dependiente no válido&#39; solución 2](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg-2.gif "&#39;Paquete dependiente no válido&#39; solución 2")
+   ![&#39;Paquete dependiente no válido&#39; solución 2](warnings-from-dependencies.resources/warnings-from-dependencies-02.gif "&#39;Paquete dependiente no válido&#39; solución 2")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) Compruebe que el alias *&#39;X&#39;* está definido en el proyecto
 
@@ -57,7 +57,7 @@ Una de las dependencias o recursos del paquete se está cargando desde una ubica
 
 Al menos uno de los [archivos de proyecto](../../interface/preferences-window/project-settings/project-settings.md) debe definir el alias indicado en la advertencia.
 
-![&#39;Comprobar alias definido&#39; solución](warnings-from-dependencies.resources/warnings-dep-alias.gif "&#39;Comprobar alias definido&#39; solución")
+![&#39;Comprobar alias definido&#39; solución](warnings-from-dependencies.resources/warnings-from-dependencies-03.gif "&#39;Comprobar alias definido&#39; solución")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) No se encuentra ningún archivo que coincida con este recurso
 
@@ -73,12 +73,12 @@ Existen dos formas principales de corregir este problema:
 
    Vaya a la ubicación especificada por el atributo <b>Ruta de archivo</b> del recurso y compruebe que existen los archivos que siguen a la plantilla. Si no lo hacen, restáurelos o recréelos.
 
-   ![&#39;No hay ningún archivo que coincida con el recurso&#39; solución 1](warnings-from-dependencies.resources/warnings-dep-udim-2.gif "&#39;No hay ningún archivo que coincida con el recurso&#39; solución 1")
+   ![&#39;No hay ningún archivo que coincida con el recurso&#39; solución 1](warnings-from-dependencies.resources/warnings-from-dependencies-04.gif "&#39;No hay ningún archivo que coincida con el recurso&#39; solución 1")
 1. <b>Reubicar los archivos</b>
 
    Si los archivos se movieron o se les cambió el nombre, reubícalos haciendo clic en RMB en el elemento de recurso en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) y selecciona la opción <b>Reubicar</b> para vincular ese recurso al *primer archivo de un conjunto* de imágenes UDIM del mismo tipo.
 
-   ![&#39;No hay ningún archivo que coincida con el recurso&#39; solución 2](warnings-from-dependencies.resources/warnings-dep-udim.gif "&#39;No hay ningún archivo que coincida con el recurso&#39; solución 2")
+   ![&#39;No hay ningún archivo que coincida con el recurso&#39; solución 2](warnings-from-dependencies.resources/warnings-from-dependencies-05.gif "&#39;No hay ningún archivo que coincida con el recurso&#39; solución 2")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) No se encontró el archivo vinculado
 
@@ -92,12 +92,12 @@ Existen dos formas principales de corregir este problema:
 
    Vaya a la ubicación especificada por el atributo <b>File Path</b> del recurso y compruebe que el archivo existe. Si no lo hace, restáurelo o vuelva a crearlo.
 
-   Solución ![&#39;Archivo vinculado no encontrado&#39; Solución 1](warnings-from-dependencies.resources/warnings-dep-file-not-found.gif "&#39;Archivo vinculado no encontrado&#39; Solución 1")
+   Solución ![&#39;Archivo vinculado no encontrado&#39; Solución 1](warnings-from-dependencies.resources/warnings-from-dependencies-06.gif "&#39;Archivo vinculado no encontrado&#39; Solución 1")
 1. <b>Reubicar el archivo</b>
 
    Si el archivo se movió o se le cambió el nombre, reubícalo haciendo clic en RMB en el elemento de recurso en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) y selecciona la opción <b>Reubicar</b> para vincular ese recurso a otro archivo del mismo tipo.
 
-   ![&#39;Archivo vinculado no encontrado&#39; solución 2](warnings-from-dependencies.resources/warnings-dep-file-not-found-2.gif "&#39;Archivo vinculado no encontrado&#39; solución 2")
+   ![&#39;Archivo vinculado no encontrado&#39; solución 2](warnings-from-dependencies.resources/warnings-from-dependencies-07.gif "&#39;Archivo vinculado no encontrado&#39; solución 2")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) No se encuentra el espacio de color
 
@@ -113,7 +113,7 @@ Como alternativa, agregue ese espacio de color al entorno [administración de co
 >
 > Esta advertencia solo se activa cuando se usa un modo de administración de color que no sea **Heredado** (lo que es similar a deshabilitar la administración de color). Puede habilitar la administración de color en la sección **Administración de color** de la [configuración del proyecto](../../interface/preferences-window/project-settings/project-settings.md).
 
-Solución ![&#39;No se encuentra el espacio de color&#39;](warnings-from-dependencies.resources/warnings-dep-color-space.gif "&#39;Solución no se encuentra el espacio de color&#39;")
+Solución ![&#39;No se encuentra el espacio de color&#39;](warnings-from-dependencies.resources/warnings-from-dependencies-08.gif "&#39;Solución no se encuentra el espacio de color&#39;")
 
 ## No se encontró el recurso de referencia ![(error)](warnings-from-dependencies.resources/error.svg)
 
@@ -125,14 +125,14 @@ Existen dos formas principales de corregir este problema:
 
 1. <b>Restaurar el gráfico</b>
 
-   Compruebe el contenido del paquete en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) para ver el gráfico especificado en la lista <b>Mosaicos UV</b>. Si no existe, restáurelo o vuelva a crearlo.
+   Compruebe el contenido del paquete en el panel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) para ver el gráfico especificado en la lista <b>Mosaicos de UV</b>. Si no existe, restáurelo o vuelva a crearlo.
 
-   ![&#39;Recurso de referencia no encontrado&#39; solución 1](warnings-from-dependencies.resources/warnings-dep-udim-graph-2.gif "&#39;Recurso de referencia no encontrado&#39; solución 1")
+   ![&#39;Recurso de referencia no encontrado&#39; solución 1](warnings-from-dependencies.resources/warnings-from-dependencies-09.gif "&#39;Recurso de referencia no encontrado&#39; solución 1")
 1. <b>Seleccionar otro gráfico</b>
 
    Asigne otro gráfico del paquete al azulejo UV.
 
-   ![&#39;Recurso de referencia no encontrado&#39; solución 1](warnings-from-dependencies.resources/warnings-dep-udim-graph.gif "&#39;Recurso de referencia no encontrado&#39; solución 2")
+   ![&#39;Recurso de referencia no encontrado&#39; solución 1](warnings-from-dependencies.resources/warnings-from-dependencies-10.gif "&#39;Recurso de referencia no encontrado&#39; solución 2")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) Los mosaicos UV se asignan varias veces
 
@@ -142,7 +142,7 @@ Un mosaico UV para un [recurso de escena 3D](../3d-scene-resource/3d-scene-resou
 
 Para cada conjunto UV de un recurso de malla 3D, asegúrese de que no haya ningún índice UDIM presente *más de una vez* en la lista <b>Mosaicos UV</b>.
 
-![&#39;Los mosaicos UV se asignan varias veces&#39; solución](warnings-from-dependencies.resources/warnings-dep-udim-same.gif "&#39;Los mosaicos UV se asignan varias veces&#39; solución")
+![&#39;Los mosaicos UV se asignan varias veces&#39; solución](warnings-from-dependencies.resources/warnings-from-dependencies-11.gif "&#39;Los mosaicos UV se asignan varias veces&#39; solución")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) Mosaicos UV no válidos
 
@@ -156,4 +156,4 @@ Para cada conjunto UV de un recurso de malla 3D, asegúrese de que todos los ele
 >
 > Esta advertencia no se puede desencadenar a través de la interfaz de usuario, ya que *only* muestra los UDIM detectados en el recurso vinculado. Solo modificar los datos del archivo Substance 3D (SBS) *directamente* puede provocar esta advertencia.
 
-![&#39;Solución de mosaicos UV no válida](warnings-from-dependencies.resources/warnings-dep-udim-invalid.gif "&#39;Solución de mosaicos UV no válida")
+![&#39;Solución de mosaicos UV no válida](warnings-from-dependencies.resources/warnings-from-dependencies-12.gif "&#39;Solución de mosaicos UV no válida")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
 breadcrumb-title: ''
 description: Utilice el nodo FXAA para aplicar el suavizado de aproximación rápida a las texturas para reducir los artefactos de suavizado.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FXAA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fxaa.resources/fxaa-color.png)![](fxaa.resources/fxaa-grayscale.png)
+![](fxaa.resources/fxaa-01.png)![](fxaa.resources/fxaa-02.png)
 
 <b>En:</b> Filtros > Efectos
 
@@ -44,7 +44,7 @@ Aplica un filtro de suavizado basado en el algoritmo FXAA. Puede utilizar esta o
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fxaa.resources/fxaa-ex.png" />
+            <img src="fxaa.resources/fxaa-03.png" />
         </td>
     </tr>
 </table>

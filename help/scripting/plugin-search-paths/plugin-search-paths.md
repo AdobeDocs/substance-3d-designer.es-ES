@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: Configure las rutas de búsqueda de complementos en Substance 3D Designer para especificar dónde se encuentran los complementos de Python.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rutas de búsqueda de complementos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Los usuarios pueden *agregar directorios personalizados* manualmente en las pref
 1. En la pestaña <b>Python</b>, haz clic en el botón *<b>+</b>*para agregar el directorio que contiene los complementos
 1. Haga clic en <b>Aceptar</b> para validar
 
-![Configurar complementos de Python rutas de búsqueda Configuración del proyecto](plugin-search-paths.resources/image-70.png "Configurar complementos de Python rutas de búsqueda Configuración del proyecto")
+![Configurar complementos de Python rutas de búsqueda Configuración del proyecto](plugin-search-paths.resources/plugin-search-paths-01.png "Configurar complementos de Python rutas de búsqueda Configuración del proyecto")
 
 ## Uso de variables de entorno
 

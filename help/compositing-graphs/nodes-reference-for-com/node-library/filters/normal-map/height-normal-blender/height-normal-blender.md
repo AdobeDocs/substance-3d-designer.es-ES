@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
-description: Utilice el nodo Mezclador normal de Height para fusionar height y mapas de normales y así combinar información de detalle de superficie.
+description: Utilice el nodo Mezclador normal de Height para fusionar mapas normales y de height para combinar información de detalle de superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height Normal Blender
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height Normal Blender
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-normal-blender.resources/height-normal-blender.png){width="128px"}
+![](height-normal-blender.resources/height-normal-blender-01.png){width="128px"}
 
 <b>En:</b> Filtros > Mapa de normales
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Descripción
 
-Nodo de método abreviado que combina un mapa de altura en escala de grises con un mapa normal. La entrada de Height se convierte a un mapa normal internamente y, a continuación, se fusiona correctamente con la entrada normal.
+Nodo de acceso directo que fusiona un mapa de altura en escala de grises en un mapa normal. La entrada de Height se convierte a un mapa normal internamente y, a continuación, se fusiona correctamente con la entrada normal.
 
 Esta es una forma más rápida de fusionar detalles que hacerlo manualmente con nodos separados, pero es posible que le falte control y perfeccionamiento para ciertas necesidades.
 

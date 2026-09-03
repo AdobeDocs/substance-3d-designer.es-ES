@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión de Substance 3D Designer 13.1 para obtener más información sobre las mejoras en los gráficos de nodos y la compatibilidad con la exportación de AxF.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,33 +24,33 @@ ht-degree: 1%
 
 *Fecha de publicación: 12 de diciembre de 2023*
 
-![Banner de Substance 3D Designer 13.1](version-13-1.resources/24-library-hero-1920x620.png "Banner de Substance 3D Designer 13.1")
+![Banner de Substance 3D Designer 13.1](version-13-1.resources/version-13-1-01.png "Banner de Substance 3D Designer 13.1")
 
 ## Mejoras de los marcos
 
-Los fotogramas son una herramienta obligatoria para mantener el gráfico bien organizado y legible. Esa es la razón por la que decidimos pulirlos en esta nueva versión.
+Los marcos son una herramienta obligatoria para mantener el gráfico bien organizado y legible. Esa es la razón por la que decidimos pulirlos en esta nueva versión.
 
 ### Expandir automáticamente
 
 A medida que crece el gráfico, puede ser necesario reorganizar el contenido de los marcos. Es posible que los nodos cambien para dejar espacio para las adiciones o que el contenido deba espaciarse más para facilitar la lectura. Para facilitar estos ajustes, ahora es posible ampliar automáticamente un fotograma al mover objetos incluidos: mantén <b>Shift</b> pulsado en cualquier momento mientras mueves un objeto para que los bordes del marco se ajusten automáticamente y mantener ese objeto dentro de sus límites.
 
-![autoexpand](version-13-1.resources/autoexpand.gif)
+![autoexpand](version-13-1.resources/version-13-1-02.gif)
 
 ### Ajustar tamaño al contenido
 
 Al realizar ajustes en el gráfico, es posible que un marco ya no se ajuste correctamente a su contenido. Este nuevo comando le permite ajustar automáticamente la posición y el tamaño del marco para que se ajuste a la extensión de su contenido, con un relleno de una celda de cuadrícula media. Si el marco tiene una descripción, se ajusta para utilizar cualquier espacio vacío junto a la descripción, si es posible.
 
-![fitsize](version-13-1.resources/fitsize.gif)
+![fitsize](version-13-1.resources/version-13-1-03.gif)
 
 ### Descripciones mejoradas
 
 Gracias al código del HTML, ahora puede tener texto con formato en la descripción de un marco. Esto también se aplica a los comentarios.
 
-![richtext](version-13-1.resources/description-3.png)
+![richtext](version-13-1.resources/version-13-1-04.png)
 
 ### <b>... ¡Y mucho más!</b>
 
-Se han repensado muchas cosas, como pertenecer a reglas para ser más tolerantes, zonas de interacción para cambiar fácilmente el tamaño de los marcos, ajustar reglas para no alinear incorrectamente los nodos en la cuadrícula y el aspecto visual para aportar un poco de frescura. No dude en visitar la [documentación](../../interface/the-graph-view/graph-items/frame/frame.md) de los marcos para obtener más información.
+Se han repensado muchas cosas, como pertenecer a reglas para ser más tolerantes, zonas de interacción para cambiar fácilmente el tamaño de los marcos, ajustar reglas para no alinear mal los nodos en la cuadrícula y el aspecto visual para aportar un poco de frescura. No dude en visitar la [documentación](../../interface/the-graph-view/graph-items/frame/frame.md) de los marcos para obtener más información.
 
 ## Mejoras en la calidad de vida
 
@@ -64,7 +64,7 @@ Se han repensado muchas cosas, como pertenecer a reglas para ser más tolerantes
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de archivo AxF](version-13-1.resources/axf-file-icon.png "Icono de archivo AxF")
+![Icono de archivo AxF](version-13-1.resources/version-13-1-05.png "Icono de archivo AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ En esta nueva versión, presentamos la posibilidad de editar materiales AxF en s
 </tr>
 </table>
 
-![Exportar AxF](version-13-1.resources/exportaxf.gif)
+![Exportar AxF](version-13-1.resources/version-13-1-06.gif)
 
 ## API
 

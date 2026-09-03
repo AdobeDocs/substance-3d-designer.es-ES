@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Advertencias en gráficos MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -37,7 +37,7 @@ El gráfico no tiene definido ningún nodo de salida.
 Seleccione cualquier nodo del gráfico que genere un valor cuyo tipo coincida con el tipo esperado para esta función, si lo hubiera, y luego haga clic en RMB y seleccione la opción <b>Establecer como raíz</b> en el menú contextual o haga doble clic en LMB en el nodo.\
 El nodo de salida de un gráfico de modelo de Substance tiene el color *naranja*.
 
-![&#39;Solución no definida de nodo de salida&#39;](warnings-in-mdl-graphs.resources/warnings-model-output.gif "&#39;Solución no definida de nodo de salida&#39;")
+![&#39;Solución no definida de nodo de salida&#39;](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-01.gif "&#39;Solución no definida de nodo de salida&#39;")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) Se rechazó al menos un valor de entrada
 
@@ -47,7 +47,7 @@ El valor proporcionado para un parámetro no genera un cálculo válido del nodo
 
 Ajuste el valor para que tenga sentido para el parámetro de destino.
 
-![&#39;Se rechazó al menos un valor de entrada&#39; solución](warnings-in-mdl-graphs.resources/warnings-model-rejected-value.gif "&#39;Se rechazó al menos un valor de entrada&#39; solución")
+![&#39;Se rechazó al menos un valor de entrada&#39; solución](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-02.gif "&#39;Se rechazó al menos un valor de entrada&#39; solución")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) No hay valor de entrada
 
@@ -59,7 +59,7 @@ Algunos parámetros de nodo no pueden recaer en un valor predeterminado cuando n
 
 Conecte las entradas de nodo al conector de salida de otro nodo de tipo coincidente.
 
-![&#39;Solución sin valor de entrada&#39;](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "&#39;Solución sin valor de entrada&#39;")
+![&#39;Solución sin valor de entrada&#39;](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "&#39;Solución sin valor de entrada&#39;")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) No se calculó el nodo
 
@@ -69,7 +69,7 @@ La información proporcionada al nodo está incompleta o no es válida, por lo q
 
 Suba al gráfico y compruebe si hay advertencias desencadenadas por problemas que impiden que los nodos proporcionen una salida válida.
 
-![&#39;No se calculó el nodo&#39; solución](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "&#39;No se calculó el nodo&#39; solución")
+![&#39;No se calculó el nodo&#39; solución](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "&#39;No se calculó el nodo&#39; solución")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) Los datos a los que se hace referencia tienen algunas advertencias
 
@@ -85,7 +85,7 @@ En el panel Explorador, busque el recurso al que se hace referencia y solucione 
 * Para gráficos, consulte otros elementos de esta página
 * Para cualquier otro tipo de recurso, consulte la página Advertencias de dependencias
 
-![&#39;Los datos a los que se hace referencia tienen algunas advertencias&#39; solución](warnings-in-mdl-graphs.resources/warnings-model-referenced-data.gif "&#39;Los datos a los que se hace referencia tienen algunas advertencias&#39; solución")
+![&#39;Los datos a los que se hace referencia tienen algunas advertencias&#39; solución](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-04.gif "&#39;Los datos a los que se hace referencia tienen algunas advertencias&#39; solución")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) Recurso de referencia no encontrado
 
@@ -106,7 +106,7 @@ Para nodos de recursos de escena
 Busque los recursos a los que se hace referencia en el panel [Explorador](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) y compruebe que existen en la ubicación guardada en su atributo <b>Ruta de archivo</b>.\
 Si no es así, haz clic en *RMB* en el elemento de recurso en el Explorador y selecciona <b>Reubicar...Opción </b> en el menú contextual para establecer un nuevo archivo de destino válido para ese recurso.
 
-![&#39;Recurso de referencia no encontrado&#39; solución](warnings-in-mdl-graphs.resources/warnings-model-referenced-resource.gif "&#39;Recurso de referencia no encontrado&#39; solución")
+![&#39;Recurso de referencia no encontrado&#39; solución](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-05.gif "&#39;Recurso de referencia no encontrado&#39; solución")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) El intervalo de software no contiene el valor
 
@@ -120,7 +120,7 @@ Ajuste el valor por defecto o el rango flexible para que el primero se incluya e
 >
 > Esta advertencia no se puede desencadenar a través de la interfaz de usuario, ya que *ajusta automáticamente* el intervalo flexible para incluir el valor predeterminado. Solo modificar los datos del archivo Substance 3D (SBS) *directamente* puede provocar esta advertencia.
 
-El intervalo flexible de ![&#x200B; no contiene la solución de valor &#39;](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39; El intervalo flexible no contiene la solución de valor &#39;")
+El intervalo flexible de ![ no contiene la solución de valor &#39;](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39; El intervalo flexible no contiene la solución de valor &#39;")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) El intervalo de software está fuera del intervalo de hardware
 
@@ -134,7 +134,7 @@ Ajuste el rango suave o el rango duro para que el primero se incluya por complet
 >
 > Esta advertencia no se puede desencadenar a través de la interfaz de usuario, ya que *ajusta automáticamente* el rango flexible para que se incluya completamente en el rango duro. Solo modificar los datos del archivo Substance 3D (SBS) *directamente* puede provocar esta advertencia.
 
-![&#39;El intervalo suave está fuera del intervalo duro&#39; solución](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;El intervalo suave está fuera del intervalo duro&#39; solución")
+![&#39;El intervalo suave está fuera del intervalo duro&#39; solución](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;El intervalo suave está fuera del intervalo duro&#39; solución")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) El valor está fuera del intervalo de hardware
 
@@ -148,4 +148,4 @@ Ajuste el valor predeterminado o el intervalo de hardware para que el primero se
 >
 > Esta advertencia no se puede desencadenar a través de la interfaz de usuario, ya que *ajusta automáticamente* el valor predeterminado que se va a incluir en el intervalo de hardware. Solo modificar los datos del archivo Substance 3D (SBS) *directamente* puede provocar esta advertencia.
 
-![&#39;El valor está fuera del rango duro&#39; solución](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;El valor está fuera del rango duro&#39; solución")
+![&#39;El valor está fuera del rango duro&#39; solución](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;El valor está fuera del rango duro&#39; solución")

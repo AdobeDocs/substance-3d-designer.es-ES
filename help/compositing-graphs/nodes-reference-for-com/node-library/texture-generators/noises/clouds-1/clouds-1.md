@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
 breadcrumb-title: ''
-description: Utilice el nodo Nubes 1 para generar patrones de nube básicos para crear efectos de textura atmosférica y volumétrica.
+description: Utilice el nodo Nubes 1 para generar patrones de nube básicos para crear efectos de textura atmosféricos y volumétricos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Clouds 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nubes 1 - Icono](clouds-1.resources/clouds_1.png "Nubes 1 - Icono"){width="200px"}
+![Nubes 1 - Icono](clouds-1.resources/clouds-1-01.png "Nubes 1 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -69,12 +69,12 @@ Consulte también: [Nubes 2](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nubes 1 - Ejemplo 1](clouds-1.resources/clouds_1_1.png "Nubes 1 - Ejemplo 1"){zoomable="yes"}
+![Nubes 1 - Ejemplo 1](clouds-1.resources/clouds-1-02.png "Nubes 1 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nubes 1 - Ejemplo 2](clouds-1.resources/noise_clouds_1_v2_speed0.6_aniso0.gif "Nubes 1 - Ejemplo 2"){zoomable="yes"}
+![Nubes 1 - Ejemplo 2](clouds-1.resources/clouds-1-03.gif "Nubes 1 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Consulte también: [Nubes 2](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nubes 1 - Ejemplo 3](clouds-1.resources/noise_clouds_1_v2_speed0.6_aniso1.gif "Nubes 1 - Ejemplo 3"){zoomable="yes"}
+![Nubes 1 - Ejemplo 3](clouds-1.resources/clouds-1-04.gif "Nubes 1 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nubes 1 - Ejemplo 4](clouds-1.resources/noise_clouds_1_v2_speed0.3_aniso0.6.gif "Nubes 1 - Ejemplo 4"){zoomable="yes"}
+![Nubes 1 - Ejemplo 4](clouds-1.resources/clouds-1-05.gif "Nubes 1 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

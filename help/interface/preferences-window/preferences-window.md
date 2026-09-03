@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Acceda a la ventana Preferencias de Substance 3D Designer para personalizar la configuración y el comportamiento de la aplicación.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Ventana Preferencias
 
-![Ventana de preferencias](preferences-window.resources/image2021-6-22-20-56-1.png "Ventana de preferencias")
+![Ventana de preferencias](preferences-window.resources/preferences-window-01.png "Ventana de preferencias")
 
 Esta página presenta la ventana <b>Preferencias</b> y toda su configuración.
 
@@ -141,7 +141,7 @@ Consulte la página [Configuración de proyectos](../../interface/preferences-wi
 | --- | --- |
 | <b>La tecla de tabulación muestra el menú de nodos</b>  *Valor predeterminado: Comprobado* | Si se marca, la tecla &quot;Tab&quot; abrirá el menú <b>Nodo</b>, replicando la funcionalidad de la clave &quot;Space&quot;. |
 | <b>Habilitar la creación de nodos haciendo clic y arrastrando conectores</b>  *Valor predeterminado: Comprobado* | Si está marcado, al hacer clic en cualquier conector, arrastre el cursor y suelte el vínculo creado en el espacio vacío del gráfico para mostrar el <b>menú Nodo</b>.   El menú también se *filtrará* según el tipo de conector en el que se haya hecho clic. Esto significa que sólo se mostrarán los nodos compatibles con el conector en el que se ha hecho clic. |
-| <b>Ver resultados en vista 3D al abrir un gráfico</b>  *Valor predeterminado: Comprobado* | Si se marca, todas las salidas de gráficos se aplican automáticamente en la [vista 3D](../../interface/3d-view/3d-view.md) cuando se abre ese gráfico.   Esto también tiene el efecto de representar todos los nodos que forman parte de una secuencia que conduce a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
+| <b>Ver resultados en vista 3D al abrir un gráfico</b>  *Valor predeterminado: Comprobado* | Si se marca, todas las salidas de gráficos se aplican automáticamente en el [Vista 3D](../../interface/3d-view/3d-view.md) cuando se abre ese gráfico.   Esto también tiene el efecto de representar todos los nodos que forman parte de una secuencia que conduce a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
 
 ### Gráfico de composición de Substance
 
@@ -157,14 +157,14 @@ Consulte la página [Configuración de proyectos](../../interface/preferences-wi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Edición en contexto deshabilitada](preferences-window.resources/substance3ddesigner_incontext_no.gif "Edición en contexto deshabilitada")
+![Edición en contexto deshabilitada](preferences-window.resources/preferences-window-02.gif "Edición en contexto deshabilitada")
 
 *Abrir referencia*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Edición en contexto habilitada](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Edición en contexto habilitada")
+![Edición en contexto habilitada](preferences-window.resources/preferences-window-03.gif "Edición en contexto habilitada")
 
 *Abrir Referencia En Contexto*
 
@@ -191,7 +191,7 @@ Consulte la página [Configuración de proyectos](../../interface/preferences-wi
 
 |  |  |
 | --- | --- |
-| <b>Trazado de rayos de GPU</b>  *Valor predeterminado: Comprobado* | Si se marca, el trazado de rayos se realizará en la GPU para [panaderos compatibles](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/gpu-raytracing).   Los siguientes backends de Trazado de rayos de GPU serán los predeterminados según la arquitectura de GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing y más reciente</li> <li data-preserve-html="true"><i>Optix</i>: Pascal y Maxwell</li> </ul>  **Nota:** Encontrarás más información sobre panaderos impulsados por GPU en la sección [Trazado de rayos de GPU](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/gpu-raytracing) de la documentación de [Substance Bakers](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/home).  **Sugerencia:** Puede usar los siguientes *argumentos de línea de comandos* al iniciar la aplicación para *forzar* el uso de un motor de Trazado de rayos de GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>: force-optix</code> : forzar el uso de Optix en Nvidia Turing o en GPU más nuevas</li> <li data-preserve-html="true"><code>: force-dxr</code> : forzar el uso de DXR en las GPU Nvidia Pascal</li> </ul> |
+| <b>Trazado de rayos de GPU</b>  *Valor predeterminado: Comprobado* | Si se marca, el trazado de rayos se realizará en la GPU para [panaderos compatibles](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   Los siguientes backends de Trazado de rayos de GPU serán los predeterminados según la arquitectura de GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing y más reciente</li> <li data-preserve-html="true"><i>Optix</i>: Pascal y Maxwell</li> </ul>  **Nota:** Encontrarás más información sobre panaderos impulsados por GPU en la sección [Trazado de rayos de GPU](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) de la documentación de [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Sugerencia:** Puede usar los siguientes *argumentos de línea de comandos* al iniciar la aplicación para *forzar* el uso de un motor de Trazado de rayos de GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>: force-optix</code> : forzar el uso de Optix en Nvidia Turing o en GPU más nuevas</li> <li data-preserve-html="true"><code>: force-dxr</code> : forzar el uso de DXR en las GPU Nvidia Pascal</li> </ul> |
 
 ## Biblioteca
 

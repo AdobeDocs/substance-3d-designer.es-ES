@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cúbica polinomial para crear splines cúbicas suaves con cuatro puntos de control para trazados curvos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (cúbico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-cubic.resources/spline-cubic-icon.png "Icono de nodo")
+![Icono de nodo](spline-cubic.resources/spline-cubic-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -101,12 +101,12 @@ La trayectoria de la spline está controlada por la tangente ‘out’ de <b>p1<
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](spline-cubic.resources/SplineCubic-Variant1.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](spline-cubic.resources/spline-cubic-02.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](spline-cubic.resources/SplineCubic-Variant2.jpg "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-cubic.resources/spline-cubic-03.jpg "Ejemplo de nodo 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ La trayectoria de la spline está controlada por la tangente ‘out’ de <b>p1<
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 3](spline-cubic.resources/SplineCubic-Demo.gif "Ejemplo de nodo 3")
+![Ejemplo de nodo 3](spline-cubic.resources/spline-cubic-04.gif "Ejemplo de nodo 3")
 
 </td>
 <td style="border: 0;" valign="top">

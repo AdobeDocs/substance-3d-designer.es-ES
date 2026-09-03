@@ -1,7 +1,7 @@
 ---
 title: Color del asignador de salpicaduras de formas v2
 description: Designer > Gráficos de composición de Substance > Referencia de nodos para gráficos de composición de Substance > Biblioteca de nodos > Generador > Patrón > Color del asignador de salpicaduras de formas v2
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de color del asignador de salpicaduras de formas v2](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color.png "Color del asignador de salpicaduras de formas v2")
+![Icono de color del asignador de salpicaduras de formas v2](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "Color del asignador de salpicaduras de formas v2")
 
 <b>En:</b> Generador > Patrón
 
@@ -86,8 +86,8 @@ Consulte también [Escala de grises del asignador de salpicaduras de formas v2](
 |                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |:-------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Modo de proyección</b> *Entero* | Método para proyectar las imágenes de entrada en las formas:<br><br>- <b>UV de salpicaduras:</b> Utilice las UV proporcionadas por el nodo &#39;Shape splatter v2&#39;.<br>- <b>Triplanar:</b> Utilice la proyección triplanar para asignar las imágenes en los ejes locales XYZ de las formas.<br>- <b>Función personalizada:</b> Cree un gráfico de funciones para definir la asignación de las imágenes a las formas. |
-| <b>Función personalizada</b> *Float4* | Especifica el color RGBA por píxel de las formas como Float4.<br><br>Están disponibles las siguientes variables:<br>- <code>shape.position.os</code> (Float3) Posición de la superficie de la forma en el espacio de objetos.<br>- <code>shape.position.ws</code> (Float3) Posición de la superficie de forma en el espacio de entorno*.<br>- <code>shape.normal.os</code> (Float3) Valores normales de la superficie de la forma en el espacio de objetos.<br> - <code>shape.normal.ws</code> (Float3) Valores normales de la superficie de forma en el espacio de entorno*.<br>- <code>shape.id</code> (Float) Identificador único de la forma.<br>- <code>material.id</code> (Float) Id. de material de la superficie de forma, definida por el nodo &#39;Shape splatter v2&#39;.<br><br>*: El espacio de mundo de la forma se centra en su giro y no tiene en cuenta el height de la forma. Esto significa que la única diferencia con el espacio del objeto es la orientación.<br><br>Si se necesita muestrear las entradas del nodo &#39;Shape splatter v2 mapper color&#39;, se pueden usar estas ranuras de entrada de nodo <b>Sample color</b>:<br>- 0: Atlas de cuadrícula<br>-1-8: Entrada de patrón 1-8 |
-| <b>Es un mapa normal</b> *Booleano* | Especifica si las imágenes proporcionadas a la <b>entrada de Atlas de cuadrícula</b> o a la <b>entrada de patrón #</b> son mapas normales.<br><br>Esto es necesario para habilitar el procesamiento necesario para controlar correctamente los vectores normales y aplicarlos a las formas. |
+| <b>Función personalizada</b> *Float4* | Especifica el color RGBA por píxel de las formas como Flotante4.<br><br>Están disponibles las siguientes variables:<br>- <code>shape.position.os</code> (Flotante3) Posición de la superficie de la forma en el espacio de objetos.<br>- <code>shape.position.ws</code> (Float3) Posición de la superficie de forma en el espacio de entorno*.<br>- <code>shape.normal.os</code> (Float3) Valores normales de la superficie de la forma en el espacio de objetos.<br> - <code>shape.normal.ws</code> (Flotante3) Valores normales de la superficie de forma en el espacio de entorno*.<br>- <code>shape.id</code> (Flotante) El identificador único de la forma.<br>- <code>material.id</code> (Flotante) Identificador de material de la superficie de forma, definido por el nodo &#39;Shape splatter v2&#39;.<br><br>*: El espacio de mundo de la forma se centra en su giro y no tiene en cuenta el height de la forma. Esto significa que la única diferencia con el espacio del objeto es la orientación.<br><br>Si se necesita muestrear las entradas del nodo &#39;Shape splatter v2 mapper color&#39;, se pueden usar estas ranuras de entrada de nodo <b>Sample color</b>:<br>- 0: Atlas de cuadrícula<br>-1-8: Entrada de patrón 1-8 |
+| <b>Es mapa de normales</b> *Booleano* | Especifica si las imágenes proporcionadas a la <b>entrada de Atlas de cuadrícula</b> o a la <b>entrada de patrón #</b> son mapas normales.<br><br>Esto es necesario para habilitar el procesamiento necesario para controlar correctamente los vectores normales y aplicarlos a las formas. |
 | <b>Introducir formato normal</b> *Entero* | El formato de los mapas normales proporcionados a la <b>entrada de Atlas de cuadrícula</b> o a la <b>entrada de patrón #</b>.<br><br>Invierte de forma efectiva el canal verde.<br><br>- <b>DirectX:</b> El eje Y señala hacia arriba.<br>- <b>OpenGL:</b> El eje Y señala hacia abajo. |
 | <b>Contraste de fusión</b> *Flotador* | Nitidez de las transiciones entre las proyecciones planas, donde 1 significa que no hay degradado de transición. |
 | <b>Proyección de imágenes</b> *Entero* | Cantidad de imágenes <b>Pattern input #</b> distribuidas en las proyecciones planas que contribuyen a la asignación triplanar.<br><br>Para cubrir todos los lados de una forma, se realiza una proyección plana frontal (+) y posterior (-) en cada eje, con un total de 6 proyecciones.<br><br>- <b>1 imagen:</b> La entrada de patrón 1 se usa para todas las proyecciones planas.<br>- <b>3 imágenes:</b> Se usa una entrada de patrón independiente para la proyección +/- de cada eje.<br>- <b>6 imágenes:</b> Cada proyección usa una entrada de patrón independiente.<br>- <b>1 imagen por material ID:</b> entrada de patrón independiente por ID de material, donde cada imagen se utiliza para todas las proyecciones planas. |
@@ -113,24 +113,24 @@ Consulte también [Escala de grises del asignador de salpicaduras de formas v2](
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-triplanar-02.gif" /><br><i>Asignación triplanar</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-02.gif" /><br><i>Asignación triplanar</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" /><br><i>Asignación normal</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" /><br><i>Asignación normal</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" /><br><i>Asignación por ID de material de formas SDF</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" /><br><i>Asignación por ID de material de formas SDF</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" /><br><i>Ajuste de segmentación con asignación triplanar</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" /><br><i>Ajuste de segmentación con asignación triplanar</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-01.jpg" /><br><i>Asignación por id. de material desde forma de cilindro</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-06.jpg" /><br><i>Asignación por id. de material desde forma de cilindro</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-graph.png" /><br><i>Nodo en contexto de un gráfico</i>" /&gt;
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-07.png" /><br><i>Nodo en contexto de un gráfico</i>" /&gt;
         </td>
     </tr>
 </table>

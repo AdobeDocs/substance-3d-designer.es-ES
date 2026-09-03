@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
 breadcrumb-title: ''
 description: Utilice el nodo Degradado de Dirt para generar patrones de dirt basados en degradado para crear efectos direccionales de intemperismo y acumulación.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: degradado de dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Degradado de Dirt - Icono](dirt-gradient.resources/dirt_gradient.png "Degradado de Dirt - Icono"){width="200px"}
+![Degradado de Dirt - Icono](dirt-gradient.resources/dirt-gradient-01.png "Degradado de Dirt - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -67,12 +67,12 @@ Consulte también: [Dirt 1](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Degradado de Dirt - Ejemplo 1](dirt-gradient.resources/dirt_gradient_1.png "Degradado de Dirt - Ejemplo 1"){zoomable="yes"}
+![Degradado de Dirt - Ejemplo 1](dirt-gradient.resources/dirt-gradient-02.png "Degradado de Dirt - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Degradado de Dirt - Ejemplo 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Degradado de Dirt - Ejemplo 2"){zoomable="yes"}
+![Degradado de Dirt - Ejemplo 2](dirt-gradient.resources/dirt-gradient-03.gif "Degradado de Dirt - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Consulte también: [Dirt 1](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Degradado de Dirt - Ejemplo 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Degradado de Dirt - Ejemplo 3"){zoomable="yes"}
+![Degradado de Dirt - Ejemplo 3](dirt-gradient.resources/dirt-gradient-04.gif "Degradado de Dirt - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Degradado de Dirt - Ejemplo 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Degradado de Dirt - Ejemplo 4"){zoomable="yes"}
+![Degradado de Dirt - Ejemplo 4](dirt-gradient.resources/dirt-gradient-05.gif "Degradado de Dirt - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

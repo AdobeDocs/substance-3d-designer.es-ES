@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-1.html"
 breadcrumb-title: ''
-description: Utilice el nodo Fibras sucias 1 para generar patrones de fibra básicos para crear detalles de textura de tejidos y textiles.
+description: Use el nodo Fibras sucias 1 para generar patrones de fibra básicos para crear detalles de texturas textiles y de tejidos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fibras sucias 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fibras sucias 1 - Icono](messy-fibers-1.resources/messy_fibers_1.png "Fibras sucias 1 - Icono"){width="200px"}
+![Fibras sucias 1 - Icono](messy-fibers-1.resources/messy-fibers-1-01.png "Fibras sucias 1 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -72,12 +72,12 @@ Consulte también: [Fibras sucias 2](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibras sucias 1 - Icono](messy-fibers-1.resources/messy_fibers_1_1.png "Fibras sucias 1 - Icono"){zoomable="yes"}
+![Fibras sucias 1 - Icono](messy-fibers-1.resources/messy-fibers-1-02.png "Fibras sucias 1 - Icono"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibras sucias 1 - Ejemplo 2](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "Fibras sucias 1 - Ejemplo 2"){zoomable="yes"}
+![Fibras sucias 1 - Ejemplo 2](messy-fibers-1.resources/messy-fibers-1-03.gif "Fibras sucias 1 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ Consulte también: [Fibras sucias 2](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibras sucias 1 - Ejemplo 3](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "Fibras sucias 1 - Ejemplo 3"){zoomable="yes"}
+![Fibras sucias 1 - Ejemplo 3](messy-fibers-1.resources/messy-fibers-1-04.gif "Fibras sucias 1 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibras sucias 1 - Ejemplo 4](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "Fibras sucias 1 - Ejemplo 4"){zoomable="yes"}
+![Fibras sucias 1 - Ejemplo 4](messy-fibers-1.resources/messy-fibers-1-05.gif "Fibras sucias 1 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

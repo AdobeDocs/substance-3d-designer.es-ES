@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Conozca las advertencias en los Substance que componen gráficos y aprenda a resolver problemas y errores comunes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Advertencias en los gráficos de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Agregue uno o más nodos [Output](../../compositing-graphs/nodes-reference-for-c
 >
 > Las plantillas de gráficos disponibles en el cuadro de diálogo [Nuevo gráfico](../creating-compositing-gra/creating-a-substance-compositing-graph.md) tienen nodos de salida preestablecidos listos para usarse.
 
-![Solucionar advertencia &#39;No se definió ningún nodo de salida&#39;](warnings-in-substance-compositing-graphs.resources/warnings-comp-output.gif "Solucionar advertencia &#39;No se definió ningún nodo de salida&#39;"){width="512px"}
+![Solucionar advertencia &#39;No se definió ningún nodo de salida&#39;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-01.gif "Solucionar advertencia &#39;No se definió ningún nodo de salida&#39;"){width="512px"}
 
 ### ![(error)](warnings-in-substance-compositing-graphs.resources/error.svg) La función del parámetro *[x]* tiene algunas advertencias
 
@@ -51,7 +51,7 @@ Localice el nodo que emite la advertencia por su etiqueta e insignia de adverten
 
 A continuación, evalúe las advertencias que aparecen en la esquina inferior izquierda de la vista de gráfico y resuelva los problemas. Puede consultar la página [Advertencias en gráficos de funciones](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) para obtener información sobre advertencias de solución de problemas en gráficos de funciones.
 
-![Solucionar error &#39;La función de parámetro tiene algunas advertencias&#39; advertencia](warnings-in-substance-compositing-graphs.resources/warnings-comp-param-function.gif "Solucionar error &#39;La función de parámetro tiene algunas advertencias&#39; advertencia")
+![Solucionar error &#39;La función de parámetro tiene algunas advertencias&#39; advertencia](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-02.gif "Solucionar error &#39;La función de parámetro tiene algunas advertencias&#39; advertencia")
 
 ### ![(error)](warnings-in-substance-compositing-graphs.resources/error.svg) Los datos a los que se hace referencia tienen algunas advertencias
 
@@ -69,11 +69,11 @@ En el panel [Explorador](../../interface/the-explorer-window/the-explorer-window
 * Para gráficos, consulte otros elementos de esta página
 * Para cualquier otro tipo de recurso, consulte la página [Advertencias de las dependencias](../../resources/warnings-from-dep/warnings-from-dependencies.md)
 
-![Solucionar error &#39;Los datos de referencia tienen algunas advertencias&#39; advertencia](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-data.gif "Solucionar error &#39;Los datos de referencia tienen algunas advertencias&#39; advertencia")
+![Solucionar error &#39;Los datos de referencia tienen algunas advertencias&#39; advertencia](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-03.gif "Solucionar error &#39;Los datos de referencia tienen algunas advertencias&#39; advertencia")
 
 ### No se encontró el recurso de referencia ![(error)](warnings-in-substance-compositing-graphs.resources/error.svg)
 
-No se encontró el recurso al que hace referencia un nodo en la ruta guardada en el archivo [Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) (SBS). Estos son algunos nodos que hacen referencia a un recurso:
+No se encontró el recurso al que hace referencia un nodo en la ruta guardada en el archivo [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBS). Estos son algunos nodos que hacen referencia a un recurso:
 
 * Un nodo [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) hace referencia a un gráfico
 * Un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) hace referencia a un [recurso Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
@@ -92,7 +92,7 @@ Para los nodos [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-
 Busque los recursos a los que se hace referencia en el panel Explorador y compruebe que existen en la ubicación guardada en su atributo **Ruta de archivo**.\
 Si no lo hacen, haga clic en RMB en el elemento de recurso en el Explorador y seleccione **Reubicar...Opción** en el menú contextual para establecer un nuevo archivo de destino válido para ese recurso.
 
-![Solucionar advertencia de &quot;Recurso de referencia no encontrado&quot;](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-resource.gif "Solucionar advertencia de &quot;Recurso de referencia no encontrado&quot;")
+![Solucionar advertencia de &quot;Recurso de referencia no encontrado&quot;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-04.gif "Solucionar advertencia de &quot;Recurso de referencia no encontrado&quot;")
 
 ### ![(error)](warnings-in-substance-compositing-graphs.resources/error.svg) El nodo de texto usa una fuente no válida
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
 breadcrumb-title: ''
 description: Utilice el nodo Daños en los bordes para generar máscaras de daños en los bordes de la malla para crear efectos realistas de desgaste y rotura de los bordes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Daños en los bordes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-damages.resources/edge-damages.png){width="128px"}
+![](edge-damages.resources/edge-damages-01.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Generadores de máscaras
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) en [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esta máscara representa el daño causado a los bordes elevados y convexos en función de la curvatura y el AO hecho un bake.
+Esta máscara representa el daño causado a los bordes elevados y convexos en función de la curvatura y el AO horneado.
 
 </td>
 </tr>
@@ -66,7 +66,7 @@ Esta máscara representa el daño causado a los bordes elevados y convexos en fu
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-damages.resources/edge-damages-ex.gif" />
+            <img src="edge-damages.resources/edge-damages-02.gif" />
         </td>
     </tr>
 </table>

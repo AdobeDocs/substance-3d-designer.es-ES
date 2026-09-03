@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los archivos de configuración de proyecto SBSPRJ en Substance 3D Designer para administrar la configuración del proyecto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Archivos de configuración del proyecto: SBSPRJ'
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Son especiales en el sentido de que puede utilizar varios archivos de configurac
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de archivo SBSPRJ](project-configuration-files-sbsprj.resources/sbsprj.png "Icono de archivo SBSPRJ")
+![Icono de archivo SBSPRJ](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "Icono de archivo SBSPRJ")
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Sin embargo, hay algunas configuraciones que <b>expanden</b> en la configuració
 
 Los archivos de proyecto pueden contener las siguientes configuraciones:
 
-<b>Vista 3D: </b>Definiciones de sombreador predeterminado, HDR y estado de escena.
+<b>Vista 3D: </b>Definiciones predeterminadas de Sombreador, HDR y estado de escena.
 
 <b>Alias: </b>Alias de palabras clave para rutas relativas.
 
@@ -85,7 +85,7 @@ Para Windows, [Notepad++](https://notepad-plus-plus.org) es una buena opción gr
 
 Una vez que abra el archivo SBSPRJ en un editor, debería ver un diseño estructurado bastante sencillo, con secciones correspondientes a pestañas en la interfaz de usuario. No todos los escenarios serán documentados aquí, ya que es bastante auto-explicativo.
 
-![Edición XML](project-configuration-files-sbsprj.resources/project-xml.png "Edición XML")
+![Edición XML](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "Edición XML")
 
 ## Rutas y alias relativos
 

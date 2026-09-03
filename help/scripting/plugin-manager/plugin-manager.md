@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: Use el Administrador de complementos de Substance 3D Designer para instalar, administrar y configurar complementos de Python para una funcionalidad ampliada.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestor de plugins
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 Se puede acceder al cuadro de diálogo <b>Administrador de complementos</b> desde el menú <b>Herramientas</b> en la barra de menú principal. Permite ver qué complementos están *activos*, así como *cargar y descargar* complementos.
 
-![Administrador de complementos](plugin-manager.resources/pluginmgr.png "Administrador de complementos")
+![Administrador de complementos](plugin-manager.resources/plugin-manager-01.png "Administrador de complementos")
 
 También es posible cargar *manualmente* complementos, usando el botón <b>Examinar</b> y eligiendo un archivo de Python.
 

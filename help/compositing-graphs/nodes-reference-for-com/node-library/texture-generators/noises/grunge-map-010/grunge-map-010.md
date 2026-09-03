@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-010.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-010.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de Suciedades 010 para generar texturas de suciedades de procedimiento para añadir detalles de superficie y efectos de desgaste a los materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de suciedades 010
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-010.resources/grungemap-010.png){width="128px"}
+![](grunge-map-010.resources/grunge-map-010-01.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -57,7 +57,7 @@ Esto genera un mapa de ruido complejo y combinado. Puede ser muy útil como proc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-010.resources/grungemap-010-ex.gif" />
+            <img src="grunge-map-010.resources/grunge-map-010-02.gif" />
         </td>
     </tr>
 </table>

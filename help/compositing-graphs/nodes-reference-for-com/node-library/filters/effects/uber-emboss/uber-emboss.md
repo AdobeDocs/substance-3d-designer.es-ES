@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
 breadcrumb-title: ''
-description: Utilice el nodo Relieve de Uber para crear efectos de relieve avanzados con controles de profundidad, ángulo e iluminación personalizables.
+description: Utilice el nodo Uber Relieve para crear efectos avanzados de relieve con controles personalizables de profundidad, ángulo e iluminación.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Uber Emboss
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Relieve de Uber
+title: Uber Relieve
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](uber-emboss.resources/uber-emboss.png){width="128px"}
+![](uber-emboss.resources/uber-emboss-01.png){width="128px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 Versión avanzada con muchas características de [Relieve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Realiza un elaborado efecto de iluminación falso en 2D basado en un mapa de altura.
 
-Resulta útil a la hora de crear iluminación integrada para determinados estilos de texturizado cuando se necesita mucho control.
+Resulta útil a la hora de crear iluminación hecha un bake para determinados estilos de texturizado cuando se necesita mucho control.
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ Resulta útil a la hora de crear iluminación integrada para determinados estilo
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="uber-emboss.resources/uberemboss-ex.png" />
+            <img src="uber-emboss.resources/uber-emboss-02.png" />
         </td>
     </tr>
 </table>

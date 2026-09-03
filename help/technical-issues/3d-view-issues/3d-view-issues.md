@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Solución de problemas de visualización 3D en Substance 3D Designer, incluidos problemas de procesamiento, visualización y rendimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas de visualización en 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 0%
@@ -49,25 +49,25 @@ Por ejemplo, los usuarios con una <b>Nvidia dGPU</b> pueden hacer lo siguiente:
 
 **![(error)](3d-view-issues.resources/error.svg) Problema**
 
-Un objeto 3D que presentaba volúmenes detallados en una sesión se vuelve plano en la siguiente sesión, sin embargo el gráfico no ha cambiado y el mapa de Height lleva los mismos datos.
+Un objeto 3D que presentaba volúmenes detallados en una sesión se vuelve plano en la siguiente sesión, sin embargo el gráfico no ha cambiado y el mapa de altura lleva los mismos datos.
 
 **![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
-El efecto de deformación de un objeto 3D según un mapa de Height se realiza mediante una técnica denominada **desplazamiento de teselación**. Esta técnica implica dos pasos:
+El efecto de deformación de un objeto 3D según un mapa de altura se realiza mediante una técnica denominada **desplazamiento de teselación**. Esta técnica implica dos pasos:
 
 1. **Mosaico**: la geometría del objeto está *subdividida* en vértices, lo que da como resultado una *geometría más densa* para admitir detalles de volumen más precisos
 2. **Desplazamiento**: los vértices se *mueven*, es decir, se desplazan, a lo largo de su *vector normal*. El vector normal sigue la dirección en la que se encuentra un polígono y tiene una magnitud (es decir, longitud) de 1
 
 Se conoce el desplazamiento *direction*: la dirección del vector normal.\
-El desplazamiento *distancia* que se debe recorrer para mover los vértices se calcula de la siguiente manera: `Distance = Height scale * Height map`. Debido a que el mapa de Heightes *no ha cambiado* en el gráfico, se sale de la **escala de Heightes**.
+El desplazamiento *distancia* que se debe recorrer para mover los vértices se calcula de la siguiente manera: `Distance = Height scale * Height map`. Dado que el mapa de altura *no ha cambiado* en el gráfico, se sale de la **escala de Height**.
 
-El valor de escala de Height predeterminado es **1.0**, lo que puede provocar un efecto de desplazamiento *no perceptible* en función de la malla mostrada en la vista 3D y del mapa de Height aplicado a la misma.
+El valor de escala de Height predeterminado es **1.0**, lo que puede provocar un efecto de desplazamiento *no perceptible*, dependiendo de la malla mostrada en la Vista 3D y del mapa de altura aplicado a ella.
 
 Este valor se puede modificar de las siguientes maneras:
 
 | En la vista 3D | En la vista de gráfico |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Use el **Desplazamiento emergente** en la barra de herramientas de la izquierda.<br>Obtenga más información en la [página dedicada](../../interface/3d-view/displacement/displacement.md). | Cree un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) y establezca el uso de `heightScale` en sus propiedades.<br>Proporcione un valor a esta salida con un valor, usando un [nodo flotante constante](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats) por ejemplo, y luego *vuelva a aplicar el gráfico* en la vista 3D. |
+| Use el **Desplazamiento emergente** en la barra de herramientas de la izquierda.<br>Obtenga más información en la [página dedicada](../../interface/3d-view/displacement/displacement.md). | Cree un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) y establezca el uso de `heightScale` en sus propiedades.<br>Proporcione un valor a este resultado con un valor, usando un [nodo de Flotante constante](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats) por ejemplo, y luego *vuelva a aplicar el gráfico* en la Vista 3D. |
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ Puede seguir utilizando el procesador OpenGL de forma predeterminada, utilizando
 4. Establezca la opción &quot;Procesador predeterminado&quot; en &quot;OpenGL (obsoleto)&quot;.
 5. Haga clic en Aceptar para validar los cambios
 
-Ahora, todas las Vista 3D nuevas utilizarán el procesador OpenGL de forma predeterminada, lo que le permitirá seguir trabajando como antes.
+Ahora, toda la nueva vista 3D utilizará el procesador OpenGL de forma predeterminada, lo que le permitirá seguir trabajando como antes.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Después de trabajar en los datos enviados al **Height** [salida](../../composit
 
 **![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
-Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal.
+Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal[.
 
 Al usar la técnica **Desplazamiento de teselación** (ver &quot;El objeto 3D es plano&quot; más arriba), los objetos pueden *deformarse* para seguir los datos del height, pero su superficie *no reaccionará a la luz de forma diferente* hasta que sus *normales* también se modifiquen para tener en cuenta los datos del height.
 
@@ -163,7 +163,7 @@ La solución es bastante simple: conecte el último nodo de la secuencia que con
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-01.gif){width="256px"}
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ Abra el menú **Editar** y seleccione **Preferencias...Opción**. En la ventana 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-02.png){width="256px"}
 
 </td>
 </tr>

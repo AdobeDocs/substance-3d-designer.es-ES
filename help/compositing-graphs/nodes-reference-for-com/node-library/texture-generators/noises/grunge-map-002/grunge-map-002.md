@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de Suciedades 002 para generar patrones de suciedades procedimientas para crear superficies de materiales envejecidas y con intemperie.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de suciedades 002
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-002.resources/grungemap-002.png){width="128px"}
+![](grunge-map-002.resources/grunge-map-002-01.png){width="128px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -56,7 +56,7 @@ Genera un mapa de ruido combinado complejo. Este nodo puede ser muy útil como u
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-002.resources/grungemap-002-ex.gif" />
+            <img src="grunge-map-002.resources/grunge-map-002-02.gif" />
         </td>
     </tr>
 </table>

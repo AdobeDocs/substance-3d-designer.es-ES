@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: Utilice el nodo Color del asignador de spline para asignar texturas de color a lo largo de trazados de spline con parámetros personalizables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color del asignador de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-mapper-color.resources/spline-mapper-color-icon.png "Icono de nodo")
+![Icono de nodo](spline-mapper-color.resources/spline-mapper-color-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -98,9 +98,9 @@ El nodo emite la imagen asignada como una imagen en color, así como otra inform
 | <b>Intensidad de giro UV</b> <i>Flotador</i> | (Disponible cuando &quot;Shape&quot; está establecido en &quot;Half Cylinder&quot; o &quot;Cylinder&quot;) La torsión de las coordenadas de imagen alrededor del cilindro, en número de vueltas.<br>La torsión implica girar el cilindro solo al final de la spline. A continuación, la rotación se interpola a lo largo de la spline. |
 | <b>Multiplicador de curvas UV de giro</b> <i>Flotador</i> | (Disponible cuando &quot;Shape&quot; se define en &quot;Half Cylinder&quot; o &quot;Cylinder&quot;) Un multiplicador para la intensidad de la contribución de la entrada de Twist curve al torcido del cilindro.<br>La curva proporciona un perfil para la cantidad de rotación a lo largo de la spline, donde el primer píxel de la fila es la rotación al principio de la spline y el último es la rotación al final. El valor de escala de grises representa un número de vueltas. |
 | <b>Desplazamiento de curva de giro UV</b> <i>Flotador</i> | (Disponible cuando &quot;Shape&quot; se define en &quot;Half Cylinder&quot; o &quot;Cylinder&quot;) Aplica un desplazamiento global a los valores de rotación proporcionados por el Twist curve, en número de vueltas. |
-| <b>Multiplicador de Height spline</b> <i>Flotador</i> | Ajusta la intensidad de la aportación del Height polinómico a la salida del Height.<br>Los ajustes de Height son acumulativos. |
-| <b>Multiplicador de Height de entrada</b> <i>Flotador</i> | Ajusta la intensidad de la contribución de la entrada del mapa de altura a la salida del Height.<br>Los ajustes de Height son acumulativos. |
-| <b>Color de fondo</b> <i>Float4</i> | El color del fondo en la salida de color. |
+| <b>Multiplicador de Height spline</b> <i>Flotante</i> | Ajusta la intensidad de la aportación del Height polinómico a la salida del Height.<br>Los ajustes de Height son acumulativos. |
+| <b>Multiplicador de Height de entrada</b> <i>Flotante</i> | Ajusta la intensidad de la contribución de la entrada del mapa de altura a la salida del Height.<br>Los ajustes de Height son acumulativos. |
+| <b>Color de fondo</b> <i>Flotante4</i> | El color del fondo en la salida de color. |
 | <b>Corrección no cuadrada</b> <i>Booleano</i> | Ajuste la posición y el thickness de los puntos para conservar la forma de la spline en resoluciones que no sean cuadradas.<br>Esto también afecta a la distribución uniforme. |
 
 ## Ejemplos
@@ -112,11 +112,11 @@ El nodo emite la imagen asignada como una imagen en color, así como otra inform
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-color.resources/spline-mapper-color-02.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="spline-mapper-color.resources/spline-mapper-color-03.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ El nodo emite la imagen asignada como una imagen en color, así como otra inform
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](spline-mapper-color.resources/SplineMapperColor-Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-mapper-color.resources/spline-mapper-color-04.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ El nodo emite la imagen asignada como una imagen en color, así como otra inform
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 3](spline-mapper-color.resources/SplineMapperColor-Variant1-After1.jpg "Ejemplo de nodo 3")
+![Ejemplo de nodo 3](spline-mapper-color.resources/spline-mapper-color-05.jpg "Ejemplo de nodo 3")
 
 </td>
 <td style="border: 0;" valign="top">

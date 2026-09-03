@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
 breadcrumb-title: ''
 description: Utilice el nodo Ruido direccional 4 para generar patrones de ruido direccional con cuatro octavas para crear texturas anisotrópicas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RUIDO DIRECCIONAL 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruido direccional 4 - Icono](directional-noise-4.resources/directional_noise_4.png "Ruido direccional 4 - Icono"){width="200px"}
+![Ruido direccional 4 - Icono](directional-noise-4.resources/directional-noise-4-01.png "Ruido direccional 4 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -71,12 +71,12 @@ Consulte también: [Ruido direccional 1](../../../../../../compositing-graphs/no
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruido direccional 4 - Ejemplo 1](directional-noise-4.resources/directional_noise_4_1.png "Ruido direccional 4 - Ejemplo 1"){zoomable="yes"}
+![Ruido direccional 4 - Ejemplo 1](directional-noise-4.resources/directional-noise-4-02.png "Ruido direccional 4 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruido direccional 4 - Ejemplo 2](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso0.gif "Ruido direccional 4 - Ejemplo 2"){zoomable="yes"}
+![Ruido direccional 4 - Ejemplo 2](directional-noise-4.resources/directional-noise-4-03.gif "Ruido direccional 4 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Consulte también: [Ruido direccional 1](../../../../../../compositing-graphs/no
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruido direccional 4 - Ejemplo 3](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso1.gif "Ruido direccional 4 - Ejemplo 3"){zoomable="yes"}
+![Ruido direccional 4 - Ejemplo 3](directional-noise-4.resources/directional-noise-4-04.gif "Ruido direccional 4 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruido direccional 4 - Ejemplo 4](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "Ruido direccional 4 - Ejemplo 4"){zoomable="yes"}
+![Ruido direccional 4 - Ejemplo 4](directional-noise-4.resources/directional-noise-4-05.gif "Ruido direccional 4 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

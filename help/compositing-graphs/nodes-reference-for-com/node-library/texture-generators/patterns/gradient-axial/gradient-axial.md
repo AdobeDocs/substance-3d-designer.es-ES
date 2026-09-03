@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
 breadcrumb-title: ''
 description: Utilice el nodo Degradado axial para crear degradados axiales para transiciones de color direccionales en Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Degradado axial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-axial.resources/gradient-axial.png){width="128px"}
+![](gradient-axial.resources/gradient-axial-01.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -47,4 +47,4 @@ Crea una transición de degradado en escala de grises entre dos puntos definidos
 |:---|:---|
 | <b>Punto 1</b> | Primer punto desde el que se inicia el degradado (negro) |
 | <b>Punto 2</b> | Segundo punto al final del degradado en (blanco) |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de aplastamiento y estiramiento con proporciones que no sean de cuadrados. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de calabaza y estire con proporciones que no sean de cuadrados. |

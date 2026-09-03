@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cubo 3D para generar texturas basadas en proyecciones de cubos 3D para crear mapas y efectos de entorno.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cubo 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d.resources/cube3-ex.png)
+![](cube-3d.resources/cube-3d-01.png)
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -48,14 +48,14 @@ Interpreta un cubo 3D en escala de grises con sombreado que también sirve como 
 | <b>Desplazamiento de orientación</b> | Permite una rotación X e Y del cubo similar a la 3D. También se puede realizar manipulando el punto pequeño en la previsualización 2D (como se muestra en el ejemplo siguiente) |
 | <b>Tamaño</b> <i>0.0 - 1.0</i> | Permite el reescalado no uniforme del cubo. |
 | <b>Escala</b> <i>0.0 - 1.0</i> | Cambia la escala de todo el cubo uniformemente. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cube-3d.resources/cube3d-ex.gif" />
+            <img src="cube-3d.resources/cube-3d-02.gif" />
         </td>
     </tr>
 </table>

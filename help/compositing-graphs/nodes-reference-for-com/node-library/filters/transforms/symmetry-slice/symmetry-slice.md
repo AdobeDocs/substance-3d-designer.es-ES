@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
 breadcrumb-title: ''
 description: Utilice el nodo Sector de Simetría para dividir texturas a lo largo de los ejes de simetría y crear patrones y efectos reflejados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sector de simetría
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](symmetry-slice.resources/mirror-2.png){width="128px"}
+![](symmetry-slice.resources/symmetry-slice-01.png){width="128px"}
 
 <b>En:</b> Filtros > Transforma
 
@@ -58,7 +58,7 @@ En comparación con [Mirror](../../../../../../compositing-graphs/nodes-referenc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="symmetry-slice.resources/symslice.png" />
+            <img src="symmetry-slice.resources/symmetry-slice-02.png" />
         </td>
     </tr>
 </table>

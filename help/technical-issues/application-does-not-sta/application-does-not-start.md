@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Solucione los problemas que impiden que Substance 3D Designer se inicie y busque soluciones para iniciar la aplicación.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: La aplicación no se inicia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Los usuarios de Linux que inicien Designer desde Steam pueden configurar el coma
 
 Una vez hecho esto, es posible que Designer se inicie desde Steam normalmente para todas las sesiones futuras.
 
-![Opciones de inicio de Steam](application-does-not-start.resources/steam_linux_launch_option.jpg "Opciones de inicio de Steam")
+![Opciones de inicio de Steam](application-does-not-start.resources/application-does-not-start-01.jpg "Opciones de inicio de Steam")
 
 
 

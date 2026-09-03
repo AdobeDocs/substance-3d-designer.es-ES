@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: Aplique efectos de posprocesamiento a la cámara de vista 3D para mejorar la previsualización y visualización de materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Efectos de posprocesamiento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Efectos de posprocesamiento
 
-![Efectos de posprocesamiento](post-effects.resources/postEffects.png "Efectos de posprocesamiento"){zoomable="yes"}
+![Efectos de posprocesamiento](post-effects.resources/post-effects-01.png "Efectos de posprocesamiento"){zoomable="yes"}
 
 En las propiedades de la cámara, puede activar efectos de posprocesamiento para mejorar los renderizados o comprobar propiedades específicas del material.
 
@@ -65,11 +65,11 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisdisabled">
+      <img src="post-effects.resources/post-effects-02.jpg" alt="PostFXDisdisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/PostFXReinhard.jpg" alt="PostFXReinhard">
+      <img src="post-effects.resources/post-effects-03.jpg" alt="PostFXReinhard">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -77,9 +77,9 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 
 
 
-![PostFXDisdisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisdisabled")
+![PostFXDisdisabled](post-effects.resources/post-effects-02.jpg "PostFXDisdisabled")
 
-![PostFXReinhard](post-effects.resources/PostFXReinhard.jpg "PostFXReinhard")
+![PostFXReinhard](post-effects.resources/post-effects-03.jpg "PostFXReinhard")
 
 +++
 
@@ -89,11 +89,11 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisdisabled">
+      <img src="post-effects.resources/post-effects-02.jpg" alt="PostFXDisdisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/PostFXAtan.jpg" alt="PostFXAtan">
+      <img src="post-effects.resources/post-effects-04.jpg" alt="PostFXAtan">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -101,9 +101,9 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 
 
 
-![PostFXDisdisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisdisabled")
+![PostFXDisdisabled](post-effects.resources/post-effects-02.jpg "PostFXDisdisabled")
 
-![PostFXAtan](post-effects.resources/PostFXAtan.jpg "PostFXAtan")
+![PostFXAtan](post-effects.resources/post-effects-04.jpg "PostFXAtan")
 
 +++
 
@@ -113,11 +113,11 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisdisabled">
+      <img src="post-effects.resources/post-effects-02.jpg" alt="PostFXDisdisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/PostFXExp.jpg" alt="PostFXExp">
+      <img src="post-effects.resources/post-effects-05.jpg" alt="PostFXExp">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -125,9 +125,9 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 
 
 
-![PostFXDisdisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisdisabled")
+![PostFXDisdisabled](post-effects.resources/post-effects-02.jpg "PostFXDisdisabled")
 
-![PostFXExp](post-effects.resources/PostFXExp.jpg "PostFXExp")
+![PostFXExp](post-effects.resources/post-effects-05.jpg "PostFXExp")
 
 +++
 
@@ -137,11 +137,11 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisdisabled">
+      <img src="post-effects.resources/post-effects-02.jpg" alt="PostFXDisdisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/PostFXLog.jpg" alt="PostFXLog">
+      <img src="post-effects.resources/post-effects-06.jpg" alt="PostFXLog">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -149,9 +149,9 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 
 
 
-![PostFXDisdisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisdisabled")
+![PostFXDisdisabled](post-effects.resources/post-effects-02.jpg "PostFXDisdisabled")
 
-![PostFXLog](post-effects.resources/PostFXLog.jpg "PostFXLog")
+![PostFXLog](post-effects.resources/post-effects-06.jpg "PostFXLog")
 
 +++
 
@@ -161,11 +161,11 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisdisabled">
+      <img src="post-effects.resources/post-effects-02.jpg" alt="PostFXDisdisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/PostFXAces.jpg" alt="PostFXAces">
+      <img src="post-effects.resources/post-effects-07.jpg" alt="PostFXAces">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -173,9 +173,9 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 
 
 
-![PostFXDisdisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisdisabled")
+![PostFXDisdisabled](post-effects.resources/post-effects-02.jpg "PostFXDisdisabled")
 
-![PostFXAces](post-effects.resources/PostFXAces.jpg "PostFXAces")
+![PostFXAces](post-effects.resources/post-effects-07.jpg "PostFXAces")
 
 +++
 
@@ -185,11 +185,11 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisdisabled">
+      <img src="post-effects.resources/post-effects-02.jpg" alt="PostFXDisdisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/PostFXHejl.jpg" alt="PostFXHejl">
+      <img src="post-effects.resources/post-effects-08.jpg" alt="PostFXHejl">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -197,9 +197,9 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 
 
 
-![PostFXDisdisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisdisabled")
+![PostFXDisdisabled](post-effects.resources/post-effects-02.jpg "PostFXDisdisabled")
 
-![PostFXHejl](post-effects.resources/PostFXHejl.jpg "PostFXHejl")
+![PostFXHejl](post-effects.resources/post-effects-08.jpg "PostFXHejl")
 
 +++
 
@@ -209,11 +209,11 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisdisabled">
+      <img src="post-effects.resources/post-effects-02.jpg" alt="PostFXDisdisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/PostFXNeutral.jpg" alt="PostFXNeutral">
+      <img src="post-effects.resources/post-effects-09.jpg" alt="PostFXNeutral">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -221,9 +221,9 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 
 
 
-![PostFXDisdisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisdisabled")
+![PostFXDisdisabled](post-effects.resources/post-effects-02.jpg "PostFXDisdisabled")
 
-![PostFXNeutral](post-effects.resources/PostFXNeutral.jpg "PostFXNeutral")
+![PostFXNeutral](post-effects.resources/post-effects-09.jpg "PostFXNeutral")
 
 +++
 
@@ -233,11 +233,11 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisdisabled">
+      <img src="post-effects.resources/post-effects-02.jpg" alt="PostFXDisdisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/PostFXAgx.jpg" alt="PostFXAgx">
+      <img src="post-effects.resources/post-effects-10.jpg" alt="PostFXAgx">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -245,9 +245,9 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 
 
 
-![PostFXDisdisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisdisabled")
+![PostFXDisdisabled](post-effects.resources/post-effects-02.jpg "PostFXDisdisabled")
 
-![PostFXAgx](post-effects.resources/PostFXAgx.jpg "PostFXAgx")
+![PostFXAgx](post-effects.resources/post-effects-10.jpg "PostFXAgx")
 
 +++
 
@@ -257,11 +257,11 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisdisabled">
+      <img src="post-effects.resources/post-effects-02.jpg" alt="PostFXDisdisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/PostFXPbrNeutral.jpg" alt="PostFXPbrNeutral">
+      <img src="post-effects.resources/post-effects-11.jpg" alt="PostFXPbrNeutral">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -269,9 +269,9 @@ Esto permite mejorar la coherencia de color entre aplicaciones. Por ejemplo, el 
 
 
 
-![PostFXDisdisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisdisabled")
+![PostFXDisdisabled](post-effects.resources/post-effects-02.jpg "PostFXDisdisabled")
 
-![PostFXPbrNeutral](post-effects.resources/PostFXPbrNeutral.jpg "PostFXPbrNeutral")
+![PostFXPbrNeutral](post-effects.resources/post-effects-11.jpg "PostFXPbrNeutral")
 
 +++
 
@@ -291,11 +291,11 @@ El valor de luminancia por encima del cual la floración debe ser visible.
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/bloomThreshold1.jpg" alt="bloomThreshold1">
+      <img src="post-effects.resources/post-effects-12.jpg" alt="bloomThreshold1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/bloomThreshold4.jpg" alt="bloomThreshold4">
+      <img src="post-effects.resources/post-effects-13.jpg" alt="bloomThreshold4">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -303,9 +303,9 @@ El valor de luminancia por encima del cual la floración debe ser visible.
 
 
 
-![bloomThreshold1](post-effects.resources/bloomThreshold1.jpg "bloomThreshold1")
+![bloomThreshold1](post-effects.resources/post-effects-12.jpg "bloomThreshold1")
 
-![bloomThreshold4](post-effects.resources/bloomThreshold4.jpg "bloomThreshold4")
+![bloomThreshold4](post-effects.resources/post-effects-13.jpg "bloomThreshold4")
 
 +++
 
@@ -319,11 +319,11 @@ La rampa de atenuación de la floración, donde un valor más bajo da como resul
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/bloomFalloff1.jpg" alt="bloomFalloff1">
+      <img src="post-effects.resources/post-effects-14.jpg" alt="bloomFalloff1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/bloomFalloff0-6.jpg" alt="bloomFalloff0-6">
+      <img src="post-effects.resources/post-effects-15.jpg" alt="bloomFalloff0-6">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -331,9 +331,9 @@ La rampa de atenuación de la floración, donde un valor más bajo da como resul
 
 
 
-![bloomFalloff1](post-effects.resources/bloomFalloff1.jpg "bloomFalloff1")
+![bloomFalloff1](post-effects.resources/post-effects-14.jpg "bloomFalloff1")
 
-![bloomFalloff0-6](post-effects.resources/bloomFalloff0-6.jpg "bloomFalloff0-6")
+![bloomFalloff0-6](post-effects.resources/post-effects-15.jpg "bloomFalloff0-6")
 
 +++
 
@@ -347,11 +347,11 @@ La intensidad de la floración. Un valor más alto da como resultado unos halos 
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/bloomLevel8.jpg" alt="bloomLevel8">
+      <img src="post-effects.resources/post-effects-16.jpg" alt="bloomLevel8">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/bloomLevel2.jpg" alt="bloomLevel2">
+      <img src="post-effects.resources/post-effects-17.jpg" alt="bloomLevel2">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -359,9 +359,9 @@ La intensidad de la floración. Un valor más alto da como resultado unos halos 
 
 
 
-![bloomLevel8](post-effects.resources/bloomLevel8.jpg "bloomLevel8")
+![bloomLevel8](post-effects.resources/post-effects-16.jpg "bloomLevel8")
 
-![bloomLevel2](post-effects.resources/bloomLevel2.jpg "bloomLevel2")
+![bloomLevel2](post-effects.resources/post-effects-17.jpg "bloomLevel2")
 
 +++
 
@@ -375,11 +375,11 @@ Desplaza el tono de las áreas afectadas por la floración hacia colores más c�
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/bloomColorShift0.jpg" alt="bloomColorShift0">
+      <img src="post-effects.resources/post-effects-18.jpg" alt="bloomColorShift0">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/bloomColorShift0-8.jpg" alt="bloomColorShift0-8">
+      <img src="post-effects.resources/post-effects-19.jpg" alt="bloomColorShift0-8">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -387,9 +387,9 @@ Desplaza el tono de las áreas afectadas por la floración hacia colores más c�
 
 
 
-![bloomColorShift0](post-effects.resources/bloomColorShift0.jpg "bloomColorShift0")
+![bloomColorShift0](post-effects.resources/post-effects-18.jpg "bloomColorShift0")
 
-![bloomColorShift0-8](post-effects.resources/bloomColorShift0-8.jpg "bloomColorShift0-8")
+![bloomColorShift0-8](post-effects.resources/post-effects-19.jpg "bloomColorShift0-8")
 
 +++
 
@@ -413,11 +413,11 @@ Radio máximo del efecto de desenfoque.
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/depthOfFieldMaxRadius32.jpg" alt="depthOfFieldMaxRadius32">
+      <img src="post-effects.resources/post-effects-20.jpg" alt="depthOfFieldMaxRadius32">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/depthOfFieldMaxRadius4.jpg" alt="depthOfFieldMaxRadius4">
+      <img src="post-effects.resources/post-effects-21.jpg" alt="depthOfFieldMaxRadius4">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -425,9 +425,9 @@ Radio máximo del efecto de desenfoque.
 
 
 
-![depthOfFieldMaxRadius32](post-effects.resources/depthOfFieldMaxRadius32.jpg "depthOfFieldMaxRadius32")
+![depthOfFieldMaxRadius32](post-effects.resources/post-effects-20.jpg "depthOfFieldMaxRadius32")
 
-![depthOfFieldMaxRadius4](post-effects.resources/depthOfFieldMaxRadius4.jpg "depthOfFieldMaxRadius4")
+![depthOfFieldMaxRadius4](post-effects.resources/post-effects-21.jpg "depthOfFieldMaxRadius4")
 
 +++
 
@@ -441,11 +441,11 @@ Magnitud del efecto de desenfoque desde la distancia de enfoque hacia fuera.
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/depthOfFieldCompositeStrength0-2.jpg" alt="depthOfFieldCompositeStrength0-2">
+      <img src="post-effects.resources/post-effects-22.jpg" alt="depthOfFieldCompositeStrength0-2">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/depthOfFieldCompositeStrength0-05.jpg" alt="depthOfFieldCompositeStrength0-05">
+      <img src="post-effects.resources/post-effects-23.jpg" alt="depthOfFieldCompositeStrength0-05">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -453,9 +453,9 @@ Magnitud del efecto de desenfoque desde la distancia de enfoque hacia fuera.
 
 
 
-![depthOfFieldCompositeStrength0-2](post-effects.resources/depthOfFieldCompositeStrength0-2.jpg "depthOfFieldCompositeStrength0-2")
+![depthOfFieldCompositeStrength0-2](post-effects.resources/post-effects-22.jpg "depthOfFieldCompositeStrength0-2")
 
-![depthOfFieldCompositeStrength0-05](post-effects.resources/depthOfFieldCompositeStrength0-05.jpg "depthOfFieldCompositeStrength0-05")
+![depthOfFieldCompositeStrength0-05](post-effects.resources/post-effects-23.jpg "depthOfFieldCompositeStrength0-05")
 
 +++
 
@@ -471,11 +471,11 @@ La aberración simula el modo en que las diferentes longitudes de onda de la luz
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/depthOfFieldLongitudinalAberration0.jpg" alt="depthOfFieldLongitudinalAberration0">
+      <img src="post-effects.resources/post-effects-24.jpg" alt="depthOfFieldLongitudinalAberration0">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/depthOfFieldLongitudinalAberration1.jpg" alt="depthOfFieldLongitudinalAberration1">
+      <img src="post-effects.resources/post-effects-25.jpg" alt="depthOfFieldLongitudinalAberration1">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -483,9 +483,9 @@ La aberración simula el modo en que las diferentes longitudes de onda de la luz
 
 
 
-![depthOfFieldLongitudinalAberration0](post-effects.resources/depthOfFieldLongitudinalAberration0.jpg "depthOfFieldLongitudinalAberration0")
+![depthOfFieldLongitudinalAberration0](post-effects.resources/post-effects-24.jpg "depthOfFieldLongitudinalAberration0")
 
-![depthOfFieldLongitudinalAberration1](post-effects.resources/depthOfFieldLongitudinalAberration1.jpg "depthOfFieldLongitudinalAberration1")
+![depthOfFieldLongitudinalAberration1](post-effects.resources/post-effects-25.jpg "depthOfFieldLongitudinalAberration1")
 
 +++
 
@@ -501,11 +501,11 @@ Esto hace que el efecto de desenfoque parezca estar distribuido de forma más eq
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/depthOfFieldAchromaticAberrationYes.jpg" alt="depthOfFieldAchromaticAberrationYes">
+      <img src="post-effects.resources/post-effects-26.jpg" alt="depthOfFieldAchromaticAberrationYes">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/depthOfFieldAchromaticAberrationNo.jpg" alt="depthOfFieldAchromaticAberrationNo">
+      <img src="post-effects.resources/post-effects-27.jpg" alt="depthOfFieldAchromaticAberrationNo">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -513,9 +513,9 @@ Esto hace que el efecto de desenfoque parezca estar distribuido de forma más eq
 
 
 
-![depthOfFieldAchromaticAberrationYes](post-effects.resources/depthOfFieldAchromaticAberrationYes.jpg "depthOfFieldAchromaticAberrationYes")
+![depthOfFieldAchromaticAberrationYes](post-effects.resources/post-effects-26.jpg "depthOfFieldAchromaticAberrationYes")
 
-![depthOfFieldAchromaticAberrationNo](post-effects.resources/depthOfFieldAchromaticAberrationNo.jpg "depthOfFieldAchromaticAberrationNo")
+![depthOfFieldAchromaticAberrationNo](post-effects.resources/post-effects-27.jpg "depthOfFieldAchromaticAberrationNo")
 
 +++
 
@@ -531,11 +531,11 @@ Este efecto es más pronunciado en aperturas más altas, es decir, valores de pu
 <table>
   <tr>
     <td>
-      <img src="post-effects.resources/depthOfFieldAchromaticCatsEyeYes.jpg" alt="depthOfFieldAchromaticCatsEyeYes">
+      <img src="post-effects.resources/post-effects-28.jpg" alt="depthOfFieldAchromaticCatsEyeYes">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="post-effects.resources/depthOfFieldAchromaticCatsEyeNo.jpg" alt="depthOfFieldAchromaticCatsEyeNo">
+      <img src="post-effects.resources/post-effects-29.jpg" alt="depthOfFieldAchromaticCatsEyeNo">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -543,8 +543,8 @@ Este efecto es más pronunciado en aperturas más altas, es decir, valores de pu
 
 
 
-![depthOfFieldAchromaticCatsEyeYes](post-effects.resources/depthOfFieldAchromaticCatsEyeYes.jpg "depthOfFieldAchromaticCatsEyeYes")
+![depthOfFieldAchromaticCatsEyeYes](post-effects.resources/post-effects-28.jpg "depthOfFieldAchromaticCatsEyeYes")
 
-![depthOfFieldAchromaticCatsEyeNo](post-effects.resources/depthOfFieldAchromaticCatsEyeNo.jpg "depthOfFieldAchromaticCatsEyeNo")
+![depthOfFieldAchromaticCatsEyeNo](post-effects.resources/post-effects-29.jpg "depthOfFieldAchromaticCatsEyeNo")
 
 +++

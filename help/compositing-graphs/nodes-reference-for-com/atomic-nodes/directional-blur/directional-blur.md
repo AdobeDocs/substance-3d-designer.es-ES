@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
 description: Utilice el nodo Desenfoque direccional para aplicar efectos de desenfoque en una dirección específica para crear efectos de desenfoque de movimiento y de desenfoque.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desenfoque direccional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Desenfoque direccional](directional-blur.resources/comp_dirmotionblur_1.png "Nodo atómico: Desenfoque direccional"){width="200px"}
+![Nodo atómico: Desenfoque direccional](directional-blur.resources/directional-blur-01.png "Nodo atómico: Desenfoque direccional"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,14 +69,14 @@ Las siguientes imágenes muestran el desenfoque direccional y el [desenfoque ani
 
 <b>Desenfoque direccional</b>
 
-![Comparación de desenfoque direccional](directional-blur.resources/dirblur-01.png "Comparación de desenfoque direccional"){zoomable="yes"}
+![Comparación de desenfoque direccional](directional-blur.resources/directional-blur-02.png "Comparación de desenfoque direccional"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>Desenfoque anisotrópico</b>
 
-![Comparación de desenfoque anisotrópico](directional-blur.resources/aniso-01.png "Comparación de desenfoque anisotrópico"){zoomable="yes"}
+![Comparación de desenfoque anisotrópico](directional-blur.resources/directional-blur-03.png "Comparación de desenfoque anisotrópico"){zoomable="yes"}
 
 </td>
 </tr>

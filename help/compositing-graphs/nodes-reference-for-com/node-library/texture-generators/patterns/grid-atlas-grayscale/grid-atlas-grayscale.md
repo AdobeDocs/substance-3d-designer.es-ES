@@ -1,7 +1,7 @@
 ---
 title: escala de grises del atlas de cuadrícula
 description: Designer > Substance > Referencia de nodos para Substance > Biblioteca de nodos > Generador > Patrón > Escala de grises de Atlas de cuadrícula
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![icono de escala de grises de Atlas de cuadrícula](grid-atlas-grayscale.resources/grid-atlas-grayscale.png "escala de grises de Atlas de cuadrícula")
+![icono de escala de grises de Atlas de cuadrícula](grid-atlas-grayscale.resources/grid-atlas-grayscale-01.png "escala de grises de Atlas de cuadrícula")
 
 <b>En:</b> Generador > Patrón
 
@@ -75,5 +75,5 @@ Vea también [color de Atlas de cuadrícula](../grid-atlas-color/grid-atlas-colo
 
 ## Ejemplos
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="Atlas de cuadrícula de un nodo de escala de grises en el contexto de una gráfica" style="width: 50%"><br>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-02.png" alt="Atlas de cuadrícula de un nodo de escala de grises en el contexto de una gráfica" style="width: 50%"><br>
 <i>Nodo de escala de grises de Atlas de cuadrícula en el contexto de un gráfico</i>

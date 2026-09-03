@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
 breadcrumb-title: ''
 description: Utilice el nodo Dust para generar máscaras de acumulación de dust basadas en la geometría de malla para crear efectos de dust y suciedad realistas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dust
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](dust.resources/dust.png){width="128px"}
+![](dust.resources/dust-01.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Generadores de máscaras
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) en [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esta máscara representa el dust acumulado en áreas ocluidas y bajas, así como solo en áreas que miran hacia arriba. Requiere una OA hecha un bake y normas espaciales mundiales adecuadas para funcionar.
+Esta máscara representa el dust acumulado en áreas ocluidas y bajas, así como solo en áreas que miran hacia arriba. Requiere que funcionen el AO y las Normas Espaciales Mundiales.
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ Esta máscara representa el dust acumulado en áreas ocluidas y bajas, así como
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="dust.resources/dust-ex.gif" />
+            <img src="dust.resources/dust-02.gif" />
         </td>
     </tr>
 </table>

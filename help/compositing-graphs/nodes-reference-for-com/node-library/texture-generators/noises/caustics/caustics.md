@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cáustico para generar patrones de luz cáustica para crear efectos de iluminación subacuática y refractiva.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cáustico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](caustics.resources/rt-caustics-grayscale.png){width="128px"}
+![](caustics.resources/caustics-01.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descripción
 
-Genera cáusticos proyectados basados en un mapa de height y una dirección de la luz.Tanto en la versión en escala de grises como en la de color, las diferencias son sutiles, pero la versión en color añade efectos de dispersión de color. La luz se proyecta desde un único punto, no se utiliza ningún mapa de entorno.
+Genera cáusticos proyectados en función de un mapa de altura y una dirección de la luz.Tanto en la versión en escala de grises como en la de color, las diferencias son sutiles, pero la versión en color añade efectos de dispersión de color. La luz se proyecta desde un único punto, no se utiliza ningún mapa de entorno.
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Genera cáusticos proyectados basados en un mapa de height y una dirección de l
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
+            <img src="caustics.resources/caustics-02.png" />
         </td>
     </tr>
 </table>

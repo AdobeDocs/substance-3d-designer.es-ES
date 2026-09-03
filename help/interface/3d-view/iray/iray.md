@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Esta página presenta el renderizador Iray disponible en el panel de vista 3D de
 </td>
 <td style="border: 0;" valign="top">
 
-[![Logotipo de NVIDIA Iray](iray.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![Logotipo de NVIDIA Iray](iray.resources/iray-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Consulte la sección <b>Procesador</b> de esta página para obtener más informa
 </td>
 <td style="border: 0;" valign="top">
 
-![Material de la pared del castillo medieval procesado en Iray](iray.resources/iray-overview.png "Material de la pared del castillo medieval procesado en Iray")
+![Material de la pared del castillo medieval procesado en Iray](iray.resources/iray-02.png "Material de la pared del castillo medieval procesado en Iray")
 
 *Material: [Muralla medieval de castillo](https://oggyart.artstation.com/projects/Xnzx0a)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponible en nuestra [biblioteca](https://substance3d.adobe.com/assets)**de Substance 3D*
 
@@ -104,7 +104,7 @@ Componente de visualización de malla
 > La subdivisión de la malla *aumenta su tiempo de procesamiento de forma exponencial* antes y durante el procesamiento. Sugerimos ser *conservador* con los valores de entrada.\
 > Tenga cuidado al usar los valores *high* **Number** para el método paramétrico, y los valores *low* **Minimum length** para el método Length.
 
-![Opciones de escena](iray.resources/iray-scene-subdivision.gif "Opciones de escena")
+![Opciones de escena](iray.resources/iray-03.gif "Opciones de escena")
 
 <a name="materials"></a>
 
@@ -137,7 +137,7 @@ Otras opciones destacadas en este menú son:
 </td>
 <td style="border: 0;" valign="top">
 
-![Menú Materiales](iray.resources/iray-mdl-list.png "Menú Materiales")
+![Menú Materiales](iray.resources/iray-04.png "Menú Materiales")
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Los siguientes parámetros están disponibles en las propiedades de la cámara c
 * <b>Distancia de enfoque</b>: la distancia desde la cámara del punto focal, es decir, donde la imagen está más nítida
 * <b>Diámetro de apertura</b>: el valor que impulsa la apertura de la cámara. Cuanto más bajo sea el valor, más nítidos serán los elementos de la imagen antes y después del punto focal; en términos más sencillos, este valor controla la intensidad del efecto de profundidad de campo
 
-![Configuración de la cámara](iray.resources/camera-dof.png "Configuración de la cámara")
+![Configuración de la cámara](iray.resources/iray-05.png "Configuración de la cámara")
 
 <a name="environment"></a>
 
@@ -205,11 +205,11 @@ El impacto de algunos de estos ajustes se muestra a continuación:
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-environment-hidden.png" alt="Iray - Medio ambiente oculto">
+      <img src="iray.resources/iray-06.png" alt="Iray - Medio ambiente oculto">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-env-visible.png" alt="Iray - Medio ambiente visible">
+      <img src="iray.resources/iray-07.png" alt="Iray - Medio ambiente visible">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ El impacto de algunos de estos ajustes se muestra a continuación:
 
 
 
-![Iray - Entorno oculto](iray.resources/iray-environment-hidden.png "Iray - Entorno oculto")
+![Iray - Entorno oculto](iray.resources/iray-06.png "Iray - Entorno oculto")
 
-![Iray - Entorno visible](iray.resources/iray-env-visible.png "Iray - Entorno visible")
+![Iray - Entorno visible](iray.resources/iray-07.png "Iray - Entorno visible")
 
 +++
 
@@ -229,11 +229,11 @@ El impacto de algunos de estos ajustes se muestra a continuación:
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-env-infinite-sphere.png" alt="Iray - Solo esfera infinita">
+      <img src="iray.resources/iray-08.png" alt="Iray - Solo esfera infinita">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-env-sphere-ground.png" alt="Iray - Esfera infinita con plano de tierra">
+      <img src="iray.resources/iray-09.png" alt="Iray - Esfera infinita con plano de tierra">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ El impacto de algunos de estos ajustes se muestra a continuación:
 
 
 
-![Iray - Solo esfera infinita](iray.resources/iray-env-infinite-sphere.png "Iray - Solo esfera infinita")
+![Iray - Solo esfera infinita](iray.resources/iray-08.png "Iray - Solo esfera infinita")
 
-![Iray - Esfera infinita con plano terrestre](iray.resources/iray-env-sphere-ground.png "Iray - Esfera infinita con plano terrestre")
+![Iray - Esfera infinita con plano terrestre](iray.resources/iray-09.png "Iray - Esfera infinita con plano terrestre")
 
 +++
 
 +++Rotar entorno
-![Rotar entorno](iray.resources/iray-env-rotation.gif "Rotar entorno")
+![Rotar entorno](iray.resources/iray-10.gif "Rotar entorno")
 
 
 
 +++
 
 +++Ajustar el plano de tierra
-![Reflejo en tierra](iray.resources/iray-env-ground-options.gif "Reflejo en tierra")
+![Reflejo en tierra](iray.resources/iray-11.gif "Reflejo en tierra")
 
 
 
 +++
 
 +++Ajustar esfera infinita
-![Escala de entorno (esfera)](iray.resources/iray-env-sphere-radius.gif "Escala de entorno (esfera)")
+![Escala de entorno (esfera)](iray.resources/iray-12.gif "Escala de entorno (esfera)")
 
 
 
 +++
 
 +++Ajustar cuadro envolvente
-![Escala de entorno (cubo)](iray.resources/iray-env-box-dimensions.gif "Escala de entorno (cubo)")
+![Escala de entorno (cubo)](iray.resources/iray-13.gif "Escala de entorno (cubo)")
 
 
 
@@ -287,7 +287,7 @@ Estas opciones muestran una *superposición de texto* sobre la imagen representa
 * <b>Resolución</b>: La resolución de procesamiento efectiva. Si la opción Usar resolución de ventana de las propiedades de la cámara se establece en False, la proporción de la imagen se ajusta automáticamente para que coincida con la proporción de resolución
 * <b>Estadísticas de escena</b>: Una lista de estadísticas relacionadas con la escena procesada, que incluye el recuento de triángulos y el recuento de materiales, entre otros datos
 
-![Opciones de visualización](iray.resources/iray-display-data.png "Opciones de visualización"){width="512px"}
+![Opciones de visualización](iray.resources/iray-14.png "Opciones de visualización"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -300,13 +300,13 @@ Procesamiento progresivo
 * <b>Muestras mínimas</b>: El número mínimo de muestras por píxel que calcular antes de considerar los criterios para detener el procesamiento progresivo
 * <b>Máximo de muestras</b>: Si se ha procesado este número de muestras por píxel, detenga el procesamiento progresivo automáticamente
 * <b>Tiempo máximo (segundos)</b>: Tiempo en segundos después del cual el procesamiento progresivo debe finalizar automáticamente
-* <b>Muestra cáustica habilitada</b>: Aumente el muestreador predeterminado con un muestreador cáustico dedicado. Los cáusticos son el resultado de la luz que pasa a través de un objeto no opaco, por lo que solo es necesario si se aplica un material [MDL](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) que admita la translucidez en cualquier objeto de la escena
+* <b>Muestra cáustica habilitada</b>: Aumente el muestreador predeterminado con un muestreador cáustico dedicado. Los cáusticos son el resultado de la luz que pasa a través de un objeto no opaco, por lo que solo es necesario si se aplica una translucidez de soporte de material [MDL](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) en cualquier objeto de la escena
 * <b>Filtro de Firefly habilitado</b>: active el filtro luciérnaga, que utiliza un algoritmo predefinido para eliminar luciérnagas en la imagen calculada a medida que avanza el procesamiento. Los Firefly son artefactos visuales en los que *píxeles aislados* de una imagen son *notablemente más brillantes* que sus vecinos, y son el resultado de muestras de rayos insuficientes para determinar con precisión la distribución de la luz
 * Denoiser posterior\
   El procesador Iray usa el [denoiser acelerado por IA NVIDIA Optix](https://developer.nvidia.com/optix-denoiser) para eliminar el ruido de alta calidad iterativo de la imagen mientras se procesa.
 
   * <b>Habilitado</b>: permite activar un *algoritmo de eliminación de ruido* predefinido en una iteración de procesamiento establecida, y estar activo hasta el *final* del procesamiento
-  * <b>Iniciar iteración</b>: Si el eliminador de ruido está activado, esta opción define la iteración en la que se inicia el proceso de eliminación de ruido. Esto puede evitar que la sobrecarga de rendimiento del denoiser afecte a la interactividad, por ejemplo, al mover la cámara. Además, las primeras iteraciones no suelen ser adecuadas como entrada para el denoiser debido a una convergencia insuficiente, lo que conduce a resultados insatisfactorios.
+  * <b>Iniciar iteración</b>: Si el eliminador de ruido está activado, esta opción define la iteración en la que se inicia el proceso de eliminación de ruido. Esto puede evitar que la sobrecarga de rendimiento del denoiser afecte a la interactividad, por ejemplo, al mover la cámara. Además, las primeras iteraciones no suelen ser adecuadas como insumo para el denoiser debido a una convergencia insuficiente, lo que conduce a resultados insatisfactorios.
 
 El impacto de algunos de estos ajustes se muestra en las comparaciones de imágenes a continuación:
 
@@ -316,11 +316,11 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-renderer-none.png" alt="Iray: renderizado base">
+      <img src="iray.resources/iray-15.png" alt="Iray: renderizado base">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray: muestra cáustica activada">
+      <img src="iray.resources/iray-16.png" alt="Iray: muestra cáustica activada">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 
 
 
-![Iray - Renderizado base](iray.resources/iray-renderer-none.png "Iray - Renderizado base")
+![Iray - Renderizado base](iray.resources/iray-15.png "Iray - Renderizado base")
 
-![Iray - Muestras cáusticas habilitadas](iray.resources/iray-renderer-caustics.png "Iray - Muestras cáusticas habilitadas")
+![Iray - Muestras cáusticas habilitadas](iray.resources/iray-16.png "Iray - Muestras cáusticas habilitadas")
 
 +++
 
@@ -340,11 +340,11 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray: filtro de Firefly desactivado">
+      <img src="iray.resources/iray-16.png" alt="Iray: filtro de Firefly desactivado">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray: filtro de Firefly activado">
+      <img src="iray.resources/iray-17.png" alt="Iray: filtro de Firefly activado">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 
 
 
-![Iray - Filtro de Firefly deshabilitado](iray.resources/iray-renderer-caustics.png "Iray - Filtro de Firefly deshabilitado")
+![Iray - Filtro de Firefly deshabilitado](iray.resources/iray-16.png "Iray - Filtro de Firefly deshabilitado")
 
-![Iray - Filtro de Firefly habilitado](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Filtro de Firefly habilitado")
+![Iray - Filtro de Firefly habilitado](iray.resources/iray-17.png "Iray - Filtro de Firefly habilitado")
 
 +++
 
@@ -364,11 +364,11 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - Post-denoiser desactivado">
+      <img src="iray.resources/iray-17.png" alt="Iray - Post-denoiser desactivado">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray: habilitada para Post-denoiser">
+      <img src="iray.resources/iray-18.png" alt="Iray: habilitada para Post-denoiser">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 
 
 
-![Iray - Post-denoiser deshabilitado](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Post-denoiser deshabilitado")
+![Iray - Post-denoiser deshabilitado](iray.resources/iray-17.png "Iray - Post-denoiser deshabilitado")
 
-![Iray - Habilitado para Post-denoiser](iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Habilitado para Post-denoiser")
+![Iray - Habilitado para Post-denoiser](iray.resources/iray-18.png "Iray - Habilitado para Post-denoiser")
 
 +++
 
@@ -404,4 +404,4 @@ Cuando se detecta una GPU compatible, se muestra en esta sección, se *seleccion
 > La aceleración de hardware de GPU utiliza la tecnología [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone). Asegúrate de que tu *controlador de gráficos está actualizado* para obtener la mejor compatibilidad y fiabilidad. Encuentra el controlador más reciente para tu GPU NVIDIA [aquí](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
 > Para configuraciones de varias GPU, se recomienda *deshabilitar SLI* y seleccionar solo una GPU para obtener la mejor confiabilidad.
 
-![Preferencias de Iray](iray.resources/iray-preferences-hardware.png "Preferencias de Iray")
+![Preferencias de Iray](iray.resources/iray-19.png "Preferencias de Iray")

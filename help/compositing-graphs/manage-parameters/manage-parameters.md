@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Aprenda a administrar y organizar parámetros en Substance que componen gráficas para una mejor organización del flujo de trabajo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestionar parámetros
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Cuando las propiedades de un nodo se muestran en el conjunto acoplado de propied
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menú global &quot;Administrar parámetros&quot; en Propiedades](manage-parameters.resources/manage-parameters-menu-global.png "Menú global &quot;Administrar parámetros&quot; en Propiedades"){zoomable="yes"}
+![Menú global &quot;Administrar parámetros&quot; en Propiedades](manage-parameters.resources/manage-parameters-01.png "Menú global &quot;Administrar parámetros&quot; en Propiedades"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Si desea administrar un parámetro *single*, use el menú &#39;<b>Manage functio
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menú local &quot;Administrar parámetros&quot; en Propiedades](manage-parameters.resources/manage-parameters-menu.png "Menú local &quot;Administrar parámetros&quot; en Propiedades"){zoomable="yes"}
+![Menú local &quot;Administrar parámetros&quot; en Propiedades](manage-parameters.resources/manage-parameters-02.png "Menú local &quot;Administrar parámetros&quot; en Propiedades"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Las mismas limitaciones que se enumeran a continuación para los nodos atómicos
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-Menú ![&#39;Administrar parámetros&#39; en menú contextual de nodo](manage-parameters.resources/manage-parameters-node-menu.png "&#39;Administrar parámetros&#39; en menú contextual de nodo"){zoomable="yes"}
+Menú ![&#39;Administrar parámetros&#39; en menú contextual de nodo](manage-parameters.resources/manage-parameters-03.png "&#39;Administrar parámetros&#39; en menú contextual de nodo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Esta característica funciona de la misma manera que el uso de un [archivo de pa
 </td>
 <td style="border: 0;" valign="top">
 
-![Copiar y pegar parámetros](manage-parameters.resources/copy-paste-parameters.gif "Copiar y pegar parámetros"){zoomable="yes"}
+![Copiar y pegar parámetros](manage-parameters.resources/manage-parameters-04.gif "Copiar y pegar parámetros"){zoomable="yes"}
 
 </td>
 </tr>

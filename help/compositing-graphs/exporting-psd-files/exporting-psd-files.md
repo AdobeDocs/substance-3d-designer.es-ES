@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: Aprenda a exportar Substance que componen gráficos como archivos de PSD para su uso en Adobe Photoshop y otros flujos de trabajo de edición de imágenes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportación de archivos PSD
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -26,13 +26,13 @@ Substance 3D Designer permite exportar texturas a un documento de Adobe Photosho
 
 ## Cuadro de diálogo Exportar de PSD
 
-El cuadro de diálogo Exportar PSD solo se puede abrir con un método. En la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) del gráfico que deseas exportar a PSD, haz clic en el botón ![](exporting-psd-files.resources/image2019-9-17-14-44-17.png) <b>Herramientas</b> y selecciona <b>Exportador de PSD</b>. La interfaz se hace visible en <b>Graph View</b>.
+El cuadro de diálogo Exportar PSD solo se puede abrir con un método. En la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) del gráfico que deseas exportar al PSD, haz clic en el botón ![](exporting-psd-files.resources/exporting-psd-files-01.png) <b>Herramientas</b> y selecciona <b>Exportador de PSD</b>. La interfaz se hace visible en <b>Graph View</b>.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Interfaz de usuario del exportador PSD](exporting-psd-files.resources/psd-dialog.png "Interfaz de usuario del exportador PSD")
+![Interfaz de usuario del exportador PSD](exporting-psd-files.resources/exporting-psd-files-02.png "Interfaz de usuario del exportador PSD")
 
 </td>
 <td style="border: 0;" valign="top">

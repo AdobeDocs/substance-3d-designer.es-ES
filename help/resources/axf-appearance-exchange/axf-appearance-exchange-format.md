@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Aprenda a importar y utilizar recursos de formato de intercambio de apariencia AxF en Substance 3D Designer para la importación de materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AxF (Appearance eXchange Format)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-[![Icono de archivo AxF](axf-appearance-exchange-format.resources/axf-file-icon.png)](https://www.xrite.com/axf)
+[![Icono de archivo AxF](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-01.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -64,7 +64,7 @@ El flujo de trabajo de importación de archivos AxF se puede iniciar mediante un
 
 Haga clic en <b>Importar AxF...Botón </b> en la sección izquierda de la [pantalla de inicio](../../interface/home-screen/home-screen.md).
 
-![AxF: Inicie la importación desde la pantalla Inicio](axf-appearance-exchange-format.resources/axf_home-screen.png "AxF: Iniciar importación desde la pantalla Inicio"){width="600px"}
+![AxF: Inicie la importación desde la pantalla Inicio](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-02.png "AxF: Iniciar importación desde la pantalla Inicio"){width="600px"}
 
 +++
 
@@ -72,7 +72,7 @@ Haga clic en <b>Importar AxF...Botón </b> en la sección izquierda de la [panta
 
 Haga clic en RMB en un paquete en el [Explorador](../../interface/the-explorer-window/the-explorer-window.md) y vaya a <b>Importar > AxF</b> en el menú contextual del paquete.
 
-![AxF: Inicie la importación desde Explorer](axf-appearance-exchange-format.resources/axf_explorer.png "AxF: Iniciar importación desde el Explorador"){width="600px"}
+![AxF: Inicie la importación desde Explorer](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-03.png "AxF: Iniciar importación desde el Explorador"){width="600px"}
 
 +++
 
@@ -90,7 +90,7 @@ La sección <b>Templates</b> le permite configurar la plantilla [Substance graph
 
 <b>Metadatos</b> y <b>Propiedades</b> muestran los datos extraídos del material en el archivo AxF. Esto afecta a la configuración de algunas propiedades de plantillas de gráficos de Substance (consulte la sección [Plantillas de gráficos](#graph-templates) que aparece a continuación).
 
-![AxF: Cuadro de diálogo de importación](axf-appearance-exchange-format.resources/axf_import.png "AxF: Cuadro de diálogo de importación")
+![AxF: Cuadro de diálogo de importación](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-04.png "AxF: Cuadro de diálogo de importación")
 
 ### Resultado
 
@@ -110,7 +110,7 @@ En el caso de los [gráficos de Substance](../../compositing-graphs/substance-co
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Resultado del paquete del proceso de importación](axf-appearance-exchange-format.resources/axf_package.png "AxF: Resultado del paquete del proceso de importación")
+![AxF: Resultado del paquete del proceso de importación](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-05.png "AxF: Resultado del paquete del proceso de importación")
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Haga clic en el botón <b>Agregar plantilla</b> y seleccione el tipo de gráfico
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Agregar plantilla en el cuadro de diálogo de importación](axf-appearance-exchange-format.resources/axf_add-template.png "AxF: Agregar plantilla en el cuadro de diálogo de importación")
+![AxF: Agregar plantilla en el cuadro de diálogo de importación](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-06.png "AxF: Agregar plantilla en el cuadro de diálogo de importación")
 
 </td>
 </tr>
@@ -144,14 +144,14 @@ Haga clic en el botón <b>Agregar plantilla</b> y seleccione el tipo de gráfico
 Hay dos tipos de plantillas de gráficos de Substance disponibles:
 
 Las plantillas <b>AxF to Metallic Roughness</b> y <b>AxF to Specular Glossiness</b> son plantillas de *conversión* que te permiten asignar materiales AxF a modelos PBR estándar.\
-Estos se pueden usar con los sombreadores de vista 3D predeterminados y combinarse con otros materiales PBR producidos en Designer, [Sampler](https://www.adobe.com/es/products/substance3d-sampler.html) o adquiridos de nuestra biblioteca [3D Assets](https://substance3d.adobe.com/assets/).
+Estos se pueden usar con los sombreadores de vista 3D predeterminados y combinarse con otros materiales PBR producidos en Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) o adquiridos de nuestra biblioteca [3D Assets](https://substance3d.adobe.com/assets/).
 
 <b>AxF a AxF</b> es una plantilla *passthrough* que te permite editar materiales AxF in situ y exportar estos cambios como nuevas capas en archivos AxF existentes. Consulte Exportar archivos AxF a continuación para obtener más información.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Plantillas de gráficos de Substance](axf-appearance-exchange-format.resources/axf-templates.png "AxF: Plantillas de gráficos de Substance")
+![AxF: Plantillas de gráficos de Substance](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-07.png "AxF: Plantillas de gráficos de Substance")
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ Los *metadatos* extraídos del material en el archivo AxF se copian en la propie
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Parámetros de gráfica de Substance](axf-appearance-exchange-format.resources/axf_graph-props.png "AxF: Parámetros del gráfico del Substance")
+![AxF: Parámetros de gráfica de Substance](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-08.png "AxF: Parámetros del gráfico del Substance")
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ La propiedad <b>Tamaño físico</b> del gráfico se usa para establecer el atrib
 >
 > Los cambios en los recursos del archivo se agregan como *nueva capa*. Esto significa que cada exportación realizada desde Designer al mismo archivo AxF se sumará al tamaño del archivo.
 
-![Exportar AxF](axf-appearance-exchange-format.resources/exportaxf.gif)
+![Exportar AxF](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-09.gif)
 
 <table>
 <tr style="border: 0;">
@@ -219,12 +219,12 @@ La propiedad <b>Tamaño físico</b> del gráfico se usa para establecer el atrib
 
 El cuadro de diálogo de exportación <b>AxF</b> está disponible en el cuadro de diálogo <b>Exportar salidas</b> como una pestaña dedicada.
 
-En la barra de herramientas [Graph View](../../interface/the-graph-view/the-graph-view.md), abre el menú ![](axf-appearance-exchange-format.resources/tools.jpg) <b>Tools</b> y selecciona <b>Exportar resultados...Opción </b> para mostrar el cuadro de diálogo y, a continuación, seleccione la pestaña <b>AxF</b>.
+En la barra de herramientas [Graph View](../../interface/the-graph-view/the-graph-view.md), abre el menú ![](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-10.jpg) <b>Tools</b> y selecciona <b>Exportar resultados...Opción </b> para mostrar el cuadro de diálogo y, a continuación, seleccione la pestaña <b>AxF</b>.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![AxF: Opción de exportación en la barra de herramientas Vista de gráfico](axf-appearance-exchange-format.resources/axf_graph-export.png "AxF: Opción de exportación en la barra de herramientas Vista de gráfico")
+![AxF: Opción de exportación en la barra de herramientas Vista de gráfico](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-11.png "AxF: Opción de exportación en la barra de herramientas Vista de gráfico")
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ El campo de entrada <b>Archivo</b> le permite seleccionar el archivo AxF de dest
 >
 > Un gráfico de salida debe tener su propiedad <b>Group</b> establecida en &#39;AxF&#39; para que se muestre en este cuadro de diálogo.
 
-![AxF: Cuadro de diálogo Exportar](axf-appearance-exchange-format.resources/axf_export.png "AxF: Cuadro de diálogo Exportar")
+![AxF: Cuadro de diálogo Exportar](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-12.png "AxF: Cuadro de diálogo Exportar")
 
 Haga clic en <b>Iniciar exportación </b> para editar el archivo AxF de destino con la nueva capa que contiene los cambios en las salidas asignadas.
 
@@ -258,7 +258,7 @@ Al exportar a un archivo AxF existente, sus recursos se actualizan utilizando la
 
 Además, la propiedad <b>Group</b> *de Output* debe estar establecida en &#39;AxF&#39; para que se muestre en el cuadro de diálogo de exportación de AxF (ver arriba).
 
-![AxF: Uso de salida del gráfico del Substance](axf-appearance-exchange-format.resources/axf_output_usage.png "AxF: Uso de salida del gráfico del Substance")
+![AxF: Uso de salida del gráfico del Substance](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-13.png "AxF: Uso de salida del gráfico del Substance")
 
 Los recursos pueden ser texturas (es decir, mapas de bits) o uniformes (es decir, valores) con un número específico de canales. Es obligatorio que la salida del gráfico coincida exactamente con ese número de canales. Si no es así, se generará un error para ese recurso durante la exportación y el recurso no se modificará.
 
@@ -285,7 +285,7 @@ Si deseas convertir un material SVBRDF de un archivo AxF en un material PBR est�
 En ese caso, debe usar el **procesador OpenGL** en la vista 3D y seleccionar el <code>AxF SVBRF</code> sombreador.\
 A continuación, puede arrastrar y soltar el gráfico del Substance que haya configurado en el cuadro de diálogo de importación para conectar sus salidas al sombreado.
 
-![AxF: Viendo para conversión](axf-appearance-exchange-format.resources/axf-view-for-convert.gif "AxF: Viendo para conversión")
+![AxF: Viendo para conversión](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-14.gif "AxF: Viendo para conversión")
 
 +++
 
@@ -302,7 +302,7 @@ En concreto, la propiedad <b>Tiling</b> te permite ajustar el mosaico de las tex
 
 Después de seleccionar el sombreado, haga clic en RMB en el espacio vacío del gráfico y seleccione la opción <b>Ver salidas en vista 3D</b> para visualizar sus salidas en la [vista 3D](../../interface/3d-view/3d-view.md).
 
-![AxF: SVBRDF GLSLFX shader](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: Sombreador SVBRDF GLSLFX"){width="600px"}
+![AxF: SVBRDF GLSLFX shader](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-15.png "AxF: Sombreador SVBRDF GLSLFX"){width="600px"}
 
 Este sombreador es un *trabajo en curso* y algunas características aún no son compatibles. Por lo tanto, aunque puede proporcionar una visión general de las características de los materiales, no debe utilizarse para realizar ajustes precisos.
 
@@ -311,7 +311,7 @@ En concreto, la propiedad <b>Tiling</b> te permite ajustar el mosaico de las tex
 
 Después de seleccionar el sombreado, haga clic en RMB en el espacio vacío del gráfico y seleccione la opción <b>Ver salidas en vista 3D</b> para visualizar sus salidas en la [vista 3D](../../interface/3d-view/3d-view.md).
 
-![AxF: Viendo para edición](axf-appearance-exchange-format.resources/axf-view-for-edit.gif "AxF: Visualización para edición")
+![AxF: Viendo para edición](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-16.gif "AxF: Visualización para edición")
 <i>Nota:</i> Omita la parte del vídeo desde el cambio al procesador de Iray hasta el final, ya que el procesador de Iray y la compatibilidad con MDL se <i>quitaron</i> de Designer en la versión 16.0.0.
 
 +++

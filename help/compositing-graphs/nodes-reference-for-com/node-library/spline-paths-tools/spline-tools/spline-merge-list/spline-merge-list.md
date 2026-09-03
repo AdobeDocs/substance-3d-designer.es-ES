@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
 breadcrumb-title: ''
 description: Utilice el nodo Lista de combinación de splines para combinar varias splines en una única lista de splines para operaciones combinadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lista de combinación de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-merge-list.resources/spline-merge-list-icon.png "Icono de nodo")
+![Icono de nodo](spline-merge-list.resources/spline-merge-list-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -82,11 +82,11 @@ Fusiona todas las splines de la lista de entrada en una única spline.
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-02.jpg" alt="SplineMergeList-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
+      <img src="spline-merge-list.resources/spline-merge-list-03.jpg" alt="SplineMergeList-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ Fusiona todas las splines de la lista de entrada en una única spline.
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-04.jpg" alt="SplineMergeList-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
+      <img src="spline-merge-list.resources/spline-merge-list-05.jpg" alt="SplineMergeList-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -112,4 +112,4 @@ Fusiona todas las splines de la lista de entrada en una única spline.
 </tr>
 </table>
 
-![Demostración de nodo](spline-merge-list.resources/SplineMergeList-Demo.gif "Demostración de nodo")
+![Demostración de nodo](spline-merge-list.resources/spline-merge-list-06.gif "Demostración de nodo")

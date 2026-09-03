@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Utilice el nodo Escala de grises del asignador de puente de spline para enlazar texturas entre dos splines con asignación de escala de grises.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge Mapper Escala de grises
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-icon.png "Icono de nodo")
+![Icono de nodo](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -91,11 +91,11 @@ Asigna una imagen en escala de grises a través de una lista de splines de entra
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ Asigna una imagen en escala de grises a través de una lista de splines de entra
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapper-Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ Asigna una imagen en escala de grises a través de una lista de splines de entra
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Graph.jpg "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "Ejemplo de nodo 2")
 
 </td>
 </tr>

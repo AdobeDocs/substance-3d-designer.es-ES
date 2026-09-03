@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
 breadcrumb-title: ''
 description: Designer ofrece una selección seleccionada de gráficos de muestra que abarcan varios tipos de materiales con los que aprender y con los que experimentar.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Muestras de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Muestras de material
 
-![Muestras de material - Tarjetas de plantilla](material-samples.resources/materialSamples-cards.png "Muestras de material - Tarjetas de plantilla")
+![Muestras de material - Tarjetas de plantilla](material-samples.resources/material-samples-01.png "Muestras de material - Tarjetas de plantilla")
 
 Designer ofrece una selección seleccionada de gráficos de muestra que abarcan varios tipos de materiales con los que aprender y con los que experimentar.
 
@@ -36,14 +36,14 @@ Al crear un nuevo gráfico de Substance, encontrará los ejemplos en el [cuadro 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cuadro de diálogo Nuevo gráfico de Substance - Muestras de material](material-samples.resources/newGraphDialog-samples-1.png "Cuadro de diálogo Nuevo gráfico de Substance - Muestras de material"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance - Muestras de material](material-samples.resources/material-samples-02.png "Cuadro de diálogo Nuevo gráfico de Substance - Muestras de material"){zoomable="yes"}
 
 Abra el cuadro combinado <b>Categoría</b> y seleccione <b>Ejemplos de materiales</b> para ver las plantillas disponibles.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Muestras de material - Botón de banner](material-samples.resources/materialSamples-bannerButton.png "Muestras de material - Botón de banner"){zoomable="yes"}
+![Muestras de material - Botón de banner](material-samples.resources/material-samples-03.png "Muestras de material - Botón de banner"){zoomable="yes"}
 
 Puede ir directamente a la lista de muestras en el cuadro de diálogo, usando el botón <b>Ir a muestras</b> convenientemente colocado
 en la <b>pantalla de inicio</b>.
@@ -62,7 +62,7 @@ explorados en la muestra.
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Muestras de material - Información sobre la herramienta de la tarjeta de plantilla](material-samples.resources/newGraphDialog-sampleTooltip.png "Muestras de material - Información sobre la herramienta de la tarjeta de plantilla"){zoomable="yes"}
+![Muestras de material - Información sobre la herramienta de la tarjeta de plantilla](material-samples.resources/material-samples-04.png "Muestras de material - Información sobre la herramienta de la tarjeta de plantilla"){zoomable="yes"}
 
 </td>
 </tr>
@@ -75,7 +75,7 @@ Haga doble clic en cualquier elemento para crear un nuevo gráfico a partir de e
 el botón <b>Crear</b>. Una vez seleccionada una muestra de material y validada la creación del gráfico, se cierra el cuadro de diálogo
 y se carga una copia de la muestra como un nuevo gráfico en la vista de gráfico.
 
-De forma predeterminada, el primer resultado del ejemplo se carga en la vista 2D y las texturas se aplican a la Vista 3D.
+De forma predeterminada, el primer resultado del ejemplo se carga en la vista 2D y las texturas se aplican a la vista 3D.
 De este modo, tu espacio de trabajo se configura automáticamente y ya estás listo para comenzar. (Esto se puede cambiar en las [preferencias](../../../interface/preferences-window/preferences-window.md) de Designer)
 
 >[!NOTE]
@@ -84,4 +84,4 @@ De este modo, tu espacio de trabajo se configura automáticamente y ya estás li
 > el material en el Vista 3D cambiará automáticamente a la superficie de <code>OpenPBR</code> sombreador a fin de
 > vea el ejemplo con precisión.
 
-![Muestra de material - Gráfico](material-samples.resources/materialSamples-graph.png "Muestra de material - Gráfico"){zoomable="yes"}
+![Muestra de material - Gráfico](material-samples.resources/material-samples-05.png "Muestra de material - Gráfico"){zoomable="yes"}

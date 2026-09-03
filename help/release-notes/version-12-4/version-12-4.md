@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 12.4 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
@@ -30,49 +30,49 @@ Fecha de publicación: *31 de enero de 2023*
 
 Cuando edita su gráfico, a veces tiene que experimentar varias posibilidades, y conectar / desconectar varios nodos hasta el momento en que obtenga el resultado que desea. Al final, tiene algunos nodos en el gráfico que no están conectados a una salida, por lo tanto no tienen impacto en el resultado final. Esta nueva herramienta le permitirá detectar y eliminar automáticamente esos nodos para limpiar sus gráficos antes de finalizarlos. Opcionalmente, la herramienta de limpieza también está buscando funciones de parámetros y se puede iniciar en el gráfico actual mediante el botón dedicado de la barra de herramientas Vista de gráfico o en una selección de gráficos de la vista del explorador.
 
-![](version-12-4.resources/final-clean.gif){width="640px"}
+![](version-12-4.resources/version-12-4-01.gif){width="640px"}
 
 ### Escribir fórmulas en campos de parámetros
 
 Ya no es necesario utilizar una calculadora ni calcular en la cabeza cuando se desea introducir valores de parámetros específicos. Ahora puede introducir directamente fórmulas básicas como adiciones, divisiones, multiplicaciones o sustracciones al establecer un valor numérico para un parámetro en las propiedades y otros lugares de la aplicación.
 
-![](version-12-4.resources/final-formula.gif){width="640px"}
+![](version-12-4.resources/version-12-4-02.gif){width="640px"}
 
 ### Botones de acceso rápido en la vista 3D
 
 Hemos añadido una barra de herramientas adicional en la [vista 3D](../../interface/3d-view/3d-view.md) correspondiente a todas las opciones disponibles en el menú [Mostrar](../../interface/3d-view/3d-view.md), para acceder rápidamente a todas estas opciones (por ejemplo, Malla metálica, Cuadrícula, Cuadro delimitador, etc.) como el botón cambia. También hemos añadido un botón de alternancia para mostrar/ocultar el mapa de entorno.
 
-![](version-12-4.resources/final-3dview.gif){width="640px"}
+![](version-12-4.resources/version-12-4-03.gif){width="640px"}
 
 ### Botón para generar una semilla aleatoria
 
 Ahora puede crear rápidamente diferentes variaciones utilizando un nuevo botón para generar la semilla aleatoria de su gráfico, en lugar de mover un regulador.
 
-![](version-12-4.resources/final-seed.gif){width="640px"}
+![](version-12-4.resources/version-12-4-04.gif){width="640px"}
 
 ### Bloquear para el widget Tamaño de salida
 
 Ahora puede bloquear la anchura y el height del tamaño de salida para asegurarse de mantener un tamaño cuadrado y evitar manipular los dos valores cada vez que desee actualizarlos.
 
-![](version-12-4.resources/final-lock.gif){width="640px"}
+![](version-12-4.resources/version-12-4-05.gif){width="640px"}
 
 ### Transformar la entrada de imagen a color/escala de grises
 
 Cambia rápidamente entre un [color de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) y una [escala de grises de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) a través del menú contextual del nodo.
 
-![](version-12-4.resources/final-switch.gif){width="640px"}
+![](version-12-4.resources/version-12-4-06.gif){width="640px"}
 
 ### Seleccionar la chincheta seleccionada al mostrar el Editor de degradado
 
 En el panel de propiedades, si hace clic en una chincheta para editar un degradado, ahora seleccionará automáticamente la chincheta correspondiente en el [Editor de degradado](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) mostrado.
 
-![](version-12-4.resources/final-gradient.gif){width="640px"}
+![](version-12-4.resources/version-12-4-07.gif){width="640px"}
 
 ### Seleccionar nodos descendentes
 
 Nueva entrada en el [menú contextual del nodo](../../interface/the-graph-view/the-graph-view.md) para seleccionar todos los nodos conectados a la salida de los nodos seleccionados, directa o indirectamente. Por lo tanto, se seleccionan todos los nodos afectados por el nodo. Resulta útil para eliminar parte del gráfico o rediseñar su diseño.
 
-![](version-12-4.resources/final-downstream.gif){width="640px"}
+![](version-12-4.resources/version-12-4-08.gif){width="640px"}
 
 ## Actualizaciones de API de Python
 
@@ -111,7 +111,7 @@ Esta versión 12.4 también ofrece compatibilidad total con gráficos de modelos
 * [Vista 3D] La propiedad de visualización de Mallas metálicas no se guarda
 * [Contenido] Los parámetros de color de desenfoque radial no afectan al canal alfa
 * [Localización] Se muestran reguladores y botones adicionales en Propiedades de OpenGL de entorno.
-* [MDL]&#x200B;[Modelo de Substance] Bloqueo al eliminar nodos expuestos
+* [MDL][Modelo de Substance] Bloqueo al eliminar nodos expuestos
 * [Preferencias] El archivo Default\_config nunca se vuelve a crear si se elimina
 * [Modelo de Substance] Parámetro de reordenación de bloqueo que no aparece en el nivel de instancia
 * [API] SDProperty.getDefaultValue() casi siempre devuelve None

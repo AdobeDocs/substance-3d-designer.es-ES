@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
 breadcrumb-title: ''
-description: Utilice el nodo Procesamiento de superficie de Textura 3D para procesar texturas de superficie a partir de datos 3D para crear efectos de superficie procedimientos.
+description: Utilice el nodo Procesamiento de superficie de textura 3D para procesar texturas de superficie a partir de datos 3D para crear efectos de superficie de procedimiento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Surface Render
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Renderizado de superficie de Textura 3D
+title: Renderizado de superficie de textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# Renderizado de superficie de Textura 3D
+# Renderizado de superficie de textura 3D
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-surface-render.resources/3dtexturesurfacerender.png){width="200px"}
+![](3d-texture-surface-render.resources/3d-texture-surface-render-01.png){width="200px"}
 
 <b>En:</b> Filtro > Efecto
 
@@ -33,14 +33,14 @@ ht-degree: 0%
 
 ## Descripción
 
-El nodo **Renderizado de superficie de Textura 3D** representa la superficie de una forma descrita por una *textura 3D*, utilizando su correspondiente *campo de distancia* de la entrada de imagen del **Campo de distancia 3D**.
+El nodo **3D Texture Surface Render** representa la superficie de una forma descrita por una *textura 3D*, utilizando su correspondiente *campo de distancia* de la entrada de imagen del **Campo de distancia 3D**.
 
 La superficie se representa dentro de los límites de un *cubo de unidades*. La iluminación se calcula utilizando la imagen de entrada **Environment** asignada a una esfera infinita.
 
 >[!NOTE]
 >
 > Se espera que el campo de distancia sea una textura **4096x4096** que describa la forma con una cuadrícula **16x16** de 256 sectores.\
-> Puede utilizar el nodo [SDF de Textura 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) para calcular el campo de distancia de una textura 3D de 256 sectores.
+> Puede utilizar el nodo [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) para calcular el campo de distancia de una textura 3D de 256 sectores.
 
 </td>
 </tr>
@@ -77,19 +77,19 @@ La superficie se representa dentro de los límites de un *cubo de unidades*. La 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant.jpg" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant2.jpg" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant3.jpg" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant4.jpg" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-node.png" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-06.png" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Conozca las advertencias en los gráficos de funciones de Substance 3D Designer y aprenda a resolver problemas comunes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Advertencias en los gráficos de funciones
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -45,7 +45,7 @@ El nodo de salida de un gráfico de funciones tiene el color *naranja*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-01.gif)
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ El nodo de salida de un gráfico de funciones tiene el color *naranja*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-02.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Escriba una cadena que coincida con el nombre de una variable *disponible en el 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-03.gif)
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Escriba cualquier cadena en la propiedad **Set** de nodos Set que generen esta a
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-04.gif)
 
 </td>
 </tr>

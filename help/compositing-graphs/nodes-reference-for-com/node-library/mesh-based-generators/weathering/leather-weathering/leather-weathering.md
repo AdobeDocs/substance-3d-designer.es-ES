@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
 description: Utilice el nodo de erosión de cuero para añadir patrones de desgaste y efectos de envejecimiento a los materiales de cuero en función de la curvatura de la malla.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Meteorología de cuero
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leather-weathering.resources/leather-weathering.png){width="128px"}
+![](leather-weathering.resources/leather-weathering-01.png){width="128px"}
 
 <b>En:</b> Generadores Basados En Malla > Meteorización
 
@@ -89,10 +89,10 @@ Asegúrate de que comprendes perfectamente los [modos de creación de vínculos]
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leather-weathering.resources/leather-ex.gif" />
+            <img src="leather-weathering.resources/leather-weathering-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="leather-weathering.resources/leather-ex2.png" />
+            <img src="leather-weathering.resources/leather-weathering-03.png" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: Utilice el nodo Transformación 2D para aplicar transformaciones 2D a texturas, incluidas la traslación, la rotación y la escala.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformación 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Transformación 2D](transformation-2d.resources/comp_transformation_1.png "Nodo atómico: Transformación 2D"){width="200px"}
+![Nodo atómico: Transformación 2D](transformation-2d.resources/transformation-2d-01.png "Nodo atómico: Transformación 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Sin embargo, no puede ser una coincidencia perfecta para ciertas aplicaciones, p
 > 
 > Establezca el [método de herencia](../../../../glossary/glossary.md) del &#39;Modo de segmentación&#39; [parámetro base](../../../../glossary/glossary.md) en &#39;Absoluto&#39;, que luego le permite establecer el valor del parámetro en &#39;Sin segmentación&#39;:
 > 
-> ![](transformation-2d.resources/tilingmode.png)
+> ![](transformation-2d.resources/transformation-2d-02.png)
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: Utilice el nodo Lista de puntos para crear y gestionar listas de puntos para la generación de splines y trazados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lista de puntos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](point-list.resources/point-list-icon.png "Icono de nodo")
+![Icono de nodo](point-list.resources/point-list-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -83,9 +83,9 @@ Si se proporciona una lista de puntos existente a las entradas <b>Point</b>, la 
 | <b>p#</b> <i>Float2</i> | Establece la posición del punto p# en el espacio de textura. |
 | <b>Vista previa</b> |  |
 | <b>Mostrar etiquetas</b> <i>Booleano</i> | Para cada punto, muestra el nombre del punto junto a él en la salida &quot;Vista previa&quot;. |
-| <b>Tamaño de etiqueta</b> <i>Flotante</i> (disponible cuando &#39;Mostrar etiquetas&#39; está establecido en &#39;True&#39;) | El tamaño de la etiqueta para cada punto en el espacio de textura, donde 0,1 es una décima parte del ancho de la textura. |
+| <b>Tamaño de etiqueta</b> <i>Float</i> (disponible cuando &#39;Mostrar etiquetas&#39; está establecido en &#39;True&#39;) | El tamaño de la etiqueta para cada punto en el espacio de textura, donde 0,1 es una décima parte del ancho de la textura. |
 | <b>Mostrar puntos</b> <i>Booleano</i> | Muestra los puntos en la salida de &#39;Vista previa&#39;. |
-| <b>Tamaño de puntos</b> <i>Flotante</i> (disponible cuando &#39;Mostrar puntos&#39; está establecido en &#39;True&#39;) | El radio de los puntos en el espacio de textura, donde 0,1 es una décima parte del ancho de la textura. |
+| <b>Tamaño de puntos</b> <i>Float</i> (disponible cuando &#39;Mostrar puntos&#39; está establecido en &#39;True&#39;) | El radio de los puntos en el espacio de textura, donde 0,1 es una décima parte del ancho de la textura. |
 
 ## Ejemplos
 
@@ -93,12 +93,12 @@ Si se proporciona una lista de puntos existente a las entradas <b>Point</b>, la 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](point-list.resources/PointList-Variant1.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](point-list.resources/point-list-02.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](point-list.resources/PointList-Demo1.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](point-list.resources/point-list-03.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

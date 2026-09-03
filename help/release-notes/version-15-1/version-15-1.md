@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 15.1 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer 15.1 ofrece una ventana de creación de gráficos completamen
 
 *Fecha de publicación: 11 de diciembre de 2025*
 
-![Banner de Designer 15.1](version-15-1.resources/bannerweb.png)
+![Banner de Designer 15.1](version-15-1.resources/version-15-1-01.png)
 
 ## Mejora de la creación de gráficos
 
@@ -36,13 +36,13 @@ Aunque la interfaz principal se ha actualizado, los usuarios siguen teniendo acc
 
 [Más información](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![rediseñar nueva ventana de gráfico](version-15-1.resources/newgraph.png){zoomable="yes"}
+![rediseñar nueva ventana de gráfico](version-15-1.resources/version-15-1-02.png){zoomable="yes"}
 
 ## Muestras incrustadas
 
 Con el lanzamiento de nuestra ventana de creación de gráficos rediseñada, hemos agregado una variedad de [<b>materiales de muestra</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directamente dentro del software. Esta mejora responde a su solicitud de un mejor acceso a los recursos de aprendizaje.
 
-![Nueva ventana de creación de gráficos para las muestras](version-15-1.resources/GraphSample.png){zoomable="yes"}
+![Nueva ventana de creación de gráficos para las muestras](version-15-1.resources/version-15-1-03.png){zoomable="yes"}
 
 Para satisfacer esta necesidad hemos incluido muestras de materiales tales como telas (incluyendo cuero y satén), madera, metal, plástico, cerámica y más. Estos ejemplos están pensados para ayudarle a iniciar sus proyectos con facilidad y familiarizarse con los principales nodos de la familia disponibles en Substance 3D Designer
 
@@ -54,7 +54,7 @@ Junto con estos materiales fundamentales, también proporcionamos <b>ejemplos av
 
 [Más información](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![muestra de madera en substance designer](version-15-1.resources/samplegraph.png){zoomable="yes"}
+![muestra de madera en substance designer](version-15-1.resources/version-15-1-04.png){zoomable="yes"}
 
 ## Nuevos ruidos
 
@@ -70,7 +70,7 @@ Consulta la lista completa de ruidos actualizados en las [notas de la versión](
 
 Ejemplos:   [Celdas 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nubes 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Arañazos direccionales](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Ruido de humedad 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![ruido de desorden direccional](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
+![ruido de desorden direccional](version-15-1.resources/version-15-1-05.gif){zoomable="yes"}
 
 ## Jerarquía en el menú de nodos
 
@@ -82,12 +82,12 @@ El gran número de nodos disponibles puede dificultar la búsqueda rápida del d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![búsqueda de nodos con categoría 1](version-15-1.resources/search1-2.png){zoomable="yes"}
+![búsqueda de nodos con categoría 1](version-15-1.resources/version-15-1-06.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![búsqueda de nodos con categoría 2](version-15-1.resources/search2.png){zoomable="yes"}
+![búsqueda de nodos con categoría 2](version-15-1.resources/version-15-1-07.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Juegue con la siguiente imagen para ver la diferencia antes y después de la def
 <table>
   <tr>
     <td>
-      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/version-15-1-08.png" alt="defaultouput2">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="version-15-1.resources/defaultouput1.png" alt="Con la salida predeterminada, las miniaturas siempre son relevantes.">
+      <img src="version-15-1.resources/version-15-1-09.png" alt="Con la salida predeterminada, las miniaturas siempre son relevantes.">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 
 [Más información](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Se ha definido el nodo](version-15-1.resources/isdefined.png){zoomable="yes"}
+![Se ha definido el nodo](version-15-1.resources/version-15-1-10.png){zoomable="yes"}
 
 ## Notas de la versión
 
@@ -172,16 +172,16 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 * [Contenido] Nuevo nodo &quot;Ruido de humedad 2&quot;
 * [Contenido] Ruidos: actualizar para agregar el formato de salida predeterminado
 * [Contenido] Ruido de Perlin v2: agregar formato de salida predeterminado, sin compatibilidad con mosaicos
-* [Contenido] Asignador de formas: agregar modo de filtrado
+* [Contenido] Asignador de formas: agregar modo de filtro
 * [Contenido] Mapeador UV: agregar modo de filtrado
 * [Contenido] Forma de onda 1 v2: usar formato de salida predeterminado + nuevas opciones
 * [Contenido] Ruido blanco v2: usar formato de salida predeterminado, agregar opciones de distribución
-* [Bakers] Muestra solo las UV de la malla seleccionada
+* [Bakeres] Muestra solo las UV de la malla seleccionada
 * [Bakers] Añada una opción para seleccionar el método de coincidencia de geometría por nombre
-* [Panaderos] Seleccione el panadero más cercano cuando se elimine un panadero
+* [Bakeres] Seleccione el Baker más cercano cuando se elimine un baker
 * [Panaderos] UDIM: definir una lista de azulejos UV para hornear
 * [Panaderos] Actualice bake sdk a 3.15.4.
-* [Vista 3D/Explorador de escenas] Evite seleccionar un elemento UsdPrimitive al hacer clic con el botón derecho en él
+* [Vista 3D/SceneBrowser] Evite seleccionar un elemento UsdPrimitive al hacer clic con el botón derecho en él
 * [ColorManagement] Compatibilidad con ACES 2.0
 * [Gráfica de composición] Permite definir un nodo de salida como &quot;Salida predeterminada&quot;
 * [Cooker] Quitar advertencia en entradas no conectadas de instancias de función††
@@ -193,18 +193,18 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 
 * [Vista 3D] La textura de escala de grises L16 se muestra con un matiz rojo cuando se conecta al entorno o a baseColor
 * [Vista 3D] Al cambiar el enlace de material de una escena sin material, se crea un nuevo material &quot;predeterminado&quot;
-* [Vista 3D] Las normales calculadas no son correctas para mallas OBJ específicas
+* [Vista 3D] Las normales calculadas no son correctas para mallas de OBJ específicas
 * [Vista 3D] El entorno personalizado de SBSSCN no está visible al cargar en Pathtracer
 * [Vista 3D] Errores en la consola al girar un entorno desactivado
 * El Specular level [Vista 3D] no se aplica correctamente
-* [Vista 3D] El Specular edge color no funciona al utilizar el rasterizador de Eclair
+* [Vista 3D] El Specular edge color no funciona cuando se utiliza el rasterizador Eclair
 * [Vista 3D] El material añadido por el usuario no se aplica en escenas predeterminadas
 * [Vista 3D] [Panaderos] El color del material es demasiado oscuro una vez se ha anulado o al utilizar un panadero de &quot;Color&quot;
-* [Vista 3D]&#x200B;[Panaderos] No hay color de material del archivo FBX
-* [Bakers] Los colores del material en los archivos FBX no se detectan correctamente
-* [Bakers] La opción &#39;recompute\_tangents&#39; siempre es &#39;false&#39; en las exportaciones de ajustes preestablecidos de JSON
+* [Vista 3D][Bakeres] No hay color de material en FBX archivo
+* [Bakeres] Los colores de material de los archivos FBX no se detectan correctamente
+* [Baker] La opción &#39;recompute\_tangents&#39; siempre es &#39;false&#39; en las exportaciones de ajustes preestablecidos de JSON
 * [Bakers] CLI: Bloqueo al ejecutar el mismo panadero de forma consecutiva a través del archivo JSON
-* [Bakers] La actualización del parámetro &#39;color-generator&#39; no funciona para &#39;Grayscale&#39;
+* [Bakeres] La actualización del parámetro &#39;color-generator&#39; no funciona para &#39;Escala de grises&#39;
 * [Contenido] Enmascarar trazados: Error en las proporciones no cuadradas
 * [Contenido] Procesador de Renderizaciones PBR/iconos: Lóbulo de specular incorrecto
 * [Contenido] Trazados a spline: Establezca el &#39;Tamaño de salida&#39; en &#39;Relativo al principal&#39; de forma predeterminada

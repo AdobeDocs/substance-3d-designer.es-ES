@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la gestión de color en Substance 3D Designer, incluidos los espacios de color, los perfiles y los flujos de trabajo de tintas planas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestión de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -104,13 +104,13 @@ Puede agregar *sus propios* perfiles ICC colocando estos archivos en la ubicaci�
 
 |  |  |
 | --- | --- |
-| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [Vista 2D](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado:*** Perfil ICC para la pantalla principal, recuperado del sistema operativo &#x200B;**&#x200B;** |
+| <b>Predeterminado de visualización de vistas 2D y 3D</b> | Establece el espacio de color *display* predeterminado para las ventanas gráficas [Vista 2D](../interface/2d-view/2d-view.md) y [3D view](../interface/3d-view/3d-view.md). *Valor predeterminado:*** Perfil ICC para la pantalla principal, recuperado del sistema operativo **** |
 
 ### Visualización de gráficos
 
 |  |  |
 | --- | --- |
-| <b>Administrar color de miniaturas</b> | Cuando *se haya marcado*, Designer transformará las *miniaturas de nodo* en el *espacio de color de trabajo* actual. *Valor predeterminado:*** Desmarcado &#x200B;**&#x200B;** |
+| <b>Administrar color de miniaturas</b> | Cuando *se haya marcado*, Designer transformará las *miniaturas de nodo* en el *espacio de color de trabajo* actual. *Valor predeterminado:*** Desmarcado **** |
 
 ## Modo heredado
 
@@ -152,18 +152,18 @@ Puede cambiar el espacio de color de un mapa de bits en cualquier momento, la op
 > 
 > En particular, **nombre de archivo** se puede usar para establecer el espacio de color apropiado *automáticamente*. Tenga en cuenta que el nombre del espacio de color del nombre de archivo debe *coincidir con el nombre* del archivo de configuración OpenColorIO (p. ej. *myImage\_utility - linear -srgb.png* se establecerá en el espacio de color *Utility - Linear - sRGB*).
 
-![Configuración del espacio de color de mapa de bits](color-management.resources/2019-3-0-bitmap-clr-space.png "Configuración del espacio de color de mapa de bits")
+![Configuración del espacio de color de mapa de bits](color-management.resources/color-management-01.png "Configuración del espacio de color de mapa de bits")
 
 ## Exportación de salidas
 
 Al utilizar el cuadro de diálogo <b>Exportar salidas</b>, es posible asignar un <b>espacio de color</b> (OCIO) o adjuntar un <b>perfil ICC</b> (Adobe ACE) para *cada salida*.\
 Designer *convertirá* imágenes en los espacios de color especificados antes de guardar los archivos de imagen.
 
-![Cuadro de diálogo Exportar salidas](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Cuadro de diálogo Exportar salidas"){width="512px"}
+![Cuadro de diálogo Exportar salidas](color-management.resources/color-management-02.png "Cuadro de diálogo Exportar salidas"){width="512px"}
 
 También puedes asignar un espacio de color (OCIO) o adjuntar un perfil ICC (Adobe ACE) a las imágenes *guardadas* desde la [vista 2D](../interface/2d-view/2d-view.md).
 
-![Opciones de exportación de vista 2D](color-management.resources/2019-3-0-clr-mgt-save-image.png "Opciones de exportación de vista 2D")
+![Opciones de exportación de vista 2D](color-management.resources/color-management-03.png "Opciones de exportación de vista 2D")
 
 ## Vistas 2D y 3D
 
@@ -171,16 +171,16 @@ También puedes asignar un espacio de color (OCIO) o adjuntar un perfil ICC (Ado
 
 Puede activar o desactivar *la gestión de color* y cambiar la *transformación de visualización* de la vista en cualquier momento mediante el menú desplegable de la barra de herramientas de visualización.
 
-![Configuración del espacio de color en la vista 2D](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Configuración del espacio de color en la vista 2D"){width="512px"}
+![Configuración del espacio de color en la vista 2D](color-management.resources/color-management-04.png "Configuración del espacio de color en la vista 2D"){width="512px"}
 
 ### Entornos de HDRI de biblioteca
 
 Los entornos HDRI suministrados con Designer se encuentran en el espacio de color <b>Linear sRGB</b>.\
-Cuando se usa una configuración OpenColorIO donde el espacio de color lineal de la escena es *no* sRGB lineal, como la configuración [ACES](https://acescentral.com/t/getting-started-with-aces/1372), el entorno mostrará *colores incorrectos*.
+Al utilizar una configuración de OpenColorIO en la que el espacio de color lineal de la escena es *no* sRGB lineal, como la configuración [ACE](https://acescentral.com/t/getting-started-with-aces/1372), el entorno mostrará *colores incorrectos*.
 
 En ese caso, el espacio de color para los entornos HDRI de la biblioteca debe establecerse *manualmente* en las propiedades del entorno, disponibles en el menú <b>Entorno</b> del panel Vista 3D.
 
-![Configuración del espacio de color del entorno de vista 3D](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Configuración del espacio de color del entorno de vista 3D"){width="512px"}
+![Configuración del espacio de color del entorno de Vista 3D](color-management.resources/color-management-05.png "Configuración del espacio de color del entorno de Vista 3D"){width="512px"}
 
 ## Nodos de conversión de color
 
@@ -211,11 +211,11 @@ La [biblioteca](../interface/the-library/the-library.md) incluye los siguientes 
 
 Son útiles cuando se trabaja con gráficos creados *sin* gestión de color o materiales de la biblioteca [Substance 3D Assets](https://substance3d.adobe.com/assets).
 
-![Nodos de conversión de color en la biblioteca](color-management.resources/2019-3-0-clr-mgt-nodes.png "Nodos de conversión de color en la biblioteca"){width="512px"}
+![Nodos de conversión de color en la biblioteca](color-management.resources/color-management-06.png "Nodos de conversión de color en la biblioteca"){width="512px"}
 
 ## Limitaciones conocidas
 
 La implementación actual de la gestión de color en Substance 3D Designer tiene las siguientes limitaciones:
 
 * La administración de color está *no* expuesta en la [API de Python](../scripting/scripting.md);
-* [OpenColorIO](https://opencolorio.org/) *looks* *no* compatibles.
+* [OpenColorIO](https://opencolorio.org/) *looks* no son *compatibles*.

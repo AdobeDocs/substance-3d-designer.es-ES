@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
 description: Utilice el nodo Color del asignador UV para asignar texturas de color a lo largo de las splines para la generación procedimienta de texturas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color del asignador UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](uv-mapper-color.resources/uv-mapper-color-icon.png "Icono de nodo")
+![Icono de nodo](uv-mapper-color.resources/uv-mapper-color-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -77,11 +77,11 @@ Asigna la imagen de color de entrada utilizando las coordenadas proporcionadas e
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/uv-mapper-color-02.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/uv-mapper-color-03.jpg" alt="UVMapper-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ Asigna la imagen de color de entrada utilizando las coordenadas proporcionadas e
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/uv-mapper-color-04.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/uv-mapper-color-05.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -107,4 +107,4 @@ Asigna la imagen de color de entrada utilizando las coordenadas proporcionadas e
 </tr>
 </table>
 
-![Nodo en el gráfico](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Nodo en el gráfico")
+![Nodo en el gráfico](uv-mapper-color.resources/uv-mapper-color-06.jpg "Nodo en el gráfico")

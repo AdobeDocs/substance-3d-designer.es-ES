@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: Utilice el nodo Procesador de vértices de trazados para transformar y manipular los vértices de trazado con opciones avanzadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de vértices de rutas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](paths-vertex-processor.resources/paths-vertex-processor-icon.png "Icono de nodo")
+![Icono de nodo](paths-vertex-processor.resources/paths-vertex-processor-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -92,7 +92,7 @@ También puede tener acceso a las variables *prev[2].pos* (Flotante2), *next[2].
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](paths-vertex-processor.resources/PathsVertexProcessor-Demo2.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](paths-vertex-processor.resources/paths-vertex-processor-02.gif "Ejemplo de nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">

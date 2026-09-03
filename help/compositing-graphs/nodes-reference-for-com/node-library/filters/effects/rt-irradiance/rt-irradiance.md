@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: Utilice el nodo Irradiancia RT para calcular la información de irradiancia en tiempo real a partir de la geometría para realizar cálculos de iluminación realistas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT Irradiancia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rt-irradiance.resources/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance-01.png){width="128px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -60,7 +60,7 @@ Genera una irradiancia trazo de rayo en una entrada de mapa de height generada a
 | <b>Rebotes de cálculo</b> <i>Falso/Verdadero</i> | Conmutar el cálculo de rebotes. Afecta a la calidad y velocidad. |
 | <b>Rotación de entorno</b> <i>0.0 - 1.0</i> | Rota el entorno. |
 | <b>Exposición del entorno (VE)</b> <i>-4.0 - 4.0</i> | El valor de exposición que se debe utilizar para el entorno afecta al brillo total del efecto. |
-| <b>Intensidad de emisión</b> <i>0.0 - 20.0</i> | El multiplicador para la entrada Emissive, afecta la intensidad de la irradiancia de la emisión. |
+| <b>Intensidad del Emisivo</b> <i>0.0 - 20.0</i> | El multiplicador para la entrada de Emisivo, afecta a la intensidad de la irradiancia del emisivo. |
 | <b>Espacio de color del Emisivo</b> <i>sRGB, lineal</i> | Espacio de color utilizado para interpretar la entrada ensiva. |
 | <b>Sombras IBL en el Alpha de irradiancia sin procesar</b> <i>Falso/Verdadero</i> | Alternar entre añadir sombras a la |
 | <b>Emisivo LOD Bias</b> <i>-1.0 - 1.0</i> | Ajusta la calidad de la irradiancia del emisivo. Un valor más bajo significa más ruido. |
@@ -70,13 +70,13 @@ Genera una irradiancia trazo de rayo en una entrada de mapa de height generada a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-03-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-01-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-02-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-04.jpg" />
         </td>
     </tr>
 </table>

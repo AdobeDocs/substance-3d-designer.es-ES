@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: Utilice el nodo Ecualización de histograma para redistribuir las intensidades de píxeles para mejorar el contraste y el brillo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ecualización del histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ecualización del histograma: icon](histogram-equalize.resources/histogram_equalize.png "Ecualización de histograma: icon"){width="200px"}
+![Ecualización del histograma: icon](histogram-equalize.resources/histogram-equalize-01.png "Ecualización de histograma: icon"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -69,44 +69,44 @@ Ecualiza el histograma de una imagen de escala de grises, ajustando eficazmente 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram-equalize-02.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram-equalize-03.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
 </table>
 
-![Ecualización del histograma: Ejemplo 1](histogram-equalize.resources/histogram_equalize_example_3.png "Ecualización de histograma: Ejemplo 1"){zoomable="yes"}
+![Ecualización del histograma: Ejemplo 1](histogram-equalize.resources/histogram-equalize-04.png "Ecualización de histograma: Ejemplo 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram-equalize-05.jpg" alt="histogram_equalize_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram-equalize-06.jpg" alt="histogram_equalize_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>
 </table>
 
-![Ecualización del histograma: Ejemplo 2](histogram-equalize.resources/histogram_equalize_example_5.png "Ecualización de histograma: Ejemplo 2"){zoomable="yes"}
+![Ecualización del histograma: Ejemplo 2](histogram-equalize.resources/histogram-equalize-07.png "Ecualización de histograma: Ejemplo 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram-equalize-08.jpg" alt="histogram_equalize_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram-equalize-09.jpg" alt="histogram_equalize_example_4_after">
       <br><i>Después De</i>
     </td>
   </tr>
 </table>
 
-![Ecualización del histograma: Ejemplo 3](histogram-equalize.resources/histogram_equalize_example_6.png "Ecualización de histograma: Ejemplo 3"){zoomable="yes"}
+![Ecualización del histograma: Ejemplo 3](histogram-equalize.resources/histogram-equalize-10.png "Ecualización de histograma: Ejemplo 3"){zoomable="yes"}

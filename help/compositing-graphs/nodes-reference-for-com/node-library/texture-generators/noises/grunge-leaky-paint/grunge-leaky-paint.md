@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
-description: Utilice el nodo Pintura de fuga de Suciedad para generar patrones de fuga de pintura para crear efectos de superficie meteorizados y envejecidos.
+description: Utilice el nodo Pintura con pérdidas de Suciedad para generar patrones de pérdidas de pintura para crear efectos de superficie degradados y envejecidos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaky Paint
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suciedad Leaky Paint
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Descripción
 
-El nodo **Pintura de pérdida de Suciedad** genera un mapa de suciedad similar a la pintura que gotea a través de las fugas.
+El nodo **Suciedad con fuga** genera un mapa de suciedades parecido a la pintura que gotea a través de las fugas.
 
 </td>
 </tr>
@@ -60,10 +60,10 @@ El nodo **Pintura de pérdida de Suciedad** genera un mapa de suciedad similar a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mezclador de datos de malla de material para fusionar datos de malla de material para crear transiciones suaves entre diferentes zonas de material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mezclador de datos de malla de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Utilidades
 
@@ -48,7 +48,7 @@ Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u
 |  |  |
 |:---|:---|
 | <b>Entrada de material completa (grupo &quot;Material&quot;)</b> | Conjunto completo de mapas de materiales.<br><br>Este nodo los modifica y, a continuación, se devuelven de nuevo como resultados. |
-| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Oclusión ambiental</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
 | <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
 | <b>Height</b> <i>Entrada en escala de grises</i> |  |
 | <b>Normal</b> <i>Entrada de color</i> |  |
@@ -61,13 +61,13 @@ Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u
 
 |  |  |
 |:---|:---|
-| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. Afecta a la disponibilidad de los siguientes parámetros. |
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad. Afecta a la disponibilidad de los siguientes parámetros. |
 | <b>Mapas con bake</b> | Si se deben o no utilizar los mapas con bake enumerados para los cálculos. Afecta a la disponibilidad de los siguientes parámetros. |
 | <b>Difuso AO</b> <i>0.0 - 1.0</i> | Cantidad de Oclusión ambiental que se va a fusionar en la Difuso. |
-| <b>Bordes afilados de Difuso</b> <i>0.0 - 1.0</i> | Cantidad del mapa de curvatura que se va a fusionar en la difusión. |
-| <b>Color De Difuso Del Color Del Vértice</b> <i>0.0 - 1.0</i> | Cantidad de cocción del color del vértice que se va a fusionar en la difusión. |
+| <b>Bordes afilados de Difuso</b> <i>0.0 - 1.0</i> | Cantidad del mapa de curvatura que se va a fusionar en la Difuso. |
+| <b>Color De Difuso Del Color Del Vértice</b> <i>0.0 - 1.0</i> | Cantidad de color del vértice hecho un bake para fusionarse en la Difuso. |
 | <b>Iluminación previa de Difuso</b> <i>0.0 - 1.0</i> | Cantidad de preiluminación (falsa), basada en las normas espaciales mundiales. |
-| <b>Equilibrio de iluminación de dibujos animados</b> <i>0.0 - 1.0</i> | Cambia entre la iluminación realista y caricaturesca para la difusión. |
+| <b>Equilibrio de iluminación de dibujos animados</b> <i>0.0 - 1.0</i> | Cambia entre una iluminación realista y caricaturesca para el Difuso. |
 | <b>Capas de iluminación previa de dibujos animados de Difuso</b> <i>0 - 10</i> | Controla el aspecto de los cálculos de iluminación de dibujos animados. |
 | <b>Contornos de dibujos animados de Difuso</b> <i>0.0 - 1.0</i> | Controla el aspecto de los cálculos de iluminación de dibujos animados. |
 | <b>Color base AO</b> <i>0.0 - 1.0</i> | Cantidad de Oclusión ambiental que se va a fusionar en el color base. |
@@ -91,7 +91,7 @@ Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
         </td>
     </tr>
 </table>

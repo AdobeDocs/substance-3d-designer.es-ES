@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: Utilice el nodo Sección transversal para crear máscaras de sección transversal basadas en mapas de height para los efectos de corte y corte en sectores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sección transversal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icono de nodo ![&#39;Sección cruzada&#39;](cross-section.resources/cross-section-2.png "&#39;Sección cruzada&#39; icono de nodo"){width="200px"}
+Icono de nodo ![&#39;Sección cruzada&#39;](cross-section.resources/cross-section-01.png "&#39;Sección cruzada&#39; icono de nodo"){width="200px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -69,10 +69,10 @@ También se puede utilizar para crear formas y siluetas 2D difíciles de consegu
 
 ## Ejemplos
 
-![Sección transversal: ejemplo 1](cross-section.resources/cross-section-example-01.gif "Corte transversal: ejemplo 1")
+![Sección transversal: ejemplo 1](cross-section.resources/cross-section-02.gif "Corte transversal: ejemplo 1")
 
-![Sección transversal: ejemplo 2](cross-section.resources/cross-section-example-02.gif "Corte transversal: ejemplo 2")
+![Sección transversal: ejemplo 2](cross-section.resources/cross-section-03.gif "Corte transversal: ejemplo 2")
 
-![Sección transversal: ejemplo 3](cross-section.resources/cross-section-example-03.png "Corte transversal: ejemplo 3")
+![Sección transversal: ejemplo 3](cross-section.resources/cross-section-04.png "Corte transversal: ejemplo 3")
 
-![Sección transversal: ejemplo 4](cross-section.resources/cross-section-example-04.png "Corte transversal: ejemplo 4")
+![Sección transversal: ejemplo 4](cross-section.resources/cross-section-05.png "Corte transversal: ejemplo 4")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
 breadcrumb-title: ''
 description: Utilice el nodo Manchas gaussianas 2 para generar patrones avanzados de manchas gaussianas para crear variaciones de texturas orgánicas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Manchas gaussianas 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Manchas gaussianas 2 - Icono](gaussian-spots-2.resources/gaussian_spots_2.png "Manchas gaussianas 2 - Icono"){width="200px"}
+![Manchas gaussianas 2 - Icono](gaussian-spots-2.resources/gaussian-spots-2-01.png "Manchas gaussianas 2 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -70,12 +70,12 @@ Consulte también: [Manchas gaussianas 1](../../../../../../compositing-graphs/n
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Manchas gaussianas 2 - Ejemplo 1](gaussian-spots-2.resources/gaussian_spots_2_1.png "Manchas gaussianas 2 - Ejemplo 1"){zoomable="yes"}
+![Manchas gaussianas 2 - Ejemplo 1](gaussian-spots-2.resources/gaussian-spots-2-02.png "Manchas gaussianas 2 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Manchas gaussianas 2 - Ejemplo 2](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif "Manchas gaussianas 2 - Ejemplo 2"){zoomable="yes"}
+![Manchas gaussianas 2 - Ejemplo 2](gaussian-spots-2.resources/gaussian-spots-2-03.gif "Manchas gaussianas 2 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ Consulte también: [Manchas gaussianas 1](../../../../../../compositing-graphs/n
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Manchas gaussianas 2 - Ejemplo 3](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif "Manchas gaussianas 2 - Ejemplo 3"){zoomable="yes"}
+![Manchas gaussianas 2 - Ejemplo 3](gaussian-spots-2.resources/gaussian-spots-2-04.gif "Manchas gaussianas 2 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Manchas gaussianas 2 - Ejemplo 4](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif "Manchas gaussianas 2 - Ejemplo 4"){zoomable="yes"}
+![Manchas gaussianas 2 - Ejemplo 4](gaussian-spots-2.resources/gaussian-spots-2-05.gif "Manchas gaussianas 2 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

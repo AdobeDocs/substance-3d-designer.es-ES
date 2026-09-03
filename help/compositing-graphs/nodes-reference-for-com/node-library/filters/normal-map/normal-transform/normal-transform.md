@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
 breadcrumb-title: ''
-description: Utilice el nodo Transformación normal para aplicar transformaciones a los mapas normales conservando correctamente las direcciones vectoriales.
+description: Utilice el nodo Transformar normal para aplicar transformaciones a los mapas de normales conservando correctamente las direcciones vectoriales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Transform
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformación normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Transformación normal
+# Transformo normal
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-transform.resources/normal-transform.png){width="128px"}
+![](normal-transform.resources/normal-transform-01.png){width="128px"}
 
 <b>En:</b> Filtros > Mapa de normales
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Descripción
 
-De forma similar al nodo de Transformación 2D atómica, esto permite la transformación de los mapas normales sin romper el espacio-tangente, en su lugar se recalcula sobre la marcha, lo que resulta en mapas normales siempre correctos.
+De forma similar al nodo 2D del Transformo atómico, esto permite la transformación de Normalmaps sin romper el espacio-tangente, en su lugar se vuelve a calcular sobre la marcha, lo que resulta en normalmaps siempre correctos.
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 11.2 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -20,26 +20,26 @@ ht-degree: 0%
 
 # Versión 11.2
 
-**Substance 3D Designer 11.2** ha cambiado ligeramente de nombre y ahora está conectado a Adobe Creative Cloud. Incluye la primera versión de los Gráficos de modelo de Substance, la funcionalidad Enviar a, una serie de nodos basados en Raytrace y algunos cambios en la interfaz de usuario.
+**Substance 3D Designer 11.2** ha cambiado ligeramente de nombre y ahora está conectado a Adobe Creative Cloud. Incluye la primera versión de Substance Model Graphs, la funcionalidad Enviar a, varios nodos basados en Raytrace y algunos cambios en la interfaz de usuario.
 
 Fecha de publicación: *23 de junio de 2021*
 
 ## Funciones principales
 
-### Nuevo modelo de Substance Gráficos
+### Nuevos gráficos del modelo de Substance
 
-Hay disponible un tipo de gráfico completamente nuevo, el gráfico de modelo de Substance, que permite crear modelos 3D de procedimiento mediante una interfaz de nodo familiar.
+Hay disponible un tipo de gráfico completamente nuevo, el gráfico del modelo de Substance, que te permite crear modelos 3D procedimientos mediante una interfaz de nodo familiar.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-01.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-02.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Se trata de una primera versión, por lo que debe esperar algunas limitaciones.
 
 Las versiones de Adobe de Substance 3D Designer tienen la nueva funcionalidad Enviar a , que le permite enviar recursos a otras aplicaciones de Substance 3D rápidamente. Ya no es necesario publicar como SBSAR y cargar archivos individuales, Enviar a resuelve esto con un solo clic.
 
-![](version-11-2.resources/sendto-button.gif)
+![](version-11-2.resources/version-11-2-03.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ No se ha completado ninguna versión de Designer sin algunos nodos nuevos. Basá
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/version-11-2-04.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/version-11-2-05.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ No se ha completado ninguna versión de Designer sin algunos nodos nuevos. Basá
 
 RTAO hace un trabajo aún mejor en el AO nítido y correcto que el nodo anterior de HBAO.
 
-![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/version-11-2-06.png){width="300px"}
 
-Cáustico genera cáusticos con trazo rayado y correctos físicamente basados en un mapa de alturas, como un simple ruido de Perlin. Ideal para crear texturas realistas de flipbooks animados para crear efectos cáusticos en tiempo real.
+Cáustico genera cáusticos con trazo rayado y correctos físicamente basados en un mapa de alturas, como un simple ruido de Perlin. Ideal para crear texturas animadas realistas de flipbook para los cáusticos en tiempo real.
 
-![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/version-11-2-07.png){width="300px"}
 
 RT Shadow genera sombras precisas y con trazo de rayo, con unos pocos controles sencillos.
 
@@ -92,35 +92,35 @@ RT Shadow genera sombras precisas y con trazo de rayo, con unos pocos controles 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-08.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-09.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-10.jpg){width="200px"}
 
 </td>
 </tr>
 </table>
 
-RT La irradiancia es la más avanzada de los nuevos nodos. Hace irradiancia con trazo de rayo basado en un material con mapa de height, y un mapa de entorno y/o un mapa emisivo.
+RT La irradiancia es la más avanzada de los nuevos nodos. Hace irradiancia con trazo de rayo basado en un material con mapa de altura, y un mapa de entorno y/o un mapa de Emisivo.
 
-![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/version-11-2-11.jpg){width="600px"}
 
-Eso significa que puedes hacer texturas con iluminación predefinida, como para proyectos estilizados, o puedes hornear con un resplandor trazo de rayo que rebota en tu mapa de altura.
+Eso significa que puedes hacer texturas con iluminación hecha un bake previamente, como en el caso de proyectos estilizados, o puedes hacer un bake en un resplandor trazo de rayo que rebota en tu mapa de altura.
 
-![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-12.jpg){width="300px"}
 
-Y por último está el nodo Bent Normal. En comparación con una conversión normal normal, este nodo utiliza AO para modificar el mapa normal y utilizar esa información de AO. Antes de que necesites marcadores de malla para crear el efecto, este nodo lo hace en un espacio de textura para ti.
+Y por último está el nodo Bent Normal. En comparación con una conversión normal normal, este nodo utiliza AO para modificar el mapa normal y utilizar esa información de AO. Antes de que necesite bakeres de malla para crear el efecto, este nodo lo hace en un espacio de textura para usted.
 
 ### Adobe Standard Material Shader
 
-En nuestros esfuerzos por unificar materiales y procesamiento en nuestras aplicaciones, el nuevo sombreador predeterminado en la vista 3D es el sombreador de materiales estándar de Adobe. A primera vista, no es diferente del antiguo sombreador de rugosidad metálica PBR (de todas formas, se basa en él), pero admite muchos más canales exóticos, lo que le permite previsualizarlos sin necesidad de un procesador externo.
+En nuestros esfuerzos por unificar materiales y representaciones en todas nuestras aplicaciones, el nuevo sombreador predeterminado en la vista 3D es el Sombreador de Adobe Standard Material. A primera vista, no es diferente del antiguo sombreador de rugosidad metálica PBR (de todas formas, se basa en él), pero admite muchos más canales exóticos, lo que le permite previsualizarlos sin necesidad de un procesador externo.
 
 ### Cambios de IU
 
@@ -139,8 +139,8 @@ A continuación, se muestran nuestros tutoriales en vídeo sobre las nuevas func
 **Agregado:**
 
 * [Marca] Substance Designer se convierte en Adobe Substance 3D Designer
-* [Modelos de Substance] Nuevos gráficos de modelos de Substance para crear modelos 3D de procedimiento
-* [Contenido] Añadir nuevos mapas de entorno HDR
+* [Modelos de Substance] Nuevos gráficos de modelos de Substance para crear modelos en 3D procedimientos
+* [Contenido] Añadir nuevos mapas de entorno HDR.
 * [Content] Nuevo nodo Normal doblado
 * [Contenido] Nuevo nodo de Oclusión de ambiente de RT
 * [Contenido] Nuevo nodo de RT Caustics

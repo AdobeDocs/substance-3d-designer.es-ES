@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fino de Óxido de Suciedad para generar patrones de óxido finos para agregar efectos de corrosión y erosión a los metales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Óxido de suciedad bien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-rust-fine.resources/grungerustfine.jpg){width="200px"}
+![](grunge-rust-fine.resources/grunge-rust-fine-01.jpg){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -46,7 +46,7 @@ El nodo **Óxido de Suciedades Fine** genera un mapa de suciedades similar a una
 |  |  |
 |:---|:---|
 | <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
@@ -61,10 +61,10 @@ El nodo **Óxido de Suciedades Fine** genera un mapa de suciedades similar a una
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" />
+            <img src="grunge-rust-fine.resources/grunge-rust-fine-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" />
+            <img src="grunge-rust-fine.resources/grunge-rust-fine-03.jpg" />
         </td>
     </tr>
 </table>

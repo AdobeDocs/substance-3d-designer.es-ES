@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
 breadcrumb-title: ''
 description: Utilice el nodo Manchas de Suciedad para generar patrones de manchas para añadir desgaste y efectos de suciedad a los materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Puntos de suciedad
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-spots.resources/grungespots.jpg){width="200px"}
+![](grunge-spots.resources/grunge-spots-01.jpg){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -59,10 +59,10 @@ El nodo **Puntos de Suciedad** genera un mapa de suciedades similar a los puntos
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-spots.resources/grungespots-variant2.jpg" />
+            <img src="grunge-spots.resources/grunge-spots-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-spots.resources/grungespots-variant.jpg" />
+            <img src="grunge-spots.resources/grunge-spots-03.jpg" />
         </td>
     </tr>
 </table>

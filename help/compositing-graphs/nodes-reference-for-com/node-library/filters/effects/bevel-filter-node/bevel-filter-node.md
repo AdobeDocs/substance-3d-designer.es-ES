@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
 breadcrumb-title: ''
 description: Utilice el nodo Filtro biselado para crear bordes biselados en formas y motivos para añadir profundidad y dimensión.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bisel (nodo de filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bevel-filter-node.resources/bevel.png){width="128px"}
+![](bevel-filter-node.resources/bevel-filter-node-01.png){width="128px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -69,7 +69,7 @@ Este es un nodo útil para aplicar perfiles de curva exactos en un mapa de altur
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bevel-filter-node.resources/bevel-example.png" />
+            <img src="bevel-filter-node.resources/bevel-filter-node-02.png" />
         </td>
     </tr>
 </table>

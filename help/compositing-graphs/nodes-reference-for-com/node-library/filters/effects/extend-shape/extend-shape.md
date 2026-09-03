@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
 breadcrumb-title: ''
 description: Utilice el nodo Extend Shape para extender formas más allá de sus límites y crear efectos de máscara y motivo expandidos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extend Shape
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -28,12 +28,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](extend-shape.resources/extendshapegrayscale.png){width="200px"}
+![](extend-shape.resources/extend-shape-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](extend-shape.resources/extendshapecolor.png){width="200px"}
+![](extend-shape.resources/extend-shape-02.png){width="200px"}
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ El parámetro <b>Show helper</b> te permite visualizar la sección extendida y l
 | <b>Desplazamiento de luminancia inicial</b> <i>Flotador</i> | Aplica un desplazamiento de luminancia al área de la imagen <i>anterior</i> a la sección extendida. Este desplazamiento de luminancia está <i>interpolado a lo largo de la sección</i> a la luminancia del área de la imagen que sigue a la sección.<br><br><i>Nota</i>: Este parámetro solo está disponible en la versión <b>Grayscale</b> del nodo. |
 | <b>Desplazamiento de luminancia final</b> <i>Flotador</i> | Aplica un desplazamiento de luminancia al área de la imagen <i>que sigue</i> a la sección extendida. Este desplazamiento de luminancia está <i>interpolado a lo largo de la sección</i> a la luminancia del área de la imagen que precede a la sección.<br><br><i>Nota</i>: Este parámetro solo está disponible en la versión <b>Grayscale</b> del nodo. |
 | <b>Lum. El desplazamiento omite los píxeles negros</b> <i>Booleano</i> | Cuando se establece en <i>True</i>, los desplazamientos de luminancia especificados en <i>both</i> <b>Desplazamiento de luminancia inicial</b> y <b>Desplazamiento de luminancia final</b> solo se aplican a <i>píxeles no negros</i>, es decir, píxeles cuyo valor es superior a 0.<br><br><i>Nota</i>: Este parámetro solo está disponible en la versión <b>Grayscale</b> del nodo. |
-| <b>Modo de filtro</b> <i>Entero</i> | Define cómo tratar los resultados muestreados al <i>interpolar</i> entre píxeles:<br><br>- <i>Más cercano</i>: mostrará exactamente el <i>mismo valor</i> (más rápido)<br>- <i>Bilineal</i>: aplicará un filtro bilineal en el resultado para obtener un aspecto <i>más suave</i> |
+| <b>Modo de filtrado</b> <i>Entero</i> | Define cómo tratar los resultados muestreados al <i>interpolar</i> entre píxeles:<br><br>- <i>Más cercano</i>: mostrará exactamente el <i>mismo valor</i> (más rápido)<br>- <i>Bilineal</i>: aplicará un filtro bilineal en el resultado para obtener un aspecto <i>más suave</i> |
 | <b>Mostrar ayudante</b> <i>Booleano</i> | Visualice la <i>sección extendida</i> como una superposición con flechas que muestran la <i>dirección</i> de la extensión. |
 
 ## Ejemplos
@@ -77,16 +77,16 @@ El parámetro <b>Show helper</b> te permite visualizar la sección extendida y l
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extendshape.gif" />
+            <img src="extend-shape.resources/extend-shape-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extendshape-variant.jpg" />
+            <img src="extend-shape.resources/extend-shape-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extendshape-variant2.jpg" />
+            <img src="extend-shape.resources/extend-shape-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extendshape-node.png" />
+            <img src="extend-shape.resources/extend-shape-06.png" />
         </td>
     </tr>
 </table>

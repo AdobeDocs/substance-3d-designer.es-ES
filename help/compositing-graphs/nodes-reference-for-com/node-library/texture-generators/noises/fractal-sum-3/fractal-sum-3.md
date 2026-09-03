@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
 breadcrumb-title: ''
 description: Utilice el nodo de la Suma fractal 3 para generar ruido fractal con tres octavas para crear patrones de texturas orgánicas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SUMA FRACTAL 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Suma fractal 3 - Icono](fractal-sum-3.resources/fractal_sum_3.png "Suma fractal 3 - Icono"){width="200px"}
+![Suma fractal 3 - Icono](fractal-sum-3.resources/fractal-sum-3-01.png "Suma fractal 3 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -65,12 +65,12 @@ Consulte también: [base de Sumas fractal](../../../../../../compositing-graphs/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Suma fractal 3 - Ejemplo 1](fractal-sum-3.resources/fractal_sum_3_1.png "Suma fractal 3 - Ejemplo 1"){zoomable="yes"}
+![Suma fractal 3 - Ejemplo 1](fractal-sum-3.resources/fractal-sum-3-02.png "Suma fractal 3 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Suma fractal 3 - Ejemplo 2](fractal-sum-3.resources/noise_fractal_sum_3_v2_speed0.6_aniso0.gif "Suma fractal 3 - Ejemplo 2"){zoomable="yes"}
+![Suma fractal 3 - Ejemplo 2](fractal-sum-3.resources/fractal-sum-3-03.gif "Suma fractal 3 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Aprenda a crear gráficas de composición de Substance en Substance 3D Designer para crear flujos de trabajo de texturas procedimentales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Creación de un gráfico de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
@@ -28,7 +28,7 @@ La creación de texturas en Designer comienza por la creación de un gráfico de
 
 Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md), puede usar uno de estos métodos:
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -38,13 +38,13 @@ Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../c
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Cuadro de diálogo Nuevo gráfico de Substance: Crear desde la pantalla de inicio](creating-a-substance-compositing-graph.resources/newGraphDialog-create-homeScreen.png "Cuadro de diálogo Nuevo gráfico de Substance: Crear desde la pantalla de inicio"){zoomable="yes"}
+  ![Cuadro de diálogo Nuevo gráfico de Substance: Crear desde la pantalla de inicio](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-01.png "Cuadro de diálogo Nuevo gráfico de Substance: Crear desde la pantalla de inicio"){zoomable="yes"}
 
   </td>
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -54,29 +54,29 @@ Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../c
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Cuadro de diálogo Nuevo gráfico de Substance: Crear desde el explorador](creating-a-substance-compositing-graph.resources/newGraphDialog-create-explorer.png "Cuadro de diálogo Nuevo gráfico de Substance: Crear desde el explorador"){zoomable="yes"}
+  ![Cuadro de diálogo Nuevo gráfico de Substance: Crear desde el explorador](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-02.png "Cuadro de diálogo Nuevo gráfico de Substance: Crear desde el explorador"){zoomable="yes"}
 
   </td>
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  En la barra de herramientas principal, haga clic en el botón ![](creating-a-substance-compositing-graph.resources/image2021-6-22-20-36-44.png) <b>Nuevo gráfico de Substance</b>.
+  En la barra de herramientas principal, haga clic en el botón ![](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-03.png) <b>Nuevo gráfico de Substance</b>.
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Cuadro de diálogo Nuevo gráfico de Substance: Crear desde la barra de herramientas principal](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainToolbar.png "Cuadro de diálogo Nuevo gráfico de Substance: Crear desde la barra de herramientas principal"){zoomable="yes"}
+  ![Cuadro de diálogo Nuevo gráfico de Substance: Crear desde la barra de herramientas principal](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-04.png "Cuadro de diálogo Nuevo gráfico de Substance: Crear desde la barra de herramientas principal"){zoomable="yes"}
 
   </td>
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../c
   </td>
   <td style="border: 0;" valign="top">
 
-  ![](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainMenu.png)
+  ![](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-05.png)
 
   </td>
   </tr>
@@ -102,7 +102,7 @@ Independientemente del método que elijas, se te mostrará el cuadro de diálogo
 
 Independientemente del método utilizado para crear un nuevo gráfico de Substance, siempre aparecerá el cuadro de diálogo <b>Nuevo gráfico de Substance</b>, que le permite configurar el nuevo gráfico.
 
-![Cuadro de diálogo Nuevo gráfico de Substance - Materiales](creating-a-substance-compositing-graph.resources/newGraphDialog-materials.png "Cuadro de diálogo Nuevo gráfico de Substance - Materiales"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance - Materiales](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-06.png "Cuadro de diálogo Nuevo gráfico de Substance - Materiales"){zoomable="yes"}
 
 ### Plantillas
 
@@ -139,7 +139,7 @@ En los modos de vista <b>Lista</b>, <b>Paquetes</b> y <b>Directorios</b>, el sub
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Cuadro de diálogo Nuevo gráfico de Substance - Tarjeta de miniatura](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "Cuadro de diálogo Nuevo gráfico de Substance - Tarjeta de miniatura")
+![Cuadro de diálogo Nuevo gráfico de Substance - Tarjeta de miniatura](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-07.png "Cuadro de diálogo Nuevo gráfico de Substance - Tarjeta de miniatura")
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ También puedes acceder a los ejemplos directamente desde la pantalla de inicio,
 
 Todas las muestras se basan en el [modelo de material del OpenPBR](../../interface/3d-view/material-properties/material-properties.md#openpbr).
 
-![Muestras de material - Banner de pantalla de inicio](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "Muestras de material - Banner de pantalla de inicio"){zoomable="yes"}
+![Muestras de material - Banner de pantalla de inicio](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-08.png "Muestras de material - Banner de pantalla de inicio"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -174,7 +174,7 @@ Al pasar el icono de información de cada elemento de plantilla, se muestra info
 </td>
 <td style="border: 0;" valign="top">
 
-![Cuadro de diálogo Nuevo gráfico de Substance - Información sobre herramienta de plantilla](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "Cuadro de diálogo Nuevo gráfico de Substance - Información sobre herramienta de plantilla"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance - Información sobre herramienta de plantilla](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-09.png "Cuadro de diálogo Nuevo gráfico de Substance - Información sobre herramienta de plantilla"){zoomable="yes"}
 
 </td>
 </tr>
@@ -193,14 +193,14 @@ El filtrado realizado por la categoría y el archivo de proyecto seleccionados s
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cuadro de diálogo Nuevo gráfico de Substance - Modos de vista](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "Cuadro de diálogo Nuevo gráfico de Substance - Modos de vista"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance - Modos de vista](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-10.png "Cuadro de diálogo Nuevo gráfico de Substance - Modos de vista"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++Modos de visualización
-![Cuadro de diálogo Nuevo gráfico de Substance: vista de miniaturas](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "Cuadro de diálogo Nuevo gráfico de Substance: vista de miniaturas"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance: vista de miniaturas](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-11.png "Cuadro de diálogo Nuevo gráfico de Substance: vista de miniaturas"){zoomable="yes"}
 
 
 
@@ -208,7 +208,7 @@ El filtrado realizado por la categoría y el archivo de proyecto seleccionados s
 
 Tarjetas con miniaturas que proporcionan una vista previa o un icono del tipo de plantilla.
 
-![Cuadro de diálogo Nuevo gráfico de Substance - Vista de lista](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-list.png "Cuadro de diálogo Nuevo gráfico de Substance - Vista de lista"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance - Vista de lista](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-12.png "Cuadro de diálogo Nuevo gráfico de Substance - Vista de lista"){zoomable="yes"}
 
 
 
@@ -216,7 +216,7 @@ Tarjetas con miniaturas que proporcionan una vista previa o un icono del tipo de
 
 Las plantillas se muestran solo por su etiqueta.
 
-![Cuadro de diálogo Nuevo gráfico de Substance: vista de paquetes](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-packages.png "Cuadro de diálogo Nuevo gráfico de Substance: vista de paquetes"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance: vista de paquetes](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-13.png "Cuadro de diálogo Nuevo gráfico de Substance: vista de paquetes"){zoomable="yes"}
 
 
 
@@ -226,7 +226,7 @@ Las plantillas se enumeran por su etiqueta como elementos secundarios del archiv
 
 Pase el ratón sobre un elemento de archivo de paquete para mostrar información sobre herramientas con su ruta completa.
 
-![Cuadro de diálogo Nuevo gráfico de Substance: vista Directorios](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-directories.png "Cuadro de diálogo Nuevo gráfico de Substance: vista Directorios"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance: vista Directorios](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-14.png "Cuadro de diálogo Nuevo gráfico de Substance: vista Directorios"){zoomable="yes"}
 
 
 
@@ -252,7 +252,7 @@ Después de seleccionar la plantilla, puede configurar la información básica s
 
 Pase el ratón sobre el icono del signo de interrogación para mostrar información sobre herramientas con un botón que enlaza directamente a esta página, de modo que pueda consultar esta documentación según sea necesario.
 
-![Cuadro de diálogo Nuevo gráfico de Substance - Información sobre herramienta de ayuda](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipHelp.png "Cuadro de diálogo Nuevo gráfico de Substance - Información sobre herramienta de ayuda"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance - Información sobre herramienta de ayuda](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-15.png "Cuadro de diálogo Nuevo gráfico de Substance - Información sobre herramienta de ayuda"){zoomable="yes"}
 
 <a name="managing-templates"></a>
 
@@ -271,7 +271,7 @@ Use el cuadro combinado <b>Categoría</b> para seleccionar la categoría por la 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Cuadro de diálogo Nuevo gráfico de Substance: Filtrar por categoría](creating-a-substance-compositing-graph.resources/newGraphDialog-categories.png "Cuadro de diálogo Nuevo gráfico de Substance: Filtrar por categoría"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance: Filtrar por categoría](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-16.png "Cuadro de diálogo Nuevo gráfico de Substance: Filtrar por categoría"){zoomable="yes"}
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ Las categorías personalizadas se pueden configurar en las plantillas proporcion
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![Cuadro de diálogo Nuevo gráfico de Substance: configuración de la categoría de plantilla](creating-a-substance-compositing-graph.resources/newGraphDialog-templateCategorySetup.png "Cuadro de diálogo Nuevo gráfico de Substance: configuración de la categoría de plantilla"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance: configuración de la categoría de plantilla](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-17.png "Cuadro de diálogo Nuevo gráfico de Substance: configuración de la categoría de plantilla"){zoomable="yes"}
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ A continuación, usa el botón <b>Filtrar por archivo de proyecto</b> para reduc
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cuadro de diálogo Nuevo gráfico de Substance: Filtrar por archivo de proyecto](creating-a-substance-compositing-graph.resources/newGraphDialog-projectFiles.png "Cuadro de diálogo Nuevo gráfico de Substance: Filtrar por archivo de proyecto"){zoomable="yes"}
+![Cuadro de diálogo Nuevo gráfico de Substance: Filtrar por archivo de proyecto](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-18.png "Cuadro de diálogo Nuevo gráfico de Substance: Filtrar por archivo de proyecto"){zoomable="yes"}
 
 </td>
 </tr>

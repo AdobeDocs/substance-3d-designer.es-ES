@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: Utilice el nodo Oclusión ambiental (RTAO) para generar mapas de oclusión ambiental en tiempo real a partir de mapas de height para un sombreado realista.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Oclusión ambiente (RATO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo RTAO](ambient-occlusion-rtao.resources/rt-ao.png "Icono de nodo RTAO")
+![Icono de nodo RTAO](ambient-occlusion-rtao.resources/ambient-occlusion-rtao-01.png "Icono de nodo RTAO")
 
 <b>En:</b> Filtros > Efectos
 
@@ -62,10 +62,10 @@ Consulte [Oclusión ambiental (HBAO) (nodo de filtro)](../../../../../../composi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-7-48.png" />
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-9-0-1.png" />
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-03.png" />
         </td>
     </tr>
 </table>

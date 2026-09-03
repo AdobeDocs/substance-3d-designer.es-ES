@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
 description: Utilice el nodo Transformación cuádruple en trazado para aplicar transformaciones cuadráticas a elementos de curvas de trazado.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformación cuádruple en trazado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](quad-transform-on-path.resources/quad-transform-on-paths-icon.png "Icono de nodo")
+![Icono de nodo](quad-transform-on-path.resources/quad-transform-on-path-01.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -75,11 +75,11 @@ Deforme trazados con 4 manejadores.
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-03.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ Deforme trazados con 4 manejadores.
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-04.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -109,12 +109,12 @@ Deforme trazados con 4 manejadores.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](quad-transform-on-path.resources/QuadTransformOnPaths-Demo2.gif "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](quad-transform-on-path.resources/quad-transform-on-path-05.gif "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](quad-transform-on-path.resources/QuadTransformOnPaths-Demo1.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](quad-transform-on-path.resources/quad-transform-on-path-06.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

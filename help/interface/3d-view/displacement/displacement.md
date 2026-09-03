@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Vista 3D: ventana emergente de Desplazamiento'
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
                 <li>Teselación</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Ventana emergente desplazamiento en la vista 3D" />
+            <img src="./displacement.resources/displacement-01.gif" alt="Ventana emergente desplazamiento en la vista 3D" />
         </td>
     </tr>
 </table>
@@ -73,7 +73,7 @@ Al utilizar el procesador [Rasterizer](../3d-renderers/3d-renderers.md#rasterize
 valor de subdivisión.
 
 La subdivisión es contextual: está optimizada de tal manera que solo aparece con un *valor de height no uniforme* o
-se subdividirá una *asignación de height no plana*, independientemente del valor del parámetro.
+se subdividirá un *mapa de altura no plana*, independientemente del valor del parámetro.
 
 ### Por material
 
@@ -90,7 +90,7 @@ A continuación se describen los pasos para mostrar la malla metálica de cada p
 
 ### Rasterizador/Trazador de ruta de GPU
 
-Utilice la <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **Configuración del procesador**
+Utilice la <img src="../3d-view.resources/3d-view-18.png" width="22" /> **Configuración del procesador**
  y, en el conjunto acoplado Propiedades, ve a **Configuración de procesamiento > Modo de diagnóstico** y selecciona la Malla metálica **(espacio de entorno) opción**.
 
 ### OpenGL

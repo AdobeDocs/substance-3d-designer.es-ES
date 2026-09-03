@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
-description: Utilice el nodo Cuadrante en FXMaps para dividir las texturas en cuatro secciones y crear motivos en mosaico y variaciones.
+description: Utilice el nodo Cuadrante en FXMaps para dividir las texturas en cuatro secciones para crear patrones en mosaico y variaciones.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > The Quadrant Node
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: El nodo del cuadrante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -102,12 +102,12 @@ El parámetro Variación de patrón ajusta una función definida del patrón.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](the-quadrant-node.resources/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/the-quadrant-node-01.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](the-quadrant-node.resources/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/the-quadrant-node-02.jpg)
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Acceda a nodos de muestra en gráficos de funciones de Substance 3D Designer para muestrear texturas y extraer valores de color.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Samplers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nodos de Sampler
 
-![Nodos de Sampler](sampler-nodes.resources/image2016-1-12-14-45-43.png "Nodos de Sampler")
+![Nodos de Sampler](sampler-nodes.resources/sampler-nodes-01.png "Nodos de Sampler")
 
 Estos nodos muestrean un valor en una imagen de entrada en las coordenadas 2D proporcionadas:
 
@@ -39,7 +39,7 @@ Las posiciones fuera de este intervalo se controlan según el <b>modo de direcci
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordenadas de píxeles](sampler-nodes.resources/samplercoords.png "Coordenadas de píxeles")
+![Coordenadas de píxeles](sampler-nodes.resources/sampler-nodes-02.png "Coordenadas de píxeles")
 
 </td>
 </tr>
