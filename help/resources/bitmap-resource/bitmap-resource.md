@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: Aprenda a importar, crear y utilizar recursos de mapa de bits en Substance 3D Designer para la creación de materiales basados en texturas.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
 breadcrumb-title: ''
 description: Acceda a los nodos de la herramienta de spline y trazado para crear patrones, curvas y formas orgánicas procedimientas en los gráficos de Substance.
 helpx_creative_field: ""
