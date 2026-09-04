@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Deshacer y rehacer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Con la clase <b>SDHistoryUtils.UndoGroup</b>, los usuarios pueden *agrupar acciones* para *deshacer o rehacer* todas ellas en un solo comando.
 
-Estos grupos están *nombrados* por los usuarios y aparecerán con ese nombre en la lista de deshacer/rehacer de la interfaz de usuario.  Esto hace que un gran número de acciones sean más manejables.
+Estos grupos están *nombrados* por los usuarios y aparecerán con ese nombre en la lista de deshacer/rehacer de la interfaz de usuario.  Esto hace que un gran número de acciones sean más manejables.
 
 ```
 import sd 
