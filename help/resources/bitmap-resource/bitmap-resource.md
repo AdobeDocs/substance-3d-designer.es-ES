@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Recurso de mapa de bits
 
-Un recurso de mapa de bits es un recurso de un paquete de Substance. Es diferente del nodo de mapa de bits atómico [. El nodo de mapa de bits atómico ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) es una representación específica de ese mapa de bits dentro de [un gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Un recurso de mapa de bits es un recurso de un paquete de Substance. Es diferente del nodo de mapa de bits atómico [. El nodo de mapa de bits atómico &#x200B;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) es una representación específica de ese mapa de bits dentro de [un gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 Los mapas de bits son algunos de los recursos no gráficos más comunes de Substance 3D Designer, y su uso suele clasificarse en una de las siguientes categorías:
 
