@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
 breadcrumb-title: ''
 description: Utilice el nodo Desenfoque radial para aplicar efectos de desenfoque radiales desde un punto central para crear efectos de movimiento y zoom.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desenfoque radial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](radial-blur.resources/radial-blur-01.png)![](radial-blur.resources/radial-blur-02.png)
+![](../../../../../../assets/radial-blur.png)![](../../../../../../assets/radial-blur-grayscale.png)
 
 <b>En:</b> Filtros > Desenfoques
 
@@ -54,7 +54,7 @@ Genera un desenfoque de tipo de movimiento que gira en una entrada.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="radial-blur.resources/radial-blur-03.png" />
+            <img src="../../../../../../assets/radial-blur-ex01.png" />
         </td>
     </tr>
 </table>

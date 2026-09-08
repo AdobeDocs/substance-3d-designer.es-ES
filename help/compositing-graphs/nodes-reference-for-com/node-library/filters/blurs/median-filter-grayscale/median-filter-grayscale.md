@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mediana del filtro de escala de grises para reducir el ruido y conservar los bordes en las texturas de escala de grises.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mediana del filtro Escala de grises
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Escala de grises del filtro mediano: icon](median-filter-grayscale.resources/median-filter-grayscale-01.png "escala de grises del filtro mediano: icon")
+![Escala de grises del filtro mediano: icon](../../../../../../assets/MedianFilter_Icon_Grayscale.png "escala de grises del filtro mediano: icon")
 
 <b>En:</b> Filtros > Desenfoques
 
@@ -75,11 +75,11 @@ Para cada píxel, el nodo calcula un valor de escala de grises de acuerdo con el
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-02.png" alt="MedianFilter_Variant2A">
+      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-03.png" alt="MedianFilter_Variant2B">
+      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -88,11 +88,11 @@ Para cada píxel, el nodo calcula un valor de escala de grises de acuerdo con el
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-04.png" alt="MedianFilter_Variant4A">
+      <img src="../../../../../../assets/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-05.png" alt="MedianFilter_Variant4B">
+      <img src="../../../../../../assets/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ Para cada píxel, el nodo calcula un valor de escala de grises de acuerdo con el
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-06.png" alt="MedianFilter_Variant1A">
+      <img src="../../../../../../assets/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-07.png" alt="MedianFilter_Variant1B">
+      <img src="../../../../../../assets/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
       <br><i>Después De</i>
     </td>
   </tr>
