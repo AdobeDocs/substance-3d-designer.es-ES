@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
 breadcrumb-title: ''
 description: Utilice el nodo Enderezar horizonte para enderezar las líneas del horizonte en entornos HDRI para una alineación y orientación adecuadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Enderezar horizonte
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](straighten-horizon.resources/straighten-horizon-01.png){width="200px"}
+![](../../../../../../assets/straighten-horizon.png){width="200px"}
 
 <b>En:</b> Vista 3D > Herramientas HDRI
 
@@ -47,5 +47,5 @@ Para los HDRI con un horizonte que no es recto, este nodo proporciona una forma 
 |:---|:---|
 | <b>Habilitar corrección de horizonte</b> <i>Falso/Verdadero</i> | Activar y desactivar el efecto. Permite alternar entre comparar antes y después y encontrar los puntos correctos. |
 | Posición <b>Punto de horizonte #1</b> | El primer punto tiene un control de vista 2D. |
-| Posición del punto de horizonte n.º 2 de <b>Horizon Point</b> | Segundo punto, tiene control de vista 2D. |
+| Posición del punto de horizonte n.º 2 de <b>Horizon Point</b> | El segundo punto tiene un controlador de vista 2D. |
 | <b>Rotación horizontal</b> <i>0.0 - 1.0</i> | Rotación adicional alrededor del eje central. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/color-temperature-adjustment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/color-temperature-adjustment.html"
 breadcrumb-title: ''
 description: Utilice el nodo de Color temperature adjustment para ajustar la temperatura de color en entornos HDRI para obtener efectos de luz cálidos o fríos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color temperature adjustment
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](color-temperature-adjustment.resources/color-temperature-adjustment-01.png){width="250px"}
+![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
 
 <b>En:</b> Vista 3D > Herramientas HDRI
 
@@ -54,7 +54,7 @@ Ajusta el equilibrio de color de la imagen de entrada. Similar al ajuste Equilib
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="color-temperature-adjustment.resources/color-temperature-adjustment-02.gif" />
+            <img src="../../../../../../assets/color-tempadjust-ex.gif" />
         </td>
     </tr>
 </table>
