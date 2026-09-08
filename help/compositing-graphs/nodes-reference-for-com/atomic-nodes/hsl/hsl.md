@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
 description: Utilice el nodo HSL para ajustar el tono, la saturación y la luminosidad de las texturas para la manipulación y corrección del color.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: HSL](../../../../assets/comp_hsl_1.png "Nodo atómico: HSL"){width="200px"}
+![Nodo atómico: HSL](hsl.resources/comp_hsl_1.png "Nodo atómico: HSL"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,9 +78,9 @@ Si buscas otras formas de editar los tonos de una imagen, mira [Curva](../../../
 
 |  |  |
 | --- | --- |
-| <b>Tono</b> *Flotante* | Determina el color de la imagen de entrada.   Los valores por debajo de 0,5 desplazan el tono negativamente, mientras que los valores por encima de 0,5 lo desplazan positivamente. |
-| <b>Saturación</b> *Flotante* | Determina la saturación del color de la imagen de entrada.   Los valores por debajo de 0,5 disminuyen la saturación, mientras que los valores por encima de 0,5 la aumentan. |
-| <b>Luminosidad</b> *Flotante* | Determina la luminosidad de la imagen de entrada Los valores inferiores a 0,5 reducen la Luminosidad, mientras que los valores superiores a 0,5 la aumentan. |
+| <b>Tono</b> *Flotador* | Determina el color de la imagen de entrada.   Los valores por debajo de 0,5 desplazan el tono negativamente, mientras que los valores por encima de 0,5 lo desplazan positivamente. |
+| <b>Saturación</b> *Flotador* | Determina la saturación del color de la imagen de entrada.   Los valores por debajo de 0,5 disminuyen la saturación, mientras que los valores por encima de 0,5 la aumentan. |
+| <b>Luminosidad</b> *Flotador* | Determina la luminosidad de la imagen de entrada Los valores por debajo de 0,5 reducen la luminosidad, mientras que los valores por encima de 0,5 la aumentan. |
 
 ## Conectores de entrada
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: Utilice el nodo Procesador de píxeles para procesar píxeles individuales mediante expresiones personalizadas para la manipulación avanzada de texturas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de píxeles
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Procesador de píxeles](../../../../assets/comp_pixelprocessor_1.png "Nodo atómico: Procesador de píxeles"){width="200px"}
+![Nodo atómico: Procesador de píxeles](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atómico: Procesador de píxeles"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

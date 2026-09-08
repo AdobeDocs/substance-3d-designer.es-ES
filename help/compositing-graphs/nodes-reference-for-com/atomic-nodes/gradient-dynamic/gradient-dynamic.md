@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
 description: Utilice el nodo Degradado (dinámico) para crear degradados dinámicos que se puedan controlar mediante valores y parámetros de entrada.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Degradado (dinámico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Dinámica de degradado](../../../../assets/comp_dyngradient_1.png "Nodo atómico: Dinámica de degradado"){width="200px"}
+![Nodo atómico: Dinámica de degradado](gradient-dynamic.resources/comp_dyngradient_1.png "Nodo atómico: Dinámica de degradado"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,7 +96,7 @@ Como alternativa, el regulador Posición de entrada de degradado se puede utiliz
 | --- | --- |
 | <b>Direccionamiento de degradado</b> *Booleano* | Define si el degradado se repite (mosaico) o se sujeta.   Este parámetro determina cómo se controlan los píxeles de la entrada de escala de grises de los HDR de rango [0, 1]: sujetado o plegado hasta [0, 1]. |
 | <b>Orientación del degradado</b> *Entero* | Define el eje a lo largo del cual se debe muestrear la entrada de degradado:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> Muestrear una fila de píxeles en el eje X.</li> <li data-preserve-html="true"><i>Vertical:</i> Muestrear una columna de píxeles en el eje Y.</li> </ul> |
-| <b>Posición de entrada de degradado</b> *Flotador* | Posición normalizada de la fila o columna de píxeles que se van a muestrear en la &#39;Entrada de degradado&#39;. |
+| <b>Posición de entrada de degradado</b> *Flotante* | Posición normalizada de la fila o columna de píxeles que se van a muestrear en la &#39;Entrada de degradado&#39;. |
 
 ## Conectores de entrada
 

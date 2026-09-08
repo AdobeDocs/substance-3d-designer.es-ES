@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de degradado para asignar valores de escala de grises a colores mediante rampas de degradado para la coloración y los efectos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de degradado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Mapa de degradado](../../../../assets/comp_gradient_1.png "Nodo atómico: Mapa de degradado"){width="200px"}
+![Nodo atómico: Mapa de degradado](gradient-map.resources/comp_gradient_1.png "Nodo atómico: Mapa de degradado"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,24 +71,24 @@ El nodo ofrece un editor de degradados avanzado y con muchas funciones para asig
 
 ## Editor de degradado
 
-Esta ventana ofrece controles para editar el degradado de referencia utilizado por el nodo de Mapa de degradado para asignar valores de escala de grises a los colores.
+Esta ventana ofrece controles para editar el degradado de referencia utilizado por el nodo Mapa de degradado para asignar valores de escala de grises a colores.
 
-Se puede abrir desde las <b>propiedades</b> del nodo de Mapa de degradado de las siguientes maneras:
+Se puede abrir desde las <b>propiedades</b> del nodo Mapa de degradado de las siguientes maneras:
 
 * Haga clic en LMB en el botón <b>Editor de degradado</b>;
-* Haga doble clic en LMB en un pin de la barra de degradado. El pin en el que haga clic se seleccionará automáticamente en el Editor de degradado para que pueda editar directamente sus valores.
+* Haga doble clic en LMB en un pin de la barra de degradado. La chincheta seleccionada se seleccionará automáticamente en el Editor de degradado para que pueda editar directamente sus valores.
 
-![Editor de degradado](../../../../assets/image2017-2-17-16-13-5.png "Editor de degradado")
+![Editor de degradado](gradient-map.resources/image2017-2-17-16-13-5.png "Editor de degradado")
 
-### Edición de los pin de degradado
+### Edición de los bordes de degradado
 
-Los colores y sus posiciones a lo largo del degradado se controlan mediante pin situados a lo largo de la barra de degradado.
+Los colores y sus posiciones a lo largo del degradado se controlan mediante chinchetas situadas a lo largo de la barra de degradado.
 
-Cada pin establece un color en su posición a lo largo del degradado.
+Cada borde establece un color en su posición a lo largo del degradado.
 
 Las partes del degradado antes y después de los bordes primero y último se establecen en los colores de esos bordes respectivamente.
 
-![Editor de degradado - Vista de degradado](../../../../assets/image2017-2-17-17-27-46.png "Editor de degradado - Vista de degradado")
+![Editor de degradado - Vista de degradado](gradient-map.resources/image2017-2-17-17-27-46.png "Editor de degradado - Vista de degradado")
 
 Los siguientes controles están disponibles para editar ubicaciones:
 
@@ -105,7 +105,7 @@ El nuevo punto se establecerá en el color del degradado en esa posición.
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de degradado - Agregar borde](../../../../assets/move-pin.gif "Editor de degradado - Agregar borde")
+![Editor de degradado - Agregar borde](gradient-map.resources/move-pin.gif "Editor de degradado - Agregar borde")
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ Mantenga presionada la tecla LMB y arrastre los bordes seleccionados a lo largo 
 
 También puede establecer la posición de una chincheta con un valor numérico seleccionándola y usando el parámetro <b>Position</b>. La posición es un valor en el rango [0;1] donde 0 es el inicio del degradado y 1 es su final.
 
-![Editor de degradado: parámetro de posición de borde](../../../../assets/image2015-8-27-13-56-2.png "Editor de degradado: parámetro de posición de borde")
+![Editor de degradado: parámetro de posición de borde](gradient-map.resources/image2015-8-27-13-56-2.png "Editor de degradado: parámetro de posición de borde")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de degradado - Mover borde](../../../../assets/movepin2.gif "Editor de degradado - Mover borde")
+![Editor de degradado - Mover borde](gradient-map.resources/movepin2.gif "Editor de degradado - Mover borde")
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Seleccione los bordes y pulse Supr, o bien arrástrelos fuera de la barra de deg
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de degradado - Eliminar pin](../../../../assets/removepin.gif "Editor de degradado - Eliminar pin")
+![Editor de degradado - Eliminar pin](gradient-map.resources/removepin.gif "Editor de degradado - Eliminar pin")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Refleja las posiciones de los bordes seleccionados en el degradado.
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de degradado: Invertir posiciones](../../../../assets/invert.gif "Editor de degradado: Invertir posiciones")
+![Editor de degradado: Invertir posiciones](gradient-map.resources/invert.gif "Editor de degradado: Invertir posiciones")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Quita todos los bordes de la barra de degradado.
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de degradado - Borrar todo](../../../../assets/remove.gif "Editor de degradado - Borrar todo")
+![Editor de degradado - Borrar todo](gradient-map.resources/remove.gif "Editor de degradado - Borrar todo")
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ Esto da como resultado pasos duros entre colores y solo los colores establecidos
 
 ### selector de color
 
-![Editor de degradado - Selector de color](../../../../assets/image2017-2-17-18-21-29.png "Editor de degradado - Selector de color")
+![Editor de degradado - Selector de color](gradient-map.resources/image2017-2-17-18-21-29.png "Editor de degradado - Selector de color")
 
 El Selector de color le permite definir un color de varias maneras:
 
@@ -245,7 +245,7 @@ El Selector de color le permite definir un color de varias maneras:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Selector de color: área de degradado y barra de tono](../../../../assets/colorpalette.gif "Selector de color: área de degradado y barra de tono")
+  ![Selector de color: área de degradado y barra de tono](gradient-map.resources/colorpalette.gif "Selector de color: área de degradado y barra de tono")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ El Selector de color le permite definir un color de varias maneras:
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![Selector de color: reguladores RGB, HSV y Alpha](../../../../assets/image2017-2-17-18-31-41.png "Selector de color: reguladores RGB, HSV y Alpha")
+  ![Selector de color: reguladores RGB, HSV y Alpha](gradient-map.resources/image2017-2-17-18-31-41.png "Selector de color: reguladores RGB, HSV y Alpha")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ El Selector de color le permite definir un color de varias maneras:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Selector de color: seleccionar en pantalla](../../../../assets/pick.gif "Selector de color: seleccionar en pantalla")
+  ![Selector de color: seleccionar en pantalla](gradient-map.resources/pick.gif "Selector de color: seleccionar en pantalla")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ La mitad inferior muestra el color utilizado anteriormente. Haga doble clic en L
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Selector de color - Revertir color](../../../../assets/image2015-8-27-14-40-39.png "Selector de color - Revertir color")
+![Selector de color - Revertir color](gradient-map.resources/image2015-8-27-14-40-39.png "Selector de color - Revertir color")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ Además, las siguientes funciones están disponibles debajo de la miniatura de c
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Selector de color - Botones](../../../../assets/invert2.gif "Selector de color - Botones")
+![Selector de color - Botones](gradient-map.resources/invert2.gif "Selector de color - Botones")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ Además, las siguientes funciones están disponibles debajo de la miniatura de c
 
 El Cuentagotas de degradado es una de las características más útiles que ofrece este nodo, ya que puede crear degradados complejos simplemente dibujando una línea en una imagen de referencia.
 
-![Editor de degradado - Selector de degradado](../../../../assets/pickgradient.gif "Editor de degradado - Selector de degradado")
+![Editor de degradado - Selector de degradado](gradient-map.resources/pickgradient.gif "Editor de degradado - Selector de degradado")
 
 El regulador <b>Precisión</b> te ayudará a ajustar el degradado recién creado aumentando o disminuyendo el número de teclas: cuanto más bajos sean sus valores, más preciso será el degradado que coincida con los valores seleccionados.
 
