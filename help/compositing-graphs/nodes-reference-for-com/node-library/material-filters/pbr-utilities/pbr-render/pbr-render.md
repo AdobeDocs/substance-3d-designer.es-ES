@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: Utilice el nodo Renderización PBR para procesar materiales basados en la física con iluminación realista para previsualizar la apariencia del material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderización PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render-01.png){width="250px"}
+![](../../../../../../assets/pbr-render.png){width="250px"}
 
 <b>En:</b> Filtros de material > Utilidades de PBR
 
@@ -69,7 +69,7 @@ Este nodo requiere al menos un material PBR completo para ser conectado. Lo idea
 | <b>Irradiancia cruda</b> | Los datos de irradiancia del procesamiento final <br><br><i>Alpha:</i> Mapa de opacidad |
 | <b>Specular sin procesar</b> | Los datos de specular del renderizado final <br><br><i>Alpha:</i> mapa de sombras de Specular |
 | <b>Espacio normal</b> | El espacio mundial normaliza los datos del renderizado final <br><br><i>Alpha:</i> Mapa de altura del espacio mundial |
-| <b>Espacio de tangente normal</b> | El espacio tangente normaliza los datos del renderizado final <br><br><i>Alpha:</i> Mapa de altura del espacio tangente |
+| <b>Espacio Tangente Normal</b> | El espacio tangente normaliza los datos del renderizado final <br><br><i>Alpha:</i> Mapa de altura del espacio tangente |
 | <b>UV</b> | Los datos UV del procesamiento final <br><br><i>Alpha:</i> Mapa de opacidad |
 
 <a name="parameters"></a>
@@ -128,14 +128,14 @@ Este nodo requiere al menos un material PBR completo para ser conectado. Lo idea
 | <b>Intensidad de Dirt de la lente</b> <i>0.0 - 1.0</i> | Define el efecto del mapa de dirt de lente en los destellos de lente. |
 | <b>Configuración de procesamiento</b> |  |
 | <b>Calidad de Difuso</b> <i>16 Muestras, 32 Muestras, 64 Muestras, 128 Muestras</i> | Cambiar entre niveles de calidad para el mapa difuso. |
-| <b>Multiplicador de Emisivos de Difuso</b> <i>0.0 - 1.0</i> | Controla en qué medida las partes del emisivo contribuyen a la irradiancia. |
+| <b>Multiplicador de Emisivos de Difuso</b> <i>0.0 - 1.0</i> | Controla en qué medida las partes emisoras contribuyen a la irradiancia. |
 | <b>Intensidad de sombra de Difuso</b> <i>0.0 - 1.0</i> | Controla la intensidad de las sombras difusas. |
 | <b>Tramado de Specular</b> <i>0.0 - 1.0</i> | Establezca la cantidad de tramado para el specular. |
 | <b>Multiplicador de sombras de Specular</b> <i>0.0 - 1.0</i> | Controla la intensidad de las sombras en los reflejos del specular. |
 | <b>Modo de opacidad</b> <i>Prueba de Alpha tramado, Fusión de Alpha simple</i> | Controla el método de aplicación de transparencia. El modo <i>Fusión simple de Alpha</i> es más visible en fondos uniformes. |
-| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define la intensidad de las sombras de oclusión ambiental. |
+| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define la intensidad de las sombras de la oclusión ambiente. |
 | <b>Ajustes de material</b> |  |
-| <b>Actualizar normales</b> <i>Falso/Verdadero</i> | Las normales se calcularán de nuevo a partir del mapa de alturas según la intensidad del desplazamiento. |
+| <b>Actualizar normales</b> <i>Falso/Verdadero</i> | Las normales se calcularán de nuevo a partir del mapa de height según la intensidad del desplazamiento. |
 | <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambiar entre diferentes Formatos de mapa de normales (invierte el canal verde) |
 | <b>Entrada F0 dieléctrica</b> <i>Valor constante, entrada de Specular level</i> | Establecer qué controla los valores F0. La entrada de specular level significa que estará gobernada por un mapa de entrada. |
 | <b>Dielectric F0</b> <i>0.0 - 0.08</i> | Si se elige Valor constante para la entrada F0 dieléctrica, este regulador le permite definir el valor global. |
@@ -160,30 +160,30 @@ Todas las imágenes se generaron directamente dentro de Designer, en la ventana 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-02.jpg" />
+            <img src="../../../../../../assets/pbr-render-v2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-03.jpg" />
+            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-04.jpg" />
+            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-05.jpg" />
+            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-06.jpg" />
+            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-07.jpg" />
+            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-08.jpg" />
+            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-09.jpg" />
+            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
         </td>
     </tr>
 </table>

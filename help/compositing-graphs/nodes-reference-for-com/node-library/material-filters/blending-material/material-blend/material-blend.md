@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fusión de material para fusionar materiales enteros mediante máscaras para crear efectos de material compuesto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusión de materiales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-blend.resources/material-blend-01.png){width="128px"}
+![](../../../../../../assets/material-blend.png){width="128px"}
 
 <b>En:</b> Filtros de material > Fusión
 
@@ -68,7 +68,7 @@ Este nodo es útil si desea fusionar dos materiales y tener un mapa en escala de
 | <b>Specular</b> |  |
 | <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
 | <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
-| <b>Emissive</b> |  |
+| <b>Emisivo</b> |  |
 | <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
 | <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
 | <b>Brillo</b> |  |
