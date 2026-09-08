@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
 breadcrumb-title: ''
 description: Utilice el nodo Manchas sucias de Suciedad para añadir patrones de manchas sucias y crear efectos de materiales envejecidos y con intemperie.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Manchas de suciedad sucias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-spots-dirty.resources/grunge-spots-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -45,12 +45,12 @@ El nodo **Suciedad Spots Dirty** genera un mapa de suciedades similar a los punt
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Cobertura</b> <i>Flotador</i> | Ajusta la cobertura del dirt. |
+| <b>Cobertura</b> <i>Flotante</i> | Ajusta la cobertura del dirt. |
 | <b>Escala</b> <i>Entero</i> | Ajusta la escala de los puntos de dirt. Un valor *mayor* produce *manchas más finas*. |
 
 ## Ejemplos
@@ -58,10 +58,10 @@ El nodo **Suciedad Spots Dirty** genera un mapa de suciedades similar a los punt
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-02.jpg" />
+            <img src="../../../../../../assets/grungespotsdirty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-03.jpg" />
+            <img src="../../../../../../assets/grungespotsdirty-variant.jpg" />
         </td>
     </tr>
 </table>

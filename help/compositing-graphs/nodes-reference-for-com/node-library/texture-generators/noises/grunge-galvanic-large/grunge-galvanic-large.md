@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
 breadcrumb-title: ''
 description: Utilice el nodo galvánico grande de la Suciedad para generar patrones de corrosión galvánica a gran escala para los efectos de intemperismo del metal.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suciedad galvánica grande
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-large.resources/grunge-galvanic-large-01.jpg){width="200px"}
+![](../../../../../../assets/grungegalvaniclarge.jpg){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -59,10 +59,10 @@ El nodo **Suciedad Galvanic Large** genera un mapa de suciedades similar al patr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-02.jpg" />
+            <img src="../../../../../../assets/grungegalvaniclarge-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-03.jpg" />
+            <img src="../../../../../../assets/grungegalvaniclarge-variant2.jpg" />
         </td>
     </tr>
 </table>

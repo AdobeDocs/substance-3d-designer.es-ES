@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
 breadcrumb-title: ''
 description: Utilice el nodo pequeño galvánico Suciedad para generar patrones de corrosión galvánica a pequeña escala para efectos de intemperismo del metal.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suciedad Galvánica Pequeña
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-small.resources/grunge-galvanic-small-01.jpg){width="200px"}
+![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
 
-<b>En:</b> Generadores de texturas > Ruidos
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ El nodo **Suciedad Galvánica Pequeña** genera un mapa de suciedades similar al
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Nitidez</b> <i>Flotador</i> | Ajusta la nitidez y nitidez de las formas galvanizadas. |
-| <b>Dirt</b> <i>Flotador</i> | Ajusta la opacidad de la superposición de dirt. |
+| <b>Nitidez</b> <i>Flotante</i> | Ajusta la nitidez y nitidez de las formas galvanizadas. |
+| <b>Dirt</b> <i>Flotante</i> | Ajusta la opacidad de la superposición de dirt. |
 | <b>Micro Distorsión</b> <i>Flotador</i> | Ajusta la intensidad del efecto de deformación de alta frecuencia. |
 
 ## Ejemplos
@@ -59,10 +59,10 @@ El nodo **Suciedad Galvánica Pequeña** genera un mapa de suciedades similar al
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-02.jpg" />
+            <img src="../../../../../../assets/grungegalvanicsmall-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-03.jpg" />
+            <img src="../../../../../../assets/grungegalvanicsmall-variant.jpg" />
         </td>
     </tr>
 </table>
