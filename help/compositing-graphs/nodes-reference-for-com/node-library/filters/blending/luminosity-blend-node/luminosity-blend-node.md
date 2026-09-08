@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luminosidad (nodo de Fusión)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6507710c6005db383ba88ce9e5c6ad9c34d87c9f
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Degradado 2 puntos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-2-points.resources/gradient-2-points-01.png){width="250px"}
+![](../../../../../../assets/gradient-2-points.png){width="250px"}
 
 <b>En:</b> Vista 3D > Herramientas HDRI
 
@@ -45,10 +45,10 @@ Crea un degradado de 2 colores entre dos puntos seleccionados por el usuario. El
 
 |  |  |
 |:---|:---|
-| Posición <b>Punto 1</b> | Posición del primer punto seleccionada por el usuario. Tiene control en vista 2D. |
+| Posición <b>Punto 1</b> | Posición del primer punto seleccionada por el usuario. Tiene control en Vista 2D. |
 | <b>Color de punto 1</b> <i>(Valor de color)</i> | Color al inicio del degradado. |
 | <b>Contraste de punto 1</b> <i>0.0 - 1.0</i> | Contraste de la máscara del primer punto. |
-| <b>Posición de punto 2</b> | Posición del segundo punto seleccionada por el usuario. Tiene control en vista 2D. |
+| <b>Posición de punto 2</b> | Posición del segundo punto seleccionada por el usuario. Tiene control en Vista 2D. |
 | <b>Color de punto 2</b> <i>(Valor de color)</i> | Color al final del degradado. |
 | <b>Contraste de punto 2</b> <i>0.0 - 1.0</i> | Contraste de la segunda máscara de punto. |
 
@@ -57,7 +57,7 @@ Crea un degradado de 2 colores entre dos puntos seleccionados por el usuario. El
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-2-points.resources/gradient-2-points-02.gif" />
+            <img src="../../../../../../assets/gradient-ex2.gif" />
         </td>
     </tr>
 </table>

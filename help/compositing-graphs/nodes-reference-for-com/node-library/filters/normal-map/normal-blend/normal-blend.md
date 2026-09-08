@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
-description: Utilice el nodo Fusión normal para fusionar mapas normales y crear transiciones suaves entre detalles de superficie.
+description: Utilice el nodo Fusión normal para fusionar mapas de normales y crear transiciones suaves entre detalles de superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusión normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-blend.resources/normal-blend-01.png){width="128px"}
+![](../../../../../../assets/normal-blend.png){width="128px"}
 
 <b>En:</b> Filtros > Mapa de normales
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## Descripción
 
-Fusión normal permite fusionar dos mapas normales con una máscara opcional, mientras se garantiza que todos los valores permanecen normalizados. No difiere mucho de un [nodo de fusión atómica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), pero ha agregado cálculos internos para los mapas normales.
+La Fusión normal le permite fusionar dos mapas normales con una máscara opcional, al tiempo que se asegura de que todos los valores permanecen normalizados. No difiere mucho de un [nodo de Fusión atómica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), pero ha agregado cálculos internos para los mapas normales.
 
-Fusión normal no está diseñada para combinar (superponer) mapas normales, donde el mapa superior agrega detalles al mapa inferior. Para ello, usa [Combinación normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) en su lugar.
+La Fusión normal no está pensada para combinar (superponer) los mapas normales, donde el mapa superior añade detalles al mapa inferior. Para ello, usa [Combinación normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) en su lugar.
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Fusión normal no está diseñada para combinar (superponer) mapas normales, don
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="normal-blend.resources/normal-blend-02.gif" /><br><i>(el formato .gif introduce el tramado en el ejemplo, los resultados en la aplicación son suaves)</i>
+            <img src="../../../../../../assets/normalblend-ex.gif" /><br><i>(el formato .gif introduce el tramado en el ejemplo, los resultados en la aplicación son suaves)</i>
         </td>
     </tr>
 </table>

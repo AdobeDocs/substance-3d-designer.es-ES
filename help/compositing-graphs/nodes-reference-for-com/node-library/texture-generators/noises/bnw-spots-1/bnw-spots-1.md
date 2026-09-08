@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BnW spots 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Manchas BnW 1 - Icono](bnw-spots-1.resources/bnw-spots-1-01.png "Manchas BnW 1 - Icono"){width="200px"}
+![Manchas BnW 1 - Icono](../../../../../../assets/bnw_spots_1.png "Manchas BnW 1 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -70,12 +70,12 @@ Consulte también: [Puntos BnW 2](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Manchas BnW 1 - Ejemplo 1](bnw-spots-1.resources/bnw-spots-1-02.png "Manchas BnW 1 - Ejemplo 1"){zoomable="yes"}
+![Manchas BnW 1 - Ejemplo 1](../../../../../../assets/bnw_spots_1_1.png "Manchas BnW 1 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Manchas BnW 1 - Ejemplo 2](bnw-spots-1.resources/bnw-spots-1-03.gif "Manchas BnW 1 - Ejemplo 2"){zoomable="yes"}
+![Manchas BnW 1 - Ejemplo 2](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso0.gif "Manchas BnW 1 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ Consulte también: [Puntos BnW 2](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Manchas BnW 1 - Ejemplo 3](bnw-spots-1.resources/bnw-spots-1-04.gif "Manchas BnW 1 - Ejemplo 3"){zoomable="yes"}
+![Manchas BnW 1 - Ejemplo 3](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso1.gif "Manchas BnW 1 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Manchas BnW 1 - Ejemplo 4](bnw-spots-1.resources/bnw-spots-1-05.gif "Manchas BnW 1 - Ejemplo 4"){zoomable="yes"}
+![Manchas BnW 1 - Ejemplo 4](../../../../../../assets/noise_bnw_spots_1_v2_speed0.3_aniso0.6.gif "Manchas BnW 1 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

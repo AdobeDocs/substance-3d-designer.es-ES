@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cuantificar escala de grises
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar escala de grises](quantize-grayscale.resources/quantize-grayscale-01.png "Icono Cuantificar escala de grises"){width="200px"}
+![Icono Cuantificar escala de grises](../../../../../../assets/quantize-grayscale.png "Icono Cuantificar escala de grises"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -52,6 +52,6 @@ Genera una única spline con forma de círculo.
 
 ## Ejemplos
 
-![Ejemplo 1](quantize-grayscale.resources/quantize-grayscale-02.gif "Ejemplo 1")
+![Ejemplo 1](../../../../../../assets/quantizegrayscale.gif "Ejemplo 1")
 
-![Ejemplo 2](quantize-grayscale.resources/quantize-grayscale-03.png "Ejemplo 2")
+![Ejemplo 2](../../../../../../assets/quantizegrayscale.png "Ejemplo 2")

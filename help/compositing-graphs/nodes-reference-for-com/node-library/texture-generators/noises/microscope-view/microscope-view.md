@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
 breadcrumb-title: ''
-description: Utilice el nodo Vista de microscopio para generar patrones de texturas microscópicas para crear estructuras de superficie detalladas.
+description: Utilice el nodo Vista de microscopio para generar patrones de textura microscópicos para crear estructuras de superficie detalladas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Microscope View
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vista de microscopio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](microscope-view.resources/microscope-view-01.png){width="128px"}
+![](../../../../../../assets/microscope-view.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -48,14 +48,14 @@ Esto genera un ruido deformado que se asemeja a bacterias u organismos bajo un m
 | <b>Escala</b> <i>0 - 10</i> | Establece la escala global del efecto. |
 | <b>Intensidad de deformación</b> <i>0.0 - 1.0</i> | Define la intensidad del efecto de deformación. Tenga en cuenta que también puede ir negativo, haciendo doble clic e introduciendo -1. |
 | <b>Desorden</b> <i>0.0 - 1.0</i> | Desplaza la fase del ruido para introducir una pequeña variación |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="microscope-view.resources/microscope-view-02.gif" />
+            <img src="../../../../../../assets/microscope-view-ex.gif" />
         </td>
     </tr>
 </table>

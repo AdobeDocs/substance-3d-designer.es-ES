@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap para luz de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
+![](../../../../../../assets/b2m-light.png)
 
 <b>En:</b> Filtros de material > 1-Clic
 
@@ -79,9 +79,9 @@ Aunque no se garantiza que dé como resultado materiales perfectos y correctos p
 | <b>Niveles De Rugosidad En</b> <i>0.0 - 1.0</i> | Define los niveles de entrada para la interpretación de Rugosidad. |
 | <b>Salida de niveles de rugosidad</b> <i>0.0 - 1.0</i> | Modifica los niveles de salida de Rugosidad. |
 | <b>Influencia de Rugosidad metálica</b> <i>0.0 - 1.0</i> | Determina la influencia de la entrada metálica opcional en el mapa de Brillo. |
-| <b>Oclusión ambiental</b> |  |
+| <b>Oclusión de ambiente</b> |  |
 | <b>Oclusión ambiental En El Difuso</b> <i>0.0 - 1.0</i> | Fusiones en el AO generado en la salida de Difuso. |
 | <b>Difusión de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define el grado de propagación del AO generado. |
 | <b>Distancia de luz de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define la interpretación de &quot;profundidad&quot; de AO. Tiene menos influencia cuando hay un pliego grande. |
-| <b>Ángulo claro de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define el ángulo de proyección de iluminación falsa AO. Se puede utilizar para compensar cualquier AO direccional que ya esté en el Difuso, si se define en un ángulo opuesto. |
+| <b>Ángulo claro de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Define el ángulo de proyección de iluminación falsa AO. Se puede utilizar para compensar cualquier AO direccional que ya esté en la difusión, si se define en un ángulo opuesto. |
 | <b>Niveles de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Modifica los niveles de salida de AO. |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Asignador de formas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Asignador de formas - Icono](shape-mapper.resources/shape-mapper-01.png "Asignador de formas - Icono"){width="200px"}
+![Asignador de formas - Icono](../../../../../../assets/shape_mapper.png "Asignador de formas - Icono"){width="200px"}
 
 <b>En:</b> generadores de Textura > Patrones
 
@@ -69,7 +69,7 @@ La proyección deforma la imagen para que siga el contorno de la forma y hace qu
 | <b>Segmentos</b> <i>Entero</i>   *Disponible cuando &#39;Shape&#39; está establecido en &#39;Polygon&#39; y &#39;Link segements with pattern amount&#39; está establecido en &#39;False&#39;* | Cantidad de segmentos del polígono a lo largo de los cuales se colocan los patrones.   Los segmentos tienen *un tamaño uniforme* y todos los vértices están *equidistantes del centro*, por lo que al aumentar la cantidad de segmentos, el polígono converge hacia un círculo. |
 | <b>Radio</b> <i>Flotador</i> | Un multiplicador para el radio de la forma, donde 1.0 es la mitad de la longitud del lado más corto de la imagen. |
 | <b>Ancho</b> <i>Flotador</i> | Un multiplicador para la anchura de los patrones a lo largo de la forma, donde 1.0 es la mitad de la longitud del lado más corto de la imagen. |
-| <b>Rotación</b> <i>Flotante</i> | Cantidad de rotación aplicada a la forma, en número de vueltas en el sentido de las agujas del reloj desde la derecha horizontal. |
+| <b>Rotación</b> <i>Flotador</i> | Cantidad de rotación aplicada a la forma, en número de vueltas en el sentido de las agujas del reloj desde la derecha horizontal. |
 | <b>Voltear uno en dos</b> <i>Booleano</i> | Voltee verticalmente una forma cada otra. |
 | <b>Modo de filtro</b> <i>Entero</i> | El método de filtrado aplicado a los patrones colocados a lo largo de la forma:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Más cercano:</i> Aplica el valor del píxel proyectado más cercano tal cual, lo que da como resultado un aspecto más nítido pero suavizado.</li> <li data-preserve-html="true"><i>Bilineal:</i> Aplica un filtro bilineal para interpolar el píxel proyectado con sus vecinos, para obtener un aspecto más suave y borroso.</li> </ul> |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | En las imágenes no cuadradas, mantiene la forma generada en forma cuadrada y expande la generación de imágenes a los límites de la imagen. |

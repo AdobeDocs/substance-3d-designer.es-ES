@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill a índice
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-index.resources/flood-fill-to-index-01.png){width="200px"}
+![](../../../../../../assets/floodfill-index.png){width="200px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Descripción
 
-Flood Fill a índice convierte cada celda de Flood Fill en un valor según su número de índice, comenzando por 0 en la esquina superior izquierda. Se puede utilizar para devolver matices de escala de grises de forma normalizada (de 0,0 a 1,0, divididos por tantas celdas como encuentre el Flood Fill) o como un valor HDR sin fijar (de 0 a n, donde n es el número de celdas).
+Flood Fill a índice convierte cada celda de Flood Fill en un valor según su número de índice, comenzando por 0 en la esquina superior izquierda. Se puede utilizar para devolver matices de escala de grises en una forma normalizada (de 0,0 a 1,0, divididos por tantas celdas como encuentre el Flood Fill) o como un valor HDR., sin fijar (de 0 a n donde n es el número de celdas).
 
 Además, el Flood Fill a Index utiliza [valores](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md), lo que devuelve la cantidad de formas encontradas y la tabla de datos interna opcional.
 
@@ -65,7 +65,7 @@ Además, el Flood Fill a Index utiliza [valores](../../../../../values-compositi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-index.resources/flood-fill-to-index-02.jpg" />
+            <img src="../../../../../../assets/flood-fill-ex02.jpg" />
         </td>
     </tr>
 </table>

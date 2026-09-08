@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ecualización del histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ecualización del histograma: icon](histogram-equalize.resources/histogram-equalize-01.png "Ecualización de histograma: icon"){width="200px"}
+![Ecualización del histograma: icon](../../../../../../assets/histogram_equalize.png "Ecualización de histograma: icon"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -62,51 +62,51 @@ Ecualiza el histograma de una imagen de escala de grises, ajustando eficazmente 
 |  |  |
 |:---|:---|
 | <b>Resolución del histograma</b> *Entero* | Anchura del histograma. Un valor más alto permite una distribución de valor más fina.   Las resoluciones disponibles son, en píxeles:  256, 512, 1024, 2048, 4096 |
-| <b>Suavizado de histograma</b> *Flotador* | El histograma se puede suavizar redistribuyendo los valores de escala de grises de la imagen para igualar la *diferencia* entre cada valor.   Este parámetro ajusta la intensidad de ese suavizado. |
+| <b>Suavizado de histograma</b> *Flotante* | El histograma se puede suavizar redistribuyendo los valores de escala de grises de la imagen para igualar la *diferencia* entre cada valor.   Este parámetro ajusta la intensidad de ese suavizado. |
 
 ## Ejemplos
 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram-equalize-02.jpg" alt="histogram_equalize_example_1_before">
+      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram-equalize-03.jpg" alt="histogram_equalize_example_1_after">
+      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
 </table>
 
-![Ecualización del histograma: Ejemplo 1](histogram-equalize.resources/histogram-equalize-04.png "Ecualización de histograma: Ejemplo 1"){zoomable="yes"}
+![Ecualización del histograma: Ejemplo 1](../../../../../../assets/histogram_equalize_example_3.png "Ecualización de histograma: Ejemplo 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram-equalize-05.jpg" alt="histogram_equalize_example_2_before">
+      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram-equalize-06.jpg" alt="histogram_equalize_example_2_after">
+      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>
 </table>
 
-![Ecualización del histograma: Ejemplo 2](histogram-equalize.resources/histogram-equalize-07.png "Ecualización de histograma: Ejemplo 2"){zoomable="yes"}
+![Ecualización del histograma: Ejemplo 2](../../../../../../assets/histogram_equalize_example_5.png "Ecualización de histograma: Ejemplo 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram-equalize-08.jpg" alt="histogram_equalize_example_4_before">
+      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram-equalize-09.jpg" alt="histogram_equalize_example_4_after">
+      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
       <br><i>Después De</i>
     </td>
   </tr>
 </table>
 
-![Ecualización del histograma: Ejemplo 3](histogram-equalize.resources/histogram-equalize-10.png "Ecualización de histograma: Ejemplo 3"){zoomable="yes"}
+![Ecualización del histograma: Ejemplo 3](../../../../../../assets/histogram_equalize_example_6.png "Ecualización de histograma: Ejemplo 3"){zoomable="yes"}

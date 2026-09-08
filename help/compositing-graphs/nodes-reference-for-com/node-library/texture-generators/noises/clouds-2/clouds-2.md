@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Clouds 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nubes 2 - Icono](clouds-2.resources/clouds-2-01.png "Nubes 2 - Icono"){width="200px"}
+![Nubes 2 - Icono](../../../../../../assets/clouds_2.png "Nubes 2 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -69,12 +69,12 @@ Consulte también: [Nubes 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nubes 2 - Ejemplo 1](clouds-2.resources/clouds-2-02.png "Nubes 2 - Ejemplo 1"){zoomable="yes"}
+![Nubes 2 - Ejemplo 1](../../../../../../assets/clouds_2_1.png "Nubes 2 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nubes 2 - Ejemplo 2](clouds-2.resources/clouds-2-03.gif "Nubes 2 - Ejemplo 2"){zoomable="yes"}
+![Nubes 2 - Ejemplo 2](../../../../../../assets/noise_clouds_2_v2_speed0.6_aniso0.gif "Nubes 2 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Consulte también: [Nubes 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nubes 2 - Ejemplo 3](clouds-2.resources/clouds-2-04.gif "Nubes 2 - Ejemplo 3"){zoomable="yes"}
+![Nubes 2 - Ejemplo 3](../../../../../../assets/noise_clouds_2_v2_speed0.6_aniso1.gif "Nubes 2 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nubes 2 - Ejemplo 4](clouds-2.resources/clouds-2-05.gif "Nubes 2 - Ejemplo 4"){zoomable="yes"}
+![Nubes 2 - Ejemplo 4](../../../../../../assets/noise_clouds_2_v2_speed0.3_aniso0.6.gif "Nubes 2 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height Normal Blender
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-normal-blender.resources/height-normal-blender-01.png){width="128px"}
+![](../../../../../../assets/height-normal-blender.png){width="128px"}
 
 <b>En:</b> Filtros > Mapa de normales
 

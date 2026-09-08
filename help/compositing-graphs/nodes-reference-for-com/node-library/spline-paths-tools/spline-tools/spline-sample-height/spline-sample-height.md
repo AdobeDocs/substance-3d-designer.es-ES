@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height de muestra spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-sample-height.resources/spline-sample-height-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/spline-sample-height-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -88,11 +88,11 @@ El efecto del mapa de height asignado se puede ajustar cambiando su modo de fusi
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-03.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ El efecto del mapa de height asignado se puede ajustar cambiando su modo de fusi
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-04.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ El efecto del mapa de height asignado se puede ajustar cambiando su modo de fusi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](spline-sample-height.resources/spline-sample-height-05.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](spline-sample-height.resources/spline-sample-height-06.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

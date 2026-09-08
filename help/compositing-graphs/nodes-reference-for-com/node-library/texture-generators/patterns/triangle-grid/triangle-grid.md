@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](triangle-grid.resources/triangle-grid-01.jpg){width="200px"}
+![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
 
-![](triangle-grid.resources/triangle-grid-02.jpg){width="200px"}
+![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -97,37 +97,17 @@ Es posible ajustar las *posiciones* de los vértices, lo que afecta a la malla g
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Ejemplo 1](triangle-grid.resources/triangle-grid-03.jpg "Triangle Grid: Ejemplo 1"){zoomable="yes"}
+![Triangle Grid: Ejemplo 1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid: Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Ejemplo 2](triangle-grid.resources/triangle-grid-04.png "Triangle Grid: Ejemplo 2"){zoomable="yes"}
+![Triangle Grid: Ejemplo 2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid: Ejemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Ejemplo 3](triangle-grid.resources/triangle-grid-05.jpg "Triangle Grid: Ejemplo 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Ejemplo 4](triangle-grid.resources/triangle-grid-06.jpg "Triangle Grid: Ejemplo 4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Ejemplo 5](triangle-grid.resources/triangle-grid-07.jpg "Triangle Grid: Ejemplo 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Ejemplo 6](triangle-grid.resources/triangle-grid-08.jpg "Triangle Grid: Ejemplo 6"){zoomable="yes"}
+![Triangle Grid: Ejemplo 3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid: Ejemplo 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ Es posible ajustar las *posiciones* de los vértices, lo que afecta a la malla g
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Cuero](triangle-grid.resources/triangle-grid-09.png "Triangle Grid: Cuero"){zoomable="yes"}
+![Triangle Grid: Ejemplo 4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid: Ejemplo 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Gráfico](triangle-grid.resources/triangle-grid-10.png "Triangle Grid: Gráfico"){zoomable="yes"}
+![Triangle Grid: Ejemplo 5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid: Ejemplo 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Ejemplo 6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid: Ejemplo 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Cuero](../../../../../../assets/trianglegrid-demo.png "Triangle Grid: Cuero"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Gráfico](../../../../../../assets/trianglegrid-node.png "Triangle Grid: Gráfico"){zoomable="yes"}
 
 </td>
 </tr>

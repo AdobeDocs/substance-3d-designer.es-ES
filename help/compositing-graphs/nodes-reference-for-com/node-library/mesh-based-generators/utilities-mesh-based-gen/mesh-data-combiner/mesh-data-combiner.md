@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Combinador de datos de malla
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mesh-data-combiner.resources/mesh-data-combiner-01.png){width="128px"}
+![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Utilidades
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruido de Perlin
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruido de Perlin - Icono](perlin-noise.resources/perlin-noise-01.png "Ruido de Perlin - Icono"){width="200px"}
+![Ruido de Perlin - Icono](../../../../../../assets/perlin_noise.png "Ruido de Perlin - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -65,12 +65,12 @@ Genera un ruido de Perlin, una distribución suave muy utilizada de valores de e
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruido Perlin - Ejemplo 1](perlin-noise.resources/perlin-noise-02.png "Ruido Perlin - Ejemplo 1"){zoomable="yes"}
+![Ruido Perlin - Ejemplo 1](../../../../../../assets/perlin_noise_1.png "Ruido Perlin - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruido Perlin - Ejemplo 2](perlin-noise.resources/perlin-noise-03.gif "Ruido Perlin - Ejemplo 2"){zoomable="yes"}
+![Ruido Perlin - Ejemplo 2](../../../../../../assets/noise_perlin_noise_v2_speed0.6_aniso0.gif "Ruido Perlin - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

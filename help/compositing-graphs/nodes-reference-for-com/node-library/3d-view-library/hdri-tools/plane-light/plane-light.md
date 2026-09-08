@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luz plana
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plane-light.resources/plane-light-01.png){width="200px"}
+![](../../../../../../assets/panorama-plane-light.png){width="200px"}
 
 <b>En:</b> Vista 3D > Herramientas HDRI
 
@@ -89,7 +89,7 @@ Difiere de la sencilla [luz de forma](../../../../../../compositing-graphs/nodes
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plane-light.resources/plane-light-02.gif" />
+            <img src="../../../../../../assets/plane-light-ex.gif" />
         </td>
     </tr>
 </table>

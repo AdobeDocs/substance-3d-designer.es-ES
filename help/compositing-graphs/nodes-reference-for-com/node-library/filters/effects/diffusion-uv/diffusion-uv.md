@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Difusión UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-uv.resources/diffusion-uv-01.png){width="200px"}
+![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -69,18 +69,18 @@ Esto puede producir resultados no deseados al usar este filtro para *deformació
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-02.jpg" />
+            <img src="../../../../../../assets/diffusion-uv-01a-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-03.jpg" />
+            <img src="../../../../../../assets/diffusion-uv-01a-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-04.jpg" />
+            <img src="../../../../../../assets/diffusion-uv-01b-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-05.jpg" />
+            <img src="../../../../../../assets/diffusion-uv-01b-after.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Oclusión ambiente (RATO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo RTAO](ambient-occlusion-rtao.resources/ambient-occlusion-rtao-01.png "Icono de nodo RTAO")
+![Icono de nodo RTAO](../../../../../../assets/rt-ao.png "Icono de nodo RTAO")
 
 <b>En:</b> Filtros > Efectos
 
@@ -54,18 +54,18 @@ Consulte [Oclusión ambiental (HBAO) (nodo de filtro)](../../../../../../composi
 | <b>Ejemplos</b> <i>Entero</i> | Número de rayos utilizados para calcular la oclusión ambiental.<br>Un valor más alto proporciona un resultado más suave y preciso a costa del rendimiento. |
 | <b>Escala de Height</b> <i>Flotador</i> <i>(Disponible cuando <b>Usar Tamaño físico</b> está establecido en <i>Falso</i>)</i> | Multiplicador de la intensidad de la entrada del mapa de height. |
 | <b>Distribución</b> <i>Entero</i> | Establece el método de distribución. Afecta a la caída hacia zonas sombreadas, |
-| <b>Distancia máxima</b> <i>Flotador</i> | Define la distancia máxima que los rayos pueden recorrer para ser ocluidos. |
-| <b>Ángulo de pliego</b> <i>Flotador</i> | Define el ángulo de propagación de los rayos a los que se disparará. Un valor de 1 es un hemisferio completo. |
+| <b>Distancia máxima</b> <i>Flotante</i> | Define la distancia máxima que los rayos pueden recorrer para ser ocluidos. |
+| <b>Ángulo de pliego</b> <i>Flotante</i> | Define el ángulo de propagación de los rayos a los que se disparará. Un valor de 1 es un hemisferio completo. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-02.png" />
+            <img src="../../../../../../assets/image2021-6-18-11-7-48.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-03.png" />
+            <img src="../../../../../../assets/image2021-6-18-11-9-0-1.png" />
         </td>
     </tr>
 </table>

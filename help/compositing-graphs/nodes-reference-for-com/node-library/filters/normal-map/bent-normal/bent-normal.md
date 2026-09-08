@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normal doblada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo normal doblado](bent-normal.resources/bent-normal-01.png "Icono de nodo normal doblado")
+![Icono de nodo normal doblado](../../../../../../assets/rt-bent-normal.png "Icono de nodo normal doblado")
 
 <b>En:</b> Filtros > Mapa de normales
 
@@ -62,7 +62,7 @@ Este nodo no debe utilizarse en combinación con el motor de CPU (SSE) debido al
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bent-normal.resources/bent-normal-02.jpg" />
+            <img src="../../../../../../assets/bent-normal-ex-1.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Asignación de renderizaciones PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render-mapping.resources/pbr-render-mapping-01.png)![](pbr-render-mapping.resources/pbr-render-mapping-02.png)
+![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
 
 <b>En:</b> Filtros de material > Utilidades de PBR
 
@@ -65,10 +65,10 @@ El ejemplo es una composición de cuatro nodos de asignación de Renderizaciones
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render-mapping.resources/pbr-render-mapping-03.png" />
+            <img src="../../../../../../assets/pbr-render-mapping-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render-mapping.resources/pbr-render-mapping-04.png" />
+            <img src="../../../../../../assets/pbr-render-mapping-ex-2.png" />
         </td>
     </tr>
 </table>

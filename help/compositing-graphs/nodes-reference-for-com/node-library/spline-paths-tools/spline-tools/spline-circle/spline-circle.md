@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Círculo polinómico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-circle.resources/spline-circle-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/spline-circle-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -96,12 +96,12 @@ Genera una única spline con forma de círculo.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](spline-circle.resources/spline-circle-02.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](../../../../../../assets/SplineCircle-Variant1.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](spline-circle.resources/spline-circle-03.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](../../../../../../assets/SplineCircle-Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ Genera una única spline con forma de círculo.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo 3](spline-circle.resources/spline-circle-04.jpg "Ejemplo 3")
+![Ejemplo 3](../../../../../../assets/SplineCircle-Variant2.jpg "Ejemplo 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo 4](spline-circle.resources/spline-circle-05.jpg "Ejemplo 4")
+![Ejemplo 4](../../../../../../assets/SplineCircle-Variant3.jpg "Ejemplo 4")
 
 </td>
 </tr>

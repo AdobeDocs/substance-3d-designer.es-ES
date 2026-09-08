@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cáustico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](caustics.resources/caustics-01.png){width="128px"}
+![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -62,7 +62,7 @@ Genera cáusticos proyectados en función de un mapa de altura y una dirección 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="caustics.resources/caustics-02.png" />
+            <img src="../../../../../../assets/rt-caustics-grayscale-1.png" />
         </td>
     </tr>
 </table>

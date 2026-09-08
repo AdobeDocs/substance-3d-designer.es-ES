@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extend Shape
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -28,12 +28,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](extend-shape.resources/extend-shape-01.png){width="200px"}
+![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](extend-shape.resources/extend-shape-02.png){width="200px"}
+![](../../../../../../assets/extendshapecolor.png){width="200px"}
 
 </td>
 </tr>
@@ -77,16 +77,16 @@ El parámetro <b>Show helper</b> te permite visualizar la sección extendida y l
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extend-shape-03.gif" />
+            <img src="../../../../../../assets/extendshape.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extend-shape-04.jpg" />
+            <img src="../../../../../../assets/extendshape-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extend-shape-05.jpg" />
+            <img src="../../../../../../assets/extendshape-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extend-shape-06.png" />
+            <img src="../../../../../../assets/extendshape-node.png" />
         </td>
     </tr>
 </table>

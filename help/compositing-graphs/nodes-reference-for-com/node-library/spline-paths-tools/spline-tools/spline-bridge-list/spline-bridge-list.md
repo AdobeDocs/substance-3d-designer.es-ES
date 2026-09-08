@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Puente polinomial (lista)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-bridge-list.resources/spline-bridge-list-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/spline-bridge-list-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -93,9 +93,9 @@ Las splines generadas pueden ser lineales (rectas) o curvadas (curvadas).
 | <b>Aleatorio de Thickness</b> <i>Flotador</i> | Un multiplicador aleatorio para el thickness de las splines de bridge, donde el parámetro <b>modo de Thickness</b> especifica el thickness inicial al que se aplica este multiplicador. |
 | <b>Height</b> |  |
 | <b>Modo de Height</b> <i>Entero</i> | Método para adquirir el valor de height para las splines de bridge.<br><br>- <i>Heredar de splines primarias:</i> Se usa el height de las splines principales en las posiciones inicial y final de las splines de bridge<br>- <i>Reemplazar:</i> Se usa el valor arbitrario que especifique en el parámetro <b>Height</b> |
-| <b>Desplazamiento de Height</b> <i>Flotante</i> | Cantidad de desvío aplicado al height heredado de las splines padre, antes de que ese height se aplique a las splines de puente. |
-| <b>Height</b> <i>Flotante</i> | Valor de height absoluto aplicado a las splines de puente. |
-| <b>Aleatorio de Height</b> <i>Flotante</i> | Una cantidad aleatoria de ajuste en el height de las splines de bridge, donde ese ajuste depende del parámetro <b>modo de Height</b> seleccionado:<br><br>- <i>Heredar de splines principales:</i> El valor es un multiplicador para el height heredado.<br>- <i>Anular:</i> El valor es un desplazamiento agregado al height. |
+| <b>Desplazamiento de Height</b> <i>Flotador</i> | Cantidad de desvío aplicado al height heredado de las splines padre, antes de que ese height se aplique a las splines de puente. |
+| <b>Height</b> <i>Flotador</i> | Valor de height absoluto aplicado a las splines de puente. |
+| <b>Aleatorio de Height</b> <i>Flotador</i> | Una cantidad aleatoria de ajuste en el height de las splines de bridge, donde ese ajuste depende del parámetro <b>modo de Height</b> seleccionado:<br><br>- <i>Heredar de splines principales:</i> El valor es un multiplicador para el height heredado.<br>- <i>Anular:</i> El valor es un desplazamiento agregado al height. |
 | <b>Corrección no cuadrada</b> <i>Booleano</i> | Ajuste la posición y el thickness de los puntos para conservar la forma de la spline en resoluciones que no sean cuadradas. Esto también afecta a la distribución uniforme. |
 | <b>Vista previa</b> |  |
 | <b>Mostrar ayuda de dirección</b> <i>Booleano</i> | Muestra un punto al principio de la spline y una punta de flecha al final en la salida de previsualización. |
@@ -113,11 +113,11 @@ Las splines generadas pueden ser lineales (rectas) o curvadas (curvadas).
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-02.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-03.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ Las splines generadas pueden ser lineales (rectas) o curvadas (curvadas).
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](spline-bridge-list.resources/spline-bridge-list-04.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](../../../../../../assets/SplineBridge-List_Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>
 </table>
 
-![Nodo en el gráfico](spline-bridge-list.resources/spline-bridge-list-05.jpg "Nodo en el gráfico")
+![Nodo en el gráfico](../../../../../../assets/SplineBridge-List_Graph.jpg "Nodo en el gráfico")

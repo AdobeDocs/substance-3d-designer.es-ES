@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersión en color polinomial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](scatter-on-spline-color.resources/scatter-on-spline-color-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/scatter-on-spline-color-icon.png "Icono de nodo")
 
 En: Herramientas de spline y trazado > Herramientas de spline
 
@@ -117,9 +117,9 @@ Algunos aspectos de la dispersión se pueden controlar utilizando imágenes de o
 | <b>Modo de muestreo de entrada de escala</b> <i>Espacio de Textura</i> | Método de asignación de los valores de la asignación de escala a las splines:<br>*- espacio de Textura*: Los valores se aplican a las splines donde se colocarían si se colocan en una textura utilizando las coordenadas UV de la textura. Esto aplica efectivamente el valor a las splines &quot;in place&quot;;<br>*- Horizontal along spline*: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), donde cada fila se aplica a una spline diferente de arriba a abajo;<br>*- Hor. a lo largo de la spline (rand. desplazamiento X)*: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento horizontal aleatorio en el mapa de escala para cada spline (es decir, cada fila en códigos de spline);<br>*- Hor. a lo largo de la spline (rand. desplazamiento Y)*: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento vertical aleatorio en el mapa de escala para cada spline (es decir, cada fila de códigos de spline). |
 | <b>Iniciar o finalizar atenuación</b> <i>Float2</i> | Factores en la distancia desde el punto medio de la spline hasta su inicio y fin al escalar los patrones.<br>Esto significa que el tamaño se reduce para patrones más cercanos a las extremidades de una spline. |
 | <b>Posición</b> |  |
-| <b>Desplazamiento local</b> <i>Flotante2</i> | Aplica un desvío a las posiciones de los patrones a lo largo de la tangente (paralela) y normal (perpendicular) de la spline. |
+| <b>Desplazamiento local</b> <i>Float2</i> | Aplica un desvío a las posiciones de los patrones a lo largo de la tangente (paralela) y normal (perpendicular) de la spline. |
 | <b>Desplazamiento local aleatorio</b> <i>Float2</i> | Aplica un desvío aleatorio adicional a las posiciones de los patrones a lo largo de la tangente (paralela) y normal (perpendicular) de la spline. |
-| <b>Centro aleatorio de desplazamiento local</b> <i>Flotante2</i> | Desplaza el centro del desvío aleatorio aplicado por el parámetro Aleatorio de desvío local a lo largo de la tangente (paralela) y normal (perpendicular) de la spline. |
+| <b>Centro aleatorio de desplazamiento local</b> <i>Float2</i> | Desplaza el centro del desvío aleatorio aplicado por el parámetro Aleatorio de desvío local a lo largo de la tangente (paralela) y normal (perpendicular) de la spline. |
 | <b>Atenuación de inicio/fin del desplazamiento local</b> <i>Float2</i> | Factores en la distancia desde el punto medio de la spline hasta su inicio y fin al aplicar desplazamientos de posición a los patrones.<br>Esto significa que los desplazamientos se reducen para patrones más cercanos a las extremidades de una spline. |
 | <b>Atenuación de desplazamiento local por Thickness</b> <i>Flotador</i> | Factores en el thickness de la spline al aplicar desvíos a patrones.<br>Esto significa que los desplazamientos se reducen para los duplicados en una parte de una spline con un thickness inferior. |
 | <b>Desplazamiento en spline</b> <i>Flotador</i> | Aplica un desplazamiento de posición a los motivos a lo largo de las splines. |
@@ -167,11 +167,11 @@ Algunos aspectos de la dispersión se pueden controlar utilizando imágenes de o
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-03.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ Algunos aspectos de la dispersión se pueden controlar utilizando imágenes de o
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-05.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ Algunos aspectos de la dispersión se pueden controlar utilizando imágenes de o
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](scatter-on-spline-color.resources/scatter-on-spline-color-06.gif "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](scatter-on-spline-color.resources/scatter-on-spline-color-07.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selección de borde
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-select.resources/edge-select-01.png){width="128px"}
+![](../../../../../../assets/edge-select.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Generadores de máscaras
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) en [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esta máscara es la mejor forma de seleccionar cualquier tipo de borde en función de la curvatura. Convexo, cóncavo en cualquier nivel o contraste se puede aislar, lo que proporciona un excelente método abreviado para evitar hacerlo manualmente a través de un [nodo de niveles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
+Esta máscara es la mejor forma de seleccionar cualquier tipo de borde en función de la curvatura. Convexo, cóncavo en cualquier nivel o contraste se puede aislar, proporcionando un excelente método abreviado para evitar hacer esto manualmente a través de un [nodo de niveles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Esta máscara es la mejor forma de seleccionar cualquier tipo de borde en funci�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-select.resources/edge-select-02.gif" />
+            <img src="../../../../../../assets/edge-select-ex.gif" />
         </td>
     </tr>
 </table>

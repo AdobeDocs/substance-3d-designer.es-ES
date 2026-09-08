@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Color MLV: icon](mlv-color.resources/mlv-color-01.png "MLV color: icon")
+![Color MLV: icon](../../../../../../assets/MLV_Color_Icon.png "MLV color: icon")
 
 <b>En:</b> Filtros > Desenfoques
 
@@ -79,11 +79,11 @@ El filtro encuentra áreas de estructuración en una imagen y las utiliza para e
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/mlv-color-02.png" alt="MLV_Variant4A">
+      <img src="../../../../../../assets/MLV_Variant4A.png" alt="MLV_Variant4A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="mlv-color.resources/mlv-color-03.png" alt="MLV_Variant4B">
+      <img src="../../../../../../assets/MLV_Variant4B.png" alt="MLV_Variant4B">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ El filtro encuentra áreas de estructuración en una imagen y las utiliza para e
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/mlv-color-04.png" alt="MLV_Variant5A">
+      <img src="../../../../../../assets/MLV_Variant5A.png" alt="MLV_Variant5A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="mlv-color.resources/mlv-color-05.png" alt="MLV_Variant5B">
+      <img src="../../../../../../assets/MLV_Variant5B.png" alt="MLV_Variant5B">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ El filtro encuentra áreas de estructuración en una imagen y las utiliza para e
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/mlv-color-06.png" alt="MLV_Variant3A">
+      <img src="../../../../../../assets/MLV_Variant3A.png" alt="MLV_Variant3A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="mlv-color.resources/mlv-color-07.png" alt="MLV_Variant3B">
+      <img src="../../../../../../assets/MLV_Variant3B.png" alt="MLV_Variant3B">
       <br><i>Después De</i>
     </td>
   </tr>

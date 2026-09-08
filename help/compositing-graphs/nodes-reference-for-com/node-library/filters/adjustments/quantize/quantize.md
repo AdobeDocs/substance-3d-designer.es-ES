@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cuantificar color (simple)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](quantize.resources/quantize-01.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](../../../../../../assets/quantize.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 

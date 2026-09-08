@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Checker 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](checker-1.resources/checker-1-01.png){width="128px"}
+![](../../../../../../assets/checker-1-1.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -56,7 +56,7 @@ Es un patrón útil para los casos de prueba, debido a su evidente contraste y a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="checker-1.resources/checker-1-02.gif" />
+            <img src="../../../../../../assets/checker-1-ex.gif" />
         </td>
     </tr>
 </table>

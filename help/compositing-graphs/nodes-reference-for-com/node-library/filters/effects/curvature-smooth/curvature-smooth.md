@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curvatura suave
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo suave de curvatura](curvature-smooth.resources/curvature-smooth-01.png "Icono de nodo suave de curvatura"){width="200px"}
+![Icono de nodo suave de curvatura](../../../../../../assets/CurvatureSmooth.png "Icono de nodo suave de curvatura"){width="200px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -79,11 +79,11 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-02.jpg" alt="curvature_smooth_example_1_before">
+      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-03.jpg" alt="curvature_smooth_example_1_after">
+      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Ejemplo 2](curvature-smooth.resources/curvature-smooth-04.jpg "Suavizado de curvatura: Ejemplo 2"){zoomable="yes"}
+![Curvatura suave: Ejemplo 2](../../../../../../assets/curvature_smooth_example_2.jpg "Suavizado de curvatura: Ejemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Ejemplo 3](curvature-smooth.resources/curvature-smooth-05.jpg "Suavizado de curvatura: Ejemplo 3"){zoomable="yes"}
+![Curvatura suave: Ejemplo 3](../../../../../../assets/curvature_smooth_example_3.jpg "Suavizado de curvatura: Ejemplo 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-06.jpg" alt="curvature_smooth_example_4_before">
+      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-07.jpg" alt="curvature_smooth_example_4_after">
+      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Ejemplo 4](curvature-smooth.resources/curvature-smooth-08.jpg "Suavizado de curvatura: Ejemplo 4"){zoomable="yes"}
+![Curvatura suave: Ejemplo 4](../../../../../../assets/curvature_smooth_example_5.jpg "Suavizado de curvatura: Ejemplo 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Ejemplo 5](curvature-smooth.resources/curvature-smooth-09.jpg "Suavizado de curvatura: Ejemplo 5"){zoomable="yes"}
+![Curvatura suave: Ejemplo 5](../../../../../../assets/curvature_smooth_example_6.jpg "Suavizado de curvatura: Ejemplo 5"){zoomable="yes"}
 
 </td>
 </tr>

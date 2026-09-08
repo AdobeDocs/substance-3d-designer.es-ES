@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Óxido de suciedad bien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-rust-fine.resources/grunge-rust-fine-01.jpg){width="200px"}
+![](../../../../../../assets/grungerustfine.jpg){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -46,7 +46,7 @@ El nodo **Óxido de Suciedades Fine** genera un mapa de suciedades similar a una
 |  |  |
 |:---|:---|
 | <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
@@ -61,10 +61,10 @@ El nodo **Óxido de Suciedades Fine** genera un mapa de suciedades similar a una
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grunge-rust-fine-02.jpg" />
+            <img src="../../../../../../assets/grungerustfine-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grunge-rust-fine-03.jpg" />
+            <img src="../../../../../../assets/grungerustfine-variant.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de suciedades 014
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-014.resources/grunge-map-014-01.png){width="128px"}
+![](../../../../../../assets/grungemap-014.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -56,7 +56,7 @@ Esto genera un mapa de ruido complejo y combinado. Puede ser muy útil como proc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-014.resources/grunge-map-014-02.gif" />
+            <img src="../../../../../../assets/grungemap-014-ex.gif" />
         </td>
     </tr>
 </table>

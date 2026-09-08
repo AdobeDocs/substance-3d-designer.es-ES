@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusión de varios materiales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-material-blend.resources/multi-material-blend-01.png){width="128px"}
+![](../../../../../../assets/multi-material-blend.png){width="128px"}
 
 <b>En:</b> Filtros de material > Fusión
 
@@ -59,7 +59,7 @@ Tenga en cuenta que cuando se utiliza este material, el material 1, Ranura 1 es 
 |  |  |
 |:---|:---|
 | <b>Materiales</b> <i>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16</i> | Define la cantidad máxima de diferentes materiales que se deben fusionar. |
-| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad. |
 | <b>Material 2-16</b> | Aparece un grupo para cada material activado. |
 | <b>Color</b> <i>(Valor de color)</i> | Color que se debe seleccionar en el mapa de ID que coincide con esta ranura de material. |
 | <b>Rugosidad</b> <i>0.01 - 1.0</i> | Sangra en los colores vecinos. |

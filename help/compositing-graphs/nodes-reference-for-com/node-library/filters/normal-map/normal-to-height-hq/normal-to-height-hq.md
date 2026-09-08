@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normal Al Height HQ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-to-height-hq.resources/normal-to-height-hq-01.png){width="128px"}
+![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
 
 <b>En:</b> Filtros > Mapa de normales
 
@@ -58,7 +58,7 @@ Nodo de conversión inversa que intenta volver a convertir un mapa normal de esp
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="normal-to-height-hq.resources/normal-to-height-hq-02.png" />
+            <img src="../../../../../../assets/normal2height-hq-ex.png" />
         </td>
     </tr>
 </table>

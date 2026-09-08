@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ver paleta de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](view-color-palette.resources/view-color-palette-01.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](../../../../../../assets/ViewColorPalette.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Descripción
 
-Empaqueta una paleta de colores en un cuadrado o un rectángulo para visualizarla más fácilmente en la vista de gráficos o en el vista 2D.\
+Empaqueta una paleta de colores en un cuadrado o rectángulo para visualizarla más fácilmente en la vista de gráficos o la vista 2D.\
 El empaquetado tiene por objeto dejar el menor número posible de espacios vacíos.
 
 </td>
@@ -67,12 +67,12 @@ Este nodo se puede utilizar para visualizar las paletas producidas por los sigui
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ver paleta de colores: Ejemplo 1](view-color-palette.resources/view-color-palette-02.png "Ver paleta de colores: Ejemplo 1"){zoomable="yes"}
+![Ver paleta de colores: Ejemplo 1](../../../../../../assets/view_color_palette_example_1.png "Ver paleta de colores: Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ver paleta de colores: Ejemplo 2](view-color-palette.resources/view-color-palette-03.png "Ver paleta de colores: Ejemplo 2"){zoomable="yes"}
+![Ver paleta de colores: Ejemplo 2](../../../../../../assets/view_color_palette_example_2.png "Ver paleta de colores: Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Este nodo se puede utilizar para visualizar las paletas producidas por los sigui
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ver paleta de colores: Ejemplo 3](view-color-palette.resources/view-color-palette-04.png "Ver paleta de colores: Ejemplo 3"){zoomable="yes"}
+![Ver paleta de colores: Ejemplo 3](../../../../../../assets/view_color_palette_example_3.png "Ver paleta de colores: Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ver paleta de colores: Ejemplo 4](view-color-palette.resources/view-color-palette-05.png "Ver paleta de colores: Ejemplo 4"){zoomable="yes"}
+![Ver paleta de colores: Ejemplo 4](../../../../../../assets/view_color_palette_example_4.png "Ver paleta de colores: Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

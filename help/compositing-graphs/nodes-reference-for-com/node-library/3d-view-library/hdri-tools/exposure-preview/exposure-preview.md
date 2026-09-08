@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Previsualización de exposición
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](exposure-preview.resources/exposure-preview-01.png){width="200px"}
+![](../../../../../../assets/hdr-exposure-preview.png){width="200px"}
 
 <b>En:</b> Vista 3D > Herramientas HDRI
 
@@ -53,7 +53,7 @@ Nodo auxiliar para previsualizar los pasos de exposición. El usuario establece 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="exposure-preview.resources/exposure-preview-02.png" />
+            <img src="../../../../../../assets/exp-preview-ex.png" />
         </td>
     </tr>
 </table>

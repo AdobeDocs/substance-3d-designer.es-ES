@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELDAS 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Celdas 4 - Icono](cells-4.resources/cells-4-01.png "Celdas 4 - Icono"){width="200px"}
+![Celdas 4 - Icono](../../../../../../assets/cells_4.png "Celdas 4 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -78,12 +78,12 @@ Consulte también: [Celdas 1](../../../../../../compositing-graphs/nodes-referen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celdas 4 - Ejemplo 1](cells-4.resources/cells-4-02.png "Celdas 4 - Ejemplo 1"){zoomable="yes"}
+![Celdas 4 - Ejemplo 1](../../../../../../assets/cells_4_1.png "Celdas 4 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celdas 4 - Ejemplo 2](cells-4.resources/cells-4-03.gif "Celdas 4 - Ejemplo 2"){zoomable="yes"}
+![Celdas 4 - Ejemplo 2](../../../../../../assets/noise_cells_4_v2_speed0.3_aniso0.6.gif "Celdas 4 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

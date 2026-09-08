@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RUIDO DIRECCIONAL 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruido direccional 3 - Icono](directional-noise-3.resources/directional-noise-3-01.png "Ruido direccional 3 - Icono"){width="200px"}
+![Ruido direccional 3 - Icono](../../../../../../assets/directional_noise_3.png "Ruido direccional 3 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -71,12 +71,12 @@ Consulte también: [Ruido direccional 1](../../../../../../compositing-graphs/no
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruido direccional 3 - Ejemplo 1](directional-noise-3.resources/directional-noise-3-02.png "Ruido direccional 3 - Ejemplo 1"){zoomable="yes"}
+![Ruido direccional 3 - Ejemplo 1](../../../../../../assets/directional_noise_3_1.png "Ruido direccional 3 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruido direccional 3 - Ejemplo 2](directional-noise-3.resources/directional-noise-3-03.gif "Ruido direccional 3 - Ejemplo 2"){zoomable="yes"}
+![Ruido direccional 3 - Ejemplo 2](../../../../../../assets/noise_directional_noise_3_v2_speed0.6_aniso0.gif "Ruido direccional 3 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Consulte también: [Ruido direccional 1](../../../../../../compositing-graphs/no
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruido direccional 3 - Ejemplo 3](directional-noise-3.resources/directional-noise-3-04.gif "Ruido direccional 3 - Ejemplo 3"){zoomable="yes"}
+![Ruido direccional 3 - Ejemplo 3](../../../../../../assets/noise_directional_noise_3_v2_speed0.6_aniso1.gif "Ruido direccional 3 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruido direccional 3 - Ejemplo 4](directional-noise-3.resources/directional-noise-3-05.gif "Ruido direccional 3 - Ejemplo 4"){zoomable="yes"}
+![Ruido direccional 3 - Ejemplo 4](../../../../../../assets/noise_directional_noise_3_v2_speed0.3_aniso0.6.gif "Ruido direccional 3 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

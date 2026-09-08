@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Deformación de trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](paths-warp.resources/paths-warp-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/paths-warp-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -74,11 +74,11 @@ Deforme las rutas de entrada según la <b>Entrada de degradado</b>. (Mismo efect
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="paths-warp.resources/paths-warp-03.jpg" alt="PathsWarp-Variant1-After">
+      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ Deforme las rutas de entrada según la <b>Entrada de degradado</b>. (Mismo efect
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="paths-warp.resources/paths-warp-04.jpg" alt="PathsWarp-Variant2-After">
+      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ Deforme las rutas de entrada según la <b>Entrada de degradado</b>. (Mismo efect
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](paths-warp.resources/paths-warp-05.gif "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](../../../../../../assets/PathsWarp-Demo1.gif "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">

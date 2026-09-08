@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformación segura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](safe-transform.resources/safe-transform-01.png)
+![](../../../../../../assets/safe-transform.png)
 
-![](safe-transform.resources/safe-transform-02.png)
+![](../../../../../../assets/safe-transform-grayscale.png)
 
 <b>En:</b> Filtros > Transforma
 

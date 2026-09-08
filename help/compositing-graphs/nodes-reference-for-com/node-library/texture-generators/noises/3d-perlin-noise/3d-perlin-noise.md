@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruido de Perlin en 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-perlin-noise.resources/3d-perlin-noise-01.png){width="200px"}
+![](../../../../../../assets/3dperlinnoise.png){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -67,13 +67,13 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-02.gif" />
+            <img src="../../../../../../assets/3dperlin.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-03.jpg" />
+            <img src="../../../../../../assets/3dperlinnoise-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-04.jpg" />
+            <img src="../../../../../../assets/3dperlinnoise-variant.jpg" />
         </td>
     </tr>
 </table>

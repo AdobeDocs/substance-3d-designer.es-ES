@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de vértices de trazados simple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/paths-vertex-processor-simple-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -87,7 +87,7 @@ También puede tener acceso a las variables *vertex.corner* (bool) y *path.id* (
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Ejemplo de nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">

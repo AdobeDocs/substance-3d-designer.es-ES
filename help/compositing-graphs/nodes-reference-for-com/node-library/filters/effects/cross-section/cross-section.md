@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sección transversal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icono de nodo ![&#39;Sección cruzada&#39;](cross-section.resources/cross-section-01.png "&#39;Sección cruzada&#39; icono de nodo"){width="200px"}
+Icono de nodo ![&#39;Sección cruzada&#39;](../../../../../../assets/cross-section-2.png "&#39;Sección cruzada&#39; icono de nodo"){width="200px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -69,10 +69,10 @@ También se puede utilizar para crear formas y siluetas 2D difíciles de consegu
 
 ## Ejemplos
 
-![Sección transversal: ejemplo 1](cross-section.resources/cross-section-02.gif "Corte transversal: ejemplo 1")
+![Sección transversal: ejemplo 1](../../../../../../assets/cross-section-example-01.gif "Corte transversal: ejemplo 1")
 
-![Sección transversal: ejemplo 2](cross-section.resources/cross-section-03.gif "Corte transversal: ejemplo 2")
+![Sección transversal: ejemplo 2](../../../../../../assets/cross-section-example-02.gif "Corte transversal: ejemplo 2")
 
-![Sección transversal: ejemplo 3](cross-section.resources/cross-section-04.png "Corte transversal: ejemplo 3")
+![Sección transversal: ejemplo 3](../../../../../../assets/cross-section-example-03.png "Corte transversal: ejemplo 3")
 
-![Sección transversal: ejemplo 4](cross-section.resources/cross-section-05.png "Corte transversal: ejemplo 4")
+![Sección transversal: ejemplo 4](../../../../../../assets/cross-section-example-04.png "Corte transversal: ejemplo 4")

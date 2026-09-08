@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selector de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-selector.resources/material-selector-01.png){width="128px"}
+![](../../../../../../assets/material-selector.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Utilidades
 
@@ -59,7 +59,7 @@ Esto es útil si no desea usar [Fusión de varios materiales](../../../../../../
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-selector.resources/material-selector-02.png" />
+            <img src="../../../../../../assets/matselector-ex.png" />
         </td>
     </tr>
 </table>

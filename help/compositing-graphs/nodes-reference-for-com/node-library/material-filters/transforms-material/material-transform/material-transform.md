@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformación de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-transform.resources/material-transform-01.png){width="128px"}
+![](../../../../../../assets/material-transforms.png){width="128px"}
 
 <b>En:</b> Filtros de material > Transforma
 

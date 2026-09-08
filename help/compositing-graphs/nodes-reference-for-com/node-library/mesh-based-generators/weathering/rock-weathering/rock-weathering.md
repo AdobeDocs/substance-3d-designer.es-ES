@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Meteorización de rocas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rock-weathering.resources/rock-weathering-01.png){width="128px"}
+![](../../../../../../assets/rock-weathering.png){width="128px"}
 
 <b>En:</b> Generadores Basados En Malla > Meteorización
 
@@ -72,11 +72,11 @@ ht-degree: 16%
 | <b>Desaturación de roca usada</b> <i>0.0 - 1.0</i> |  |
 | <b>Brillo de roca usado</b> <i>0.0 - 1.0</i> |  |
 | <b>Fusión</b> |  |
-| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la difusión. |
-| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Intensidad de fusión del color base. |
+| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Difuso. |
+| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Fusión del Color base. |
 | <b>Intensidad normal</b> <i>0.0 - 64.0</i> | Intensidad de fusión de la Normal. |
 | <b>Intensidad del Specular</b> <i>0.0 - 1.0</i> | Fusión del Specular. |
-| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Brillo. |
+| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fusión del Brillo. |
 | <b>Intensidad de rugosidad</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la rugosidad. |
 | <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiente. |
 | <b>Intensidad de Height</b> <i>0.0 - 1.0</i> | Fusión del Height. |
@@ -86,7 +86,7 @@ ht-degree: 16%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rock-weathering.resources/rock-weathering-02.gif" />
+            <img src="../../../../../../assets/rock-ex.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desenfoque de pendiente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](slope-blur.resources/slope-blur-01.png){width="128px"}
+![](../../../../../../assets/slope-blur.png){width="128px"}
 
-![](slope-blur.resources/slope-blur-02.png){width="128px"}
+![](../../../../../../assets/slope-blur-grayscale.png){width="128px"}
 
 <b>En:</b> Filtros > Desenfoques
 
@@ -68,10 +68,10 @@ Importante: asegúrese de utilizar la versión adecuada para su entrada! Utiliza
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slope-blur-03.gif" />
+            <img src="../../../../../../assets/slopeblur01.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slope-blur-04.gif" />
+            <img src="../../../../../../assets/slopeblur02.gif" />
         </td>
     </tr>
 </table>

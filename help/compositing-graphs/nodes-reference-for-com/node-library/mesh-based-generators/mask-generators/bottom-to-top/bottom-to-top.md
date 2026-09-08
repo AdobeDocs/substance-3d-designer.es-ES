@@ -10,7 +10,7 @@ helpx_tags: ""
 title: De abajo arriba
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bottom-to-top.resources/bottom-to-top-01.png){width="128px"}
+![](../../../../../../assets/bottom-to-top.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Generadores de máscaras
 
@@ -66,7 +66,7 @@ Esto genera una transición de blanco a negro desde la parte inferior a la super
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bottom-to-top.resources/bottom-to-top-02.gif" />
+            <img src="../../../../../../assets/bottom-to-top-ex.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SUMA FRACTAL 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Suma fractal 2 - Icono](fractal-sum-2.resources/fractal-sum-2-01.png "Suma fractal 2 - Icono"){width="200px"}
+![Suma fractal 2 - Icono](../../../../../../assets/fractal_sum_2.png "Suma fractal 2 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -65,12 +65,12 @@ Consulte también: [base de Sumas fractal](../../../../../../compositing-graphs/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Suma fractal 2 - Ejemplo 1](fractal-sum-2.resources/fractal-sum-2-02.png "Suma fractal 2 - Ejemplo 1"){zoomable="yes"}
+![Suma fractal 2 - Ejemplo 1](../../../../../../assets/fractal_sum_2_1.png "Suma fractal 2 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Suma fractal 2 - Ejemplo 2](fractal-sum-2.resources/fractal-sum-2-03.gif "Suma fractal 2 - Ejemplo 2"){zoomable="yes"}
+![Suma fractal 2 - Ejemplo 2](../../../../../../assets/noise_fractal_sum_2_v2_speed0.6_aniso0.gif "Suma fractal 2 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
