@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Aprenda a crear gráficas de composición de Substance en Substance 3D Designer para crear flujos de trabajo de texturas procedimentales.
 helpx_creative_field: ""
