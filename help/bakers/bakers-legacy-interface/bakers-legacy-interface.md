@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la interfaz heredada de Substance 3D Designer baker para usuarios familiarizados con las versiones anteriores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Interfaz heredada de Baker
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -24,25 +24,25 @@ Esta es la descripción de la interfaz de baker disponible en [Adobe Substance 3
 
 ## Información general
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-01.png)
+![](../../assets/image2017-3-13-9-33-40.png)
 
 El panel baker se divide en 4 partes:
 
 ### 1: Escena
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-02.png)
+![](../../assets/image2017-3-13-9-35-53.png)
 
 Permite definir qué parte de la malla está implicada en el proceso de hacer un bake.
 
 Nuevo en la versión 6, también puede seleccionar por material:
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-03.png)
+![](../../assets/image2017-3-13-9-45-26.png)
 
 ### 2: Bakeres
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-04.png)
+![](../../assets/image2017-3-13-9-46-26.png)
 
-Pulsando el botón ![](bakers-legacy-interface.resources/bakers-legacy-interface-05.png), puede agregar los bakeres deseados a la lista de procesamiento
+Pulsando el botón ![](../../assets/image2017-3-13-9-47-47.png), puede agregar los bakeres deseados a la lista de procesamiento
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ Pulsando el botón ![](bakers-legacy-interface.resources/bakers-legacy-interface
 
 Al hacer clic en el signo &quot;+&quot; en el diseño de bakeres, puede añadir los bakeres en una pila (puede colocar tantos bakeres como desee en una pila).
 
-.![](bakers-legacy-interface.resources/bakers-legacy-interface-06.png)
+.![](../../assets/image2017-3-13-9-52-8.png)
 
-Puede quitar un proceso de hacer un bake de la lista presionando ![](bakers-legacy-interface.resources/bakers-legacy-interface-07.png)
+Puede quitar un proceso de hacer un bake de la lista presionando ![](../../assets/image2017-3-13-9-54-33.png)
 
-Puede reordenar la lista de procesos de hacer un bake seleccionando un proceso de hacer un bake y utilizando ![](bakers-legacy-interface.resources/bakers-legacy-interface-08.png)
+Puede reordenar la lista de procesos de hacer un bake seleccionando un proceso de hacer un bake y utilizando ![](../../assets/image2017-3-13-9-55-33.png)
 
 ### 3: Parámetros de bakeres
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-09.png)
+![](../../assets/image2017-3-13-13-24-0.png)
 
 Esta sección muestra las opciones específicas del baker seleccionado actualmente.
 
 ### 4: Parámetros comunes
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-10.png)
+![](../../assets/image2017-3-13-13-28-12.png)
 
 Muestra los parámetros compartidos entre bakeres.
 
@@ -82,4 +82,4 @@ Al pulsar el botón Aceptar en la parte inferior derecha de la ventana bakeres, 
 
 Novedad en la versión 6: ahora puede cancelar el proceso de hacer un bake con el botón cancelar:
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-11.png)
+![](../../assets/image2017-3-13-13-50-4.png)

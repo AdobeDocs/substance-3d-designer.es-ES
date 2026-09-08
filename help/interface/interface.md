@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la interfaz del espacio de trabajo de Substance 3D Designer, incluidas las vistas, los paneles y las opciones de personalización.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Workspace
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ El área de trabajo se divide en áreas separadas llamadas <b>muelles</b>, que s
 
 El diseño de conexión predeterminado de Designer es el siguiente:
 
-![Ventana principal de Substance 3D Designer](interface.resources/interface-01.jpg "Ventana principal de Substance 3D Designer")
+![Ventana principal de Substance 3D Designer](../assets/interface-overview.jpg "Ventana principal de Substance 3D Designer")
 
 <table>
 <tr style="border: 0;">
@@ -73,7 +73,7 @@ La barra de herramientas principal te permite acceder a menús adicionales, como
 </td>
 <td style="border: 0;" valign="top">
 
-![Menú principal y barra de herramientas](interface.resources/interface-02.png "Menú principal y barra de herramientas")
+![Menú principal y barra de herramientas](../assets/mainmenu-1.png "Menú principal y barra de herramientas")
 
 </td>
 </tr>
@@ -89,34 +89,34 @@ La barra de herramientas principal te permite acceder a menús adicionales, como
 
 [La ventana del explorador](the-explorer-window/the-explorer-window.md) es la forma principal de interactuar con cualquier tipo de archivo y recurso. Ofrece más opciones que el menú Archivo de la barra de herramientas principal Aquí es donde se inician y terminan todas las sesiones de trabajo.
 
-![Explorador](interface.resources/interface-03.png "Explorador")
+![Explorador](../assets/explorer-4.png "Explorador")
 
 ## Vista de gráfico
 
 [El conjunto acoplado de la vista de gráfico](../interface/the-graph-view/the-graph-view.md) es la ventana más importante de Substance 3D Designer. Muestra las redes nodales de cualquier tipo de gráfica disponible en Designer ([gráficas de Substance](../compositing-graphs/substance-compositing-graphs.md), [gráficas de funciones de Substance](../function-graphs/function-graphs.md), [gráficas FX-Map](../function-graphs/fxmaps/fxmaps.md)) y le permite crearlas y editarlas.
 
-![Vista de gráfico](interface.resources/interface-04.png "Vista de gráfico")
+![Vista de gráfico](../assets/graph-6.png "Vista de gráfico")
 
 ## Propiedades
 
 [Properties dock](properties/properties.md) es la ventana más técnica. Siempre es sensible al contexto y presentará reguladores, menús desplegables y otros elementos que cambian el comportamiento de un recurso o nodo seleccionado.
 
-![Propiedades](interface.resources/interface-05.jpg "Propiedades")
+![Propiedades](../assets/properties-15.jpg "Propiedades")
 
 ## Vista 2D
 
 [La vista 2D](../interface/2d-view/2d-view.md) es la herramienta de previsualización más sencilla. Trabaja en estrecha colaboración con el Gráfico: al hacer doble clic en cualquier nodo de la vista de gráficos, el resultado visual se mostrará en la vista 2D.
 
-![Vista 2D](interface.resources/interface-06.jpg "Vista 2D")
+![Vista 2D](../assets/2d-view-1.jpg "Vista 2D")
 
 ## Vista 3D
 
 [La vista 3D](../interface/3d-view/3d-view.md) es la ventana de vista previa más interactiva y avanzada. A diferencia de la vista 2D, utiliza varios mapas de salida diferentes para procesar un material completo. Esto significa que verá todos los canales representados, como Color base, Normal y Rugosidad.
 
-![Vista 3D](interface.resources/interface-07.jpg "Vista 3D")
+![Vista 3D](../assets/3dview-3.jpg "Vista 3D")
 
 ## Biblioteca
 
-[El dock de la biblioteca](../interface/the-library/the-library.md) proporciona acceso a todo el contenido incluido en la biblioteca de Designer de forma predeterminada, así como a tu [contenido personalizado](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
+[El dock de la biblioteca](../interface/the-library/the-library.md) proporciona acceso a todo el contenido incluido en la biblioteca de Designer de forma predeterminada, así como a tu [contenido personalizado](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Para comprender mejor la diferencia entre los nodos atómicos y los nodos de instancia de la biblioteca, asegúrese de leer [Información general sobre nodos](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
 
-![Biblioteca](interface.resources/interface-08.jpg "Biblioteca")
+![Biblioteca](../assets/library-3.jpg "Biblioteca")

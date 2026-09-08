@@ -1,11 +1,11 @@
 ---
 name: write-experience-league-markdown
 description: ""
-Source: https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
+Source: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 6%
+source-wordcount: '628'
+ht-degree: 5%
 
 ---
 
@@ -62,13 +62,11 @@ etiqueta, p. ej. `Getting started{#getting-started}`.
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * Se admiten parámetros de consulta de tamaño y optimización opcionales:
-  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
 * **El texto alternativo no debe contener guiones bajos**; no se representan correctamente;
 en su lugar, utilice guiones o espacios.
-* Las imágenes específicas de la página se encuentran en una carpeta del mismo nivel `<page-name>.resources/`
-junto a `.md`, referenciado relativamente (p. ej.
-  `<page-name>.resources/image.png`). `help/assets/` es un legado compartido
-  carpeta — no agregue imágenes nuevas allí (vea CLAUDE.md).
+* Las imágenes específicas de la página están activas en `<page-name>.resources/`; iconos compartidos/de aplicaciones
+vivo en `help/assets/` (vea CLAUDE.md).
 
 ## Tablas
 
@@ -93,7 +91,7 @@ que inventar un nuevo HTML en línea a menos que sea necesario.
 
 * Código en línea: un solo tic.
 * Bloques cercados: triplicar las marcas, con un lenguaje opcional para la sintaxis
-resaltando (` `&#x200B;``python `, ` ``&#x200B;`javascript `, etc.).
+resaltando (` ```python `, ` ```javascript `, etc.).
 
 ## Nota / bloques de alerta
 

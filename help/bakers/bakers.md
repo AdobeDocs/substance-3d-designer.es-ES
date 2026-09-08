@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Aprenda a usar los panaderos de Substance 3D Designer para calcular información basada en malla en archivos de textura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bakers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -24,24 +24,24 @@ Horneado se refiere a la acción de **transferir información basada en malla a 
 
 >[!NOTE]
 >
-> Para obtener más información sobre el horneado, consulta la [Documentación de horneado](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/home).
+> Para obtener más información sobre el horneado, consulta la [Documentación de horneado](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Se puede tener acceso a la ventana para hornear a través del archivo de malla en la ventana del [Explorador](../interface/the-explorer-window/the-explorer-window.md). Haga clic con el botón derecho en el nombre de la malla y elija &quot;**Hacer un bake información del modelo**&quot; para abrir la ventana de hacer un bake.
+Se puede tener acceso a la ventana para hornear a través del archivo de malla en la ventana del [Explorador](../interface/the-explorer-window/the-explorer-window.md). Haga clic con el botón derecho en el nombre de la malla y elija &quot;**Información del modelo de horno**&quot; para abrir la ventana de horno.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-Opción ![&#39;Información de modo de cocción&#39; en el menú contextual del recurso de escena 3D](bakers.resources/bakers-01.png "&#39;Información de modo de cocción&#39; en el menú contextual del recurso de escena 3D")
+Opción ![&#39;Información de modo de cocción&#39; en el menú contextual del recurso de escena 3D](../assets/sd-mesh-right-click.png "&#39;Información de modo de cocción&#39; en el menú contextual del recurso de escena 3D")
 
 </td>
 </tr>
 </table>
 
-![Ventana de horneado](bakers.resources/bakers-02.png "Ventana de horneado")
+![Ventana de horneado](../assets/sd-window-overview.png "Ventana de horneado")
 
 ## Información general
 
@@ -51,7 +51,7 @@ La ventana para hornear de se divide en varios paneles que se describen a contin
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-### Elementos para hacer un bake
+### Elementos para hornear
 
 Este panel controla qué parte de la malla de baja polietileno se utilizará para realizar la cocción.
 
@@ -60,7 +60,7 @@ Enumera la geometría que se encuentra dentro del fichero de malla de baja polim
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/bakers-03.png)
+![](../assets/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Este panel controla dónde se ubicará la textura horneada.
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/bakers-04.png)
+![](../assets/sd-output.png)
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Este panel controla dónde se ubicará la textura horneada.
 
 | *Parámetro* | *Descripción* |
 | --- | --- |
-| **Método** | Controla cómo se almacenarán las texturas horneadas con el paquete de Substance.Valores posibles:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Incrustado</strong> : las texturas hechas un bake se almacenan en una subcarpeta junto al paquete de Substance con un nombre específico.</li><li data-preserve-html="true"><strong>Vinculado</strong> (predeterminado) : la textura horneada se almacena en la carpeta definida y, a continuación, se hace referencia a ella en el Substance empaquetado.</li></ul> |
+| **Método** | Controla cómo se almacenarán las texturas horneadas con el paquete de Substance.Valores posibles:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Incrustado</strong> : la textura horneada se almacena en una subcarpeta junto al paquete Substance con un nombre específico.</li><li data-preserve-html="true"><strong>Vinculado</strong> (predeterminado) : la textura horneada se almacena en la carpeta definida y, a continuación, se hace referencia a ella en el Substance empaquetado.</li></ul> |
 | **Carpeta** | Ubicación de las texturas horneadas al guardarlas. Haga clic en el botón de tres puntos para abrir un cuadro de diálogo de archivo y elija la carpeta de exportación. Aparecerá una marca de verificación a la derecha para indicar si la carpeta realmente existe o no. |
 | **Nombre** | Convención de nomenclatura de las texturas horneadas. Haga clic en el botón de tres puntos para abrir un menú desplegable e insertar otros marcadores de posición (nombre de fondo, personalizado, material, malla). |
 | **Ejemplo** | Simule un nombre de archivo para probar la convención de nomenclatura. |
@@ -93,15 +93,15 @@ Este panel controla dónde se ubicará la textura horneada.
 
 ### Mallas de alta definición
 
-Este panel controla la lista de mallas de alta densidad y los ajustes relacionados. Consulte los [parámetros comunes](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/bakers-settings/common-parameters) para obtener más información.
+Este panel controla la lista de mallas de alta densidad y los ajustes relacionados. Consulte los [parámetros comunes](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) para obtener más información.
 
-![Mallas de alta definición](bakers.resources/bakers-05.png "Mallas de alta definición")
+![Mallas de alta definición](../assets/sd-high.png "Mallas de alta definición")
 
 ### Valores predeterminados
 
-Consulte los [parámetros comunes](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/bakers-settings/common-parameters) para obtener más información.
+Consulte los [parámetros comunes](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) para obtener más información.
 
-![Valores predeterminados](bakers.resources/bakers-06.png "Valores predeterminados")
+![Valores predeterminados](../assets/sd-default-values.png "Valores predeterminados")
 
 ### Lista de procesamiento y ajustes de Bakers
 
@@ -116,6 +116,6 @@ Cada panadero en el hereda de forma predeterminada los valores predeterminados (
 
 Al hacer clic en un panadero de la lista, la vista Parámetros de panadero se actualizará con sus parámetros específicos.
 
-Para obtener más información sobre los parámetros específicos, consulte: [Configuración de panaderos](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Para obtener más información sobre los parámetros específicos, consulte: [Configuración de panaderos](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
-![Lista de procesamiento de panaderos](bakers.resources/bakers-07.png "Lista de procesamiento de panaderos")
+![Lista de procesamiento de panaderos](../assets/sd-baker-list.png "Lista de procesamiento de panaderos")

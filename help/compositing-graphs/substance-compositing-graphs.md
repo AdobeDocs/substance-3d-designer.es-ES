@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
-description: Obtenga más información sobre la composición gráfica de Substance en Substance 3D Designer para crear texturas de procedimiento y flujos de trabajo de materiales.
+description: Obtenga más información sobre la composición gráfica de Substance en Substance 3D Designer para crear texturas procedimientas y flujos de trabajo de materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gráficos de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](substance-compositing-graphs.resources/substance-compositing-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Los gráficos de Substance son [el tipo de gráfico más ampliamente admitido](.
 A continuación, puede encontrar algunos ejemplos típicos de casos de uso comunes.
 
 +++Forma simple
-![Forma simple en el gráfico del Substance](substance-compositing-graphs.resources/substance-compositing-graphs-02.png "Forma simple en el gráfico del Substance"){width="512px"}
+![Forma simple en el gráfico del Substance](../assets/simpleshape.png "Forma simple en el gráfico del Substance"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ El texto con el número o el thickness del borde se puede exponer externamente p
 +++
 
 +++Filtro de ajuste
-![Filtro de ajuste en el gráfico de Substance](substance-compositing-graphs.resources/substance-compositing-graphs-03.png "Filtro de ajuste en el gráfico de Substance"){width="512px"}
+![Filtro de ajuste en el gráfico de Substance](../assets/simplefilter.png "Filtro de ajuste en el gráfico de Substance"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Los valores de contraste establecidos en el histograma pueden ser expuestos, hac
 +++
 
 +++Material completo
-![Material completo en el gráfico del Substance](substance-compositing-graphs.resources/substance-compositing-graphs-04.png "Material completo en el gráfico del Substance"){width="512px"}
+![Material completo en el gráfico del Substance](../assets/simplematerial.png "Material completo en el gráfico del Substance"){width="512px"}
 
 
 

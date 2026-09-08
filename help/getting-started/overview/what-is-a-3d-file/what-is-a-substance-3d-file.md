@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre los formatos de archivo de Substance 3D y cómo almacenan materiales y texturas procedimientos para su uso en diversas aplicaciones.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ¿Qué es un archivo Substance 3D?
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # ¿Qué es un archivo Substance 3D?
 
-![Material de pared de ladrillo paramétrico](what-is-a-substance-3d-file.resources/what-is-a-substance-3d-file-01.gif "Material de pared de ladrillo paramétrico")
+![Material de pared de ladrillo paramétrico](../../../assets/MaterialsOverview.gif "Material de pared de ladrillo paramétrico")
 
 *Ejemplo de material de pared de ladrillo hecho por Käy Vriend.\
 Los parámetros se pueden cambiar para controlar dinámicamente la apariencia del material.*

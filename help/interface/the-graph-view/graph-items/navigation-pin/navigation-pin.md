@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: Utilice las ubicaciones de navegación en la vista de gráfico para saltar rápidamente entre diferentes ubicaciones en los gráficos de Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pin
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de borde de navegación](navigation-pin.resources/navigation-pin-01.png "Icono de borde de navegación")
+![Icono de borde de navegación](../../../../assets/graphatomic-pin_1.png "Icono de borde de navegación")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ En cualquier tipo de gráfico, al presionar <b>F2</b> se recorren todos los bord
 
 Los bordes se enmarcarán en la ventana gráfica al nivel de zoom actual.
 
-![Posiciones: Saltar a chinchetas](navigation-pin.resources/navigation-pin-02.gif "chinchetas: Saltar a ubicaciones")
+![Posiciones: Saltar a chinchetas](../../../../assets/graph-pin_jumping.gif "chinchetas: Saltar a ubicaciones")

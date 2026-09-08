@@ -1,7 +1,7 @@
 ---
 title: Forma salpicaduras v2
 description: Designer > Gráficos de composición de Substance > Referencia de nodos para gráficos de composición de Substance > Biblioteca de nodos > Generador > Patrón > Forma salpicadura v2
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de salpicadura de formas v2](shape-splatter-v2.resources/shape-splatter-v2-01.png "Salpicadura de formas v2")
+![Icono de salpicadura de formas v2](shape-splatter-v2.resources/shape-splatter-v2.png "Salpicadura de formas v2")
 
 <b>En:</b> Generador > Patrón
 
@@ -142,11 +142,11 @@ Dispersión formas en una superficie de height de fondo con funciones avanzadas 
 | <b>Posicionar multiplicador aleatorio</b> *Float2* | Factores independientes por eje para el desplazamiento aleatorio aplicado a las formas en los ejes XY. |
 | <b>Secuencia de distribución de posiciones</b> *Entero* | Algoritmo utilizado para distribuir las formas uniformemente en el espacio. <br><br>- <b>R2</b>: Basado en la proporción de oro. Es rápido y ofrece distribuciones más uniformes y aparentemente aleatorias independientemente de la cantidad de formas.<br>- <b>Halton</b>: Basado en números primos. Proporciona excelentes resultados para distribuciones dispersas, pero se ralentiza y puede dar lugar a líneas visibles a medida que aumenta la cantidad de formas.<br><br>Estos algoritmos se conocen como <i>quasirandom</i> y <i>low-discrepancy</i>, en el sentido de que siguen una secuencia determinista (quasirandom) destinada a cubrir un espacio de manera uniforme (poca discrepancia). |
 | <b>Multiplicador de Mapa de densidad</b> *Flotador* | Un factor de desplazamiento aplicado a las formas para que se reúnan en las áreas más brillantes del <b>Mapa de densidad</b>. |
-| <b>Desplazamiento normal</b> *Flotante* | Desplaza las formas a lo largo de su eje Z normal, es decir, su eje Z local. |
+| <b>Desplazamiento normal</b> *Flotador* | Desplaza las formas a lo largo de su eje Z normal, es decir, su eje Z local. |
 | <b>Desplazamiento aleatorio normal</b> *Flotador* | Añade una cantidad aleatoria de desplazamiento a las formas a lo largo de su forma normal.<br><br>La cantidad aleatoria puede ser positiva o negativa hasta el valor especificado o hasta su valor negativo. |
-| <b>desplazamiento de mapa vectorial</b> *Flotante* | Factor del desplazamiento aplicado a las formas agregando los valores de RGB en el <b>mapa vectorial</b> a las coordenadas XYZ de la forma respectivamente.<br><br>El desplazamiento se expresa como un factor del lado más largo de la imagen.<br>P.ej. un valor de RGB de (0,5, 0,5, 0) desplaza las formas a la mitad de su tamaño a lo largo de los ejes X e Y.<br><br>Un valor de parámetro de 1,0 significa que se agrega el valor completo. |
+| <b>desplazamiento de mapa vectorial</b> *Flotador* | Factor del desplazamiento aplicado a las formas agregando los valores de RGB en el <b>mapa vectorial</b> a las coordenadas XYZ de la forma respectivamente.<br><br>El desplazamiento se expresa como un factor del lado más largo de la imagen.<br>P.ej. un valor de RGB de (0,5, 0,5, 0) desplaza las formas a la mitad de su tamaño a lo largo de los ejes X e Y.<br><br>Un valor de parámetro de 1,0 significa que se agrega el valor completo. |
 | <b>Multiplicador de desplazamiento vectorial</b> *Float3* | Ajusta el <b>desplazamiento de mapa de vectores</b> por un factor independiente por eje, donde 0.0 significa que no se aplica ningún desplazamiento en ese eje. |
-| <b>Desplazamiento global</b> *Flotante2* | Se aplica un desplazamiento a la posición de cada forma <i>después de</i> cualquier desplazamiento de height, desplazamientos aleatorios y otros desplazamientos.<br><br>Esto significa que al mover las formas con este parámetro no se modificará su posición, orientación ni escala. |
+| <b>Desplazamiento global</b> *Float2* | Se aplica un desplazamiento a la posición de cada forma <i>después de</i> cualquier desplazamiento de height, desplazamientos aleatorios y otros desplazamientos.<br><br>Esto significa que al mover las formas con este parámetro no se modificará su posición, orientación ni escala. |
 | <b>Desplazamiento de posición de línea</b> *Flotador* | Un desplazamiento aplicado a las líneas de formas de la cuadrícula según el modo de desplazamiento de posición de línea <b>Line position offset mode.</b> |
 | <b>Modo de desplazamiento de posición de línea</b> *Entero* | Método para aplicar el <b>desplazamiento de posición de línea</b> a las formas.<br><br>Los métodos <b>All</b> aplican el desplazamiento como factor del lado más largo de la imagen (es decir, en el espacio de textura).<br>- <b>All - Horizontal:</b> Agrega gradualmente el valor de desplazamiento fila por fila horizontalmente, por un factor del índice de fila.<br>- <b>All - Vertical:</b> Agrega gradualmente el valor de desplazamiento columna por columna verticalmente, por un factor del índice de columna.<br><br>Los métodos <b>Quincunx</b> aplican el desplazamiento como un factor del tamaño de celda de las formas.<br>- <b>Quincunx - Horizontal:</b> Agrega el valor de desplazamiento uniformemente cada dos filas.<br>- <b>Quincunx - Vertical:</b> Agrega el valor de desplazamiento uniformemente cada dos columnas. |
 | <b>Posición de pivote (local)</b> *Float3* | Ajusta la posición del giro en el espacio local de la forma, lo que afecta al origen de las transformaciones. (Es decir, desplazamiento de posición, rotación y escala)<br><br>Por ejemplo, ajuste la posición de pivote Z para que las formas giren alrededor de su base. |
@@ -174,29 +174,29 @@ Dispersión formas en una superficie de height de fondo con funciones avanzadas 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-02.gif" /><br><i>Distribución de Poisson</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Distribución de Poisson</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-03.gif" /><br><i>Distribución uniforme</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Distribución uniforme</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-04.gif" /><br><i>Mapa de densidad</i>
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-05.gif" /><br><i>Rotación 3D aleatoria</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-06.gif" /><br><i>Rotación de Pendiente</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-07.gif" /><br><i>Extrusión de formas</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Mapa de densidad</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-08.jpg" /><br><i>Formas 3D SDF</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Rotación 3D aleatoria</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Rotación de Pendiente</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Extrusión de formas</i>
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>Formas 3D SDF</i>
         </td>
         <td style="border: 0; background: transparent">
         </td>

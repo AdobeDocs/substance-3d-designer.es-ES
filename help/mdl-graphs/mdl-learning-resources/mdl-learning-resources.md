@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Recursos de aprendizaje MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -70,7 +70,7 @@ El material de revestimiento transparente metálico que se describe en este tuto
 </td>
 <td style="border: 0;" valign="top">
 
-[![Material de malaquita MDL](mdl-learning-resources.resources/mdl-learning-resources-01.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![Material de malaquita MDL](../../assets/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *Haga clic en la imagen para acceder al tutorial*
 

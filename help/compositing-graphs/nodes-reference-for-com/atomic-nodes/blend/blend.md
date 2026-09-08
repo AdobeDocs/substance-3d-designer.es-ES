@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fusión para fusionar dos texturas mediante distintos modos de fusión para crear efectos compuestos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusión
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Fusionar](blend.resources/blend-01.png "nodo atómico: Fusionar"){width="200px"}
+![Nodo atómico: Fusión](../../../../assets/comp_blend_1.png "Nodo atómico: Fusión"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,11 +37,11 @@ Es el nodo más útil de todos los nodos atómicos, casi cualquier gráfico que 
 </tr>
 </table>
 
-Su funcionalidad es similar a tener dos capas una encima de la otra en [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mezclan por el modo de fusión establecido en la capa superior.
+Su funcionalidad es similar a tener dos capas una encima de la otra en [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mezclan por el modo de fusión establecido en la capa superior.
 
 >[!TIP]
 >
-> Obtenga información sobre los modos de fusión disponibles en el nodo Fusión en [esta página dedicada](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
+> Obtenga información sobre los modos de fusión disponibles en el nodo de Fusión en [esta página dedicada](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
 
 <table>
 <tr style="border: 0;">
@@ -82,10 +82,10 @@ Su funcionalidad es similar a tener dos capas una encima de la otra en [Substanc
 
 |  |  |
 | --- | --- |
-| <b>Opacidad</b> *Flotador* | Opacidad de la capa frontal que se fusiona con el fondo. Funciona independientemente de la entrada Opacidad y actúa como un multiplicador adicional a la misma. |
+| <b>Opacidad</b> *Flotante* | Opacidad de la capa frontal que se fusiona con el fondo. Funciona independientemente de la entrada Opacidad y actúa como un multiplicador adicional a la misma. |
 | <b>Modo de fusión</b> *Entero* [Estático](../../../../glossary/glossary.md) | Define la operación de fusión que se va a utilizar.   Consulte la [página dedicada sobre los modos de fusión](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
-| <b>Fusión de Alpha</b> *Entero* [Estático](../../../../glossary/glossary.md) | Determina el comportamiento de fusión cuando las entradas de color tienen canales de Alpha:<ul data-preserve-html="true"> <li data-preserve-html="true">Utilizar alfa de origen</li> <li data-preserve-html="true">Ignorar alfa</li> <li data-preserve-html="true">Fusión de alfa recto</li> <li data-preserve-html="true">Mezcla alfa premultiplicada</li> </ul> |
-| <b>Área de recorte</b> *Float4* [Static](../../../../glossary/glossary.md) | Permite definir una región de recorte personalizada que se comporte como una máscara de opacidad adicional. Cualquier área recortada muestra solo el fondo. |
+| <b>Mezcla alfa</b> *Entero* [Estático](../../../../glossary/glossary.md) | Determina el comportamiento de fusión cuando las entradas de color tienen canales alfa:<ul data-preserve-html="true"> <li data-preserve-html="true">Utilizar alfa de origen</li> <li data-preserve-html="true">Ignorar alfa</li> <li data-preserve-html="true">Fusión de alfa recto</li> <li data-preserve-html="true">Mezcla alfa premultiplicada</li> </ul> |
+| <b>Área de recorte</b> *Flotante4* [Estático](../../../../glossary/glossary.md) | Permite definir una región de recorte personalizada que se comporte como una máscara de opacidad adicional. Cualquier área recortada muestra solo el fondo. |
 
 ## Conectores de entrada
 

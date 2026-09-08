@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Configure los ajustes de control de versiones en las preferencias de Substance 3D Designer para integrarlos con Git y otros sistemas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Control de versiones
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -34,7 +34,7 @@ La integración agrega un submenú personalizado &#39;Control de versiones&#39; 
 
 En [P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v), anote el nombre y la ruta del área de trabajo, como se muestra a continuación:
 
-![Información del área de trabajo P4V](version-control.resources/version-control-01.jpg "Información del área de trabajo P4V"){zoomable="yes"}
+![Información del área de trabajo P4V](../../../assets/p4v-workspace-strings.jpg "Información del área de trabajo P4V"){zoomable="yes"}
 
 En cualquier editor de texto o IDE, abra esta secuencia de comandos ubicada en la instalación de Designer: &#39;*tools/version\_control/perforce.py*&#39;.
 
@@ -54,7 +54,7 @@ cVerbose = False
 
 El control de versiones está configurado en [Configuración del proyecto](../../../interface/preferences-window/project-settings/project-settings.md), que están disponibles en [Preferencias](../../../interface/preferences-window/preferences-window.md) de Designer.
 
-Ficha ![&#39;Control de versiones&#39; en la configuración del proyecto](version-control.resources/version-control-02.jpg "&#39;Ficha Control de versiones&#39; en la configuración del proyecto"){zoomable="yes"}
+Ficha ![&#39;Control de versiones&#39; en la configuración del proyecto](../../../assets/p4v-project-settings.jpg "&#39;Ficha Control de versiones&#39; en la configuración del proyecto"){zoomable="yes"}
 
 1. Vaya a &quot;Editar > Preferencias&quot;
 1. Vaya a &quot;Proyectos&quot;, seleccione el [archivo de proyecto](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) de destino y vaya a la pestaña &quot;Control de versiones&quot;
@@ -64,7 +64,7 @@ Ficha ![&#39;Control de versiones&#39; en la configuración del proyecto](versio
    * <b>Nombre:</b> Escriba el &#39;Nombre del área de trabajo&#39; que recuperó anteriormente de P4V
    * <b>Ruta de acceso:</b> escriba la &#39;Ruta de acceso del área de trabajo&#39; que recuperó anteriormente de P4V
 
-Configuración de ![P4 en Designer: área de trabajo](version-control.resources/version-control-03.jpg "configuración P4 en Designer: área de trabajo"){zoomable="yes"}
+Configuración de ![P4 en Designer: área de trabajo](../../../assets/p4v-project-settings-workspace.jpg "configuración P4 en Designer: área de trabajo"){zoomable="yes"}
 
 ### Configuración de acciones
 
@@ -88,7 +88,7 @@ Hay disponible una secuencia de inicio para todas las acciones en la instalació
 1. Seleccione el siguiente script en la instalación de Designer: &#39;*tools/version\_control/perforce.py*&#39;
 1. El script debe configurarse automáticamente para todas las demás acciones.
 
-Configuración de ![P4 en Designer: acciones](version-control.resources/version-control-04.jpg "Configuración de P4 en Designer: acciones"){zoomable="yes"}
+Configuración de ![P4 en Designer: acciones](../../../assets/p4v-project-settings-actions.jpg "Configuración de P4 en Designer: acciones"){zoomable="yes"}
 
 ### Configuración de acciones personalizadas
 
@@ -103,7 +103,7 @@ Como todas las herramientas de control de versiones son diferentes e incluyen mu
 1. Establezca una extensión de archivo de script o un sufijo, y la ruta de acceso al ejecutable del intérprete
 1. Edite el script perforce.py para actualizar la ubicación del binario &#39;p4&#39;
 
-Configuración de ![P4 en Designer: intérprete](version-control.resources/version-control-05.jpg "Configuración de P4 en Designer: intérprete"){zoomable="yes"}
+Configuración de ![P4 en Designer: intérprete](../../../assets/p4v-project-settings-interpreters.jpg "Configuración de P4 en Designer: intérprete"){zoomable="yes"}
 
 ## Cómo utilizar el control de versiones
 
@@ -123,12 +123,12 @@ Configuración de ![P4 en Designer: intérprete](version-control.resources/versi
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   Cuadro de diálogo ![&#39;Enviar&#39;](version-control.resources/version-control-06.jpg "&#39;Enviar&#39;"){zoomable="yes"}
+   Cuadro de diálogo ![&#39;Enviar&#39;](../../../assets/p4v-submit.jpg "&#39;Enviar&#39;"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   Cuadro de diálogo ![&#39;Revertir&#39;](version-control.resources/version-control-07.jpg "&#39;Revertir&#39;"){zoomable="yes"}
+   Cuadro de diálogo ![&#39;Revertir&#39;](../../../assets/p4v-revert.jpg "&#39;Revertir&#39;"){zoomable="yes"}
 
    </td>
    </tr>
@@ -138,7 +138,7 @@ Configuración de ![P4 en Designer: intérprete](version-control.resources/versi
 >
 > Todas las acciones admiten la selección múltiple
 > 
-> Para P4 y otras herramientas de Control de versiones que utilizan permisos de archivo de solo lectura para restringir las modificaciones, el usuario deberá retirar el paquete antes de modificarlo.
+> Para P4 y otras herramientas de control de versiones que utilizan permisos de archivo de solo lectura para restringir las modificaciones, el usuario primero tendrá que desproteger el paquete antes de modificarlo.
 > 
 > Los archivos de paquete de solo lectura no se pueden modificar en SD.
 
@@ -148,28 +148,28 @@ El paquete tendrá los siguientes iconos, dependiendo de su estado:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icono de paquete: Actualizado](version-control.resources/version-control-08.png "Icono de paquete: Actualizado")
+![Icono de paquete: Actualizado](../../../assets/p4-up-to-date.png "Icono de paquete: Actualizado")
 
 Actualizado
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icono de paquete: Retirado](version-control.resources/version-control-09.png "Icono de paquete: Desprotegido")
+![Icono de paquete: Retirado](../../../assets/p4-checked-out.png "Icono de paquete: Desprotegido")
 
 Desprotegido
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icono de paquete: Añadido](version-control.resources/version-control-10.png "icono de paquete: Agregado")
+![Icono de paquete: Añadido](../../../assets/p4-added.png "icono de paquete: Agregado")
 
 Marcado para agregar
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icono de paquete: No está en depósito](version-control.resources/version-control-11.png "Icono de paquete: No está en el almacén")
+![Icono de paquete: No está en depósito](../../../assets/p4-not-in-depot.png "Icono de paquete: No está en el almacén")
 
 No en depósito
 

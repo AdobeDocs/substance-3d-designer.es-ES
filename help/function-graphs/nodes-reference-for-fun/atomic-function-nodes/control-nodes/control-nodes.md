@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Acceso a nodos de control en gráficos de funciones de Substance 3D Designer para controlar la lógica de flujo y ejecución.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Control
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Esta página describe nodos de [Gráficos de funciones](../../../../function-gra
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo If...Else](../../../../assets/IfElse_Node.jpg "If...Else node")
+![Nodo If...Else](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nodo If...Else")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ Condición que controla el resultado del nodo.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo de secuencia](../../../../assets/Sequence_Node.jpg "Nodo de secuencia")
+![Nodo de secuencia](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nodo de secuencia")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ La parte del gráfico que se debe calcular en último lugar
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo de bucle entero](../../../../assets/WhileLoop-Node.jpg "Nodo de bucle entero")
+![Nodo de bucle entero](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Nodo Bucle entero")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -100,9 +100,9 @@ Una vez completado el bucle, el nodo genera el resultado de la última iteració
 </tr>
 </table>
 
-Los bucles tienen un número máximo implícito de iteraciones que se pueden desactivar definiéndolo en -1.
+Los bucles tienen un número máximo de iteraciones implícitas que se pueden deshabilitar definiéndolo en -1.
 
-Las variables conservan su valor en las iteraciones y se puede acceder a ellas en la condición de salida (Exit Cond.).\
+Las variables conservan su valor en todas las iteraciones y se puede acceder a ellas en la condición de salida (Exit Cond.).\
 Esto significa que puede añadir a un valor de índice cada iteración y comprobar su valor en la condición de salida para controlar el número de bucles que necesita.
 
 >[!IMPORTANT]
@@ -115,7 +115,7 @@ La parte del gráfico que se calcula antes de la primera iteración, es decir, e
 
 <b>Cond. de salida</b> *Booleano*\
 La condición que debe ser verdadera para que se detenga el bucle. Se recalcula en cada iteración.\
-*Nota:* El número máximo de iteraciones sigue limitado al parámetro <b>Max iterations</b>.
+*Nota:* El número máximo de iteraciones sigue limitado al parámetro <b>Máximo de iteraciones</b>.
 
 <b>Cuerpo de bucle</b> *Tipo de variable*\
 El gráfico que se beneficia del bucle. Se recalcula en cada iteración.

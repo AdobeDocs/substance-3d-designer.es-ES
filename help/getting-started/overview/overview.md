@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Obtén una visión general de Substance 3D Designer y descubre sus funciones para crear texturas y materiales de procedimientos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Información general
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Así es como se compara con otras aplicaciones:
 
-|  | <div><img alt="Icono de Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/overview-01.png" title="Icono de Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icono de Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/overview-02.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icono de Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/overview-03.png" title="Icono de Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Icono de Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Icono de Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icono de Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icono de Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Icono de Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>Curva de aprendizaje</b> | Bajo | Medio | Alto |
 | <b>Materiales de autor</b> | Sí | Sí | Sí |
@@ -60,7 +60,7 @@ La aplicación y su ecosistema utilizan 4 tipos de archivo diferentes. Para ser 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-04.png)
+![](../../assets/ds-sbs-48.png)
 
 ### Archivo de Substance 3D
 
@@ -71,18 +71,18 @@ Los archivos de Substance son los **archivos de origen principales** para Design
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-05.png)
+![](../../assets/sbsar-48.png)
 
 ### Activo de Substance 3D
 
 *(\*.SBSAR)*
 
-Los archivos de Substance son<b> archivos de Substance compilados y optimizados</b>. Son mucho más rápidos de calcular y se pueden compartir fácilmente sin problemas de referencia. Los parámetros aún se pueden modificar, pero la edición del gráfico está <b>bloqueada</b>. Substance Archives se puede usar en todas las aplicaciones de Substance 3D y en cualquier aplicación que tenga [Substance 3D integration](https://experienceleague.adobe.com/es/docs/substance-3d/ecosystem/home) (algunas con un plugin externo) como Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
+Los archivos de Substance son<b> archivos de Substance compilados y optimizados</b>. Son mucho más rápidos de calcular y se pueden compartir fácilmente sin problemas de referencia. Los parámetros aún se pueden modificar, pero la edición del gráfico está <b>bloqueada</b>. Substance Archives se puede usar en todas las aplicaciones de Substance 3D y en cualquier aplicación que tenga [Substance 3D integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (algunas con un plugin externo) como Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-06.png){width="48px"}
+![](../../assets/bmp-96.png){width="48px"}
 
 ### Archivos estáticos
 
@@ -104,7 +104,7 @@ Los archivos de Substance 3D pueden contener una gran variedad de recursos que s
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-07.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Los gráficos de Substance permiten generar y procesar *datos de imagen 2D* y, a
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-08.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Los gráficos de Substance permiten generar y procesar *datos de imagen 2D* y, a
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-09.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

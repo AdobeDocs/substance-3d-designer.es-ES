@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Utilice fotogramas en la vista de gráfico de Substance 3D Designer para organizar y agrupar nodos para una mejor claridad visual.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Marco
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de fotograma](frame.resources/frame-01.png "Icono de fotograma")
+![Icono de fotograma](../../../../assets/graphatomic-frame_1.png "Icono de fotograma")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ De forma predeterminada, el marco es un rectángulo con esquinas redondeadas rel
 
 El título establecido en la propiedad <b>Title</b> está en gris en la esquina superior izquierda del marco.
 
-![Fotograma (estado predeterminado)](frame.resources/frame-02.png "Fotograma (estado predeterminado)")
+![Fotograma (estado predeterminado)](../../../../assets/graph-frames-default.png "Fotograma (estado predeterminado)")
 
 
 
@@ -59,7 +59,7 @@ Al pasar el cursor por la parte superior del marco, se muestra una barra de enca
 
 El marco se puede mover arrastrando la barra de encabezado o el título.
 
-![Fotograma (estado de desplazamiento)](frame.resources/frame-03.png "Fotograma (estado de desplazamiento)")
+![Fotograma (estado de desplazamiento)](../../../../assets/graph-frames-hover.png "Fotograma (estado de desplazamiento)")
 
 
 
@@ -68,7 +68,7 @@ El marco se puede mover arrastrando la barra de encabezado o el título.
 +++Seleccionado
 Cuando se selecciona, el título y el contorno del marco se resaltan en blanco. El contorno se vuelve más grueso.
 
-![Fotograma (estado seleccionado)](frame.resources/frame-04.png "Fotograma (estado seleccionado)")
+![Fotograma (estado seleccionado)](../../../../assets/graph-frames-selected.png "Fotograma (estado seleccionado)")
 
 
 
@@ -96,7 +96,7 @@ En la vista de gráficos, presione <b>RMB</b> en cualquier objeto o en espacio v
 +++
 
 +++Barra de herramientas de gráficos
-En la barra de herramientas Vista de gráficos, haga clic en el botón &quot;Marco&quot; en la <b>Paleta de nodos</b>.
+En la barra de herramientas Vista de gráficos, haz clic en el botón &quot;Marco&quot; en la <b>Paleta de nodos</b>.
 
 +++
 
@@ -109,15 +109,15 @@ En la biblioteca, seleccione la categoría <b>Elementos de gráfico</b> y, a con
 
 Si una selección está activa en un gráfico cuando se crea un marco, ese marco se ajustará automáticamente para incluir completamente los objetos seleccionados.
 
-Teniendo esto en cuenta, la creación de marcos mediante un método abreviado de teclado agiliza aún más el marco de contenido en un gráfico.
+Teniendo esto en cuenta, la creación de fotogramas mediante un método abreviado de teclado hace que sea aún más rápido crear fotogramas en un gráfico.
 
-![Fotogramas: Métodos de creación](frame.resources/frame-05.gif "Marcos: Métodos de creación"){width="480px"}
+![Fotogramas: Métodos de creación](../../../../assets/graph-frames_creation.gif "Marcos: Métodos de creación"){width="480px"}
 
 >[!TIP]
 >
 > Cuando se crea un marco, su propiedad &quot;Title&quot; (Título) gana enfoque automáticamente para que pueda editar inmediatamente el título del marco.
 
-## Manipulación de marcos
+## Manipulación de fotogramas
 
 <table>
 <tr style="border: 0;">
@@ -130,7 +130,7 @@ La ilustración resalta las zonas de interacción para la panorámica (azul) y e
 </td>
 <td style="border: 0;" valign="top">
 
-![Marcos: Zonas de interacción](frame.resources/frame-06.png "Marcos: Zonas de interacción")
+![Fotogramas: Zonas de interacción](../../../../assets/graph-frames_interaction-zones.png "Marcos: Zonas de interacción")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Mantenga presionada la tecla <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) para cam
 </td>
 <td style="border: 0;" valign="top">
 
-![Marcos: Ajuste de cuadrícula](frame.resources/frame-07.gif "Marcos: Ajuste de cuadrícula")
+![Fotogramas: Ajuste de cuadrícula](../../../../assets/graph-frames_grid-snapping.gif "Fotogramas: Ajuste de cuadrícula")
 
 </td>
 </tr>
@@ -160,24 +160,24 @@ Mantenga presionada la tecla <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) para cam
 Cuando se selecciona un marco, las siguientes propiedades están disponibles en el conjunto acoplado [Properties](../../../../interface/properties/properties.md):
 
 +++Título
-El <b>Título</b> se encuentra en la parte superior izquierda del marco. Su visibilidad del título se puede activar o desactivar mediante la propiedad <b>Title Visible</b>.
+El <b>Título</b> que se encuentra en la parte superior izquierda del marco. Su visibilidad del título se puede activar o desactivar mediante la propiedad <b>Title Visible</b>.
 
 El tamaño del título se puede bloquear con un tamaño de pantalla mínimo para que sea legible al alejarse del gráfico. Para ello, marca la opción &quot;Títulos de marco&quot; en el menú desplegable <b>Información</b> de la barra de herramientas [Vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
 
-![Marcos: Título](frame.resources/frame-08.gif "Marcos: Título"){width="640px"}
+![Fotogramas: Título](../../../../assets/graph_frames_title.gif "Marcos: Título"){width="640px"}
 
 
 
 +++
 
 +++Descripción
-<b>Descripción</b> es un fragmento de texto adicional opcional que se puede usar para anotar el contenido del marco.
+<b>Description</b> es un fragmento de texto adicional opcional que se puede usar para anotar el contenido del marco.
 
-Se puede dar formato al texto mediante etiquetas de HTML. Para alternar este formato, haz clic en el botón ![](frame.resources/frame-09.png) <b>marcado de HTML</b>.
+Se puede dar formato al texto mediante etiquetas de HTML. Para alternar este formato, haz clic en el botón ![](../../../../assets/graph-frames_html-markup-button.png) <b>marcado de HTML</b>.
 
 Obtenga más información en la sección Descripción que aparece a continuación.
 
-![Fotogramas: Descripción](frame.resources/frame-10.gif "Marcos: Descripción"){width="640px"}
+![Fotogramas: Descripción](../../../../assets/graph-frames_description.gif "Marcos: Descripción"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ El <b>color del marco</b> se usa para rellenar el marco en la vista de gráfico.
 
 El canal alfa del color controla la *opacidad* del fotograma, donde un valor de 0 significa que el fotograma es totalmente transparente.
 
-![Fotogramas: Color](frame.resources/frame-11.gif "Marcos: Color"){width="640px"}
+![Fotogramas: Color](../../../../assets/graph-frames_colour.gif "Marcos: Color"){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ Su tamaño se puede bloquear con un tamaño de pantalla mínimo para que sea leg
 </td>
 <td style="border: 0;" valign="top">
 
-![Marco (descripción predeterminada)](frame.resources/frame-12.png "Marco (descripción predeterminada)"){zoomable="yes"}
+![Marco (descripción predeterminada)](../../../../assets/graph-frames-descr.png "Marco (descripción predeterminada)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ Su tamaño se puede bloquear con un tamaño de pantalla mínimo para que sea leg
 
 ### formato de HTML
 
-Se puede dar formato al texto mediante etiquetas de HTML en la propiedad <b>Description</b> del marco. El formato debe habilitarse mediante el botón ![](frame.resources/frame-09.png) <b>marcado de HTML</b> en esa misma propiedad.
+Se puede dar formato al texto mediante etiquetas de HTML en la propiedad <b>Description</b> del marco. El formato debe habilitarse mediante el botón ![](../../../../assets/graph-frames_html-markup-button.png) <b>marcado de HTML</b> en esa misma propiedad.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Marco (descripción con formato de HTML)](frame.resources/frame-13.png "Marco (descripción con formato de HTML)"){zoomable="yes"}
+![Marco (descripción con formato de HTML)](../../../../assets/graph-frames-descr-html.png "Marco (descripción con formato de HTML)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ A medida que los conectores se muestran, se ocultan, se agregan o se quitan, el 
 
 Por lo tanto, la ubicación del punto central de un nodo no debe cambiar hasta que se *mueva* deliberadamente.
 
-![Inclusión de Marco: nodos altos](frame.resources/frame-14.png "inclusión de Marco: nodos altos")
+![Inclusión de Marco: nodos altos](../../../../assets/frame_inclusion_node_tall.png "inclusión de Marco: nodos altos")
 
 
 
@@ -297,11 +297,11 @@ Si hay varios nodos acoplados en una cadena, el nodo host del último nodo acopl
 
 Las insignias, los conectores y la información que se muestra debajo del nodo se omiten.
 
-![Inclusión de Marco: nodos acoplados](frame.resources/frame-15.png "inclusión de Marco: nodos acoplados")
+![Inclusión de Marco: nodos acoplados](../../../../assets/frame_inclusion_node_docked.png "inclusión de Marco: nodos acoplados")
 
 
 
-![Inclusión de Marco: nodos](frame.resources/frame-16.png "inclusión de Marco: nodos")
+![Inclusión de Marco: nodos](../../../../assets/frame_inclusion_node.png "inclusión de Marco: nodos")
 
 
 
@@ -312,7 +312,7 @@ Se usa el <b>punto central</b> del punto.
 
 Se omiten los conectores, los iconos del portal y los nombres.
 
-![Inclusión de Marco: Inclusión de nodos de puntos](frame.resources/frame-17.png "Marco: Nodos de puntos")
+![Inclusión de Marco: Inclusión de nodos de puntos](../../../../assets/frame_inclusion_dot.png "Marco: Nodos de puntos")
 
 
 
@@ -329,11 +329,11 @@ Las insignias, los conectores y la información que se muestra debajo del nodo s
 
 
 
-![Inclusión de Marco: comentarios de los padres](frame.resources/frame-18.png "inclusión de Marco: comentarios patentados")
+![Inclusión de Marco: comentarios de los padres](../../../../assets/frame_inclusion_comment_parented.png "inclusión de Marco: comentarios patentados")
 
 
 
-![Inclusión de Marco: comentarios](frame.resources/frame-19.png "inclusión de Marco: comentarios")
+![Inclusión de Marco: comentarios](../../../../assets/frame_inclusion_comment.png "inclusión de Marco: comentarios")
 
 
 
@@ -342,7 +342,7 @@ Las insignias, los conectores y la información que se muestra debajo del nodo s
 +++Pins
 Se usa la <b>sugerencia</b> del icono del pin.
 
-![Inclusión de Marco: pin de navegación](frame.resources/frame-20.png "inclusión de Marcos: pin de navegación")
+![Inclusión de Marco: pin de navegación](../../../../assets/frame_inclusion_pin.png "inclusión de Marcos: pin de navegación")
 
 
 
@@ -355,7 +355,7 @@ Esto significa que un marco anidado debe estar completamente dentro de los lími
 
 Se omite el título.
 
-![Inclusión de Marco: marcos anidados](frame.resources/frame-21.png "inclusión de Marco: marcos anidados")
+![Inclusión de Marco: marcos anidados](../../../../assets/frame_inclusion_frame.png "inclusión de Marco: marcos anidados")
 
 
 
@@ -363,7 +363,7 @@ Se omite el título.
 
 ## Ajustar tamaño al contenido
 
-![Fotogramas: Ajustar tamaño al contenido](frame.resources/frame-22.png "Marcos: Ajustar tamaño al contenido")
+![Fotogramas: Ajustar tamaño al contenido](../../../../assets/graph-frames_fit-size-to-content.png "Marcos: Ajustar tamaño al contenido")
 
 Al realizar ajustes en el gráfico, es posible que un marco ya no se ajuste correctamente a su contenido. En este caso, es posible ajustar automáticamente la posición y el tamaño del marco para que se ajuste a la extensión de su contenido, con un relleno de una celda de cuadrícula media.
 
@@ -386,14 +386,14 @@ Si ningún objeto incluido puede caber en ese espacio, el height del marco se aj
 </td>
 <td style="border: 0;" valign="top">
 
-![Fotogramas: Ajustar tamaño al contenido (con descripción)](frame.resources/frame-23.png "Marcos: Ajustar tamaño al contenido (con descripción)")
+![Fotogramas: Ajustar tamaño al contenido (con descripción)](../../../../assets/graph-frames_fit-description.png "Marcos: Ajustar tamaño al contenido (con descripción)")
 
 </td>
 </tr>
 </table>
 
 +++Ejemplo
-![Fotogramas: Ajustar tamaño al contenido (GIF)](frame.resources/frame-24.gif "Marcos: Ajustar tamaño al contenido (GIF)"){width="640px"}
+![Fotogramas: Ajustar tamaño al contenido (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Marcos: Ajustar tamaño al contenido (GIF)"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ Si ningún objeto incluido puede caber en ese espacio, el height del marco se aj
 
 ## Expandir automáticamente
 
-![Fotogramas: Expandir automáticamente](frame.resources/frame-25.png "fotogramas: Expandir automáticamente")
+![Fotogramas: Expandir automáticamente](../../../../assets/graph-frames_auto-expand.png "fotogramas: Expandir automáticamente")
 
 A medida que crece el gráfico, puede ser necesario reorganizar el contenido de los marcos. Es posible que los nodos cambien para dejar espacio para las adiciones o que el contenido deba espaciarse más para facilitar la lectura.
 
@@ -416,7 +416,7 @@ Si un objeto no está completamente delimitado por los límites del marco pero s
 > Si bien la tecla <b>Mayús</b> se puede presionar o soltar en cualquier momento durante el movimiento para activar o cancelar el ajuste automático del fotograma, *debe* mantenerse presionada al completar el movimiento para aplicar el ajuste de manera efectiva.
 
 +++Ejemplo
-![Fotogramas: Expandir automáticamente (GIF)](frame.resources/frame-26.gif "Marcos: Expandir automáticamente (GIF)"){width="640px"}
+![Fotogramas: Expandir automáticamente (GIF)](../../../../assets/graph-frames_auto-expand.gif "Marcos: Expandir automáticamente (GIF)"){width="640px"}
 
 
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Creación de un gráfico MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página describe el proceso de creación de un gráfico MDL para crear materiales MDL en Substance 3D Designer.
 
-![Rutas de creación de gráficos MDL](creating-an-mdl-graph.resources/creating-an-mdl-graph-01.png "Rutas de creación de gráficos MDL")
+![Rutas de creación de gráficos MDL](../../assets/mdl-new-graph-hl.png "Rutas de creación de gráficos MDL")
 
 *Rutas para crear un nuevo gráfico MDL en la interfaz de Designer*
 
@@ -31,12 +31,12 @@ Esta página describe el proceso de creación de un gráfico MDL para crear mate
 Puede crear un gráfico MDL mediante cualquiera de los métodos siguientes:
 
 * Seleccione la opción **Archivo > Nuevo > Gráfico MDL** en la *barra de menú principal*
-* Haga clic en el botón ![](creating-an-mdl-graph.resources/creating-an-mdl-graph-02.png) **Agregar gráfico MDL** en la *barra de herramientas principal*
+* Haga clic en el botón ![](../../assets/mdl-new-graph-icon.png) **Agregar gráfico MDL** en la *barra de herramientas principal*
 * Haga clic con el botón derecho en un *paquete existente* en el panel **Explorador** y seleccione la opción **Nuevo > Gráfico MDL**
 
 Se le mostrará el cuadro de diálogo **Nuevo gráfico MDL**, consulte a continuación.
 
-![Cuadro de diálogo Nuevo gráfico MDL](creating-an-mdl-graph.resources/creating-an-mdl-graph-03.png "Cuadro de diálogo Nuevo gráfico MDL")
+![Cuadro de diálogo Nuevo gráfico MDL](../../assets/mdl-templates.png "Cuadro de diálogo Nuevo gráfico MDL")
 
 *Cuadro de diálogo Nuevo gráfico MDL*
 
@@ -59,10 +59,10 @@ La opción <b>Project</b> le permite filtrar la lista de plantillas por archivo 
 
 La lista de plantillas se puede mostrar en diferentes modos mediante *botones* junto al cuadro combinado **Proyecto**:
 
-* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-04.png)Mostrar usado recientemente**: filtra la lista para mostrar las últimas plantillas utilizadas en orden de *más recientes a menos recientes*, siendo el elemento superior el más reciente
-* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-05.png)Mostrar gráficos**: las plantillas se muestran por su *solo etiqueta*, en el orden de los archivos [Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) del directorio de plantillas
-* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-06.png)Mostrar archivos de Substance 3D**: las plantillas se muestran por su etiqueta como *elementos secundarios del archivo de Substance 3D al que pertenecen*, en el orden de los archivos del directorio de plantillas
-* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-07.png)Mostrar directorios**: las plantillas se muestran en su etiqueta como *elementos secundarios del directorio al que pertenecen*, en el orden de los archivos del directorio de las plantillas
+* **![](../../assets/mdl-template-recent-icon.png)Mostrar usado recientemente**: filtra la lista para mostrar las últimas plantillas utilizadas en orden de *más recientes a menos recientes*, siendo el elemento superior el más reciente
+* **![](../../assets/mdl-template-graphs-icon.png)Mostrar gráficos**: las plantillas se muestran por su *solo etiqueta*, en el orden de los archivos [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) del directorio de plantillas
+* **![](../../assets/mdl-template-packages-icon.png)Mostrar archivos de Substance 3D**: las plantillas se muestran por su etiqueta como *elementos secundarios del archivo de Substance 3D al que pertenecen*, en el orden de los archivos del directorio de plantillas
+* **![](../../assets/mdl-template-directory-icon.png)Mostrar directorios**: las plantillas se muestran en su etiqueta como *elementos secundarios del directorio al que pertenecen*, en el orden de los archivos del directorio de las plantillas
 
 ### Propiedades
 

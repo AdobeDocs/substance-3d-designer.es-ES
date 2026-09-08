@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Aprenda los métodos abreviados de teclado en Substance 3D Designer para acelerar el flujo de trabajo y mejorar la productividad.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mét. abrev.
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ En esta página encontrará una descripción general de todos los métodos abrev
 
 **Windows**
 
-![Métodos abreviados de teclado en Windows](shortcuts.resources/shortcuts-01.png "Métodos abreviados de teclado en Windows"){zoomable="yes"}
+![Métodos abreviados de teclado en Windows](../../assets/keyboard_shortcuts_win.png "Métodos abreviados de teclado en Windows"){zoomable="yes"}
 
 **macOS**
 
-![Métodos abreviados de teclado en macOS](shortcuts.resources/shortcuts-02.png "Métodos abreviados de teclado en macOS"){zoomable="yes"}
+![Métodos abreviados de teclado en macOS](../../assets/keyboard_shortcuts_mac.png "Métodos abreviados de teclado en macOS"){zoomable="yes"}
 
 ## Listas de accesos directos
 

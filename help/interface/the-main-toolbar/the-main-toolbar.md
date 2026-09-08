@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la barra de herramientas principal de Substance 3D Designer para acceder a herramientas y comandos comunes para el flujo de trabajo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barra de herramientas principal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barra de herramientas principal](the-main-toolbar.resources/the-main-toolbar-01.png "Barra de herramientas principal")
+![Barra de herramientas principal](../../assets/mainmenu.png "Barra de herramientas principal")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 ## Botones de acceso rápido
 
-![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>Nuevo gráfico de Substance...:</b> (Ctrl+N)Presenta la ventana [Nuevo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) y, a continuación, crea un nuevo paquete con un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](../../assets/newsubstance.png) <b>Nuevo gráfico de Substance...:</b> (Ctrl+N)Presenta la ventana [Nuevo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) y, a continuación, crea un nuevo paquete con un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>Abrir...:</b> (Ctrl+O) Abra un [paquete de Substance existente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](../../assets/open.png) <b>Abrir...:</b> (Ctrl+O) Abra un [paquete de Substance existente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>Guardar todo:</b> (Ctrl+⇧+S) Guarda todos los paquetes enumerados en el [Explorador](../../interface/the-explorer-window/the-explorer-window.md).
+![](../../assets/saveall.png) <b>Guardar todo:</b> (Ctrl+⇧+S) Guarda todos los paquetes enumerados en el [Explorador](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>Deshacer:</b> (Ctrl+Z) Deshacer la última operación.
+![](../../assets/undo.png) <b>Deshacer:</b> (Ctrl+Z) Deshacer la última operación.
 
-![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>Rehacer:</b> (Ctrl+Y) Rehacer la última operación deshecha.
+![](../../assets/redo.png) <b>Rehacer:</b> (Ctrl+Y) Rehacer la última operación deshecha.
 
 ## Archivo
 
@@ -100,7 +100,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Nuevo Explorador:</b> Abre un nuevo conjunto acoplado del Explorador. Puede tener abiertos varios muelles del Explorador.
 
-<b>Nueva vista 3D:</b> Abre un nuevo conjunto acoplado de vista 3D. Puede tener abiertos varios acoplamientos de vista 3D.
+<b>Nueva Vista 3D:</b> Abre un nuevo conjunto acoplado de Vista 3D. Puede tener varios muelles de Vista 3D abiertos.
 
 <b>Nueva vista de biblioteca:</b> Abre un nuevo conjunto acoplado de biblioteca. Puede tener abiertos varios muelles de biblioteca.
 
@@ -118,7 +118,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Consola:</b> Mostrar u ocultar la ventana de consola.
 
-<b>Vista 3D:</b> Muestra u oculta las [vistas 3D](../../interface/3d-view/3d-view.md).
+<b>Vista 3D:</b> Muestra u oculta los [Vista 3D](../../interface/3d-view/3d-view.md).
 
 <b>Administrador de dependencias:</b> Muestra u oculta el [Administrador de dependencias](../../interface/dependency-manager/dependency-manager.md).
 
@@ -165,7 +165,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Novedades...:</b> Muestra una pantalla que resalta las características agregadas a la última versión de Designer
 
-<b>Pantalla de bienvenida...\*:</b> Muestra una pantalla que guía a los nuevos usuarios por el propósito de Designer y su lugar en el [ecosistema de Substance 3D](https://helpx.adobe.com/es/substance-3d.html)
+<b>Pantalla de bienvenida...\*:</b> Muestra una pantalla que guía a los nuevos usuarios por el propósito de Designer y su lugar en el [ecosistema de Substance 3D](https://helpx.adobe.com/substance-3d.html)
 
 <b>Partners:</b> Te permite acceder a las renuncias de responsabilidad y los avisos de integraciones de terceros de nuestros socios de Designer.
 

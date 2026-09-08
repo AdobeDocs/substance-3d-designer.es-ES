@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Descubre las prácticas recomendadas y la etiqueta para crear gráficos de Substance para garantizar flujos de trabajo limpios, mantenibles y eficientes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Etiqueta de creación de gráficos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Los elementos gráficos son objetos auxiliares que se pueden colocar junto a los
 
 La primera cosa que conduce a gráficas más limpias y fáciles de leer es la colocación de Marcos alrededor de los grupos centrales de la gráfica. Sin Marcos, un gráfico grande es casi ilegible, e incluso los gráficos pequeños se vuelven mucho más fáciles de entender una vez que se dibujan los marcos. Una gran ventaja de los Marcos es que sus <b> nombres siempre se representan a la misma escala</b>, incluso si se aleja mucho.
 
-![Marcos en Substance](graph-creation-etiquette.resources/graph-creation-etiquette-01.gif "Marcos en Substance")
+![Marcos en Substance](../../assets/frames.gif "Marcos en Substance")
 
 Los marcos facilitan en gran medida la comprensión de lo que está sucediendo en una gráfica. Pueden ayudarle como autor volviendo a su trabajo meses más tarde, o como otro usuario, como un compañero, a encontrar su camino alrededor de un Gráfico al que no están acostumbrados.
 
@@ -50,22 +50,22 @@ Utilice los siguientes criterios al colocar Marcos:
 
 Los comentarios y los pin solo son secundarios a los Marcos y no son imprescindibles en el caso de los gráficos bien creados. Se pueden utilizar en los siguientes casos:
 
-* Los comentarios son útiles para agregar texto adicional más allá de lo que permite la descripción de un marco. Puedes añadir pequeños fragmentos de texto por nodo, principalmente para pequeños fragmentos detallados de información. Los comentarios no se escalan bien y no se leen desde un nivel de zoom distante.
-* Los bordes de navegación le permiten desplazarse por áreas específicas del gráfico mediante el método abreviado F2. Esto puede resultar útil para gráficos muy grandes en los que a menudo es necesario saltar entre dos áreas que están muy alejadas entre sí.
+* Los comentarios son útiles para agregar texto adicional más allá de lo que permite la descripción de un Marco. Puedes añadir pequeños fragmentos de texto por nodo, principalmente para pequeños fragmentos detallados de información. Los comentarios no se escalan bien y no se leen desde un nivel de zoom distante.
+* Los Pin de navegación le permiten recorrer áreas específicas del Gráfico con el método abreviado F2. Esto puede resultar útil para gráficos muy grandes en los que a menudo es necesario saltar entre dos áreas que están muy alejadas entre sí.
 
 ### Ubicación de entrada y salida
 
 Las entradas y salidas deben colocarse en los extremos extremos de los gráficos: todas las salidas a la derecha, todas las entradas a la izquierda, cada una alineada verticalmente. Esto facilita su búsqueda e identificación.
 
-![Colocación de entrada y salida](graph-creation-etiquette.resources/graph-creation-etiquette-02.gif "Colocación de entrada y salida")
+![Colocación de entrada y salida](../../assets/inout.gif "Colocación de entrada y salida")
 
-El ejemplo anterior es un caso extremo: Los fotogramas no siempre son necesarios o posibles, pero debe quedar claro que la alineación vertical de las entradas y salidas es mucho más clara que la colocación aleatoria y reordenada.
+El ejemplo anterior es un caso extremo: Los marcos no siempre son necesarios o posibles, pero debe quedar claro que la alineación vertical de las entradas y salidas es mucho más clara que la colocación aleatoria y aleatoria.
 
 ### Redireccionamiento de vínculos
 
-En gráficos grandes y muy largos, a veces los vínculos se crean en un intervalo muy grande. Esto lleva a confundir los cables de enlace que atraviesan el gráfico sin mucho control. El método abreviado &quot;Alt + Mayús Arrastrar&quot; le permite reorganizar estos vínculos, redireccionándolos en un trazado diferente subdividiendo un vínculo y añadiendo un control adicional en el centro. Se recomienda hacer uso de esto en escenarios donde tenga sentido.
+En gráficos grandes y muy largos, a veces los vínculos se crean en un intervalo muy grande. Esto lleva a confundir los cables de enlace que atraviesan el gráfico sin mucho control. El método abreviado &quot;Alt + Mayús Arrastrar&quot; le permite reorganizar estos enlaces, redireccionándolos en una ruta diferente mediante la subdivisión de un enlace y la adición de un control adicional en el centro. Se recomienda hacer uso de esto en escenarios donde tenga sentido.
 
-![Redireccionamiento de vínculos](graph-creation-etiquette.resources/graph-creation-etiquette-03.gif "Redireccionamiento de vínculos")
+![Redireccionamiento de vínculos](../../assets/linkjreroute.gif "Redireccionamiento de vínculos")
 
 ### Etiqueta, identificador y uso
 
@@ -73,15 +73,15 @@ Cualquier gráfico destinado a compartirse o publicarse debe tener el cuidado ad
 
 Las etiquetas sugeridas predeterminadas nunca son suficientes; dedique tiempo y esfuerzo a agregar etiquetas personalizadas a los parámetros expuestos y a las entradas y salidas.
 
-![Identificador y etiqueta](graph-creation-etiquette.resources/graph-creation-etiquette-04.png "Identificador y etiqueta")
+![Identificador y etiqueta](../../assets/output-label.png "Identificador y etiqueta")
 
-Intente que el identificador y la etiqueta no difieran demasiado: en el caso de que el identificador se utilice en otra parte (en varias funciones), puede resultar muy difícil encontrar qué propiedad de interfaz de usuario está relacionada con qué variable.
+Intente que identificador y Label no difieran demasiado: en caso de que el Identificador se utilice en otra parte (en varias funciones), puede resultar muy difícil encontrar qué propiedad de interfaz de usuario está relacionada con qué variable.
 
-![Claridad del identificador](graph-creation-etiquette.resources/graph-creation-etiquette-05.png "Claridad del identificador")
+![Claridad del Identificador](../../assets/labelvsidentifier.png "Claridad del Identificador")
 
-Intente hacer coincidir las etiquetas con los términos que utilice en marcos (etiquetas de marco) y comentarios. Facilita averiguar qué sección del gráfico está vinculada a qué parámetro expuesto
+Intente hacer coincidir las etiquetas con los términos que utiliza en Marcos (etiquetas de Marco) y comentarios. Facilita averiguar qué sección del gráfico está vinculada a qué parámetro expuesto
 
-![Etiquetas de fotograma y parámetro coincidentes](graph-creation-etiquette.resources/graph-creation-etiquette-06.png "Etiquetas de fotograma y parámetro coincidentes")
+![Etiquetas de fotograma y parámetro coincidentes](../../assets/match-labels.png "Etiquetas de fotograma y parámetro coincidentes")
 
 ### Configuración de parámetros
 
@@ -103,7 +103,7 @@ Se requiere un gran cuidado al usar los datos de color y escala de grises, la me
 * Lo ideal es mantener los datos en la escala de grises el mayor tiempo posible y convertirlos solo cuando sea absolutamente necesario. Esto reduce la complejidad y ahorra en rendimiento.
 * Las entradas y salidas deben crearse o configurarse teniendo en cuenta el tipo correcto: por ejemplo, no tiene sentido tener una entrada &quot;mask&quot; definida en color si se va a convertir a escala de grises para su uso como máscara binaria.
 
-![Conversiones de color y escala de grises](graph-creation-etiquette.resources/graph-creation-etiquette-07.png "Conversiones de color y escala de grises")
+![Conversiones de color y escala de grises](../../assets/colorgray01.png "Conversiones de color y escala de grises")
 
 ### Control de resolución
 
