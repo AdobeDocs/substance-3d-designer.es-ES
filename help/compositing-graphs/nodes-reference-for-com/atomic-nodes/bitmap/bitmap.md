@@ -33,7 +33,7 @@ Carga un [recurso de mapa de bits](../../../../resources/bitmap-resource/bitmap-
 
 Este nodo se utiliza para importar un [mapa de bits](../../../../glossary/glossary.md) en el gráfico o para crear un nuevo mapa de bits para su uso con las [herramientas de pintura de mapas de bits](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Hay varias formas de crear este nodo, y todas ellas requieren que entiendas[ la diferencia entre vincular e importar recursos.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Hay varias formas de crear este nodo, y todas ellas requieren que entiendas[&#x200B; la diferencia entre vincular e importar recursos.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>

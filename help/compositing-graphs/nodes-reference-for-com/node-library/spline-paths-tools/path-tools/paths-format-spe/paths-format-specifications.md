@@ -90,7 +90,7 @@ Esto es útil cuando se leen las rutas de acceso desde un [procesador de píxele
 
 La dirección del último vértice definido en este documento. Esto resulta útil para anexar nuevos datos.
 
-Por lo tanto, puede ser realmente cualquier dirección mayor (en orden de escaneado) que la dirección del último vértice. Debe estar en el intervalo ]0, 1[×]0, .5[
+Por lo tanto, puede ser realmente cualquier dirección mayor (en orden de escaneado) que la dirección del último vértice. Debe estar en el intervalo &rbrack;0, 1[×]0, .5&lbrack;
 
 <b>ZW</b>
 
