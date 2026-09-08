@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cuantificar color para reducir el número de niveles de color de los efectos de posterización estilizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cuantificar color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](quantize-color.resources/quantize-color-01.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](../../../../../../assets/QuantizeColor.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -90,11 +90,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-02.jpg" alt="Quantize_color_example_6_before">
+      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="Quantize_color_example_6_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-03.jpg" alt="Quantize_color_example_6_after">
+      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="Quantize_color_example_6_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -103,11 +103,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-04.jpg" alt="Quantize_color_example_2_before">
+      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="Quantize_color_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-05.jpg" alt="Quantize_color_example_2_after">
+      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="Quantize_color_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -116,11 +116,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-06.jpg" alt="Quantize_color_example_3_before">
+      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="Quantize_color_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-07.jpg" alt="Quantize_color_example_3_after">
+      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="Quantize_color_example_3_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -129,11 +129,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-08.jpg" alt="Quantize_color_example_4_before">
+      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="Quantize_color_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-09.jpg" alt="Quantize_color_example_4_after">
+      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="Quantize_color_example_4_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-10.jpg" alt="Quantize_color_example_5_before">
+      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="Quantize_color_example_5_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-11.jpg" alt="Quantize_color_example_5_after">
+      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="Quantize_color_example_5_after">
       <br><i>Después De</i>
     </td>
   </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
 breadcrumb-title: ''
 description: Utilice el nodo Modificar paleta de colores para ajustar y transformar paletas de colores extraídas de texturas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modificar paleta de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](modify-color-palette.resources/modify-color-palette-01.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](../../../../../../assets/ModifyColorPalette.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -82,18 +82,18 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Cuantific
 
 ## Ejemplos
 
-![Modificar paleta de colores: Ejemplo 1](modify-color-palette.resources/modify-color-palette-02.png "Modificar la paleta de colores: Ejemplo 1"){zoomable="yes"}
+![Modificar paleta de colores: Ejemplo 1](../../../../../../assets/modify_color_palette_example_1.png "Modificar la paleta de colores: Ejemplo 1"){zoomable="yes"}
 
-![Modificar paleta de colores: Ejemplo 2](modify-color-palette.resources/modify-color-palette-03.png "Modificar la paleta de colores: Ejemplo 2"){zoomable="yes"}
+![Modificar paleta de colores: Ejemplo 2](../../../../../../assets/modify_color_palette_example_3.png "Modificar la paleta de colores: Ejemplo 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="modify-color-palette.resources/modify-color-palette-04.jpg" alt="modify_color_example_2_before">
+      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="modify-color-palette.resources/modify-color-palette-05.jpg" alt="modify_color_example_2_after">
+      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>

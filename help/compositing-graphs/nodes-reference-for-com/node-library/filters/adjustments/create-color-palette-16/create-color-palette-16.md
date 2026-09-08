@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
 description: Utilice el nodo Crear paleta de colores para extraer una paleta de 16 colores de texturas para efectos estilizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Crear paleta de colores (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](create-color-palette-16.resources/create-color-palette-16-01.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](../../../../../../assets/CreateColorPalette16.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -76,15 +76,15 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Cuantific
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Crear paleta de colores: Ejemplo 1](create-color-palette-16.resources/create-color-palette-16-02.png "Crear paleta de colores: Ejemplo 1"){zoomable="yes"}
+![Crear paleta de colores: Ejemplo 1](../../../../../../assets/create_color_palette_example_1.png "Crear paleta de colores: Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Crear paleta de colores: Ejemplo 2](create-color-palette-16.resources/create-color-palette-16-03.png "Crear paleta de colores: Ejemplo 2"){zoomable="yes"}
+![Crear paleta de colores: Ejemplo 2](../../../../../../assets/create_color_palette_example_2.png "Crear paleta de colores: Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Crear paleta de colores: Ejemplo 3](create-color-palette-16.resources/create-color-palette-16-04.png "Crear paleta de colores: Ejemplo 3"){zoomable="yes"}
+![Crear paleta de colores: Ejemplo 3](../../../../../../assets/create_color_palette_example_3.png "Crear paleta de colores: Ejemplo 3"){zoomable="yes"}
