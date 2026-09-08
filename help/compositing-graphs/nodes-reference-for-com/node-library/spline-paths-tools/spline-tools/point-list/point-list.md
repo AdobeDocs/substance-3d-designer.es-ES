@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: Utilice el nodo Lista de puntos para crear y gestionar listas de puntos para la generación de splines y trazados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lista de puntos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](point-list.resources/point-list-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/point-list-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -93,12 +93,12 @@ Si se proporciona una lista de puntos existente a las entradas <b>Point</b>, la 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](point-list.resources/point-list-02.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](../../../../../../assets/PointList-Variant1.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](point-list.resources/point-list-03.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](../../../../../../assets/PointList-Demo1.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: Utilice el nodo Rutas de acceso de vista previa para visualizar los datos de las rutas de acceso en la vista 2D con fines de depuración y verificación.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Previsualizar trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](preview-paths.resources/preview-paths-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/preview-paths-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -66,12 +66,12 @@ Obtendrás un resultado similar al de la salida de <b>Vista previa</b> de [Másc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](preview-paths.resources/preview-paths-02.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](preview-paths.resources/preview-paths-03.jpg "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Ejemplo de nodo 2")
 
 </td>
 </tr>

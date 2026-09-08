@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
 breadcrumb-title: ''
-description: Utilice el nodo Thickness de muestra de spline para muestrear valores de thickness a lo largo de splines para obtener efectos de procedimiento.
+description: Utilice el nodo Thickness de muestra de spline para muestrear valores de thickness a lo largo de splines para obtener efectos procedimientos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Thickness
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Thickness de muestra spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-sample-thickness.resources/spline-sample-thickness-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/spline-sample-thickness-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 Modifica el thickness de las splines de entrada asignándoles un mapa de grosor de entrada.
 
-El efecto del mapa de height asignado se puede ajustar cambiando su modo de fusión y la opacidad de dicho efecto.
+El efecto del mapa de altura asignado se puede ajustar cambiando su modo de fusión y la opacidad de dicho efecto.
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ El efecto del mapa de height asignado se puede ajustar cambiando su modo de fusi
 | <b>Cantidad de segmentos</b> <i>Entero</i> | Ajusta el número de segmentos utilizados para dibujar la visualización de spline en la salida de vista previa.<br>Un valor más alto produce una línea más suave. |
 | <b>Mostrar ayuda de dirección</b> <i>Booleano</i> | Muestra un punto al principio de la spline y una punta de flecha al final en la salida de previsualización. |
 | <b>Mostrar sobre de Thickness</b> <i>Booleano</i> | Muestra líneas adicionales en los bordes del thickness de la spline. |
-| <b>Thickness (px)</b> <i>Flotador</i> | Ajusta el thickness de la visualización de la spline en píxeles en la salida de previsualización. |
+| <b>Thickness (px)</b> <i>Flotante</i> | Ajusta el thickness de la visualización de la spline en píxeles en la salida de previsualización. |
 
 ## Ejemplos
 
@@ -88,11 +88,11 @@ El efecto del mapa de height asignado se puede ajustar cambiando su modo de fusi
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-02.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-03.jpg" alt="SplineSampleThickness-Variant1-After">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ El efecto del mapa de height asignado se puede ajustar cambiando su modo de fusi
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-04.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-05.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ El efecto del mapa de height asignado se puede ajustar cambiando su modo de fusi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](spline-sample-thickness.resources/spline-sample-thickness-06.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](../../../../../../assets/SplineSampleThickness-Variant1-After1.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](spline-sample-thickness.resources/spline-sample-thickness-07.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](../../../../../../assets/SplineSampleThickness-Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

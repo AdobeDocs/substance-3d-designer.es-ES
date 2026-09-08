@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
 breadcrumb-title: ''
 description: Utilice el nodo Splines en splines de Dispersión para distribuir splines hijo a lo largo de las rutas de spline padre.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Splines de dispersión en Splines
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Splines de Dispersión en Splines: Icono](scatter-splines-on-splines.resources/scatter-splines-on-splines-01.png "Splines de Dispersión en Splines: Icono")
+![Splines de Dispersión en Splines: Icono](../../../../../../assets/scatter-splines-on-splines-icon.png "Splines de Dispersión en Splines: Icono")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -54,7 +54,7 @@ Haz clic en la imagen de la derecha para acceder a nuestro <b>tutorial dedicado<
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodos de división de vídeo](scatter-splines-on-splines.resources/scatter-splines-on-splines-02.png)](https://youtu.be/aUUWV1dYQdI)
+[![Nodos de división de vídeo](../../../../../../assets/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -109,9 +109,9 @@ Haz clic en la imagen de la derecha para acceder a nuestro <b>tutorial dedicado<
 | <b>Posición absoluta de tabla dinámica</b> *Float2* | Posición en el espacio UV del pivote. |
 | <b>Corrección no cuadrada</b> *Booleano* | Ajuste la posición y el thickness de las splines para conservar su forma en resoluciones no cuadradas.<br><i>Nota:</i> Al usar splines personalizados, la spline personalizada debe usar la *misma proporción de imagen* que los nodos <b>Splines de Dispersión en splines</b>. |
 | <b>Tamaño</b> |  |
-| <b>Escala de spline</b> *Flotador* | Un control global para el tamaño de todas las splines, donde 1 es su tamaño original completo.<br>El escalado se aplica en relación con el giro de una spline. La posición de pivote se puede desplazar mediante el parámetro <b>Spline Pivot</b>. |
-| <b>Aleatoria de escala de spline</b> *Flotador* | Aplica un multiplicador aleatorio hasta el valor especificado para reducir el tamaño de las splines. |
-| <b>Multiplicador de entrada de mapa de escala</b> *Flotador* | Controla la intensidad de la entrada <b>Scale Map</b>. Este mapa actúa como un multiplicador para el tamaño actual de los patrones.<br>El efecto de este mapa se combina con los demás parámetros del grupo <b>Size</b>. |
+| <b>Escala de spline</b> *Flotante* | Un control global para el tamaño de todas las splines, donde 1 es su tamaño original completo.<br>El escalado se aplica en relación con el giro de una spline. La posición de pivote se puede desplazar mediante el parámetro <b>Spline Pivot</b>. |
+| <b>Aleatoria de escala de spline</b> *Flotante* | Aplica un multiplicador aleatorio hasta el valor especificado para reducir el tamaño de las splines. |
+| <b>Multiplicador de entrada de mapa de escala</b> *Flotante* | Controla la intensidad de la entrada <b>Scale Map</b>. Este mapa actúa como un multiplicador para el tamaño actual de los patrones.<br>El efecto de este mapa se combina con los demás parámetros del grupo <b>Size</b>. |
 | <b>Modo de muestreo de entrada de mapa de escala</b> *Entero* | Método para asignar los valores del <b>mapa de escala</b> a las splines:<br><br>- <b>espacio de Textura</b> Los valores se aplican a las splines donde se colocarían si se colocaran en una textura utilizando las coordenadas UV de la textura. Esto aplica el valor a las splines &#39;in place&#39;<br>- <b>Horizontal along spline</b>. Los valores se aplican a las coordenadas de las splines codificadas directamente (consulte la entrada <b>Spline Coords</b>), donde cada fila se aplica a una spline diferente de arriba a abajo<br>- <b>Hor. a lo largo de la spline (rand. desplazamiento X)</b> Los valores se aplican a las coordenadas de las splines codificadas directamente (consulte la entrada <b>Spline Coords</b>), con un desplazamiento horizontal aleatorio en el <b>mapa de escala</b> para cada spline (es decir, cada fila en <b>Spline Coords</b>)<br>- <b>Hor. a lo largo de la spline (rand. desplazamiento Y)</b> Los valores se aplican a las coordenadas de las splines codificadas directamente (consulte la entrada <b>Spline Coords</b>), con un desplazamiento vertical aleatorio en el <b>mapa de escala</b> para cada spline (es decir, cada fila en <b>Spline Coords</b>) |
 | <b>Iniciar o finalizar atenuación</b> *Float2* | Factores en la distancia desde el punto medio de la spline hasta sus <b>iniciales</b> y <b>finales</b> al escalar las splines.<br>Esto significa que el tamaño disminuye para las splines más cercanas a las extremidades de una spline. |
 | <b>Posición</b> |  |
@@ -127,7 +127,7 @@ Haz clic en la imagen de la derecha para acceder a nuestro <b>tutorial dedicado<
 | <b>Rotación</b> *Flotante* | Gira las splines alrededor de sus puntos de giro, en número de vueltas. La posición de pivote se puede desplazar mediante el parámetro <b>Spline Pivot</b>. |
 | <b>Aleatorio de rotación</b> *Flotante* | Aplica una rotación aleatoria adicional a las splines alrededor de sus puntos de giro, en número de vueltas. La posición de pivote se puede desplazar mediante el parámetro <b>Spline Pivot</b>. |
 | <b>Ángulo izquierdo/derecho</b> *Flotante* | Controla el ángulo de rotación simétrica aplicado a las splines a cada lado de las splines padre, en número de vueltas. |
-| <b>Ángulo aleatorio izquierdo/derecho</b> *Flotador* | Añade una cantidad aleatoria de rotación simétrica a las splines de cada lado de las splines padre, en número de vueltas. |
+| <b>Ángulo aleatorio izquierdo/derecho</b> *Flotante* | Añade una cantidad aleatoria de rotación simétrica a las splines de cada lado de las splines padre, en número de vueltas. |
 | <b>Multiplicador de entrada de Mapa de rotación</b> *Flotante* | Controla la intensidad de la entrada de <b>Mapa de rotación</b>. Este mapa actúa como un multiplicador para la rotación actual de los patrones.<br>El efecto de este mapa se combina con los demás parámetros del grupo <b>Rotation</b>. |
 | <b>Modo de muestreo de entrada de Mapa de rotación</b> *Entero* | Método para asignar los valores del <b>Mapa de rotación</b> a las splines:<br><br>- <b>espacio de Textura</b> Los valores se aplican a las splines donde se colocarían si se colocaran en una textura utilizando las coordenadas UV de la textura. Esto aplica el valor a las splines &#39;in place&#39;,<br>- <b>Horizontal along spline</b>. Los valores se aplican a las coordenadas de las splines codificadas directamente (consulte la entrada <b>Spline Coords</b>), donde cada fila se aplica a una spline diferente de arriba abajo,<br>- <b>Hor. a lo largo de la spline (rand. desplazamiento X)</b> Los valores se aplican a las coordenadas de las splines codificadas directamente (consulte la entrada <b>Spline Coords</b>), con un desplazamiento horizontal aleatorio en el <b>Mapa de rotación</b> para cada spline (es decir, cada fila en <b>Spline Coords</b>).<br>- <b>Hora. a lo largo de la spline (rand. desplazamiento Y)</b> Los valores se aplican a las coordenadas de las splines codificadas directamente (consulte la entrada <b>Spline Coords</b>), con un desplazamiento vertical aleatorio en el <b>Mapa de rotación</b> para cada spline (es decir, cada fila en <b>Spline Coords</b>)<b>.</b> |
 | <b>La Entrada De Mapa de rotación Afecta A</b> *Entero* | Selecciona el parámetro de rotación que se ve afectado por el <b>Mapa de rotación</b>:<br><br>- <b>Rotación de spline</b> El mapa afecta a la rotación global de las splines en el sentido de las agujas del reloj.<br>- <b>Ángulo izquierdo/derecho</b> El mapa afecta a la rotación simétrica de las splines <b>izquierda/derecha</b>. |
@@ -162,12 +162,12 @@ Haz clic en la imagen de la derecha para acceder a nuestro <b>tutorial dedicado<
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersión en Splines: Ejemplo 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-03.png "Splines de Dispersión en Splines: Ejemplo 1"){zoomable="yes"}
+![Splines de Dispersión en Splines: Ejemplo 1](../../../../../../assets/scatter-splines-on-splines-example-1.png "Splines de Dispersión en Splines: Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersión en Splines: Ejemplo 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-04.png "Splines de Dispersión en Splines: Ejemplo 1"){zoomable="yes"}
+![Splines de Dispersión en Splines: Ejemplo 1](../../../../../../assets/scatter-splines-on-splines-example-2.png "Splines de Dispersión en Splines: Ejemplo 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ Haz clic en la imagen de la derecha para acceder a nuestro <b>tutorial dedicado<
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersión en Splines: Ejemplo 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-05.png "Splines de Dispersión en Splines: Ejemplo 3"){zoomable="yes"}
+![Splines de Dispersión en Splines: Ejemplo 3](../../../../../../assets/scatter-splines-on-splines-example-4.png "Splines de Dispersión en Splines: Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersión en Splines: Ejemplo 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-06.png "Splines de Dispersión en Splines: Ejemplo 4"){zoomable="yes"}
+![Splines de Dispersión en Splines: Ejemplo 4](../../../../../../assets/scatter-splines-on-splines-example-3.png "Splines de Dispersión en Splines: Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ Haz clic en la imagen de la derecha para acceder a nuestro <b>tutorial dedicado<
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersión en Splines: Procesar 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-07.png "splines de Dispersión en splines: Procesar 1"){zoomable="yes"}
+![Splines de Dispersión en Splines: Procesar 1](../../../../../../assets/scatter-splines-on-splines-demo-1.png "splines de Dispersión en splines: Procesar 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersión en Splines: Procesar 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-08.png "splines de Dispersión en splines: Procesar 2"){zoomable="yes"}
+![Splines de Dispersión en Splines: Procesar 2](../../../../../../assets/scatter-splines-on-splines-demo-3.png "splines de Dispersión en splines: Procesar 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Splines de Dispersión en Splines: Procesar 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-09.png "splines de Dispersión en splines: Procesar 3"){zoomable="yes"}
+![Splines de Dispersión en Splines: Procesar 3](../../../../../../assets/scatter-splines-on-splines-demo-2.png "splines de Dispersión en splines: Procesar 3"){zoomable="yes"}

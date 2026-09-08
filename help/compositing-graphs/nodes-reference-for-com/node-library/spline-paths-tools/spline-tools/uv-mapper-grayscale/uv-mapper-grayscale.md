@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Utilice el nodo Escala de grises del asignador UV para asignar texturas de escala de grises a lo largo de splines para la generación de texturas de procedimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Escala de grises del asignador UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](uv-mapper-grayscale.resources/uv-mapper-grayscale-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/uv-mapper-grayscale-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -69,11 +69,11 @@ Asigna la imagen de escala de grises de entrada mediante las coordenadas proporc
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-02.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-03.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -85,11 +85,11 @@ Asigna la imagen de escala de grises de entrada mediante las coordenadas proporc
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-04.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-05.jpg" alt="UVMapper-Variant2-After">
+      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -99,4 +99,4 @@ Asigna la imagen de escala de grises de entrada mediante las coordenadas proporc
 </tr>
 </table>
 
-![Ejemplo de nodo 1](uv-mapper-grayscale.resources/uv-mapper-grayscale-06.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](../../../../../../assets/UVMapper-Graph.jpg "Ejemplo de nodo 1")

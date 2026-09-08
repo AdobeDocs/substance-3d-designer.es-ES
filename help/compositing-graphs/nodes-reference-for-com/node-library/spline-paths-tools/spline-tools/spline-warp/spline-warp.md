@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
 breadcrumb-title: ''
 description: Utilice el nodo Deformación polinomial para deformar texturas a lo largo de trazados polinomiales con el fin de crear motivos curvos y orgánicos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Deformación polinomial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](spline-warp.resources/spline-warp-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/spline-warp-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -78,8 +78,8 @@ La intensidad del efecto de deformación se puede ajustar a lo largo de la splin
 | <b>Usar mapa vectorial</b> <i>Booleano</i> | Cambia el método de desplazamiento de las splines al uso de una entrada de mapa vectorial para especificar la dirección del desplazamiento.<br>El color de cada píxel de la imagen especifica un vector (X, Y) cuyas coordenadas están codificadas en los canales rojo (X) y verde (Y). +X es la derecha y +Y es abajo.<br>El [0; 1] los valores de la imagen se reasignan al [-1; 1] rango cuando se lee como coordenadas vectoriales: 0 rojo desplaza puntos hacia la izquierda y 0 verde desplaza puntos hacia arriba. El color rojo y verde de 0,5 deja la spline en su lugar. |
 | <b>Usar curva de atenuación</b> <i>Booleano</i> | Permite controlar la intensidad del efecto de deformación a lo largo de una spline mediante una curva codificada en la imagen de entrada Curva de atenuación. |
 | <b>Mosaico de mapa de intensidad</b> <i>Flotador</i> | (Disponible cuando &quot;Modo de muestreo&quot; no está definido como &quot;Espacio de Textura&quot;) Ajusta el mosaico del mapa de intensidad cuando se asigna directamente a las coordenadas de spline (consulte Entrada de códigos de spline). |
-| <b>Iniciar atenuación</b> <i>Flotante</i> | (Disponible cuando &quot;Usar curva de atenuación&quot; está establecido en &quot;Falso&quot;) Un multiplicador para la atenuación del efecto de deformación cerca del inicio de la spline.<br>Un valor de 1 significa que no se aplica deformación al inicio de la spline. |
-| <b>Finalizar atenuación</b> <i>Flotante</i> | (Disponible cuando &quot;Usar curva de atenuación&quot; está establecido en &quot;Falso&quot;) Un multiplicador para la atenuación del efecto de deformación cerca del final de la spline.<br>Un valor de 1 significa que no se aplica deformación al final de la spline. |
+| <b>Iniciar atenuación</b> <i>Flotador</i> | (Disponible cuando &quot;Usar curva de atenuación&quot; está establecido en &quot;Falso&quot;) Un multiplicador para la atenuación del efecto de deformación cerca del inicio de la spline.<br>Un valor de 1 significa que no se aplica deformación al inicio de la spline. |
+| <b>Finalizar atenuación</b> <i>Flotador</i> | (Disponible cuando &quot;Usar curva de atenuación&quot; está establecido en &quot;Falso&quot;) Un multiplicador para la atenuación del efecto de deformación cerca del final de la spline.<br>Un valor de 1 significa que no se aplica deformación al final de la spline. |
 | <b>Recalcular tangentes</b> <i>Booleano</i> | Si es True, las tangentes de una spline se vuelven a calcular después de aplicar el efecto de deformación.<br>Esto garantiza que las tangentes de la spline sean coherentes con su trayectoria cuando se utilizan en nodos como Dispersión en spline o Asignador de flujo de spline. |
 | <b>Vista previa</b> |  |
 | <b>Cantidad de segmentos</b> <i>Entero</i> | Ajusta el número de segmentos utilizados para dibujar la visualización de spline en la salida de vista previa.<br>Un valor más alto produce una línea más suave. |
@@ -97,11 +97,11 @@ La intensidad del efecto de deformación se puede ajustar a lo largo de la splin
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-02.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-03.jpg" alt="SplineWarp-Variant1-After">
+      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ La intensidad del efecto de deformación se puede ajustar a lo largo de la splin
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-04.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-05.jpg" alt="SplineWarp-Variant2-After">
+      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ La intensidad del efecto de deformación se puede ajustar a lo largo de la splin
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](spline-warp.resources/spline-warp-06.gif "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](../../../../../../assets/SplineWarp-Demo.gif "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">

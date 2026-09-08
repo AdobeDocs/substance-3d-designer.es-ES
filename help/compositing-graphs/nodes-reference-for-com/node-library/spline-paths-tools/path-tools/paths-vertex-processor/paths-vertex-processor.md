@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: Utilice el nodo Procesador de vértices de trazados para transformar y manipular los vértices de trazado con opciones avanzadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de vértices de rutas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](paths-vertex-processor.resources/paths-vertex-processor-01.png "Icono de nodo")
+![Icono de nodo](../../../../../../assets/paths-vertex-processor-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -84,7 +84,7 @@ También puede tener acceso a las variables *prev[2].pos* (Flotante2), *next[2].
 | <b>Se ha obtenido acceso a vértices anteriores</b> <i>Entero</i> | El uso de este parámetro le permitirá obtener la posición del vértice anterior a lo largo de la ruta de acceso (*prev.pos*) y el vértice anterior (*prev[2].pos*) utilizando los nodos <b>Get</b> en la función de parámetro <b>Por función de vértice</b>. |
 | <b>Se ha obtenido acceso a los siguientes vértices</b> <i>Entero</i> | El uso de este parámetro le permitirá obtener la posición del siguiente vértice a lo largo de la ruta (*next.pos*) y el siguiente vértice (*next[2].pos*) mediante los nodos <b>Get</b> en la función de parámetro <b>Por función de vértice</b>. |
 | <b>Recuento de entrada de imagen</b> <i>Entero</i> | Número de conectores de entrada <b>Input #</b> visibles para conectar imágenes que se deben muestrear en la función de parámetro <b>Por función de vértice</b>.<br>Una vez que haya terminado de configurar todas las muestras deseadas, puede ocultar los pin no utilizados reduciendo el valor de este parámetro a 0. |
-| <b>Por función de vértice</b> <i>Float2</i> | Función aplicada a cada vértice. Debe devolver la nueva posición del vértice.<br>Consulte la sección <b>Descripción</b> de esta página para obtener instrucciones. |
+| <b>Por función de vértice</b> <i>Flotante2</i> | Función aplicada a cada vértice. Debe devolver la nueva posición del vértice.<br>Consulte la sección <b>Descripción</b> de esta página para obtener instrucciones. |
 
 ## Ejemplos
 
@@ -92,7 +92,7 @@ También puede tener acceso a las variables *prev[2].pos* (Flotante2), *next[2].
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](paths-vertex-processor.resources/paths-vertex-processor-02.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Ejemplo de nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">
