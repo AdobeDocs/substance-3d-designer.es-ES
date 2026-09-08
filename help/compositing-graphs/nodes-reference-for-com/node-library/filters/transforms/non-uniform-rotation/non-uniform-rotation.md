@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
 breadcrumb-title: ''
 description: Utilice el nodo Rotación no uniforme para aplicar transformaciones de rotación no uniformes para crear efectos de espiral y vórtice.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rotación no uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](non-uniform-rotation.resources/non-uniform-rotation-01.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](non-uniform-rotation.resources/non-uniform-rotation-02.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -83,13 +83,13 @@ Los valores positivos en la entrada **Mapa de rotación** dan como resultado una
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-03.gif" />
+            <img src="../../../../../../assets/nonuniformrotation-demo-02-resized.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-04.jpg" />
+            <img src="../../../../../../assets/nonuniformrotation-variant-png.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-05.png" />
+            <img src="../../../../../../assets/nonuniformrotation-node.png" />
         </td>
     </tr>
 </table>
