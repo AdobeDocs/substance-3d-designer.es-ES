@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-3.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-3.html"
 breadcrumb-title: ''
 description: Utilice el nodo Dirt 3 para generar patrones de dirt intermedios para crear detalles de superficie intemperizados y efectos de acumulación.
 helpx_creative_field: ""
