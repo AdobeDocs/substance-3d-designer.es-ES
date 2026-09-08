@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Utilice el nodo Combinador de datos de malla para combinar varias entradas de datos de malla para la generación avanzada de textura basada en malla.
 helpx_creative_field: ""

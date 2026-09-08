@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
 breadcrumb-title: ''
 description: Utilice el nodo de erosión de la tela para añadir efectos de desgaste y envejecimiento a los materiales de la tela en función de la geometría de malla y la curvatura.
 helpx_creative_field: ""
