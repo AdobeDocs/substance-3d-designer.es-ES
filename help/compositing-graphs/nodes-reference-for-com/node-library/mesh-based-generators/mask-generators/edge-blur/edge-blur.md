@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
 breadcrumb-title: ''
 description: Utilice el nodo Desenfoque de borde para desenfocar las máscaras de borde para crear transiciones suaves y efectos de intemperismo basados en bordes suaves.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desenfoque de borde
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-blur.resources/edge-blur-01.png){width="128px"}
+![](../../../../../../assets/edge-blur.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Generadores de máscaras
 
@@ -65,7 +65,7 @@ Esta máscara resalta los bordes en función de un mapa de curvatura horneado. E
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-blur.resources/edge-blur-02.gif" />
+            <img src="../../../../../../assets/edge-blur-ex.gif" />
         </td>
     </tr>
 </table>
