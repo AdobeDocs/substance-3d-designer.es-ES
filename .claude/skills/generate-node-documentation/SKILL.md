@@ -1,7 +1,7 @@
 ---
 name: generate-node-documentation
 description: ""
-source-git-commit: 69f546a26d2e09127b1c79ef4003e235536289da
+source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 4%
@@ -26,7 +26,7 @@ pelusa gotchas) sigue la habilidad `write-experience-league-markdown`.
   `.../node-library/<category>/<subcategory>/<node-name>/<node-name>.md`.
 * La carpeta se denomina como el título del nodo kebab-case; contiene **un** archivo `.md`
 con el mismo nombre.
-* Todos los medios incrustados de la página (icono, imágenes de ejemplo, GIF) viven en un hermano **&#x200B;  `<node-name>.resources/` carpeta &#x200B;** junto a `.md` y se hace referencia a ella con una
+* Todos los medios incrustados de la página (icono, imágenes de ejemplo, GIF) viven en un hermano **  `<node-name>.resources/` carpeta **junto a `.md` y se hace referencia a ella con una
   ruta relativa (p. ej. `<node-name>.resources/<file>.png`). No señalar páginas de nodo en
   la carpeta `help/assets/` compartida, es decir, un modelo heredado que se está eliminando gradualmente; nuevo y
   las páginas editadas utilizan su propia carpeta `.resources`.
