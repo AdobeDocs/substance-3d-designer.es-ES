@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: Utilice el nodo Irradiancia RT para calcular la información de irradiancia en tiempo real a partir de la geometría para realizar cálculos de iluminación realistas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT Irradiancia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rt-irradiance.resources/rt-irradiance-01.png){width="128px"}
+![](../../../../../../assets/rt-irradiance.png){width="128px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -70,13 +70,13 @@ Genera una irradiancia trazo de rayo en una entrada de mapa de height generada a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irradiance-02.jpg" />
+            <img src="../../../../../../assets/rt-irr-03-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irradiance-03.jpg" />
+            <img src="../../../../../../assets/rt-irr-01-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irradiance-04.jpg" />
+            <img src="../../../../../../assets/rt-irr-02-1.jpg" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
 breadcrumb-title: ''
 description: Utilice el nodo Non Uniform Directional Warp para aplicar una deformación direccional no uniforme y crear efectos de distorsión variados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Non Uniform Directional Warp
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-uniform-directional-warp.resources/non-uniform-directional-warp-01.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-02.png)
+![](../../../../../../assets/non-uniform-directional-warp-color.png)![](../../../../../../assets/non-uniform-directional-warp-grayscale.png)
 
 <b>En:</b> Filtros > Efectos
 
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Descripción
 
-Deformación de dirección no uniforme es una versión avanzada de [Deformación de dirección](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) que permite que la intensidad y la dirección de la deformación se controlen mediante una entrada de imagen. Permite mucho más control y puede crear una distorsión de imagen muy útil e interesante, en el mismo vano que [Desenfoque de Pendiente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
+Deformación de dirección no uniforme es una versión avanzada de [Deformación direccional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) que permite que la intensidad y la dirección de la deformación se controlen mediante una entrada de imagen. Permite mucho más control y puede crear una distorsión de imagen muy útil e interesante, en el mismo vano que [Desenfoque de Pendiente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
-Se diferencia de [Deformación multidireccional](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) en que permite el control sobre el ángulo a través de una entrada de mapa personalizada, mientras que Deformación multidireccional solo permite que la dirección se controle a través de parámetros. Esto significa que puede crear efectos finales y curvos avanzados que de lo contrario no serían posibles.
+Se diferencia de [Multi Deformación direccional](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) en que permite el control sobre el ángulo a través de una entrada de mapa personalizada, mientras que Multi Deformación direccional solo permite que la dirección se controle a través de parámetros. Esto significa que puede crear efectos finales y curvos avanzados que de lo contrario no serían posibles.
 
 </td>
 </tr>

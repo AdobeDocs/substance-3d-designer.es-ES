@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
-description: Utilice el nodo Reaction Diffusion Fast para generar patrones orgánicos utilizando algoritmos de reacción-difusión rápidos para texturas procedimentales.
+description: Utilice el nodo Reaction Diffusion Fast para generar patrones orgánicos utilizando algoritmos de reacción-difusión rápida para texturas procedimientas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Reacción Difusión Rápida
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo de difusión de reacción](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "Icono de nodo de difusión de reacción")
+![Icono de nodo de difusión de reacción](../../../../../../assets/reaction-diffusion.png "Icono de nodo de difusión de reacción")
 
 <b>En:</b> Filtros > Efectos
 
@@ -65,8 +65,8 @@ Este nodo está optimizado para el rendimiento y realiza algunas compensaciones 
 
 |  |  |
 |:---|:---|
-| <b>Radio</b> *Flotador* | Hasta dónde debe extenderse el efecto. |
-| <b>Contraste</b> *Flotador* | Ajusta el contraste de la entrada y sirve como una especie de umbral. |
+| <b>Radio</b> *Flotante* | Hasta dónde debe extenderse el efecto. |
+| <b>Contraste</b> *Flotante* | Ajusta el contraste de la entrada y sirve como una especie de umbral. |
 
 ## Ejemplos
 
@@ -74,17 +74,17 @@ Este nodo está optimizado para el rendimiento y realiza algunas compensaciones 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo 1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "Ejemplo 1")
+![Ejemplo 1](../../../../../../assets/reactdiff03.png "Ejemplo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo 2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "Ejemplo 2")
+![Ejemplo 2](../../../../../../assets/reactdiff02.png "Ejemplo 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo 3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "Ejemplo 3")
+![Ejemplo 3](../../../../../../assets/reactdiff01.gif "Ejemplo 3")
 
 </td>
 </tr>
