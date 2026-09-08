@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
 breadcrumb-title: ''
 description: Utilice el nodo Visor de Rangos de HDR. para visualizar rangos de textura de HDR. para analizar y ajustar valores de alto rango dinámico.
 helpx_creative_field: ""

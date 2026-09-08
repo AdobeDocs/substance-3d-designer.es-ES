@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
 breadcrumb-title: ''
 description: Utilice el nodo Reemplazar color para reemplazar colores específicos en texturas por colores nuevos para la corrección y los ajustes de color.
 helpx_creative_field: ""
