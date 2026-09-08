@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
 breadcrumb-title: ''
 description: Utilice el nodo Plasma para generar patrones de ruido similares a los del plasma para crear efectos de textura orgánica y fluida.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Plasma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plasma.resources/plasma-01.png){width="128px"}
+![](../../../../../../assets/plasma.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -54,7 +54,7 @@ Esto genera una variante ligeramente diferente del [ruido gaussiano](../../../..
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plasma.resources/plasma-02.gif" />
+            <img src="../../../../../../assets/plasma-ex.gif" />
         </td>
     </tr>
 </table>

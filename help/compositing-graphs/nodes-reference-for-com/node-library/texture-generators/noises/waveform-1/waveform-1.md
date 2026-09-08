@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Forma de onda 1 para generar patrones de forma de onda para crear texturas orgánicas y variaciones de procedimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forma de onda 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Forma de onda 1 - Icono](waveform-1.resources/waveform-1-01.png "Forma de onda 1 - Icono"){width="200px"}
+![Forma de onda 1 - Icono](../../../../../../assets/waveform_01_v2.png "Forma de onda 1 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -59,8 +59,8 @@ Disposición horizontal de patrones seleccionados por el usuario apilados en una
 | <b>Rugosidad</b> <i>Flotador</i> | Interpola entre una forma de onda limpia y suave con una que es más áspera y distribuida uniformemente.    Esto se puede considerar como señal limpia frente a ruido blanco. |
 | <b>Escala</b> <i>Entero</i> | El espacio horizontal de la forma de onda visible en la imagen. |
 | <b>Amplitud mínima</b> <i>Flotador</i> | El valor mínimo (o thickness) de la forma de onda. |
-| <b>Amplitud máxima</b> <i>Flotante</i> | El valor máximo (o thickness) de la forma de onda. |
-| <b>Ruido</b> <i>Flotante</i> | Aplica ruido a la forma de onda que resta aleatoriamente de su alcance vertical. |
+| <b>Amplitud máxima</b> <i>Flotador</i> | El valor máximo (o thickness) de la forma de onda. |
+| <b>Ruido</b> <i>Flotador</i> | Aplica ruido a la forma de onda que resta aleatoriamente de su alcance vertical. |
 | <b>Posición</b> <i>Entero</i> | Posición de la forma de onda en la imagen:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Centrado:</i> El origen está en el centro vertical de la imagen</li> <li data-preserve-html="true"><i>Inferior:</i> El origen está en la parte inferior de la imagen</li> </ul> |
 | <b>Patrón</b> <i>Entero</i> | Patrón colocado en cada muestra de la forma de onda. |
 | <b>Variación de patrón</b> <i>Flotador</i> | Existe un ajuste adicional disponible para algunos patrones. |
@@ -73,7 +73,7 @@ Disposición horizontal de patrones seleccionados por el usuario apilados en una
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Forma de onda 1 - Ejemplo 1](waveform-1.resources/waveform-1-02.gif "Forma de onda 1 - Ejemplo 1"){zoomable="yes"}
+![Forma de onda 1 - Ejemplo 1](../../../../../../assets/waveform_01_v2_speed0.1_aniso0.gif "Forma de onda 1 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
