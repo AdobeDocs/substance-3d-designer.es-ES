@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
 breadcrumb-title: ''
 description: Utilice el nodo Ruido simple 3D para generar patrones de ruido simple 3D para crear texturas volumétricas suaves y de aspecto natural.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruido simple en 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-simplex-noise.resources/3d-simplex-noise-01.png){width="128px"}
+![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -56,7 +56,7 @@ Este ruido se puede probar con [Cube 3D GBuffers](https://support.allegorithmic.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-simplex-noise.resources/3d-simplex-noise-02.gif" />
+            <img src="../../../../../../assets/3d-simplex.gif" />
         </td>
     </tr>
 </table>

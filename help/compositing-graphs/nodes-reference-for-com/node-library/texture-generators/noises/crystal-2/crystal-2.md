@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
 breadcrumb-title: ''
 description: Utilice el nodo Crystal 2 para generar patrones de cristal avanzados para crear efectos de textura geométrica y cristalina.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Crystal 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](crystal-2.resources/crystal-2-01.png){width="128px"}
+![](../../../../../../assets/crystal-2.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -56,7 +56,7 @@ Esto es un poco de ruido de nicho: puede ser útil para casos raros en los que s
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="crystal-2.resources/crystal-2-02.png" />
+            <img src="../../../../../../assets/crystal-2-1.png" />
         </td>
     </tr>
 </table>

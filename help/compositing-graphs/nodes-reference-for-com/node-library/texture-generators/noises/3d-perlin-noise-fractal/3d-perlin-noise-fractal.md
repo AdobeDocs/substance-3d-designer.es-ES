@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fractal de ruido de Perlin 3D para generar patrones de ruido de Perlin fractales en el espacio 3D para crear texturas volumétricas detalladas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fractal de ruido de Perlin en 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-01.png){width="200px"}
+![](../../../../../../assets/3dperlinnoisefractal.png){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -72,13 +72,13 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-02.gif" />
+            <img src="../../../../../../assets/3dfractal.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-03.jpg" />
+            <img src="../../../../../../assets/3dperlinnoisefractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-04.jpg" />
+            <img src="../../../../../../assets/3dperlinnoisefractal-variant2.jpg" />
         </td>
     </tr>
 </table>

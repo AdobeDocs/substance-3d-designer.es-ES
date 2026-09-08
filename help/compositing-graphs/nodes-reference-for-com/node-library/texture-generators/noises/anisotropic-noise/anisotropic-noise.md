@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
 description: Utilice el nodo Ruido anisotrópico para generar patrones de ruido direccional para crear efectos de textura anisotrópica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruido anisotrópico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruido anisotrópico - Icono](anisotropic-noise.resources/anisotropic-noise-01.png "Ruido anisotrópico - Icono"){width="200px"}
+![Ruido anisotrópico - Icono](../../../../../../assets/anisotropic_noise_v2.png "Ruido anisotrópico - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -41,11 +41,15 @@ La cantidad de tiras es ajustable, al igual que el smoothness de sus transicione
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Salidas
 
 |  |  |
 |:---|:---|
 | <b>Salida</b> <i>Escala de grises</i> | El ruido generado como un mapa de bits en escala de grises. |
+
+<a name="parameters"></a>
 
 ## Parámetros
 
@@ -67,12 +71,12 @@ La cantidad de tiras es ajustable, al igual que el smoothness de sus transicione
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruido anisotrópico - Ejemplo 1](anisotropic-noise.resources/anisotropic-noise-02.png "Ruido anisotrópico - Ejemplo 1"){zoomable="yes"}
+![Ruido anisotrópico - Ejemplo 1](../../../../../../assets/anisotropic_noise_v2_1.png "Ruido anisotrópico - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruido anisotrópico - Ejemplo 2](anisotropic-noise.resources/anisotropic-noise-03.gif "Ruido anisotrópico - Ejemplo 2"){zoomable="yes"}
+![Ruido anisotrópico - Ejemplo 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Ruido anisotrópico - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
