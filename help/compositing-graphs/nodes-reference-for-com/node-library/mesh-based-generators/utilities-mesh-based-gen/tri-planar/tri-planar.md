@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
 description: Utilice el nodo Plano Tri para proyectar texturas de tres planos ortogonales para una asignación de texturas perfecta en geometría compleja.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tri Plano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tri-planar.resources/tri-planar-01.png){width="128px"}
+![](../../../../../../assets/triplanar-1.png){width="128px"}
 
-![](tri-planar.resources/tri-planar-02.png){width="128px"}
+![](../../../../../../assets/triplanar-grayscale.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Utilidades
 
