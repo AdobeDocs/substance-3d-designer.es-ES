@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: Aprenda a administrar el contenido y los filtros personalizados en la biblioteca de Substance 3D Designer para el acceso organizado a los recursos.
 helpx_creative_field: ""

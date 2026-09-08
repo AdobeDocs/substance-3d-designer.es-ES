@@ -60,7 +60,7 @@ La opción <b>Project</b> le permite filtrar la lista de plantillas por archivo 
 La lista de plantillas se puede mostrar en diferentes modos mediante *botones* junto al cuadro combinado **Proyecto**:
 
 * **![](../../assets/mdl-template-recent-icon.png)Mostrar usado recientemente**: filtra la lista para mostrar las últimas plantillas utilizadas en orden de *más recientes a menos recientes*, siendo el elemento superior el más reciente
-* **![](../../assets/mdl-template-graphs-icon.png)Mostrar gráficos**: las plantillas se muestran por su *solo etiqueta*, en el orden de los archivos [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) del directorio de plantillas
+* **![](../../assets/mdl-template-graphs-icon.png)Mostrar gráficos**: las plantillas se muestran por su *solo etiqueta*, en el orden de los archivos [Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) del directorio de plantillas
 * **![](../../assets/mdl-template-packages-icon.png)Mostrar archivos de Substance 3D**: las plantillas se muestran por su etiqueta como *elementos secundarios del archivo de Substance 3D al que pertenecen*, en el orden de los archivos del directorio de plantillas
 * **![](../../assets/mdl-template-directory-icon.png)Mostrar directorios**: las plantillas se muestran en su etiqueta como *elementos secundarios del directorio al que pertenecen*, en el orden de los archivos del directorio de las plantillas
 

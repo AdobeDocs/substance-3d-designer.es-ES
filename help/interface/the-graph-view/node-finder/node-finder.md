@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Utilice el Buscador de nodos para buscar y localizar rápidamente nodos en los gráficos del Substance para una navegación eficaz.
 helpx_creative_field: ""

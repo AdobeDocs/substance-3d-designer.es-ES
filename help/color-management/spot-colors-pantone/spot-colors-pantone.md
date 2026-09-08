@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/color-management/spot-colors-pantone.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar las tintas planas de Pantone en Substance 3D Designer para conseguir una coincidencia de color precisa en los flujos de trabajo de impresión y diseño.
 helpx_creative_field: ""
