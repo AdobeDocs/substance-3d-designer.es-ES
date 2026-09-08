@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Aprenda a administrar y organizar parámetros en Substance que componen gráficas para una mejor organización del flujo de trabajo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestionar parámetros
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Cuando las propiedades de un nodo se muestran en el conjunto acoplado de propied
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menú global &quot;Administrar parámetros&quot; en Propiedades](../../assets/manage-parameters-menu-global.png "Menú global &quot;Administrar parámetros&quot; en Propiedades"){zoomable="yes"}
+![Menú global &quot;Administrar parámetros&quot; en Propiedades](manage-parameters.resources/manage-parameters-menu-global.png "Menú global &quot;Administrar parámetros&quot; en Propiedades"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Si desea administrar un parámetro *single*, use el menú &#39;<b>Manage functio
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menú local &quot;Administrar parámetros&quot; en Propiedades](../../assets/manage-parameters-menu.png "Menú local &quot;Administrar parámetros&quot; en Propiedades"){zoomable="yes"}
+![Menú local &quot;Administrar parámetros&quot; en Propiedades](manage-parameters.resources/manage-parameters-menu.png "Menú local &quot;Administrar parámetros&quot; en Propiedades"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Las mismas limitaciones que se enumeran a continuación para los nodos atómicos
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-Menú ![&#39;Administrar parámetros&#39; en menú contextual de nodo](../../assets/manage-parameters-node-menu.png "&#39;Administrar parámetros&#39; en menú contextual de nodo"){zoomable="yes"}
+Menú ![&#39;Administrar parámetros&#39; en menú contextual de nodo](manage-parameters.resources/manage-parameters-node-menu.png "&#39;Administrar parámetros&#39; en menú contextual de nodo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -120,16 +120,16 @@ Menú ![&#39;Administrar parámetros&#39; en menú contextual de nodo](../../ass
 
 ## Copiar y pegar parámetros
 
-Es posible copiar todos los valores de parámetros de un nodo de origen y pegarlos en un nodo de destino. Los parámetros de los nodos de origen y destino <b> coinciden según sus identificadores y tipos</b>.
+Es posible copiar todos los valores de parámetros de un nodo de origen y pegarlos en un nodo de destino. Los parámetros de los nodos de origen y destino <b>coinciden en función de sus identificadores y tipos</b>.
 
-Por ejemplo, un parámetro &#39;Escala&#39; cuyo identificador es &#39;escala&#39; y el tipo es &#39;Float&#39; se puede copiar y pegar en otro parámetro &#39;Escala de forma&#39; cuando su identificador es también &#39;escala&#39; y su tipo es también &#39;Float&#39;.
+Por ejemplo, un parámetro &#39;Escala&#39; cuyo identificador es &#39;escala&#39; y el tipo es &#39;Flotante&#39; se puede copiar y pegar en otro parámetro &#39;Escala de forma&#39; cuando su identificador también es &#39;escala&#39; y su tipo es también &#39;Flotante&#39;.
 
 Esta característica funciona de la misma manera que el uso de un [archivo de parámetros preestablecidos](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md). De hecho, los datos copiados en el portapapeles son los mismos que los datos almacenados en los archivos de ajustes preestablecidos de SBSPRS, y se pueden pegar en cualquier editor de texto para revisarlos y editarlos.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Copiar y pegar parámetros](../../assets/copy-paste-parameters.gif "Copiar y pegar parámetros"){zoomable="yes"}
+![Copiar y pegar parámetros](manage-parameters.resources/copy-paste-parameters.gif "Copiar y pegar parámetros"){zoomable="yes"}
 
 </td>
 </tr>
