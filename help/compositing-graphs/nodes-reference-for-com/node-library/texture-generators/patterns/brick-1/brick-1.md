@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Ladrillo 1 para generar patrones de ladrillo básicos para crear efectos de mampostería y textura en mosaico.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Brick 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](brick-1.resources/brick-1-01.png){width="128px"}
+![](../../../../../../assets/brick-1.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -46,16 +46,16 @@ Patrón de ladrillo simple, consulta [Generador de ladrillos](../../../../../../
 |  |  |
 |:---|:---|
 | <b>Mosaico</b> <i>1 - 16</i> | Define la cantidad de veces que el resultado debe aparecer en mosaico. |
-| <b>Smoothness Edge</b> <i>0.0 - 1.0</i> | Fusiones entre bordes duros y suaves. |
+| <b>Suavizado de bordes</b> <i>0.0 - 1.0</i> | Fusiones entre bordes duros y suaves. |
 | <b>Ancho de intersticio</b> <i>0.0 - 1.0</i> | Define el intersticio (tamaño de hueco). |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="brick-1.resources/brick-1-02.gif" />
+            <img src="../../../../../../assets/brick-1-ex.gif" />
         </td>
     </tr>
 </table>

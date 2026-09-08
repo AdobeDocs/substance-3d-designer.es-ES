@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
 description: Utilice el nodo Azulejo aleatorio para crear patrones de azulejo aleatorios con variación de procedimiento para los efectos de textura orgánica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Azulejo aleatorio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random.resources/tile-random-01.png){width="128px"}
+![](../../../../../../assets/tile-random.png){width="128px"}
 
 <b>En:</b> Generadores > Patrones
 
@@ -106,7 +106,7 @@ Se utiliza Tile Random en lugar de [Tile Generator](../../../../../../compositin
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random.resources/tile-random-02.png" />
+            <img src="../../../../../../assets/tile-random-1.png" />
         </td>
     </tr>
 </table>

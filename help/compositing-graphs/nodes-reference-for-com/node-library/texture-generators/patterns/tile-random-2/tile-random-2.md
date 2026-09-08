@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mosaico aleatorio 2 para crear patrones de mosaico aleatorios con controles de variación avanzados en Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Azulejo aleatorio 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random-2.resources/tile-random-2-01.jpg){width="200px"}
+![](../../../../../../assets/tilerandom2.jpg){width="200px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -74,12 +74,12 @@ Una salida dedicada le permite introducir los **UV** de la forma en el **Flood F
 | <b>Tamaño aleatorio Y</b> <i>Flotador</i> | Ajusta la intensidad de la escala aleatoria en el eje <b>Y</b> <i>solo</i>. |
 | <b>Distribución de tamaño aleatorio</b> <i>Entero</i> | Controla el método de distribución de valores de escala aleatoria:<br><br>- <i>Uniforme</i>: la escala aleatoria se aplica de la <i>misma manera</i> en todas las celdas<br>- <i>Blue Noise</i>: la escala aleatoria está <i>ajustada</i> con un patrón de ruido azul |
 | <b>Aspecto de forma - Transformar</b> |  |
-| <b>Thickness intersticial</b> <i>Flotador</i> | Ajusta el thickness del espacio entre las formas. Es <i>igual para todas las formas</i>. |
-| <b>Multiplicador de posición aleatoria</b> <i>Flotador</i> | Aplica un desplazamiento de posición aleatorio a la forma hasta que <i>cumpla con el borde de su celda</i>. |
-| <b>Radio de vértices redondeados</b> <i>Flotador</i> | Ajusta el <i>radio</i> de las esquinas redondeadas de las formas. Un valor de <b>0</b> significa que no se aplica ningún redondeo.<br><br><i>Nota</i>: Este efecto no se puede aplicar cuando el parámetro <b>Habilitar control de bisel por eje</b> está establecido en <i>True</i>. |
-| <b>Mapa de entrada de radio de vértices redondeados múltiple.</b> <i>Flotador</i> | Ajusta la intensidad con la que el mapa de entrada <b>Mapa de radio de vértices redondeados</b> afecta al radio de los vértices redondeados.<br><br>El mapa actúa como un multiplicador <i>por píxel</i> para el parámetro <b>Radio de vértices redondeados</b>.<br><br><i>Nota</i>: Este efecto no se puede aplicar cuando el parámetro <b>Habilitar control de bisel por eje</b> está establecido en <i>True</i>. |
-| <b>Multiplicador de escala</b> <i>Flotador</i> | Ajusta el tamaño de cada forma como proporción del área <i>de su celda</i>. |
-| <b>Escala aleatoria</b> <i>Flotador</i> | Ajusta la intensidad con la que se aplica una escala aleatoria a <i>cada forma</i>. |
+| <b>Thickness intersticial</b> <i>Flotante</i> | Ajusta el thickness del espacio entre las formas. Es <i>igual para todas las formas</i>. |
+| <b>Multiplicador de posición aleatoria</b> <i>Flotante</i> | Aplica un desplazamiento de posición aleatorio a la forma hasta que <i>cumpla con el borde de su celda</i>. |
+| <b>Radio de vértices redondeados</b> <i>Flotante</i> | Ajusta el <i>radio</i> de las esquinas redondeadas de las formas. Un valor de <b>0</b> significa que no se aplica ningún redondeo.<br><br><i>Nota</i>: Este efecto no se puede aplicar cuando el parámetro <b>Habilitar control de bisel por eje</b> está establecido en <i>True</i>. |
+| <b>Mapa de entrada de radio de vértices redondeados múltiple.</b> <i>Flotante</i> | Ajusta la intensidad con la que el mapa de entrada <b>Mapa de radio de vértices redondeados</b> afecta al radio de los vértices redondeados.<br><br>El mapa actúa como un multiplicador <i>por píxel</i> para el parámetro <b>Radio de vértices redondeados</b>.<br><br><i>Nota</i>: Este efecto no se puede aplicar cuando el parámetro <b>Habilitar control de bisel por eje</b> está establecido en <i>True</i>. |
+| <b>Multiplicador de escala</b> <i>Flotante</i> | Ajusta el tamaño de cada forma como proporción del área <i>de su celda</i>. |
+| <b>Escala aleatoria</b> <i>Flotante</i> | Ajusta la intensidad con la que se aplica una escala aleatoria a <i>cada forma</i>. |
 | <b>Rotación</b> <i>Flotador</i> | Rota formas en sus celdas moviendo cada <i>esquina</i> a su <i>vecino</i> a lo largo del borde de la celda.<br><br>Este método hace que se aplique cierta cantidad de <i>distorsión</i> y <i>escala</i> a la forma en la que gira. |
 | <b>Aleatorio de rotación</b> <i>Flotador</i> | Ajusta la intensidad con la que se aplica una cantidad aleatoria de rotación a cada forma.<br><br>El método de rotación se describe en el parámetro <b>Rotation</b>. |
 | Posición aleatoria de <b>esquinas</b> <i>Flotador</i> | Distorsiona las formas aplicando una cantidad aleatoria de <i>offset</i> a cada una de sus <i>esquinas</i> a lo largo del borde de su celda. |
@@ -113,25 +113,25 @@ Una salida dedicada le permite introducir los **UV** de la forma en el **Flood F
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-02.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-03.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-04.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-05.gif" />
+            <img src="../../../../../../assets/tilerandom2-inputs.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-06.gif" />
+            <img src="../../../../../../assets/tilerandom2-demo.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-07.gif" />
+            <img src="../../../../../../assets/tilerandom2-demo2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-08.png" />
+            <img src="../../../../../../assets/tilerandom2-node.png" />
         </td>
     </tr>
 </table>

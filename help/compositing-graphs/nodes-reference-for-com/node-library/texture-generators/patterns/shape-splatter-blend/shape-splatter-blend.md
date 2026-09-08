@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
 breadcrumb-title: ''
-description: Utilice el nodo Mezcla de salpicaduras de formas para fusionar varias salpicaduras de formas y crear patrones de procedimiento complejos.
+description: Utilice el nodo Fusión de salpicaduras de formas para fusionar varias salpicaduras de formas y crear patrones procedimientos complejos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Mezcla de salpicaduras de formas
+title: Fusión de salpicaduras de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 14%
@@ -18,13 +18,13 @@ ht-degree: 14%
 ---
 
 
-# Mezcla de salpicaduras de formas
+# Fusión de salpicaduras de forma
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-splatter-blend.resources/shape-splatter-blend-01.png){width="128px"}
+![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
 breadcrumb-title: ''
 description: Utilice el nodo Alveolus para generar patrones celulares similares a panales de abeja para crear efectos de textura orgánicos y geométricos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alvéolo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](alveolus.resources/alveolus-01.png){width="128px"}
+![](../../../../../../assets/alveolus-1.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -55,7 +55,7 @@ Un patrón de esfera suave que también puede generar azulejos hexagonales.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="alveolus.resources/alveolus-02.gif" />
+            <img src="../../../../../../assets/alveolus.gif" />
         </td>
     </tr>
 </table>
