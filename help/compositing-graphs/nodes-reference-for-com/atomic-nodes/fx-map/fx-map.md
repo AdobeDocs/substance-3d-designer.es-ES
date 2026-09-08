@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
-description: Utilice el nodo FX-Map para aplicar gráficos de funciones a las texturas para crear patrones y efectos procedimientos.
+description: Utilice el nodo FX-Map para aplicar gráficos de funciones a las texturas para crear patrones y efectos de procedimiento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: FX-Map](../../../../assets/fxmap.png "Nodo atómico: FX-Map"){width="200px"}
+![Nodo atómico: FX-Map](fx-map.resources/fxmap.png "Nodo atómico: FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Es uno de los nodos atómicos más potentes, así como el nodo más complejo dis
 </tr>
 </table>
 
-De forma similar al [Procesador de píxeles](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), depende de usted definir y crear las funciones que determinan el comportamiento y el resultado de este nodo.
+De manera similar al [procesador de píxeles](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), depende de usted definir y crear las funciones que determinan el comportamiento y la salida de este nodo.
 
 <table>
 <tr style="border: 0;">
@@ -76,9 +76,9 @@ Tenga en cuenta que, a diferencia de otros nodos, la mayoría del comportamiento
 |  |  |
 | --- | --- |
 | <b>Modo de color</b> *Booleano* | Alterna entre una imagen de salida en escala de grises y en color. El color será mucho más lento que la escala de grises. |
-| <b>Fondo</b> *Flotante/Flotante4* | Define el color inicial del fondo en el que se deben componer los resultados. |
-| <b>Área de procesamiento</b> *Flotante4* | Permite definir el rango de píxeles inicial para cada lado del mapa de efectos, lo que produce un efecto estirado. |
-| <b>Región de mosaico</b> *Flotante4* | Permite desplazar la distancia de mosaico del FX-Map. |
+| <b>Fondo</b> *Float/Float4* | Define el color inicial del fondo en el que se deben componer los resultados. |
+| <b>Área de procesamiento</b> *Float4* | Permite definir el rango de píxeles inicial para cada lado del FX-Map, lo que resulta en un efecto de estiramiento. |
+| <b>Región de mosaico</b> *Float4* | Permite desplazar la distancia de mosaico del FX-Map. |
 | <b>Sacar fuera</b> *Booleano* | Realiza una optimización mediante [selección](../../../../glossary/glossary.md) de patrones que se encuentran fuera del intervalo normal. |
 | <b>Rugosidad</b> *Flotador* | Funciona como un multiplicador de profundidad y opacidad. Aplica un sesgo al proceso de fusión de mapa de divisas. |
 | <b>Opacidad global</b> *Flotador* | Define la opacidad global de la salida del mapa de efectos. |
@@ -102,4 +102,4 @@ Tenga en cuenta que, a diferencia de otros nodos, la mayoría del comportamiento
 
 ## Ejemplos
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/image2015-9-10-17-28-32.png)

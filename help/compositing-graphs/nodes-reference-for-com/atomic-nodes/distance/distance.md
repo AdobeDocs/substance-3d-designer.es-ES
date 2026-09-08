@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ''
 description: Utilice el nodo Distancia para calcular mapas de distancia de formas para crear máscaras y efectos procedimientos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distancia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Distancia](../../../../assets/comp_distance_1.png "Nodo atómico: Distancia"){width="200px"}
+![Nodo atómico: Distancia](distance.resources/comp_distance_1.png "Nodo atómico: Distancia"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -87,7 +87,7 @@ Consulte los siguientes [ejemplos](#examples) para obtener más información.
 | <b>Modo de color</b> *Booleano* | Alterna entre una imagen de salida en escala de grises y en color. También cambia el tipo de entrada &quot;Entrada de origen&quot;. |
 | <b>Distancia máxima</b> *Flotador* | Ajusta la distancia máxima para detectar el borde más cercano de la máscara, en píxeles. |
 | <b>Combinar origen/distancia</b> *Booleano* | Determine cómo se combina la &#39;entrada de origen&#39; opcional con las celdas finales.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combinar:</i> Combina el valor de &quot;entrada de origen&quot; con la máscara lineal de atenuación. Si la entrada &quot;Source input&quot; está conectada, su valor se combina con la distancia calculada.</li> <li data-preserve-html="true"><i>Solo origen:</i> Solo genera color sólido a partir de la &#39;entrada de origen&#39;.</li> </ul> |
-| <b>Modo de distancia</b> *Entero* | Selecciona el método que calcula la distancia al borde más cercano de la máscara extraída:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Suma de diferencias X/Y cuadradas.</li> <li data-preserve-html="true"><i>Manhattan:</i> Suma de valores absolutos de diferencias X/Y.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Máximo de valores absolutos de diferencias X/Y.</li> </ul>  <div><img alt="Ejemplos del modo Distancia" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Ejemplos del modo Distancia"/></div> |
+| <b>Modo de distancia</b> *Entero* | Selecciona el método que calcula la distancia al borde más cercano de la máscara extraída:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Suma de diferencias X/Y cuadradas.</li> <li data-preserve-html="true"><i>Manhattan:</i> Suma de valores absolutos de diferencias X/Y.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Máximo de valores absolutos de diferencias X/Y.</li> </ul>  <div><img alt="Ejemplos del modo Distancia" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance.resources/distance-comparison.jpg" title="Ejemplos del modo Distancia"/></div> |
 
 ## Conectores de entrada
 
@@ -108,17 +108,17 @@ Consulte los siguientes [ejemplos](#examples) para obtener más información.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif){width="250px"}
 
 </td>
 </tr>
