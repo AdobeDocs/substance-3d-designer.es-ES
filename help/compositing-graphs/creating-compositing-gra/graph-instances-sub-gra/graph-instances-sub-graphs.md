@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Usa instancias y subgráficos de gráficos para crear componentes de gráficos reutilizables y flujos de trabajo de materiales modulares.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Instancias y subgráficos de gráficos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Instancias y subgráficos de gráficos
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/sub-graph.png)
 
 Las instancias de gráficos son nodos que <b>hacen referencia a otro gráfico</b>. Un gráfico al que hace referencia un nodo de instancia en un gráfico de host puede denominarse <b>subgráfico</b> del gráfico de host.
 
@@ -62,14 +62,14 @@ Tenga en cuenta que, aunque los conceptos de instancia de gráfica y subgráfico
 
 ### ¿Se puede inspeccionar el gráfico de origen de una instancia de gráfico?
 
-![(marca)](../../../assets/check.svg) Sí y *solo* para instancias de gráficos cargados desde un **archivo Substance 3D (SBS)**. Estos nodos de instancia tienen una etiqueta *rojo oscuro*.\
+![(marca)](graph-instances-sub-graphs.resources/check.svg) Sí y *solo* para instancias de gráficos cargados desde un **archivo Substance 3D (SBS)**. Estos nodos de instancia tienen una etiqueta *rojo oscuro*.\
 Haga clic con el botón derecho en el nodo para abrir su menú contextual y seleccione la opción **Abrir referencia**.
 
 >[!NOTE]
 >
 > Al inspeccionar el gráfico de origen, puede utilizar los datos de entrada del gráfico de la instancia si la opción **Edición en contexto** está *marcada* en la sección **Gráfico** de [Preferencias](../../../interface/preferences-window/preferences-window.md).
 
-![(menos)](../../../assets/forbidden.svg) *No* es posible inspeccionar gráficos cargados desde **instancias de recurso de Substance 3D (SBSAR)**, ya que ya están compiladas. Solo puede cargar el recurso en el panel **Explorador** para inspeccionar la lista de gráficos expuestos y sus parámetros. Estos nodos de instancia tienen una etiqueta *green*.\
+![(menos)](graph-instances-sub-graphs.resources/forbidden.svg) *No* es posible inspeccionar gráficos cargados desde **instancias de recurso de Substance 3D (SBSAR)**, ya que ya están compiladas. Solo puede cargar el recurso en el panel **Explorador** para inspeccionar la lista de gráficos expuestos y sus parámetros. Estos nodos de instancia tienen una etiqueta *green*.\
 Haga clic con el botón derecho en el nodo para abrir su menú contextual y seleccione la opción **Cargar paquete**.
 
 >[!NOTE]

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: Aprenda a exportar texturas y mapas de bits desde Substance que componen gráficos para utilizarlos en aplicaciones y flujos de trabajo externos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportación de mapas de bits
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Esta página explica cómo Substance 3D Designer puede exportar varios formatos de archivo de mapa de bits y cómo exportar varios mosaicos UV por lotes.Si desea [exportar a archivos de PSD](../exporting-psd-files/exporting-psd-files.md), hay una página dedicada independiente para esto.
 
-![Exportación simplificada](../../assets/exportflow.png "Exportación simplificada")
+![Exportación simplificada](exporting-bitmaps.resources/exportflow.png "Exportación simplificada")
 
 ## Exportación de conceptos
 
@@ -43,14 +43,14 @@ Una vez que esté listo para exportar, hay dos formas de acceder al cuadro de di
 
 En la ventana [Explorador](../../interface/the-explorer-window/the-explorer-window.md), haga clic con el botón derecho en el gráfico que desea exportar y seleccione **&quot;Exportar salidas como mapas de bits&quot;**
 
-![](../../assets/export-explorer.gif)
+![](exporting-bitmaps.resources/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-En la [vista de gráficos](../../interface/the-graph-view/the-graph-view.md), haciendo clic en el botón Herramientas ![](../../assets/image2019-9-17-14-44-17.png) y eligiendo **&quot;Exportar salidas...&quot;**
+En la [vista de gráficos](../../interface/the-graph-view/the-graph-view.md), haciendo clic en el botón Herramientas ![](exporting-bitmaps.resources/image2019-9-17-14-44-17.png) y eligiendo **&quot;Exportar salidas...&quot;**
 
-![](../../assets/export-graph.gif)
+![](exporting-bitmaps.resources/export-graph.gif)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ La versión que se muestra a la derecha es el cuadro de diálogo estándar; el c
 1. <b>Exportación automática:</b> Botón de alternancia para habilitar la reexportación automática de salidas de gráficos tan pronto como se realice un cambio. Solo para el gráfico actual. Puede ser pesado y lento dependiendo de la configuración.
 1. <b>Botón de exportación:</b> Exporta con la configuración actual o cierra el cuadro de diálogo.
 
-![Cuadro de diálogo Exportar salidas](../../assets/fromgraph-1.png "Cuadro de diálogo Exportar salidas")
+![Cuadro de diálogo Exportar salidas](exporting-bitmaps.resources/fromgraph-1.png "Cuadro de diálogo Exportar salidas")
 
 ## Cuadro de diálogo Exportar (mosaicos por lotes/UV)
 
@@ -90,4 +90,4 @@ Inicie el cuadro de diálogo con los mismos métodos detallados anteriormente, s
 1. <b>Mosaicos UV:</b> Al igual que con las salidas, le permite activar o desactivar la exportación de mosaicos UV específicos.
 1. <b>[Tamaño de salida](../../compositing-graphs/output-size/output-size.md): </b>Anule la resolución de exportación, lo que le permite trabajar de forma más pequeña y eficiente al exportar a tamaño máximo.
 
-![Cuadro de diálogo Resultados de exportación por lotes](../../assets/batch.png "Cuadro de diálogo Resultados de exportación por lotes")
+![Cuadro de diálogo Resultados de exportación por lotes](exporting-bitmaps.resources/batch.png "Cuadro de diálogo Resultados de exportación por lotes")
