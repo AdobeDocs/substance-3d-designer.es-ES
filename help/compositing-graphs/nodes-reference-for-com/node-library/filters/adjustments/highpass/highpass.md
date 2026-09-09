@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
 description: Utilice el nodo Paso alto para extraer detalles de alta frecuencia de texturas para crear efectos de enfoque y mejora de detalles.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Paso alto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
+![](highpass.resources/high-pass-greyscale.png){width="128px"}
 
-![](../../../../../../assets/high-pass.png){width="128px"}
+![](highpass.resources/high-pass.png){width="128px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -57,10 +57,10 @@ Importante: asegúrese de utilizar la versión adecuada para su entrada! Utilice
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/highpass.gif" />
+            <img src="highpass.resources/highpass.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/highpass-example.png" />
+            <img src="highpass.resources/highpass-example.png" />
         </td>
     </tr>
 </table>
