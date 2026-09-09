@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fijación para fijar valores de textura dentro de los intervalos mínimo y máximo especificados para controlar los límites de valores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ajustar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 14%
@@ -24,9 +24,9 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clamp-grayscale.png){width="128px"}
+![](clamp.resources/clamp-grayscale.png){width="128px"}
 
-![](../../../../../../assets/clamp-1.png){width="128px"}
+![](clamp.resources/clamp-1.png){width="128px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -56,7 +56,7 @@ Fija los valores de entrada a los límites definidos.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/clamp.gif" />
+            <img src="clamp.resources/clamp.gif" />
         </td>
     </tr>
 </table>
