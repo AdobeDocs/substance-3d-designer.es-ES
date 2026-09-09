@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Utilice las herramientas de pintura de mapas de bits de Substance 3D Designer para pintar directamente en los recursos de mapas de bits para la edición de texturas.
 helpx_creative_field: ""
