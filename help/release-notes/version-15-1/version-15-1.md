@@ -200,7 +200,7 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 * [Vista 3D] El Specular edge color no funciona al utilizar el rasterizador de Eclair
 * [Vista 3D] El material añadido por el usuario no se aplica en escenas predeterminadas
 * [Vista 3D] [Panaderos] El color del material es demasiado oscuro una vez se ha anulado o al utilizar un panadero de &quot;Color&quot;
-* [Vista 3D][Panaderos] No hay color de material del archivo FBX
+* [Vista 3D]&#x200B;[Panaderos] No hay color de material del archivo FBX
 * [Bakers] Los colores del material en los archivos FBX no se detectan correctamente
 * [Bakers] La opción &#39;recompute\_tangents&#39; siempre es &#39;false&#39; en las exportaciones de ajustes preestablecidos de JSON
 * [Bakers] CLI: Bloqueo al ejecutar el mismo panadero de forma consecutiva a través del archivo JSON
