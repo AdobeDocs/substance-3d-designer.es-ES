@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Solucione problemas de salida de imágenes incorrectas en Substance 3D Designer y aprenda a corregir problemas de procesamiento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Salida de imagen incorrecta
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ En esta página se enumeran los problemas técnicos de Substance 3D Designer que
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(error)](incorrect-image-output.resources/error.svg) Problema**
+**![(error)](../../assets/error.svg) Problema**
 
 Los degradados de la imagen de salida se escalonan en lugar de suavizarse. El paso se debe a que el intervalo de valores *que usa la imagen es demasiado estrecho*.\
 Esto significa que no hay suficientes valores para realizar una transición fluida de un paso de un degradado al siguiente.
@@ -43,13 +43,13 @@ Si no necesita trabajar específicamente con imágenes HDR., es probable que la 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
+![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(marca)](incorrect-image-output.resources/check.svg) Pasos recomendados**
+**![(marca)](../../assets/check.svg) Pasos recomendados**
 
 Compruebe el **Formato de salida** (es decir, profundidad de bits) del nodo y de todos los nodos anteriores y asegúrese de que estos nodos utilizan *precisión Integer de al menos 16 bits*.
 
@@ -73,7 +73,7 @@ Por ejemplo:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![(error)](incorrect-image-output.resources/error.svg) Problema</b>
+<b>![(error)](../../assets/error.svg) Problema</b>
 
 La calidad de las imágenes generadas por un archivo de Substance 3D (SBSAR) es notablemente inferior a la del gráfico del archivo de Substance 3D desde el que se publica, como se muestra en la imagen de la derecha.\
 El resultado aparece con baja resolución.
@@ -81,13 +81,13 @@ El resultado aparece con baja resolución.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
+![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(marca)](incorrect-image-output.resources/check.svg) Pasos recomendados</b>
+<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
 
 Asegúrese de que la propiedad [Output size](../../compositing-graphs/output-size/output-size.md) de todos los nodos [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) esté establecida en el *método de herencia [Absolute*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
@@ -99,20 +99,20 @@ Si no es así, su [recurso de mapa de bits](../../resources/bitmap-resource/bitm
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(error)](incorrect-image-output.resources/error.svg) Problema**
+**![(error)](../../assets/error.svg) Problema**
 
 Las formas aparecen ligeramente desenfocadas después de usar algunos nodos, como [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) o [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
+![](../../assets/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(marca)](incorrect-image-output.resources/check.svg) Pasos recomendados**
+**![(marca)](../../assets/check.svg) Pasos recomendados**
 
 Al reorganizar los píxeles de una imagen, por ejemplo, al cambiar el tamaño de una forma o la resolución de una imagen, hay dos formas de determinar cómo se deben *asignar* píxeles del origen al destino:
 

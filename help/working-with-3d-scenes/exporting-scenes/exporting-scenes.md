@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: Exporte escenas 3D con todas las ediciones realizadas en Designer mediante la acción Exportar escena del menú Escena de Vista 3D.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportar escenas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Para otros formatos, el contenido de la escena y su estructura interna depender�
 >
 > Todos los elementos añadidos a la escena por Designer se incluirán en la escena exportada: En la cámara predeterminada, el entorno predeterminado, todo el material copia las luces adicionales.
 
-![Acciones de exportación de escena](exporting-scenes.resources/exporting-scenes-01.png "Acciones de exportación de escena"){zoomable="yes"}
+![Acciones de exportación de escena](../../assets/exportActions.png "Acciones de exportación de escena"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ Esto significa que las ediciones en la escena original no afectan en absoluto a 
 </td>
 <td style="border: 0;" valign="top">
 
-![Archivos de escena exportados - Acoplados](exporting-scenes.resources/exporting-scenes-02.png "Archivos de escena exportados - Acoplados"){zoomable="yes"}
+![Archivos de escena exportados - Acoplados](../../assets/exportFlattened.png "Archivos de escena exportados - Acoplados"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Esto significa que las ediciones de la escena original se transfieren a la escen
 </td>
 <td style="border: 0;" valign="top">
 
-![Archivos de escena exportados - Con capas](exporting-scenes.resources/exporting-scenes-03.png "Archivos de escena exportados - Con capas"){zoomable="yes"}
+![Archivos de escena exportados - Con capas](../../assets/exportLayered.png "Archivos de escena exportados - Con capas"){zoomable="yes"}
 
 </td>
 </tr>

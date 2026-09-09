@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión de Substance 3D Designer 13.0 para obtener más información sobre los nuevos nodos, Substance Engine 9.0 y nodos de portal.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Como se ha mencionado en la versión anterior, esta versión ya no es compatible
 
 *Fecha de publicación: 6 de junio de 2023*
 
-![Material que usa rutas](version-13-0.resources/version-13-0-01.png "Material que usa rutas")
+![Material que usa rutas](../../assets/Paths2.png "Material que usa rutas")
 
 *Ilustración de [Celine Dameron](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ Esta versión 13.0 trae muchos contenidos nuevos. Encontrará principalmente dos
 
 Todos estos nodos ofrecerán muchas posibilidades y tendrán, sin duda, un montón de aplicaciones creativas. Echa un vistazo a la sección sobre [trabajar con trazados y Herramientas de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) para ver los conceptos importantes que hay que comprender para familiarizarse con este conjunto de herramientas.
 
-![Material que usa splines](version-13-0.resources/version-13-0-02.png "Material que usa splines")
+![Material que usa splines](../../assets/Splines.png "Material que usa splines")
 
 *Ilustración de [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ También puede crear <b>puentes </b> entre splines para tener un conjunto comple
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cúbica spline](version-13-0.resources/version-13-0-03.gif "Cúbica spline")
+![Cúbica spline](../../assets/SplineCubic-Demo.gif "Cúbica spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cuadrático Poly Poly Estriado](version-13-0.resources/version-13-0-04.gif "Cuadrático Poly Estriado")
+![Cuadrático Poly Poly Estriado](../../assets/SplinePolyQuadratic-Demo.gif "Cuadrático Poly Estriado")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Círculo polinómico](version-13-0.resources/version-13-0-05.gif "Círculo polinómico")
+![Círculo polinómico](../../assets/SplineCircle-Demo.gif "Círculo polinómico")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Lista Puente Spline](version-13-0.resources/version-13-0-06.gif "Lista Puente Spline")
+![Lista Puente Spline](../../assets/SplineBridge-List_Demo.gif "Lista Puente Spline")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ También proporcionamos herramientas para rehacer y retocar sus splines. Encontr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Transformación 2D Spline](version-13-0.resources/version-13-0-07.gif "Transformación 2D Spline")
+![Transformación 2D Spline](../../assets/Spline2DTransform-Demo1.gif "Transformación 2D Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Deformación polinomial](version-13-0.resources/version-13-0-08.gif "Deformación polinomial")
+![Deformación polinomial](../../assets/SplineWarp-Demo.gif "Deformación polinomial")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Thickness de muestra spline](version-13-0.resources/version-13-0-09.gif "Thickness de muestra spline")
+![Thickness de muestra spline](../../assets/SplineSampleThickness-Demo.gif "Thickness de muestra spline")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Gracias al [relleno de spline](../../compositing-graphs/nodes-reference-for-com/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersión en escala de grises polinomiales](version-13-0.resources/version-13-0-10.gif "Dispersión en escala de grises polinomiales")
+![Dispersión en escala de grises polinomiales](../../assets/ScatterOnSplineGrayscale-Demo.gif "Dispersión en escala de grises polinomiales")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Relleno polinómico](version-13-0.resources/version-13-0-11.gif "Relleno polinómico")
+![Relleno polinómico](../../assets/SplineFill-Demo.gif "Relleno polinómico")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Color del asignador de spline](version-13-0.resources/version-13-0-12.gif "Color del asignador de spline")
+![Color del asignador de spline](../../assets/SplineMapperColor-Demo.gif "Color del asignador de spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Asignador de flujo spline](version-13-0.resources/version-13-0-13.gif "Asignador de flujo spline")
+![Asignador de flujo spline](../../assets/SplineFlowMapper-Demo.gif "Asignador de flujo spline")
 
 </td>
 </tr>
@@ -150,18 +150,18 @@ Gracias al [relleno de spline](../../compositing-graphs/nodes-reference-for-com/
 
 El nodo [Mask to Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) te permite extraer el borde de un patrón de escala de grises, en forma de una lista de segmentos.
 
-Después, puedes procesar estas rutas con los nodos [Path 2D Transforme](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) o [Paths Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustarlas según tus necesidades.  Y gracias al nodo [Rutas a spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), puedes convertir tu ruta a spline, así que aprovecha todos los nodos dedicados a splines mencionados anteriormente, como la dispersión.
+A continuación, puedes procesar estas rutas con los nodos [Path 2D Transform](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) o [Paths Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustarlas según tus necesidades.  Y gracias al nodo [Rutas a spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), puedes convertir tu ruta a spline, así que aprovecha todos los nodos dedicados a splines mencionados anteriormente, como la dispersión.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Enmascarar trazados](version-13-0.resources/version-13-0-14.gif "Enmascarar trazados")
+![Enmascarar trazados](../../assets/MaskToPaths-Demo2.gif "Enmascarar trazados")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Máscara a trazados 2](version-13-0.resources/version-13-0-15.gif "Máscara a trazados 2")
+![Máscara a trazados 2](../../assets/MaskToPaths-Demo1.gif "Máscara a trazados 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -195,7 +195,7 @@ Substance Engine v9 también incorpora las siguientes mejoras:
 * Nuevo modo sólido en el editor de degradados del nodo [Gradient Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) (es decir, no hay interpolación)
 * Nodo pow() atómico en gráficas de funciones de Substance
 * Añadir opciones de ajuste de bordes (sujetar a borde, repetir) en nodos de Sampler
-* Muestreo más cercano en nodos [Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) y [Deformación direccional](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
+* Muestreo más cercano en nodos [Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) y [Directional Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 ## Nodo Portal
 
@@ -205,7 +205,7 @@ Gracias a esta función, puede mejorar la legibilidad del gráfico ocultando con
 
 Esta nueva característica se explica detalladamente en este [tutorial](https://www.adobe.com/go/designer-tutorial-portals) dedicado.
 
-![Nodo del portal](version-13-0.resources/version-13-0-16.gif "Nodo del portal")
+![Nodo del portal](../../assets/PortalNodeFinal.gif "Nodo del portal")
 
 ## Pantalla de inicio
 
@@ -216,9 +216,9 @@ Cuando inicias Designer, sabes que tienes acceso a una [pantalla de inicio](../.
 * Una página de formación en la que puede encontrar vínculos a recursos de aprendizaje, como tutoriales para presentarle nuevas funciones o descubrir sugerencias rápidas;
 * Vínculos directos a la pantalla Novedades, la pantalla Acerca de, el sitio web de Substance 3D, el foro de la comunidad de asistencia, etc.
 
-![Pantalla Inicio - Inicio](version-13-0.resources/version-13-0-17.png "Pantalla Inicio - Inicio")
+![Pantalla Inicio - Inicio](../../assets/HomeScreen.png "Pantalla Inicio - Inicio")
 
-![Pantalla Inicio - Formación](version-13-0.resources/version-13-0-18.png "Pantalla Inicio - Formación")
+![Pantalla Inicio - Formación](../../assets/LearnPage.png "Pantalla Inicio - Formación")
 
 ## Nuevos idiomas
 
@@ -249,7 +249,7 @@ Te recordamos que si quieres cambiar el idioma en Designer, ve a [Preferencias](
 * [Content] Nodo Append de Spline
 * [Content] Nodo Seleccionar spline
 * [Content] Nodo Lista de combinación de splines
-* [Content] Nodo Transformar spline 2D
+* [Content] Nodo Transformación 2D polinomial
 * [Content] Nodo Deformación de spline
 * [Content] Nodo de Height de muestra de spline
 * [Content] Nodo de Thickness de muestra de spline
@@ -265,14 +265,14 @@ Te recordamos que si quieres cambiar el idioma en Designer, ve a [Preferencias](
 * [Contenido] Nodo de escala de grises del asignador UV
 * [Content] Rutas al nodo Splines
 * [Content] Nodo Máscara a trazados
-* [Contenido] Rutas 2D Transformar nodo
+* [Contenido] Rutas nodo de transformación 2D
 * [Content] Rutas Nodo polígono
 * [Content] Nodo de rutas de previsualización
 * [Content] Nodo Deformación de rutas
 * [Content] Rutas Seleccionar nodo
 * [Content] Rutas nodo de procesador de vértices
 * [Content] Rutas Procesador de vértices Nodo simple
-* [Content] Transformar en cuatro en el nodo Path
+* [Content] Nodo Transformación cuádruple en ruta
 * [Contenido] Oclusión ambiental con trazado de rayo v2
 * [Contenido] Raytraced Bent Normal v2
 * [Contenido] Sombras con trazo de rayo v2
@@ -310,5 +310,5 @@ Te recordamos que si quieres cambiar el idioma en Designer, ve a [Preferencias](
 * [Localización] Solucionar varios problemas de recorte
 * [Parameters] Bloqueo al eliminar un parámetro de entrada
 * [Publish] Los gráficos de las carpetas se mueven a la raíz en el paquete publicado
-* bloqueo de [Resources] al actualizar un recurso cargado en el disco
+* [Resources] Bloqueo al actualizar un recurso cargado en el disco
 * [VisibleIf] Corregir regresión en evaluación de visibilidad condicional
