@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extracción de valores y texturas de materiales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ Al utilizar esta acción, ocurren algunas cosas:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de la &#39;Vista 3D&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de la &#39;Vista 3D&#39;"){zoomable="yes"}
+![Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de la &#39;Vista 3D&#39;](../../assets/createGraphFromTexturesActionViewport.png "Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de la &#39;Vista 3D&#39;"){zoomable="yes"}
 
 *Acción en la ventana gráfica de la vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Crear gráfico a partir de entradas de textura - Acción en el menú &#39;Materiales&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "Crear gráfico a partir de entradas de textura - Acción en el menú &#39;Materiales&#39;"){zoomable="yes"}
+![Crear gráfico a partir de entradas de textura - Acción en el menú &#39;Materiales&#39;](../../assets/createGraphFromTexturesActionMaterials.png "Crear gráfico a partir de entradas de textura - Acción en el menú &#39;Materiales&#39;"){zoomable="yes"}
 
 *Acción en el menú Materiales*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Crear gráfico a partir de entradas de textura - Acción en el conjunto acoplado &#39;Propiedades&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "Crear gráfico a partir de entradas de textura - Acción en el conjunto acoplado &#39;Propiedades&#39;"){zoomable="yes"}
+![Crear gráfico a partir de entradas de textura - Acción en el conjunto acoplado &#39;Propiedades&#39;](../../assets/createGraphFromTexturesActionProps.png "Crear gráfico a partir de entradas de textura - Acción en el conjunto acoplado &#39;Propiedades&#39;"){zoomable="yes"}
 
 *Acción en el conjunto acoplado de propiedades*
 
@@ -80,12 +80,12 @@ Al utilizar esta acción, ocurren algunas cosas:
 </tr>
 </table>
 
-![Resultado de la creación de gráficos a partir de texturas de materiales](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "Resultado de la creación de gráficos a partir de texturas de materiales"){zoomable="yes"}
+![Resultado de la creación de gráficos a partir de texturas de materiales](../../assets/createGraphFromTexturesResult.png "Resultado de la creación de gráficos a partir de texturas de materiales"){zoomable="yes"}
 
 *Resultado de la creación de gráficos a partir de texturas de materiales*
 
 +++Demostración
-![Crear gráfico a partir de entradas de textura - Demostración](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "Crear gráfico a partir de entradas de textura - Demostración"){zoomable="yes"}
+![Crear gráfico a partir de entradas de textura - Demostración](../../assets/createGraphFromTextures.gif "Crear gráfico a partir de entradas de textura - Demostración"){zoomable="yes"}
 
 
 
@@ -116,14 +116,14 @@ Por ejemplo: Si se extrae una textura para la propiedad &quot;Color base&quot; a
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extraer textura al gráfico - Acción en el muelle Propiedades](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "Extraer textura al gráfico - Acción en el muelle Propiedades"){zoomable="yes"}
+![Extraer textura al gráfico - Acción en el muelle Propiedades](../../assets/extractTextureAction.png "Extraer textura al gráfico - Acción en el muelle Propiedades"){zoomable="yes"}
 
 Acción para la propiedad de material en el conjunto acoplado Propiedades
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraer textura a gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "Extraer textura a gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;"){zoomable="yes"}
+![Extraer textura a gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;](../../assets/extractTextureSelectGraph.png "Extraer textura a gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;"){zoomable="yes"}
 
 Cuadro de diálogo &quot;Seleccionar gráfico de destino&quot;
 
@@ -136,12 +136,12 @@ Cuadro de diálogo &quot;Seleccionar gráfico de destino&quot;
 </tr>
 </table>
 
-![Resultado de la extracción de textura](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "Resultado de la extracción de textura"){zoomable="yes"}
+![Resultado de la extracción de textura](../../assets/extractTextureResult.png "Resultado de la extracción de textura"){zoomable="yes"}
 
 Resultado de la extracción de la textura
 
 +++Demostración
-![Extraer textura a gráfico - Demostración](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "Extraer textura a gráfico - Demostración"){zoomable="yes"}
+![Extraer textura a gráfico - Demostración](../../assets/extractTextureToGraph.gif "Extraer textura a gráfico - Demostración"){zoomable="yes"}
 
 
 
@@ -170,21 +170,21 @@ Por ejemplo: Si se extrae un valor para la propiedad &quot;Nivel de Anisotropía
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extraer valor al gráfico - Acción en el muelle Propiedades](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "Extraer valor al gráfico - Acción en el muelle Propiedades"){zoomable="yes"}
+![Extraer valor al gráfico - Acción en el muelle Propiedades](../../assets/extractValueAction.png "Extraer valor al gráfico - Acción en el muelle Propiedades"){zoomable="yes"}
 
 Acción para la propiedad de material en el conjunto acoplado Propiedades
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraer valor al gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "Extraer valor al gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;"){zoomable="yes"}
+![Extraer valor al gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;](../../assets/extractValueSelectGraph.png "Extraer valor al gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;"){zoomable="yes"}
 
 Cuadro de diálogo &quot;Seleccionar gráfico de destino&quot;
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraer valor a gráfico: nodo constante en la función del nodo del procesador de valores](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "Extraer valor a gráfico: nodo constante en la función del nodo del procesador de valores"){zoomable="yes"}
+![Extraer valor a gráfico: nodo constante en la función del nodo del procesador de valores](../../assets/extractValueResult2.png "Extraer valor a gráfico: nodo constante en la función del nodo del procesador de valores"){zoomable="yes"}
 
 Nodo constante en la función del nodo del procesador de valores
 
@@ -192,12 +192,12 @@ Nodo constante en la función del nodo del procesador de valores
 </tr>
 </table>
 
-![Resultado de la extracción del valor](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "Resultado de la extracción del valor"){zoomable="yes"}
+![Resultado de la extracción del valor](../../assets/extractValueResult.png "Resultado de la extracción del valor"){zoomable="yes"}
 
 Resultado de la extracción del valor
 
 +++Demostración
-![Extraer valor al gráfico - Demostración](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "Extraer valor al gráfico - Demostración"){zoomable="yes"}
+![Extraer valor al gráfico - Demostración](../../assets/extractValueToGraph.gif "Extraer valor al gráfico - Demostración"){zoomable="yes"}
 
 
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Degradado 2 puntos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-2-points.png){width="250px"}
+![](gradient-2-points.resources/gradient-2-points.png){width="250px"}
 
 <b>En:</b> Vista 3D > Herramientas HDRI
 
@@ -57,7 +57,7 @@ Crea un degradado de 2 colores entre dos puntos seleccionados por el usuario. El
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient-ex2.gif" />
+            <img src="gradient-2-points.resources/gradient-ex2.gif" />
         </td>
     </tr>
 </table>

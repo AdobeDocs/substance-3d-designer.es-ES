@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderizado de histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de escala de grises Kuwahara anisotrópico](../../../../../../assets/histogram_render.png "Icono de escala de grises Kuwahara anisotrópico"){width="200px"}
+![Icono de escala de grises Kuwahara anisotrópico](histogram-render.resources/histogram_render.png "Icono de escala de grises Kuwahara anisotrópico"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -69,6 +69,6 @@ Dibuja el histograma de una imagen en escala de grises.
 
 ## Ejemplos
 
-Renderizado de histograma ![: Ejemplo 1](../../../../../../assets/histogram_render_example_1.png "Renderizado de histograma: Ejemplo 1"){zoomable="yes"}
+Renderizado de histograma ![: Ejemplo 1](histogram-render.resources/histogram_render_example_1.png "Renderizado de histograma: Ejemplo 1"){zoomable="yes"}
 
-Renderizado de histograma ![: Ejemplo 2](../../../../../../assets/histogram_render_example_2.png "Renderizado de histograma: Ejemplo 2"){zoomable="yes"}
+Renderizado de histograma ![: Ejemplo 2](histogram-render.resources/histogram_render_example_2.png "Renderizado de histograma: Ejemplo 2"){zoomable="yes"}

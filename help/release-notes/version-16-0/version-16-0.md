@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 16.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Esta versión 16.0 introduce un flujo de trabajo más creativo para la dispersi�
 
 *Fecha de publicación: 14 de abril de 2026*
 
-<img src="./version-16-0.resources/version-16-0-01.jpg" alt="Banner de Substance 3D Designer versión 16.0" style="margin-top: 32px; margin-bottom: 32px">
+<img src="./version-16-0.resources/version-16-0-banner.jpg" alt="Banner de Substance 3D Designer versión 16.0" style="margin-top: 32px; margin-bottom: 32px">
 
 <a name="shape-splatter-v2-nodes"></a>
 
@@ -38,13 +38,13 @@ Los usuarios avanzados pueden configurar *distribuciones personalizadas* definid
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-02.gif" alt="Forma salpicadura v2: Distribución de Poisson" /><br><i>Distribución de Poisson</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" alt="Forma salpicadura v2: Distribución de Poisson" /><br><i>Distribución de Poisson</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-03.gif" alt="Forma salpicadura v2: Distribución uniforme" /><br><i>Distribución uniforme</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" alt="Forma salpicadura v2: Distribución uniforme" /><br><i>Distribución uniforme</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-04.gif" alt="Mapa de densidad" /><br><i>Salpicadura de forma v2: Mapa de densidad</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" alt="Mapa de densidad" /><br><i>Salpicadura de forma v2: Mapa de densidad</i>
         </td>
     </tr>
 </table>
@@ -60,13 +60,13 @@ Esto desbloquea las dispersiones que son más dinámicas, más variadas y más c
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-05.gif" alt="Forma salpicadura v2: Rotación aleatoria en 3D" /><br><i>Rotación 3D aleatoria</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" alt="Forma salpicadura v2: Rotación aleatoria en 3D" /><br><i>Rotación 3D aleatoria</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-07.gif" alt="Forma salpicadura v2: Extrusión de forma" /><br><i>Extrusión de formas</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" alt="Forma salpicadura v2: Extrusión de forma" /><br><i>Extrusión de formas</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-08.jpg" alt="Forma salpicadura v2: Formas 3D SDF" /><br><i>Formas 3D SDF</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" alt="Forma salpicadura v2: Formas 3D SDF" /><br><i>Formas 3D SDF</i>
         </td>
     </tr>
 </table>
@@ -83,13 +83,13 @@ Una vez más, los usuarios avanzados pueden configurar *asignaciones de textura 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" alt="Asignador de colores de salpicaduras de formas v2: Asignación triplanar" /><br><i>Asignación triplanar</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" alt="Asignador de colores de salpicaduras de formas v2: Asignación triplanar" /><br><i>Asignación triplanar</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" alt="Asignador de colores de salpicaduras de formas v2: Asignación normal" /><br><i>Asignación normal</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" alt="Asignador de colores de salpicaduras de formas v2: Asignación normal" /><br><i>Asignación normal</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" alt="Asignador de colores de salpicaduras de formas v2: Asignación por ID de material desde formas de SDF" /><br><i>Asignación por ID de material de formas SDF</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="Asignador de colores de salpicaduras de formas v2: Asignación por ID de material desde formas de SDF" /><br><i>Asignación por ID de material de formas SDF</i>
         </td>
     </tr>
 </table>
@@ -102,7 +102,7 @@ Una vez más, los usuarios avanzados pueden configurar *asignaciones de textura 
             <p>Los patrones personalizados se pueden proporcionar por separado al nodo Shape splatter v2 o empaquetarse en un atlas de cuadrícula para flujos de trabajo más sencillos y eficaces.</p><p>Los patrones de empaquetado se simplifican gracias a los nuevos nodos <a href="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md">Atlas de cuadrícula</a>.</p>
         </td>
         <td style="text-align: right; width: 33%; margin-left: 32px; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-02.png" alt="nodo de color de atlas de cuadrícula" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-graph.png" alt="nodo de color de atlas de cuadrícula" />
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ Una vez más, los usuarios avanzados pueden configurar *asignaciones de textura 
             <p>La <b>muestra de material</a> de <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">Rusty bolt</b> está disponible para saltar la familia de nodos Shape splatter v2 y sus características.</p><p>El gráfico se organiza y se anota para guiarle a través de su estructura, configuración de nodos y técnicas.</p><p>También es <i>totalmente editable</i>, por lo que se puede usar como espacio aislado para obtener una comprensión más práctica del conjunto de herramientas de Shape splatter v2. Puedes crear tantos gráficos de muestra como quieras, así que siéntete libre de jugar.</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="Función de marco delimitador del nodo del visor 3D, para Funciones SDF." />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Función de marco delimitador del nodo del visor 3D, para Funciones SDF." />
         </td>
     </tr>
 </table>
@@ -130,7 +130,7 @@ Una vez más, los usuarios avanzados pueden configurar *asignaciones de textura 
             <p>Designer 16.0 añade un potente método para generar formas 3D en un gráfico de funciones mediante un amplio catálogo de nodos para crear Funciones SDF.</p><p>Los campos de distancia firmados son representaciones del espacio como una distancia a superficies definidas matemáticamente. Se pueden utilizar para definir formas de complejidad creciente a medida que estas superficies se transforman y combinan utilizando diversos operadores.</p>
         </td>
         <td style="text-align: right; width: 25%; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-02.gif" alt="Creación de formas con Funciones SDF" />
+            <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="Creación de formas con Funciones SDF" />
         </td>
     </tr>
 </table>
@@ -148,7 +148,7 @@ Las Funciones SDF incluyen una [nueva familia de nodos](../../function-graphs/no
 > 
 > Vaya a la página [Trabajando con Funciones SDF](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md) para empezar a trabajar con estos nodos.
 
-<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="nodos de Función SDF" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="nodos de Función SDF" />
 
 Los nodos livianos con iconos claros y legibles hacen que la creación de Funciones SDF 3D sea más fácil de lo que crees, especialmente con esta próxima adición al conjunto de herramientas...
 
@@ -161,24 +161,24 @@ El nodo también incluye características para comprobar detalladamente las form
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="width: 50%; border: 0">
         <td style="text-align: center; width: 50%; border: 0; padding: 15px">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-02.jpg" alt="Ejemplo 1" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="Ejemplo 1" />
         </td>
         <td style="width: 50%; border: 0; padding: 0">
             <table>
                 <tr style="vertical-align: top; border: 0">
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-03.jpg" alt="Ejemplo 1" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02a.jpg" alt="Ejemplo 1" />
                     </td>
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-04.jpg" alt="Ejemplo 2" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02b.jpg" alt="Ejemplo 2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top; border: 0; background: transparent">
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-05.jpg" alt="Ejemplo 3" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02c.jpg" alt="Ejemplo 3" />
                     </td>
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-06.jpg" alt="Ejemplo 4" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02d.jpg" alt="Ejemplo 4" />
                     </td>
                 </tr>
             </table>
@@ -193,17 +193,17 @@ El nodo también incluye características para comprobar detalladamente las form
 
 Este modelo de material ahora es compatible con toda la aplicación, con [sombreadores dedicados](../../interface/3d-view/material-properties/material-properties.md#openpbr) tanto en nuestros nuevos procesadores (Rasterizador, Trazador de ruta de GPU) como en el procesador OpenGL.
 
-<img style="display: block; margin: auto" src="./version-16-0.resources/version-16-0-03.gif" alt="Compatibilidad con OpenPBR en Substance 3D Designer y comparaciones con otros DCC" />
+<img style="display: block; margin: auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="Compatibilidad con OpenPBR en Substance 3D Designer y comparaciones con otros DCC" />
 
 Empieza con este estándar del sector ampliamente adoptado con nuevas plantillas de gráficos o revisa las muestras de materiales integradas ahora basadas en el OpenPBR.
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-04.png" alt="Plantillas de OpenPBR" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="Plantillas de OpenPBR" />
         </td>
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-05.png" alt="muestras de material de OpenPBR" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="muestras de material de OpenPBR" />
         </td>
     </tr>
 </table>
@@ -218,7 +218,7 @@ Los sombreadores de OpenPBR admiten más efectos que los sombreados existentes, 
             También es más fácil mantener sincronizados los flujos de trabajo que implican sombreadores específicos, con un nuevo atributo <a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'Modelo de material'</a> para Substance que garantiza que los gráficos visualizados en la vista 3D utilicen el sombreado adecuado para el modelo de material del gráfico.
         </td>
         <td style="text-align: right; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-06.png" alt="muestras de material de OpenPBR" />
+            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="muestras de material de OpenPBR" />
         </td>
     </tr>
 </table>
@@ -237,7 +237,7 @@ Ajuste los valores de **escala de Height**, **nivel de Height** y **Mosaico** si
 
 Estos controles están disponibles tanto para nuestros nuevos procesadores (Rasterizador, Trazador de ruta de GPU) como para el procesador OpenGL.
 
-<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/displacement-01.gif" alt="Ventana emergente desplazamiento en la vista 3D" />
+<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Ventana emergente desplazamiento en la vista 3D" />
 
 Si la escena incluye varios materiales, selecciona el objeto de la escena que deseas ajustar de antemano manteniendo pulsada la tecla <code>Mayús</code> y hacer clic en él (solo Rasterizer y Trazador de ruta de GPU) o seleccionarlo en el explorador de escenas.
 
@@ -257,7 +257,7 @@ Si la escena incluye varios materiales, selecciona el objeto de la escena que de
             <p>Para facilitar el acceso a los valores constantes en los gráficos de Substance, se han agregado <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">nuevos nodos</a> para generar un valor simple de cada tipo.</p><p>Puede encontrarlos todos en la sección <b>Valores &gt; Constantes</b> de la biblioteca.</p>
         </td>
         <td style="width: 60%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constant-02.png" alt="Nodo &apos;Flotante&apos; constante" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="Nodo &apos;Flotante&apos; constante" />
         </td>
     </tr>
 </table>

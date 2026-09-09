@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aplicar paleta de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](../../../../../../assets/ApplyColorPalette.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](apply-color-palette.resources/ApplyColorPalette.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -64,31 +64,31 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Cuantific
 
 ## Ejemplos
 
-![Aplicar paleta de colores: Ejemplo 1](../../../../../../assets/apply_color_palette_example_2.png "Aplicar paleta de colores: Ejemplo 1"){zoomable="yes"}
+![Aplicar paleta de colores: Ejemplo 1](apply-color-palette.resources/apply_color_palette_example_2.png "Aplicar paleta de colores: Ejemplo 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
 </table>
 
-![Aplicar paleta de colores: Ejemplo 3](../../../../../../assets/apply_color_palette_example_4.png "Aplicar paleta de colores: Ejemplo 3"){zoomable="yes"}
+![Aplicar paleta de colores: Ejemplo 3](apply-color-palette.resources/apply_color_palette_example_4.png "Aplicar paleta de colores: Ejemplo 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
       <br><i>Después De</i>
     </td>
   </tr>

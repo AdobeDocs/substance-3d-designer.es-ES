@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modificar paleta de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](../../../../../../assets/ModifyColorPalette.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](modify-color-palette.resources/ModifyColorPalette.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -82,18 +82,18 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Cuantific
 
 ## Ejemplos
 
-![Modificar paleta de colores: Ejemplo 1](../../../../../../assets/modify_color_palette_example_1.png "Modificar la paleta de colores: Ejemplo 1"){zoomable="yes"}
+![Modificar paleta de colores: Ejemplo 1](modify-color-palette.resources/modify_color_palette_example_1.png "Modificar la paleta de colores: Ejemplo 1"){zoomable="yes"}
 
-![Modificar paleta de colores: Ejemplo 2](../../../../../../assets/modify_color_palette_example_3.png "Modificar la paleta de colores: Ejemplo 2"){zoomable="yes"}
+![Modificar paleta de colores: Ejemplo 2](modify-color-palette.resources/modify_color_palette_example_3.png "Modificar la paleta de colores: Ejemplo 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="modify-color-palette.resources/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="modify-color-palette.resources/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>

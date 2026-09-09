@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color a máscara
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Color para enmascarar - Icono](../../../../../../assets/color_to_mask.png "Color para enmascarar - Icono"){width="200px"}
+![Color para enmascarar - Icono](color-to-mask.resources/color_to_mask.png "Color para enmascarar - Icono"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -62,12 +62,12 @@ Extrae una máscara de escala de grises de los colores seleccionados en una imag
 
 |  |  |
 |:---|:---|
-| <b>Usar entrada de color</b> *Booleano* | Utilice una imagen de entrada en lugar de un color uniforme, para definir un color de referencia por píxel.    La entrada <b>Color input</b> proporciona la imagen de entrada. |
-| <b>Color</b> *Flotante3* *Disponible cuando &#39;Usar entrada de color&#39; está establecido en &#39;False&#39;* | Color uniforme de referencia alrededor del cual se debe realizar la selección de color. |
-| <b>Umbral</b> *Flotador* | Distancia al color de referencia por debajo del cual se seleccionan los colores. |
-| <b>Desvanecimiento de selección</b> *Flotante* | Desvanecer la selección de color según la distancia al color de referencia. |
-| <b>Espacio de color de distancia</b> *Entero* | El proceso Ecualizar implica comparar colores para determinar la distancia entre ellos. Determinados espacios de color y algoritmos de distancia son más adecuados para casos de uso específicos.   Esta lista desplegable le permite seleccionar el espacio de color utilizado para comparar los colores:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>RGB (Datos):</i></b> El color se divide en canales Rojo, Verde, Azul y se distribuye directamente a lo largo de esos ejes, sin tener en cuenta la percepción humana. Esto es adecuado para imágenes que contienen datos sin procesar.</li> <li data-preserve-html="true"><i>sRGB lineal (color):</i> El color se divide en canales Rojo, Verde, Azul y se distribuye en una relación lineal con la intensidad de luz de los píxeles. Esto es adecuado para imágenes que se pueden visualizar en pantallas.</li> <li data-preserve-html="true"><b><i>Luminancia (color):</i></b> El color se divide en los valores de Tono, Croma y Luminancia, donde solo se utiliza el valor de Luminancia en la comparación. Esto es adecuado para imágenes que se pueden visualizar en pantallas.</li> <li data-preserve-html="true"><i>Laboratorio (color):</i> Un espacio de color perceptual estandarizado, que distribuye los colores de tal manera que los colores que &#39;parecen&#39; cercanos están realmente cerca en el cubo. Esto es adecuado para imágenes que se pueden visualizar en pantallas.</li> <li data-preserve-html="true"><i>Ángulo (normal):</i> El color se divide en los ejes X, Y, Z de un vector y se compara mediante un producto de puntos. Esto es adecuado para imágenes que contienen Espacios de tangente normales.</li> </ul> |
-| <b>Grosores de distancia</b> *Flotante3* | El algoritmo de distancia de color Lab (DeltaE2000) introduce ciertos factores de peso para cada valor de luminosidad, croma y tono.   Los valores más bajos disminuirán la influencia de los factores en el algoritmo de diferencia de color.   Dado que el ojo generalmente acepta diferencias mayores en la luminosidad (L) que en el croma (C) o tono (H), una proporción predeterminada para (L:C:H) es (0,5:1:1). Una relación de 0,5:1:1 permitirá el doble de diferencia en luminosidad que en croma o tono. |
+| <b>Usar entrada de color</b> *Booleano* | Utilice una imagen de entrada en lugar de un color uniforme para definir un color de referencia por píxel.    La entrada <b>Color input</b> proporciona la imagen de entrada. |
+| <b>Color</b> *Flotante3* *Disponible cuando &#39;Usar entrada de color&#39; está establecido en &#39;False&#39;* | El color uniforme de referencia alrededor del cual se debe realizar la selección de color. |
+| <b>Umbral</b> *Flotante* | Distancia al color de referencia por debajo del cual se seleccionan los colores. |
+| <b>Desvanecimiento de selección</b> *Flotador* | Desvanecer la selección de color según la distancia al color de referencia. |
+| <b>Espacio de color de distancia</b> *Entero* | El proceso Ecualizar implica comparar colores para determinar la distancia entre ellos. Determinados espacios de color y algoritmos de distancia son más adecuados para casos de uso específicos.   Esta lista desplegable le permite seleccionar el espacio de color utilizado para comparar los colores:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>RGB (Datos):</i></b> El color se divide en canales Rojo, Verde, Azul y se distribuye directamente a lo largo de esos ejes, sin tener en cuenta la percepción humana. Esto es adecuado para imágenes que contienen datos sin procesar.</li> <li data-preserve-html="true"><i>sRGB lineal (color):</i> El color se divide en canales Rojo, Verde, Azul y se distribuye en una relación lineal con la intensidad de luz de los píxeles. Esto es adecuado para imágenes que se pueden visualizar en pantallas.</li> <li data-preserve-html="true"><b><i>Luminancia (color):</i></b> El color se divide en los valores de Tono, Croma y Luminancia, donde solo se utiliza el valor de Luminancia en la comparación. Esto es adecuado para imágenes que se pueden visualizar en pantallas.</li> <li data-preserve-html="true"><i>Laboratorio (color):</i> Un espacio de color perceptual estandarizado, que distribuye los colores de tal manera que los colores que &#39;parecen&#39; cercanos están realmente cerca en el cubo. Esto es adecuado para imágenes que se pueden visualizar en pantallas.</li> <li data-preserve-html="true"><i>Ángulo (normal):</i> El color se divide en los ejes X, Y, Z de un vector y se compara mediante un producto de puntos. Esto es adecuado para imágenes que contienen normales de espacio tangente.</li> </ul> |
+| <b>Grosores de distancia</b> *Float3* | El algoritmo de distancia de color Lab (DeltaE2000) introduce ciertos factores de peso para cada valor de luminosidad, croma y tono.   Los valores más bajos disminuirán la influencia de los factores en el algoritmo de diferencia de color.   Dado que el ojo generalmente acepta diferencias mayores en luminosidad (L) que en croma (C) o tono (H), una proporción predeterminada para (L:C:H) es (0,5:1:1). Una relación de 0,5:1:1 permitirá el doble de diferencia en luminosidad que en croma o tono. |
 
 ## Ejemplos
 

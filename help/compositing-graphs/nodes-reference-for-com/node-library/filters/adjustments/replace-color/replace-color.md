@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Reemplazar color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color.png){width="128px"}
+![](replace-color.resources/replace-color.png){width="128px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -55,7 +55,7 @@ Consulte [Reemplazar rango de color](../../../../../../compositing-graphs/nodes-
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/replace-color-example.png" />
+            <img src="replace-color.resources/replace-color-example.png" />
         </td>
     </tr>
 </table>

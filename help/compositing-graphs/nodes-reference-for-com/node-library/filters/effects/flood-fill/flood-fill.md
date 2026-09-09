@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill.png){width="128px"}
+![](flood-fill.resources/floodfill.png){width="128px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Descripción
 
-Flood Fill forma parte de un conjunto avanzado de efectos que le permiten agregar mucha más variación a una textura básica de mosaicos binarios. No está destinado a ser utilizado por sí mismo: en su lugar, es más bien un punto de partida para los efectos de Otros Flood Fill. Estos datos separados y divididos permiten un flujo de trabajo más dinámico, optimizado y menos destructivo.
+Flood Fill forma parte de un conjunto avanzado de efectos que le permiten añadir mucha más variación a una textura básica de azulejos binarios. No está destinado a ser utilizado por sí mismo: en su lugar, es más bien un punto de partida para los efectos de Otros Flood Fill. Estos datos separados y divididos permiten un flujo de trabajo más dinámico, optimizado y menos destructivo.
 
 Los otros efectos de Flood Fill son [Flood Fill a degradado](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md), [Flood Fill a color/escala de grises](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-grayscale-col/flood-fill-to-grayscale-color.md), [Flood Fill a escala de grises aleatoria](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md), [Flood Fill a color aleatorio](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-color/flood-fill-to-random-color.md), [Flood Fill a tamaño de cuadro](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-bbox-size/flood-fill-to-bbox-size.md), [Flood Fill a posición](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-position/flood-fill-to-position.md), [Asignador de Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-mapper/flood-fill-mapper.md) y [Flood Fill a índice](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-index/flood-fill-to-index.md)
 
@@ -62,10 +62,10 @@ Los otros efectos de Flood Fill son [Flood Fill a degradado](../../../../../../c
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/flood-ex2.png" />
+            <img src="flood-fill.resources/flood-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/flood-ex1.png" />
+            <img src="flood-fill.resources/flood-ex1.png" />
         </td>
     </tr>
 </table>

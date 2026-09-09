@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desenfoque anisotrópico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/anisotropic-blur.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur.png){width="128px"}
 
 <b>En:</b> Filtros > Desenfoques
 
@@ -59,7 +59,7 @@ Importante: asegúrese de utilizar la versión adecuada para su entrada! Utiliza
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/aniso-blur-example.gif" />
+            <img src="anisotropic-blur.resources/aniso-blur-example.gif" />
         </td>
     </tr>
 </table>

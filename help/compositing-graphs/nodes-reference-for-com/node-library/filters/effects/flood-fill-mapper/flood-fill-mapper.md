@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Asignador de Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
+![](flood-fill-mapper.resources/floodfill-mapper-gray.png)![](flood-fill-mapper.resources/floodfill-mapper-color.png)
 
 <b>En:</b> Filtros > Efectos
 
@@ -101,10 +101,10 @@ La versión Color tiene controles adicionales para trabajar con Mapas normales, 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodfill-mapper-ex01.png" />
+            <img src="flood-fill-mapper.resources/floodfill-mapper-ex01.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodfill-mapper-ex02.jpg" />
+            <img src="flood-fill-mapper.resources/floodfill-mapper-ex02.jpg" />
         </td>
     </tr>
 </table>

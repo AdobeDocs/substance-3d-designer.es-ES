@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Esta actualización presenta nuevas funciones para mejorar el uso diario de Subs
 
 *Fecha de publicación: 14 de enero de 2025*
 
-![splines de Dispersión en splines](version-14-1.resources/version-14-1-01.png)
+![splines de Dispersión en splines](../../assets/fond.png)
 
 ## Actualizaciones de splines y trazados
 
@@ -34,12 +34,12 @@ Las splines y los nodos de trazado se introdujeron en la versión 13.0 y, gracia
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersión spline en animación spline 1](version-14-1.resources/version-14-1-02.gif){zoomable="yes"}
+![Dispersión spline en animación spline 1](../../assets/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![splines de Dispersión en splines 2](version-14-1.resources/version-14-1-03.gif){zoomable="yes"}
+![splines de Dispersión en splines 2](../../assets/spline2.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Las splines y los nodos de trazado se introdujeron en la versión 13.0 y, gracia
 
 Si estás interesado en mantener un gráfico limpio y legible, las [herramientas de alineación de nodos](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) están hechas para ti y se han renovado por completo. Ahora es posible espaciar uniformemente los nodos (horizontal o verticalmente), y alinear los nodos evita cualquier superposición apilándolos cuidadosamente. Cereza arriba: ambas funciones tienen en cuenta el tamaño real de los nodos.
 
-![Alinear nodos](version-14-1.resources/version-14-1-04.gif){zoomable="yes"}
+![Alinear nodos](../../assets/alignment.gif){zoomable="yes"}
 
 ## Parámetros de copiar/pegar
 
@@ -59,7 +59,7 @@ Ahora es posible [copiar los parámetros de un nodo y pegarlos en otro](../../co
 
 La nueva [herramienta Sampler de color](../../interface/2d-view/color-sampler/color-sampler.md) de la vista 2D te permite rastrear el valor de un píxel seleccionado colocando una chincheta sobre él. Esto resulta muy útil para asegurarse de que siempre está viendo la información del mismo píxel en varios nodos de un gráfico. Abra el panel de información para acceder a la herramienta y probarla.
 
-![Muestra de color: con la herramienta &#x200B;](version-14-1.resources/version-14-1-05.gif "Muestra de color: usar la herramienta"){width="640px" zoomable="yes"}
+![Muestra de color: con la herramienta &#x200B;](../../assets/color-sampler-demo.gif "Muestra de color: usar la herramienta"){width="640px" zoomable="yes"}
 
 ## Mejoras de búsqueda
 
@@ -70,7 +70,7 @@ La herramienta [Buscador de nodos](../../interface/the-graph-view/node-finder/no
 * El enfoque se establece automáticamente en el campo de búsqueda al habilitar la herramienta Buscador de nodos;
 * El diseño de la barra de herramientas se ha rediseñado para ahorrar espacio.
 
-![Barra de herramientas de búsqueda](version-14-1.resources/version-14-1-06.png){width="640px"}
+![Barra de herramientas de búsqueda](../../assets/search-53.png){width="640px"}
 
 ## Vídeos
 
@@ -78,12 +78,12 @@ La herramienta [Buscador de nodos](../../interface/the-graph-view/node-finder/no
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![splines de dispersión de vídeo en splines](version-14-1.resources/version-14-1-07.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![splines de dispersión de vídeo en splines](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![características de experiencia de usuario de vídeo](version-14-1.resources/version-14-1-08.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![características de experiencia de usuario de vídeo](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>

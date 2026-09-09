@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Subexposición de color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-burn.png){width="128px"}
+![](color-burn.resources/color-burn.png){width="128px"}
 
 <b>En:</b> Filtros > Fusión
 

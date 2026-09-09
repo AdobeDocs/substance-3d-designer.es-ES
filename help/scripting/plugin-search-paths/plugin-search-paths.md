@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rutas de búsqueda de complementos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Los usuarios pueden *agregar directorios personalizados* manualmente en las pref
 1. En la pestaña <b>Python</b>, haz clic en el botón *<b>+</b>*para agregar el directorio que contiene los complementos
 1. Haga clic en <b>Aceptar</b> para validar
 
-![Configurar complementos de Python rutas de búsqueda Configuración del proyecto](plugin-search-paths.resources/plugin-search-paths-01.png "Configurar complementos de Python rutas de búsqueda Configuración del proyecto")
+![Configurar complementos de Python rutas de búsqueda Configuración del proyecto](../../assets/image-70.png "Configurar complementos de Python rutas de búsqueda Configuración del proyecto")
 
 ## Uso de variables de entorno
 

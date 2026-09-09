@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trabajo con escenas 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Trabajo con escenas 3D
 
-![Trabajo con escenas 3D](working-with-3d-scenes.resources/working-with-3d-scenes-01.png "Trabajo con escenas 3D"){zoomable="yes"}
+![Trabajo con escenas 3D](../assets/workingWith3DScenes.png "Trabajo con escenas 3D"){zoomable="yes"}
 
 Designer te permite cargar [escenas 3D](../glossary/glossary.md) para trabajar con materiales en contexto. Puede encontrar una lista de formatos de archivo compatibles con escenas 3D aquí, incluida una lista de funciones compatibles con cada formato. <b>&lt;vínculo necesario></b>
 
@@ -64,7 +64,7 @@ Puede interactuar con el siguiente contenido de la escena:
 * <b>Luces:</b> todas las luces de la escena se pueden deshabilitar en el [Explorador de escenas](../interface/3d-view/scene-browser/scene-browser.md).
 * <b>Cámaras:</b> cualquier cámara detectada en la escena se agrega como ajuste preestablecido a la cámara agregada por Designer.
 
-![Contenido de una escena 3D](working-with-3d-scenes.resources/working-with-3d-scenes-02.png "Contenido de una escena 3D"){zoomable="yes"}
+![Contenido de una escena 3D](../assets/loaded3DScene.png "Contenido de una escena 3D"){zoomable="yes"}
 
 Designer utiliza una descripción en USD para su escena 3D. Su diseño se puede navegar en el explorador de escenas, donde cada tipo [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) tiene su propio icono (geometría, material, sombreador, cámara, transformación, etc.).
 
@@ -85,14 +85,14 @@ Tenga en cuenta que solo los métodos 1 y 4 le permiten volver a cargar la escen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cargando una escena 3D - Desde un recurso de escena 3D](working-with-3d-scenes.resources/working-with-3d-scenes-03.gif "Cargando una escena 3D - Desde un recurso de escena 3D"){zoomable="yes"}
+![Cargando una escena 3D - Desde un recurso de escena 3D](../assets/load3DScene-3DSceneResource.gif "Cargando una escena 3D - Desde un recurso de escena 3D"){zoomable="yes"}
 
 Carga de un recurso de escena 3D
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cargando una escena 3D - Desde la biblioteca](working-with-3d-scenes.resources/working-with-3d-scenes-04.gif "Cargando una escena 3D - Desde la biblioteca"){zoomable="yes"}
+![Cargando una escena 3D - Desde la biblioteca](../assets/load3DScene-Library.gif "Cargando una escena 3D - Desde la biblioteca"){zoomable="yes"}
 
 Carga de una escena 3D desde la biblioteca
 
@@ -104,14 +104,14 @@ Carga de una escena 3D desde la biblioteca
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cargando una escena 3D - Desde un archivo de escena 3D](working-with-3d-scenes.resources/working-with-3d-scenes-05.gif "Cargando una escena 3D - Desde un archivo de escena 3D"){zoomable="yes"}
+![Cargando una escena 3D - Desde un archivo de escena 3D](../assets/load3DScene-3DSceneFile.gif "Cargando una escena 3D - Desde un archivo de escena 3D"){zoomable="yes"}
 
 Carga de un archivo de escena 3D
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cargando una escena 3D: desde un archivo de estado de escena](working-with-3d-scenes.resources/working-with-3d-scenes-06.gif "Cargando una escena 3D: desde un archivo de estado de escena"){zoomable="yes"}
+![Cargando una escena 3D: desde un archivo de estado de escena](../assets/load3DScene-sceneStateFile.gif "Cargando una escena 3D: desde un archivo de estado de escena"){zoomable="yes"}
 
 Carga de un archivo de estado de escena
 
@@ -138,7 +138,7 @@ Todos los elementos creados por Designer se muestran con <b>etiquetas en negrita
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Explorador de escenas - Elementos creados por Designer](working-with-3d-scenes.resources/working-with-3d-scenes-07.png "Explorador de escenas - Elementos creados por Designer"){zoomable="yes"}
+![Explorador de escenas - Elementos creados por Designer](../assets/sceneBrowser-createdByDesigner.png "Explorador de escenas - Elementos creados por Designer"){zoomable="yes"}
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Todos los elementos creados por Designer se muestran con <b>etiquetas en negrita
 
 Después de configurar un material, una cámara, luces, etc. en la Vista 3D, ese estado se puede guardar en un archivo de estado de escena (.sbsscn) que se puede cargar más adelante para restaurar ese estado. Por ejemplo, puede configurar algunas escenas para previsualizar diferentes tipos de materiales o un entorno de iluminación específico.
 
-![Cargar archivo de estado de escena](working-with-3d-scenes.resources/working-with-3d-scenes-08.gif "Cargar archivo de estado de escena"){zoomable="yes"}
+![Cargar archivo de estado de escena](../assets/loadSceneStateFile.gif "Cargar archivo de estado de escena"){zoomable="yes"}
 
 Un estado de escena guardado también se puede utilizar como estado predeterminado para la Vista 3D, de modo que cada vez que se cree una nueva Vista 3D, se utilizará ese estado. Esto resulta útil si desea previsualizar los materiales de forma predeterminada en la malla Esfera 2 - Mosaicos con un valor de mosaico de 2 y un mapa de entorno específico.
 

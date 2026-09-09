@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Fecha de publicación: *24 de noviembre de 2021*
 
 ### Nuevas funcionalidades de gráficos de modelos
 
-![](version-11-3.resources/version-11-3-01.jpg)
+![](../../assets/banner-model.jpg)
 
 Se han añadido muchas mejoras al gráfico del modelo para ampliar las capacidades de modelado:
 
@@ -41,7 +41,7 @@ Se han añadido muchas mejoras al gráfico del modelo para ampliar las capacidad
   * Eliminación de partículas
   * Partículas de las instancias
 
-  ![](version-11-3.resources/version-11-3-02.gif)
+  ![](../../assets/particle-pruning.gif)
 
 * <b>Nuevos nodos de modelado y deformación</b>\
   Se han añadido nuevos nodos adicionales para crear formas más complejas; haga clic en cada nodo para obtener más información sobre ellos:
@@ -59,7 +59,7 @@ Se han añadido muchas mejoras al gráfico del modelo para ampliar las capacidad
 
 ### Interoperabilidad mejorada
 
-![](version-11-3.resources/version-11-3-03.jpg)
+![](../../assets/banner-sendto.jpg)
 
 Las acciones de envío se han ampliado, con dos nuevas posibilidades:
 
@@ -71,24 +71,24 @@ Las acciones de envío se han ampliado, con dos nuevas posibilidades:
 
 ### Miscelánea
 
-![](version-11-3.resources/version-11-3-04.jpg)
+![](../../assets/banner-misc-3.jpg)
 
 Se han hecho varias mejoras en la calidad de vida:
 
 * **Entradas relativas a las entradas**\
   Las entradas de gráficos establecidas en Relativo a entradas ahora heredarán el tamaño del nodo conectado en lugar del tamaño del gráfico principal predeterminado. Esto facilita la administración de diferentes resoluciones mediante entradas de diferentes tamaños.
 
-  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
+  ![](../../assets/relative-to-inputs.jpg){width="400px"}
 
 * **Nueva ventana de gráfico**\
   La nueva ventana gráfica se ha rediseñado y ahora permite ver mejor los detalles de una plantilla específica y crear una nueva gráfica directamente en un paquete existente.
 
-  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
+  ![](../../assets/new-graph.png){width="400px"}
 
 * **Cerrar todos los paquetes**\
   Una pequeña acción que hace menos tedioso administrar muchos paquetes en el explorador. Use **Archivo** > **Cerrar todos** para cerrar todos los paquetes abiertos actualmente.
 
-  ![](version-11-3.resources/version-11-3-07.png)
+  ![](../../assets/close-all-packages.png)
 
 * **Maximizar vista actual**\
   Use la nueva barra de título **icon** o el método abreviado **MAYÚS+Espacio** para expandir una ventana a pantalla completa. Esto también se puede usar en ventanas flotantes.
@@ -98,16 +98,16 @@ Se han hecho varias mejoras en la calidad de vida:
 
 ### Contenido
 
-![](version-11-3.resources/version-11-3-08.jpg)
+![](../../assets/render-content.jpg)
 
 Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderización PBR:
 
 * <b>Nodos de difusión</b>\
   Los nuevos nodos Color de difusión, Escala de grises de difusión y UV de difusión permiten generar desenfoques de sangrado suaves basados en una máscara de entrada.
 
-  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
+  ![](../../assets/diffusion-normal.jpg){width="230px"}
 
-  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
+  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
 
 * **Nodo de Renderización PBR mejorado**\
   Este nodo tuvo los siguientes cambios:

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sobel de curvatura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel.png){width="128px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -55,7 +55,7 @@ Este nodo es útil para resaltar u oscurecer rápidamente determinados bordes. E
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/curv-sobel-ex.png" />
+            <img src="curvature-sobel.resources/curv-sobel-ex.png" />
         </td>
     </tr>
 </table>

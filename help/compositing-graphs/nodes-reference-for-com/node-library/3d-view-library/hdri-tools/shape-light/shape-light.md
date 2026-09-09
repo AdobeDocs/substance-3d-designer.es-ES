@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luz de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-shape.png){width="200px"}
+![](shape-light.resources/panorama-shape.png){width="200px"}
 
 <b>En:</b> Vista 3D > Herramientas HDRI
 
@@ -77,7 +77,7 @@ Genera una forma rectangular proyectada esféricamente. La transformación de la
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shape-light-ex.gif" />
+            <img src="shape-light.resources/shape-light-ex.gif" />
         </td>
     </tr>
 </table>

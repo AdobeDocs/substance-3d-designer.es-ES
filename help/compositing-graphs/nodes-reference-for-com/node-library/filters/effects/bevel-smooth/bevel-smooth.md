@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suavizado de bisel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de escala de grises Kuwahara anisotrópico](../../../../../../assets/bevel_smooth.png "Icono de escala de grises Kuwahara anisotrópico"){width="200px"}
+![Icono de escala de grises Kuwahara anisotrópico](bevel-smooth.resources/bevel_smooth.png "Icono de escala de grises Kuwahara anisotrópico"){width="200px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -87,12 +87,12 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Suavizado de bisel: Ejemplo 1](../../../../../../assets/bevel_smooth_example_1.gif "Suavizado de bisel: Ejemplo 1"){width="1024px" zoomable="yes"}
+![Suavizado de bisel: Ejemplo 1](bevel-smooth.resources/bevel_smooth_example_1.gif "Suavizado de bisel: Ejemplo 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Suavizado de bisel: Ejemplo 8](../../../../../../assets/bevel_smooth_example_8.jpg "Suavizado de bisel: Ejemplo 8"){width="1024px" zoomable="yes"}
+![Suavizado de bisel: Ejemplo 8](bevel-smooth.resources/bevel_smooth_example_8.jpg "Suavizado de bisel: Ejemplo 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -105,11 +105,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -121,11 +121,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -175,11 +175,11 @@ La distancia del degradado se puede ajustar dinámicamente a lo largo del borde 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
       <br><i>Después De</i>
     </td>
   </tr>

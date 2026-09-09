@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ID para enmascarar escala de grises
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Id. para enmascarar icono de escala de grises](../../../../../../assets/IDToMask.png "Id. para enmascarar icono de escala de grises"){width="200px"}
+![Id. para enmascarar icono de escala de grises](id-to-mask.resources/IDToMask.png "Id. para enmascarar icono de escala de grises"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -72,11 +72,11 @@ Un mapa de ID es una imagen en la que los píxeles que forman parte de un todo (
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -86,12 +86,12 @@ Un mapa de ID es una imagen en la que los píxeles que forman parte de un todo (
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Id. para enmascarar: Ejemplo 2](../../../../../../assets/id_to_mask_example_2.gif "ID para enmascarar: Ejemplo 2"){zoomable="yes"}
+![Id. para enmascarar: Ejemplo 2](id-to-mask.resources/id_to_mask_example_2.gif "ID para enmascarar: Ejemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Id. para enmascarar: Ejemplo 3](../../../../../../assets/id_to_mask_example_3.png "ID que enmascarar: Ejemplo 3"){zoomable="yes"}
+![Id. para enmascarar: Ejemplo 3](id-to-mask.resources/id_to_mask_example_3.png "ID que enmascarar: Ejemplo 3"){zoomable="yes"}
 
 </td>
 </tr>
