@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
-description: Utilice el nodo Posición de la textura 3D para extraer información de posición de texturas 3D y crear efectos espaciales y asignaciones.
+description: Utilice el nodo Posición de la Textura 3D para extraer información de posición de las texturas 3D y así crear efectos espaciales y asignaciones.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Position
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Posición de textura 3D
+title: Posición de Textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Posición de textura 3D
+# Posición de Textura 3D
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3dtextureposition.png){width="256px"}
 
 <b>En:</b> Filtro > Efecto
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## Descripción
 
-El nodo **3D Texture Position** genera los *sectores de posición* de un cubo de unidades.
+El nodo **Posición de Textura 3D** genera los *sectores de posición* de un cubo de unidades.
 
-Esto se puede usar para hornear ruidos 3D o funciona como un *atlas de texturas 3D*.
+Esto se puede usar para hacer un bake ruidos 3D o funciones como *atlas de texturas 3D*.
 
 </td>
 </tr>
@@ -46,10 +46,10 @@ Esto se puede usar para hornear ruidos 3D o funciona como un *atlas de texturas 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureposition-variant.jpg" />
+            <img src="3d-texture-position.resources/3dtextureposition-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureposition-node.png" />
+            <img src="3d-texture-position.resources/3dtextureposition-node.png" />
         </td>
     </tr>
 </table>
