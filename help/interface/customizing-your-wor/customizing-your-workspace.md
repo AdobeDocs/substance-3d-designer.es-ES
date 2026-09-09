@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Personalización del espacio de trabajo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Este menú le permite administrar los principales elementos de la interfaz de us
 
 ### Mostrar u ocultar una vista
 
-Para mostrar u ocultar un elemento de interfaz específico, haga clic en su nombre en el menú *Windows*. Los elementos mostrados tienen una marca de verificación ![](customizing-your-workspace.resources/customizing-your-workspace-01.png).
+Para mostrar u ocultar un elemento de interfaz específico, haga clic en su nombre en el menú *Windows*. Los elementos mostrados tienen una marca de verificación ![](../../assets/image2015-12-17-10-43-24.png).
 
 ### Rellenar un muelle con una vista
 
@@ -46,7 +46,7 @@ Las opciones <b>New Explorer</b>, <b>New 3D view</b> y <b>New Library view</b> c
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menú Windows](customizing-your-workspace.resources/customizing-your-workspace-02.png "Menú Windows")
+![Menú Windows](../../assets/windows-menu-1.png "Menú Windows")
 
 </td>
 </tr>
@@ -56,13 +56,13 @@ Las opciones <b>New Explorer</b>, <b>New 3D view</b> y <b>New Library view</b> c
 
 Se puede cambiar el tamaño de los muelles moviendo cualquiera de sus bordes. Los demás muelles cambiarán de tamaño dinámicamente para ajustarse.
 
-![Redimensionando muelles](customizing-your-workspace.resources/customizing-your-workspace-03.gif "Redimensionando muelles")
+![Redimensionando muelles](../../assets/interface-customisation-resize.gif "Redimensionando muelles")
 
 ## Mudanza de muelles
 
 Se puede mover cualquier conjunto acoplado alrededor de la ventana principal mediante su *barra de título*. En función de la ubicación a la que se mueva el conjunto, se cambiará el tamaño de los muelles para ajustarlos.
 
-![Muelles móviles](customizing-your-workspace.resources/customizing-your-workspace-04.gif "Muelles móviles")
+![Muelles móviles](../../assets/interface-customisation-move.gif "Muelles móviles")
 
 ## Estaciones de tabulación
 
@@ -70,7 +70,7 @@ Los Docks pueden estar apilados en pestañas. Esto resulta útil para guardar el
 
 Puede separar los muelles moviendo un muelle con su barra de título *sobre un muelle existente*, por ejemplo, los muelles no cambian de tamaño ni se mueven, pero aparece un *marco* alrededor del muelle de destino.
 
-![Muelles de tabulación](customizing-your-workspace.resources/customizing-your-workspace-05.gif "Muelles de tabulación")
+![Muelles de tabulación](../../assets/interface-customisation-tab.gif "Muelles de tabulación")
 
 ## Desacoplamiento
 
@@ -78,10 +78,10 @@ Un conjunto acoplado se puede desacoplar en una *ventana flotante* que se puede 
 
 Esto se puede hacer de dos maneras:
 
-* Mueve el dock usando su *barra de título* y colócalo *fuera de la ventana principal* o en un área de la ventana principal que *no es un dock*. Puede volver a acoplar este conjunto acoplado moviéndolo en otro conjunto acoplado *en la ventana principal* o haciendo clic en el botón <b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) Volver a acoplar </b>;
-* Haciendo clic en el botón <b>![](customizing-your-workspace.resources/customizing-your-workspace-07.png) Desacoplar</b>. Un dock desacoplado con este método puede *solo* reacoplarse haciendo clic en el botón <b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) Reacoplar</b>.
+* Mueve el dock usando su *barra de título* y colócalo *fuera de la ventana principal* o en un área de la ventana principal que *no es un dock*. Puede volver a acoplar este conjunto acoplado moviéndolo en otro conjunto acoplado *en la ventana principal* o haciendo clic en el botón <b>![](../../assets/dock-icons-redock.png) Volver a acoplar </b>;
+* Haciendo clic en el botón <b>![](../../assets/dock-icons-undock.png) Desacoplar</b>. Un dock desacoplado con este método puede *solo* reacoplarse haciendo clic en el botón <b>![](../../assets/dock-icons-redock.png) Reacoplar</b>.
 
-![Desacoplando](customizing-your-workspace.resources/customizing-your-workspace-08.gif "Desacoplando")
+![Desacoplando](../../assets/interface-customisation-undock.gif "Desacoplando")
 
 ## Maximización de los muelles
 
@@ -93,12 +93,12 @@ Se puede maximizar cualquier conjunto acoplado para que se ajuste al área o a s
 Los muelles se pueden maximizar de dos maneras:
 
 * Colocando el *cursor sobre el muelle* y presionando la tecla <b>Mayús+Espacio</b>
-* Haciendo clic en el botón <b>![](customizing-your-workspace.resources/customizing-your-workspace-09.png) Maximizar</b>
+* Haciendo clic en el botón <b>![](../../assets/dock-icons-maximise.png) Maximizar</b>
 
 Los muelles maximizados se pueden minimizar en el tamaño y la ubicación que tenían *antes de maximizarlos*. Esto se puede hacer de tres maneras:
 
 * Colocando el *cursor sobre el muelle* y presionando la tecla <b>Mayús+Espacio</b>
-* Haciendo clic en el botón <b>![](customizing-your-workspace.resources/customizing-your-workspace-10.png) Minimizar</b>
+* Haciendo clic en el botón <b>![](../../assets/dock-icons-minimise.png) Minimizar</b>
 * Abriendo el menú <b>Windows</b> y seleccionando la opción <b>Desmaximizar ventana</b>
 
 >[!NOTE]
@@ -114,7 +114,7 @@ Los muelles maximizados se pueden minimizar en el tamaño y la ubicación que te
 > * Los botones están *deshabilitados* en la barra de título del dock
 > * Un conjunto acoplado maximizado en la ventana principal *no se puede mover* con su barra de título
 
-![Maximización de muelles](customizing-your-workspace.resources/customizing-your-workspace-11.gif "Maximización de muelles")
+![Maximización de muelles](../../assets/interface-customisation-maximise.gif "Maximización de muelles")
 
 ## Fijar muelles
 
@@ -122,7 +122,7 @@ Al fijar un conjunto acoplado *, se impide que se rellene* con otro contenido o 
 
 Cuando se ancla un dock, cualquier contenido futuro que deba mostrarse en su lugar *creará un nuevo dock* para hospedarlo. Este nuevo dock no se fijará y, por lo tanto, puede actualizar y alojar contenido nuevo.
 
-Para fijar un conjunto acoplado, haga clic en su botón ![](customizing-your-workspace.resources/customizing-your-workspace-12.png) <b>Fijar</b>. A continuación, puedes *desanclarlo* con el botón ![](customizing-your-workspace.resources/customizing-your-workspace-13.png) <b>Desanclar</b> para que *esté disponible* de nuevo para alojar cualquier contenido nuevo.
+Para fijar un conjunto acoplado, haga clic en su botón ![](../../assets/dock-icons-pin.png) <b>Fijar</b>. A continuación, puedes *desanclarlo* con el botón ![](../../assets/dock-icons-pinned.png) <b>Desanclar</b> para que *esté disponible* de nuevo para alojar cualquier contenido nuevo.
 
 *Se puede anclar más de un dock de* a la vez, incluidos varios de *mismo tipo*.
 
@@ -132,11 +132,11 @@ Los muelles de fijación le proporcionan las siguientes capacidades:
 * Visualización simultánea de dos o más mapas de bits
 * Trabajo simultáneo en varios gráficos
 
-![Muelles de fijación](customizing-your-workspace.resources/customizing-your-workspace-14.gif "Muelles de fijación")
+![Muelles de fijación](../../assets/interface-customisation-pin.gif "Muelles de fijación")
 
 ## Cerrando muelles
 
-Se puede cerrar cualquier estación de acoplamiento haciendo clic en su botón ![](customizing-your-workspace.resources/customizing-your-workspace-15.png) <b>Cerrar</b>.
+Se puede cerrar cualquier estación de acoplamiento haciendo clic en su botón ![](../../assets/dock-icons-close.png) <b>Cerrar</b>.
 
 ## Restablecer el diseño de la interfaz
 
@@ -144,4 +144,4 @@ Para restablecer toda la interfaz de usuario en su diseño predeterminado, abre 
 
 Su estado de visualización también se restablecerá, lo que significa que los muelles cerrados se pueden *reabrir* (por ejemplo, la vista 3D) y los muelles mostrados se pueden *cerrar* (por ejemplo, la consola, el administrador de dependencias, los muelles creados por los complementos).
 
-![Restablecer diseño](customizing-your-workspace.resources/customizing-your-workspace-16.gif "Restablecer diseño")
+![Restablecer diseño](../../assets/interface-customisation-reset.gif "Restablecer diseño")

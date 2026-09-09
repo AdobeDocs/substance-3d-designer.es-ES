@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Todos incluyen un nodo [Procesador de valor](../../atomic-nodes/value-processor/
 
 +++ Nodos constantes en la biblioteca
 
-![constantes-library.png](constant.resources/constant-01.png)
+![constantes-library.png](constant.resources/constants-library.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="Nodo Flotante constante" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nodo Flotante constante" /></p>
 
 ## Enteros
 
@@ -43,7 +43,7 @@ Los enteros constantes generan números enteros y tienen un paso de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo entero](constant.resources/constant-03.png "Icono de tipo entero")
+![Icono de tipo entero](../../../../assets/fn-constant-integer.png "Icono de tipo entero")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Un entero tiene un solo componente. Resulta útil como índice para realizar sel
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](constant.resources/constant-04.png "Integer2 type icon")
+![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Un caso de uso común de Integer2 es establecer los tamaños de cuadrícula X e 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 type icon](constant.resources/constant-05.png "Integer3 type icon")
+![Integer3 type icon](../../../../assets/fn-constant-integer3.png "Integer3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Un nodo Integer3 genera un vector entero estático de 3 componentes con componen
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo entero4](constant.resources/constant-06.png "Icono de tipo entero4")
+![Icono de tipo entero4](../../../../assets/fn-constant-integer4.png "Icono de tipo entero4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Los valores de Flotante constante generan números fraccionarios, es decir, admi
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo flotante](constant.resources/constant-07.png "Icono de tipo flotante")
+![Icono de tipo flotante](../../../../assets/fn-constant-float.png "Icono de tipo flotante")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Un Flotante tiene un solo componente y se utiliza muy a menudo para cualquier va
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo Float2](constant.resources/constant-08.png "Icono de tipo Float2")
+![Icono de tipo Float2](../../../../assets/fn-constant-float2.png "Icono de tipo Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Flotante2 se suele usar para [coordenadas de muestreo](../../../../function-grap
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo Float3](constant.resources/constant-09.png "Icono de tipo Float3")
+![Icono de tipo Float3](../../../../assets/fn-constant-float3.png "Icono de tipo Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Flotante3 se usa principalmente para trabajar con objetos 3D y [coordenadas de e
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo flotante4](constant.resources/constant-10.png "Icono de tipo flotante4")
+![Icono de tipo flotante4](../../../../assets/fn-constant-float4.png "Icono de tipo flotante4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ Flotante4 es la forma preferida de almacenar y establecer información de color 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo booleano](constant.resources/constant-11.png "Icono de tipo booleano")
+![Icono de tipo booleano](../../../../assets/fn-constant-boolean.png "Icono de tipo booleano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

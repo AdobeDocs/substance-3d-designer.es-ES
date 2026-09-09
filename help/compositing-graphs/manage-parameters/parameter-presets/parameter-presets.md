@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parámetros preestablecidos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Los ajustes preestablecidos de parámetros permiten al usuario almacenar y trans
 
 Hay dos formas de almacenar y cargar ajustes preestablecidos, ambas con diferentes casos de uso, que se detallan a continuación.
 
-![Cargar/guardar ajuste preestablecido menú desplegable](parameter-presets.resources/parameter-presets-01.gif "Cargar/guardar ajuste preestablecido menú desplegable"){width="512px"}
+![Cargar/guardar ajuste preestablecido menú desplegable](parameter-presets.resources/preset-menu.gif "Cargar/guardar ajuste preestablecido menú desplegable"){width="512px"}
 
 ## Ajustes preestablecidos externos
 
@@ -38,7 +38,7 @@ Simplemente se guardan y se cargan en este menú. Los archivos SBSPRS guardados 
 >
 > Incluso las coincidencias parciales funcionarán: los parámetros almacenados en un SBSPRS que no existen en el nodo cargado, simplemente se omitirán. Esto significa que puede transferir propiedades entre nodos que son en su mayoría similares, [&#x200B; como la versión en color y escala de grises de Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md). Se cargarán todos los parámetros compartidos. La coincidencia se produce en el identificador y el tipo.
 
-![Edición de ajustes preestablecidos incrustados](parameter-presets.resources/parameter-presets-02.gif "Edición de ajustes preestablecidos incrustados"){width="512px"}
+![Edición de ajustes preestablecidos incrustados](parameter-presets.resources/preset-embed.gif "Edición de ajustes preestablecidos incrustados"){width="512px"}
 
 ## Ajustes preestablecidos integrados
 

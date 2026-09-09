@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visible si las expresiones
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Para ello, puede introducir una *expresión lógica* en la propiedad <b>Visible 
 * un nodo [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) de gráfico;
 * el nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) de un gráfico.
 
-![Cambiar la visibilidad del parámetro de entrada](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-control-visibility-of-inputs-outputs-and-parameters-01.gif "Cambiar la visibilidad del parámetro de entrada"){width="512px"}
+![Cambiar la visibilidad del parámetro de entrada](../../assets/visible-if-example.gif "Cambiar la visibilidad del parámetro de entrada"){width="512px"}
 
 Si la expresión lógica se evalúa como `true`, el parámetro, entrada o salida se muestra en todos los [nodos de instancia](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) que representan el gráfico actual. De lo contrario, está *oculto*.
 
@@ -69,7 +69,7 @@ input["identifier"]
 
 Los campos &quot;Visible if&quot; aceptan los siguientes parámetros:
 
-* Entradas booleanas, Flotante y enteros.
+* Entradas booleanas, flotantes y enteras.
 * Valores de `true` y `false` (distingue mayúsculas de minúsculas, sin mayúsculas)
 * `.x` : acceder al subparámetro
 * `&&`<b> </b>: y

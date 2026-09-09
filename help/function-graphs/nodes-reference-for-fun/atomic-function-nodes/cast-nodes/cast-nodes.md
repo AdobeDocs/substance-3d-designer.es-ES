@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Proyección
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Los nodos de conversión se utilizan para convertir un nodo de un tipo a otro tipo:
 
-![](cast-nodes.resources/cast-nodes-01.png)
+![](../../../../assets/image2015-12-23-10-5-19.png)
 
 ## ¿Cómo se usa un nodo de conversión?
 

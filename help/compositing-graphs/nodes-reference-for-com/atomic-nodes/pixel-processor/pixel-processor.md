@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de píxeles
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Procesador de píxeles](pixel-processor.resources/pixel-processor-01.png "Nodo atómico: Procesador de píxeles"){width="200px"}
+![Nodo atómico: Procesador de píxeles](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atómico: Procesador de píxeles"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

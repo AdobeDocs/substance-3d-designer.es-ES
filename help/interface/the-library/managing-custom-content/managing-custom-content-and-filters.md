@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Administración de contenido y filtros personalizados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ De hecho, las categorías y filtros personalizados pueden ser *específicos del 
 
 Esto significa que con uno o más archivos de Project, puedes establecer las carpetas cuyo contenido debe agregarse a <b>Library</b>, así como las categorías y filtros que ordenarán y organizarán ese contenido.
 
-![Contenido personalizado en la biblioteca](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-01.png "Contenido personalizado en la biblioteca")
+![Contenido personalizado en la biblioteca](../../../assets/library-filters.png "Contenido personalizado en la biblioteca")
 
 ## Atributos de gráfico
 
@@ -57,11 +57,11 @@ Los filtros son parámetros de búsqueda booleanos simples (True/False) que har�
 
 Las categorías (es decir, carpetas) y los filtros se crean y editan mediante los siguientes botones:
 
-<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-02.png) Agregar carpeta:</b> Crea una carpeta expansible en la vista de biblioteca. *no puede* crear subcarpetas.
+<b>![](../../../assets/library-icon-new-folder.png) Agregar carpeta:</b> Crea una carpeta expansible en la vista de biblioteca. *no puede* crear subcarpetas.
 
-<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-03.png) Agregar filtro:</b> Agrega un nuevo filtro dentro de la carpeta seleccionada. *no puede* agregar filtros a las carpetas predeterminadas existentes.
+<b>![](../../../assets/library-icon-new-filter.png) Agregar filtro:</b> Agrega un nuevo filtro dentro de la carpeta seleccionada. *no puede* agregar filtros a las carpetas predeterminadas existentes.
 
-<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-04.png) Editar elemento:</b> Edita la carpeta o el filtro seleccionados actualmente. *No se puede* editar ninguna de las propiedades de Carpetas y filtros predeterminados.
+<b>![](../../../assets/library-icon-edit.png) Editar elemento:</b> Edita la carpeta o el filtro seleccionados actualmente. *No se puede* editar ninguna de las propiedades de Carpetas y filtros predeterminados.
 
 Para *quitar* una carpeta o un filtro, *haz clic con el botón derecho* en él y selecciona la opción <b>Quitar</b> del menú contextual.
 
@@ -76,7 +76,7 @@ Las <b>carpetas</b> y <b>filtros</b> se identifican mediante los siguientes dato
 >
 > Es *muy* importante configurarlas correctamente para asegurarte de que editas el *proyecto correcto*.
 
-![Edición de filtro personalizado](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-05.png "Edición de filtro personalizado")
+![Edición de filtro personalizado](../../../assets/library-filters-edit.png "Edición de filtro personalizado")
 
 **Los filtros** suelen necesitar tener *condiciones* configuradas para lograr su propósito de filtrado. Estas condiciones se configuran según los siguientes criterios:
 
@@ -97,7 +97,7 @@ Puede *agregar o quitar* condiciones mediante los botones &#39;**+**&#39; y &#39
 
 * La regla general para la biblioteca predeterminada es que <b>Folder</b> aparece en el atributo <b>Category</b>, mientras que el nombre <b>Filter</b> está determinado por el atributo <b>Tag</b>
 * No crees nodos personalizados que se mezclen con la biblioteca predeterminada a menos que *explícitamente* lo desees. Tus nodos *aparecerán* en Filtros predeterminados si coinciden, así que tendrás que asegurarte de usar un *sistema de etiquetado/nomenclatura diferente* para evitar eso
-* Usa identificadores *únicos* y *por proyecto*. Estos se pueden colocar donde quieras (como <b>Descripción</b>, <b>Categoría</b> o <b>Datos de usuario</b>), siempre y cuando seas *consistente* entre todos los proyectos. Esto facilita mucho la búsqueda y el filtrado del contenido *por proyecto*
+* Usar identificadores *únicos* y *por proyecto*. Estos se pueden colocar donde quieras (como <b>Descripción</b>, <b>Categoría</b> o <b>Datos de usuario</b>), siempre y cuando seas *consistente* entre todos los proyectos. Esto facilita mucho la búsqueda y el filtrado del contenido *por proyecto*
 * Utilice el atributo <b>Author</b> para realizar un seguimiento de la persona responsable inicialmente del contenido, sin tener que examinar los registros de Control de versiones
 * Una forma eficaz de crear <b>iconos</b> es usar la opción <b>Generate</b> del atributo de gráfico [Icon](../../../compositing-graphs/graph-parameters/graph-parameters.md) o crear un gráfico [template](../../../interface/preferences-window/project-settings/project-settings.md) para generarlos. De esta manera, puede garantizar la coherencia y ahorrar trabajo al crearlas. Todos los iconos de biblioteca predeterminados se crearon en Designer de esta manera.
 

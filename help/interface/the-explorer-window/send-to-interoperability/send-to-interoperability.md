@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Enviar a...  Interoperabilidad
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Enviar a...  Interoperabilidad
 
-![Enviar desde Designer a aplicaciones de Substance 3D](send-to-interoperability.resources/send-to-interoperability-01.png "Enviar desde Designer a aplicaciones de Substance 3D"){width="512px"}
+![Enviar desde Designer a aplicaciones de Substance 3D](../../../assets/explorer-interop.png "Enviar desde Designer a aplicaciones de Substance 3D"){width="512px"}
 
 Adobe Substance 3D Designer tiene interoperabilidad con [Substance 3D Sampler](https://www.adobe.com/es/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) y [Substance 3D Stager](https://www.adobe.com/es/products/substance3d-stager.html). Te permite *enviar* y *reenviar* el trabajo rápidamente, lo que facilita la iteración en el ecosistema de Substance 3D.
 
@@ -49,7 +49,7 @@ En la sección <b>Atributos </b>de las propiedades de un gráfico de [Substance]
 </td>
 <td style="border: 0;" valign="top">
 
-![Atributo de tipo de gráfico de Substance](send-to-interoperability.resources/send-to-interoperability-02.jpg "Atributo de tipo de gráfico de Substance")
+![Atributo de tipo de gráfico de Substance](../../../assets/type-attribute.jpg "Atributo de tipo de gráfico de Substance")
 
 </td>
 </tr>
@@ -76,12 +76,12 @@ El proceso de envío implicó [publicar](../../../compositing-graphs/publishing-
 El envío de contenido se puede realizar de las siguientes maneras:
 
 * Haga clic con el botón derecho en un paquete y abra <b>Enviar a...Submenú </b> en el menú contextual, luego elige <b>Enviar a...Opción </b> para la aplicación de destino;
-* Haz clic en el botón ![](send-to-interoperability.resources/send-to-interoperability-03.jpg) <b>Publish/Send</b> situado en la parte superior del panel Explorador y, a continuación, elige <b>Enviar a...Opción </b> para la aplicación de destino.
+* Haz clic en el botón ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b> situado en la parte superior del panel Explorador y, a continuación, elige <b>Enviar a...Opción </b> para la aplicación de destino.
 
 </td>
 <td style="border: 0;" valign="top">
 
-Menú ![Publish/Enviar a en el Explorador](send-to-interoperability.resources/send-to-interoperability-04.jpg "Menú Publish/Enviar a en el Explorador")
+Menú ![Publish/Enviar a en el Explorador](../../../assets/explorer-sendto-displayed.jpg "Menú Publish/Enviar a en el Explorador")
 
 </td>
 </tr>

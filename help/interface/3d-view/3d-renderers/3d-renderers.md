@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderizadores 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ La Vista 3D ofrece cuatro procesadores:
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathTracker-2">
+      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathTracker-2">
       <br><i>Trazador de ruta de GPU</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Gracias a su dependencia de USD, puede aprovechar el [plugin USDFileFormat](http
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
+      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Gracias a su dependencia de USD, puede aprovechar el [plugin USDFileFormat](http
 
 +++
 
-![Rasterizador - Ejemplo 1](3d-renderers.resources/3d-renderers-04.jpg "Rasterizador - Ejemplo 1"){zoomable="yes"}
+![Rasterizador - Ejemplo 1](../../../assets/3dRendererRasterizer.jpg "Rasterizador - Ejemplo 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Gracias a su dependencia de USD, puede aprovechar el [plugin USDFileFormat](http
 
 +++
 
-![Rastreador de GPU - Ejemplo 1](3d-renderers.resources/3d-renderers-05.jpg "Rastreador de GPU - Ejemplo 1"){zoomable="yes"}
+![Rastreador de GPU - Ejemplo 1](../../../assets/3dRendererPathtracer.jpg "Rastreador de GPU - Ejemplo 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -296,4 +296,4 @@ Designer también ofrece la posibilidad de configurar sus propios sombreadores p
 > 
 > Este procesador está **obsoleto**: No recibirá nuevas funciones y se retirará en una futura versión de Designer.
 
-![OpenGL - Ejemplo 1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL - Ejemplo 1"){zoomable="yes"}
+![OpenGL - Ejemplo 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Ejemplo 1"){zoomable="yes"}

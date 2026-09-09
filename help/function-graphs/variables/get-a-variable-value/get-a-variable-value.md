@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Obtener un valor variable
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Para utilizar una variable en una función, necesita &quot;llamarla&quot;, lo qu
 
 Para ello, debes usar un nodo *Get*:
 
-![](get-a-variable-value.resources/get-a-variable-value-01.png)
+![](../../../assets/image2015-12-21-7-29-51.png)
 
 Hay diferentes tipos de nodos Get: elija el correcto según el tipo de valor que desee importar:
 
-![](get-a-variable-value.resources/get-a-variable-value-02.png)
+![](../../../assets/image2015-12-21-7-31-4.png)
 
 ## Asignar una variable a un nodo Get
 
@@ -38,7 +38,7 @@ Para vincular una variable, vaya a los parámetros y elija una variable en la li
 
 El nombre de variable se mostrará en el nodo:
 
-![](get-a-variable-value.resources/get-a-variable-value-03.gif)
+![](../../../assets/assign-getfloat.gif)
 
 Tenga en cuenta que sólo aparecerán en la lista las variables que sean del mismo tipo del nodo Get.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestor de dependencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
@@ -24,4 +24,4 @@ El <b>Administrador de dependencias</b> le permite ver todas las dependencias de
 
 Puede acceder a él haciendo clic con el botón derecho en un paquete en el Explorador y eligiendo la opción &#39;Administrador de dependencias&#39; en el menú contextual.
 
-![Administrador de dependencias](dependency-manager.resources/dependency-manager-01.png "Administrador de dependencias")
+![Administrador de dependencias](../../assets/dependency-manager.png "Administrador de dependencias")

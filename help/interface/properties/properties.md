@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Propiedades
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ El panel <b>Propiedades</b> es un panel sensible al contexto que cambia en funci
 </td>
 <td style="border: 0;" valign="top">
 
-![Muelle de propiedades](properties.resources/properties-01.png "Muelle de propiedades")
+![Muelle de propiedades](../../assets/image2020-11-9-13-49-48.png "Muelle de propiedades")
 
 </td>
 </tr>

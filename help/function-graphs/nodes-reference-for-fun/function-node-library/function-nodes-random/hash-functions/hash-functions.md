@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Funciones Hash
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo hash: icon](hash-functions.resources/hash-functions-01.png "Nodo hash: icon"){width="200px"}
+![Nodo hash: icon](../../../../../assets/hash-icon.png "Nodo hash: icon"){width="200px"}
 
 <b>En:</b> Funciones > Aleatorio
 
@@ -53,9 +53,9 @@ Versiones disponibles, con su tipo de entrada y tipo de salida:
 
 <b>Hash 14:</b> Flotante → Flotante4
 
-<b>Hash 21:</b> Float2 → Float
+<b>Hash 21:</b> Flotante2 → Flotante
 
-<b>Hash 22:</b> Float2 → Float2
+<b>Hash 22:</b> Flotante2 → Flotante2
 
 </td>
 <td style="border: 0;" valign="top">
@@ -64,7 +64,7 @@ Versiones disponibles, con su tipo de entrada y tipo de salida:
 
 <b>Hash31:</b> Flotante3 → Flotante
 
-<b>Hash 32:</b> Float3 → Float2
+<b>Hash 32:</b> Flotante3 → Flotante2
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Versiones disponibles, con su tipo de entrada y tipo de salida:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Hash 14 ejemplo](hash-functions.resources/hash-functions-02.png "Hash 14 ejemplo"){zoomable="yes"}
+![Hash 14 ejemplo](../../../../../assets/hash14-example.png "Hash 14 ejemplo"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Hash 32 ejemplo](hash-functions.resources/hash-functions-03.png "Hash 32 ejemplo"){zoomable="yes"}
+![Hash 32 ejemplo](../../../../../assets/hash32-example.png "Hash 32 ejemplo"){zoomable="yes"}
 
 </td>
 </tr>

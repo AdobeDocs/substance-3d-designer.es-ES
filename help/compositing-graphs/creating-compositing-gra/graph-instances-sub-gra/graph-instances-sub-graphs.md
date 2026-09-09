@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Instancias y subgráficos de gráficos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Instancias y subgráficos de gráficos
 
-![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
+![](graph-instances-sub-graphs.resources/sub-graph.png)
 
 Las instancias de gráficos son nodos que <b>hacen referencia a otro gráfico</b>. Un gráfico al que hace referencia un nodo de instancia en un gráfico de host puede denominarse <b>subgráfico</b> del gráfico de host.
 

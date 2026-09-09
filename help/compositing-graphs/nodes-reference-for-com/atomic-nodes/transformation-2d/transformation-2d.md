@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformación 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Transformación 2D](transformation-2d.resources/transformation-2d-01.png "Nodo atómico: Transformación 2D"){width="200px"}
+![Nodo atómico: Transformación 2D](../../../../assets/comp_transformation_1.png "Nodo atómico: Transformación 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Sin embargo, no puede ser una coincidencia perfecta para ciertas aplicaciones, p
 > 
 > Establezca el [método de herencia](../../../../glossary/glossary.md) del &#39;Modo de segmentación&#39; [parámetro base](../../../../glossary/glossary.md) en &#39;Absoluto&#39;, que luego le permite establecer el valor del parámetro en &#39;Sin segmentación&#39;:
 > 
-> ![](transformation-2d.resources/transformation-2d-02.png)
+> ![](../../../../assets/tilingmode.png)
 
 >[!NOTE]
 >

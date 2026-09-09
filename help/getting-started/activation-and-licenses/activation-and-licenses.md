@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Activación y licencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 El proceso de activación depende de dónde haya comprado Designer o tenga acceso a él:
 
 | Edición | Proceso de activación |
-|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud de sobremesa (CCD) | Instale el producto desde la aplicación de CCD y, a continuación, inícielo. Vaya a estas páginas si tiene problemas con su licencia: [Las aplicaciones no se iniciarán debido al error de suscripción](https://helpx.adobe.com/es/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Ayuda de cuenta, planes y facturación](https://helpx.adobe.com/es/account/individual.html) |
+| --- | --- |
+| Escritorio de Creative Cloud | Consulte la página dedicada en la [documentación de HelpX](https://helpx.adobe.com/es/support/substance-3d-designer.html). En caso de que haya algún problema, la [documentación del Creative Cloud](https://helpx.adobe.com/es/creative-cloud/user-guide.html) puede proporcionar respuestas adicionales. |
 | Vapor | Inicie el producto directamente desde su biblioteca de Steam. |
 | Substance (independiente) | Consulte el proceso de activación que se describe a continuación. |
 
@@ -42,7 +42,7 @@ Hay tres opciones disponibles:
 >
 > Para instalar el archivo de licencia con el Asistente de activación, asegúrese de ejecutar Designer como administrador y desactive temporalmente el antivirus.
 
-![Asistente de activación](activation-and-licenses.resources/activation-and-licenses-01.png "Asistente de activación")
+![Asistente de activación](../../assets/activation-wizard.png "Asistente de activación")
 
 ### Activación manual
 

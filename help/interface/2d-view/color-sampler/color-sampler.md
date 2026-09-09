@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Herramienta Muestra de color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Herramienta Muestra de color
 
-![Herramienta Muestra de color](color-sampler.resources/color-sampler-01.png "Herramienta Muestra de color"){zoomable="yes"}
+![Herramienta Muestra de color](../../../assets/color-sampler-demo.png "Herramienta Muestra de color"){zoomable="yes"}
 
 La herramienta Sampler de color te permite <b>realizar el seguimiento del valor de un píxel específico</b> en la [vista 2D](../../../interface/2d-view/2d-view.md) mientras modificas parámetros o modificas nodos.
 
@@ -30,16 +30,16 @@ Coloca una chincheta en la ventana gráfica y toma muestras del color y la posic
 
 Siga estos pasos para acceder a la herramienta y utilizarla:
 
-1. Haga clic en el botón ![](color-sampler.resources/color-sampler-02.png) <b>Información</b> en la barra de herramientas de la vista 2D para abrir el conjunto de herramientas y el conjunto de herramientas de información
-1. Haga clic en el botón ![](color-sampler.resources/color-sampler-03.png) <b>Herramienta Sampler de color</b> en la barra de herramientas Información
-1. En la ventana gráfica, haz clic en el píxel específico que deseas muestrear para colocar un ![](color-sampler.resources/color-sampler-04.png) <b>pin</b>
+1. Haga clic en el botón ![](../../../assets/color-sampler-information-button.png) <b>Información</b> en la barra de herramientas de la vista 2D para abrir el conjunto de herramientas y el conjunto de herramientas de información
+1. Haga clic en el botón ![](../../../assets/color-sampler-tool-icon.png) <b>Herramienta Sampler de color</b> en la barra de herramientas Información
+1. En la ventana gráfica, haz clic en el píxel específico que deseas muestrear para colocar un ![](../../../assets/color-sampler-pin-icon.png) <b>pin</b>
 1. Examine los valores muestreados en la sección dedicada del conjunto acoplado de información
-1. Cuando haya terminado con la herramienta, haga clic en el botón ![](color-sampler.resources/color-sampler-05.png) <b>Eliminar</b> para quitar la chincheta de la ventana gráfica.\
+1. Cuando haya terminado con la herramienta, haga clic en el botón ![](../../../assets/color-sampler-remove-pin.png) <b>Eliminar</b> para quitar la chincheta de la ventana gráfica.\
    También puede eliminar la chincheta haciendo clic en RMB y seleccionando la acción &#39;Eliminar&#39; en el menú contextual.
 
 Aquí hay una demostración de la herramienta en acción:
 
-![Muestra de color: con la herramienta &#x200B;](color-sampler.resources/color-sampler-06.gif "Muestra de color: usar la herramienta"){zoomable="yes"}
+![Muestra de color: con la herramienta &#x200B;](../../../assets/color-sampler-demo.gif "Muestra de color: usar la herramienta"){zoomable="yes"}
 
 *Haga clic para ampliar*
 
@@ -50,7 +50,7 @@ Los valores copiados se pueden <b>pegar en parámetros usando una miniatura de c
 
 Las miniaturas de color del panel Información también se pueden arrastrar y soltar directamente en las miniaturas de color de esos parámetros.
 
-![Muestra de color: Copiar valores RGBA](color-sampler.resources/color-sampler-07.gif "Muestra de color: copiar valores RGBA"){zoomable="yes"}
+![Muestra de color: Copiar valores RGBA](../../../assets/color-sampler-demo-copy-rgba-values.gif "Muestra de color: copiar valores RGBA"){zoomable="yes"}
 
 
 
@@ -76,7 +76,7 @@ La información se agrupa en tres tipos y dos formatos.
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Información muestreada](color-sampler.resources/color-sampler-08.png "Información muestreada"){zoomable="yes"}
+![Información muestreada](../../../assets/color-sampler-information.png "Información muestreada"){zoomable="yes"}
 
 </td>
 </tr>

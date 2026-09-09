@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entrada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nodo atómico: Color de entrada](input.resources/input-01.png "Nodo atómico: Color de entrada"){width="200px"}
+![Nodo atómico: Color de entrada](input.resources/comp_inputcolor_1.png "Nodo atómico: Color de entrada"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atómico: Entrada en escala de grises](input.resources/input-02.png "Nodo atómico: Escala de grises de entrada"){width="200px"}
+![Nodo atómico: Entrada en escala de grises](input.resources/comp_inputgrayscale_1.png "Nodo atómico: Escala de grises de entrada"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atómico: Valor de entrada](input.resources/input-03.png "Nodo atómico: Valor de entrada"){width="200px"}
+![Nodo atómico: Valor de entrada](input.resources/comp_inputnumeric_1.png "Nodo atómico: Valor de entrada"){width="200px"}
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Los parámetros base incluyen, entre otros, <b>Tamaño de salida</b>, <b>Formato
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Entrada principal en el gráfico del Substance](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Entrada principal en el gráfico del Substance](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

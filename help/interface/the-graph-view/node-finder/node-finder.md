@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Buscador de nodos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Buscador de nodos
 
-![Barra de herramientas del Buscador de nodos](node-finder.resources/node-finder-01.png "Barra de herramientas del Buscador de nodos"){zoomable="yes"}
+![Barra de herramientas del Buscador de nodos](../../../assets/node-finder-toolbar.png "Barra de herramientas del Buscador de nodos"){zoomable="yes"}
 
 La herramienta Buscador de nodos le permite realizar una <b>búsqueda de nodos y variables</b> mediante una consulta de texto. Todos los nodos que no coinciden con la consulta aparecen atenuados para que los resultados sobresalgan.
 
@@ -39,7 +39,7 @@ Se puede acceder al Buscador de nodos de dos maneras:
 
 En la vista de gráficos, presione <b>Ctrl+F</b> (Windows) / <b>Cmd+F</b> (macOS) para mostrar la barra de herramientas Buscador de nodos y establecer automáticamente el foco en el campo de consulta. Esto le permite realizar una búsqueda rápidamente.
 
-En la barra de herramientas Vista de gráficos, haga clic en el botón <b>Buscador de nodos ![](node-finder.resources/node-finder-02.png)</b> para mostrar la barra de herramientas Buscador de nodos. Una vez mostrada, la barra de herramientas sólo se cierra al hacer clic en este botón.
+En la barra de herramientas Vista de gráficos, haga clic en el botón <b>Buscador de nodos ![](../../../assets/graph-node-finder.png)</b> para mostrar la barra de herramientas Buscador de nodos. Una vez mostrada, la barra de herramientas sólo se cierra al hacer clic en este botón.
 
 <b>Busca gráficos de recorrido</b>. En otras palabras, una búsqueda permanece activa al abrir gráficos a través de estas acciones:
 
@@ -49,11 +49,11 @@ En la barra de herramientas Vista de gráficos, haga clic en el botón <b>Buscad
 * FX-Map: Editar gráfico de mapa de efectos (Ctrl+E/Cmd+E)
 * Parámetros de nodo: Editar función
 
-![Buscador de nodos: recorrer gráficos durante la búsqueda](node-finder.resources/node-finder-03.gif "Buscador de nodos: recorrer gráficos durante la búsqueda"){zoomable="yes"}
+![Buscador de nodos: recorrer gráficos durante la búsqueda](../../../assets/node-finder-traversal.gif "Buscador de nodos: recorrer gráficos durante la búsqueda"){zoomable="yes"}
 
 ### Consulta de búsqueda
 
-![Campo de consulta del Buscador de nodos](node-finder.resources/node-finder-04.png "Campo de consulta del Buscador de nodos"){zoomable="yes"}
+![Campo de consulta del Buscador de nodos](../../../assets/node-finder-query-field.png "Campo de consulta del Buscador de nodos"){zoomable="yes"}
 
 Los términos de búsqueda se pueden escribir en este campo y el botón de flecha abre una lista de sugerencias de consulta que incluyen algunas de las variables disponibles en el contexto actual.
 
@@ -61,7 +61,7 @@ Obtén más información sobre las consultas que puedes realizar en la sección 
 
 ### Tipo de nodo
 
-![Tipo de nodo](node-finder.resources/node-finder-05.png "Tipo de nodo"){zoomable="yes"}
+![Tipo de nodo](../../../assets/node-finder-node-types.png "Tipo de nodo"){zoomable="yes"}
 
 Este cuadro combinado permite filtrar los resultados de búsqueda para conservar sólo un tipo específico de nodos.
 
@@ -70,13 +70,13 @@ Tenga en cuenta que todos los nodos de instancia son del *mismo tipo* de nodo, d
 +++Listas de tipos de nodo
 La lista es contextual al tipo de gráfico actual.
 
-![Tipos de nodo (composición)](node-finder.resources/node-finder-06.png "Tipos de nodo (composición)"){zoomable="yes"}
+![Tipos de nodo (composición)](../../../assets/node-finder-types-compositing.png "Tipos de nodo (composición)"){zoomable="yes"}
 
 
 
 *Tipos de nodos para gráficos de composición*
 
-![Tipos de nodo (función)](node-finder.resources/node-finder-07.png "Tipos de nodo (función)"){zoomable="yes"}
+![Tipos de nodo (función)](../../../assets/node-finder-types-function.png "Tipos de nodo (función)"){zoomable="yes"}
 
 
 
@@ -85,7 +85,7 @@ La lista es contextual al tipo de gráfico actual.
 +++
 
 +++Búsqueda de nodos atómicos
-![Buscador de nodos: Buscando por tipo &#39;Niveles&#39; (composición)](node-finder.resources/node-finder-08.png "Buscador de nodos: Buscando por tipo &#39;Niveles&#39; (composición)"){zoomable="yes"}
+![Buscador de nodos: Buscando por tipo &#39;Niveles&#39; (composición)](../../../assets/node-finder-compositing-levels.png "Buscador de nodos: Buscando por tipo &#39;Niveles&#39; (composición)"){zoomable="yes"}
 
 
 
@@ -94,13 +94,13 @@ La lista es contextual al tipo de gráfico actual.
 +++
 
 +++Búsqueda de nodos de instancia
-![Buscador de nodos: Buscando por tipo de &#39;instancia&#39; (composición)](node-finder.resources/node-finder-09.png "Buscador de nodos: Buscando por tipo de &#39;instancia&#39; (composición)"){zoomable="yes"}
+![Buscador de nodos: Buscando por tipo de &#39;instancia&#39; (composición)](../../../assets/node-finder-compositing-instances.png "Buscador de nodos: Buscando por tipo de &#39;instancia&#39; (composición)"){zoomable="yes"}
 
 
 
 *Buscando el tipo de nodo &#39;Instance&#39; en un gráfico de Substance*
 
-![Buscador de nodos: Buscando por tipo de &#39;instancia&#39; (función)](node-finder.resources/node-finder-10.png "Buscador de nodos: Buscando por tipo de &#39;instancia&#39; (función)"){zoomable="yes"}
+![Buscador de nodos: Buscando por tipo de &#39;instancia&#39; (función)](../../../assets/node-finder-functions-instances.png "Buscador de nodos: Buscando por tipo de &#39;instancia&#39; (función)"){zoomable="yes"}
 
 
 
@@ -114,14 +114,14 @@ La lista es contextual al tipo de gráfico actual.
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-El botón <b>Opciones de búsqueda ![](node-finder.resources/node-finder-11.png)</b> abre una lista de configuraciones usadas para la búsqueda que se pueden activar y desactivar.
+El botón <b>Opciones de búsqueda ![](../../../assets/node-finder-search-options.png)</b> abre una lista de configuraciones usadas para la búsqueda que se pueden activar y desactivar.
 
 Obtenga más información sobre estas opciones en la sección Opciones de búsqueda que aparece a continuación.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Opciones de búsqueda del Buscador de nodos](node-finder.resources/node-finder-12.png "Opciones de búsqueda del Buscador de nodos"){zoomable="yes"}
+![Opciones de búsqueda del Buscador de nodos](../../../assets/node-finder-search-options-open.png "Opciones de búsqueda del Buscador de nodos"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Se pueden encontrar [nodos de instancia](../../../compositing-graphs/creating-co
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Buscador de nodos: buscando por identificador de gráfico](node-finder.resources/node-finder-13.png "Buscador de nodos: buscando por identificador de gráfico"){zoomable="yes"}
+![Buscador de nodos: buscando por identificador de gráfico](../../../assets/node-finder-functions-identifier.png "Buscador de nodos: buscando por identificador de gráfico"){zoomable="yes"}
 
 *Haga clic en la imagen para ampliarla*
 
@@ -161,7 +161,7 @@ Se pueden encontrar [nodos de instancia](../../../compositing-graphs/creating-co
 +++Identificador en el Explorador
 Los gráficos se muestran por sus identificadores en el Explorador.
 
-![Explorador: contenido del paquete](node-finder.resources/node-finder-14.png "Explorador: contenido del paquete"){zoomable="yes"}
+![Explorador: contenido del paquete](../../../assets/explorer-package-simple.png "Explorador: contenido del paquete"){zoomable="yes"}
 
 
 
@@ -170,7 +170,7 @@ Los gráficos se muestran por sus identificadores en el Explorador.
 +++Identificador en la información sobre herramientas del nodo de instancia
 La información sobre herramientas de los nodos de instancia incluye el identificador de su gráfico de referencia.
 
-![Identificador de gráfico en la información sobre herramienta del nodo de instancia](node-finder.resources/node-finder-15.png "Identificador de gráfico en la información sobre herramienta del nodo de instancia"){zoomable="yes"}
+![Identificador de gráfico en la información sobre herramienta del nodo de instancia](../../../assets/node-finder-compositing-identifier.png "Identificador de gráfico en la información sobre herramienta del nodo de instancia"){zoomable="yes"}
 
 
 
@@ -187,7 +187,7 @@ El identificador de [parámetros expuestos](../../../compositing-graphs/manage-p
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Buscador de nodos: Variables de nodo](node-finder.resources/node-finder-16.png "Buscador de nodos: Variables de nodo"){zoomable="yes"}
+![Buscador de nodos: Variables de nodo](../../../assets/node-finder-compositing-variable.png "Buscador de nodos: Variables de nodo"){zoomable="yes"}
 
 *Haga clic en la imagen para ampliarla*
 
@@ -200,13 +200,13 @@ El campo de consulta se puede expandir para mostrar una lista de sugerencias.
 
 Entre ellos se incluyen [variables integradas](../../../function-graphs/variables/system-variables/system-variables.md) disponibles para el tipo de gráfico actual, así como los identificadores de los parámetros expuestos del gráfico.
 
-![Sugerencias de consulta del buscador de nodos](node-finder.resources/node-finder-17.png "Sugerencias de consulta del buscador de nodos"){zoomable="yes"}
+![Sugerencias de consulta del buscador de nodos](../../../assets/node-finder-available-query-suggestions.png "Sugerencias de consulta del buscador de nodos"){zoomable="yes"}
 
 
 
 El identificador de parámetros expuestos también se puede copiar o editar directamente en las [propiedades gráficas del Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
-![Buscador de nodos: parámetros expuestos](node-finder.resources/node-finder-18.png "Buscador de nodos: parámetros expuestos"){zoomable="yes"}
+![Buscador de nodos: parámetros expuestos](../../../assets/node-finder-compositing-exposed-parameter.png "Buscador de nodos: parámetros expuestos"){zoomable="yes"}
 
 
 
@@ -219,7 +219,7 @@ Cuando un gráfico contiene errores o advertencias provocados por una <b>variabl
 
 Las variables también se pueden copiar directamente desde los datos XML del archivo SBS mediante cualquier editor de texto.
 
-![Buscador de nodos: buscando la variable de la consola advertencia/error](node-finder.resources/node-finder-19.png "Buscador de nodos: buscando variable de advertencia/error de consola"){zoomable="yes"}
+![Buscador de nodos: buscando la variable de la consola advertencia/error](../../../assets/node-finder-console-identifier.png "Buscador de nodos: buscando variable de advertencia/error de consola"){zoomable="yes"}
 
 
 
@@ -228,7 +228,7 @@ Las variables también se pueden copiar directamente desde los datos XML del arc
 +++Obtener/Definir nodos
 Al buscar una variable en un gráfico, incluidos los parámetros expuestos, la búsqueda resaltará todos los nodos en los que un nodo [Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) o [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) utilice esa variable en cualquiera de las funciones de parámetros del nodo.
 
-![Buscador de nodos: Buscar una variable coincide Obtener nodos que la utilicen](node-finder.resources/node-finder-20.gif "Buscador de nodos: Buscar coincidencias de una variable Obtener nodos que la usen"){zoomable="yes"}
+![Buscador de nodos: Buscar una variable coincide Obtener nodos que la utilicen](../../../assets/node-finder-exposed-parameter-01.gif "Buscador de nodos: Buscar coincidencias de una variable Obtener nodos que la usen"){zoomable="yes"}
 
 
 
@@ -245,7 +245,7 @@ Cada nodo de un gráfico tiene un número de identificador único (UID) que se p
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Buscador de nodos: buscar por UID](node-finder.resources/node-finder-21.png "Buscador de nodos: buscar por UID"){zoomable="yes"}
+![Buscador de nodos: buscar por UID](../../../assets/node-finder-compositing-uid-search.png "Buscador de nodos: buscar por UID"){zoomable="yes"}
 
 *Haga clic en la imagen para ampliarla*
 
@@ -260,7 +260,7 @@ La acción copia el UID en este formato:
 
 uid=1234567890
 
-![Buscador de nodos: copiar acción de UID de nodo](node-finder.resources/node-finder-22.png "Buscador de nodos: acción de UID de copiar nodo"){zoomable="yes"}
+![Buscador de nodos: copiar acción de UID de nodo](../../../assets/node-finder-compositing-uid-copy.png "Buscador de nodos: acción de UID de copiar nodo"){zoomable="yes"}
 
 
 
@@ -271,7 +271,7 @@ Cuando un gráfico tenga errores o advertencias provocados por un nodo, vaya a W
 
 Los UID de nodo también se pueden copiar directamente de los datos XML del archivo SBS mediante cualquier editor de texto.
 
-![Buscador de nodos: Buscando UID de nodo desde la consola](node-finder.resources/node-finder-23.png "Buscador de nodos: Buscando UID de nodo desde la consola"){zoomable="yes"}
+![Buscador de nodos: Buscando UID de nodo desde la consola](../../../assets/node-finder-console-uid.png "Buscador de nodos: Buscando UID de nodo desde la consola"){zoomable="yes"}
 
 
 
@@ -289,14 +289,14 @@ La búsqueda de nodos específicos es particularmente eficaz cuando se utiliza s
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-El botón <b>Opciones de búsqueda ![](node-finder.resources/node-finder-11.png)</b> le permite alternar los modos <b>recursivo</b> y <b>difuso</b> para buscar nodos.
+El botón <b>Opciones de búsqueda ![](../../../assets/node-finder-search-options.png)</b> le permite alternar los modos <b>recursivo</b> y <b>difuso</b> para buscar nodos.
 
 Ambos se pueden activar al mismo tiempo.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Opciones de búsqueda del Buscador de nodos](node-finder.resources/node-finder-12.png "Opciones de búsqueda del Buscador de nodos"){zoomable="yes"}
+![Opciones de búsqueda del Buscador de nodos](../../../assets/node-finder-search-options-open.png "Opciones de búsqueda del Buscador de nodos"){zoomable="yes"}
 
 </td>
 </tr>
@@ -308,12 +308,12 @@ Habilite esta opción para que las búsquedas atraviesen [instancias de gráfico
 
 Esta opción puede ser esencial para solucionar problemas de gráficos, si necesita encontrar un nodo por su UID adquirido a partir de un mensaje de advertencia o error en la consola.
 
-![Buscador de nodos: búsqueda recursiva](node-finder.resources/node-finder-24.png "Buscador de nodos: búsqueda recursiva"){zoomable="yes"}
+![Buscador de nodos: búsqueda recursiva](../../../assets/node-finder-recursion-01.png "Buscador de nodos: búsqueda recursiva"){zoomable="yes"}
 
 *La consulta de la derecha resalta el nodo de instancia siguiente, porque su gráfico al que se hace referencia en la izquierda tiene coincidencias para esa consulta*
 
 +++Ejemplo 1
-![Buscador de nodos: ejemplo de búsqueda recursiva 1](node-finder.resources/node-finder-25.gif "Buscador de nodos: ejemplo de búsqueda recursiva 1"){zoomable="yes"}
+![Buscador de nodos: ejemplo de búsqueda recursiva 1](../../../assets/node-finder-recursion-01.gif "Buscador de nodos: ejemplo de búsqueda recursiva 1"){zoomable="yes"}
 
 
 
@@ -322,11 +322,11 @@ Un nodo de instancia hace referencia a un gráfico en el que varios nodos coinci
 +++
 
 +++Ejemplo 2
-![Buscador de nodos: ejemplo de búsqueda recursiva 2](node-finder.resources/node-finder-26.gif "Buscador de nodos: ejemplo de búsqueda recursiva 2"){zoomable="yes"}
+![Buscador de nodos: ejemplo de búsqueda recursiva 2](../../../assets/node-finder-recursion-02.gif "Buscador de nodos: ejemplo de búsqueda recursiva 2"){zoomable="yes"}
 
 
 
-Al activar la opción &quot;Búsqueda recursiva&quot;, se resalta el nodo de instancia que hace referencia a un gráfico en el que un nodo de Procesador de píxeles utiliza una variable que coincide con la consulta.
+Al habilitar la opción &quot;Búsqueda recursiva&quot;, se resalta el nodo de instancia que hace referencia a un gráfico en el que un nodo de procesador de píxeles utiliza una variable que coincide con la consulta.
 
 +++
 
@@ -336,4 +336,4 @@ Si no está seguro de la ortografía exacta de una consulta, esta opción habili
 
 Tenga en cuenta que el uso de esta opción probablemente producirá coincidencias no deseadas.
 
-![Buscador de nodos: Modo difuso](node-finder.resources/node-finder-27.png "Buscador de nodos: Modo difuso"){zoomable="yes"}
+![Buscador de nodos: Modo difuso](../../../assets/node-finder-functions-fuzzy.png "Buscador de nodos: Modo difuso"){zoomable="yes"}

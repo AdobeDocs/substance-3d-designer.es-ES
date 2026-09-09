@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Niveles
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Niveles](levels.resources/levels-01.png "Nodo atómico: Niveles"){width="200px"}
+![Nodo atómico: Niveles](levels.resources/comp_levels_1.png "Nodo atómico: Niveles"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ El botón amarillo resaltado alterna la interfaz entre los reguladores de valor 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-02.png)
+![](levels.resources/levels-2-1.png)
 
-![](levels.resources/levels-03.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -86,11 +86,11 @@ El botón amarillo resaltado alterna la interfaz entre los reguladores de valor 
 
 |  |  |
 | --- | --- |
-| <b>Nivel bajo</b> *Float/Float4* | Define los niveles de iluminación baja de la imagen de entrada. Reasigna valores bajos de entrada para que se vuelvan negros completos. |
-| <b>Nivel alto</b> *Float/Float4* | Define los niveles de resaltado de la imagen de entrada.  Reasigna valores altos de entrada para que se vuelvan blancos completos. |
-| <b>Nivel a mediados de</b> *Float/Float4* | Define los niveles de medios tonos de la imagen de entrada.  Reasigna los valores medios de entrada para que se conviertan en gris medio. |
-| <b>Nivel de salida bajo</b> *Float/Float4* | Define los niveles de iluminación baja de la imagen de salida.  Las abrazaderas emiten valores de negro para definir el límite. |
-| <b>Nivel alto</b> *Float/Float4* | Define los niveles de resaltado de la imagen de salida.  Las abrazaderas emiten valores de blanco para definir el límite. |
+| <b>Nivel de baja iluminación de entrada</b> *Flotante/Flotante4* | Define los niveles de iluminación baja de la imagen de entrada. Reasigna valores bajos de entrada para que se vuelvan negros completos. |
+| <b>Nivel de iluminación de entrada</b> *Flotante/Flotante4* | Define los niveles de resaltado de la imagen de entrada.  Reasigna valores altos de entrada para que se vuelvan blancos completos. |
+| <b>Nivel de iluminación media de entrada</b> *Flotante/Flotante4* | Define los niveles de medios tonos de la imagen de entrada.  Reasigna los valores medios de entrada para que se conviertan en gris medio. |
+| <b>Nivel de salida bajo</b> *Flotante/Flotante4* | Define los niveles de iluminación baja de la imagen de salida.  Ajusta los valores de negro de salida para definir el límite. |
+| <b>Nivel de iluminación de salida</b> *Float/Float4* | Define los niveles de resaltado de la imagen de salida.  Las abrazaderas emiten valores de blanco para definir el límite. |
 | <b>Abrazadera intermedia</b> *Booleano* | Determina si el valor de entrada transformado se fija en [0, 1] antes de calcular el nivel de salida. |
 
 ## Guía de uso
@@ -101,7 +101,7 @@ Echa un vistazo a esta descripción general en vídeo del nodo Niveles y su edit
 
 En la barra de encabezado &quot;Parámetros específicos&quot;, encontrará botones para acceder a las prácticas funciones del histograma:
 
-![Acciones rápidas de nodos de niveles](levels.resources/levels-04.png "Acciones rápidas de nodos de niveles")
+![Acciones rápidas de nodos de niveles](levels.resources/levels-2.png "Acciones rápidas de nodos de niveles")
 
 <b>1 - Invertir:</b> Intercambia los valores de los parámetros &quot;Nivel de salida bajo&quot; y &quot;Nivel de salida alto&quot;.
 
@@ -113,7 +113,7 @@ En la barra de encabezado &quot;Parámetros específicos&quot;, encontrará boto
 
 El editor del histograma está diseñado para ajustes visuales rápidos donde realmente no se necesitan valores precisos y exponer parámetros no es importante. En general, es la forma más rápida y sencilla de trabajar con Niveles.
 
-![](levels.resources/levels-05.gif)
+![](levels.resources/levels-histo.gif)
 
 En función del tipo de entrada (color o escala de grises), puede utilizar el menú desplegable situado sobre el histograma para elegir el canal que desea modificar.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Relieve
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Relieve](emboss.resources/emboss-01.png "Nodo atómico: Relieve"){width="200px"}
+![Nodo atómico: Relieve](emboss.resources/comp_emboss_1.png "Nodo atómico: Relieve"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -1,7 +1,7 @@
 ---
 title: color del atlas de cuadrícula
 description: Designer > Gráficos de composición de Substance > Referencia de nodos para gráficos de composición de Substance > Biblioteca de nodos > Generador > Patrón > Color de Atlas de cuadrícula
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![icono de color de Atlas de cuadrícula](grid-atlas-color.resources/grid-atlas-color-01.png "color de Atlas de cuadrícula")
+![icono de color de Atlas de cuadrícula](grid-atlas-color.resources/grid-atlas-color.png "color de Atlas de cuadrícula")
 
 <b>En:</b> Generador > Patrón
 
@@ -75,5 +75,5 @@ Vea también [escala de grises del Atlas de cuadrícula](../grid-atlas-grayscale
 
 ## Ejemplos
 
-<img src="./grid-atlas-color.resources/grid-atlas-color-02.png" alt="Nodo de color de atlas de cuadrícula en el contexto de una gráfica" style="width: 50%"><br>
+<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Nodo de color de atlas de cuadrícula en el contexto de una gráfica" style="width: 50%"><br>
 <i>Nodo de color de Atlas de cuadrícula en el contexto de un gráfico</i>
