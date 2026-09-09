@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-vector-rotation.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-vector-rotation.html"
 breadcrumb-title: ''
 description: Utilice el nodo Rotación de vectores normales para rotar vectores de mapa de normales para ajustar la iluminación de la superficie y la orientación de los detalles.
 helpx_creative_field: ""
