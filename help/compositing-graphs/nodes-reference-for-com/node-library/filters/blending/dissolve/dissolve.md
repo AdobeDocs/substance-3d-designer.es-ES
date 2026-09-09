@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/dissolve.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/dissolve.html"
 breadcrumb-title: ''
 description: Utilice el nodo Disolver para fusionar texturas mediante el modo Disolver para crear transiciones y efectos de transición entre texturas.
 helpx_creative_field: ""
