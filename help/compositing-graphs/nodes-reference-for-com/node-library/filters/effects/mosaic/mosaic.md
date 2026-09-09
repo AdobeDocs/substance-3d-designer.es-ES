@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mosaico para crear efectos de mosaico dividiendo texturas en bloques y motivos pixelados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mosaico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 7%
@@ -24,9 +24,9 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-1.png){width="128px"}
 
-![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-grayscale.png){width="128px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -66,7 +66,7 @@ Esto resulta útil para añadir más definición a los mapas de escala de grises
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/mosaci-ex.png" />
+            <img src="mosaic.resources/mosaci-ex.png" />
         </td>
     </tr>
 </table>
