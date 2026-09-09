@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cuantificar color para reducir el número de niveles de color de los efectos de posterización estilizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cuantificar color
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](../../../../../../assets/QuantizeColor.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](quantize-color.resources/QuantizeColor.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -77,8 +77,8 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 |  |  |
 |:---|:---|
 | <b>Máx. cantidad de color</b> *Entero* | Cantidad máxima de colores que se deben utilizar en la imagen cuantificada.   Esta cantidad es la misma utilizada en la paleta extraída de la imagen.   &quot;Máximo&quot; significa que esta cantidad puede no cumplirse debido a la técnica de cuantificación utilizada. Compruebe la salida &quot;Cantidad de color de la paleta&quot; para ver la cantidad real de colores extraídos. |
-| <b>Suavizado de contorno</b> *Flotador* | Controla el radio de un efecto de suavizado aplicado a la imagen de entrada, que se utiliza para simplificar la imagen cuantificada en formas más sólidas y cohesivas.   Nota: Este suavizado requiere cálculos intensivos, por lo que aumentar este valor aumenta notablemente el tiempo de cálculo del nodo. |
-| <b>Tramado</b> *Flotador* | Aplica un patrón de tramado para recrear los degradados y las fusiones de color en la imagen original, mientras que sigue utilizando solo los colores restantes después de la cuantificación.   Asegúrese de utilizar el valor &quot;Suavizado de contorno&quot; de 0 para producir el efecto de tramado esperado. |
+| <b>Suavizado de contorno</b> *Flotante* | Controla el radio de un efecto de suavizado aplicado a la imagen de entrada, que se utiliza para simplificar la imagen cuantificada en formas más sólidas y cohesivas.   Nota: Este suavizado requiere cálculos intensivos, por lo que aumentar este valor aumenta notablemente el tiempo de cálculo del nodo. |
+| <b>Tramado</b> *Flotante* | Aplica un patrón de tramado para recrear los degradados y las fusiones de color en la imagen original, mientras que sigue utilizando solo los colores restantes después de la cuantificación.   Asegúrese de utilizar el valor &quot;Suavizado de contorno&quot; de 0 para producir el efecto de tramado esperado. |
 | <b>Trama de tramado</b> *Entero* | Patrón de tramado utilizado para recrear los degradados y las fusiones de color en la imagen original:<ul data-preserve-html="true"> <li data-preserve-html="true">Ruido azul</li> <li data-preserve-html="true">Bayer</li> </ul> |
 | <b>Omitir alfa</b> *Booleano* | De forma predeterminada, el canal alfa de la imagen original se utiliza para seleccionar las áreas de la imagen de las que se deben extraer los colores para el proceso de cuantificación, mientras que los colores de las áreas transparentes se omiten. Esto proporciona un control efectivo sobre los colores extraídos.   De hecho, es posible que solo desee utilizar los colores de las partes visibles de la imagen para el proceso de cuantificación.   Este botón deslizante le permite deshabilitar esta máscara y usar la imagen *full* independientemente de la transparencia. |
 | <b>Espacio de color de distancia</b> *Entero* | Los colores se organizan en un *cubo* cuyo ancho, height y profundidad son un degradado en el que cada componente de un color aumenta de 0 a 1 (p. ej. rojo, verde y azul en RGB).   El proceso de cuantificación implica seleccionar los *colores de definición* de una imagen y, a continuación, buscar los colores más cercanos a ellos en el cubo y reemplazarlos por ese color de definición.   Este parámetro le permite seleccionar el espacio de color utilizado para distribuir colores en el cubo, lo que cambia el resultado de la cuantificación cambiando los criterios para detectar un color de definición y reorganizar los colores contiguos.   Puede seleccionar el espacio de color que se ajuste a su caso de uso:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Laboratorio (color):</b> Un espacio de color perceptual estandarizado, que distribuye los colores de tal manera que los colores que &#39;parecen&#39; cercanos están realmente cerca en el cubo. Esto es adecuado para imágenes que se pueden visualizar en pantallas</li> <li data-preserve-html="true"><b>RGB (Datos):</b> El color se divide en rojo, verde y azul y se distribuye directamente a lo largo de esos ejes, sin tener en cuenta la percepción humana. Esto es adecuado para imágenes que contienen datos sin procesar, como mapas normales</li> </ul> |
@@ -90,11 +90,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="Quantize_color_example_6_before">
+      <img src="quantize-color.resources/quantize_color_example_6_before.jpg" alt="Quantize_color_example_6_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="Quantize_color_example_6_after">
+      <img src="quantize-color.resources/quantize_color_example_6_after.jpg" alt="Quantize_color_example_6_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -103,11 +103,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="Quantize_color_example_2_before">
+      <img src="quantize-color.resources/quantize_color_example_2_before.jpg" alt="Quantize_color_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="Quantize_color_example_2_after">
+      <img src="quantize-color.resources/quantize_color_example_2_after.jpg" alt="Quantize_color_example_2_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -116,11 +116,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="Quantize_color_example_3_before">
+      <img src="quantize-color.resources/quantize_color_example_3_before.jpg" alt="Quantize_color_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="Quantize_color_example_3_after">
+      <img src="quantize-color.resources/quantize_color_example_3_after.jpg" alt="Quantize_color_example_3_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -129,11 +129,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="Quantize_color_example_4_before">
+      <img src="quantize-color.resources/quantize_color_example_4_before.jpg" alt="Quantize_color_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="Quantize_color_example_4_after">
+      <img src="quantize-color.resources/quantize_color_example_4_after.jpg" alt="Quantize_color_example_4_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ Este nodo se puede utilizar en combinación con los siguientes nodos: [Crear Pal
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="Quantize_color_example_5_before">
+      <img src="quantize-color.resources/quantize_color_example_5_before.jpg" alt="Quantize_color_example_5_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="Quantize_color_example_5_after">
+      <img src="quantize-color.resources/quantize_color_example_5_after.jpg" alt="Quantize_color_example_5_after">
       <br><i>Después De</i>
     </td>
   </tr>
