@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fusión normal para fusionar mapas de normales y crear transiciones suaves entre detalles de superficie.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusión normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend.png){width="128px"}
 
 <b>En:</b> Filtros > Mapa de normales
 
@@ -65,7 +65,7 @@ La Fusión normal no está pensada para combinar (superponer) los mapas normales
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/normalblend-ex.gif" /><br><i>(el formato .gif introduce el tramado en el ejemplo, los resultados en la aplicación son suaves)</i>
+            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i>(el formato .gif introduce el tramado en el ejemplo, los resultados en la aplicación son suaves)</i>
         </td>
     </tr>
 </table>

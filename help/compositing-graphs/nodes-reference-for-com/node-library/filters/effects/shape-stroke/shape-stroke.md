@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-stroke.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-stroke.html"
 breadcrumb-title: ''
 description: Utilice el nodo Trazo de forma para agregar contornos de trazo a las formas para crear bordes y efectos de borde.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trazo de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-stroke.png){width="128px"}
+![](shape-stroke.resources/shape-stroke.png){width="128px"}
 
-![](../../../../../../assets/shape-stroke-grayscale.png){width="128px"}
+![](shape-stroke.resources/shape-stroke-grayscale.png){width="128px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -61,7 +61,7 @@ Muy útil para una variedad de efectos de edición de imágenes.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shapestroke-ex.png" />
+            <img src="shape-stroke.resources/shapestroke-ex.png" />
         </td>
     </tr>
 </table>
