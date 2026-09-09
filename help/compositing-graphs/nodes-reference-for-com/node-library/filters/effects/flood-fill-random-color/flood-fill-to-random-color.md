@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
 breadcrumb-title: ''
-description: Utilice el nodo Flood Fill a color aleatorio para rellenar regiones conectadas con colores aleatorios para crear patrones de texturas variados.
+description: Utilice el nodo Flood Fill a color aleatorio para rellenar regiones conectadas con colores aleatorios para crear patrones de textura variados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Random Color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill a color aleatorio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-random-color.png){width="128px"}
+![](flood-fill-to-random-color.resources/floodfill-to-random-color.png){width="128px"}
 
 <b>En:</b> Filtros > Efectos
 
@@ -44,10 +44,10 @@ Genera mosaicos con colores de RGB aleatorios a partir de una base de [Flood Fil
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodrandomcolor-ex2.png" />
+            <img src="flood-fill-to-random-color.resources/floodrandomcolor-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodrandomcolor-ex1.png" />
+            <img src="flood-fill-to-random-color.resources/floodrandomcolor-ex1.png" />
         </td>
     </tr>
 </table>
