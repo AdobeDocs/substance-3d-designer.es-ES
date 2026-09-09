@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cuantificar escala de grises para reducir el número de niveles de escala de grises para los efectos de posterización.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cuantificar escala de grises
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar escala de grises](../../../../../../assets/quantize-grayscale.png "Icono Cuantificar escala de grises"){width="200px"}
+![Icono Cuantificar escala de grises](quantize-grayscale.resources/quantize-grayscale.png "Icono Cuantificar escala de grises"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -52,6 +52,6 @@ Genera una única spline con forma de círculo.
 
 ## Ejemplos
 
-![Ejemplo 1](../../../../../../assets/quantizegrayscale.gif "Ejemplo 1")
+![Ejemplo 1](quantize-grayscale.resources/quantizegrayscale.gif "Ejemplo 1")
 
-![Ejemplo 2](../../../../../../assets/quantizegrayscale.png "Ejemplo 2")
+![Ejemplo 2](quantize-grayscale.resources/quantizegrayscale.png "Ejemplo 2")

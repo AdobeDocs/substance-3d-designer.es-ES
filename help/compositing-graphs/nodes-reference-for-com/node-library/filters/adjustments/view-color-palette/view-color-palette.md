@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: Utilice el nodo Ver paleta de colores para visualizar los datos de la paleta de colores extraídos de texturas para su análisis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ver paleta de colores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono Cuantificar color](../../../../../../assets/ViewColorPalette.png "Icono Cuantificar color"){width="200px"}
+![Icono Cuantificar color](view-color-palette.resources/ViewColorPalette.png "Icono Cuantificar color"){width="200px"}
 
 <b>En:</b> Filtros > Ajustes
 
@@ -67,12 +67,12 @@ Este nodo se puede utilizar para visualizar las paletas producidas por los sigui
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ver paleta de colores: Ejemplo 1](../../../../../../assets/view_color_palette_example_1.png "Ver paleta de colores: Ejemplo 1"){zoomable="yes"}
+![Ver paleta de colores: Ejemplo 1](view-color-palette.resources/view_color_palette_example_1.png "Ver paleta de colores: Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ver paleta de colores: Ejemplo 2](../../../../../../assets/view_color_palette_example_2.png "Ver paleta de colores: Ejemplo 2"){zoomable="yes"}
+![Ver paleta de colores: Ejemplo 2](view-color-palette.resources/view_color_palette_example_2.png "Ver paleta de colores: Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Este nodo se puede utilizar para visualizar las paletas producidas por los sigui
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ver paleta de colores: Ejemplo 3](../../../../../../assets/view_color_palette_example_3.png "Ver paleta de colores: Ejemplo 3"){zoomable="yes"}
+![Ver paleta de colores: Ejemplo 3](view-color-palette.resources/view_color_palette_example_3.png "Ver paleta de colores: Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ver paleta de colores: Ejemplo 4](../../../../../../assets/view_color_palette_example_4.png "Ver paleta de colores: Ejemplo 4"){zoomable="yes"}
+![Ver paleta de colores: Ejemplo 4](view-color-palette.resources/view_color_palette_example_4.png "Ver paleta de colores: Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>
