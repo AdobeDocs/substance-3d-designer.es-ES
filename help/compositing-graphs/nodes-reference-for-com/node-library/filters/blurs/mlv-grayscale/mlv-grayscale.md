@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: Usa el filtro de desenfoque de escala de grises MLV para aplicar efectos de desenfoque de movimiento a texturas de escala de grises para lograr aspectos dinámicos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Escala de grises MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Escala de grises ![MLV: icon](../../../../../../assets/MLV_Grayscale_Icon.png "MLV escala de grises: icon")
+Escala de grises ![MLV: icon](mlv-grayscale.resources/MLV_Grayscale_Icon.png "MLV escala de grises: icon")
 
 <b>En:</b> Filtros > Desenfoques
 
@@ -78,11 +78,11 @@ El filtro encuentra áreas de estructuración en una imagen y las utiliza para e
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="mlv-grayscale.resources/MLV_Variant1A.png" alt="MLV_Variant1A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/MLV_Variant1B.png" alt="MLV_Variant1B">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ El filtro encuentra áreas de estructuración en una imagen y las utiliza para e
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/MLV_Variant2B.png" alt="MLV_Variant2B">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ El filtro encuentra áreas de estructuración en una imagen y las utiliza para e
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/MLV_Variant2C.png" alt="MLV_Variant2C">
       <br><i>Después De</i>
     </td>
   </tr>
