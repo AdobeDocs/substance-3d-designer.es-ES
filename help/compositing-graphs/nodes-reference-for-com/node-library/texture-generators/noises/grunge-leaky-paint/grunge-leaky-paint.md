@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: Utilice el nodo Pintura con pérdidas de Suciedad para generar patrones de pérdidas de pintura para crear efectos de superficie degradados y envejecidos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suciedad Leaky Paint
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grungeleakypaint.jpg){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -60,10 +60,10 @@ El nodo **Suciedad con fuga** genera un mapa de suciedades parecido a la pintura
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleakypaint-variant.jpg" />
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleakypaint-variant2.jpg" />
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
         </td>
     </tr>
 </table>

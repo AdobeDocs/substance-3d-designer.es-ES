@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-008.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-008.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de Suciedades 008 para generar patrones de suciedades procedimientas para añadir detalles de textura intemperizada a los materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de suciedades 008
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-008.png){width="128px"}
+![](grunge-map-008.resources/grungemap-008.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -49,14 +49,14 @@ Esto genera un mapa de ruido complejo y combinado. Puede ser muy útil como proc
 | <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
 | <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el resultado. |
 | <b>Patrón de pincel</b> <i>0.0 - 1.0</i> | Añade una máscara alrededor de los bordes para cuando se usa como pincel alfa. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-008-ex.gif" />
+            <img src="grunge-map-008.resources/grungemap-008-ex.gif" />
         </td>
     </tr>
 </table>
