@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
 description: Utilice el nodo Máscara a trazados para convertir texturas de máscara en datos de trazado para la generación de trazados de procedimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Máscara a trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/mask-to-paths-icon.png "Icono de nodo")
+![Icono de nodo](mask-to-paths.resources/mask-to-paths-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -92,11 +92,11 @@ Los trazados generados se pueden procesar posteriormente mediante nodos dedicado
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -108,11 +108,11 @@ Los trazados generados se pueden procesar posteriormente mediante nodos dedicado
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -126,12 +126,12 @@ Los trazados generados se pueden procesar posteriormente mediante nodos dedicado
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/MaskToPaths-Demo2.gif "Ejemplo de nodo 2"){zoomable="yes"}
+![Ejemplo de nodo 2](mask-to-paths.resources/MaskToPaths-Demo2.gif "Ejemplo de nodo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/MaskToPaths-Demo1.gif "Ejemplo de nodo 1"){zoomable="yes"}
+![Ejemplo de nodo 1](mask-to-paths.resources/MaskToPaths-Demo1.gif "Ejemplo de nodo 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -141,12 +141,12 @@ Los trazados generados se pueden procesar posteriormente mediante nodos dedicado
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 3: Modos de inicio](../../../../../../assets/MaskToPaths-Demo3.gif "Ejemplo de nodo 3: Modos de inicio"){zoomable="yes"}
+![Ejemplo de nodo 3: Modos de inicio](mask-to-paths.resources/MaskToPaths-Demo3.gif "Ejemplo de nodo 3: Modos de inicio"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 3: Modos de ordenación](../../../../../../assets/MaskToPaths-Demo4.gif "Ejemplo de nodo 3: Modos de pedido"){zoomable="yes"}
+![Ejemplo de nodo 3: Modos de ordenación](mask-to-paths.resources/MaskToPaths-Demo4.gif "Ejemplo de nodo 3: Modos de pedido"){zoomable="yes"}
 
 </td>
 </tr>
