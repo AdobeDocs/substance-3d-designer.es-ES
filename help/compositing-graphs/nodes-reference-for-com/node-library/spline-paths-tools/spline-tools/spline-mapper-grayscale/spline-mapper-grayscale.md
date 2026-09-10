@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Utilice el nodo Escala de grises del asignador de splines para asignar texturas de escala de grises a lo largo de trazados polinómicos con parámetros personalizables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Mapper Escala de grises
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/spline-mapper-grayscale-icon.png "Icono de nodo")
+![Icono de nodo](spline-mapper-grayscale.resources/spline-mapper-grayscale-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -111,11 +111,11 @@ El nodo emite la imagen asignada como una imagen en escala de grises, así como 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-grayscale.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ El nodo emite la imagen asignada como una imagen en escala de grises, así como 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-mapper-grayscale.resources/SplineMapperGrayscale-Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ El nodo emite la imagen asignada como una imagen en escala de grises, así como 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Ejemplo de nodo 3")
+![Ejemplo de nodo 3](spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After1.jpg "Ejemplo de nodo 3")
 
 </td>
 <td style="border: 0;" valign="top">
