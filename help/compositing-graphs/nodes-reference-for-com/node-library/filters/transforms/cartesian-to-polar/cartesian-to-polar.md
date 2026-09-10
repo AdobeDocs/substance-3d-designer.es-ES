@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cartesiano a polar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cartesian-to-polar.png){width="128px"}
+![](cartesian-to-polar.resources/cartesian-to-polar.png){width="128px"}
 
-![](../../../../../../assets/cartesian-to-polar-grayscale.png){width="128px"}
+![](cartesian-to-polar.resources/cartesian-to-polar-grayscale.png){width="128px"}
 
 <b>En:</b> Filtros > Transforma
 
@@ -46,7 +46,7 @@ Convierte una entrada con coordenadas cartesianas (X e Y) en coordenadas polares
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cartesian-to-polar-example.png" />
+            <img src="cartesian-to-polar.resources/cartesian-to-polar-example.png" />
         </td>
     </tr>
 </table>

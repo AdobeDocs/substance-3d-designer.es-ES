@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desplazamiento de textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -28,12 +28,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetgrayscale.png){width="200px"}
+![](3d-texture-offset.resources/3dtextureoffsetgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetcolor.png){width="200px"}
+![](3d-texture-offset.resources/3dtextureoffsetcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -73,10 +73,10 @@ El nodo **Desplazamiento de Textura 3D** aplica una *transformación de desplaza
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureoffset-variant.jpg" />
+            <img src="3d-texture-offset.resources/3dtextureoffset-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureoffset-node.png" />
+            <img src="3d-texture-offset.resources/3dtextureoffset-node.png" />
         </td>
     </tr>
 </table>

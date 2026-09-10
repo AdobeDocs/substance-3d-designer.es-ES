@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Noise Upscale 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-1.resources/noise-upscale.png){width="128px"}
 
 <b>En:</b> Filtros > Transforma
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Descripción
 
-Realiza un procedimiento de ruido de entrada y lo escala a doble resolución, manteniendo el detalle pero sin introducir demasiadas baldosas. Utiliza un tipo de máscara &quot;X&quot; y se fusiona con contraste similar a la entrada original (el modo de fusión interno es Copiar).
+Toma un ruido de entrada procedimiento y lo escala a doble resolución, manteniendo el detalle pero sin introducir demasiado mosaico. Utiliza un tipo de máscara &quot;X&quot; y se fusiona con contraste similar a la entrada original (el modo de fusión interno es Copiar).
 
 Este nodo está destinado principalmente a optimizar gráficos lentos que utilizan ruidos grandes y pesados. Permite utilizar resoluciones más altas sin introducir demasiado tiempo de cálculo adicional.
 
@@ -59,7 +59,7 @@ Consulta [Noise Upscale 2](../../../../../../compositing-graphs/nodes-reference-
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/noise1ex.png" />
+            <img src="noise-upscale-1.resources/noise1ex.png" />
         </td>
     </tr>
 </table>

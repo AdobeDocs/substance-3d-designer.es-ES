@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry.html"
 breadcrumb-title: ''
-description: Utilice el nodo Simetría para crear patrones simétricos mediante la creación de reflejo de texturas a lo largo de los ejes especificados.
+description: Utilice el nodo Simetría para crear patrones simétricos reflejando texturas a lo largo de los ejes especificados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Simetría
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-9.png){width="128px"}
 
 <b>En:</b> Filtros > Transforma
 
@@ -55,7 +55,7 @@ Este nodo es muy similar a [Mirror](../../../../../../compositing-graphs/nodes-r
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/symmetry-ex.png" />
+            <img src="symmetry.resources/symmetry-ex.png" />
         </td>
     </tr>
 </table>
