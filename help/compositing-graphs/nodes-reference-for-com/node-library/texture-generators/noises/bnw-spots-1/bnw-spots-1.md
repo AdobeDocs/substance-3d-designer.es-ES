@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Manchas BnW 1 para generar patrones de manchas en blanco y negro para crear variaciones de textura y máscaras de detalles.
 helpx_creative_field: ""
