@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
 description: Utilice el nodo Puente polinómico para enlazar texturas entre dos splines con el fin de crear conexiones perfectas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Puente de spline (2 splines)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/spline-bridge-2splines-icon.png "Icono de nodo")
+![Icono de nodo](spline-bridge-2-splines.resources/spline-bridge-2splines-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -108,11 +108,11 @@ Genera splines de <b>Spline #1</b> a <b>Spline #2</b> a lo largo de estas spline
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ Genera splines de <b>Spline #1</b> a <b>Spline #2</b> a lo largo de estas spline
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-bridge-2-splines.resources/SplineBridge-2Splines_Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

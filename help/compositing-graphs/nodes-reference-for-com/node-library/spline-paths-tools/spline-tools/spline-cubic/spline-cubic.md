@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: Utilice el nodo Cúbica polinomial para crear splines cúbicas suaves con cuatro puntos de control para trazados curvos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (cúbico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/spline-cubic-icon.png "Icono de nodo")
+![Icono de nodo](spline-cubic.resources/spline-cubic-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -79,8 +79,8 @@ La trayectoria de la spline está controlada por la tangente ‘out’ de <b>p1<
 | <b>Height de tangentes p1</b> <i>Flotante</i> (disponible cuando &quot;Height de tangente automática&quot; es True) | Ajusta el height de la tangente p1 point &#39;out&#39; donde un valor inferior significa una ubicación más baja o más profunda. Esto afecta al height a lo largo de la spline a medida que se aleja de p1. |
 | <b>p2 Height Tangent</b> <i>Flotante</i> (disponible cuando &quot;Height de tangente automática&quot; es True) | Ajusta el height de la tangente p2 point &#39;in&#39; donde un valor inferior significa una ubicación más baja o más profunda. Esto afecta al height a lo largo de la spline a medida que se aleja de p2. |
 | <b>Thickness</b> |  |
-| <b>Iniciar Thickness</b> <i>Flotante</i> | Ajusta el thickness del punto p1. Esto afecta al thickness de la spline en p1.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
-| <b>Finalizar Thickness</b> <i>Flotante</i> | Ajusta el thickness del punto p2. Esto afecta al thickness de la spline en p2.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
+| <b>Iniciar Thickness</b> <i>Flotador</i> | Ajusta el thickness del punto p1. Esto afecta al thickness de la spline en p1.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
+| <b>Finalizar Thickness</b> <i>Flotador</i> | Ajusta el thickness del punto p2. Esto afecta al thickness de la spline en p2.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
 | <b>Thickness de tangente automática</b> <i>Booleano</i> | Establece automáticamente el thickness de las tangentes polinomiales para que se interpolen linealmente desde el Thickness Inicio hasta el Thickness Final.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
 | <b>Thickness de tangentes p1</b> <i>Flotante</i> (disponible cuando &quot;Thickness de tangente automática&quot; es True) | Ajusta el thickness de la tangente p1 point &#39;out&#39;. Esto afecta al thickness a lo largo de la spline a medida que se aleja de p1.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
 | <b>p2 Thickness Tangent</b> <i>Flotante</i> (disponible cuando &quot;Thickness de tangente automática&quot; es True) | Ajusta el thickness de la tangente p2 point &#39;in&#39;. Esto afecta al thickness a lo largo de la spline a medida que se aleja de p2.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
@@ -93,7 +93,7 @@ La trayectoria de la spline está controlada por la tangente ‘out’ de <b>p1<
 | <b>Mostrar tangentes</b> <i>Booleano</i> | Muestra la tangente del punto p1 &#39;out&#39; y el punto p2 &#39;in&#39; en la salida de previsualización. |
 | <b>Mostrar ayuda de dirección</b> <i>Booleano</i> | Muestra un punto al principio de la spline y una punta de flecha al final en la salida de previsualización. |
 | <b>Cantidad de segmentos</b> <i>Entero</i> | Ajusta el número de segmentos utilizados para dibujar la visualización de spline en la salida de previsualización. Un valor más alto produce una línea más suave. |
-| <b>Thickness (px)</b> <i>Flotante</i> | Ajusta el thickness en píxeles de la visualización de la spline en la salida de previsualización. |
+| <b>Thickness (px)</b> <i>Flotador</i> | Ajusta el thickness en píxeles de la visualización de la spline en la salida de previsualización. |
 
 ## Ejemplos
 
@@ -101,12 +101,12 @@ La trayectoria de la spline está controlada por la tangente ‘out’ de <b>p1<
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/SplineCubic-Variant1.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](spline-cubic.resources/SplineCubic-Variant1.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/SplineCubic-Variant2.jpg "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-cubic.resources/SplineCubic-Variant2.jpg "Ejemplo de nodo 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ La trayectoria de la spline está controlada por la tangente ‘out’ de <b>p1<
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 3](../../../../../../assets/SplineCubic-Demo.gif "Ejemplo de nodo 3")
+![Ejemplo de nodo 3](spline-cubic.resources/SplineCubic-Demo.gif "Ejemplo de nodo 3")
 
 </td>
 <td style="border: 0;" valign="top">
