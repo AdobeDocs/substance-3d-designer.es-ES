@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
-description: Utilice el nodo 3D Voronoi para generar patrones Voronoi basados en la posición mundial 3D para crear texturas celulares volumétricas.
+description: Utilice el nodo Voronoi 3D para generar patrones Voronoi basados en la posición mundial 3D para crear texturas celulares volumétricas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -52,10 +52,10 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 |  |  |
 |:---|:---|
 | <b>Invertir</b> <i>Booleano</i> | Invierte la imagen de salida. |
-| <b>Escala</b> <i>Flotante</i> | Controla la escala del ruido Voronoi 3D.<br><br><i>Nota</i>: Cuando <b>Tiling</b> está habilitado en <i>cualquier eje</i>, el ajuste de escala es <i>stepped</i>. Esto es de esperar. |
-| <b>Tamaño</b> <i>Flotante3</i> | Controla el tamaño del ruido Voronoi 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto <i>estirar o aplastar</i>.<br><br><i>Nota</i>: Cuando <b>Mosaico</b> está habilitado en <i>cualquier eje</i>, el ajuste de tamaño es <i>escalonado</i>. Esto es de esperar. |
-| <b>Desplazamiento</b> <i>Flotante3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido Voronoi 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
-| <b>Desorden</b> <i>Flotante3</i> | Intensidad del <i>desplazamiento aleatorio</i> aplicado a cada punto del ruido en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
+| <b>Escala</b> <i>Flotador</i> | Controla la escala del ruido Voronoi 3D.<br><br><i>Nota</i>: Cuando <b>Tiling</b> está habilitado en <i>cualquier eje</i>, el ajuste de escala es <i>stepped</i>. Esto es de esperar. |
+| <b>Tamaño</b> <i>Float3</i> | Controla el tamaño del ruido Voronoi 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto <i>estirar o aplastar</i>.<br><br><i>Nota</i>: Cuando <b>Mosaico</b> está habilitado en <i>cualquier eje</i>, el ajuste de tamaño es <i>escalonado</i>. Esto es de esperar. |
+| <b>Desplazamiento</b> <i>Float3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido Voronoi 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
+| <b>Desorden</b> <i>Float3</i> | Intensidad del <i>desplazamiento aleatorio</i> aplicado a cada punto del ruido en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
 | <b>Intensidad de Distorsión</b> <i>Flotador</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido Voronoi 3D. |
 | <b>Multiplicador de escala de Distorsión</b> <i>Flotador</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
 | <b>Curva redondeada</b> <i>Flotador</i> | Redondea la <i>pendiente</i> alrededor de cada punto del ruido para que sea <i>convexa</i>.<br><br><i>Nota</i>: Este parámetro no está disponible cuando el parámetro <b>Style</b> está establecido en <i>Edge</i>. |
@@ -71,24 +71,24 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant5.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant2.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant4.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant3.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant6.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
         </td>
     </tr>
 </table>
