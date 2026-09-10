@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
 breadcrumb-title: ''
 description: Utiliza el nodo Manchas gaussianas 2 para generar patrones avanzados de manchas gaussianas para crear variaciones de textura orgánica.
 helpx_creative_field: ""
