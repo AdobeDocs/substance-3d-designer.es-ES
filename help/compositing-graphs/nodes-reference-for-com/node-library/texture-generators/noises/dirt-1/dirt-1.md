@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Dirt 1 para generar patrones de dirt básicos para crear detalles de superficie intemperizados y efectos de acumulación.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DIRT 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt 1 - Icono](../../../../../../assets/dirt_1.png "Dirt 1 - Icono"){width="200px"}
+![Dirt 1 - Icono](dirt-1.resources/dirt_1.png "Dirt 1 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -70,12 +70,12 @@ Consulte también: [Dirt 2](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 1 - Ejemplo 1](../../../../../../assets/dirt_1_1.png "Dirt 1 - Ejemplo 1"){zoomable="yes"}
+![Dirt 1 - Ejemplo 1](dirt-1.resources/dirt_1_1.png "Dirt 1 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 1 - Ejemplo 2](../../../../../../assets/noise_dirt_1_v2_speed0.6_aniso0.gif "Dirt 1 - Ejemplo 2"){zoomable="yes"}
+![Dirt 1 - Ejemplo 2](dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso0.gif "Dirt 1 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ Consulte también: [Dirt 2](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 1 - Ejemplo 3](../../../../../../assets/noise_dirt_1_v2_speed0.6_aniso1.gif "Dirt 1 - Ejemplo 3"){zoomable="yes"}
+![Dirt 1 - Ejemplo 3](dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso1.gif "Dirt 1 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 1 - Ejemplo 4](../../../../../../assets/noise_dirt_1_v2_speed0.3_aniso0.6.gif "Dirt 1 - Ejemplo 4"){zoomable="yes"}
+![Dirt 1 - Ejemplo 4](dirt-1.resources/noise_dirt_1_v2_speed0.3_aniso0.6.gif "Dirt 1 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>
