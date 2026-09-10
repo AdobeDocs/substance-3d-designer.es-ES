@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-selector.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-selector.html"
 breadcrumb-title: ''
 description: Utilice el nodo Selector de material para seleccionar materiales basados en datos de malla para crear efectos de textura de varios materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selector de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-selector.png){width="128px"}
+![](material-selector.resources/material-selector.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Utilidades
 
@@ -59,7 +59,7 @@ Esto es útil si no desea usar [Fusión de varios materiales](../../../../../../
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/matselector-ex.png" />
+            <img src="material-selector.resources/matselector-ex.png" />
         </td>
     </tr>
 </table>
