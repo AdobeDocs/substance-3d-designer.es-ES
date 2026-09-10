@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
 breadcrumb-title: ''
 description: Utilice el nodo Creased para generar patrones de pliegues para crear efectos de textura de superficies dobladas y arrugadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Arrugado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -50,14 +50,14 @@ Creased es útil para cuando se necesita un semi-direccional-ruido con gran vari
 | <b>Escala</b> <i>1 - 8</i> | Establece la escala global del efecto. |
 | <b>Intensidad de deformación</b> <i>0.0 - 128.0</i> | Define la intensidad del efecto de deformación/plegado. |
 | <b>Desorden</b> <i>0.0 - 100.0</i> | Desplaza ligeramente las capas utilizadas para generar el ruido para introducir variaciones. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/creased-ex.gif" />
+            <img src="creased.resources/creased-ex.gif" />
         </td>
     </tr>
 </table>
