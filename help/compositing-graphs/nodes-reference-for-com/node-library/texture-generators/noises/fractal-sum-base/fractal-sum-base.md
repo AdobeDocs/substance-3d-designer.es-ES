@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
 breadcrumb-title: ''
 description: Utilice el nodo Base de Suma fractal para generar patrones de ruido fractal base para crear texturas orgánicas complejas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: base de suma fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Base de Suma fractal - Icono](../../../../../../assets/fractal_sum_base.png "Base de Suma fractal - Icono"){width="200px"}
+![Base de Suma fractal - Icono](fractal-sum-base.resources/fractal_sum_base.png "Base de Suma fractal - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -72,12 +72,12 @@ Consulte también: [Suma fractal 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Base de Suma fractal - Ejemplo 1](../../../../../../assets/fractal_sum_base_1.png "Base de Suma fractal - Ejemplo 1"){zoomable="yes"}
+![Base de Suma fractal - Ejemplo 1](fractal-sum-base.resources/fractal_sum_base_1.png "Base de Suma fractal - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Base de Suma fractal - Ejemplo 2](../../../../../../assets/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "Base de Suma fractal - Ejemplo 2"){zoomable="yes"}
+![Base de Suma fractal - Ejemplo 2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "Base de Suma fractal - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

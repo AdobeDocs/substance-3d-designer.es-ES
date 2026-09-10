@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
 breadcrumb-title: ''
 description: Utilice el nodo Damas de Suciedad para generar patrones de suciedad similares a los de damasco para crear detalles ornamentales de superficies intemperizadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Damas de suciedad
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungedamas.jpg){width="200px"}
+![](grunge-damas.resources/grungedamas.jpg){width="200px"}
 
-<b>En:</b> Generadores de Textura > Ruidos
+<b>En:</b> Generadores de texturas > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,12 +45,12 @@ El nodo **Suciedad Damas** genera un mapa de suciedades similar a un patrón de 
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Distorsión</b> <i>Flotante</i> | Ajusta la cantidad de distorsión del motivo. |
+| <b>Distorsión</b> <i>Flotador</i> | Ajusta la cantidad de distorsión del motivo. |
 | <b>Divisiones</b> <i>Entero</i> | Ajusta la cantidad de divisiones o repeticiones de degradado del patrón. |
 | <b>Ondas</b> <i>Entero</i> | Ajusta la cantidad de ondas en el patrón. |
 | <b>Detalles</b> <i>Flotador</i> | Ajusta la intensidad de las distorsiones más pequeñas. |
@@ -61,7 +61,7 @@ El nodo **Suciedad Damas** genera un mapa de suciedades similar a un patrón de 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungedamas-variant.jpg" />
+            <img src="grunge-damas.resources/grungedamas-variant.jpg" />
         </td>
     </tr>
 </table>
