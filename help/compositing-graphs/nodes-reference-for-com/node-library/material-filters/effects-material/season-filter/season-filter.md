@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
 description: Utilice el nodo Filtro de estación para aplicar efectos estacionales a los materiales y así crear variaciones de primavera, verano, otoño e invierno.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Filtro de temporada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/default-icon.png){width="128px"}
+![](season-filter.resources/default-icon.png){width="128px"}
 
 <b>En:</b> Filtros de material > Efectos
 
@@ -57,7 +57,7 @@ El nodo requiere un conjunto adecuado de entradas de material, principalmente co
 
 |  |  |
 |:---|:---|
-| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad. |
 | <b>Avanzado</b> |  |
 | <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
 | <b>Máscara</b> <i>Falso/Verdadero</i> | Activa o desactiva el uso del mapa de máscara. |
@@ -80,11 +80,11 @@ El nodo requiere un conjunto adecuado de entradas de material, principalmente co
 | <b>Color de musgo</b> <i>(Valor de color)</i> | Define el color del musgo. |
 | <b>Color de agua</b> <i>(Valor de color)</i> | Define el color del agua, incluida la alfa/opacidad. |
 | <b>Fusión</b> |  |
-| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Difuso. |
-| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Fusión del Color base. |
+| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la difusión. |
+| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Intensidad de fusión del color base. |
 | <b>Intensidad normal</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la Normal. |
 | <b>Intensidad del Specular</b> <i>0.0 - 1.0</i> | Fusión del Specular. |
-| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fusión del Brillo. |
+| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Brillo. |
 | <b>Intensidad de rugosidad</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la rugosidad. |
-| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiental. |
+| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiente. |
 | <b>Intensidad de Height</b> <i>0.0 - 1.0</i> | Fusión del Height. |
