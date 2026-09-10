@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: Utilice el nodo meteorización de roca para generar patrones de meteorización en superficies de roca basados en la geometría de malla para obtener efectos de erosión realistas.
 helpx_creative_field: ""
