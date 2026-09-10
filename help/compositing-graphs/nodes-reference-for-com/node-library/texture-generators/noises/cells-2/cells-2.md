@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELDAS 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Celdas 2 - Icono](../../../../../../assets/cells_2.png "Celdas 2 - Icono"){width="200px"}
+![Celdas 2 - Icono](cells-2.resources/cells_2.png "Celdas 2 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -70,12 +70,12 @@ Consulte también: [Celdas 1](../../../../../../compositing-graphs/nodes-referen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celdas 2 - Ejemplo 1](../../../../../../assets/cells_2_1.png "Celdas 2 - Ejemplo 1"){zoomable="yes"}
+![Celdas 2 - Ejemplo 1](cells-2.resources/cells_2_1.png "Celdas 2 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celdas 2 - Ejemplo 2](../../../../../../assets/noise_cells_2_v2_speed0.3_aniso0.6.gif "Celdas 2 - Ejemplo 2"){zoomable="yes"}
+![Celdas 2 - Ejemplo 2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "Celdas 2 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

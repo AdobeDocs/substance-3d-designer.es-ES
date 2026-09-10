@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color del asignador UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/uv-mapper-color-icon.png "Icono de nodo")
+![Icono de nodo](uv-mapper-color.resources/uv-mapper-color-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -77,11 +77,11 @@ Asigna la imagen de color de entrada utilizando las coordenadas proporcionadas e
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ Asigna la imagen de color de entrada utilizando las coordenadas proporcionadas e
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -107,4 +107,4 @@ Asigna la imagen de color de entrada utilizando las coordenadas proporcionadas e
 </tr>
 </table>
 
-![Nodo en el gráfico](../../../../../../assets/UVMapperColor-Graph.jpg "Nodo en el gráfico")
+![Nodo en el gráfico](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Nodo en el gráfico")

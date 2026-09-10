@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Puente polinomial (lista)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/spline-bridge-list-icon.png "Icono de nodo")
+![Icono de nodo](spline-bridge-list.resources/spline-bridge-list-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -113,11 +113,11 @@ Las splines generadas pueden ser lineales (rectas) o curvadas (curvadas).
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ Las splines generadas pueden ser lineales (rectas) o curvadas (curvadas).
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/SplineBridge-List_Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-bridge-list.resources/SplineBridge-List_Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>
 </table>
 
-![Nodo en el gráfico](../../../../../../assets/SplineBridge-List_Graph.jpg "Nodo en el gráfico")
+![Nodo en el gráfico](spline-bridge-list.resources/SplineBridge-List_Graph.jpg "Nodo en el gráfico")

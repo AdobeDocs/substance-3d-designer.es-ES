@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderización PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render.png){width="250px"}
 
 <b>En:</b> Filtros de material > Utilidades de PBR
 
@@ -160,30 +160,30 @@ Todas las imágenes se generaron directamente dentro de Designer, en la ventana 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-v2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
         </td>
     </tr>
 </table>

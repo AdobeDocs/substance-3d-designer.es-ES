@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Append spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/spline-append-icon.png "Icono de nodo")
+![Icono de nodo](spline-append.resources/spline-append-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -91,15 +91,15 @@ El orden de las listas se mantiene, lo que significa que si se agrega una lista 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/SplineAppend-Demo.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](spline-append.resources/SplineAppend-Demo.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/SplineAppend-Graph.jpg "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-append.resources/SplineAppend-Graph.jpg "Ejemplo de nodo 2")
 
 </td>
 </tr>
 </table>
 
-![Demostración de nodo](../../../../../../assets/SplineAppend-Demo2.gif "Demostración de nodo")
+![Demostración de nodo](spline-append.resources/SplineAppend-Demo2.gif "Demostración de nodo")

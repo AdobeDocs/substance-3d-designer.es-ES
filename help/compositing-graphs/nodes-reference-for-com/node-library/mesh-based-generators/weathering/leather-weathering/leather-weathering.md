@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Meteorología de cuero
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/leather-weathering.png){width="128px"}
+![](leather-weathering.resources/leather-weathering.png){width="128px"}
 
 <b>En:</b> Generadores Basados En Malla > Meteorización
 
@@ -47,7 +47,7 @@ Asegúrate de que comprendes perfectamente los [modos de creación de vínculos]
 
 |  |  |
 |:---|:---|
-| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Oclusión ambiental</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
 | <b>Espacio normal</b> <i>Entrada de color</i> |  |
 | <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;. |
 
@@ -57,7 +57,7 @@ Asegúrate de que comprendes perfectamente los [modos de creación de vínculos]
 
 |  |  |
 |:---|:---|
-| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad. |
 | <b>Avanzado</b> |  |
 | <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
 | <b>Máscara</b> <i>Falso/Verdadero</i> | Activa o desactiva el uso del mapa de máscara. |
@@ -89,10 +89,10 @@ Asegúrate de que comprendes perfectamente los [modos de creación de vínculos]
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/leather-ex.gif" />
+            <img src="leather-weathering.resources/leather-ex.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/leather-ex2.png" />
+            <img src="leather-weathering.resources/leather-ex2.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Óxido goteo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dripping-rust.png){width="128px"}
+![](dripping-rust.resources/dripping-rust.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Generadores de máscaras
 
@@ -48,7 +48,7 @@ Esta máscara representa los copos de óxido y las motas, con las fugas que corr
 |  |  |
 |:---|:---|
 | <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa hecho un bake o generado para ayudar con la colocación del óxido. |
-| <b>Oclusión ambiental</b> <i>Entrada en escala de grises</i> | Mapa hecho un bake o generado para ayudar con la colocación del óxido. |
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa hecho un bake o generado para ayudar con la colocación del óxido. |
 | <b>Posición</b> <i>Entrada en escala de grises</i> | Mapa hecho un bake o generado para direcciones de goteo. |
 | <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
 
@@ -70,7 +70,7 @@ Esta máscara representa los copos de óxido y las motas, con las fugas que corr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dripping-rust-ex3.gif" />
+            <img src="dripping-rust.resources/dripping-rust-ex3.gif" />
         </td>
     </tr>
 </table>

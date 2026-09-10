@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tri Plano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/triplanar-1.png){width="128px"}
+![](tri-planar.resources/triplanar-1.png){width="128px"}
 
-![](../../../../../../assets/triplanar-grayscale.png){width="128px"}
+![](tri-planar.resources/triplanar-grayscale.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Utilidades
 

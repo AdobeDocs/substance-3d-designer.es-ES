@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dirt de tierra
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ground-dirt.png){width="128px"}
+![](ground-dirt.resources/ground-dirt.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Generadores de máscaras
 
@@ -65,7 +65,7 @@ Esta máscara representa el dirt acumulado desde cero, lo contrario de [De abajo
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/ground-dirt-ex.gif" />
+            <img src="ground-dirt.resources/ground-dirt-ex.gif" />
         </td>
     </tr>
 </table>

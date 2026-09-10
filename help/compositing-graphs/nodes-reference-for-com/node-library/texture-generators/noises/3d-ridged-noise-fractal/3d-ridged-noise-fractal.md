@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fractal de ruido de reborde 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dridgednoisefractal.png){width="200px"}
+![](3d-ridged-noise-fractal.resources/3dridgednoisefractal.png){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -71,10 +71,10 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dridgednoisefractal-variant.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dridgednoisefractal-variant2.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
         </td>
     </tr>
 </table>

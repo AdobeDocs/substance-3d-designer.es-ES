@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tierra
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Generadores de máscaras
 
@@ -48,7 +48,7 @@ Esta máscara representa dirtes en bordes y esquinas ocluidos y hundidos, en fun
 |  |  |
 |:---|:---|
 | <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. ¡Obligatorio! |
-| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. ¡Obligatorio! |
+| <b>Oclusión ambiental</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. ¡Obligatorio! |
 | <b>Entrada de Suciedad</b> <i>Entrada en escala de grises</i> | Entrada de mapa de suciedad personalizada, opcional, activada por parámetro. |
 | <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
 | <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> | Solo se usa para triplanar. |
@@ -74,7 +74,7 @@ Esta máscara representa dirtes en bordes y esquinas ocluidos y hundidos, en fun
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dirt-ex.gif" />
+            <img src="dirt.resources/dirt-ex.gif" />
         </td>
     </tr>
 </table>

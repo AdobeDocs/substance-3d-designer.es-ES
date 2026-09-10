@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cáustico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
+![](caustics.resources/rt-caustics-grayscale.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -55,14 +55,14 @@ Genera cáusticos proyectados en función de un mapa de altura y una dirección 
 | <b>Vibración</b> <i>0.0 - 1.0</i> | Añada vibraciones irregulares a las partículas de fotones fundidos. |
 | <b>Posición de luz</b> | Mueve la posición de la luz. También se realiza mediante un gizmo en el Vista 2D. |
 | <b>Color de fondo</b> <i>(Valor de color) (Solo versión de color)</i> | Cambiar el color de fondo. Limitado al negro en la versión en escala de grises. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de aplastamiento y estiramiento con proporciones que no sean de cuadrados. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de calabaza y estire con proporciones que no sean de cuadrados. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rt-caustics-grayscale-1.png" />
+            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
         </td>
     </tr>
 </table>

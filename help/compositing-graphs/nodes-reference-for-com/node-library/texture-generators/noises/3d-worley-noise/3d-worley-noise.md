@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruido Worley 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-worley.png){width="128px"}
+![](3d-worley-noise.resources/3d-worley.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -59,16 +59,16 @@ Uno de los ruidos más versátiles y avanzados de la biblioteca, genera un ruido
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-worley-ex04.png" />
+            <img src="3d-worley-noise.resources/3d-worley-ex04.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-worley-ex03.png" />
+            <img src="3d-worley-noise.resources/3d-worley-ex03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-worley-ex02.png" />
+            <img src="3d-worley-noise.resources/3d-worley-ex02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-worley-ex01.png" />
+            <img src="3d-worley-noise.resources/3d-worley-ex01.png" />
         </td>
     </tr>
 </table>

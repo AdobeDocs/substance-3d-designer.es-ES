@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Flow Mapper
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/spline-flow-mapper-icon.png "Icono de nodo")
+![Icono de nodo](spline-flow-mapper.resources/spline-flow-mapper-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -94,11 +94,11 @@ Esto permite utilizar splines para controlar la dirección, trayectoria, intensi
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFlowMapper-Variant1-Before.jpg" alt="SplineFlowMapper-Variant1-Before">
+      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-Before.jpg" alt="SplineFlowMapper-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFlowMapper-Variant1-After.jpg" alt="SplineFlowMapper-Variant1-After">
+      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-After.jpg" alt="SplineFlowMapper-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -107,7 +107,7 @@ Esto permite utilizar splines para controlar la dirección, trayectoria, intensi
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/SplineFlowMapper-Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-flow-mapper.resources/SplineFlowMapper-Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/3d-planar-projection.html"
 breadcrumb-title: ''
-description: Utilice el nodo Proyección Plana 3D para proyectar texturas en superficies de malla mediante la proyección plana para la asignación de texturas.
+description: Utilice el nodo Proyección plana 3D para proyectar texturas en superficies de malla mediante la proyección plana para la asignación de texturas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Proyección Plana en 3D
+title: Proyección plana 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 7%
@@ -18,13 +18,13 @@ ht-degree: 7%
 ---
 
 
-# Proyección Plana en 3D
+# Proyección plana 3D
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-planar-gray.png)![](../../../../../../assets/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-gray.png)![](3d-planar-projection.resources/3d-planar.png)
 
 <b>En:</b> Generadores basados en malla > Utilidades
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descripción
 
-Realiza una proyección plana basada en datos de malla hechos un bake (Mapas de normales de posición y de mundo). Permite proyectar y colocar pegatinas a través de las costuras, independientemente de la asignación UV original.
+Realiza una proyección plana basada en datos de malla horneada (Mapas de posición y normales del mundo). Permite proyectar y colocar pegatinas a través de las costuras, independientemente de la asignación UV original.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Realiza una proyección plana basada en datos de malla hechos un bake (Mapas de 
 |:---|:---|
 | <b>Colocación</b> |  |
 | <b>Entrada de proyecto</b> <i>Posición UV, Posición Espacial Mundial</i> | Elija si la posición de proyección está definida en 2D/UV o en el espacio 3D/Mundo. |
-| <b>Posición UV de destino</b> | Solo con entrada de posición UV, se recomienda utilizar para seleccionar un punto en la Vista 2D del mapa de posición. |
+| <b>Posición UV de destino</b> | Solo con entrada de posición UV, se recomienda utilizar para seleccionar un punto en la vista 2D en el mapa de posición. |
 | <b>Posición de destino</b> <i>(Valor de color)</i> | Solo con Entrada de posición de espacio mundial, permite definir una coordenada 3D exacta. |
 | <b>Destino normal</b> <i>(Valor de color)</i> |  |
 | <b>Rotación</b> <i>0.0 - 1.0</i> | Gira la textura proyectada a lo largo del eje normal. |
@@ -74,7 +74,7 @@ Realiza una proyección plana basada en datos de malla hechos un bake (Mapas de 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-planar-projection-ex.gif" />
+            <img src="3d-planar-projection.resources/3d-planar-projection-ex.gif" />
         </td>
     </tr>
 </table>

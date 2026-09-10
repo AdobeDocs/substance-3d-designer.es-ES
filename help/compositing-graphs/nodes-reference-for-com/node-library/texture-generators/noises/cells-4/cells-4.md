@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELDAS 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Celdas 4 - Icono](../../../../../../assets/cells_4.png "Celdas 4 - Icono"){width="200px"}
+![Celdas 4 - Icono](cells-4.resources/cells_4.png "Celdas 4 - Icono"){width="200px"}
 
-<b>En:</b> Generadores de texturas > Ruidos
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -66,8 +66,8 @@ Consulte también: [Celdas 1](../../../../../../compositing-graphs/nodes-referen
 |  |  |
 |:---|:---|
 | <b>Escala</b> <i>Entero</i> | Subdivisión de la cuadrícula utilizada para generar los mosaicos de ruido.    Un valor más alto provoca que se dibujen más mosaicos y que el ruido sea más denso. |
-| <b>Desorden</b> <i>Flotador</i> | Desplaza los ingredientes del ruido.    Se puede utilizar para animar el ruido. |
-| <b>Velocidad del desorden</b> <i>Flotador</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
+| <b>Desorden</b> <i>Flotante</i> | Desplaza los ingredientes del ruido.    Se puede utilizar para animar el ruido. |
+| <b>Velocidad del desorden</b> <i>Flotante</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
 | <b>Origen de color</b> <i>Entero</i> | Origen del color plano aplicado a las celdas:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Aleatorio:</i></b> Use un color aleatorio controlado por la semilla aleatoria del nodo</li> <li data-preserve-html="true"><b><i>Pseudorandom:</i></b> Use un color aleatorio predefinido por un valor de conjunto de usuarios independiente</li> <li data-preserve-html="true"><b><i>Entrada de imagen:</i></b> Utilice el color muestreado en la ubicación de la celda en la imagen de entrada</li> </ul> |
 | <b>Semilla pseudoaleatoria</b> <i>Entero</i>   *Disponible cuando &#39;Color source&#39; está establecido en &#39;Pseudorandom&#39;* | Permite cambiar la semilla del color por separado de la semilla del nodo. |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | En imágenes no cuadradas, mantiene el cuadrado del mosaico generado y expande la generación de ruido a los límites de la imagen. |
@@ -78,12 +78,12 @@ Consulte también: [Celdas 1](../../../../../../compositing-graphs/nodes-referen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celdas 4 - Ejemplo 1](../../../../../../assets/cells_4_1.png "Celdas 4 - Ejemplo 1"){zoomable="yes"}
+![Celdas 4 - Ejemplo 1](cells-4.resources/cells_4_1.png "Celdas 4 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celdas 4 - Ejemplo 2](../../../../../../assets/noise_cells_4_v2_speed0.3_aniso0.6.gif "Celdas 4 - Ejemplo 2"){zoomable="yes"}
+![Celdas 4 - Ejemplo 2](cells-4.resources/noise_cells_4_v2_speed0.3_aniso0.6.gif "Celdas 4 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

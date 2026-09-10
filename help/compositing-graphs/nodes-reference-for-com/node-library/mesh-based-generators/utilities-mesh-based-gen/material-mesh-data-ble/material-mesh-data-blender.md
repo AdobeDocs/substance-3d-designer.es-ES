@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mezclador de datos de malla de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
 
 <b>En:</b> Generadores basados en malla > Utilidades
 
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 ## Descripción
 
-Este nodo está diseñado para facilitar en gran medida la adición de detalles en función de los datos hechos un bake. Viene con una gran cantidad de reguladores para modificar una entrada de material completo, basado en cualquier y todos los mapas con bake como entrada. Experimenta con él, ya que hay muchas opciones.
+Este nodo está diseñado para facilitar la adición de detalles en función de los datos predefinidos. Viene con una gran cantidad de reguladores para modificar una entrada de material completo, basado en cualquier y todos los mapas con bake como entrada. Experimenta con él, ya que hay muchas opciones.
 
-Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u otros mapas, mezclar en algunos AO con el color Difuso/base, añadir Oclusión de Specular basada en Curvatura y/o AO, etc.
+Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u otros mapas, mezclar en algunos AO con el color difuso/básico, añadir Oclusión de Specular basada en curvatura y/o AO, etc.
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u
 |  |  |
 |:---|:---|
 | <b>Entrada de material completa (grupo &quot;Material&quot;)</b> | Conjunto completo de mapas de materiales.<br><br>Este nodo los modifica y, a continuación, se devuelven de nuevo como resultados. |
-| <b>Oclusión ambiental</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
 | <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
 | <b>Height</b> <i>Entrada en escala de grises</i> |  |
 | <b>Normal</b> <i>Entrada de color</i> |  |
@@ -91,7 +91,7 @@ Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
         </td>
     </tr>
 </table>

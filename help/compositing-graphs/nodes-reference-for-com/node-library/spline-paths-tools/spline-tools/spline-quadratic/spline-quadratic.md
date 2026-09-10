@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (cuadrático)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline (Quadratic): icon](../../../../../../assets/spline-quadratic-icon.png "Spline (Quadratic): icon")
+![Spline (Quadratic): icon](spline-quadratic.resources/spline-quadratic-icon.png "Spline (Quadratic): icon")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -103,12 +103,12 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Ejemplo 1](../../../../../../assets/spline-quadratic-example-1.png "Spline (Quadratic): Ejemplo 1"){zoomable="yes"}
+![Spline (Quadratic): Ejemplo 1](spline-quadratic.resources/spline-quadratic-example-1.png "Spline (Quadratic): Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Ejemplo 2](../../../../../../assets/spline-quadratic-example-2.png "Spline (Quadratic): Ejemplo 2"){zoomable="yes"}
+![Spline (Quadratic): Ejemplo 2](spline-quadratic.resources/spline-quadratic-example-2.png "Spline (Quadratic): Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ La extensión del arco formado por la spline es *ajustable*, por lo que parte de
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Demostración](../../../../../../assets/spline-quadratic-demo.gif "Spline (Quadratic): Demostración"){zoomable="yes"}
+![Spline (Quadratic): Demostración](spline-quadratic.resources/spline-quadratic-demo.gif "Spline (Quadratic): Demostración"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

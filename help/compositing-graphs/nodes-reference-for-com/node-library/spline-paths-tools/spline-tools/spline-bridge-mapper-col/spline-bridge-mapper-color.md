@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
 breadcrumb-title: ''
-description: Utilice el nodo Color del asignador de puente de spline para enlazar texturas entre dos splines con asignación de color.
+description: Utilice el nodo Color del asignador de puente de spline para unir texturas entre dos splines con asignación de color.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color del asignador de puente spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/spline-bridge-mapper-color-icon.png "Icono de nodo")
+![Icono de nodo](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -78,10 +78,10 @@ Asigna una imagen en color a una lista de splines de entrada para que la imagen 
 |  |  |
 |:---|:---|
 | <b>Cantidad de segmentos</b> <i>Entero</i> | Las splines se simplifican en segmentos antes de que las coordenadas de la imagen los atraviesen. Una mayor cantidad de segmentos produce una asignación más fluida a lo largo de las curvas. |
-| <b>Reducir el estiramiento de UV</b> <i>Booleano</i> | Ajusta el método utilizado para interpolar las coordenadas de imagen de una spline a la siguiente para minimizar el estiro cuando la distancia entre las splines es irregular. |
-| <b>Escala de UV</b> <i>Float2</i> | Ajusta la escala de las coordenadas de la imagen. Los valores más altos dan como resultado una imagen de mosaico más denso. |
-| <b>Rotación UV</b> <i>Flotador</i> | Rota las coordenadas de la imagen alrededor de su centro. |
-| <b>Color de fondo</b> <i>Float4</i> | El color del fondo en la imagen de salida. |
+| <b>Reducir UV que Estiran</b> <i>Booleano</i> | Ajusta el método utilizado para interpolar las coordenadas de imagen de una spline a la siguiente para minimizar el estiro cuando la distancia entre las splines es irregular. |
+| <b>Escala de UV</b> <i>Flotante2</i> | Ajusta la escala de las coordenadas de la imagen. Los valores más altos dan como resultado una imagen de mosaico más denso. |
+| <b>Rotación UV</b> <i>Flotante</i> | Rota las coordenadas de la imagen alrededor de su centro. |
+| <b>Color de fondo</b> <i>Flotante4</i> | El color del fondo en la imagen de salida. |
 
 ## Ejemplos
 
@@ -92,11 +92,11 @@ Asigna una imagen en color a una lista de splines de entrada para que la imagen 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ Asigna una imagen en color a una lista de splines de entrada para que la imagen 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/SplineBridgeMapperColor-Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ Asigna una imagen en color a una lista de splines de entrada para que la imagen 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/SplineBridgeMapperColor-Variant1-After1.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/SplineBridgeMapperColor-Graph.jpg "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "Ejemplo de nodo 2")
 
 </td>
 </tr>

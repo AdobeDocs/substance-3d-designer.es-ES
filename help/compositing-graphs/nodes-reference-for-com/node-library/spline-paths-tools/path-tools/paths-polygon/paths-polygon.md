@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Polígono de trazados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/paths-polygon-icon.png "Icono de nodo")
+![Icono de nodo](paths-polygon.resources/paths-polygon-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -63,12 +63,12 @@ Utilice el nodo [Path 2D Transform](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/PathsPolygon_Variant2.jpg "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "Ejemplo de nodo 2")
 
 </td>
 </tr>

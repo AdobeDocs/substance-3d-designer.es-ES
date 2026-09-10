@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas scatter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/atlas-scatter.png){width="200px"}
+![](atlas-scatter.resources/atlas-scatter.png){width="200px"}
 
 <b>En:</b> Filtros de material > Procesamiento de escaneo
 
@@ -119,7 +119,7 @@ Extrae elementos de un atlas y dispersión sobre un fondo. Las entradas de Atlas
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/atlas-scatter-11.png" />
+            <img src="atlas-scatter.resources/atlas-scatter-11.png" />
         </td>
     </tr>
 </table>

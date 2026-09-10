@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
 breadcrumb-title: ''
-description: Utilice el nodo Transformar trazado 2D para transformar trazados con operaciones de traslación, rotación y escala.
+description: Utilice el nodo Transformación 2D de trazado para transformar trazados con operaciones de traslación, rotación y escala.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Path 2D Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformar ruta 2D
+title: Transformación 2D de trazado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# Transformar ruta 2D
+# Transformación 2D de trazado
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/path-2d-transform-icon.png "Icono de nodo")
+![Icono de nodo](path-2d-transform.resources/path-2d-transform-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de trazado
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Descripción
 
-Transforma los trazados mediante un gizmo.
+Transforma trazados con un gizmo.
 
 </td>
 </tr>
@@ -61,8 +61,8 @@ Transforma los trazados mediante un gizmo.
 
 |  |  |
 |:---|:---|
-| <b>Transformar matriz</b> <i>Flotante4</i> | Matriz de transformación aplicada a las splines. Hay tres modos de edición de los parámetros matriciales disponibles:<br>*- Gizmo de transformación:* retocar los controladores del gizmo que se muestra en el [vista 2D](../../../../../../interface/2d-view/2d-view.md) cuando se selecciona el nodo Transformar spline 2D;<br>*- Rotación/Estirar:* Controle individualmente la rotación y el estiro de las splines. Tenga en cuenta que los valores siempre se aplican en relación con la transformación actual. Por ejemplo, si aplica una anchura del 50 % dos veces, se obtiene una anchura del 25 %;<br>*- Valores de matriz:* Haga clic en el botón <b>Editar valores de matriz</b> para introducir directamente los valores numéricos sin formato de la matriz. |
-| <b>Desplazamiento</b> <i>Flotante2</i> | Aplica un desplazamiento de posición a las splines en X (horizontal) e Y (vertical). |
+| <b>Transformar matriz</b> <i>Float4</i> | Matriz de transformación aplicada a las splines. Hay tres modos de edición de los parámetros matriciales disponibles:<br>*- Gizmo de transformación:* retocar los controladores del gizmo que se muestra en el [vista 2D](../../../../../../interface/2d-view/2d-view.md) cuando se selecciona el nodo Transformar spline 2D;<br>*- Rotación/Estirar:* Controle individualmente la rotación y el estiro de las splines. Tenga en cuenta que los valores siempre se aplican en relación con la transformación actual. Por ejemplo, si aplica una anchura del 50 % dos veces, se obtiene una anchura del 25 %;<br>*- Valores de matriz:* Haga clic en el botón <b>Editar valores de matriz</b> para introducir directamente los valores numéricos sin formato de la matriz. |
+| <b>Desplazamiento</b> <i>Float2</i> | Aplica un desplazamiento de posición a las splines en X (horizontal) e Y (vertical). |
 
 ## Ejemplos
 
@@ -73,11 +73,11 @@ Transforma los trazados mediante un gizmo.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
+      <img src="path-2d-transform.resources/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ Transforma los trazados mediante un gizmo.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
+      <img src="path-2d-transform.resources/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
       <br><i>Después De</i>
     </td>
   </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Relleno polinómico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/spline-fill-icon.png "Icono de nodo")
+![Icono de nodo](spline-fill.resources/spline-fill-icon.png "Icono de nodo")
 
 <b>En:</b> Herramientas de spline y trazado > Herramientas de spline
 
@@ -72,11 +72,11 @@ Las splines abiertas se cierran con una línea recta de principio a fin. Las int
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="spline-fill.resources/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
+      <img src="spline-fill.resources/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -85,7 +85,7 @@ Las splines abiertas se cierran con una línea recta de principio a fin. Las int
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/SplineFill-Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](spline-fill.resources/SplineFill-Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>

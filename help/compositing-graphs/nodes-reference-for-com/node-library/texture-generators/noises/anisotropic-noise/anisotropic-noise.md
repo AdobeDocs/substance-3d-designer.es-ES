@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruido anisotrópico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruido anisotrópico - Icono](../../../../../../assets/anisotropic_noise_v2.png "Ruido anisotrópico - Icono"){width="200px"}
+![Ruido anisotrópico - Icono](anisotropic-noise.resources/anisotropic_noise_v2.png "Ruido anisotrópico - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -60,9 +60,9 @@ La cantidad de tiras es ajustable, al igual que el smoothness de sus transicione
 | <b>Importe Y por resolución</b> <i>Booleano</i> | Si su valor es True, el número de bandas del eje Y será igual al tamaño de imagen de dicho eje. |
 | <b>Rotar</b> <i>Booleano</i> | Rota el ruido 90 grados. |
 | <b>Smoothness</b> <i>Flotador</i> | Cantidad de atenuación entre las tiras, donde 0 es sin atenuación y 1 es atenuación en toda su longitud. |
-| <b>Interpolación de Smoothness</b> <i>Flotador</i> | La ponderación de los dos métodos de interpolación aplicados para desvanecer las tiras, donde 0 es lineal y 1 es gaussiano. |
-| <b>Desorden</b> <i>Flotador</i> | Desplaza los ingredientes del ruido.   Se puede utilizar para animar el ruido. |
-| <b>Velocidad del desorden</b> <i>Flotador</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.   Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
+| <b>Interpolación de Smoothness</b> <i>Flotante</i> | La ponderación de los dos métodos de interpolación aplicados para desvanecer las tiras, donde 0 es lineal y 1 es gaussiano. |
+| <b>Desorden</b> <i>Flotante</i> | Desplaza los ingredientes del ruido.   Se puede utilizar para animar el ruido. |
+| <b>Velocidad del desorden</b> <i>Flotante</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.   Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | En imágenes no cuadradas, mantiene el cuadrado del mosaico generado y expande la generación de ruido a los límites de la imagen. |
 
 ## Ejemplos
@@ -71,12 +71,12 @@ La cantidad de tiras es ajustable, al igual que el smoothness de sus transicione
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruido anisotrópico - Ejemplo 1](../../../../../../assets/anisotropic_noise_v2_1.png "Ruido anisotrópico - Ejemplo 1"){zoomable="yes"}
+![Ruido anisotrópico - Ejemplo 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "Ruido anisotrópico - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruido anisotrópico - Ejemplo 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Ruido anisotrópico - Ejemplo 2"){zoomable="yes"}
+![Ruido anisotrópico - Ejemplo 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Ruido anisotrópico - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
