@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
 breadcrumb-title: ''
 description: Utilice el nodo Recortar para recortar salidas de material a regiones específicas para procesar materiales y texturas digitalizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Recortar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-10.png){width="128px"}
+![](crop.resources/crop-10.png){width="128px"}
 
-![](../../../../../../assets/crop-grayscale.png){width="128px"}
+![](crop.resources/crop-grayscale.png){width="128px"}
 
 <b>En:</b> Filtros de material > Procesamiento de escaneo
 
