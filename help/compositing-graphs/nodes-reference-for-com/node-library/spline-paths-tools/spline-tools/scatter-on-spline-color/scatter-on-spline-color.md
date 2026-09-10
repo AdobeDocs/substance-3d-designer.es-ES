@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
 description: Utilice el nodo Dispersión en color de spline para distribuir elementos de color a lo largo de trazados de spline para patrones de procedimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersión en color polinomial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de nodo](../../../../../../assets/scatter-on-spline-color-icon.png "Icono de nodo")
+![Icono de nodo](scatter-on-spline-color.resources/scatter-on-spline-color-icon.png "Icono de nodo")
 
 En: Herramientas de spline y trazado > Herramientas de spline
 
@@ -87,7 +87,7 @@ Algunos aspectos de la dispersión se pueden controlar utilizando imágenes de o
 | <b>Fin</b> <i>Flotador</i> | Desplaza el punto desde el inicio de una spline donde termina la dispersión. El valor es la longitud normalizada de cada spline. |
 | <b>Tabla dinámica de formas</b> <i>Float2</i> | Desplaza el pivote del patrón X e Y en el espacio de tangente de spline.<br>Teniendo en cuenta que el giro es lo que se coloca en la spline, esto compensa eficazmente los patrones a lo largo de la spline o perpendicularmente a ella.<br>Nota: Las posiciones de los puntos de giro afectan al efecto de los parámetros &quot;Escala&quot; y &quot;Rotación (Pivotar)&quot;. |
 | <b>Patrón</b> |  |
-| <b>Patrón</b> <i>Entero</i> | El patrón que debe estar disperso a lo largo de las splines:<br>*- Entrada de patrón*: Use los patrones suministrados a las entradas de &quot;Entrada de patrón #&quot;;<br>*- Cuadrado;<br>* Disco;<br>* Paraboloide;<br>* Campana;<br>* Gaussiano;<br>* Espina;<br>* Pirámide;<br>* Ladrillo;<br>* Gradación;<br>* Ondas;<br>* Media campana;<br>* Campana con bordes;<br>* Media luna;<br>* Cápsula;<br>* Cono 7&rbrace;* Gradación w. <br>offset;<br>* Hemisphere.* |
+| <b>Patrón</b> <i>Entero</i> | El patrón que debe estar disperso a lo largo de las splines:<br>*- Entrada de patrón*: Use los patrones suministrados a las entradas de &quot;Entrada de patrón #&quot;;<br>*- Cuadrado;<br>* Disco;<br>* Paraboloide;<br>* Campana;<br>* Gaussiano;<br>* Espina;<br>* Pirámide;<br>* Ladrillo;<br>* Gradación;<br>* Ondas;<br>* Media campana;<br>* Campana con bordes;<br>* Media luna;<br>* Cápsula;<br>* Cono 7}* Gradación w. <br>offset;<br>* Hemisphere.* |
 | <b>Número de entrada de patrón</b> <i>Entero</i> (disponible cuando ‘Patrón’ está establecido en ‘Entrada de patrón’) | Selecciona el índice del patrón de entrada que se debe dispersar. |
 | <b>Distribución de entrada de patrón</b> <i>Entero</i> (disponible cuando ‘Patrón’ está establecido en ‘Entrada de patrón’) | Método utilizado para seleccionar los patrones de entrada que se deben dispersar en una spline determinada:<br>*- Aleatorio*: se selecciona aleatoriamente un patrón;<br>*- En la spline*: El índice de patrón aumenta gradualmente a lo largo de la spline;<br>*- Índice de patrón*: Realiza un bucle sobre el índice de patrones de entrada en cada spline;<br>*- Índice de spline*: Realiza un bucle sobre el índice de patrones de entrada de una spline a la siguiente en la lista de splines de entrada. |
 | <b>Variación de la distribución</b> <i>Flotante</i> (disponible cuando &quot;Distribución de entrada de patrón&quot; está establecido en &quot;A lo largo de la spline&quot;) | Aumenta o disminuye aleatoriamente el índice de motivos seleccionado en la spline. |
@@ -112,10 +112,10 @@ Algunos aspectos de la dispersión se pueden controlar utilizando imágenes de o
 | <b>Aleatorio de tamaño</b> <i>Float2</i> | Aplica un multiplicador aleatorio hasta el valor especificado para reducir el tamaño de los patrones en X e Y. |
 | <b>Escala de Thickness</b> <i>Flotante</i> (disponible cuando &quot;Modo de tamaño&quot; está establecido en &quot;Usar Thickness desde spline&quot;) | Un multiplicador adicional para la escala de los patrones cuando se acciona mediante el thickness de la spline. |
 | <b>Escala</b> <i>Flotante</i> (disponible cuando &quot;Modo de tamaño&quot; está establecido en &quot;Normal&quot;) | Un control global para el tamaño de todos los patrones, donde 1 es la extensión completa de la imagen.<br>El escalado se aplica en relación con el giro de un motivo. La posición de pivote se puede desplazar mediante el parámetro &quot;Shape Pivot&quot;. |
-| <b>Escala aleatoria</b> <i>Flotador</i> | Aplica un multiplicador aleatorio hasta el valor especificado para reducir el tamaño de los patrones. |
-| <b>Multiplicador de entrada de mapa de escala</b> <i>Flotador</i> | Controla la intensidad de la entrada del mapa de escala. Este mapa actúa como un multiplicador para el tamaño actual de los patrones.<br>El efecto de este mapa se combina con los demás parámetros del grupo &quot;Tamaño&quot;. |
-| <b>Modo de muestreo de entrada de escala</b> <i>Espacio de Textura</i> | Método de asignación de los valores de la asignación de escala a las splines:<br>*- espacio de Textura*: Los valores se aplican a las splines donde se colocarían si se colocan en una textura utilizando las coordenadas UV de la textura. Esto aplica efectivamente el valor a las splines &quot;in place&quot;;<br>*- Horizontal along spline*: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), donde cada fila se aplica a una spline diferente de arriba a abajo;<br>*- Hor. a lo largo de la spline (rand. desplazamiento X)*: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento horizontal aleatorio en el mapa de escala para cada spline (es decir, cada fila en códigos de spline);<br>*- Hor. a lo largo de la spline (rand. desplazamiento Y)*: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento vertical aleatorio en el mapa de escala para cada spline (es decir, cada fila de códigos de spline). |
-| <b>Iniciar o finalizar atenuación</b> <i>Float2</i> | Factores en la distancia desde el punto medio de la spline hasta su inicio y fin al escalar los patrones.<br>Esto significa que el tamaño se reduce para patrones más cercanos a las extremidades de una spline. |
+| <b>Escala aleatoria</b> <i>Flotante</i> | Aplica un multiplicador aleatorio hasta el valor especificado para reducir el tamaño de los patrones. |
+| <b>Multiplicador de entrada de mapa de escala</b> <i>Flotante</i> | Controla la intensidad de la entrada del mapa de escala. Este mapa actúa como un multiplicador para el tamaño actual de los patrones.<br>El efecto de este mapa se combina con los demás parámetros del grupo &quot;Tamaño&quot;. |
+| <b>Modo de muestreo de entrada de escala</b> <i>Espacio de Textura</i> | Método de asignación de los valores de la asignación de escala a las splines:<br>*- espacio de Textura*: Los valores se aplican a las splines donde se colocarían si se colocaran en una textura utilizando las coordenadas UV de la textura. Esto aplica efectivamente el valor a las splines &quot;in place&quot;;<br>*- Horizontal along spline*: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), donde cada fila se aplica a una spline diferente de arriba a abajo;<br>*- Hor. a lo largo de la spline (rand. desplazamiento X)*: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento horizontal aleatorio en el mapa de escala para cada spline (es decir, cada fila en códigos de spline);<br>*- Hor. a lo largo de la spline (rand. desplazamiento Y)*: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento vertical aleatorio en el mapa de escala para cada spline (es decir, cada fila de códigos de spline). |
+| <b>Iniciar o finalizar atenuación</b> <i>Flotante2</i> | Factores en la distancia desde el punto medio de la spline hasta su inicio y fin al escalar los patrones.<br>Esto significa que el tamaño se reduce para patrones más cercanos a las extremidades de una spline. |
 | <b>Posición</b> |  |
 | <b>Desplazamiento local</b> <i>Float2</i> | Aplica un desvío a las posiciones de los patrones a lo largo de la tangente (paralela) y normal (perpendicular) de la spline. |
 | <b>Desplazamiento local aleatorio</b> <i>Float2</i> | Aplica un desvío aleatorio adicional a las posiciones de los patrones a lo largo de la tangente (paralela) y normal (perpendicular) de la spline. |
@@ -167,11 +167,11 @@ Algunos aspectos de la dispersión se pueden controlar utilizando imágenes de o
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ Algunos aspectos de la dispersión se pueden controlar utilizando imágenes de o
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ Algunos aspectos de la dispersión se pueden controlar utilizando imágenes de o
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Ejemplo de nodo 1")
+![Ejemplo de nodo 1](scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Demo.gif "Ejemplo de nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "Ejemplo de nodo 2")
+![Ejemplo de nodo 2](scatter-on-spline-color.resources/ScatterOnSplineColor-Demo.gif "Ejemplo de nodo 2")
 
 </td>
 </tr>
