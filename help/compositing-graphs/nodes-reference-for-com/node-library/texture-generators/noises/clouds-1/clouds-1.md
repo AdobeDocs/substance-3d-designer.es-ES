@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Nubes 1 para generar patrones de nube básicos para crear efectos de textura atmosféricos y volumétricos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Clouds 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nubes 1 - Icono](../../../../../../assets/clouds_1.png "Nubes 1 - Icono"){width="200px"}
+![Nubes 1 - Icono](clouds-1.resources/clouds_1.png "Nubes 1 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -69,12 +69,12 @@ Consulte también: [Nubes 2](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nubes 1 - Ejemplo 1](../../../../../../assets/clouds_1_1.png "Nubes 1 - Ejemplo 1"){zoomable="yes"}
+![Nubes 1 - Ejemplo 1](clouds-1.resources/clouds_1_1.png "Nubes 1 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nubes 1 - Ejemplo 2](../../../../../../assets/noise_clouds_1_v2_speed0.6_aniso0.gif "Nubes 1 - Ejemplo 2"){zoomable="yes"}
+![Nubes 1 - Ejemplo 2](clouds-1.resources/noise_clouds_1_v2_speed0.6_aniso0.gif "Nubes 1 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Consulte también: [Nubes 2](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nubes 1 - Ejemplo 3](../../../../../../assets/noise_clouds_1_v2_speed0.6_aniso1.gif "Nubes 1 - Ejemplo 3"){zoomable="yes"}
+![Nubes 1 - Ejemplo 3](clouds-1.resources/noise_clouds_1_v2_speed0.6_aniso1.gif "Nubes 1 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nubes 1 - Ejemplo 4](../../../../../../assets/noise_clouds_1_v2_speed0.3_aniso0.6.gif "Nubes 1 - Ejemplo 4"){zoomable="yes"}
+![Nubes 1 - Ejemplo 4](clouds-1.resources/noise_clouds_1_v2_speed0.3_aniso0.6.gif "Nubes 1 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

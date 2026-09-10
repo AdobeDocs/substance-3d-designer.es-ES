@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
 breadcrumb-title: ''
 description: Usa el nodo Celdas 1 para generar patrones celulares básicos para crear efectos de textura orgánica y biológica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELDAS 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Celdas 1 - Icono](../../../../../../assets/cells_1.png "Celdas 1 - Icono"){width="200px"}
+![Celdas 1 - Icono](cells-1.resources/cells_1.png "Celdas 1 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -77,12 +77,12 @@ Consulte también: [Celdas 2](../../../../../../compositing-graphs/nodes-referen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celdas 1 - Ejemplo 1](../../../../../../assets/cells_1_1.png "Celdas 1 - Ejemplo 1"){zoomable="yes"}
+![Celdas 1 - Ejemplo 1](cells-1.resources/cells_1_1.png "Celdas 1 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celdas 1 - Ejemplo 2](../../../../../../assets/noise_cells_1_v2_speed0.3_aniso0.3.gif "Celdas 1 - Ejemplo 2"){zoomable="yes"}
+![Celdas 1 - Ejemplo 2](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.3.gif "Celdas 1 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ Consulte también: [Celdas 2](../../../../../../compositing-graphs/nodes-referen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celdas 1 - Ejemplo 3](../../../../../../assets/noise_cells_1_v2_speed0.5_aniso0.6.gif "Celdas 1 - Ejemplo 3"){zoomable="yes"}
+![Celdas 1 - Ejemplo 3](cells-1.resources/noise_cells_1_v2_speed0.5_aniso0.6.gif "Celdas 1 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celdas 1 - Ejemplo 4](../../../../../../assets/noise_cells_1_v2_speed0.3_aniso0.6.gif "Celdas 1 - Ejemplo 4"){zoomable="yes"}
+![Celdas 1 - Ejemplo 4](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.6.gif "Celdas 1 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>
