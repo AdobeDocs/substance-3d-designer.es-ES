@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
 breadcrumb-title: ''
 description: Utilice el nodo Recorte automático para recortar automáticamente las texturas, eliminar los bordes vacíos y optimizar las dimensiones de la textura.
 helpx_creative_field: ""

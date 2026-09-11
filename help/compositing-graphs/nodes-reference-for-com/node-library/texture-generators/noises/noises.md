@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
 breadcrumb-title: ''
 description: Accede a los nodos generadores de ruido en Substance 3D Designer para crear patrones de ruido procedimientos para la generación y variación de textura.
 helpx_creative_field: ""

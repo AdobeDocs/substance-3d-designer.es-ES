@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: Utilice el nodo Rutas de acceso de vista previa para visualizar los datos de las rutas de acceso en la Vista 2D para la depuración y la verificación.
 helpx_creative_field: ""

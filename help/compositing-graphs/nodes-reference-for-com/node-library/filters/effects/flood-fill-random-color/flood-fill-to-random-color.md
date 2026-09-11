@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
 breadcrumb-title: ''
 description: Utilice el nodo Flood Fill a color aleatorio para rellenar regiones conectadas con colores aleatorios para crear patrones de texturas variados.
 helpx_creative_field: ""

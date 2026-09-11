@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: Utilice el nodo Procesamiento de volumen de textura 3D para procesar texturas volumétricas de datos 3D para crear efectos de nube y niebla.
 helpx_creative_field: ""

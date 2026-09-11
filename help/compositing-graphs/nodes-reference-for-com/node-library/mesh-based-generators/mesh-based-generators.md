@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Acceda a nodos generadores basados en malla en Substance 3D Designer para crear texturas basadas en propiedades y geometría de malla 3D.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Los generadores basados en malla son nodos diseñados para procesar [Mapas con bake](../../../../bakers/bakers.md) como un Mapa de normales, curvatura, Oclusión ambiental, etc.
 
-La categoría recibe su nombre del hecho de que los mapas con bake son la única forma de que Designer utilice datos basados en mallas 3D. Parte de la funcionalidad de esta categoría es similar a [Materiales inteligentes y máscaras](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) de Substance 3D Painter.
+La categoría recibe su nombre del hecho de que los mapas con bake son la única forma de que Designer utilice datos basados en mallas 3D. Parte de la funcionalidad de esta categoría es similar a [Materiales inteligentes y máscaras](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/features/smart-materials-and-masks) de Substance 3D Painter.
 
 Hay tres categorías principales:
 

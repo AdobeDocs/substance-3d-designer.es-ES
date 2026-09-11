@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Obtén una visión general de Substance 3D Designer y descubre sus funciones para crear materiales y texturas procedimientos.
 helpx_creative_field: ""
@@ -77,7 +77,7 @@ Los archivos de Substance son los **archivos de origen principales** para Design
 
 *(\*.SBSAR)*
 
-Los archivos de Substance son<b> archivos de Substance compilados y optimizados</b>. Son mucho más rápidos de calcular y se pueden compartir fácilmente sin problemas de referencia. Los parámetros aún se pueden modificar, pero la edición del gráfico está <b>bloqueada</b>. Substance Archives se puede usar en todas las aplicaciones de Substance 3D y en cualquier aplicación que tenga [Substance 3D integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (algunas con un plugin externo) como Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
+Los archivos de Substance son<b> archivos de Substance compilados y optimizados</b>. Son mucho más rápidos de calcular y se pueden compartir fácilmente sin problemas de referencia. Los parámetros aún se pueden modificar, pero la edición del gráfico está <b>bloqueada</b>. Substance Archives se puede usar en todas las aplicaciones de Substance 3D y en cualquier aplicación que tenga [Substance 3D integration](https://experienceleague.adobe.com/es/docs/substance-3d/ecosystem/home) (algunas con un plugin externo) como Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">

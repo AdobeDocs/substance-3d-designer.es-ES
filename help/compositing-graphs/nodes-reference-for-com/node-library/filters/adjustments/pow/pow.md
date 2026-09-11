@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
 breadcrumb-title: ''
 description: Utilice el nodo Pow para aplicar ajustes de función de alimentación a las texturas para controlar las curvas de brillo y la corrección gamma.
 helpx_creative_field: ""

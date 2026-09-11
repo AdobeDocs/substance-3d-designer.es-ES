@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/scripting-api-reference.html"
 breadcrumb-title: ''
 description: Acceda a la referencia completa de la API de scripts de Substance 3D Designer Python para el desarrollo de plugins.
 helpx_creative_field: ""

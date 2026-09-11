@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre las variables del sistema integradas disponibles en los gráficos de funciones de Substance 3D Designer para flujos de trabajo avanzados.
 helpx_creative_field: ""
@@ -62,5 +62,5 @@ Variables del sistema
 
 | Nombre | Tipo | Propósito |
 | --- | --- | --- |
-| $time | Flotante | Esta variable devuelve el tiempo en segundos desde que se inició el Substance Engine. Se puede utilizar en gráficos cuyo resultado debe cambiar según el tiempo transcurrido.  **Nota:** Aunque actualmente no hay forma de hacer este cambio de valor en Designer, las aplicaciones que integran el Substance Engine pueden aprovecharlo, como [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) para animación o [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) para [trazos dinámicos](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
+| $time | Flotante | Esta variable devuelve el tiempo en segundos desde que se inició el Substance Engine. Se puede utilizar en gráficos cuyo resultado debe cambiar según el tiempo transcurrido.  **Nota:** Aunque actualmente no hay forma de hacer este cambio de valor en Designer, las aplicaciones que integran el Substance Engine pueden aprovecharlo, como [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) para animación o [Substance 3D Painter](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/home) para [trazos dinámicos](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
 | $normalformat | Entero | El formato normal (es decir, DirectX u OpenGL) que se utiliza en el entorno actual.  **Nota:** Esta variable no tiene efecto en Designer y pueden utilizarla otras aplicaciones que integran el Substance Engine. |

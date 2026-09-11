@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
 description: Utilice el nodo Ajustar para fijar los valores de textura dentro de los intervalos mínimo y máximo especificados para controlar los límites de valores.
 helpx_creative_field: ""

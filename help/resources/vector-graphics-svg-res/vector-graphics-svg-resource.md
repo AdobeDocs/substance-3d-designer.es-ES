@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: Importa y utiliza gráficos vectoriales de SVG como recursos en Substance 3D Designer para la creación de materiales por procedimientos.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer admite una forma limitada de gráficos vectoriales, a través del formato de gráficos vectoriales escalables. Los archivos de SVG se pueden incorporar como recursos de diferentes maneras para utilizarlos como recursos para los gráficos.
 
-Los archivos de SVG [&#x200B; se pueden crear o editar a través del nodo del SVG atómico,](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) también se pueden crear a través de [el UV para el SVG baker.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+Los archivos de SVG [&#x200B; se pueden crear o editar a través del nodo del SVG atómico,](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) también se pueden crear a través de [el UV para el SVG baker.](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Las opciones de exportación son ligeramente diferentes para cada aplicación:
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/products/illustrator.html) te ofrece el máximo control sobre las exportaciones de tu SVG si prestas atención a las siguientes opciones.
+[Illustrator](https://www.adobe.com/es/products/illustrator.html) te ofrece el máximo control sobre las exportaciones de tu SVG si prestas atención a las siguientes opciones.
 
 * Use solo <b>Guardar como</b>, *no* Exportar como.
 * <b>Perfil del SVG</b> no importa mucho, aunque el perfil Pequeño (en su mayoría) utilizará de forma predeterminada configuraciones que son definitivamente correctas;

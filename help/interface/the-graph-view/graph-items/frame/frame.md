@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Utilice marcos en la vista gráfica de Substance 3D Designer para organizar y agrupar nodos para una mejor claridad visual.
 helpx_creative_field: ""

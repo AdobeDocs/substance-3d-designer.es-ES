@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: Utilice los sombreadores GLSLFX en la vista 3D de Substance 3D Designer para personalizar la representación del material y los efectos de previsualización.
 helpx_creative_field: ""

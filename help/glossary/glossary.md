@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Acceda al glosario de Substance 3D Designer para encontrar definiciones de términos, conceptos y terminología técnica.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene" data-preserve-html="true"></span>Escena 3D</b> | Colección de objetos y datos relacionados con la representación y animación de una visualización del espacio 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Mallas](#mesh)</li> <li data-preserve-html="true">[Materiales](#material)</li> <li data-preserve-html="true">Cámaras</li> <li data-preserve-html="true">Luces</li> <li data-preserve-html="true">Animación</li> <li data-preserve-html="true">Simulaciones</li> <li data-preserve-html="true">...</li> </ul>Entre los [formatos de archivo populares](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) para almacenar escenas 3D se incluyen el [USD](#usd) de Pixar y el FBX de Autodesk. Todos los formatos de archivo no admiten todos estos componentes |
+| <b><span id="three-d-scene" data-preserve-html="true"></span>Escena 3D</b> | Colección de objetos y datos relacionados con la representación y animación de una visualización del espacio 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Mallas](#mesh)</li> <li data-preserve-html="true">[Materiales](#material)</li> <li data-preserve-html="true">Cámaras</li> <li data-preserve-html="true">Luces</li> <li data-preserve-html="true">Animación</li> <li data-preserve-html="true">Simulaciones</li> <li data-preserve-html="true">...</li> </ul>Entre los [formatos de archivo populares](https://www.adobe.com/es/products/substance3d/discover/3d-files-formats.html) para almacenar escenas 3D se incluyen el [USD](#usd) de Pixar y el FBX de Autodesk. Todos los formatos de archivo no admiten todos estos componentes |
 
 ## A
 

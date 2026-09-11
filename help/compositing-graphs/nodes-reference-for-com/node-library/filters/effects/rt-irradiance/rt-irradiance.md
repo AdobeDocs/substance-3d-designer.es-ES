@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: Utilice el nodo Irradiancia RT para calcular la información de irradiancia en tiempo real a partir de la geometría para realizar cálculos de iluminación realistas.
 helpx_creative_field: ""

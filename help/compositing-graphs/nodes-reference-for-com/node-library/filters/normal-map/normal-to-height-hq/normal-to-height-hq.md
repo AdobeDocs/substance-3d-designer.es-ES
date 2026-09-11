@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
 description: Utilice el nodo HQ Normal a Height para convertir mapas de normales en mapas de altura de alta calidad para la extracción de detalles de superficie.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: Utilice las herramientas de alineación de nodos para organizar y alinear los nodos en la vista de gráficos para obtener gráficos más limpios y legibles.
 helpx_creative_field: ""

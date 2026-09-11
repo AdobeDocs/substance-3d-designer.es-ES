@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
 description: Utilice el nodo de erosión de cuero para añadir patrones de desgaste y efectos de envejecimiento a los materiales de cuero en función de la curvatura de la malla.
 helpx_creative_field: ""

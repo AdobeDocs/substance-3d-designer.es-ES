@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
 breadcrumb-title: ''
 description: Descubra cómo funcionan los FXMaps en Substance 3D Designer para aplicar gráficos de funciones a las texturas de efectos procedimientos.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/undo-and-redo.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/undo-and-redo.html"
 breadcrumb-title: ''
 description: Aprenda a implementar la funcionalidad de deshacer y rehacer en scripts de Substance 3D Designer Python para las acciones del usuario.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fusión para fusionar dos texturas mediante distintos modos de fusión para crear efectos compuestos.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ Es el nodo más útil de todos los nodos atómicos, casi cualquier gráfico que 
 </tr>
 </table>
 
-Su funcionalidad es similar a tener dos capas una encima de la otra en [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mezclan por el modo de fusión establecido en la capa superior.
+Su funcionalidad es similar a tener dos capas una encima de la otra en [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mezclan por el modo de fusión establecido en la capa superior.
 
 >[!TIP]
 >

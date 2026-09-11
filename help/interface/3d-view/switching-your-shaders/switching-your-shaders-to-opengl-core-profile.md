@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo cambiar sombreadores a OpenGL Core Profile en la vista 3D de Substance 3D Designer para obtener compatibilidad y rendimiento.
 helpx_creative_field: ""

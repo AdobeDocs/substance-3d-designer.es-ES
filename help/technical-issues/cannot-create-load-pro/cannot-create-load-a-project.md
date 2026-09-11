@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Solucione problemas al crear o cargar proyectos en Substance 3D Designer y encuentre soluciones.
 helpx_creative_field: ""

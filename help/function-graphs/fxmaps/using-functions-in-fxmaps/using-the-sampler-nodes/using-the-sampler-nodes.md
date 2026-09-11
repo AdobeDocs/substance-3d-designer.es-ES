@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar nodos de muestra en FXMaps para probar texturas y crear variaciones de materiales procedimentales.
 helpx_creative_field: ""

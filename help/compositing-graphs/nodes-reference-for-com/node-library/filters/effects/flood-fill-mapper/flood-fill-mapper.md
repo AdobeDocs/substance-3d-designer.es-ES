@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
 description: Utilice el nodo Asignador de Flood Fill para asignar valores entre regiones conectadas mediante algoritmos de relleno de área para el procesamiento de texturas.
 helpx_creative_field: ""

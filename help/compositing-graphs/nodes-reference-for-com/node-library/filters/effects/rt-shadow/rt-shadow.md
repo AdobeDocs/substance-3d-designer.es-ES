@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: Utilice el nodo Sombras de RT para calcular la información de sombra en tiempo real a partir de la geometría para crear efectos de iluminación dinámicos.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
 breadcrumb-title: ''
 description: Utilice el nodo Rotación no uniforme para aplicar transformaciones de rotación no uniformes para crear efectos de espiral y vórtice.
 helpx_creative_field: ""
