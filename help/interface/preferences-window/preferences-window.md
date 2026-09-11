@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Acceda a la ventana Preferencias de Substance 3D Designer para personalizar la configuración y el comportamiento de la aplicación.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Ventana Preferencias
 
-![Ventana de preferencias](../../assets/image2021-6-22-20-56-1.png "Ventana de preferencias")
+![Ventana de preferencias](preferences-window.resources/image2021-6-22-20-56-1.png "Ventana de preferencias")
 
 Esta página presenta la ventana <b>Preferencias</b> y toda su configuración.
 
@@ -157,14 +157,14 @@ Consulte la página [Configuración de proyectos](../../interface/preferences-wi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Edición en contexto deshabilitada](../../assets/substance3ddesigner_incontext_no.gif "Edición en contexto deshabilitada")
+![Edición en contexto deshabilitada](preferences-window.resources/substance3ddesigner_incontext_no.gif "Edición en contexto deshabilitada")
 
 *Abrir referencia*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Edición en contexto habilitada](../../assets/substance3ddesigner_incontext_yes.gif "Edición en contexto habilitada")
+![Edición en contexto habilitada](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Edición en contexto habilitada")
 
 *Abrir Referencia En Contexto*
 
@@ -191,7 +191,7 @@ Consulte la página [Configuración de proyectos](../../interface/preferences-wi
 
 |  |  |
 | --- | --- |
-| <b>Trazado de rayos de GPU</b>  *Valor predeterminado: Comprobado* | Si se marca, el trazado de rayos se realizará en la GPU para [panaderos compatibles](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/gpu-raytracing).   Los siguientes backends de Trazado de rayos de GPU serán los predeterminados según la arquitectura de GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing y más reciente</li> <li data-preserve-html="true"><i>Optix</i>: Pascal y Maxwell</li> </ul>  **Nota:** Encontrarás más información sobre panaderos impulsados por GPU en la sección [Trazado de rayos de GPU](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/gpu-raytracing) de la documentación de [Substance Bakers](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/home).  **Sugerencia:** Puede usar los siguientes *argumentos de línea de comandos* al iniciar la aplicación para *forzar* el uso de un motor de Trazado de rayos de GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>: force-optix</code> : forzar el uso de Optix en Nvidia Turing o en GPU más nuevas</li> <li data-preserve-html="true"><code>: force-dxr</code> : forzar el uso de DXR en las GPU Nvidia Pascal</li> </ul> |
+| <b>Trazado de rayos de GPU</b>  *Valor predeterminado: Comprobado* | Si se marca, el trazado de rayos se realizará en la GPU para [panaderos compatibles](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   Los siguientes backends de Trazado de rayos de GPU serán los predeterminados según la arquitectura de GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing y más reciente</li> <li data-preserve-html="true"><i>Optix</i>: Pascal y Maxwell</li> </ul>  **Nota:** Encontrarás más información sobre panaderos impulsados por GPU en la sección [Trazado de rayos de GPU](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) de la documentación de [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Sugerencia:** Puede usar los siguientes *argumentos de línea de comandos* al iniciar la aplicación para *forzar* el uso de un motor de Trazado de rayos de GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>: force-optix</code> : forzar el uso de Optix en Nvidia Turing o en GPU más nuevas</li> <li data-preserve-html="true"><code>: force-dxr</code> : forzar el uso de DXR en las GPU Nvidia Pascal</li> </ul> |
 
 ## Biblioteca
 
