@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
 breadcrumb-title: ''
-description: Utilice el nodo Forma para generar formas geométricas básicas para crear patrones y texturas en Substance 3D Designer.
+description: Utilice el nodo Shape para generar formas geométricas básicas para crear motivos y texturas en Substance 3D Designer.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-2.png){width="128px"}
+![](shape.resources/shape-2.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Descripción
 
-Genera una variedad de formas de procedimiento, con opciones para modificar formas base. Las formas siempre están perfectamente interpoladas y son de alta precisión.
+Genera una variedad de formas procedimientas, con opciones para modificar formas base. Las formas siempre están perfectamente interpoladas y son de alta precisión.
 
-A pesar de su simplicidad, se trata de un nodo muy útil: es el bloque de construcción de la generación de Heightmap más procedimental! Combinando formas básicas con nodos de transformación, puede crear una forma de mapa de altura con todos los procedimientos que sea mucho más precisa que cualquier mapa de bits.
+A pesar de su simplicidad, se trata de un nodo muy útil: ¡es el bloque de construcción de la generación más procedimienta de Heightmap! Combinando formas básicas con nodos transformar, puede crear una forma de mapa de altura completamente procedimienta que sea mucho más precisa que cualquier mapa de bits.
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ A pesar de su simplicidad, se trata de un nodo muy útil: es el bloque de constr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shape-ex.gif" />
+            <img src="shape.resources/shape-ex.gif" />
         </td>
     </tr>
 </table>

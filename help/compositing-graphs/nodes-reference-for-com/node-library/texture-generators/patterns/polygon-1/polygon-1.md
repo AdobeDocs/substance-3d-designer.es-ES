@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Polígono 1 para generar patrones poligonales básicos con lados personalizables y propiedades para texturas geométricas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Polígono 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polygon-1-1.png){width="128px"}
+![](polygon-1.resources/polygon-1-1.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -62,7 +62,7 @@ Genera una forma de polígono, con muchas opciones de ajuste. Consulte [Polígon
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/polygon-1-ex.gif" />
+            <img src="polygon-1.resources/polygon-1-ex.gif" />
         </td>
     </tr>
 </table>
