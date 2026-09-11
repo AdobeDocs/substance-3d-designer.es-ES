@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los nodos SetSequence en FXMaps para crear patrones secuenciales y variaciones de procedimiento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Uso de los nodos SetSequence
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Al trabajar con funciones en <b>FX-Maps</b>, ocasionalmente se encontrará en si
 </td>
 <td style="border: 0;" valign="top">
 
-![Definir y secuenciar nodos](../../../../assets/image2017-3-17-15-5-5.png "Definir y secuenciar nodos")
+![Definir y secuenciar nodos](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "Definir y secuenciar nodos")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ De forma predeterminada, la variable establecida por este nodo es *solo* accesib
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Establecer nodo](../../../../assets/image2017-3-17-15-12-52.png "Establecer nodo")
+![Establecer nodo](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "Establecer nodo")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ En este ejemplo, el nombre de variable se ha establecido en **`myVariable`** y s
 </td>
 <td style="border: 0;" valign="top">
 
-![Establecer ejemplo de nodo](../../../../assets/image2018-8-30-17-45-35.png "Establecer ejemplo de nodo")
+![Establecer ejemplo de nodo](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "Establecer ejemplo de nodo")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ El resultado de la *segunda rama* se pasa a continuación al resultado del nodo.
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Nodo de secuencia](../../../../assets/image2017-3-17-15-17-38.png "Nodo de secuencia")
+![Nodo de secuencia](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "Nodo de secuencia")
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Sin embargo, antes de que esto suceda, la variable `<b>myVariable</b>` se establ
 </td>
 <td style="border: 0;" valign="top">
 
-![Ejemplo de nodo de secuencia](../../../../assets/image2018-8-30-17-49-41.png "Ejemplo de nodo de secuencia")
+![Ejemplo de nodo de secuencia](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "Ejemplo de nodo de secuencia")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Los nodos **Sequence** se pueden *encadenar* para controlar el flujo de ejecuci�
 
 Por ejemplo, puede *establecer* una variable primero, *actualizar* su valor en un punto posterior y luego *leer* su valor final, mientras se asegura de que estas acciones se produzcan *en un orden específico*.
 
-![Nodo de secuencia encadenado](../../../../assets/image2018-8-30-17-52-27.png "Nodo de secuencia encadenado")
+![Nodo de secuencia encadenado](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "Nodo de secuencia encadenado")
 
 ## Visibilidad variable
 
@@ -148,7 +148,7 @@ Lo que haremos es hacer todo el cálculo en la función de parámetro <b>Color/L
 </td>
 <td style="border: 0;" valign="top">
 
-![Propiedades del cuadrante](../../../../assets/image2018-8-30-18-1-6.png "Propiedades del cuadrante")
+![Propiedades del cuadrante](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "Propiedades del cuadrante")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ Tenga en cuenta que la propiedad **Position** ya está definida por un valor ale
 </td>
 <td style="border: 0;" valign="top">
 
-![Función Color/Luminosidad del cuadrante](../../../../assets/image2018-8-30-18-4-46.png "Función Color/Luminosidad del cuadrante")
+![Función Color/Luminosidad del cuadrante](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "Función Color/Luminosidad del cuadrante")
 
 </td>
 </tr>
 </table>
 
-![Patrones dispersos](../../../../assets/image2018-8-30-18-5-30.png "Patrones dispersos")
+![Patrones dispersos](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "Patrones dispersos")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ Ahora que la variable `myRotation` existe y tiene un valor, vamos a tener acceso
 </td>
 <td style="border: 0;" valign="top">
 
-![Menú de función de parámetro de rotación de motivo](../../../../assets/image2018-8-30-18-7-57.png "Menú de función de parámetro de rotación de motivo")
+![Menú de función de parámetro de rotación de motivo](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "Menú de función de parámetro de rotación de motivo")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ En la función, leemos el valor del parámetro `myRotation` usando un nodo **Get
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Salida de float de obtención de rotación de motivo](../../../../assets/image2018-8-30-18-10-58.png "Salida de float de obtención de rotación de motivo")
+![Salida de float de obtención de rotación de motivo](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "Salida de float de obtención de rotación de motivo")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ En la función, leemos el valor del parámetro `myRotation` usando un nodo **Get
 
 La luminosidad ahora también controla la rotación.
 
-![Patrones rotados](../../../../assets/image2018-8-30-18-12-25.png "Patrones rotados")
+![Patrones rotados](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "Patrones rotados")
