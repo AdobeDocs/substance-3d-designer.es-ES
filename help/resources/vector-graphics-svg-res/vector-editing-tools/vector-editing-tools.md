@@ -51,7 +51,7 @@ Las ediciones se pueden *deshacer individualmente* y todas las demás caracterí
 
 >[!IMPORTANT]
 >
-> Puede pintar *solo* en *recursos de gráficos vectoriales](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de* 8 bits[ que son [nuevos o importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
+> Puede pintar *solo* en *recursos de gráficos vectoriales[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de* 8 bits que son [nuevos o importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
 
 ![Cuadro de diálogo Nuevo recurso SVG](../../../assets/2dview-new-vector-image.png "Cuadro de diálogo Nuevo recurso SVG"){width="512px"}
 

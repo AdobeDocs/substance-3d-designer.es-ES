@@ -100,7 +100,7 @@ El modo de fusión *Dividir* dividirá el valor de los píxeles de entrada de fo
 
 El modo de fusión *Superposición* combina los modos de fusión Multiplicar y Trama:
 
-* 
+* &#x200B;
   * Si el valor del píxel de la capa inferior es inferior a 0,5, se aplica una fusión de tipo *Multiply*
   * Si el valor del píxel de la capa inferior es superior a 0,5, se aplica una fusión de tipo *Screen*
 

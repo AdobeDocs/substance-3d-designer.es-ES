@@ -39,7 +39,7 @@ Siga estos pasos para acceder a la herramienta y utilizarla:
 
 Aquí hay una demostración de la herramienta en acción:
 
-![Muestra de color: con la herramienta ](../../../assets/color-sampler-demo.gif "Muestra de color: usar la herramienta"){zoomable="yes"}
+![Muestra de color: con la herramienta &#x200B;](../../../assets/color-sampler-demo.gif "Muestra de color: usar la herramienta"){zoomable="yes"}
 
 *Haga clic para ampliar*
 

@@ -120,7 +120,7 @@ Ajuste el valor por defecto o el rango flexible para que el primero se incluya e
 >
 > Esta advertencia no se puede desencadenar a través de la interfaz de usuario, ya que *ajusta automáticamente* el intervalo flexible para incluir el valor predeterminado. Solo modificar los datos del archivo Substance 3D (SBS) *directamente* puede provocar esta advertencia.
 
-El intervalo flexible de ![ no contiene la solución de valor &#39;](../../assets/warnings-model-ranges.gif "&#39; El intervalo flexible no contiene la solución de valor &#39;")
+El intervalo flexible de ![&#x200B; no contiene la solución de valor &#39;](../../assets/warnings-model-ranges.gif "&#39; El intervalo flexible no contiene la solución de valor &#39;")
 
 ### ![(error)](../../assets/error.svg) El intervalo de software está fuera del intervalo de hardware
 
