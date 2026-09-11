@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Comentario
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de comentario](../../../../assets/graphatomic-comment_1.png "Icono de comentario")
+![Icono de comentario](comment.resources/graphatomic-comment_1.png "Icono de comentario")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ Los comentarios que se crean cuando se selecciona actualmente un *nodo único*, 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Comentarios: Comentarios de los padres](../../../../assets/graph-comment_parented.gif "Comentarios: Comentarios de los padres")
+![Comentarios: Comentarios de los padres](comment.resources/graph-comment_parented.gif "Comentarios: Comentarios de los padres")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ Los comentarios que se crean cuando se selecciona actualmente un *nodo único*, 
 
 ## formato de HTML
 
-Se puede dar formato al texto mediante etiquetas de HTML. Este formato se activa y desactiva mediante el botón ![](../../../../assets/graph-frames_html-markup-button.png) <b>marcado de HTML</b> en la propiedad <b>Description</b> del comentario.
+Se puede dar formato al texto mediante etiquetas de HTML. Este formato se activa y desactiva mediante el botón ![](comment.resources/graph-frames_html-markup-button.png) <b>marcado de HTML</b> en la propiedad <b>Description</b> del comentario.
 
 >[!TIP]
 >
 > Obtenga más información sobre esta característica en la sección <b>Descripción</b> de la documentación de [Marcos](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
-![Comentarios: Marcado de HTML](../../../../assets/graph-comment_html-markup.gif "Comentarios: Marcado de HTML")
+![Comentarios: Marcado de HTML](comment.resources/graph-comment_html-markup.gif "Comentarios: Marcado de HTML")

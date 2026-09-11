@@ -116,11 +116,11 @@ Eso significa que puedes hacer texturas con iluminación hecha un bake previamen
 
 ![](../../assets/bent-normal-ex.jpg){width="300px"}
 
-Y por último está el nodo Bent Normal. En comparación con una conversión normal normal, este nodo utiliza AO para modificar el mapa normal y utilizar esa información de AO. Antes de que necesites marcadores de malla para crear el efecto, este nodo lo hace en un espacio de textura para ti.
+Y por último está el nodo Bent Normal. En comparación con una conversión normal normal, este nodo utiliza AO para modificar el mapa normal y utilizar esa información de AO. Antes de que necesite bakeres de malla para crear el efecto, este nodo lo hace en un espacio de textura para usted.
 
-### Adobe Standard Material Shader
+### Sombreador Adobe Standard Material
 
-En nuestros esfuerzos por unificar materiales y procesamiento en nuestras aplicaciones, el nuevo sombreador predeterminado en la vista 3D es el sombreador de materiales estándar de Adobe. A primera vista, no es diferente del antiguo sombreador de rugosidad metálica PBR (de todas formas, se basa en él), pero admite muchos más canales exóticos, lo que le permite previsualizarlos sin necesidad de un procesador externo.
+En nuestros esfuerzos por unificar materiales y representaciones en todas nuestras aplicaciones, el nuevo sombreador predeterminado en la vista 3D es el Sombreador de Adobe Standard Material. A primera vista, no es diferente del antiguo sombreador de Rugosidad metálica PBR (de todas formas, se basa en él), pero admite muchos más canales exóticos, lo que te permite previsualizarlos sin necesidad de un procesador externo.
 
 ### Cambios de IU
 
@@ -139,10 +139,10 @@ A continuación, se muestran nuestros tutoriales en vídeo sobre las nuevas func
 **Agregado:**
 
 * [Marca] Substance Designer se convierte en Adobe Substance 3D Designer
-* [Modelos de Substance] Nuevos gráficos de modelos de Substance para crear modelos 3D de procedimiento
-* [Contenido] Añadir nuevos mapas de entorno HDR
+* [Modelos de Substance] Nuevos gráficos de modelos de Substance para crear modelos en 3D procedimientos
+* [Contenido] Añadir nuevos mapas de entorno HDR.
 * [Content] Nuevo nodo Normal doblado
-* [Contenido] Nuevo nodo de Oclusión de ambiente de RT
+* [Content] Nuevo nodo de Oclusión ambiental de RT
 * [Contenido] Nuevo nodo de RT Caustics
 * [Contenido] Nuevo nodo de RT Caustics
 * [Contenido] Nuevo nodo Irradiancia RT
@@ -150,10 +150,10 @@ A continuación, se muestran nuestros tutoriales en vídeo sobre las nuevas func
 * [Interoperabilidad] Enviar recurso a Painter, iniciará Painter y agregará o actualizará el recurso en la biblioteca (requiere un plan Substance 3D de Adobe)
 * [Interoperabilidad] Enviar recurso a Sampler, iniciará Sampler y agregará o actualizará el recurso en la biblioteca (requiere un plan Substance 3D de Adobe)
 * [Interoperabilidad] Examine el recurso en Adobe Bridge y se iniciará Bridge en la ubicación del recurso (requiere un plan de Adobe Substance 3D)
-* [ASM] Compatibilidad con el nuevo Adobe Standard Material (ASM) en Gráfico de Substance y MDL Graph
+* [ASM] Soporte del nuevo Adobe Standard Material (ASM) en Gráfico de Substance y MDL Graph
 * [ASM] Adición de plantillas de ASM
-* [ASM] Agregar sombreador de OpenGL para ASM
-* [ASM] Establecer el sombreador de ASM como sombreador predeterminado
+* [ASM] Añadir Sombreador de OpenGL para ASM
+* [ASM] Establezca sombreador de ASM como Sombreador por defecto
 * [General] Agregar todos los archivos temporales al directorio temporal definido por el usuario
 * [General] Nuevo comando &#39;Guardar una copia como&#39;
 * [General] Menú Actualizar archivo

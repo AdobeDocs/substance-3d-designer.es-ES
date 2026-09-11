@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material.html"
 breadcrumb-title: ''
-description: Acceda a nodos de transformación para materiales en Substance 3D Designer para modificar salidas de materiales con transformaciones.
+description: Acceda a nodos transformar para materiales en Substance 3D Designer para modificar salidas de materiales con transformaciones.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Transforms (Material)
 helpx_experience_level: ""
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # Transformaciones (Material)
 
-Esta categoría contiene nodos destinados a transformar materiales multicanal completos. Ahora mismo solo incluye [Transformación de material](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md).
+Esta categoría contiene nodos destinados a transformar materiales multicanal completos. En este momento, solo incluye [Material Transforme](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md).

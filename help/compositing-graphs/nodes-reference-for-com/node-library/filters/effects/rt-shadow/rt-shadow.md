@@ -53,11 +53,11 @@ Este nodo no debe utilizarse en combinación con el motor de CPU (SSE) debido al
 | <b>Posición de luz</b> <i>Float2</i> | Posición de la fuente de luz en una esfera que encierra la superficie:<br><br>- <b>X</b>: posición horizontal, en número de vueltas;<br>- <b>Y</b>: posición vertical, donde 0,5 es el cenit y 0/1 es el horizonte. |
 | <b>Intensidad de luz</b> <i>Flotador</i> | La intensidad de la fuente de luz. |
 | <b>Tamaño ligero</b> <i>Float2</i> | (Disponible cuando <b>Modo</b> está establecido en <i>Sombreado</i>) El tamaño de la fuente de luz como un rectángulo. |
-| <b>Escala de luz (sombras suaves)</b> <i>Flotador</i> | Un multiplicador para la contribución del <b>Tamaño de luz</b> a la dirección de los rayos.<br>Un valor más alto produce sombras más suaves. |
+| <b>Escala de luz (sombras suaves)</b> <i>Flotante</i> | Un multiplicador para la contribución del <b>Tamaño de luz</b> a la dirección de los rayos.<br>Un valor más alto produce sombras más suaves. |
 | <b>Mantener la luz sobre el horizonte</b> <i>Booleano</i> | Si <b>Light Position</b> se establece de forma que coloque la luz debajo del horizonte, este parámetro evita que la luz cruce ese umbral, lo que significa que los valores Y se fijan al rango [0;1]. |
-| <b>Opacidad de la sombra</b> <i>Flotador</i> | Un multiplicador para la opacidad de las sombras dibujadas en la superficie. |
-| <b>Atenuación de sombra</b> <i>Flotador</i> | Un multiplicador para la atenuación de las sombras a medida que se alejan del ángulo de avance.<br>El valor 0 da como resultado sombras uniformes (se siguen aplicando sombras suaves). |
-| <b>Longitud máxima de sombras</b> <i>Flotador</i> | Distancia máxima a la que se puede dibujar una sombra desde su ángulo de avance.<br>Un valor de 0 no produce sombras visibles. |
+| <b>Opacidad de la sombra</b> <i>Flotante</i> | Un multiplicador para la opacidad de las sombras dibujadas en la superficie. |
+| <b>Atenuación de sombra</b> <i>Flotante</i> | Un multiplicador para la atenuación de las sombras a medida que se alejan del ángulo de avance.<br>El valor 0 da como resultado sombras uniformes (se siguen aplicando sombras suaves). |
+| <b>Longitud máxima de sombras</b> <i>Flotante</i> | Distancia máxima a la que se puede dibujar una sombra desde su ángulo de avance.<br>Un valor de 0 no produce sombras visibles. |
 
 ## Ejemplos
 

@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # Utilidades de PBR
 
-Esta categoría contiene nodos auxiliares para trabajar con materiales PBR. Está pensado para su uso con flujos de trabajo PBR de brillo de Specular y rugosidad metálica. Todos los nodos están pensados para materiales multicanal, y los canales se pueden (des)activar para admitir uno o ambos flujos de trabajo.
+Esta categoría contiene nodos auxiliares para trabajar con materiales PBR. Está pensado para su uso con flujos de trabajo PBR de Brillo de Specular y de rugosidad metálica. Todos los nodos están pensados para materiales multicanal, y los canales se pueden (des)activar para admitir uno o ambos flujos de trabajo.
 
 Los siguientes nodos son especialmente útiles:
 

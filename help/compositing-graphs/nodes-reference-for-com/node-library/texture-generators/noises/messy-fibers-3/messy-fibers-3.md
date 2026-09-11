@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fibras sucias 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fibras sucias 3 - Icono](../../../../../../assets/messy_fibers_3.png "Fibras sucias 3 - Icono"){width="200px"}
+![Fibras sucias 3 - Icono](messy-fibers-3.resources/messy_fibers_3.png "Fibras sucias 3 - Icono"){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -58,12 +58,12 @@ Consulte también: [Fibras sucias 1](../../../../../../compositing-graphs/nodes-
 | <b>Escala</b> <i>Entero</i> | Subdivisión de la cuadrícula utilizada para generar los mosaicos de ruido.    Un valor más alto provoca que se dibujen más mosaicos y que el ruido sea más denso. |
 | <b>Desorden</b> <i>Flotante</i> | Desplaza los ingredientes del ruido.    Se puede utilizar para animar el ruido. |
 | <b>Velocidad del desorden</b> <i>Flotante</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
-| <b>anisotropía de desorden</b> <i>Flotante</i> | Controla el intervalo de direcciones del desplazamiento aplicado por el parámetro <b>Disorder</b>, donde un valor más alto produce una dirección más estrecha y definida.    La dirección se controla mediante el parámetro <b>Ángulo de anisotropía de desorden</b>. |
-| <b>ángulo de anisotropía de desorden</b> <i>Flotador</i> | Controla la dirección del desplazamiento aplicado por el parámetro <b>Disorder</b> cuando el parámetro &#39;Disorder anisotropía&#39; no es cero. |
-| <b>Ángulo</b> <i>Flotador</i> | Ángulo utilizado para definir la dirección de las roscas, en número de vueltas y comenzando desde la derecha horizontal. |
-| <b>Ángulo aleatorio</b> <i>Flotador</i> | Cantidad máxima de variación aleatoria aplicada al valor <b>Angle</b>, en número de vueltas. |
-| <b>Luminancia aleatoria</b> <i>Flotador</i> | Rango de luminancia restado aleatoriamente de las roscas, donde 1 es el rango completo. |
-| <b>Desplazamiento de mosaico</b> <i>Float2</i> | Controla la posición de la parte del plano infinito utilizada para procesar el ruido. |
+| <b>anisotropía de desorden</b> <i>Flotante</i> | Controla el intervalo de direcciones del desplazamiento aplicado por el parámetro <b>Disorder</b>, donde un valor más alto produce una dirección más estrecha y definida.    La dirección está controlada por el parámetro <b>ángulo de anisotropía de desorden</b>. |
+| <b>ángulo de anisotropía de desorden</b> <i>Flotante</i> | Controla la dirección del desplazamiento aplicado por el parámetro <b>Disorder</b> cuando el parámetro &#39;Disorder anisotropía&#39; no es cero. |
+| <b>Ángulo</b> <i>Flotante</i> | Ángulo utilizado para definir la dirección de las roscas, en número de vueltas y comenzando desde la derecha horizontal. |
+| <b>Ángulo aleatorio</b> <i>Flotante</i> | Cantidad máxima de variación aleatoria aplicada al valor <b>Angle</b>, en número de vueltas. |
+| <b>Luminancia aleatoria</b> <i>Flotante</i> | Rango de luminancia restado aleatoriamente de las roscas, donde 1 es el rango completo. |
+| <b>Desplazamiento de mosaico</b> <i>Flotante2</i> | Controla la posición de la parte del plano infinito utilizada para procesar el ruido. |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | En imágenes no cuadradas, mantiene el cuadrado del mosaico generado y expande la generación de ruido a los límites de la imagen. |
 
 ## Ejemplos
@@ -72,12 +72,12 @@ Consulte también: [Fibras sucias 1](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibras sucias 3 - Ejemplo 1](../../../../../../assets/messy_fibers_3_1.png "Fibras sucias 3 - Ejemplo 1"){zoomable="yes"}
+![Fibras sucias 3 - Ejemplo 1](messy-fibers-3.resources/messy_fibers_3_1.png "Fibras sucias 3 - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibras sucias 3 - Ejemplo 2](../../../../../../assets/noise_messy_fibers_3_v2_speed0.1_aniso0.gif "Fibras sucias 3 - Ejemplo 2"){zoomable="yes"}
+![Fibras sucias 3 - Ejemplo 2](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.gif "Fibras sucias 3 - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ Consulte también: [Fibras sucias 1](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibras sucias 3 - Ejemplo 3](../../../../../../assets/noise_messy_fibers_3_v2_speed0.1_aniso1.gif "Fibras sucias 3 - Ejemplo 3"){zoomable="yes"}
+![Fibras sucias 3 - Ejemplo 3](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso1.gif "Fibras sucias 3 - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibras sucias 3 - Ejemplo 4](../../../../../../assets/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif "Fibras sucias 3 - Ejemplo 4"){zoomable="yes"}
+![Fibras sucias 3 - Ejemplo 4](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif "Fibras sucias 3 - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

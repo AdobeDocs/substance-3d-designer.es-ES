@@ -34,7 +34,7 @@ Echa un vistazo a este tutorial para empezar:
 
 ## Lista de nodos
 
-[Transformación 2D de trazados](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
+[Trazados 2D Transformar](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
 
 [Máscara a trazados](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
 

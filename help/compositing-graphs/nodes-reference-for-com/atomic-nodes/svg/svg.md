@@ -61,7 +61,7 @@ Puede crear el nodo desde cero o soltar un archivo de SVG en la vista de gráfic
 
 >[!TIP]
 >
-> Las imágenes de SVG generadas o importadas se pueden editar mediante las [herramientas de edición vectorial](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) del conjunto acoplado de la [vista en 2D](../../../../interface/2d-view/2d-view.md).
+> Las imágenes de SVG generadas o importadas se pueden editar mediante las [herramientas de edición vectorial](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) del conjunto acoplado [Vista 2D](../../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >

@@ -56,8 +56,8 @@ Este nodo es útil si desea fusionar dos materiales y tener un mapa en escala de
 
 |  |  |
 |:---|:---|
-| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, cuando se utilizan mapas de Specular/Brillo en lugar de Metálico/Rugosidad, por ejemplo. |
-| <b>Difuso</b> |  |
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo cuando utilice mapas de Specular/Brillo en lugar de Metálico/Rugosidad, por ejemplo. |
+| <b>Difusión</b> |  |
 | <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
 | <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
 | <b>Color base</b> |  |
@@ -68,7 +68,7 @@ Este nodo es útil si desea fusionar dos materiales y tener un mapa en escala de
 | <b>Specular</b> |  |
 | <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
 | <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
-| <b>Emissive</b> |  |
+| <b>Emisivo</b> |  |
 | <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
 | <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
 | <b>Brillo</b> |  |
@@ -83,7 +83,7 @@ Este nodo es útil si desea fusionar dos materiales y tener un mapa en escala de
 | <b>Specular level</b> |  |
 | <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
 | <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
-| <b>Oclusión de ambiente</b> |  |
+| <b>Oclusión ambiental</b> |  |
 | <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo |
 | <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> |  |
 | <b>Height</b> |  |

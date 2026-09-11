@@ -69,17 +69,17 @@ Por lo tanto, no afectan al formato de [exportaciones de mapas de bits](../../..
 | <b>Uso</b> *Cadena* | Define el tipo y el uso del nodo de salida. Esta propiedad es importante ya que controla:<ul data-preserve-html="true"> <li data-preserve-html="true">Conexión de nodos en gráficos de Substance al utilizar [algunos modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Conexión de texturas a sombreadores en la Vista 3D (véase a continuación: &#39;[Acerca de la función de los usos en el Vista 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Conexión de texturas a materiales en integraciones/complementos</li> </ul> |
 | <b>Espacio de color</b> *Cadena* | Define el espacio de color en el que se debe interpretar esta salida. Se utiliza en algunas integraciones de otras aplicaciones y no tiene ningún impacto en Designer. |
 
-### Función de los usos en la vista 3D
+### Acerca del papel de los usos en la Vista 3D
 
-Dado que las salidas de gráficos a menudo están pensadas para ser el resultado final de un canal de textura específico, las salidas se pueden enviar automáticamente al muestreador adecuado del sombreado utilizado en la vista 3D.
+Dado que las salidas de gráficos a menudo están pensadas para ser el resultado final de un canal de textura específico, las salidas se pueden enviar automáticamente al muestreador adecuado del sombreador utilizado en la Vista 3D.
 
-De hecho, una salida cuya propiedad <b>Usage</b> *coincida con un uso de muestra* en la vista 3D se conectará a ese muestreador. Por ejemplo, una salida con un uso de `basecolor` se conectará al muestreador `basecolor` del sombreador de vista 3D. Obtén más información en la sección [Ver datos en la vista 3D](../../../../interface/3d-view/3d-view.md) de la página [Vista 3D](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion).
+De hecho, una salida cuya propiedad <b>Usage</b> *coincida con un uso de muestra* en la Vista 3D se conectará a ese muestreador. Por ejemplo, una salida con un uso de `basecolor` se conectará al muestreador `basecolor` del sombreador. Obtén más información en la sección [Ver datos en el Vista 3D](../../../../interface/3d-view/3d-view.md) de la página [Vista 3D](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion).
 
-Haga clic en RMB en un área vacía en la [vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md) y seleccione la opción <b>Ver resultados en vista 3D</b> en el menú contextual para conectar todas las salidas a las muestras de vista 3D con *usos coincidentes*.
+Haga clic en RMB en un área vacía en la [vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md) y seleccione la opción <b>Ver salidas en vista 3D</b> en el menú contextual para conectar todas las salidas a los muestreadores de Vista 3D con *usos coincidentes*.
 
 >[!IMPORTANT]
 >
-> Si se configuran varios usos para, por ejemplo, asignar usos a canales en una textura empaquetada, solo el *primer uso* de la lista se conectará a la vista 3D. Esta es una limitación conocida.
+> Si se configuran varios usos para, por ejemplo, asignar usos a canales en una textura empaquetada, solo el *primer uso* de la lista se conectará a la Vista 3D. Esta es una limitación conocida.
 
 ## Salida predeterminada
 

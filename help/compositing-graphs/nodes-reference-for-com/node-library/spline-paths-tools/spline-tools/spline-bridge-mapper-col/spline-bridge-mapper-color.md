@@ -78,10 +78,10 @@ Asigna una imagen en color a una lista de splines de entrada para que la imagen 
 |  |  |
 |:---|:---|
 | <b>Cantidad de segmentos</b> <i>Entero</i> | Las splines se simplifican en segmentos antes de que las coordenadas de la imagen los atraviesen. Una mayor cantidad de segmentos produce una asignación más fluida a lo largo de las curvas. |
-| <b>Reducir UV que Estiran</b> <i>Booleano</i> | Ajusta el método utilizado para interpolar las coordenadas de imagen de una spline a la siguiente para minimizar el estiro cuando la distancia entre las splines es irregular. |
-| <b>Escala de UV</b> <i>Flotante2</i> | Ajusta la escala de las coordenadas de la imagen. Los valores más altos dan como resultado una imagen de mosaico más denso. |
-| <b>Rotación UV</b> <i>Flotante</i> | Rota las coordenadas de la imagen alrededor de su centro. |
-| <b>Color de fondo</b> <i>Flotante4</i> | El color del fondo en la imagen de salida. |
+| <b>Reducir el estiramiento de UV</b> <i>Booleano</i> | Ajusta el método utilizado para interpolar las coordenadas de imagen de una spline a la siguiente para minimizar el estiro cuando la distancia entre las splines es irregular. |
+| <b>Escala de UV</b> <i>Float2</i> | Ajusta la escala de las coordenadas de la imagen. Los valores más altos dan como resultado una imagen de mosaico más denso. |
+| <b>Rotación UV</b> <i>Flotador</i> | Rota las coordenadas de la imagen alrededor de su centro. |
+| <b>Color de fondo</b> <i>Float4</i> | El color del fondo en la imagen de salida. |
 
 ## Ejemplos
 

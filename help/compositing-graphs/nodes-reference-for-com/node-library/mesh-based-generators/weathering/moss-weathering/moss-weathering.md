@@ -66,13 +66,13 @@ Asegúrate de entender correctamente los [Modos de creación de vínculos](https
 | <b>Efecto</b> |  |
 | <b>Propagación de musgo</b> <i>0.0 - 1.0</i> | Define la extensión del musgo. Crece en pasos desde una ligera cobertura hasta musgo oscuro grueso y pesado. |
 | <b>Fusión</b> |  |
-| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la difusión. |
-| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Intensidad de fusión del color base. |
+| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Difuso. |
+| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Fusión del Color base. |
 | <b>Intensidad normal</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la Normal. |
 | <b>Intensidad del Specular</b> <i>0.0 - 1.0</i> | Fusión del Specular. |
-| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Brillo. |
+| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fusión del Brillo. |
 | <b>Intensidad de rugosidad</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la rugosidad. |
-| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiente. |
+| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiental. |
 | <b>Intensidad de Height</b> <i>0.0 - 1.0</i> | Fusión del Height. |
 
 ## Ejemplos

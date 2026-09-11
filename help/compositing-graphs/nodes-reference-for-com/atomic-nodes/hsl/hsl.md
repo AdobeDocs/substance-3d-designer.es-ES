@@ -78,9 +78,9 @@ Si buscas otras formas de editar los tonos de una imagen, mira [Curva](../../../
 
 |  |  |
 | --- | --- |
-| <b>Tono</b> *Flotador* | Determina el color de la imagen de entrada.   Los valores por debajo de 0,5 desplazan el tono negativamente, mientras que los valores por encima de 0,5 lo desplazan positivamente. |
-| <b>Saturación</b> *Flotador* | Determina la saturación del color de la imagen de entrada.   Los valores por debajo de 0,5 disminuyen la saturación, mientras que los valores por encima de 0,5 la aumentan. |
-| <b>Luminosidad</b> *Flotador* | Determina la luminosidad de la imagen de entrada Los valores por debajo de 0,5 reducen la luminosidad, mientras que los valores por encima de 0,5 la aumentan. |
+| <b>Tono</b> *Flotante* | Determina el color de la imagen de entrada.   Los valores por debajo de 0,5 desplazan el tono negativamente, mientras que los valores por encima de 0,5 lo desplazan positivamente. |
+| <b>Saturación</b> *Flotante* | Determina la saturación del color de la imagen de entrada.   Los valores por debajo de 0,5 disminuyen la saturación, mientras que los valores por encima de 0,5 la aumentan. |
+| <b>Luminosidad</b> *Flotante* | Determina la luminosidad de la imagen de entrada Los valores inferiores a 0,5 reducen la Luminosidad, mientras que los valores superiores a 0,5 la aumentan. |
 
 ## Conectores de entrada
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Degradado axial reflejado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-axial-reflected.png){width="128px"}
+![](gradient-axial-reflected.resources/gradient-axial-reflected.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -47,4 +47,4 @@ Similar a [Axial de degradado](../../../../../../compositing-graphs/nodes-refere
 |:---|:---|
 | <b>Punto 1</b> | Primer punto desde el que se inicia el degradado (negro) |
 | <b>Punto 2</b> | Segundo punto al final del degradado en (blanco) |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de aplastamiento y estiramiento con proporciones que no sean de cuadrados. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de calabaza y estire con proporciones que no sean de cuadrados. |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rayas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/stripes.png){width="128px"}
+![](stripes.resources/stripes.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -51,14 +51,14 @@ Genera un motivo de mosaico, en ángulo y de rayas. El patrón se ajusta a sí m
 | <b>Mayús</b> <i>0 - 20</i> | Inclina las rayas. Añade automáticamente más franjas para garantizar el mosaico. |
 | <b>Alinear</b> <i>Bordes, Centro</i> | Define el giro para el cambio. |
 | <b>Filtrado</b> <i>Falso/Verdadero</i> | Activa el filtrado. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/stripes-ex.gif" />
+            <img src="stripes.resources/stripes-ex.gif" />
         </td>
     </tr>
 </table>

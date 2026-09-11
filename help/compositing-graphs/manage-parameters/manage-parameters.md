@@ -120,9 +120,9 @@ Menú ![&#39;Administrar parámetros&#39; en menú contextual de nodo](manage-pa
 
 ## Copiar y pegar parámetros
 
-Es posible copiar todos los valores de parámetros de un nodo de origen y pegarlos en un nodo de destino. Los parámetros de los nodos de origen y destino <b>coinciden en función de sus identificadores y tipos</b>.
+Es posible copiar todos los valores de parámetros de un nodo de origen y pegarlos en un nodo de destino. Los parámetros de los nodos de origen y destino <b> coinciden según sus identificadores y tipos</b>.
 
-Por ejemplo, un parámetro &#39;Escala&#39; cuyo identificador es &#39;escala&#39; y el tipo es &#39;Flotante&#39; se puede copiar y pegar en otro parámetro &#39;Escala de forma&#39; cuando su identificador también es &#39;escala&#39; y su tipo es también &#39;Flotante&#39;.
+Por ejemplo, un parámetro &#39;Escala&#39; cuyo identificador es &#39;escala&#39; y el tipo es &#39;Float&#39; se puede copiar y pegar en otro parámetro &#39;Escala de forma&#39; cuando su identificador es también &#39;escala&#39; y su tipo es también &#39;Float&#39;.
 
 Esta característica funciona de la misma manera que el uso de un [archivo de parámetros preestablecidos](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md). De hecho, los datos copiados en el portapapeles son los mismos que los datos almacenados en los archivos de ajustes preestablecidos de SBSPRS, y se pueden pegar en cualquier editor de texto para revisarlos y editarlos.
 

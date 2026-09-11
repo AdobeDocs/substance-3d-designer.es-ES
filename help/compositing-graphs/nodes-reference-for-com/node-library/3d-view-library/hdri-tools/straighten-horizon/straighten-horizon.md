@@ -47,5 +47,5 @@ Para los HDRI con un horizonte que no es recto, este nodo proporciona una forma 
 |:---|:---|
 | <b>Habilitar corrección de horizonte</b> <i>Falso/Verdadero</i> | Activar y desactivar el efecto. Permite alternar entre comparar antes y después y encontrar los puntos correctos. |
 | Posición <b>Punto de horizonte #1</b> | El primer punto tiene un control de vista 2D. |
-| Posición del punto de horizonte n.º 2 de <b>Horizon Point</b> | El segundo punto tiene un controlador de vista 2D. |
+| Posición del punto de horizonte n.º 2 de <b>Horizon Point</b> | Segundo punto, tiene control de vista 2D. |
 | <b>Rotación horizontal</b> <i>0.0 - 1.0</i> | Rotación adicional alrededor del eje central. |

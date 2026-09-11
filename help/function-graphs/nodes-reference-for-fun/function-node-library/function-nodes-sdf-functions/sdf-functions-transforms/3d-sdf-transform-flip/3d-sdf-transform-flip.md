@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## Descripción
 
-Aplica una transformación espejo a la forma SDF de entrada.<br>Básicamente realiza una escala negativa en los ejes seleccionados.
+Aplica un transforme simétrico a la forma SDF de entrada.<br>Básicamente realiza una escala negativa en los ejes seleccionados.
 
 </td>
 </tr>

@@ -79,16 +79,16 @@ La trayectoria de la spline está controlada por la tangente ‘out’ de <b>p1<
 | <b>Height de tangentes p1</b> <i>Flotante</i> (disponible cuando &quot;Height de tangente automática&quot; es True) | Ajusta el height de la tangente p1 point &#39;out&#39; donde un valor inferior significa una ubicación más baja o más profunda. Esto afecta al height a lo largo de la spline a medida que se aleja de p1. |
 | <b>p2 Height Tangent</b> <i>Flotante</i> (disponible cuando &quot;Height de tangente automática&quot; es True) | Ajusta el height de la tangente p2 point &#39;in&#39; donde un valor inferior significa una ubicación más baja o más profunda. Esto afecta al height a lo largo de la spline a medida que se aleja de p2. |
 | <b>Thickness</b> |  |
-| <b>Iniciar Thickness</b> <i>Flotador</i> | Ajusta el thickness del punto p1. Esto afecta al thickness de la spline en p1.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
-| <b>Finalizar Thickness</b> <i>Flotador</i> | Ajusta el thickness del punto p2. Esto afecta al thickness de la spline en p2.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
+| <b>Iniciar Thickness</b> <i>Flotante</i> | Ajusta el thickness del punto p1. Esto afecta al thickness de la spline en p1.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
+| <b>Finalizar Thickness</b> <i>Flotante</i> | Ajusta el thickness del punto p2. Esto afecta al thickness de la spline en p2.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
 | <b>Thickness de tangente automática</b> <i>Booleano</i> | Establece automáticamente el thickness de las tangentes polinomiales para que se interpolen linealmente desde el Thickness Inicio hasta el Thickness Final.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
 | <b>Thickness de tangentes p1</b> <i>Flotante</i> (disponible cuando &quot;Thickness de tangente automática&quot; es True) | Ajusta el thickness de la tangente p1 point &#39;out&#39;. Esto afecta al thickness a lo largo de la spline a medida que se aleja de p1.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
 | <b>p2 Thickness Tangent</b> <i>Flotante</i> (disponible cuando &quot;Thickness de tangente automática&quot; es True) | Ajusta el thickness de la tangente p2 point &#39;in&#39;. Esto afecta al thickness a lo largo de la spline a medida que se aleja de p2.<br>Nota: El thickness se utiliza en nodos Spline específicos. |
 | <b>Coordenadas de puntos</b> |  |
-| <b>p1</b> <i>Float2</i> | Establece la posición del punto p1 en el espacio de textura. |
-| <b>p1 Tangente</b> <i>Float2</i> | Establece la posición del control de tangente p1 point &#39;out&#39; en el espacio de textura. |
-| <b>p2</b> <i>Float2</i> | Establece la posición del punto p2 en el espacio de textura. |
-| <b>p2 Tangente</b> <i>Float2</i> | Establece la posición del control de tangente del punto p2 &#39;in&#39; en el espacio de textura. |
+| <b>p1</b> <i>Flotante2</i> | Establece la posición del punto p1 en el espacio de textura. |
+| <b>p1 Tangente</b> <i>Flotante2</i> | Establece la posición del control de tangente p1 point &#39;out&#39; en el espacio de textura. |
+| <b>p2</b> <i>Flotante2</i> | Establece la posición del punto p2 en el espacio de textura. |
+| <b>p2 Tangente</b> <i>Flotante2</i> | Establece la posición del control de tangente del punto p2 &#39;in&#39; en el espacio de textura. |
 | <b>Vista previa</b> |  |
 | <b>Mostrar tangentes</b> <i>Booleano</i> | Muestra la tangente del punto p1 &#39;out&#39; y el punto p2 &#39;in&#39; en la salida de previsualización. |
 | <b>Mostrar ayuda de dirección</b> <i>Booleano</i> | Muestra un punto al principio de la spline y una punta de flecha al final en la salida de previsualización. |

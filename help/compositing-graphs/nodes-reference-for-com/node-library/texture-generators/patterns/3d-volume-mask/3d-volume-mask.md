@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Máscara de volumen 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3dvolumemask.png){width="256px"}
 
 <b>En:</b> Generador > Patrón
 
@@ -67,16 +67,16 @@ El nodo **Máscara de volumen 3D** genera una representación de una *forma prim
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant2.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant3.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant4.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant4.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Configuración de tuberías y proyectos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -39,7 +39,7 @@ La imagen ilustra la relación entre los diferentes archivos de la configuració
 </td>
 <td style="border: 0;" valign="top">
 
-![Jerarquía de archivos de configuración](../assets/filestructureoverview.png "Jerarquía de archivos de configuración")
+![Jerarquía de archivos de configuración](pipeline-and-project-configuration.resources/filestructureoverview.png "Jerarquía de archivos de configuración")
 
 </td>
 </tr>

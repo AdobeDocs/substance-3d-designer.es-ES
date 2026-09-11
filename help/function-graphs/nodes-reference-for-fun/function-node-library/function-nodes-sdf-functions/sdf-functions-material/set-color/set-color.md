@@ -1,6 +1,6 @@
 ---
 title: Definir color
-description: Defina el color base del material de una escena SDF.
+description: Definir el color base del material de una escena SDF.
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '89'
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## Descripción
 
-Defina el color base del material de una escena SDF.
+Definir el color base del material de una escena SDF.
 
 Este color se puede recuperar para todas las formas SDF salpicadas en la salida de *color SDF* de la [Forma de salpicadura v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 

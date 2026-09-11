@@ -96,7 +96,7 @@ Como alternativa, el regulador Posición de entrada de degradado se puede utiliz
 | --- | --- |
 | <b>Direccionamiento de degradado</b> *Booleano* | Define si el degradado se repite (mosaico) o se sujeta.   Este parámetro determina cómo se controlan los píxeles de la entrada de escala de grises de los HDR de rango [0, 1]: sujetado o plegado hasta [0, 1]. |
 | <b>Orientación del degradado</b> *Entero* | Define el eje a lo largo del cual se debe muestrear la entrada de degradado:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> Muestrear una fila de píxeles en el eje X.</li> <li data-preserve-html="true"><i>Vertical:</i> Muestrear una columna de píxeles en el eje Y.</li> </ul> |
-| <b>Posición de entrada de degradado</b> *Flotante* | Posición normalizada de la fila o columna de píxeles que se van a muestrear en la &#39;Entrada de degradado&#39;. |
+| <b>Posición de entrada de degradado</b> *Flotador* | Posición normalizada de la fila o columna de píxeles que se van a muestrear en la &#39;Entrada de degradado&#39;. |
 
 ## Conectores de entrada
 

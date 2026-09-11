@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pin
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de borde de navegación](../../../../assets/graphatomic-pin_1.png "Icono de borde de navegación")
+![Icono de borde de navegación](navigation-pin.resources/graphatomic-pin_1.png "Icono de borde de navegación")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ En cualquier tipo de gráfico, al presionar <b>F2</b> se recorren todos los bord
 
 Los bordes se enmarcarán en la ventana gráfica al nivel de zoom actual.
 
-![Posiciones: Saltar a chinchetas](../../../../assets/graph-pin_jumping.gif "chinchetas: Saltar a ubicaciones")
+![Posiciones: Saltar a chinchetas](navigation-pin.resources/graph-pin_jumping.gif "chinchetas: Saltar a ubicaciones")

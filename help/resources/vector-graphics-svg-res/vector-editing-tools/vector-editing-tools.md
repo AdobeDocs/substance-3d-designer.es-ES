@@ -30,7 +30,7 @@ Esta página describe las herramientas de edición disponibles en el panel [vist
 
 El panel [vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) ofrece herramientas básicas de edición de vectores que te permiten crear o editar gráficos vectoriales *manualmente* directamente en [Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html). Estas herramientas son especialmente útiles, por ejemplo, para crear rápidamente *máscaras* o *patrones*.
 
-Las herramientas admiten la entrada de lápiz. Para aprovechar las pantallas de lápiz, puedes [desacoplar](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) el panel de la [vista en 2D](https://docs.substance3d.com/display/SDDOC/2D+view) y, a continuación, colocarlo y redimensionarlo en cualquier configuración que te resulte más cómoda para pintar.
+Las herramientas admiten la entrada de lápiz. Para aprovechar las pantallas de lápiz, puedes [desacoplar](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) el panel [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) y, a continuación, colocarlo y redimensionarlo en cualquier configuración que te resulte más cómoda para pintar.
 
 Las ediciones se pueden *deshacer individualmente* y todas las demás características del panel vista 2D están *disponibles* mientras editas la imagen vectorial, como el panel [Histograma](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Histogram), la [visualización en mosaico](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Viewport) y la [imagen de fondo](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Backgroundimage).
 

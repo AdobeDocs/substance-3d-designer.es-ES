@@ -92,9 +92,9 @@ Esto significa que, por lo general, un nodo de conversión de escala de grises s
 
 |  |  |
 | --- | --- |
-| <b>Grosores de canal</b> *Float4* | Define el grosor de cada uno de los canales RGBA en la conversión de escala de grises.   De forma predeterminada, se realiza una división uniforme entre los canales del RGB. |
-| <b>Acoplar alfa</b> *Booleano* | Establece el comportamiento del Alpha en el resultado final de la escala de grises, ya que los valores de escala de grises no pueden contener información del Alpha.   Cuando es *True*, la conversión de escala de grises se multiplica por el canal Alpha de la imagen de entrada |
-| <b>Valor de fondo</b> *Flotador* | Establece el valor de fondo base cuando la entrada tiene una máscara alfa. Es decir, determina qué píxeles deben tratarse como transparentes.   *Disponible cuando &#39;Acoplar alfa&#39; está establecido en &#39;Verdadero&#39;.* |
+| <b>Grosores de canal</b> *Flotante4* | Define el grosor de cada uno de los canales RGBA en la conversión de escala de grises.   De forma predeterminada, se realiza una división uniforme entre los canales del RGB. |
+| <b>Acoplar alfa</b> *Booleano* | Establece el comportamiento del Alpha en el resultado final de la escala de grises, ya que los valores de escala de grises no pueden contener información del Alpha.   Cuando *True*, la conversión de escala de grises se multiplica por el canal alfa de la imagen de entrada |
+| <b>Valor de fondo</b> *Flotante* | Establece el valor de fondo base cuando la entrada tiene una máscara alfa. Es decir, determina qué píxeles deben tratarse como transparentes.   *Disponible cuando &#39;Acoplar alfa&#39; está establecido en &#39;Verdadero&#39;.* |
 
 ## Conectores de entrada
 

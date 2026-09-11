@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pavimento de arco
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/arcpavement-ex.png)
+![](arc-pavement.resources/arcpavement-ex.png)
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -60,14 +60,14 @@ Genera un patrón de pavimento de arco parisino. Este efecto no se puede lograr 
 | <b>Anchura de patrón global aleatoria</b> <i>0.0 - 1.0</i> | Aleatoriza la anchura del azulejo, sin crear espacios más grandes entre ellos. |
 | <b>Disminución de Height de motivo</b> <i>0.0 - 1.0</i> | Controla el aplastamiento del height de azulejo en los extremos de cada arco. |
 | <b>Aleatorio de color</b> <i>0.0 - 1.0</i> | Aleatoriza los colores del azulejo. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/arcpavement-ex.png" />
+            <img src="arc-pavement.resources/arcpavement-ex.png" />
         </td>
     </tr>
 </table>

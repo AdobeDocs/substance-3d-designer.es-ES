@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) en [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esta máscara resalta los bordes en función de un mapa de curvatura horneado. Es uno de los generadores de máscaras más simples.
+Esta máscara resalta los bordes en función de un mapa de curvatura hecho un bake. Es uno de los Generadores de máscaras más simples.
 
 </td>
 </tr>

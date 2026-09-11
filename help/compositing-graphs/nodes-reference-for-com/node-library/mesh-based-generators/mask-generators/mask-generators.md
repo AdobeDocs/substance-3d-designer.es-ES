@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
 breadcrumb-title: ''
-description: Acceda a los nodos generadores de máscaras en Substance 3D Designer para crear máscaras basadas en la geometría de malla y las propiedades.
+description: Acceda a nodos de generador de máscaras en Substance 3D Designer para crear máscaras basadas en la geometría de malla y las propiedades.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators
 helpx_experience_level: ""

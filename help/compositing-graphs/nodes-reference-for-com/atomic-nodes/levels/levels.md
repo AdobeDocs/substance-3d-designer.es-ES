@@ -90,7 +90,7 @@ El botón amarillo resaltado alterna la interfaz entre los reguladores de valor 
 | <b>Nivel de iluminación de entrada</b> *Flotante/Flotante4* | Define los niveles de resaltado de la imagen de entrada.  Reasigna valores altos de entrada para que se vuelvan blancos completos. |
 | <b>Nivel de iluminación media de entrada</b> *Flotante/Flotante4* | Define los niveles de medios tonos de la imagen de entrada.  Reasigna los valores medios de entrada para que se conviertan en gris medio. |
 | <b>Nivel de salida bajo</b> *Flotante/Flotante4* | Define los niveles de iluminación baja de la imagen de salida.  Ajusta los valores de negro de salida para definir el límite. |
-| <b>Nivel de iluminación de salida</b> *Float/Float4* | Define los niveles de resaltado de la imagen de salida.  Las abrazaderas emiten valores de blanco para definir el límite. |
+| <b>Nivel de iluminación de salida</b> *Flotante/Flotante4* | Define los niveles de resaltado de la imagen de salida.  Ajusta los valores de blanco de salida para definir el límite. |
 | <b>Abrazadera intermedia</b> *Booleano* | Determina si el valor de entrada transformado se fija en [0, 1] antes de calcular el nivel de salida. |
 
 ## Guía de uso
@@ -103,9 +103,9 @@ En la barra de encabezado &quot;Parámetros específicos&quot;, encontrará boto
 
 ![Acciones rápidas de nodos de niveles](levels.resources/levels-2.png "Acciones rápidas de nodos de niveles")
 
-<b>1 - Invertir:</b> Intercambia los valores de los parámetros &quot;Nivel de salida bajo&quot; y &quot;Nivel de salida alto&quot;.
+<b>1 - Invertir:</b> Intercambia los valores de los parámetros &#39;Nivel de salida bajo&#39; y &#39;Nivel de iluminación de salida&#39;.
 
-<b>2 - Nivel automático:</b> Ajusta automáticamente los valores de los parámetros &quot;Nivel en bajo&quot; y &quot;Nivel en alto&quot; respectivamente al valor más bajo y más alto presente en la imagen.
+<b>2 - Nivel automático:</b> Ajusta automáticamente los valores de los parámetros &quot;Nivel de baja iluminación de entrada&quot; y &quot;Nivel de iluminación de entrada&quot; respectivamente al valor más bajo y más alto presente en la imagen.
 
 <b>3 - Interfaces de conmutación:</b> Cambia entre los editores de histograma y de regulador.
 

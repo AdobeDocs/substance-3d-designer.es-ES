@@ -62,7 +62,7 @@ Deforme las rutas de entrada según la <b>Entrada de degradado</b>. (Mismo efect
 
 |  |  |
 |:---|:---|
-| <b>Intensidad</b> <i>Flotador</i> | El parámetro <b>Intensity</b> establece la intensidad de la deformación. |
+| <b>Intensidad</b> <i>Flotante</i> | El parámetro <b>Intensity</b> establece la intensidad de la deformación. |
 | <b>Número de pasos</b> <i>Entero</i> | Utilice un valor más alto para deformar las rutas de entrada en varios incrementos pequeños.<br>Esto puede impedir que la ruta se cruce sola, especialmente cuando se usan valores altos de <b>Intensity</b>. |
 
 ## Ejemplos

@@ -52,13 +52,13 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 |  |  |
 |:---|:---|
 | <b>Invertir</b> <i>Booleano</i> | Invierte la imagen de salida. |
-| <b>Escala</b> <i>Flotador</i> | Controla la escala del ruido de Perlin 3D. |
-| <b>Tamaño</b> <i>Float3</i> | Controla el tamaño del ruido de Perlin 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto de <i>estiramiento o aplastamiento</i>. |
-| <b>Desplazamiento</b> <i>Float3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido de Perlin 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
-| <b>Intensidad de Distorsión</b> <i>Flotador</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido de Perlin 3D. |
-| <b>Multiplicador de escala de Distorsión</b> <i>Flotante</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
-| <b>Línea de base</b> <i>Flotante</i> | Aplica un <i>desplazamiento</i> al valor de <i>luminancia</i> de línea de base para la distribución de valor de ruido de Perlin 3D. |
-| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste del ruido de Perlin 3D. |
+| <b>Escala</b> <i>Flotante</i> | Controla la escala del ruido de Perlin 3D. |
+| <b>Tamaño</b> <i>Flotante3</i> | Controla el tamaño del ruido de Perlin 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto de <i>estirar o aplastar</i>. |
+| <b>Desplazamiento</b> <i>Flotante3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido de Perlin 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
+| <b>Intensidad de Distorsión</b> <i>Flotante</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido de Perlin 3D. |
+| <b>Multiplicador de escala de Distorsión</b> <i>Flotador</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
+| <b>Línea de base</b> <i>Flotador</i> | Aplica un <i>desplazamiento</i> al valor de <i>luminancia</i> de línea de base para la distribución de valor de ruido de Perlin 3D. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste del ruido de Perlin 3D. |
 | <b>Absoluto</b> <i>Booleano</i> | Utiliza valores absolutos en el ruido de Perlin 3D. Esto <i>invierte</i> la distribución de valor para los valores <i>inferiores a 0,5</i>. |
 | <b>Habilitar Mosaico</b> <i>Booleano</i> | Ajusta el ruido de Perlin 3D para que el patrón resultante <i>se repita</i> en los ejes X, Y y Z. |
 

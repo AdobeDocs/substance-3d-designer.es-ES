@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Generador de mosaicos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-generator.png){width="128px"}
+![](tile-generator.resources/tile-generator.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -118,16 +118,16 @@ Algunas sugerencias de uso general:
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex.png" />
+            <img src="tile-generator.resources/tilesampler-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-50-18.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-50-18.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-52-4.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-52-4.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-53-47.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-53-47.png" />
         </td>
     </tr>
 </table>

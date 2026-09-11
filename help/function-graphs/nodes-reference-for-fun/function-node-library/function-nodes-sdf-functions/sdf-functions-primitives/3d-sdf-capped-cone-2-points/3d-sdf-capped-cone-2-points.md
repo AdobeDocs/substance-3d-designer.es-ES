@@ -40,8 +40,8 @@ Función SDF de un cono cerrado definido por las posiciones de su base y superio
 
 |  |  |
 | :--- | :--- |
-| <b>Base de posición</b> *Float3* | Posición de la base del cono cerrado.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
-| <b>Posición superior</b> *Float3* | Posición de la parte superior del cono cerrado.<br><br><i>Valor predeterminado: (0, 0, 1)</i> |
-| <b>Base de radio</b> *Flotador* | Radio de la base del cono cerrado.<br><br><i>Valor predeterminado: 0,5</i> |
-| <b>Radio superior</b> *Flotador* | Radio de la parte superior del cono cerrado.<br><br><i>Valor predeterminado: 0,2</i> |
-| <b>P</b> *Float3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |
+| <b>Base de posición</b> *Flotante3* | Posición de la base del cono cerrado.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
+| <b>Posición superior</b> *Flotante3* | Posición de la parte superior del cono cerrado.<br><br><i>Valor predeterminado: (0, 0, 1)</i> |
+| <b>Base de radio</b> *Flotante* | Radio de la base del cono cerrado.<br><br><i>Valor predeterminado: 0,5</i> |
+| <b>Radio superior</b> *Flotante* | Radio de la parte superior del cono cerrado.<br><br><i>Valor predeterminado: 0,2</i> |
+| <b>P</b> *Flotante3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |

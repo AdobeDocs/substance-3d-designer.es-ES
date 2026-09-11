@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
-description: Utilice el nodo Height de muestra de spline para muestrear valores de height a lo largo de splines para obtener efectos de desplazamiento procedimientos.
+description: Utilice el nodo Height de muestra de spline para muestrear valores de height a lo largo de splines para obtener efectos de desplazamiento procedimentales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Height
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## Descripción
 
-Modifica el height de las splines de entrada asignándoles un mapa de altura de entrada.
+Modifica el height de las splines de entrada asignando una asignación de Height de entrada a ellas.
 
-El efecto del mapa de altura asignado se puede ajustar cambiando su modo de fusión y la opacidad de dicho efecto.
+El efecto del mapa de height asignado se puede ajustar cambiando su modo de fusión y la opacidad de dicho efecto.
 
 </td>
 </tr>
@@ -51,7 +51,7 @@ El efecto del mapa de altura asignado se puede ajustar cambiando su modo de fusi
 | <b>Códigos polinómicos</b> <i>Color</i> | Las coordenadas de los puntos de las splines de entrada codificadas en los canales RGBA de una imagen en color:<br><b>R</b> - Posición X<br><b>G</b> - Posición Y<br><b>B</b> - Height<br><b>A</b> - Datos empaquetados:<br> - Firma: La spline está cerrada (negativa) o abierta (positiva);<br> - Valor absoluto: Thickness + 1. |
 | <b>Datos de spline</b> <i>Color</i> | Datos adicionales de las splines de entrada codificadas en los canales RGBA de una imagen en color.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Sin usar<br><b>A</b> - Sin usar |
 | <b>Cantidad de spline</b> <i>Entero</i> | Número de splines de entrada. |
-| <b>Mapa de altura</b> <i>Escala de grises</i> | Imagen de escala de grises de entrada utilizada para cambiar el height de la spline de entrada. |
+| <b>Mapa de Height</b> <i>Escala de grises</i> | Imagen de escala de grises de entrada utilizada para cambiar el height de la spline de entrada. |
 
 <a name="outputs"></a>
 
@@ -70,9 +70,9 @@ El efecto del mapa de altura asignado se puede ajustar cambiando su modo de fusi
 
 |  |  |
 |:---|:---|
-| <b>Modo de muestreo</b> <i>Entero</i> | Método de asignación de los valores de la asignación de altura a las splines:<br>- <i>espacio de Textura</i>: Los valores se aplican a las splines donde se colocarían si se colocaran en una textura utilizando las coordenadas UV de la textura. Esto aplica el valor a las splines &quot;in place&quot;;<br>- <i>Horizontal along spline</i>: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), donde cada fila se aplica a una spline diferente de arriba a abajo;<br>- <i>Hora. a lo largo de la spline (rand. desplazamiento X)</i>: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento horizontal aleatorio en el mapa de escala para cada spline (es decir, cada fila en códigos de spline);<br>- <i>Hora. a lo largo de la spline (rand. desplazamiento Y)</i>: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento vertical aleatorio en el mapa de escala para cada spline (es decir, cada fila de códigos de spline). |
-| <b>Opacidad</b> <i>Flotante</i> | Un multiplicador para la intensidad de la contribución de la entrada Mapa de altura al height de la spline. |
-| <b>Modo De Fusión</b> <i>Entero</i> | Método de fusión de los datos del mapa de altura con el height de la spline de entrada:<br>- <i>Copiar</i>: Reemplace el height de la spline por los valores de Mapa de altura;<br>- <i>Agregar</i>: Agregue los valores de Mapa de alto al height de la spline;<br>- <i>Restar</i>: Restar los valores de Mapa de alto en el height de la spline;<br>- <i>Multiply</i>: Multiplique los valores de Mapa de altura contra el height de la spline. |
+| <b>Modo de muestreo</b> <i>Entero</i> | Método de asignación de los valores de la asignación de altura a las splines:<br>- <i>espacio de Textura</i>: Los valores se aplican a las splines donde se colocarían si se colocan en una textura utilizando las coordenadas UV de la textura. Esto aplica el valor a las splines &quot;in place&quot;;<br>- <i>Horizontal along spline</i>: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), donde cada fila se aplica a una spline diferente de arriba a abajo;<br>- <i>Hora. a lo largo de la spline (rand. desplazamiento X)</i>: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento horizontal aleatorio en el mapa de escala para cada spline (es decir, cada fila en códigos de spline);<br>- <i>Hora. a lo largo de la spline (rand. desplazamiento Y)</i>: Los valores se aplican directamente a las coordenadas de las splines codificadas (consulte Entrada de códigos de spline), con un desplazamiento vertical aleatorio en el mapa de escala para cada spline (es decir, cada fila de códigos de spline). |
+| <b>Opacidad</b> <i>Flotador</i> | Un multiplicador para la intensidad de la contribución de la entrada Mapa de altura al height de la spline. |
+| <b>Modo De Fusión</b> <i>Entero</i> | Método de fusión de los datos del mapa de altura con el height de la spline de entrada:<br>- <i>Copiar</i>: Reemplace el height de la spline por los valores de Mapa de altura;<br>- <i>Agregar</i>: Agregue los valores de Mapa de alto al height de la spline;<br>- <i>Restar</i>: Restar los valores de Mapa de alto en el height de la spline;<br>- <i>Multiply</i>: Multiplique los valores de Mapa de Height contra el height de la spline. |
 | <b>Vista previa</b> |  |
 | <b>Cantidad de segmentos</b> <i>Entero</i> | Ajusta el número de segmentos utilizados para dibujar la visualización de spline en la salida de vista previa.<br>Un valor más alto produce una línea más suave. |
 | <b>Mostrar ayuda de dirección</b> <i>Booleano</i> | Muestra un punto al principio de la spline y una punta de flecha al final en la salida de previsualización. |

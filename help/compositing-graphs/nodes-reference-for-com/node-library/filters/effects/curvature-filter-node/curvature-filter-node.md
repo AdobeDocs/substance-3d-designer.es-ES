@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
 breadcrumb-title: ''
-description: Utilice el nodo Filtro de curvatura para generar mapas de curvatura a partir de mapas de height para detectar superficies convexas y cóncavas.
+description: Utilice el nodo Filtro de curvatura para generar mapas de curvatura a partir de mapas de altura para detectar superficies convexas y cóncavas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature (Filter Node)
 helpx_experience_level: ""

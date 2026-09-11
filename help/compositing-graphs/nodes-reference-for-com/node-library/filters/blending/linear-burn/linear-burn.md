@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
 breadcrumb-title: ''
-description: Utilice el nodo Subexponer lineal para fusionar texturas mediante el modo de subexposición lineal para crear efectos de sombreado y contraste.
+description: Utilice el nodo Subexposición lineal para fusionar texturas mediante el modo de fusión lineal para crear efectos de sombreado y contraste.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Linear Burn
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 ## Descripción
 
-Realiza una mezcla de Linear Burn. La fórmula matemática es Primer plano + Fondo - 1.
+Realiza una fusión de Subexposición lineal. La fórmula matemática es Primer plano + Fondo - 1.
 
 </td>
 </tr>

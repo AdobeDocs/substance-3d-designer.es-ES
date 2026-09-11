@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Ventana Preferencias
 
-![Ventana de preferencias](../../assets/image2021-6-22-20-56-1.png "Ventana de preferencias")
+![Ventana de preferencias](preferences-window.resources/image2021-6-22-20-56-1.png "Ventana de preferencias")
 
 Esta página presenta la ventana <b>Preferencias</b> y toda su configuración.
 
@@ -157,14 +157,14 @@ Consulte la página [Configuración de proyectos](../../interface/preferences-wi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Edición en contexto deshabilitada](../../assets/substance3ddesigner_incontext_no.gif "Edición en contexto deshabilitada")
+![Edición en contexto deshabilitada](preferences-window.resources/substance3ddesigner_incontext_no.gif "Edición en contexto deshabilitada")
 
 *Abrir referencia*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Edición en contexto habilitada](../../assets/substance3ddesigner_incontext_yes.gif "Edición en contexto habilitada")
+![Edición en contexto habilitada](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Edición en contexto habilitada")
 
 *Abrir Referencia En Contexto*
 

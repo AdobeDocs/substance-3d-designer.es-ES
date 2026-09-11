@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) en [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esta máscara representa el desgaste de los bordes en un objeto de metal, con arañazos y astillas que aparecen en bordes elevados convexos, potencialmente enmascarados por áreas oscuras de AO horneadas.
+Esta máscara representa el desgaste de los bordes en un objeto metálico, con arañazos y astillas que aparecen en bordes elevados convexos, potencialmente enmascarados por áreas oscuras hechas un bake de AO.
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Esta máscara representa el desgaste de los bordes en un objeto de metal, con ar
 |  |  |
 |:---|:---|
 | <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
-| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
+| <b>Oclusión ambiental</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para efectos internos y máscaras. |
 | <b>Entrada de Suciedad</b> <i>Entrada en escala de grises</i> |  |
 | <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
 | <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> |  |

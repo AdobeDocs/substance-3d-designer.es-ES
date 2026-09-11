@@ -35,7 +35,7 @@ ht-degree: 3%
 
 Genera un primitivo (polígono) en el formato Trazados.
 
-Utilice el nodo [Path 2D Transform](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) para colocar con precisión el elemento primitivo.
+Use el nodo [Path 2D Transforme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) para colocar con precisión el primitivo.
 
 </td>
 </tr>

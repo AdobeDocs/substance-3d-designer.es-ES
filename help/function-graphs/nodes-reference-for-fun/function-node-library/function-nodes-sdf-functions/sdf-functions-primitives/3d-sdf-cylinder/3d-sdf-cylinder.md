@@ -40,9 +40,9 @@ Una Función SDF para un cilindro de height ajustable, radio y redondeo de borde
 
 |  |  |
 | :--- | :--- |
-| <b>Height</b> *Flotador* | El height Z-up del cilindro desde su base.<br><br><i>Valor predeterminado: 1</i> |
-| <b>Radio</b> *Flotador* | El radio del cilindro.<br><br><i>Valor predeterminado: 0,5</i> |
-| <b>Redondeo</b> *Flotador* | El radio de los arcos redondeados aplicados a los bordes del cilindro.<br><br><i>Nota:</i> los bordes duros pueden aparecer donde se cruzan los radios de redondeo.<br><br><i>Valor predeterminado: 0</i> |
-| <b>Posición de pivote (local)</b> *Float3* | Posición del espacio mundial del pivote local del cilindro, donde (0, 0, 0) coloca el pivote en el centro del cilindro.<br><br><i>Valor predeterminado: (0, 0, -0,5)</i> |
-| <b>Posición central</b> *Float3* | Posición del espacio de entorno del pivote del cilindro.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |
+| <b>Height</b> *Flotante* | El height Z-up del cilindro desde su base.<br><br><i>Valor predeterminado: 1</i> |
+| <b>Radio</b> *Flotante* | El radio del cilindro.<br><br><i>Valor predeterminado: 0,5</i> |
+| <b>Redondeo</b> *Flotante* | El radio de los arcos redondeados aplicados a los bordes del cilindro.<br><br><i>Nota:</i> los bordes duros pueden aparecer donde se cruzan los radios de redondeo.<br><br><i>Valor predeterminado: 0</i> |
+| <b>Posición de pivote (local)</b> *Flotante3* | Posición del espacio mundial del pivote local del cilindro, donde (0, 0, 0) coloca el pivote en el centro del cilindro.<br><br><i>Valor predeterminado: (0, 0, -0,5)</i> |
+| <b>Posición central</b> *Flotante3* | Posición del espacio de entorno del pivote del cilindro.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
+| <b>P</b> *Flotante3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |

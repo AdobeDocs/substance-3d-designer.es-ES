@@ -40,7 +40,7 @@ Este valor se puede recuperar para todas las formas SDF salpicadas en la salida 
 
 |                          |                        |
 |--------------------------|------------------------|
-| <b>Escena de SDF</b> *Flotador* | La escena SDF de entrada. |
+| <b>Escena de SDF</b> *Flotante* | La escena SDF de entrada. |
 | <b>ID</b> *Entero* | Identificador entero que se va a establecer. |
 
 

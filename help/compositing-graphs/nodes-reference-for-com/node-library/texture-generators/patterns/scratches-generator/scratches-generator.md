@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Generador de Scratches
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/scratches-generator.png)
+![](scratches-generator.resources/scratches-generator.png)
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -73,10 +73,10 @@ Existe una versión especial de Generador de Scratches, Generador de Scratches N
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/scratches-ex1.png" />
+            <img src="scratches-generator.resources/scratches-ex1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/scratches-ex2.png" />
+            <img src="scratches-generator.resources/scratches-ex2.png" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
 breadcrumb-title: ''
-description: Obtenga más información sobre el estado de fin de vida útil de la función de gráfico del modelo de Substance y encuentre soluciones alternativas.
+description: Conoce el estado de fin de vida útil de la función de gráfico del modelo de Substance y encuentra soluciones alternativas.
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > Substance model graph feature is missing
 helpx_experience_level: ""

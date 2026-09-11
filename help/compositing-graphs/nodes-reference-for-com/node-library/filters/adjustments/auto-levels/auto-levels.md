@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/auto-levels.html"
 breadcrumb-title: ''
-description: Utilice el nodo Niveles automáticos para ajustar automáticamente los niveles de textura para una distribución óptima del brillo y el contraste.
+description: Utilice el nodo Niveles automáticos para ajustar automáticamente los niveles de textura y obtener una distribución óptima del brillo y el contraste.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Auto Levels
 helpx_experience_level: ""

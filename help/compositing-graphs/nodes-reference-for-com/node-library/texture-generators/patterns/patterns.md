@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns.html"
 breadcrumb-title: ''
-description: Acceda a los nodos de generación de motivos en Substance 3D Designer para crear formas geométricas, mosaicos y motivos de procedimiento.
+description: Acceda a los nodos de generación de motivos en Substance 3D Designer para crear formas geométricas, mosaicos y motivos procedimientos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns
 helpx_experience_level: ""

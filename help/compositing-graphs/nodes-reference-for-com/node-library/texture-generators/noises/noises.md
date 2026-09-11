@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
 breadcrumb-title: ''
-description: Acceda a los nodos generadores de ruido en Substance 3D Designer para crear patrones de ruido de procedimiento para la generación y variación de texturas.
+description: Accede a los nodos generadores de ruido en Substance 3D Designer para crear patrones de ruido procedimientos para la generación y variación de textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Ruidos
 
-Los ruidos son gráficos de procedimiento orgánicos y caóticos. Los resultados generados por los ruidos son muy diferentes de las formas de aspecto artificial de la categoría [Motivos.](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)
+Los ruidos son gráficos procedimientos orgánicos y caóticos. Los resultados generados por los ruidos son muy diferentes de las formas de aspecto artificial de la categoría [Motivos.](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)
 
 Podrías usar ruidos en [Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html) como punto de partida o capa de detalles para cosas como arena, dirt, crecimiento aleatorio, para cualquier tipo de capa de variación sutil, etc.
 
@@ -30,7 +30,7 @@ Hay 3 grupos de uso diferentes dentro de la categoría Ruidos:
 
 * La gran mayoría son los ruidos estándar, que se extienden un amplio espectro y son útiles en muchos casos.
 * Los mapas de suciedad son sonidos compuestos con mucha más profundidad y detalles que los ruidos estándar, a costa de una velocidad de cálculo mucho más lenta.
-* Los ruidos 3D que requieren al menos un mapa de posición al horno de una malla, están pensados para casos de uso muy específicos.
+* Los ruidos 3D que requieren al menos un mapa de posición hecho un bake de una malla, están pensados para casos de uso muy específicos.
 
 Use la <b>lista de navegación de la izquierda</b> para examinar todos los nodos en Ruidos.
 

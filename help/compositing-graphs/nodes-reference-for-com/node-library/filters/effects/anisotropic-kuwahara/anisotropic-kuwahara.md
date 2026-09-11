@@ -93,7 +93,7 @@ Izquierda: Anisotropía 0.0 / Derecha: Anisotropía 1.0
 
 |  |  |
 |:---|:---|
-| <b>Radio</b> *Flotante* | El radio de desenfoque, donde un valor más alto produce un efecto de desenfoque más fuerte.   El valor máximo es 32. |
+| <b>Radio</b> *Flotador* | El radio de desenfoque, donde un valor más alto produce un efecto de desenfoque más fuerte.   El valor máximo es 32. |
 | <b>Smoothness</b> *Flotador* | Ajusta la cantidad de fusión de colores en la dirección calculada.   Cuando este valor es 0, los colores se desplazan principalmente en esa dirección y se produce muy poca fusión. |
 | <b>Enfoque</b> *Flotador* | Aumenta el contraste en las áreas desenfocadas, lo que hace que parezcan más planas y definidas con mayor claridad. |
 | <b>Anisotropía</b> *Flotador* | Ajusta la contribución del mapa de dirección en el desenfoque.   El mapa de dirección y todos sus modificadores (tanto parámetros como mapas de entrada) todavía tienen efecto cuando este valor de parámetro es 0, ya que el mapa de dirección se usa en el núcleo del filtro Kuwahara. |
@@ -101,7 +101,7 @@ Izquierda: Anisotropía 0.0 / Derecha: Anisotropía 1.0
 | <b>smoothness del tensor</b> *Float* *Disponible cuando &#39;Usar mapa de dirección de entrada&#39; está establecido en &#39;False&#39;* | Ajusta la intensidad del desenfoque aplicado a las direcciones calculadas a partir de la imagen y almacenadas en el mapa de dirección.   Si se aumenta este valor, se garantiza un resultado más suave cuando la imagen tiene muchos detalles de alta frecuencia. |
 | <b>ángulo de Anisotropía</b> *Float* *Disponible cuando &#39;Usar mapa de dirección de entrada&#39; está establecido en &#39;False&#39;* | Agrega una rotación al mapa de dirección, en número de vueltas.   Esta rotación adicional es *cumulativa* con la especificada por la entrada &#39;Mapa de ángulo de Anisotropía&#39;. |
 | <b>Multiplicador de mapa de ángulo de Anisotropía</b> *Float* *Disponible cuando &#39;Usar mapa de dirección de entrada&#39; está establecido en &#39;False&#39;* | Ajusta la intensidad de los valores de la entrada &quot;Mapa de ángulo de Anisotropía&quot;, que se añaden a continuación en la parte superior de la rotación aplicada al mapa de dirección, en número de vueltas.   Esta rotación adicional es *cumulativa* con la especificada por el parámetro &#39;Ángulo de Anisotropía&#39;. |
-| <b>Multiplicador de entrada de mapa de Pendiente</b> *Float* *Disponible cuando &#39;Usar mapa de dirección de entrada&#39; está establecido en &#39;False&#39;* | Ajusta la intensidad con la que el mapa de dirección se ajusta a las pendientes proporcionadas por la entrada &quot;Mapa de Pendiente&quot;. |
+| <b>Multiplicador de entrada de mapa de Pendiente</b> *Flotante* *Disponible cuando &#39;Usar mapa de dirección de entrada&#39; está establecido en &#39;Falso&#39;* | Ajusta la intensidad con la que el mapa de dirección se ajusta a las pendientes proporcionadas por la entrada &quot;Mapa de Pendiente&quot;. |
 | <b>Omitir alfa</b> *Booleano* | Cuando es &quot;True&quot;, el filtro no afecta al canal alfa de la imagen.   Cuando es &#39;False&#39;, el filtro también se aplica al canal alfa. |
 
 ## Ejemplos

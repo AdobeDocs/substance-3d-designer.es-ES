@@ -53,7 +53,7 @@ Los usuarios avanzados pueden configurar *distribuciones personalizadas* definid
 
 Las formas dispersas son ahora **objetos 3D** que se pueden mover, rotar y escalar en todos los ejes XYZ.
 
-Usa **simples formas simples** como cubos, esferas y cilindros, o **formas personalizadas complejas** formadas por *extrusión de un mapa de height* o creación de *formas 3D SDF*. (Más sobre esto a continuación)
+Usa **simples formas simples** como cubos, esferas y cilindros, o **formas personalizadas complejas** formadas por *extrusión de un mapa de altura* o creación de *formas 3D SDF*. (Más sobre esto a continuación)
 
 Esto desbloquea las dispersiones que son más dinámicas, más variadas y más creíbles en todos los aspectos. Y ahora es posible reutilizar formas 3D para variaciones invirtiéndolas. (¡Nos vemos, artistas del medio ambiente!)
 
@@ -306,32 +306,32 @@ Los requisitos para la versión mínima compatible de macOS se han actualizado a
 * [Content] Nodo del visor 3D
 * [Contenido] Nodos de operador 3D SDF
 * [Contenido] Nodos simples de 3D SDF
-* [Contenido] Nodos de transformación de 3D SDF
+* [Contenido] Nodos de transforma de 3D SDF
 * [Contenido] Nodos de materiales 3D SDF
 * [Contenido] Ángulo al nodo vectorial
 * [Content] Nodos de valor constante
-* [Vista 3D] Sombreado de OpenPBR para el procesador OpenGL
-* [Vista 3D] Sombreador de OpenPBRs para procesadores Rasterizer y Trazador de ruta de GPU
+* [Vista 3D] sombreador de OpenPBR para el procesador OpenGL
+* [Vista 3D] sombreador de OpenPBR para Rasterizer y renderizadores de Trazador de ruta de GPU
 * [Vista 3D] Ventana de Desplazamiento para definir la escala de height, el nivel de height y la teselación
 * [Vista 3D] Reorganizar los elementos de la barra de herramientas
-* [Vista 3D] Establezca OpenPBR como modelo de material predeterminado en la vista 3D
-* [Vista 3D] Haga que la vista 3D tenga en cuenta el atributo de gráfico &quot;Modelo de material&quot;
+* [Vista 3D] Establezca OpenPBR como modelo de material predeterminado en la Vista 3D.
+* [Vista 3D] Hacer que la vista 3D tenga en cuenta el atributo de gráfico &quot;Modelo de material&quot;
 * [Vista 3D] Sincronizar modelos de material al cambiar entre los procesadores Rasterizer/Trazador de ruta de GPU y OpenGL
 * [Vista 3D] Garantizar que el modelo de material sea persistente al cambiar entre representadores 3D y cambios en la definición de materiales
 están sincronizados
 * [Vista 3D] Trazador de ruta de GPU: Habilitar el ciclo de píxeles de ruido azul
-* [Vista 3D] Exponer control de opacidad de oclusión ambiental
+* [Vista 3D] Exponer el control de opacidad de la Oclusión ambiental
 * [Vista 3D] Establecer el intervalo de parámetros de segmentación en [0, 10] para todos los sombreadores
 * [Vista 3D] Cambiar el nombre de la acción &quot;Enfoque&quot; a &quot;Marco&quot;
 * [Vista 3D] Controle el nuevo parámetro refineLevel que reemplaza a tessellationFactor
 * [Vista 3D] Agregar contador FPS
 * [Vista 3D] Mueva la barra de progreso en la misma barra de herramientas horizontal que el espacio de color de la parte inferior
-* [Bakers] Muestra la UV del baker seleccionado en la vista previa
+* [Bakeres] Muestra la UV del baker seleccionado en la vista previa
 * [Graph] Añada el nuevo atributo &#39;Modelo de material&#39; a los Substance
 * [NewGraph] Agregar separadores en la vista de miniaturas
 * [Parámetros] Defina el valor de constante predeterminado para los parámetros de entrada con el editor &#39;Function&#39;
 * [Parámetros] Rellenar el cuadro combinado de parámetros de nodo `Set` y `Is defined` con variables disponibles
-* [Preferencias] Eliminación de la opción obsoleta &quot;Desescalar factor&quot; en la ficha &quot;Vista 3D&quot;
+* [Preferencias] Eliminación de la opción obsoleta &quot;Desescalar factor&quot; en la pestaña &quot;Vista 3D&quot;
 * [Publish] Cuadro de diálogo de Publish: Incluir modelo de material en la información del gráfico
 * [Python] Agregue la nueva clase SDMaterialModelDescription para obtener la información de un modelo de material
 * [Python] Permite obtener o establecer la propiedad de modelo de material de los objetos SDSBSCompGraph
@@ -350,10 +350,10 @@ están sincronizados
 
 ### Correcciones
 
-* [Vista 2D] El intervalo de selección del histograma no se conserva cuando la anchura del widget se vuelve pequeña
+* [vista 2D] El intervalo de selección del histograma no se conserva cuando la anchura del widget se vuelve pequeña
 * [Exportación 3D] Las mallas exportadas desde Designer no se procesan igual en usdview
-* [Vista 3D] Al asignar elementos que no son de audio a la vista 3D, se deja el modo de procesamiento de un solo azulejo
-* [Vista 3D] Resultado de sujeción al utilizar OCIO
+* [Vista 3D] La asignación de elementos que no sean de audio al Vista 3D deja el modo de procesamiento de un solo mosaico
+* [Vista 3D] Resultado Ajustado al utilizar OCIO
 * [Vista 3D] Bloqueo al aplicar una textura de gráfico a un material no modificado para una escena específica
 * [Vista 3D] Bloqueo al crear búferes de fotogramas
 * [Vista 3D] Trazador de ruta de GPU Eclair: Geometría rota y bajo rendimiento al renderizar un modelo específico
@@ -380,7 +380,7 @@ están sincronizados
 * [Graph] Los vínculos de gráficos se eliminan cuando se cambia el nombre de un nodo de entrada de imagen
 * [Graph] Los vínculos y los bordes a veces muestran defectos
 * [Preferencias] Se invierte la escala de la ventana gráfica
-* [Propiedades] Bloqueo al modificar el ajuste de entrada de gráfico mientras se muestran los parámetros de instancia
+* [Propiedades] Bloqueo al modificar el ajuste de entrada del gráfico mientras se muestran sus parámetros de instancia
 * [Python] No se pueden importar módulos PySide6 (posible conflicto con la instalación PySide6 existente)
 * [Python] Los módulos PySide y Shiboken existentes entran en conflicto con los módulos Designer
 * [UI] El estilo de desplazamiento desaparece en los botones en casos específicos (solo Windows)

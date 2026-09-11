@@ -38,7 +38,7 @@ Ya no es necesario utilizar una calculadora ni calcular en la cabeza cuando se d
 
 ![](../../assets/final-formula.gif){width="640px"}
 
-### Botones de acceso rápido en la vista 3D
+### Botones de acceso rápido en el Vista 3D
 
 Hemos añadido una barra de herramientas adicional en la [vista 3D](../../interface/3d-view/3d-view.md) correspondiente a todas las opciones disponibles en el menú [Mostrar](../../interface/3d-view/3d-view.md), para acceder rápidamente a todas estas opciones (por ejemplo, Malla metálica, Cuadrícula, Cuadro delimitador, etc.) como el botón cambia. También hemos añadido un botón de alternancia para mostrar/ocultar el mapa de entorno.
 
@@ -62,9 +62,9 @@ Cambia rápidamente entre un [color de entrada](../../compositing-graphs/nodes-r
 
 ![](../../assets/final-switch.gif){width="640px"}
 
-### Seleccionar la chincheta seleccionada al mostrar el Editor de degradado
+### Seleccionar el pin en el que se ha hecho clic al mostrar el Editor de degradado
 
-En el panel de propiedades, si hace clic en una chincheta para editar un degradado, ahora seleccionará automáticamente la chincheta correspondiente en el [Editor de degradado](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) mostrado.
+En el panel de propiedades, si hace clic en un pin para editar un degradado, ahora seleccionará automáticamente el pin correspondiente en el [Editor de degradado](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) mostrado.
 
 ![](../../assets/final-gradient.gif){width="640px"}
 
@@ -76,7 +76,7 @@ Nueva entrada en el [menú contextual del nodo](../../interface/the-graph-view/t
 
 ## Actualizaciones de API de Python
 
-Esta versión 12.4 también ofrece compatibilidad total con los gráficos de modelos de Substance mediante la API de Python. Esto significa que ya tiene todas las herramientas necesarias para crear, editar o evaluar los gráficos del modelo de Substance. Para obtener más información, consulte la documentación disponible en el menú Ayuda del software.
+Esta versión 12.4 también ofrece compatibilidad total con gráficos de modelos de Substance a través de la API de Python. Esto significa que ya dispone de todas las herramientas necesarias para crear, editar o evaluar los gráficos de modelos de Substance. Para obtener más información, consulte la documentación disponible en el menú Ayuda del software.
 
 ## Notas de la versión
 
@@ -87,11 +87,11 @@ Esta versión 12.4 también ofrece compatibilidad total con los gráficos de mod
 <b>Agregado:</b>
 
 * [Vista 3D] Añada botones de acceso rápido para definir las opciones de visualización (Malla metálica, mapa de entorno, estadísticas de escena, etc.)
-* [Gestión de color] Mejora la calidad de las LUT 3D hechas un bake en modo ACE
+* [Gestión de color] Mejora la calidad de las LUT 3D horneadas en modo ACE
 * [Documentación] Ejemplos de proyectos para gráficos de Substance
 * [Documentación] Proyecto de muestra para gráficos de funciones
 * [Explorer] Permite mover gráficos y recursos de un elemento principal a otro sin cerrar ni invalidar los widgets
-* [Editor de degradado] Seleccione el pin en el que hace clic al mostrar el editor de degradados
+* [Editor de degradado] Seleccionar la chincheta seleccionada al mostrar el editor de degradado
 * [Graph] Añadir opción en el menú contextual de un nodo para seleccionar todos sus hijos
 * [Graph] Limpia la herramienta de gráficos para detectar y eliminar los nodos no utilizados en todos los tipos de gráficos y gráficos de propiedades
 * [Graph] Transformar la entrada de imagen a color/escala de grises
@@ -99,7 +99,7 @@ Esta versión 12.4 también ofrece compatibilidad total con los gráficos de mod
 * [Parámetros] Permite escribir fórmulas básicas como un parámetro
 * [Modelo de Substance] Alternar para cambiar entre valores e iconos para nodos de valores
 * [UI] Botón para generar un valor aleatorio cuando se requiere una semilla aleatoria
-* [UI] Resaltar en la Vista 3D el elemento seleccionado actualmente en el Explorador de escenas
+* [UI] Resaltar en la vista 3D el elemento seleccionado actualmente en el explorador de escenas
 * [UX] Restablecer intervalos del regulador cuando se restablece su valor
 * [API] Permitir la adición de acciones a las barras de herramientas de la vista de gráfico
 * [API] Permite crear/editar/evaluar un gráfico de modelo de Substance desde la API.

@@ -32,7 +32,7 @@ Variables del sistema
 | --- | --- | --- |
 | $size | Flotante 2 | Devuelve el tamaño del nodo actual en píxeles.   Si se usa en el parámetro [Tamaño de salida](../../../compositing-graphs/output-size/output-size.md) establecido en *Relativo a...* [método de herencia](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), devuelve el *valor heredado*. |
 | $sizelog2 | Flotante 2 | Como se ha indicado anteriormente, pero devuelve el tamaño como valores de potencia de 2 (por ejemplo: para la imagen 2048\*2048, `$sizelog2` devuelve 11).   Si se usa en el parámetro [Tamaño de salida](../../../compositing-graphs/output-size/output-size.md) establecido en *Relativo a...* [método de herencia](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), devuelve el *valor heredado*. |
-| $pixelratio | Entero | Devuelve un valor entero correspondiente a la proporción de píxeles del nodo actual (heredada o absoluta):   0: Estiramiento 1: Cuadrado |
+| $pixelratio | Entero | Devuelve un valor entero correspondiente a la proporción de píxeles del nodo actual (heredada o absoluta):   0: Estirar 1: Cuadrado |
 | $mosaico | Entero | Devuelve un valor entero correspondiente al modo de segmentación de nodos actual (heredado o absoluto):   0: Sin mosaico 1: Mosaico horizontal 2: Mosaico vertical 3: Mosaico en H y V |
 | $fisiccalsize | Flotante 3 | Devuelve el valor de la propiedad [graph](../../../compositing-graphs/graph-parameters/graph-parameters.md) <b>Tamaño físico</b>. |
 | $uvitil | Entero 2 | Cuando se utilizan flujos de trabajo UDIM, esta variable devuelve el índice de la vista actual en U y V.   Por ejemplo, (2, 0) para el azulejo 1003, (7, 11) para el azulejo 1118, ... |

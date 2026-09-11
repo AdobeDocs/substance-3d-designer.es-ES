@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![](grunge-galvanic-large.resources/grungegalvaniclarge.jpg){width="200px"}
 
-<b>En:</b> Generadores de Textura > Ruidos
+<b>En:</b> Generadores de texturas > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ El nodo **Suciedad Galvanic Large** genera un mapa de suciedades similar al patr
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Intensidad de deformación</b> <i>Flotante</i> | Ajusta la intensidad del efecto de deformación principal. |
-| <b>Opacidad de detalle de reborde</b> <i>Flotante</i> | Ajusta la opacidad de las crestas más brillantes. |
+| <b>Intensidad de deformación</b> <i>Flotador</i> | Ajusta la intensidad del efecto de deformación principal. |
+| <b>Opacidad de detalle de reborde</b> <i>Flotador</i> | Ajusta la opacidad de las crestas más brillantes. |
 | <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajusta la intensidad del efecto de enfoque global. |
 
 ## Ejemplos

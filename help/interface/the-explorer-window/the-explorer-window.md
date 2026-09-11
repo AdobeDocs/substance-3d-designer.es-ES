@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Explorer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -35,7 +35,7 @@ El Explorador es donde se inician y terminan los proyectos, ya que permite crear
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorador acoplado](../../assets/explorer-3.jpg "Explorador acoplado")
+![Explorador acoplado](the-explorer-window.resources/explorer-3.jpg "Explorador acoplado")
 
 </td>
 </tr>
@@ -47,25 +47,25 @@ Puede realizar algunas acciones importantes a través del conjunto acoplado del 
 * Cargar paquetes existentes
 * Guardar y cerrar paquetes cargados
 * [Importar y vincular recursos](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
-* [Exportación de resultados de gráficos a texturas](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
+* [Exportar resultados de gráficas a texturas](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
 * [Publish convierte un paquete en un recurso de Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
 * [Enviar paquetes a otras aplicaciones de Substance 3D](send-to-interoperability/send-to-interoperability.md)
-* [Hornear mapas desde una malla](../../bakers/bakers.md)
+* [Hacer un bake mapas de una malla](../../bakers/bakers.md)
 
 ## Barra de herramientas superior
 
 Esta barra de herramientas le permite realizar rápidamente funciones relacionadas con el flujo de trabajo general. Todos los botones son *según el contexto*, lo que significa que se activan y cambian su comportamiento en función de su selección actual en el Explorador.
 
-![](../../assets/save.png) <b>Guardar</b> paquete seleccionado.
+![](the-explorer-window.resources/save.png) <b>Guardar</b> paquete seleccionado.
 
-![](../../assets/sendto-icon.jpg) <b>Publish o [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> elementos seleccionados:
+![](the-explorer-window.resources/sendto-icon.jpg) <b>Publish o [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> elementos seleccionados:
 
 * [Publish envía cualquier paquete seleccionado a un recurso de Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * Envía el paquete seleccionado a [Substance 3D Sampler](https://www.adobe.com/es/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) o [Substance 3D Stager](https://www.adobe.com/es/products/substance3d-stager.html).
 
-![](../../assets/republish.png) <b>Publish o enviar como anterior:</b> Publish o enviar los elementos seleccionados con la misma configuración que antes. Esta opción solo está disponible en un paquete que ya se ha publicado *al menos una vez* en la *sesión actual*.
+![](the-explorer-window.resources/republish.png) <b>Publish o enviar como anterior:</b> Publish o enviar los elementos seleccionados con la misma configuración que antes. Esta opción solo está disponible en un paquete que ya se ha publicado *al menos una vez* en la *sesión actual*.
 
-![](../../assets/graph-cleaner.jpg) <b>Quitar nodos no utilizados</b> en los gráficos seleccionados. La herramienta sigue estas reglas:
+![](the-explorer-window.resources/graph-cleaner.jpg) <b>Quitar nodos no utilizados</b> en los gráficos seleccionados. La herramienta sigue estas reglas:
 
 * La herramienta solo está disponible si los elementos seleccionados son del *mismo tipo*: solo gráficos, carpetas o paquetes;
 * Cuando la selección incluye carpetas o paquetes, la herramienta limpia todos los gráficos de *recursivamente*;
@@ -77,14 +77,14 @@ Obtenga más información sobre la herramienta en la sección &quot;Quitar nodos
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Menú desplegable Publish/Enviar](../../assets/explorer-sendto-displayed.jpg "menú desplegable Publish/Enviar")
+![Menú desplegable Publish/Enviar](the-explorer-window.resources/explorer-sendto-displayed.jpg "menú desplegable Publish/Enviar")
 
 *Publish/Send*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Quitar nodos no utilizados del menú desplegable](../../assets/explorer-graph-cleaner.jpg "Quitar nodos no utilizados del menú desplegable")
+![Quitar nodos no utilizados del menú desplegable](the-explorer-window.resources/explorer-graph-cleaner.jpg "Quitar nodos no utilizados del menú desplegable")
 
 *Quitar nodos no utilizados*
 
@@ -158,7 +158,7 @@ El espacio vacío solo está disponible debajo de los paquetes abiertos actualme
 
 +++Recurso de escena 3D
 
-<b>Abrir:</b> (Retorno) Usa esta malla 3D en [la vista 3D](../../interface/3d-view/3d-view.md), reemplazando el cubo o plano estándar.
+<b>Abrir:</b> (Retorno) Usa esta malla 3D en [el Vista 3D](../../interface/3d-view/3d-view.md), reemplazando el cubo o plano estándar.
 
 <b>Copiar:</b> (Ctrl-C) Copia este recurso en el portapapeles.
 
@@ -174,13 +174,13 @@ El espacio vacío solo está disponible debajo de los paquetes abiertos actualme
 
 <b>Reubicar:</b> Cambie este recurso para que esté vinculado a otro archivo.
 
-<b>Información del modelo de horneado...:</b> Abre el [cuadro de diálogo Horneado.](../../bakers/bakers.md)
+<b>Hacer un bake información de modelo...:</b> Abre el cuadro de diálogo [Haciendo un bake.](../../bakers/bakers.md)
 
 +++
 
 +++Carpeta
 
-<b>Nuevo:</b> Permite crear en la carpeta nuevos recursos de gráficos ([gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md), [gráfico de funciones de Substance](../../function-graphs/function-graphs.md), [mapa de bits](../../resources/bitmap-resource/bitmap-resource.md) y [gráficos vectoriales](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)), así como *carpetas* para ordenar el contenido.
+<b>Nuevo:</b> Te permite crear en la carpeta nuevos gráficos ([gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md), [gráfico de funciones de Substance](../../function-graphs/function-graphs.md), [mapa de bits](../../resources/bitmap-resource/bitmap-resource.md) y [gráficos vectoriales](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) recursos, así como *carpetas* para ordenar el contenido.
 
 <b>Importar</b> y <b>Vínculo: </b>Permiten que traigas [recursos](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) y los coloques en la carpeta.
 
@@ -200,9 +200,9 @@ El espacio vacío solo está disponible debajo de los paquetes abiertos actualme
 
 La barra de herramientas situada en la parte inferior del conjunto acoplado del Explorador proporciona información sobre un paquete o un recurso de paquete:
 
-<b>![](../../assets/explorer-dependencies.jpg) dependencias:</b> Cuando se selecciona un paquete, sus dependencias del paquete se enumeran en un panel dedicado.
+<b>![](the-explorer-window.resources/explorer-dependencies.jpg) dependencias:</b> Cuando se selecciona un paquete, sus dependencias del paquete se enumeran en un panel dedicado.
 
-Información de <b>![](../../assets/explorer-information.jpg):</b> Proporciona metadatos relacionados con el paquete o recurso seleccionado actualmente:
+Información de <b>![](the-explorer-window.resources/explorer-information.jpg):</b> Proporciona metadatos relacionados con el paquete o recurso seleccionado actualmente:
 
 * Paquete: la ruta completa del paquete
 * [Recurso de mapa de bits](../../resources/bitmap-resource/bitmap-resource.md): la ruta de archivo completa del recurso, su [perfil ICC](../../color-management/color-management.md), tamaño de imagen y [método de importación](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (es decir, *vinculado* o *importado*)
@@ -211,14 +211,14 @@ Información de <b>![](../../assets/explorer-information.jpg):</b> Proporciona m
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Panel de dependencias](../../assets/explorer-dependencies-displayed.jpg "Panel de dependencias")
+![Panel de dependencias](the-explorer-window.resources/explorer-dependencies-displayed.jpg "Panel de dependencias")
 
 *Dependencias*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Panel de información](../../assets/explorer-information-displayed.jpg "Panel de información")
+![Panel de información](the-explorer-window.resources/explorer-information-displayed.jpg "Panel de información")
 
 *Información*
 

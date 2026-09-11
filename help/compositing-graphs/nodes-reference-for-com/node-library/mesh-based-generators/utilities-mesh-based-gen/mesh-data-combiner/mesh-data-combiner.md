@@ -49,7 +49,7 @@ Alterne las entradas de mapa que desea habilitar y la salida en el resultado emp
 
 |  |  |
 |:---|:---|
-| <b>Oclusión ambiental</b> <i>Falso/Verdadero</i> |  |
+| <b>Oclusión de ambiente</b> <i>Falso/Verdadero</i> |  |
 | <b>Máscaras UV</b> <i>Falso/Verdadero</i> |  |
 | <b>Curvatura</b> <i>Falso/Verdadero</i> |  |
 | <b>Height</b> <i>Falso/Verdadero</i> |  |

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
-description: Utilice el nodo Mezclador normal de Height para fusionar mapas normales y de height para combinar información de detalle de superficie.
+description: Utilice el nodo Mezclador normal de Height para fusionar height y mapas de normales y así combinar información de detalle de superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height Normal Blender
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Descripción
 
-Nodo de acceso directo que fusiona un mapa de altura en escala de grises en un mapa normal. La entrada de Height se convierte a un mapa normal internamente y, a continuación, se fusiona correctamente con la entrada normal.
+Nodo de método abreviado que combina un mapa de altura en escala de grises con un mapa normal. La entrada de Height se convierte a un mapa normal internamente y, a continuación, se fusiona correctamente con la entrada normal.
 
 Esta es una forma más rápida de fusionar detalles que hacerlo manualmente con nodos separados, pero es posible que le falte control y perfeccionamiento para ciertas necesidades.
 

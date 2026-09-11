@@ -62,7 +62,7 @@ Ecualiza el histograma de una imagen de escala de grises, ajustando eficazmente 
 |  |  |
 |:---|:---|
 | <b>Resolución del histograma</b> *Entero* | Anchura del histograma. Un valor más alto permite una distribución de valor más fina.   Las resoluciones disponibles son, en píxeles:  256, 512, 1024, 2048, 4096 |
-| <b>Suavizado de histograma</b> *Flotador* | El histograma se puede suavizar redistribuyendo los valores de escala de grises de la imagen para igualar la *diferencia* entre cada valor.   Este parámetro ajusta la intensidad de ese suavizado. |
+| <b>Suavizado de histograma</b> *Flotante* | El histograma se puede suavizar redistribuyendo los valores de escala de grises de la imagen para igualar la *diferencia* entre cada valor.   Este parámetro ajusta la intensidad de ese suavizado. |
 
 ## Ejemplos
 

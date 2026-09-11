@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
 breadcrumb-title: ''
-description: Utilice el nodo Asignador de frecuencias de mapa de altura para asignar frecuencias de mapa de altura para separar niveles de detalle en las texturas.
+description: Utilice el nodo Asignador de frecuencias de mapa de Height para asignar frecuencias de mapa de height para separar niveles de detalle en texturas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Height Map Frequencies Mapper
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Asignador de frecuencias de mapa de altura
+title: Asignador de frecuencias de mapa de height
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
@@ -18,7 +18,7 @@ ht-degree: 8%
 ---
 
 
-# Asignador de frecuencias de mapa de altura
+# Asignador de frecuencias de mapa de height
 
 <table>
 <tr style="border: 0;">

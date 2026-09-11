@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elementos de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ Los elementos de gráficos son objetos especiales que le ayudan a organizar sus 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icono de nodo de punto](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Icono de nodo de punto](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Nodo de punto (también Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Icono de Marco](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![Icono de Marco](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Marco
 
@@ -60,14 +60,14 @@ Agrupe nodos con etiquetas y códigos de color y, a continuación, muévalos fá
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icono de comentario](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![Icono de comentario](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Comentario
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Icono de pin de navegación](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Icono de pin de navegación](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Pin
 

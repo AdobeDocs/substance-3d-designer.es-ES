@@ -54,7 +54,7 @@ Los parámetros pueden tener muchas formas diferentes: reguladores, diales, cuad
 +++
 
 +++¿Tengo que saber matemáticas para exponer? ¿Debo entender las gráficas de funciones del Substance?
-***No se requiere conocimiento matemático para hacer un buen uso de los parámetros de exposición, ni tampoco se requiere el uso de funciones.***  Como usuario principiante, puedes evitar casi por completo tener que realizar operaciones matemáticas en [Gráficos de funciones](../../../function-graphs/function-graphs.md). Lo único que se recomienda encarecidamente es tener un [conocimiento básico decente de los diferentes tipos de datos, como Integer, Float y Boolean.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
+***No se requiere conocimiento matemático para hacer un buen uso de los parámetros de exposición, ni tampoco se requiere el uso de funciones.***  Como usuario principiante, puedes evitar casi por completo tener que realizar operaciones matemáticas en [Gráficos de funciones](../../../function-graphs/function-graphs.md). Lo único que se recomienda encarecidamente es tener un [conocimiento básico decente de los diferentes tipos de datos, como Integer, Flotante y Boolean.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
 
 +++
 
@@ -117,7 +117,7 @@ Como solución alternativa, puedes usar un nodo [Switch](../../../compositing-gr
 | Todos los nodos | Modo Mosaico Proporción de píxeles |
 | [Color uniforme](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | Modo de color |
 | [Procesador de píxeles](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Modo de color |
-| [Fusionar](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Modo de fusión Fusión Alpha fusionar Área de recorte |
+| [Fusión](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Modo de fusión Mezcla alfa Área de recorte |
 | [FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | Modo de fusión |
 | [Cuadrante](../../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | Patrón de entrada imagen alfa Entrada imagen filtrado |
 
@@ -136,9 +136,9 @@ Para cambiar las opciones de un parámetro expuesto:
 
 ### PARÁMETROS DE ENTRADA
 
-Todos los parámetros expuestos se muestran en la ficha Parámetros de entrada. Las siguientes propiedades están disponibles para la mayoría de los casos comunes, como flotantes e enteros con el tipo de editor predeterminado.
+Todos los parámetros expuestos se muestran en la ficha Parámetros de entrada. Las siguientes propiedades están disponibles para la mayoría de los casos comunes, como Flotante e enteros con el tipo de editor predeterminado.
 
-1. <b>Identificador</b>: Identificador único de este parámetro. No puede contener espacios ni caracteres especiales.
+1. <b>Identificador</b>: Identificador único para este parámetro. No puede contener espacios ni caracteres especiales.
 1. <b>Etiqueta</b>: Etiqueta de solo IU. Si no se ha definido ninguna etiqueta, el identificador se muestra en la interfaz de usuario. Puede contener espacios y caracteres especiales
 1. <b>Grupo</b>: Agrupe los parámetros en una sección contraíble para mantener las largas listas de parámetros limpias y manejables. Los parámetros se agrupan si comparten el *mismo nombre de grupo* exacto. Utilice el carácter `/` para crear *subgrupos*, p. ej. `My Group/My Sub-group`
 1. <b>Descripción</b>: Campo de texto para la descripción, que se utiliza como información sobre herramientas.

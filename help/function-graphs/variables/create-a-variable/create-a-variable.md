@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Crear una variable
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Cuando haya hecho esto, la variable estará disponible en el otro gráfico de fu
 >
 > Si tiene varias variables que crear, simplemente repita la operación de creación de nodos *Set* y *Sequence* y establezca el último nodo de secuencia como el nodo de salida:
 > 
-> ![](../../../assets/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
-description: Aprenda a crear gráficas de composición de Substance en Substance 3D Designer para crear flujos de trabajo de texturas procedimentales.
+description: Aprenda a crear gráficas de composición de Substance en Substance 3D Designer para crear flujos de trabajo de textura procedimienta.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Creating a Substance graph
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Creación de un gráfico de Substance
 
-La creación de texturas en Designer comienza por la creación de un gráfico de Substance, ya sea a partir de una plantilla prediseñada o de un gráfico vacío.
+La creación de texturas en Designer comienza por la creación de una gráfica de Substance, ya sea a partir de una plantilla prediseñada o de una gráfica vacía.
 
 <a name="create-graph"></a>
 

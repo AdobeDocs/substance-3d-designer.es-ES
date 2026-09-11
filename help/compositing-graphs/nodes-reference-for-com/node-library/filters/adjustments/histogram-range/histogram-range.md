@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
-description: Utilice el nodo Rango de histograma para reasignar valores de textura basados en rangos de histograma para la corrección y los ajustes de color.
+description: Utilice el nodo Rango de histograma para reasignar los valores de textura en función de los rangos de histograma para la corrección y los ajustes de color.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Range
 helpx_experience_level: ""

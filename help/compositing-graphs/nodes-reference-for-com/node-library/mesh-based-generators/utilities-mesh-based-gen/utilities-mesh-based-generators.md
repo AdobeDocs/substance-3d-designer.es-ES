@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Utilidades (generadores basados en malla)
 
-Estos nodos son herramientas más abstractas que le ayudan a trabajar con nodos adaptativos de malla. En algunos casos, su funcionalidad también está estrechamente vinculada a [Filtros de materiales](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md).
+Estos nodos son herramientas más abstractas que le ayudan a trabajar con nodos adaptativos de malla. En algunos casos, su funcionalidad también está estrechamente vinculada a [Filtros de material](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md).
 
 Solo hay unos pocos nodos en esta categoría, así que asegúrese de comprobarlos todos.

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sampler en mosaico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -122,7 +122,7 @@ Asegúrate de estar familiarizado con [Tile Generator](../../../../../../composi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>El ejemplo muestra cómo se controlan los parámetros mediante mapas de entrada (distribución de patrones, escala, rotación).</i>
+            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>El ejemplo muestra cómo se controlan los parámetros mediante mapas de entrada (distribución de patrones, escala, rotación).</i>
         </td>
     </tr>
 </table>

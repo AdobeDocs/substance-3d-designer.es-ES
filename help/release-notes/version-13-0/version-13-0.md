@@ -94,7 +94,7 @@ También proporcionamos herramientas para rehacer y retocar sus splines. Encontr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Transformación 2D Spline](../../assets/Spline2DTransform-Demo1.gif "Transformación 2D Spline")
+![Transformar spline 2D](../../assets/Spline2DTransform-Demo1.gif "Transformar spline 2D")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -150,7 +150,7 @@ Gracias al [relleno de spline](../../compositing-graphs/nodes-reference-for-com/
 
 El nodo [Mask to Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) te permite extraer el borde de un patrón de escala de grises, en forma de una lista de segmentos.
 
-A continuación, puedes procesar estas rutas con los nodos [Path 2D Transform](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) o [Paths Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustarlas según tus necesidades.  Y gracias al nodo [Rutas a spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), puedes convertir tu ruta a spline, así que aprovecha todos los nodos dedicados a splines mencionados anteriormente, como la dispersión.
+Después, puedes procesar estas rutas con los nodos [Path 2D Transforme](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) o [Paths Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustarlas según tus necesidades.  Y gracias al nodo [Rutas a spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), puedes convertir tu ruta a spline, así que aprovecha todos los nodos dedicados a splines mencionados anteriormente, como la dispersión.
 
 <table>
 <tr style="border: 0;">
@@ -186,16 +186,16 @@ Y para ayudarle a aprender todos estos nuevos nodos, publicamos dos nuevos tutor
 
 Todos los nuevos nodos enumerados anteriormente se basan en la nueva versión de Substance Engine y están aprovechando al máximo su nueva función principal: <b>bucles</b>.
 
-Los bucles solo se deben usar dentro de [gráficos de funciones de Substance](../../function-graphs/function-graphs.md) y lo más probable es que los implemente en un [procesador de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), un [mapa de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) o un [procesador de valores](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md). Los bucles, por supuesto, le permiten repetir fácilmente una función muchas veces, hasta que se respete una condición. Te ayudará a aligerar mucho tus gráficos y ganar en precisión.
+Los bucles solo se deben usar dentro de [Substance function graphs](../../function-graphs/function-graphs.md) y lo más probable es que los implemente en un [Procesador de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), un [Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) o un [Procesador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md). Los bucles, por supuesto, le permiten repetir fácilmente una función muchas veces, hasta que se respete una condición. Te ayudará a aligerar mucho tus gráficos y ganar en precisión.
 
 Este [tutorial](https://www.youtube.com/watch?v=Ggoy8G90oDI) dedicado te ayudará a empezar a trabajar con bucles.
 
 Substance Engine v9 también incorpora las siguientes mejoras:
 
-* Nuevo modo sólido en el editor de degradados del nodo [Gradient Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) (es decir, no hay interpolación)
+* Nuevo modo sólido en el editor de degradados del nodo [Mapa de degradado](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) (es decir, sin interpolación)
 * Nodo pow() atómico en gráficas de funciones de Substance
 * Añadir opciones de ajuste de bordes (sujetar a borde, repetir) en nodos de Sampler
-* Muestreo más cercano en nodos [Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) y [Directional Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
+* Muestreo más cercano en nodos [Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) y [Deformación direccional](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 ## Nodo Portal
 

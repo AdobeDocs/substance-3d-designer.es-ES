@@ -61,14 +61,14 @@ Consulte también: [Celdas 1](../../../../../../compositing-graphs/nodes-referen
 | <b>Dureza</b> <i>Flotador</i> | Definición de las paredes de celdas, donde un valor más alto produce paredes más definidas y nítidas. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte los valores de escala de grises del resultado de la imagen. |
 | <b>Desorden</b> <i>Flotador</i> | Desplaza los ingredientes del ruido.    Se puede utilizar para animar el ruido. |
-| <b>Velocidad del desorden</b> <i>Flotante</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
-| <b>anisotropía de desorden</b> <i>Flotante</i> | Controla el intervalo de direcciones del desplazamiento aplicado por el parámetro <b>Disorder</b>, donde un valor más alto produce una dirección más estrecha y definida.    La dirección está controlada por el parámetro <b>ángulo de anisotropía de desorden</b>. |
-| <b>ángulo de anisotropía de desorden</b> <i>Flotante</i> | Controla la dirección del desplazamiento aplicado por el parámetro <b>Disorder</b> cuando el parámetro &#39;Disorder anisotropía&#39; no es cero. |
-| <b>Tamaño de trama</b> <i>Flotante2</i> | Un multiplicador para el tamaño de un disco disperso en su celda., donde 1.0 es la extensión completa de la celda. |
-| <b>Escala de patrón</b> <i>Flotante</i> | Un multiplicador para <b>Pattern size</b>, donde 1.0 es el tamaño completo. |
-| <b>Ángulo</b> <i>Flotante</i> | El ángulo utilizado para establecer la dirección de los discos, en número de vueltas y comenzando desde la derecha horizontal. |
-| <b>Ángulo aleatorio</b> <i>Flotante</i> | Cantidad máxima de variación aleatoria aplicada al valor <b>Angle</b>, en número de vueltas. |
-| <b>Desplazamiento de mosaico</b> <i>Flotante2</i> | Controla la posición de la parte del plano infinito utilizada para procesar el ruido. |
+| <b>Velocidad del desorden</b> <i>Flotador</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
+| <b>anisotropía de desorden</b> <i>Flotador</i> | Controla el intervalo de direcciones del desplazamiento aplicado por el parámetro <b>Disorder</b>, donde un valor más alto produce una dirección más estrecha y definida.    La dirección se controla mediante el parámetro <b>Ángulo de anisotropía de desorden</b>. |
+| <b>ángulo de anisotropía de desorden</b> <i>Flotador</i> | Controla la dirección del desplazamiento aplicado por el parámetro <b>Disorder</b> cuando el parámetro &#39;Disorder anisotropía&#39; no es cero. |
+| <b>Tamaño de trama</b> <i>Float2</i> | Un multiplicador para el tamaño de un disco disperso en su celda., donde 1.0 es la extensión completa de la celda. |
+| <b>Escala de patrón</b> <i>Flotador</i> | Un multiplicador para <b>Pattern size</b>, donde 1.0 es el tamaño completo. |
+| <b>Ángulo</b> <i>Flotador</i> | El ángulo utilizado para establecer la dirección de los discos, en número de vueltas y comenzando desde la derecha horizontal. |
+| <b>Ángulo aleatorio</b> <i>Flotador</i> | Cantidad máxima de variación aleatoria aplicada al valor <b>Angle</b>, en número de vueltas. |
+| <b>Desplazamiento de mosaico</b> <i>Float2</i> | Controla la posición de la parte del plano infinito utilizada para procesar el ruido. |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | En imágenes no cuadradas, mantiene el cuadrado del mosaico generado y expande la generación de ruido a los límites de la imagen. |
 
 ## Ejemplos

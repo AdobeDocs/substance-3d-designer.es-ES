@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Valores en gráficos de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
@@ -34,18 +34,18 @@ Dos nuevos nodos atómicos funcionan con valores:
 
 |  |  |
 | --- | --- |
-| <div><img alt="Icono de nodo de Value Processor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../assets/valueprocessor.png" title="Icono de nodo de Value Processor" width="100px"/></div>  <b>[Procesador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | El [Procesador de valores](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) toma Cualquier número de entradas de escala de grises o de color y le permite devolver un solo valor de los cálculos basados en estas entradas. |
-| <div><img alt="Icono de nodo Entrada de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../assets/inputnumeric.png" title="Icono de nodo Entrada de valor" width="100px"/></div>  **[Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | La [Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) le permite crear una ranura de entrada en subgráficos que se define explícitamente como un valor. |
+| <div><img alt="Icono de nodo de Value Processor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="Icono de nodo de Value Processor" width="100px"/></div>  <b>[Procesador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | El [Procesador de valores](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) toma Cualquier número de entradas de escala de grises o de color y le permite devolver un solo valor de los cálculos basados en estas entradas. |
+| <div><img alt="Icono de nodo Entrada de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Icono de nodo Entrada de valor" width="100px"/></div>  **[Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | La [Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) le permite crear una ranura de entrada en subgráficos que se define explícitamente como un valor. |
 
 Además, otros nodos se ocupan de ellos de una manera específica:
 
 El [nodo de salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) se ajusta automáticamente para convertirse en un valor de salida si se conecta a él una conexión de valor, como lo hacía antes con la escala de grises y el color.
 
-![Nodo de valor de salida](../../assets/values-output.gif "Nodo de valor de salida"){width="512px"}
+![Nodo de valor de salida](values-in-substance-compositing-graphs.resources/values-output.gif "Nodo de valor de salida"){width="512px"}
 
 Hay una nueva pestaña en cada nodo ([Atomic](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) y [Library](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)/Instance) que te permite definir entradas de Value.
 
-![Agregando valores de entrada en el nodo](../../assets/values-inputs.gif "Agregando valores de entrada en el nodo")
+![Agregando valores de entrada en el nodo](values-in-substance-compositing-graphs.resources/values-inputs.gif "Agregando valores de entrada en el nodo")
 
 ## Uso de valores
 
@@ -57,4 +57,4 @@ El procesador de valores solo puede devolver un único valor; si desea devolver 
 
 Para resaltar dónde se exponen o se usan los valores, cualquier nodo que tenga entradas de valor o salidas de valor se resalta con un borde amarillo grueso:
 
-![Trabajar con valores](../../assets/yellowhighlight.png "Trabajar con valores")
+![Trabajar con valores](values-in-substance-compositing-graphs.resources/yellowhighlight.png "Trabajar con valores")

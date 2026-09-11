@@ -43,7 +43,7 @@ La versión 12.2 de Designer es la primera con el soporte nativo completo de los
   </b>Para acelerar la creación de los nodos más utilizados, ahora puede definir sus propios métodos abreviados en Preferencias, como para los otros tipos de gráficos.![](../../assets/shorcuts.png)
 
 * <b>Vista previa del nodo desde el menú contextual del nodo\
-  </b>En nuestra última versión, hemos añadido la posibilidad de previsualizar un nodo en la vista 3D gracias a un método abreviado de teclado (*MAYÚS + Clic* en un nodo). Esta característica ahora también está disponible en el *menú contextual del nodo* para que sea más detectable.
+  </b>En nuestra última versión, hemos añadido la posibilidad de obtener una vista previa de un nodo en la Vista 3D gracias a un método abreviado de teclado (*MAYÚS + Clic* en un nodo). Esta característica ahora también está disponible en el *menú contextual del nodo* para que sea más detectable.
 
   ![](../../assets/previewnode.gif){width="600px"}
 * <b>Búsqueda basada en la compatibilidad de nodos\
@@ -51,9 +51,9 @@ La versión 12.2 de Designer es la primera con el soporte nativo completo de los
 
 ### Miscelánea
 
-* <b>Mejoras en la vista 2D</b>\
-  Cuando en versiones anteriores era posible ver las salidas del gráfico en la vista 3D a través del *menú contextual* del gráfico del Substance, no era posible ver una salida del gráfico en la vista 2D. Esta opción se ha añadido a este menú, con un submenú que muestra todas las salidas de gráficos que se mostrarán en la vista 2D.\
-  El botón &quot;Ver resultados&quot; de la barra de herramientas Vista 2D también se ha actualizado con una flecha hacia abajo y una información sobre herramientas para que su comportamiento sea más claro.\
+* <b>Mejoras de vista 2D</b>\
+  Cuando en versiones anteriores era posible ver las salidas del gráfico en el Vista 3D a través del *menú contextual* del gráfico del Substance, no era posible ver una salida del gráfico en el vista 2D. Esta opción se ha añadido a este menú, con un submenú que muestra todas las salidas de gráficos que se mostrarán en la vista 2D.\
+  El botón &quot;Ver resultados&quot; de la barra de herramientas vista 2D también se ha actualizado con una flecha abajo y una información sobre herramientas para que funcione mejor.\
   Y, por último, la opción &quot;Salidas automáticas de gráficas de visualización al cargar una gráfica&quot; en Preferencias se ha *dividido en dos configuraciones distintas* - para la vista 2D y la Vista 3D respectivamente - para que puedas controlar qué vista debe abrirse y rellenarse automáticamente al cargar una gráfica.
 
 * <b>Plantilla CLO</b>\
@@ -116,7 +116,7 @@ La versión 12.2 de Designer es la primera con el soporte nativo completo de los
 * [UI] Las barras de herramientas no se ven afectadas por la opción Restablecer diseño
 * [UI] Cuadrícula de transparencia visible en el icono de recurso de fuente en el Explorador
 * [Cooker] Los gráficos de Substance que aparecen en el gráfico MDL siempre se vuelven a guardar por completo
-* [Graph] Bloqueo al pegar un nodo copiado de un gráfico con un identificador en blanco
+* [Graph] Bloqueo al pegar un nodo copiado de un gráfico con identificador en blanco
 * [MDL] Bloqueo al cerrar un gráfico MDL específico
 * [Performance] La aplicación no responde cuando se cargan paquetes muy grandes
 * [Resources] Los recursos de escena 3D se pueden importar en un caso específico

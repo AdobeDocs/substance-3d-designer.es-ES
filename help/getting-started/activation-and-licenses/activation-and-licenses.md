@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Activación y licencias
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Hay tres opciones disponibles:
 >
 > Para instalar el archivo de licencia con el Asistente de activación, asegúrese de ejecutar Designer como administrador y desactive temporalmente el antivirus.
 
-![Asistente de activación](../../assets/activation-wizard.png "Asistente de activación")
+![Asistente de activación](activation-and-licenses.resources/activation-wizard.png "Asistente de activación")
 
 ### Activación manual
 

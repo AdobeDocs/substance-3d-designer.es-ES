@@ -56,13 +56,13 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 | <b>Tamaño</b> <i>Float3</i> | Controla el tamaño del ruido fractal 3D Ridged en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto de <i>estiramiento o aplastamiento</i>. |
 | <b>Desplazamiento</b> <i>Float3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido fractal 3D Ridged en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
 | <b>Intensidad de Distorsión</b> <i>Flotador</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido fractal 3D Ridged. |
-| <b>Multiplicador de escala de Distorsión</b> <i>Flotador</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
+| <b>Multiplicador de escala de Distorsión</b> <i>Flotante</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
 | <b>Nivel Mínimo</b> <i>Entero</i> | Nivel mínimo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |
 | <b>Nivel máximo</b> <i>Entero</i> | Nivel máximo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |
-| <b>Rugosidad</b> <i>Flotador</i> | Controla el <i>equilibrio</i> entre los <i>niveles de repetición</i> bajos y altos en el patrón fractal.<br><br><i>Nota</i>: Un valor de <b>0</b> da como resultado un resultado que está <i>fuera de línea</i> con otros valores bajos que lo siguen. Esto es de esperar. |
-| <b>Lacunaridad</b> <i>Flotador</i> | Controla cómo el patrón fractal aplicado <i> rellena el espacio </i>. Un valor <i>superior</i> provoca <i>menos brechas</i> en el patrón y un ruido <i>más denso</i>. |
-| <b>Opacidad global</b> <i>Flotador</i> | Controla el <i>intervalo</i> de los valores de ruido fractal 3D Ridged <i>alrededor de</i> el valor <b>Baseline</b>. |
-| <b>Línea de base</b> <i>Flotador</i> | Aplica un <i>desplazamiento</i> al valor de <i>luminancia</i> de línea de base para la distribución de valor de ruido 3D Ridged. |
+| <b>Rugosidad</b> <i>Flotante</i> | Controla el <i>equilibrio</i> entre los <i>niveles de repetición</i> bajos y altos en el patrón fractal.<br><br><i>Nota</i>: Un valor de <b>0</b> da como resultado un resultado que está <i>fuera de línea</i> con otros valores bajos que lo siguen. Esto es de esperar. |
+| <b>Lacunaridad</b> <i>Flotante</i> | Controla cómo el patrón fractal aplicado <i> rellena el espacio </i>. Un valor <i>superior</i> provoca <i>menos brechas</i> en el patrón y un ruido <i>más denso</i>. |
+| <b>Opacidad global</b> <i>Flotante</i> | Controla el <i>intervalo</i> de los valores de ruido fractal 3D Ridged <i>alrededor de</i> el valor <b>Baseline</b>. |
+| <b>Línea de base</b> <i>Flotante</i> | Aplica un <i>desplazamiento</i> al valor de <i>luminancia</i> de línea de base para la distribución de valor de ruido 3D Ridged. |
 | <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste del ruido de 3D Ridged. |
 | <b>Habilitar Mosaico</b> <i>Booleano</i> | Ajusta el ruido 3D Ridged para que el patrón resultante <i>se repita</i> en los ejes X, Y y Z. |
 

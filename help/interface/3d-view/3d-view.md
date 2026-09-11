@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vista 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Vista 3D
 
-La vista 3D le ayuda a ver y comprender sus materiales con mallas personalizadas y materiales PBR procesados.<br>Al igual que con todas las ventanas de Substance 3D Designer, funciona junto con otras ventanas mediante opciones de menú contextual y operaciones de arrastrar y soltar.
+El Vista 3D te ayuda a ver y comprender tus materiales con mallas personalizadas y materiales PBR procesados.<br>Al igual que con todas las ventanas de Substance 3D Designer, funciona junto con otras ventanas mediante opciones de menú contextual y operaciones de arrastrar y soltar.
 
 La vista 3D también proporciona dos métodos principales para procesar materiales en escenas 3D:
 * Visualización rápida y en tiempo real con los procesadores **Rasterizer** y **OpenGL**
@@ -38,11 +38,11 @@ Más información aquí: [Procesadores 3D](3d-renderers/3d-renderers.md)
 
 En la sección siguiente se explica cómo realizar acciones comunes en pocas palabras, junto con un archivo gif animado para ilustrar el proceso.
 
-![Navegación por ventanilla](../../assets/3d-navigate.gif "Navegación por ventanilla")
+![Navegación por ventanilla](3d-view.resources/3d-navigate.gif "Navegación por ventanilla")
 
 ### Navegación
 
-La cámara y el entorno de la vista 3D se pueden manipular de tres maneras:
+La cámara de Vista 3D y el entorno pueden manipularse de tres maneras:
 
 * <b>Órbita:</b> LMB+Arrastrar
 * <b>Panorámica</b>: MMB+Arrastrar/Ctrl+RMB+Arrastrar
@@ -84,11 +84,11 @@ Puede interactuar con las mallas directamente en la ventana gráfica:
 
 <b>Presione Escape para deseleccionar.</b> No es necesario que el cursor esté en la malla.
 
-![Vista 3D - Enfocar y deseleccionar](../../assets/sceneBrowser-focus.gif "Vista 3D - Enfocar y deseleccionar"){zoomable="yes"}
+![Vista 3D - Enfocar y deseleccionar](3d-view.resources/sceneBrowser-focus.gif "Vista 3D - Enfocar y deseleccionar"){zoomable="yes"}
 
 *Seleccionar, enfocar y deseleccionar*
 
-![Vista 3D - Menú contextual](../../assets/sceneBrowser-contextualMenu.gif "Vista 3D - Menú contextual"){zoomable="yes"}
+![Vista 3D - Menú contextual](3d-view.resources/sceneBrowser-contextualMenu.gif "Vista 3D - Menú contextual"){zoomable="yes"}
 
 *Seleccionar, menú contextual*
 
@@ -114,13 +114,13 @@ Para utilizar su propio entorno de luz HDR personalizado, importe una imagen HDR
 
 Ve a <b>Luces > Editar propiedades</b> para cambiar las luces puntuales de tu escena.
 
-La luz puntual 1 se puede mover alrededor del origen de la escena manteniendo pulsada la tecla LMB o RMB y arrastrando en la ventanilla en el modo Iluminación. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+La luz puntual 1 se puede mover alrededor del origen de la escena manteniendo pulsada la tecla LMB o RMB y arrastrando en la ventanilla en el modo Iluminación. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-En modo de cámara <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> , también puedes cambiar temporalmente al modo de iluminación manteniendo pulsadas las teclas Ctrl+ ⇧ en combinación con los botones del ratón.
+En modo de cámara <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , también puedes cambiar temporalmente al modo de iluminación manteniendo pulsadas las teclas Ctrl+ ⇧ en combinación con los botones del ratón.
 
 ## Ver datos en vista 3D
 
-![Salidas de gráfica de Substance de vista](../../assets/3d-material.gif "Salidas de gráfica de Substance de vista")
+![Salidas de gráfica de Substance de vista](3d-view.resources/3d-material.gif "Salidas de gráfica de Substance de vista")
 
 ### Gráficos de Substance
 
@@ -140,7 +140,7 @@ Al *cargar un gráfico*, sus resultados se aplican automáticamente en la vista 
 > 
 > Si utiliza mallas personalizadas con más de un material, se le pedirá que elija a qué ranura de material asignar el material. Con cualquiera de los métodos anteriores, haga clic en una ranura para confirmar su elección. Para obtener más información sobre los materiales y su asignación, lea la sección detallada a continuación.
 
-![Visualización de salidas de nodos frente a gráficos en la vista 3D](../../assets/3d-channel.gif "Visualización de salidas de nodos frente a gráficos en la vista 3D")
+![Visualización de salidas de nodos frente a gráficos en la vista 3D](3d-view.resources/3d-channel.gif "Visualización de salidas de nodos frente a gráficos en la vista 3D")
 
 ### Salida de nodo/gráfico individual
 
@@ -152,7 +152,7 @@ También puedes usar *RMB* para arrastrar y soltar cualquier nodo de la vista de
 
 Puede ver cualquier resultado de gráfico individual expandiendo el recurso de gráfico en el conjunto acoplado [Explorer](../the-explorer-window/the-explorer-window.md) y usando *LMB* para arrastrar ese resultado a la vista 3D. Se le mostrará una lista con los canales disponibles para asignar el nodo. Haga clic en cualquiera para confirmar.
 
-![Visualización de mallas 3D personalizadas](../../assets/3d-mesh.gif "Visualización de mallas 3D personalizadas")
+![Visualización de mallas 3D personalizadas](3d-view.resources/3d-mesh.gif "Visualización de mallas 3D personalizadas")
 
 ## Visualización de escenas 3D (personalizadas)
 
@@ -161,7 +161,7 @@ Elija cualquiera de las mallas predeterminadas en el menú desplegable <b>Escena
 
 Para escenas 3D personalizadas, vaya a la sección [Trabajar con escenas 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Cambio de propiedades de material](../../assets/3d-materials.gif "Cambio de propiedades de material")
+![Cambio de propiedades de material](3d-view.resources/3d-materials.gif "Cambio de propiedades de material")
 
 ## Cambiar propiedades del sombreado
 
@@ -184,7 +184,7 @@ Los sombreadores se pueden restablecer mediante las acciones &quot;Restablecer m
 > * <b>Rasterizador/Trazador de ruta de GPU:</b> Situado en la configuración del procesador (Procesador > Editar configuración), afecta a *toda la escena*.
 > * <b>OpenGL:</b> Situado en las propiedades del material, afecta al material.
 
-![Exportando la escena](../../assets/3d-view-export-scene.gif "Exportando la escena")
+![Exportando la escena](3d-view.resources/3d-view-export-scene.gif "Exportando la escena")
 
 ## Exportar escena
 
@@ -230,7 +230,7 @@ La barra de menús proporciona 7 menús con opciones relacionadas con la vista 3
 +++Escena
 El menú <b>Escena</b> trata de la geometría (recurso 3D) mostrada y de los estados de vista 3D. Los recursos 3D solo comparten la malla, los estados de escena son luces, cámara y ajustes relacionados, y también pueden contener la malla a lo largo.
 
-![Mallas del menú Escena](../../assets/3d-view-meshes.png "Mallas del menú Escena")
+![Mallas del menú Escena](3d-view.resources/3d-view-meshes.png "Mallas del menú Escena")
 
 
 
@@ -526,25 +526,25 @@ Cambia la visualización del eje 3D en la ventana gráfica.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Sacrificio posterior</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Sacrificio posterior</b>
 
 Al deshabilitar esta opción, puede ver una cara de malla de *ambos lados*. La opción funciona en combinación con la Malla metálica.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Cuadro delimitador</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Cuadro delimitador</b>
 
 Alterna la visualización del cuadro delimitador de la malla.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Espacio de tangente de vértice</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Espacio de tangente de vértice</b>
 
 Muestra los vectores tangente, binormal y normal para todos los vértices como gizmos de color.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Malla metálica</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Malla metálica</b>
 
 Cambia la visualización de la malla como una malla metálica.
 
@@ -554,7 +554,7 @@ La barra de herramientas <b>Display</b>, que se encuentra en la *parte inferior*
 
 >[!NOTE]
 >
-> La barra de herramientas se puede *cambiar de posición* alrededor del conjunto acoplado de la **vista 3D** mediante el *controlador* situado más a la izquierda y representado por tres líneas paralelas.
+> La barra de herramientas se puede *cambiar de posición* alrededor del conjunto acoplado **Vista 3D** mediante el *identificador* situado más a la izquierda y representado por tres líneas paralelas.
 
 ### AOV de renderizado 3D
 
@@ -563,7 +563,7 @@ La barra de herramientas <b>Display</b>, que se encuentra en la *parte inferior*
         <td style="border: 0">
             <p>Puede mostrar diferentes <a href="../../glossary/glossary.md#aov">AOV</a> mediante el botón <img src="./3d-view.resources/aov/aov-icon.png" alt="Icono de AOV de procesamiento 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOV de representación 3D</b>.</p>
             <p>Los AOV permiten inspeccionar la información de mallas y materiales de forma aislada para realizar un trabajo específico y una depuración.</p>
-            <p>Algunos AOV incluyen <i>valores HDR</i> que se fijan en 1 (blanco puro) o 0 (negro puro) en la ventana gráfica.<br>Para inspeccionar el rango completo de valores, puede exportar un renderizado 3D del AOV a un formato de archivo de imagen que admita valores HDR, como <code>.exr</code>.<br>Utilice la opción de menú <code>Camera > Save render...</code> para exportar el AOV actual.</p>
+            <p>Algunos AOV incluyen <i>HDR. valores</i> que se fijan en 1 (blanco puro) o 0 (negro puro) en la ventana gráfica.<br>Para inspeccionar el rango completo de valores, puede exportar un renderizado 3D del AOV a un formato de archivo de imagen que admita valores HDR., como <code>.exr</code>.<br>Utilice la opción de menú <code>Camera > Save render...</code> para exportar el AOV actual.</p>
             <p><i>Nota:</i> los AOV solo están disponibles cuando se usan el rasterizador y los <a href="./3d-renderers/3d-renderers.md">procesadores 3D</a> de Trazador de ruta de GPU.</p>
         </td>
         <td style="width: 33%; border: 0">
@@ -574,7 +574,7 @@ La barra de herramientas <b>Display</b>, que se encuentra en la *parte inferior*
 
 ### Canales de color
 
-Puede mostrar un solo canal de la imagen mediante el botón ![](../../assets/2d-view-icon-channels.png) <b>Canales de color</b>. Se abre un cuadro combinado que permite seleccionar los canales <b>Rojo</b>, <b>Verde</b> y <b>Azul</b> que se deben mostrar. El aspecto normal de la imagen con todos los canales se restaura seleccionando la opción <b>RGB</b>.
+Puede mostrar un solo canal de la imagen mediante el botón ![](3d-view.resources/2d-view-icon-channels.png) <b>Canales de color</b>. Se abre un cuadro combinado que permite seleccionar los canales <b>Rojo</b>, <b>Verde</b> y <b>Azul</b> que se deben mostrar. El aspecto normal de la imagen con todos los canales se restaura seleccionando la opción <b>RGB</b>.
 
 El *icono* del botón <b>Canales de color</b> *cambia* dependiendo de los canales de visualización actuales.
 

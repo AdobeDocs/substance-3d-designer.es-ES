@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
 breadcrumb-title: ''
-description: Utilice el nodo Crystal 1 para generar patrones de cristal para crear efectos de textura cristalinos y faceteados.
+description: Utilice el nodo Crystal 1 para generar patrones de cristal para crear efectos de texturas cristalinas y faceteadas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 1
 helpx_experience_level: ""
@@ -47,7 +47,7 @@ Genera un ruido de tipo Worlye Voronoi, con una métrica de distancia de angular
 |:---|:---|
 | <b>Escala</b> <i>1 - 256</i> | Establece la escala global del efecto. |
 | <b>Desorden</b> <i>0.0 - 1.0</i> | Desplaza la fase del ruido para introducir pequeñas variaciones. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 
 ## Ejemplos
 

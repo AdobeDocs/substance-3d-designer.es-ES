@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
 breadcrumb-title: ''
-description: Utilice el nodo Resplandor para añadir efectos de resplandor a las texturas para crear apariencias de materiales luminosos y de emisivo.
+description: Utilice el nodo Resplandor para añadir efectos de resplandor a las texturas para crear apariencias de materiales luminosos y emisores.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Glow
 helpx_experience_level: ""
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 Realiza un efecto del tipo &quot;Resplandor externo&quot;, como se ve en otros programas conocidos de edición de imágenes. Básicamente, añade un contorno de degradado atenuado alrededor de la entrada.
 
-Tenga en cuenta que esto no está destinado a funcionar para imágenes con canales alfa, como cabría esperar. Incluso la versión en color solo espera máscaras binarias, negras y blancas como entrada; solo permite utilizar un resplandor de color. Si busca una versión que funcione en imágenes con transparencia, consulte [Resplandor de forma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md).
+Tenga en cuenta que esto no está destinado a funcionar para imágenes con canales Alpha, como cabría esperar. Incluso la versión en color solo espera máscaras binarias, negras y blancas como entrada; solo permite utilizar un resplandor de color. Si busca una versión que funcione en imágenes con transparencia, consulte [Resplandor de forma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md).
 
 Importante: asegúrese de utilizar la versión adecuada para su entrada! Utilice &quot;Resplandor&quot; para las entradas de color o &quot;Escala de grises&quot; para las entradas de escala de grises.
 

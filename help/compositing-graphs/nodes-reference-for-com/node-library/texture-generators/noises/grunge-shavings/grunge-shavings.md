@@ -45,12 +45,12 @@ El nodo **Suciedad Shavings** en [Substance 3D Designer](https://www.adobe.com/e
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Cantidad de manchas de memoria virtual</b> <i>Flotante</i> | La cantidad y *cobertura* del efecto de puntos rascados utilizado para generar virutas. |
+| <b>Cantidad de manchas de memoria virtual</b> <i>Flotador</i> | La cantidad y *cobertura* del efecto de puntos rascados utilizado para generar virutas. |
 | <b>Mosaico de manchas de memoria virtual</b> <i>Entero</i> | Cantidad de mosaico del efecto de puntos rayados utilizado para generar virutas. |
 | <b>Intensidad de Dust</b> <i>Flotador</i> | Intensidad del dust superpuesto en la superficie. |
 | <b>Intensidad de enfoque</b> <i>Flotador</i> | Intensidad del efecto de enfoque global. |

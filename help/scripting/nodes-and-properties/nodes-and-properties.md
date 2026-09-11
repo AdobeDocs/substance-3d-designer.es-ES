@@ -136,7 +136,7 @@ def printSelectedNodesInfo(nodes):
 ```
 
 
-### Obtener acceso a identificadores y tipos de entradas de nodo
+### Acceso a identificadores y tipos de entradas de nodo
 
 ```
 import sd 

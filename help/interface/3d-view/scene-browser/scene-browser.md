@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Explorador de escena
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -26,9 +26,9 @@ Ofrece controles para seleccionar objetos, cambiar su visibilidad y seleccionar 
 
 Dado que Designer utiliza [USD](https://openusd.org/release/index.html) para describir y administrar sus escenas, su terminología y conceptos se encuentran en ese árbol de escenas.
 
-Se muestra al hacer clic en su botón de alternancia dedicado ![](../../../assets/sceneBrowser-toggleButton.png) en la [barra de herramientas de escena de vista 3D](../../../interface/3d-view/3d-view.md).
+Se muestra al hacer clic en su botón de alternancia dedicado ![](scene-browser.resources/sceneBrowser-toggleButton.png) en la [barra de herramientas de escena de vista 3D](../../../interface/3d-view/3d-view.md).
 
-![Explorador de escenas: escena 3D cargada](../../../assets/loaded3DScene.png "Explorador de escenas: escena 3D cargada"){zoomable="yes"}
+![Explorador de escenas: escena 3D cargada](scene-browser.resources/loaded3DScene.png "Explorador de escenas: escena 3D cargada"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ Los objetos se asocian a otros objetos, hasta la raíz de la escena. Un objeto p
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Explorador de escenas - Árbol de escenas](../../../assets/sceneBrowser-sceneTree.png "Explorador de escenas - Árbol de escenas"){zoomable="yes"}
+![Explorador de escenas - Árbol de escenas](scene-browser.resources/sceneBrowser-sceneTree.png "Explorador de escenas - Árbol de escenas"){zoomable="yes"}
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Los objetos se asocian a otros objetos, hasta la raíz de la escena. Un objeto p
 Deje el cursor en cualquier elemento del árbol durante un par de segundos para mostrar información sobre herramientas con la siguiente información:
 
 * <b>Ruta:</b> Ruta de acceso completa del objeto en la escena.
-* <b>TypeName:</b> Tipo de USD del objeto.
+* <b>TypeName:</b> El tipo USD del objeto.
 * <b>Documentación:</b> Información detallada sobre el objeto como elemento de escena USD.
 
 Las mallas tienen información adicional: Recuento de vértices, recuento de caras y recuento de UV.
@@ -92,7 +92,7 @@ Estos objetos se incluyen en la escena cuando [se exportan](../../../working-wit
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Explorador de escenas: los objetos agregados por Designer aparecen en negrita](../../../assets/sceneBrowser-addedByDesigner.png "Explorador de escenas: los objetos agregados por Designer aparecen en negrita"){zoomable="yes"}
+![Explorador de escenas: los objetos agregados por Designer aparecen en negrita](scene-browser.resources/sceneBrowser-addedByDesigner.png "Explorador de escenas: los objetos agregados por Designer aparecen en negrita"){zoomable="yes"}
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Estos objetos se incluyen en la escena cuando [se exportan](../../../working-wit
 
 * <b>Cámara:</b> La cámara predeterminada de la escena. Esta es la única cámara con la que puedes interactuar en Designer. Cualquier cámara incluida en una escena cargada se añade como ajuste preestablecido para la cámara predeterminada.
 * <b>Entorno:</b> El entorno predeterminado de la escena. Cualquier textura aplicada al entorno de la escena se aplicará únicamente a dicho entorno. Del mismo modo, la rotación del entorno solo afecta a dicho entorno.\
-  Cuando una escena cargada incluye una o más luces ambientales ([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html) en USD), el entorno predeterminado se deshabilita automáticamente para no interferir con la iluminación del entorno de la escena.
+  Cuando una escena cargada incluye una o más luces de entorno ([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html) en USD), el entorno predeterminado se deshabilita automáticamente para no interferir con la iluminación del entorno de la escena.
 * <b>Luz puntual #:</b> Si alguna de las luces puntuales de Designer está habilitada en Luces > Editar propiedades, cada luz puntual se agrega a la escena.
 
 ## Alternancia de objetos en la escena
@@ -111,7 +111,7 @@ Cualquier objeto se puede activar y desactivar en la escena. Cuando está desact
 
 El estado de un objeto principal se transfiere a sus elementos secundarios, por lo que al deshabilitar un objeto principal también se deshabilitan sus elementos secundarios.
 
-La visibilidad de un objeto se puede alternar haciendo clic en su botón de ojo ![](../../../assets/sceneBrowser-eyeButton.png) o desde su menú contextual. El menú ofrece algunas acciones más para administrar la visibilidad de los objetos de escena:
+La visibilidad de un objeto se puede alternar haciendo clic en su botón de ojo ![](scene-browser.resources/sceneBrowser-eyeButton.png) o desde su menú contextual. El menú ofrece algunas acciones más para administrar la visibilidad de los objetos de escena:
 
 * <b>Ocultar:</b> Deshabilita el objeto seleccionado.
 * <b>Mostrar:</b> Habilite el objeto seleccionado.
@@ -128,7 +128,7 @@ Los objetos principales tienen estas acciones adicionales:
 * <b>Expandir todos los elementos secundarios:</b> Expanda recursivamente todas las listas de elementos secundarios bajo el objeto seleccionado.
 * <b>Contraer todos los elementos secundarios:</b> Contraer todas las listas de elementos secundarios del objeto seleccionado, de forma recursiva.
 
-![Explorador de escenas: cambiar la visibilidad del objeto](../../../assets/sceneBrowser-toggleVisibility.gif "Explorador de escenas: cambiar la visibilidad del objeto"){zoomable="yes"}
+![Explorador de escenas: cambiar la visibilidad del objeto](scene-browser.resources/sceneBrowser-toggleVisibility.gif "Explorador de escenas: cambiar la visibilidad del objeto"){zoomable="yes"}
 
 ### Entornos
 
@@ -138,13 +138,13 @@ Cuando una luz ambiental está desactivada, su contribución de iluminación a l
 
 Si hay más de una luz de entorno habilitada, sus contribuciones de iluminación se *agregan acumulativamente*.
 
-![Explorador de escenas: alternando la visibilidad del entorno](../../../assets/sceneBrowser-toggleEnvLights.gif "Explorador de escenas: alternando la visibilidad del entorno"){zoomable="yes"}
+![Explorador de escenas: alternando la visibilidad del entorno](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "Explorador de escenas: alternando la visibilidad del entorno"){zoomable="yes"}
 
 ### Luces
 
 Lo mismo ocurre con las luces de la escena: cada uno se puede alternar individualmente.
 
-![Explorador de escenas: cambiar la visibilidad de la luz](../../../assets/sceneBrowser-toggleLights.gif "Explorador de escenas: cambiar la visibilidad de la luz"){zoomable="yes"}
+![Explorador de escenas: cambiar la visibilidad de la luz](scene-browser.resources/sceneBrowser-toggleLights.gif "Explorador de escenas: cambiar la visibilidad de la luz"){zoomable="yes"}
 
 ## Materiales conectados
 
@@ -163,7 +163,7 @@ Un material modificado ofrece un elemento adicional en su menú contextual: el s
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorador de escenas: material conectado](../../../assets/sceneBrowser-connectedMaterial.png "Explorador de escenas: material conectado"){zoomable="yes"}
+![Explorador de escenas: material conectado](scene-browser.resources/sceneBrowser-connectedMaterial.png "Explorador de escenas: material conectado"){zoomable="yes"}
 
 </td>
 </tr>

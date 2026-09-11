@@ -40,7 +40,7 @@ Función SDF de un toro, que es una forma formada por un círculo menor a lo lar
 
 |  |  |
 | :--- | :--- |
-| <b>Radio principal</b> *Flotador* | Radio del círculo a lo largo del cual se arrastra el disco secundario para formar la superficie del toro.<br><br><i>Valor predeterminado: 0,5</i> |
-| <b>Radio menor</b> *Flotador* | Radio del círculo que se está barriendo a lo largo del círculo principal para formar la superficie del toro.<br><br><i>Valor predeterminado: 0,2</i> |
-| <b>Posición central</b> *Float3* | Posición del espacio mundial del pivote del toro.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |
+| <b>Radio principal</b> *Flotante* | Radio del círculo a lo largo del cual se arrastra el disco secundario para formar la superficie del toro.<br><br><i>Valor predeterminado: 0,5</i> |
+| <b>Radio menor</b> *Flotante* | Radio del círculo que se está barriendo a lo largo del círculo principal para formar la superficie del toro.<br><br><i>Valor predeterminado: 0,2</i> |
+| <b>Posición central</b> *Flotante3* | Posición del espacio mundial del pivote del toro.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
+| <b>P</b> *Flotante3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |

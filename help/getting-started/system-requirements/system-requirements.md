@@ -111,9 +111,9 @@ Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsol
 >
 > En **Mac OS**, el controlador de la GPU lo proporciona el propio sistema operativo. Actualice a la versión más reciente del sistema operativo para acceder al controlador más reciente.
 
-## Trazado de rayos de GPU para hornear
+## Trazado de rayos de GPU para hacer un bake
 
-Para habilitar el Trazado de rayos de GPU a través de Optix o DXR, deben instalarse los controladores recomendados anteriormente.
+Para habilitar el Trazado de rayos de GPU a través de Optix o DXR deben instalarse los controladores recomendados anteriormente.
 
 <b>DXR</b> requiere la siguiente configuración mínima:
 
@@ -122,7 +122,7 @@ Para habilitar el Trazado de rayos de GPU a través de Optix o DXR, deben instal
 
 >[!TIP]
 >
-> Trazado de rayos de GPU funciona de forma óptima con hardware de trazado de rayos como las GPU NVIDIA GeForce RTX o NVIDIA Quadro RTX.
+> El trazado de rayos de GPU se ejecuta de forma óptima en hardware de trazado de rayos dedicado, como las GPU NVIDIA GeForce RTX o NVIDIA Quadro RTX.
 
 ## Uso de tabletas
 

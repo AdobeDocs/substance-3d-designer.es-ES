@@ -35,7 +35,7 @@ ht-degree: 5%
 
 Genera una máscara en blanco y negro basada en mapas con bake y ajustes de usuario. Similar a [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) en [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esta máscara representa el dust acumulado en áreas ocluidas y bajas, así como solo en áreas que miran hacia arriba. Requiere que funcionen el AO y las Normas Espaciales Mundiales.
+Esta máscara representa el dust acumulado en áreas ocluidas y bajas, así como solo en áreas que miran hacia arriba. Requiere una OA hecha un bake y normas espaciales mundiales adecuadas para funcionar.
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Esta máscara representa el dust acumulado en áreas ocluidas y bajas, así como
 
 |  |  |
 |:---|:---|
-| <b>Oclusión de ambiente</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para la colocación de dustes. ¡Obligatorio! |
+| <b>Oclusión ambiental</b> <i>Entrada en escala de grises</i> | Mapa con bake utilizado para la colocación de dustes. ¡Obligatorio! |
 | <b>Normal del Espacio Mundial</b> <i>Entrada de color</i> | Mapa con bake utilizado para la colocación de dustes. ¡Obligatorio! |
 | <b>Ruido</b> <i>Entrada en escala de grises</i> | La asignación de dust personalizada (opcional) solo aparece cuando Ruido de reemplazo está establecido en True. |
 | <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |

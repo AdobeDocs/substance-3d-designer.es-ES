@@ -52,8 +52,8 @@ El nodo **Suciedad Splashes Dusty** genera un mapa de suciedades similar a salpi
 | <b>Avanzado</b> |  |
 | <b>Cantidad de salpicaduras</b> <i>Flotador</i> | Ajusta la cantidad de salpicaduras en la superficie. |
 | <b>Distorsión de salpicaduras</b> <i>Flotador</i> | Ajusta la intensidad del efecto de deformación aplicado a las salpicaduras. |
-| <b>Relación de salpicaduras/Dirt</b> <i>Flotante</i> | Ajusta la *proporción* de dirt y salpicaduras en la superficie. |
-| <b>Difusión de Dirt</b> <i>Flotante</i> | Ajusta la extensión del dirt. |
+| <b>Relación de salpicaduras/Dirt</b> <i>Flotador</i> | Ajusta la *proporción* de dirt y salpicaduras en la superficie. |
+| <b>Difusión de Dirt</b> <i>Flotador</i> | Ajusta la extensión del dirt. |
 
 ## Ejemplos
 

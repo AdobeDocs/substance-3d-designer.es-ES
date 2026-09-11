@@ -47,8 +47,8 @@ Asegúrate de entender correctamente los [Modos de creación de vínculos](../..
 
 |  |  |
 |:---|:---|
-| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa horneado o generado utilizado para efectos internos y enmascaramiento. |
-| <b>Height</b> <i>Entrada en escala de grises</i> | Mapa horneado o generado utilizado para efectos internos y enmascaramiento. |
+| <b>Curvatura</b> <i>Entrada en escala de grises</i> | Mapa hecho un bake o generado utilizado para efectos internos y enmascaramiento. |
+| <b>Height</b> <i>Entrada en escala de grises</i> | Mapa hecho un bake o generado utilizado para efectos internos y enmascaramiento. |
 | <b>Máscara</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. Se puede activar y desactivar con el parámetro &quot;Mask&quot;. |
 
 <a name="parameters"></a>
@@ -57,7 +57,7 @@ Asegúrate de entender correctamente los [Modos de creación de vínculos](../..
 
 |  |  |
 |:---|:---|
-| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad. |
 | <b>Avanzado</b> |  |
 | <b>Formato normal</b> <i>DirectX, OpenGL</i> | Cambia entre diferentes formatos de Mapa normal (invierte el canal verde). |
 | <b>Máscara</b> <i>Falso/Verdadero</i> | Activa o desactiva el uso del mapa de máscara. |

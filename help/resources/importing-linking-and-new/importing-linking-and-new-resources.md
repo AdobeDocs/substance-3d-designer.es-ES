@@ -44,11 +44,11 @@ Un caso especial es cuando se crea un nuevo [mapa de bits](../../resources/bitma
 
 ## Recursos importados
 
-Importar un recurso significa que se creará un duplicado del archivo de recursos junto al archivo SBS (en la carpeta *Graphname*.resources), [excepto para los archivos de SVG](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md). A veces también se hace referencia a él como &quot;incrustado&quot; de un recurso.
+Importar un recurso significa que se creará un duplicado del archivo de recursos junto al archivo de SBS (en la carpeta *Graphname*.resources), [excepto para los archivos de SVG](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md). A veces también se hace referencia a él como &quot;incrustado&quot; de un recurso.
 
-Un recurso importado se puede editar en Designer con las [herramientas de pintura de mapas de bits](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) o las [herramientas de edición vectorial](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) de la [vista 2D](../../interface/2d-view/2d-view.md), una vez colocadas en el gráfico. Los recursos importados ya no están vinculados a sus archivos de origen originales: Esto significa que si cambia, quita o actualiza el archivo importado originalmente, esto no tendrá ningún efecto en el recurso de Designer.
+Un recurso importado se puede editar en Designer usando las [herramientas de pintura de mapas de bits](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) o las [herramientas de edición de vectores](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) de [Vista 2D](../../interface/2d-view/2d-view.md), una vez colocadas en el gráfico. Los recursos importados ya no están vinculados a sus archivos de origen originales: Esto significa que si cambia, quita o actualiza el archivo importado originalmente, esto no tendrá ningún efecto en el recurso de Designer.
 
-En el caso de [AxF files](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md), el proceso es un poco más complicado; Los gráficos de Substance y los recursos de mapa de bits se crean a partir del paquete AxF. Sin embargo, todas ellas pueden seguir editándose en sus respectivos editores: Vista de gráfico o vista 2D.
+En el caso de [AxF files](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md), el proceso es un poco más complicado; Los gráficos de Substance y los recursos de mapa de bits se crean a partir del paquete AxF. Sin embargo, todas ellas pueden seguir editándose en sus respectivos editores: Vista de gráfico o Vista 2D.
 
 >[!WARNING]
 >
@@ -56,9 +56,9 @@ En el caso de [AxF files](../../resources/axf-appearance-exchange/axf-appearance
 
 ## Recursos vinculados
 
-Vincular un recurso significa que Designer hará referencia al archivo de origen en su ubicación original en el disco, pero lo presentará en el Explorador como si fuera parte del paquete. No podrá editar el recurso real directamente dentro de Designer, solo utilícelo como componente en el gráfico o como origen para los mapas bancarios.
+Vincular un recurso significa que Designer hará referencia al archivo de origen en su ubicación original en el disco, pero lo presentará en el Explorador como si fuera parte del paquete. No podrá editar el recurso real directamente dentro de Designer, solo utilícelo como componente en el gráfico o como origen para hacer un bake mapas.
 
-La vinculación es ideal si sabe que necesitará utilizar un editor externo para actualizar el recurso mientras trabaja simultáneamente en Designer. Los mapas de horneado son un buen ejemplo: puede disponer de mapas de bits de referencia de Designer desde una aplicación de banca externa, que volverá a cargar y actualizar automáticamente el gráfico en cuanto se cambien estos archivos. Del mismo modo, las escenas 3D solo se pueden vincular, de modo que cada vez que se exporta un nuevo archivo FBX desde una aplicación 3D, Designer actualiza automáticamente la malla utilizada en la vista 3D. Si usted está horneando mapas de esta malla tendrá que iniciar manualmente el proceso de horneado de nuevo, idealmente haciendo clic en RMB y seleccionando &#39;Actualizar todos los mapas con bake&#39;.
+La vinculación es ideal si sabe que necesitará utilizar un editor externo para actualizar el recurso mientras trabaja simultáneamente en Designer. Hacer un bake mapas es un buen ejemplo: puede disponer de mapas de bits de referencia de Designer desde una aplicación de hace un bake externa, que volverá a cargar y actualizar automáticamente el gráfico en cuanto se cambien estos archivos. Del mismo modo, las escenas 3D solo se pueden vincular, de modo que cada vez que se exporta un nuevo archivo FBX desde la aplicación 3D, Designer actualiza automáticamente la malla utilizada en la vista 3D. Si está haciendo un bake mapas de esta malla, tendrá que iniciar manualmente el proceso de hacer un bake de nuevo, idealmente haciendo clic en RMB y seleccionando &#39;Actualizar todos los mapas con bake&#39;.
 
 ## Eliminación de recursos
 

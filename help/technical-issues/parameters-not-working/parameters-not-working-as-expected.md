@@ -53,4 +53,4 @@ Un gráfico de funciones de Substance aplicado a un parámetro de nodo no genera
 
 <b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
 
-Los enteros negativos no se admiten correctamente. Como solución alternativa, use el valor entero negativo en un valor [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) y extráigalo usando un nodo [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).
+Los enteros negativos no se admiten correctamente. Como solución alternativa, use el valor entero negativo en un valor [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) y extráigalo usando un nodo [Referenciar entero](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).

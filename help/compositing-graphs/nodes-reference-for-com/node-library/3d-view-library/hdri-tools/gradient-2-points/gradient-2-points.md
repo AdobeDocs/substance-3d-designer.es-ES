@@ -45,10 +45,10 @@ Crea un degradado de 2 colores entre dos puntos seleccionados por el usuario. El
 
 |  |  |
 |:---|:---|
-| Posición <b>Punto 1</b> | Posición del primer punto seleccionada por el usuario. Tiene control en Vista 2D. |
+| Posición <b>Punto 1</b> | Posición del primer punto seleccionada por el usuario. Tiene control en vista 2D. |
 | <b>Color de punto 1</b> <i>(Valor de color)</i> | Color al inicio del degradado. |
 | <b>Contraste de punto 1</b> <i>0.0 - 1.0</i> | Contraste de la máscara del primer punto. |
-| <b>Posición de punto 2</b> | Posición del segundo punto seleccionada por el usuario. Tiene control en Vista 2D. |
+| <b>Posición de punto 2</b> | Posición del segundo punto seleccionada por el usuario. Tiene control en vista 2D. |
 | <b>Color de punto 2</b> <i>(Valor de color)</i> | Color al final del degradado. |
 | <b>Contraste de punto 2</b> <i>0.0 - 1.0</i> | Contraste de la segunda máscara de punto. |
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
-description: Usa el filtro de desenfoque de color MLV para aplicar efectos de desenfoque de movimiento a las texturas de color para lograr aspectos visuales dinámicos.
+description: Usa el filtro Desenfoque de color de MLV para aplicar efectos de desenfoque de movimiento a las texturas de color para lograr aspectos visuales dinámicos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > MLV color
 helpx_experience_level: ""
@@ -67,8 +67,8 @@ El filtro encuentra áreas de estructuración en una imagen y las utiliza para e
 
 |  |  |
 |:---|:---|
-| <b>Intensidad</b> *Flotador* | Intensidad del filtrado aplicado a la imagen.<br><br>Los valores más altos permiten suavizar más los detalles y hacer más ruido en las áreas más planas. |
-| <b>Smoothness</b> *Flotador* | Intensidad del suavizado aplicado a las áreas de estructuración, que da como resultado áreas más redondeadas y disminuye el efecto de escalonamiento que puede producirse a intensidades de filtrado más altas. |
+| <b>Intensidad</b> *Flotante* | Intensidad del filtrado aplicado a la imagen.<br><br>Los valores más altos permiten suavizar más los detalles y hacer más ruido en las áreas más planas. |
+| <b>Smoothness</b> *Flotante* | Intensidad del suavizado aplicado a las áreas de estructuración, que da como resultado áreas más redondeadas y disminuye el efecto de escalonamiento que puede producirse a intensidades de filtrado más altas. |
 | <b>Criterio</b> *Entero* | Criterio utilizado para seleccionar los valores que definirán las áreas de estructuración de la imagen.<br><br>En otras palabras, cómo se deben *agrupar* los píxeles en áreas que se deben suavizar.<br><br>*- Varianza:* Seleccione valores con la dispersión más baja alrededor de la media, lo que da como resultado clústeres de píxeles similares entre sí&#x200B;<br>*- Coeficiente de variación:* Seleccione los valores teniendo en cuenta la media, lo que da como resultado una variación menor en las áreas más brillantes de forma inversa |
 | <b>Gaussiano</b> *Booleano* | Utilice una distribución gaussiana para agrupar píxeles en áreas de estructuración.<br><br>Si es &#39;True&#39;, esto produce áreas más suaves y un efecto de acoplado reducido. |
 | <b>Afectar alfa</b> *Booleano* | Cuando es &quot;True&quot;, el filtrado también se aplica al canal alfa de la imagen.<br><br>Cuando es &#39;False&#39;, el canal alfa se omite por completo y se deja tal como está en el resultado. |

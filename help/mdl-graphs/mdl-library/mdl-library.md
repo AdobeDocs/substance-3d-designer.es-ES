@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Biblioteca MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Si la biblioteca [vMaterials](https://developer.nvidia.com/vmaterials) de NVIDIA
 </td>
 <td style="border: 0;" valign="top">
 
-![Recursos MDL en la biblioteca](../../assets/mdl-library.png "Recursos MDL en la biblioteca")
+![Recursos MDL en la biblioteca](mdl-library.resources/mdl-library.png "Recursos MDL en la biblioteca")
 
 La sección &quot;mdl&quot; de *en la biblioteca, la biblioteca de vMaterials y el contenido personalizado se enmarcan*
 
@@ -60,9 +60,9 @@ La sección &quot;mdl&quot; de *en la biblioteca, la biblioteca de vMaterials y 
 </tr>
 </table>
 
-## Contenido MDL en la vista 3D
+## Contenido MDL en el Vista 3D
 
-Todos los módulos MDL disponibles en la biblioteca se pueden usar en la [vista 3D](../../interface/3d-view/3d-view.md) cuando se usa el procesador Iray.
+Todos los módulos MDL disponibles en la biblioteca se pueden usar en el [Vista 3D](../../interface/3d-view/3d-view.md) cuando se usa el procesador de Iray.
 
 Abra el menú <b>Materiales</b> y abra un submenú de *material de escena* para examinar los módulos MDL disponibles. Las listas incluyen:
 
@@ -71,6 +71,6 @@ Abra el menú <b>Materiales</b> y abra un submenú de *material de escena* para 
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * Se cargaron [gráficos MDL](../../mdl-graphs/mdl-graphs.md)
 
-![Materiales MDL en el Vista 3D](../../assets/mdl-apply-in-3dview-material-list.png "Materiales MDL en el Vista 3D")
+![Materiales MDL en el Vista 3D](mdl-library.resources/mdl-apply-in-3dview-material-list.png "Materiales MDL en el Vista 3D")
 
 *Materiales MDL en el Vista 3D*

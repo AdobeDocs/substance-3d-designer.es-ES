@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Descripción
 
-Este es un nodo de utilidad que realiza correcciones si los valores de Basecolor o Diffuse están fuera de un rango aceptable y correcto de PBR. Cuando se establece en Metálico, el nodo también intenta corregir los valores de Color base en función de la intensidad Metálica.
+Este es un nodo de utilidad que realiza correcciones si los valores de Basecolor o Difuso están fuera de un rango aceptable y correcto de PBR. Cuando se establece en Metálico, el nodo también intenta corregir los valores de Color base en función de la intensidad Metálica.
 
 Consulta también [PBR BaseColor / Metallic Validate](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic/pbr-basecolor-metallic-validate.md) para obtener información visual sobre qué áreas podrían estar equivocadas.
 

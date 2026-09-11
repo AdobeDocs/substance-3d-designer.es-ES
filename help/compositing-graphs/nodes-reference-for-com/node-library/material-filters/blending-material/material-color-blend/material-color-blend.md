@@ -61,22 +61,22 @@ Este nodo es muy útil cuando desea introducir una sugerencia de color plano en 
 | <b>Color</b> <i>(Valor de color)</i> | El valor de color que se debe fusionar en la parte superior del canal de Difuso. |
 | <b>Opacidad</b> <i>0.0 - 1.0</i> | Fusión de opacidad entre primer plano y fondo. |
 | <b>Modo De Fusión</b> <i>Normal, Agregar, Restar, Multiplicar, Agregar/Sub, Máx., Mín., Cambiar</i> | Modo de Fusión para utilizar en la operación. |
-| <b>Color base</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
+| <b>Color base</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
 | <b>Normal</b> |  |
 | <b>Origen</b> <i>Height, máscara</i> |  |
 | <b>Modo De Fusión</b> <i>Combinar, Fusión</i> |  |
 | <b>Intensidad de Height</b> <i>0.0 - 1.0</i> |  |
 | <b>Opacidad del Height</b> <i>0.0 - 1.0</i> |  |
 | <b>Formato</b> <i>DirectX, OpenGL</i> |  |
-| <b>Specular</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
-| <b>Emisivo</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
-| <b>Brillo</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
-| <b>Rugosidad</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
-| <b>Metálico</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
-| <b>Specular level</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
-| <b>Oclusión ambiental</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
-| <b>Height</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
-| <b>Opacidad</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Specular</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Emissive</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Brillo</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Rugosidad</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Metálico</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Specular level</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Oclusión de ambiente</b> | Fusiona un color sólido en la parte superior de este canal con opciones como en el grupo Difusión. |
+| <b>Height</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
+| <b>Opacidad</b> | Fusión un color sólido en la parte superior de este canal con opciones como en el grupo de Difuso. |
 | <b>Máscara de ID de color</b> <i>Falso/Verdadero</i> | Utilice Máscara de ID de color en lugar de máscara de escala de grises. Tenga en cuenta que esto es solo para un color.<br><br>Habilita todas las opciones siguientes. |
 | <b>Color</b> <i>(Valor de color)</i> | Qué color elegir y convertir en blanco. |
 | <b>Rugosidad</b> <i>0.01 - 1.0</i> | La medida en que el color que has elegido se fusiona con los colores vecinos. |

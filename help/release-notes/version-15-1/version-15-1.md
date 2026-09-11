@@ -172,12 +172,12 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 * [Contenido] Nuevo nodo &quot;Ruido de humedad 2&quot;
 * [Contenido] Ruidos: actualizar para agregar el formato de salida predeterminado
 * [Contenido] Ruido de Perlin v2: agregar formato de salida predeterminado, sin compatibilidad con mosaicos
-* [Contenido] Asignador de formas: agregar modo de filtrado
-* [Contenido] Mapeador UV: agregar modo de filtrado
+* [Contenido] Asignador de formas: agregar modo de filtro
+* [Contenido] Mapeador UV: agregar modo de filtro
 * [Contenido] Forma de onda 1 v2: usar formato de salida predeterminado + nuevas opciones
 * [Contenido] Ruido blanco v2: usar formato de salida predeterminado, agregar opciones de distribución
-* [Bakers] Muestra solo las UV de la malla seleccionada
-* [Bakers] Añada una opción para seleccionar el método de coincidencia de geometría por nombre
+* [Bakeres] Muestra solo las UV de la malla seleccionada
+* [Bakeres] Añada una opción para seleccionar el método de coincidencia de geometría por nombre
 * [Panaderos] Seleccione el panadero más cercano cuando se elimine un panadero
 * [Panaderos] UDIM: definir una lista de azulejos UV para hornear
 * [Panaderos] Actualice bake sdk a 3.15.4.

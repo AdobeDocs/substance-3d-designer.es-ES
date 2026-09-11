@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs.html"
 breadcrumb-title: ''
-description: Accede a los nodos de filtros de desenfoque en Substance 3D Designer para aplicar diversos efectos de desenfoque para suavizar y suavizar texturas.
+description: Accede a los nodos de filtros de desenfoque en Substance 3D Designer para aplicar diversos efectos de desenfoque para suavizar y suavizar las texturas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs
 helpx_experience_level: ""

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Preferencias del usuario: Automatizar la configuración'
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Como alternativa, puede omitir completamente la modificación de las preferencia
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de archivo XML](../../assets/xml-5.png "Icono de archivo XML")
+![Icono de archivo XML](user-preferences-automating-setup.resources/xml-5.png "Icono de archivo XML")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Hay dos formas diferentes de configurar Designer para que use otro [archivo de c
 
 Si no hay ninguna configuración automatizada, o con fines de prueba, se puede ir manualmente a <b>Editar > Preferencias...</b> y, a continuación, haga clic en la sección &quot;<b>Proyectos</b>&quot; de la izquierda.
 
-![Configuración del proyecto](../../assets/preferences-ui.png "Configuración del proyecto")
+![Configuración del proyecto](user-preferences-automating-setup.resources/preferences-ui.png "Configuración del proyecto")
 
 El botón marcado en rojo permite al usuario elegir otro [archivo SBSCFG](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md).
 
@@ -210,4 +210,4 @@ Aunque no se recomienda utilizar un método manual en un entorno de producción,
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![Entrada del archivo de configuración en las propiedades del archivo ejecutable](../../assets/shortcutargument.jpg "Entrada del archivo de configuración en las propiedades del archivo ejecutable")
+![Entrada del archivo de configuración en las propiedades del archivo ejecutable](user-preferences-automating-setup.resources/shortcutargument.jpg "Entrada del archivo de configuración en las propiedades del archivo ejecutable")

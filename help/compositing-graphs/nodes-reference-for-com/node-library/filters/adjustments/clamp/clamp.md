@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
-description: Utilice el nodo Fijación para fijar valores de textura dentro de los intervalos mínimo y máximo especificados para controlar los límites de valores.
+description: Utilice el nodo Ajustar para fijar los valores de textura dentro de los intervalos mínimo y máximo especificados para controlar los límites de valores.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 ## Descripción
 
-Fija los valores de entrada a los límites definidos.
+Ajusta los valores de entrada en límites definidos.
 
 </td>
 </tr>

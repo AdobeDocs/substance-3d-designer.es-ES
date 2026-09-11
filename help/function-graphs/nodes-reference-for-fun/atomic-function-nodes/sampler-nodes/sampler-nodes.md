@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Samplers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Nodos de Sampler
 
-![Nodos de Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nodos de Sampler")
+![Nodos de Sampler](sampler-nodes.resources/image2016-1-12-14-45-43.png "Nodos de Sampler")
 
 Estos nodos muestrean un valor en una imagen de entrada en las coordenadas 2D proporcionadas:
 
-<b>Gris de muestra</b> muestra un valor de luminancia en la entrada <b>Posición</b> en una imagen de escala de grises y lo emite como un valor <b>Float</b>.
+<b>Gris de muestra</b> muestra un valor de luminancia en la entrada <b>Posición</b> en una imagen de escala de grises y lo muestra como un valor <b>Flotante</b>.
 
-<b>Sample Color</b> muestrea un valor RGBA en la entrada <b>Posición </b> de una imagen de color y lo emite como un valor <b>Float4</b> donde los componentes R, G, B y A se asignan a los componentes X, Y, Z y W respectivamente.
+<b>Sample Color</b> muestrea un valor RGBA en la entrada <b>Posición </b> de una imagen de color y lo emite como un valor <b>Flotante4</b> donde los componentes R, G, B y A se asignan a los componentes X, Y, Z y W respectivamente.
 
 <table>
 <tr style="border: 0;">
@@ -39,7 +39,7 @@ Las posiciones fuera de este intervalo se controlan según el <b>modo de direcci
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordenadas de píxeles](../../../../assets/samplercoords.png "Coordenadas de píxeles")
+![Coordenadas de píxeles](sampler-nodes.resources/samplercoords.png "Coordenadas de píxeles")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Las posiciones fuera de este intervalo se controlan según el <b>modo de direcci
 
 >[!NOTE]
 >
-> La entrada <b>Position</b> debe ser un valor Float2 donde las coordenadas X e Y de la imagen se asignan a los componentes X e Y del valor respectivamente
+> La entrada <b>Position</b> debe ser un valor Flotante2 en el que las coordenadas X e Y de la imagen se asignan a los componentes X e Y del valor respectivamente
 
 ## Parámetros
 

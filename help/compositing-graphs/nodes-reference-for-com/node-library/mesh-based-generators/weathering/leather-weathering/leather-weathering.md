@@ -75,13 +75,13 @@ Asegúrate de que comprendes perfectamente los [modos de creación de vínculos]
 | <b>Desaturación de cuero usado</b> <i>0.0 - 1.0</i> | Establece la saturación del aspecto de cuero usado de los efectos Edad y Utilizado. |
 | <b>Brillo de cuero usado</b> <i>0.0 - 1.0</i> | Define el brillo del aspecto de cuero usado de los efectos Edad y Utilizado. |
 | <b>Fusión</b> |  |
-| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la difusión. |
-| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Intensidad de fusión del color base. |
+| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Difuso. |
+| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Fusión del Color base. |
 | <b>Intensidad normal</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la Normal. |
 | <b>Intensidad del Specular</b> <i>0.0 - 1.0</i> | Fusión del Specular. |
-| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Brillo. |
+| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fusión del Brillo. |
 | <b>Intensidad de rugosidad</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la rugosidad. |
-| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiente. |
+| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiental. |
 | <b>Intensidad de Height</b> <i>0.0 - 1.0</i> | Fusión del Height. |
 
 ## Ejemplos

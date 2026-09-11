@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Exportación de archivos PSD
 
-Substance 3D Designer permite exportar texturas a un documento de Adobe Photoshop o a un archivo de PSD.Esta página explica la interfaz especial utilizada para convertir los nodos de un gráfico en capas.**Este proceso no es automático: tiene mucho control, pero es limitado y a menudo no es posible obtener una coincidencia exacta entre nodos y capas.** Además, no se garantiza que el PSD contenga las mismas salidas que el gráfico, a menos que se configure explícitamente para ello. En general, cuanto más preciso y correcto desea ser, más esfuerzo necesita del usuario. En general, lo único que se puede replicar de forma no destructiva es [Fusionar nodos](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Las capas de ajuste no son compatibles, como tampoco lo son los estilos de capa o cualquier otra cosa más allá de los modos de fusión de capa.
+Substance 3D Designer permite exportar texturas a un documento de Adobe Photoshop o a un archivo de PSD.Esta página explica la interfaz especial utilizada para convertir los nodos de un gráfico en capas.**Este proceso no es automático: tiene mucho control, pero es limitado y a menudo no es posible obtener una coincidencia exacta entre nodos y capas.** Además, no se garantiza que el PSD contenga las mismas salidas que el gráfico, a menos que se configure explícitamente para ello. En general, cuanto más preciso y correcto desea ser, más esfuerzo necesita del usuario. En general, lo único que se puede replicar de manera no destructiva es [Nodos de Fusión](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Las capas de ajuste no son compatibles, como tampoco lo son los estilos de capa o cualquier otra cosa más allá de los modos de fusión de capa.
 
 [Substance 3D Designer también puede exportar a archivos de mapa de bits.](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
 
@@ -32,7 +32,7 @@ El cuadro de diálogo Exportar PSD solo se puede abrir con un método. En la [vi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Interfaz de usuario del exportador PSD](exporting-psd-files.resources/psd-dialog.png "Interfaz de usuario del exportador PSD")
+![Interfaz de usuario del Exportador de PSD](exporting-psd-files.resources/psd-dialog.png "Interfaz de usuario del Exportador de PSD")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -41,7 +41,7 @@ El cuadro de diálogo Exportar PSD solo se puede abrir con un método. En la [vi
 1. <b>Agregar grupo:</b> Agrega un grupo de capas
 1. <b>Lista desplegable Agregar capa:</b> elija uno de los dos métodos para agregar una capa. Las capas también se pueden agregar *arrastrando nodos con el botón secundario del mouse* a la pila.
 1. <b>Quitar capa desplegable:</b> quita las capas seleccionadas o todas las capas.
-1. <b>Layerstack:</b> es el trabajo de configuración más frecuente si se realiza aquí. La interfaz refleja las opciones limitadas en Photoshop. Configure aquí el nombre de la capa, el modo de fusión y la opacidad. Si una capa tiene dos miniaturas, la segunda miniatura representa el canal del Alpha.
+1. <b>Layerstack:</b> es el trabajo de configuración más frecuente si se realiza aquí. La interfaz refleja las opciones limitadas en Photoshop. Configure aquí el nombre de la capa, el modo de fusión y la opacidad. Si una capa tiene dos miniaturas, la segunda miniatura representa el canal alfa.
 
 </td>
 </tr>

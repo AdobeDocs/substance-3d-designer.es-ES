@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Administración de contenido y filtros personalizados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ De hecho, las categorías y filtros personalizados pueden ser *específicos del 
 
 Esto significa que con uno o más archivos de Project, puedes establecer las carpetas cuyo contenido debe agregarse a <b>Library</b>, así como las categorías y filtros que ordenarán y organizarán ese contenido.
 
-![Contenido personalizado en la biblioteca](../../../assets/library-filters.png "Contenido personalizado en la biblioteca")
+![Contenido personalizado en la biblioteca](managing-custom-content-and-filters.resources/library-filters.png "Contenido personalizado en la biblioteca")
 
 ## Atributos de gráfico
 
@@ -57,11 +57,11 @@ Los filtros son parámetros de búsqueda booleanos simples (True/False) que har�
 
 Las categorías (es decir, carpetas) y los filtros se crean y editan mediante los siguientes botones:
 
-<b>![](../../../assets/library-icon-new-folder.png) Agregar carpeta:</b> Crea una carpeta expansible en la vista de biblioteca. *no puede* crear subcarpetas.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) Agregar carpeta:</b> Crea una carpeta expansible en la vista de biblioteca. *no puede* crear subcarpetas.
 
-<b>![](../../../assets/library-icon-new-filter.png) Agregar filtro:</b> Agrega un nuevo filtro dentro de la carpeta seleccionada. *no puede* agregar filtros a las carpetas predeterminadas existentes.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) Agregar filtro:</b> Agrega un nuevo filtro dentro de la carpeta seleccionada. *no puede* agregar filtros a las carpetas predeterminadas existentes.
 
-<b>![](../../../assets/library-icon-edit.png) Editar elemento:</b> Edita la carpeta o el filtro seleccionados actualmente. *No se puede* editar ninguna de las propiedades de Carpetas y filtros predeterminados.
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) Editar elemento:</b> Edita la carpeta o el filtro seleccionados actualmente. *No se puede* editar ninguna de las propiedades de Carpetas y filtros predeterminados.
 
 Para *quitar* una carpeta o un filtro, *haz clic con el botón derecho* en él y selecciona la opción <b>Quitar</b> del menú contextual.
 
@@ -76,7 +76,7 @@ Las <b>carpetas</b> y <b>filtros</b> se identifican mediante los siguientes dato
 >
 > Es *muy* importante configurarlas correctamente para asegurarte de que editas el *proyecto correcto*.
 
-![Edición de filtro personalizado](../../../assets/library-filters-edit.png "Edición de filtro personalizado")
+![Edición de filtro personalizado](managing-custom-content-and-filters.resources/library-filters-edit.png "Edición de filtro personalizado")
 
 **Los filtros** suelen necesitar tener *condiciones* configuradas para lograr su propósito de filtrado. Estas condiciones se configuran según los siguientes criterios:
 

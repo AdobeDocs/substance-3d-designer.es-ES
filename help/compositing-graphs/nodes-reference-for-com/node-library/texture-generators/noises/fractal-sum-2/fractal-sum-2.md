@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![Suma fractal 2 - Icono](fractal-sum-2.resources/fractal_sum_2.png "Suma fractal 2 - Icono"){width="200px"}
 
-<b>En:</b> Generadores de Textura > Ruidos
+<b>En:</b> Generadores de texturas > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,8 +55,8 @@ Consulte también: [base de Sumas fractal](../../../../../../compositing-graphs/
 
 |  |  |
 |:---|:---|
-| <b>Desorden</b> <i>Flotante</i> | Desplaza los ingredientes del ruido.    Se puede utilizar para animar el ruido. |
-| <b>Velocidad del desorden</b> <i>Flotante</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
+| <b>Desorden</b> <i>Flotador</i> | Desplaza los ingredientes del ruido.    Se puede utilizar para animar el ruido. |
+| <b>Velocidad del desorden</b> <i>Flotador</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | En imágenes no cuadradas, mantiene el cuadrado del mosaico generado y expande la generación de ruido a los límites de la imagen. |
 
 ## Ejemplos

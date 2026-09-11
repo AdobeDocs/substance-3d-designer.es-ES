@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Los enteros constantes generan números enteros y tienen un paso de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo entero](../../../../assets/fn-constant-integer.png "Icono de tipo entero")
+![Icono de tipo entero](constant-nodes.resources/fn-constant-integer.png "Icono de tipo entero")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Un entero tiene un solo componente. Resulta útil como índice para realizar sel
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
+![Integer2 type icon](constant-nodes.resources/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2 no es común, pero se usa, por ejemplo, para establecer mosaicos X e Y 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 type icon](../../../../assets/fn-constant-integer3.png "Integer3 type icon")
+![Integer3 type icon](constant-nodes.resources/fn-constant-integer3.png "Integer3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ El entero 3 no es común y es poco probable que se encuentre mucho.<b>\
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo entero4](../../../../assets/fn-constant-integer4.png "Icono de tipo entero4")
+![Icono de tipo entero4](constant-nodes.resources/fn-constant-integer4.png "Icono de tipo entero4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -113,24 +113,24 @@ El entero 4 no es común y es poco probable que se encuentre mucho.<b>\
 </tr>
 </table>
 
-## Flotante
+## Flotantes
 
-Los Flotante constantes generan números fraccionarios, no números enteros, lo que significa que siempre tendrán valores después del signo decimal y pueden aumentar o reducir en pasos menores que 1 (valor predeterminado de 0,01).
+Los valores flotantes constantes generan números fraccionarios, no números enteros, lo que significa que siempre tendrán valores después del signo decimal y pueden aumentar o disminuir en pasos menores que 1 (valor predeterminado de 0,01).
 
-[Los Flotante se pueden convertir a enteros](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), pero se redondearán hacia arriba o hacia abajo al entero más cercano, lo que significa que se pierden los datos y la precisión.
+[Los valores flotantes se pueden convertir a enteros](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), pero se redondearán hacia arriba o hacia abajo al entero más cercano, lo que significa que se pierden los datos y la precisión.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![icono de tipo de Flotante](../../../../assets/fn-constant-float.png "icono de tipo de Flotante")
+![Icono de tipo flotante](constant-nodes.resources/fn-constant-float.png "Icono de tipo flotante")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Flotante</b>
+<b>Flotador</b>
 
-Un Flotante, tiene un solo componente, el (1) se omite en el nombre por brevedad. Flotante es muy común y se utiliza para cualquier valor que requiera un control preciso en forma de regulador o ángulo. Puede encontrarlo en casi todos los parámetros de Node. También es el tipo de datos preferido para un valor de escala de grises.<b></b>
+Un flotador, tiene un solo componente, el (1) se omite del nombre para la brevedad. Flotante es muy común y se utiliza para cualquier valor que requiera un control preciso en forma de regulador o ángulo. Puede encontrarlo en casi todos los parámetros de Node. También es el tipo de datos preferido para un valor de escala de grises.<b></b>
 
 </td>
 </tr>
@@ -140,14 +140,14 @@ Un Flotante, tiene un solo componente, el (1) se omite en el nombre por brevedad
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![icono de tipo Flotante2](../../../../assets/fn-constant-float2.png "icono de tipo Flotante2")
+![Icono de tipo Float2](constant-nodes.resources/fn-constant-float2.png "Icono de tipo Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Flotante2</b>
+<b>Float2</b>
 
-Un nodo Flotante2 genera un vector Flotante estático de 2 componentes. Los componentes se denominan X, Y. Flotante2 es bastante común y se utiliza para [coordenadas de muestreo](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) y para [Desplazamientos de transformación](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
+Un nodo Float2 genera un vector flotante estático de 2 componentes. Los componentes se denominan X, Y. Float2 es bastante común y se utiliza para [coordenadas de muestreo](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) y para [Desplazamientos de transformación](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
 
 </td>
 </tr>
@@ -157,14 +157,14 @@ Un nodo Flotante2 genera un vector Flotante estático de 2 componentes. Los comp
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![icono de tipo Flotante3](../../../../assets/fn-constant-float3.png "icono de tipo Flotante3")
+![Icono de tipo Float3](constant-nodes.resources/fn-constant-float3.png "Icono de tipo Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Flotante3</b>
+<b>Float3</b>
 
-Un nodo Flotante3 genera un vector Flotante estático de 3 componentes. Los componentes se denominan X,Y,Z. Flotante3 es poco común, se usa principalmente para representar [coordenadas de escala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) y como una forma más sencilla de almacenar color sin datos de Alpha.<b>\
+Un nodo Float3 genera un vector flotante estático de 3 componentes. Los componentes se denominan X,Y,Z. Float3 es poco común, se usa principalmente para representar [coordenadas de escala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) y como una forma más sencilla de almacenar color sin datos de Alpha.<b>\
 </b>
 
 </td>
@@ -175,14 +175,14 @@ Un nodo Flotante3 genera un vector Flotante estático de 3 componentes. Los comp
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![icono de tipo Flotante4](../../../../assets/fn-constant-float4.png "icono de tipo Flotante4")
+![Icono de tipo flotante4](constant-nodes.resources/fn-constant-float4.png "Icono de tipo flotante4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Flotante4</b>
+<b>Float4</b>
 
-Un Flotante4 genera un vector de Flotante estático de 4 componentes. Los componentes se denominan X,Y,Z,W. Flotante4 es muy común, ya que es la forma preferida de almacenar y establecer la información de color [donde los datos XYZW representan valores RGBA.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
+Un objeto Float4 genera un vector float estático de 4 componentes. Los componentes se denominan X,Y,Z,W. Float4 es muy común, ya que es la forma preferida de almacenar y establecer la información de color [donde los datos XYZW representan valores RGBA.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
 </b>
 
 </td>
@@ -197,7 +197,7 @@ Existen dos tipos de datos adicionales en los gráficos de funciones de Substanc
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo booleano](../../../../assets/fn-constant-boolean.png "Icono de tipo booleano")
+![Icono de tipo booleano](constant-nodes.resources/fn-constant-boolean.png "Icono de tipo booleano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Un valor booleano es el tipo de datos más simple que existe, ya que sólo conoc
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icono de tipo de cadena](../../../../assets/fn-constant-string.png "Icono de tipo de cadena")
+![Icono de tipo de cadena](constant-nodes.resources/fn-constant-string.png "Icono de tipo de cadena")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

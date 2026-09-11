@@ -40,5 +40,5 @@ Devuelve el volumen común a dos formas SDF, que es el volumen creado donde se s
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flotador* | La primera forma de SDF. |
-| <b>SDF 2</b> *Flotador* | La segunda forma SDF. |
+| <b>SDF 1</b> *Flotante* | La primera forma de SDF. |
+| <b>SDF 2</b> *Flotante* | La segunda forma SDF. |

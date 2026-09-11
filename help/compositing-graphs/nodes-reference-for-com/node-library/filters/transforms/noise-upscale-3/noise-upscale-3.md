@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Descripción
 
-Realiza un procedimiento de ruido de entrada y lo escala a doble resolución, manteniendo el detalle pero sin introducir demasiadas baldosas. Utiliza una máscara definida por el usuario para fusionar el ruido sobre su escala original.
+Toma un ruido de entrada procedimiento y lo escala a doble resolución, manteniendo el detalle pero sin introducir demasiado mosaico. Utiliza una máscara definida por el usuario para fusionar el ruido sobre su escala original.
 
 Este nodo está destinado principalmente a optimizar gráficos lentos que utilizan ruidos grandes y pesados. Permite utilizar resoluciones más altas sin introducir demasiado tiempo de cálculo adicional.
 

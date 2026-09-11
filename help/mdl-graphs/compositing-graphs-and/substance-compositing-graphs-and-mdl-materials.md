@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gráficos de Substance y materiales MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Gráficos de Substance y materiales MDL
 
-En esta página se describen las relaciones sinérgicas entre los gráficos de [Substance](../../compositing-graphs/substance-compositing-graphs.md) y los gráficos MDL, y cómo conectar texturas de los gráficos de Substance [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) a las entradas de los gráficos MDL.
+En esta página se describen las sinergias entre los gráficos de [Substance](../../compositing-graphs/substance-compositing-graphs.md) y los gráficos MDL, y cómo conectar las texturas de los gráficos de Substance [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) a las entradas de gráficos MDL.
 
 ## Información general
 
@@ -28,27 +28,27 @@ Los resultados de los gráficos de Substance se pueden *pasar a los parámetros 
 
 Si el material MDL aplicado actualmente en la vista 3D ha expuesto parámetros de tipo *[variable](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*; este tipo se puede establecer mediante la opción <b>Modificador de tipo</b> en las propiedades del [parámetro expuesto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), se pueden conectar a *texturas*:
 
-* se puede conectar un parámetro <b>Color</b> a texturas RGBA
-* un parámetro <b>Float</b> para texturas en escala de grises
+* se puede conectar un parámetro <b>Color</b> a las texturas RGBA
+* un parámetro <b>Flotante</b> para texturas en escala de grises
 
-En estos casos, el valor uniforme bruto se sustituye por un muestreador de textura que proporciona un valor variable. Estos muestreadores tienen un atributo <b>usage</b> definido en el parámetro expuesto, y este uso permite a Designer conectar las texturas resultantes de los gráficos de Substance al parámetro apropiado en el material MDL, mediante *usos coincidentes*.
+En estos casos, el valor uniforme bruto se sustituye por un muestreador de textura que proporciona un valor variable. Estos muestreadores tienen un atributo <b>usage</b> definido en el parámetro expuesto, y este uso permite a Designer conectar la salida de texturas por gráficos de Substance al parámetro apropiado en el material MDL, por *usos coincidentes*.
 
-## Gráficos de Substance en la vista 3D
+## Gráficos de Substance en la Vista 3D
 
-Al usar la opción <b>Ver salidas en vista 3D</b> para un gráfico de Substance o arrastrar un gráfico de Substance desde el panel <b>Explorador</b> a la <b>vista 3D</b>, las salidas se conectan a los parámetros expuestos de *usos coincidentes* en el material MDL que se muestra actualmente en la vista 3D.
+Al usar la opción <b>Ver salidas en Vista 3D</b> para un gráfico de Substance o arrastrar un gráfico de Substance desde el panel <b>Explorador</b> a la <b>vista 3D</b>, las salidas se conectan a los parámetros expuestos de *usos coincidentes* en el material MDL que se muestra actualmente en la vista 3D.
 
-Las texturas individuales de una gráfica de Substance se pueden conectar a cualquiera de los parámetros de material MDL que admitan el muestreo de texturas, independientemente del identificador, pulsando RMB en el nodo de gráfica de Substance y arrastrando hasta la vista 3D. Se muestra una lista de los usos de muestra disponibles y puede seleccionar el uso de destino para la textura seleccionada.
+Las texturas individuales de una gráfica de Substance se pueden conectar a cualquiera de los parámetros de material MDL que admitan el muestreo de textura, independientemente del identificador, pulsando RMB en el nodo de gráfica de Substance y arrastrando hasta la vista 3D. Se muestra una lista de los usos de muestra disponibles y puede seleccionar el uso de destino para la textura seleccionada.
 
-![Entradas de gráfica MDL expuesta](../../assets/mdl-graph-inputs-samplers.png "Entradas de gráfica MDL expuesta")
+![Entradas de gráfica MDL expuesta](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "Entradas de gráfica MDL expuesta")
 
-*Las texturas generadas por un gráfico de Substance están conectadas a los parámetros expuestos de un gráfico MDL en la vista 3D*
+*Las Texturas generadas por un gráfico de Substance están conectadas a los parámetros expuestos de un gráfico MDL en la Vista 3D*
 
 ## Gráficos de Substance en MDL
 
-Las instancias de gráfica de Substance se pueden colocar directamente en gráficas MDL arrastrándolas del panel <b>Explorador</b> al gráfico MDL. Se pueden usar gráficas de Substance de <b>Substance 3D files</b> (SBS) y <b>Substance 3D asset files</b> (SBSAR) en gráficas MDL.
+Las instancias de gráfica de Substance se pueden colocar directamente en gráficas MDL arrastrándolas del panel <b>Explorador</b> al gráfico MDL. Se pueden usar gráficas de Substance de <b>archivos Substance 3D</b> (SBS) y <b>archivos de recursos de Substance 3D</b> (SBSAR) en gráficas MDL.
 
-+++Gráfico de Substance del archivo Substance 3D (SBS)
-![Gráfico de Substance del archivo SBS en el gráfico MDL](../../assets/mdl-sbs-instance-hl.png "Gráfico de Substance del archivo SBS en el gráfico MDL")
++++Gráfico de Substance del archivo de Substance 3D (SBS)
+![Gráfico de Substance de SBS archivo en gráfico MDL](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "Gráfico de Substance de SBS archivo en gráfico MDL")
 
 
 
@@ -57,7 +57,7 @@ Las instancias de gráfica de Substance se pueden colocar directamente en gráfi
 +++
 
 +++Gráfico de Substance de Substance 3D Asset (SBSAR)
-![Gráfico de Substance del archivo SBSAR en el gráfico MDL](../../assets/mdl-sbsar-instance-hl.png "Gráfico de Substance del archivo SBSAR en el gráfico MDL")
+![Gráfico de Substance del archivo SBSAR en el gráfico MDL](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "Gráfico de Substance del archivo SBSAR en el gráfico MDL")
 
 
 

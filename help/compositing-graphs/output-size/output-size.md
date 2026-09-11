@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tamaño de salida
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Es el primero de los <b>parámetros base</b> de un gráfico y, junto con el <b>f
 
 >[!NOTE]
 >
-> Use el botón de bloqueo ![](../../assets/props-output-size-lock.jpg) para que el valor de Height *coincida* con el valor de ancho.
+> Use el botón de bloqueo ![](output-size.resources/props-output-size-lock.jpg) para que el valor de Height *coincida* con el valor de ancho.
 
 <table>
 <tr style="border: 0;">
@@ -77,7 +77,7 @@ Cuando la propiedad Tamaño de salida usa un valor *Relativo a...* [método de h
 
 Los modificadores relativos al intervalo de resolución heredado van de -12 a +12 en una escala logarítmica, siendo el valor predeterminado 0. Esto significa que cada paso por encima o por debajo da como resultado la duplicación o reducción a la mitad de la resolución. La tabla de la derecha proporciona un ejemplo de cómo cambia la resolución relativa en una dimensión para un valor heredado de 9 (es decir, 512 = 2^9) y 11 (es decir, 2048 = 2^11):
 
-Observe que por encima de 8196, el tamaño es *limitado*. Este límite se controla mediante la configuración <b>Límite de tamaño de cocción</b> en la sección <b>General</b> de [Preferencias](../../interface/preferences-window/preferences-window.md). Tenga en cuenta que trabajar con resoluciones muy grandes conlleva un coste de rendimiento proporcional y un espacio de memoria exponencial. Además, los límites en el procesamiento de gráficos establecen un límite máximo para el tamaño máximo de una textura.
+Observe que por encima de 8196, el tamaño es *limitado*. Este límite se controla mediante la configuración <b>Límite de tamaño de cocción</b> en la sección <b>General</b> de [Preferencias](../../interface/preferences-window/preferences-window.md). Tenga en cuenta que trabajar con resoluciones muy grandes conlleva un coste de rendimiento proporcional y un espacio de memoria exponencial. Además, los límites en el procesamiento de gráficos establecen un límite máximo del tamaño máximo de una textura.
 
 | -5 | -4 | -3 | -2 | -1 | 0 | +1 | +2 | +3 | +4 | +5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -98,16 +98,16 @@ En la mayoría de los casos, el [método de herencia](../../compositing-graphs/i
 
 Para mostrar las propiedades de un nodo o gráfico, haga clic en ese elemento y, a continuación, en el panel [Propiedades](../../interface/properties/properties.md), busque la propiedad <b>Tamaño de salida</b> en la sección <b>Parámetros base</b>. Haga clic en el menú desplegable del método de herencia y seleccione el método de herencia deseado.
 
-![Método de herencia de tamaño de salida](../../assets/change-mode.gif "Método de herencia de tamaño de salida"){width="512px"}
+![Método de herencia de tamaño de salida](output-size.resources/change-mode.gif "Método de herencia de tamaño de salida"){width="512px"}
 
 ## Problemas de ejemplo
 
 Si es un nuevo usuario de [Adobe Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html), puede tener algunos problemas comunes. A continuación, enumeraremos algunos ejemplos, junto con soluciones.
 
 +++Problema 1
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](output-size.resources/error.svg) Problema**
 
-![Ejemplo de problema 1](../../assets/problem2-bad.png "Ejemplo de problema 1")
+![Ejemplo de problema 1](output-size.resources/problem2-bad.png "Ejemplo de problema 1")
 
 
 
@@ -115,9 +115,9 @@ El valor **Tamaño principal** está *atenuado* y el gráfico usa una resolució
 
 En las propiedades del gráfico, el método de herencia de la propiedad Tamaño de salida se estableció en *Absolute*, lo que detiene la herencia en favor de un valor arbitrario.
 
-**![(marca)](../../assets/check.svg) Solución**
+**![(marca)](output-size.resources/check.svg) Solución**
 
-![Ejemplo de problema 1 Solución](../../assets/problem2-good.png "Ejemplo de problema 1 Solución")
+![Ejemplo de problema 1 Solución](output-size.resources/problem2-good.png "Ejemplo de problema 1 Solución")
 
 
 
@@ -126,9 +126,9 @@ Establezca el método de herencia para el tamaño de salida del gráfico en *Rel
 +++
 
 +++Problema 2
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](output-size.resources/error.svg) Problema**
 
-![Ejemplo de problema 2](../../assets/problem1-bad.png "Ejemplo de problema 2")
+![Ejemplo de problema 2](output-size.resources/problem1-bad.png "Ejemplo de problema 2")
 
 
 
@@ -136,9 +136,9 @@ Arriba se muestra un caso en el que la salida de un gráfico produce una resoluc
 
 El problema se debe al nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md). De forma predeterminada, usa el método de herencia *Absolute* y eligió 512\*512 como resolución basada en el [recurso de mapa de bits](../../resources/bitmap-resource/bitmap-resource.md). El nodo conectado a él se establece en *Relativo a la entrada*, por lo que hereda su tamaño de salida del nodo Bitmap.
 
-**![(marca)](../../assets/check.svg) Solución**
+**![(marca)](output-size.resources/check.svg) Solución**
 
-![Ejemplo de problema 2 Solución](../../assets/problem1-good.png "Ejemplo de problema 2 Solución")
+![Ejemplo de problema 2 Solución](output-size.resources/problem1-good.png "Ejemplo de problema 2 Solución")
 
 
 
@@ -147,9 +147,9 @@ Establezca el método de herencia del tamaño de salida del nodo Bitmap en *Rela
 +++
 
 +++Problema 3
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](output-size.resources/error.svg) Problema**
 
-![Ejemplo de problema 3](../../assets/problem3-bad.png "Ejemplo de problema 3")
+![Ejemplo de problema 3](output-size.resources/problem3-bad.png "Ejemplo de problema 3")
 
 
 
@@ -157,9 +157,9 @@ En la parte superior se muestra un problema por el que la resolución salta much
 
 El problema se debe a un modificador relativo de 3 en el nodo [Transformación 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md), lo que hace que el resultado sea 8 veces mayor.
 
-**![(marca)](../../assets/check.svg) Solución**
+**![(marca)](output-size.resources/check.svg) Solución**
 
-![Ejemplo de problema 3 Solución](../../assets/problem3-good.png "Ejemplo de problema 3 Solución")
+![Ejemplo de problema 3 Solución](output-size.resources/problem3-good.png "Ejemplo de problema 3 Solución")
 
 
 

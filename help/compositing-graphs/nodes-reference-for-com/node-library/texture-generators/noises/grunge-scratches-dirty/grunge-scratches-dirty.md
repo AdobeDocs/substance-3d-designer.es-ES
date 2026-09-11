@@ -45,13 +45,13 @@ El nodo **Scratches de Suciedades sucios** genera un mapa de suciedades similar 
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Intensidad de Suciedad base</b> <i>Flotador</i> | Ajusta la intensidad del mapa de suciedades aplicado a la superficie base. |
-| <b>Intensidad de Scratches</b> <i>Flotador</i> | Ajusta la intensidad de los arañazos en la superficie base. |
+| <b>Intensidad de Suciedad base</b> <i>Flotante</i> | Ajusta la intensidad del mapa de suciedades aplicado a la superficie base. |
+| <b>Intensidad de Scratches</b> <i>Flotante</i> | Ajusta la intensidad de los arañazos en la superficie base. |
 
 ## Ejemplos
 

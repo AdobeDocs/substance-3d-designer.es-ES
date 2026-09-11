@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Biblioteca
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página presenta el panel **Biblioteca** de Substance 3D Designer, su diseño y las herramientas que ofrece para buscar y filtrar contenido.
 
-![Biblioteca](../../assets/library-main.png "Biblioteca")
+![Biblioteca](the-library.resources/library-main.png "Biblioteca")
 
 ## Información general
 
@@ -103,7 +103,7 @@ Puede seleccionar *varios* elementos en la sección <b>Contenido</b> manteniendo
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Colocando un nodo de la biblioteca](../../assets/library-create-node.gif "Colocando un nodo de la biblioteca")
+![Colocando un nodo de la biblioteca](the-library.resources/library-create-node.gif "Colocando un nodo de la biblioteca")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ Puede seleccionar *varios* elementos en la sección <b>Contenido</b> manteniendo
 ### Búsqueda de un recurso por nombre
 
 La barra <b>Buscar</b>, situada en la parte superior izquierda de la sección <b>Contenido</b>, te permite buscar *cualquier activo por nombre*. Al buscar contenido de esta manera, se omite la selección actual de la sección <b>Categorías</b> y se busca *todo el contenido* de la <b>Biblioteca</b>.\
-Puede filtrar los resultados de la búsqueda por *tipo de gráfico*, usando el ![](../../assets/library-icon-search-filter.png) <b>Filtro por...Icono de </b> junto a la barra de <b>búsqueda</b>.
+Puede filtrar los resultados de la búsqueda por *tipo de gráfico*, usando el ![](the-library.resources/library-icon-search-filter.png) <b>Filtro por...Icono de </b> junto a la barra de <b>búsqueda</b>.
 
 >[!NOTE]
 >
 > La barra de búsqueda tendrá en cuenta el nombre del activo que está buscando, pero también las *etiquetas* que puede contener el activo o la *categoría* a la que pertenece.\
 > Por ejemplo, si escribe &#39;*Normal*&#39;, se mostrarán todos los recursos que se pueden usar para generar o modificar un mapa de normales. Esta es una buena manera de descubrir nuevos nodos, y por lo tanto nuevas posibilidades!
 
-![Búsqueda de activos en la biblioteca](../../assets/library-search-2.png "Búsqueda de activos en la biblioteca")
+![Búsqueda de activos en la biblioteca](the-library.resources/library-search-2.png "Búsqueda de activos en la biblioteca")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ Puede filtrar los resultados de la búsqueda por *tipo de gráfico*, usando el !
 
 ### Visualización de recursos de biblioteca
 
-Con el botón desplegable ![](../../assets/library-icon-view-mode.png) <b>Modo de visualización</b>, puede seleccionar el tamaño de visualización de los elementos de contenido.
+Con el botón desplegable ![](the-library.resources/library-icon-view-mode.png) <b>Modo de visualización</b>, puede seleccionar el tamaño de visualización de los elementos de contenido.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Modo de vista de activos de biblioteca](../../assets/library-display-modes.png "Modo de vista de activos de biblioteca")
+![Modo de vista de activos de biblioteca](the-library.resources/library-display-modes.png "Modo de vista de activos de biblioteca")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ Con el botón desplegable ![](../../assets/library-icon-view-mode.png) <b>Modo d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-El botón ![](../../assets/library-icon-toggle-label.png) **Alternar etiquetas** le permite mostrar u ocultar las etiquetas de los nodos.
+El botón ![](the-library.resources/library-icon-toggle-label.png) **Alternar etiquetas** le permite mostrar u ocultar las etiquetas de los nodos.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Conmutador de etiqueta](../../assets/library-toggle-label.png "Conmutador de etiqueta")
+![Conmutador de etiqueta](the-library.resources/library-toggle-label.png "Conmutador de etiqueta")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Al situar el cursor en un elemento de contenido, tras un breve tiempo aparecerá
 </td>
 <td style="border: 0;" valign="top">
 
-![Información sobre herramientas de información de activos](../../assets/library-item-tooltip.png "Información sobre herramientas de información de activos")
+![Información sobre herramientas de información de activos](the-library.resources/library-item-tooltip.png "Información sobre herramientas de información de activos")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ Al situar el cursor en un elemento de contenido, tras un breve tiempo aparecerá
 
 ### Favoritos
 
-Puedes agregar cualquier elemento de la sección <b>Contenido</b> a tu lista de <b>Favoritos</b>, usando el botón ![](../../assets/library-icon-favoritepng.png) <b>Agregar a favoritos</b>. El botón también te permite *eliminar* contenido de esta lista si ya está agregado.\
+Puedes agregar cualquier elemento de la sección <b>Contenido</b> a tu lista de <b>Favoritos</b>, usando el botón ![](the-library.resources/library-icon-favoritepng.png) <b>Agregar a favoritos</b>. El botón también te permite *eliminar* contenido de esta lista si ya está agregado.\
 Cuando el contenido se agrega a esta lista, está disponible en la categoría <b>Favoritos</b> de la <b>Biblioteca</b>, y se mostrará en la *parte superior* de la lista de menú <b>Nodo</b> al buscar un nodo en el gráfico, siempre que los términos de búsqueda lo coincidan.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Favoritos en la biblioteca](../../assets/library-favourites.png "Favoritos en la biblioteca")
+![Favoritos en la biblioteca](the-library.resources/library-favourites.png "Favoritos en la biblioteca")
 
 </td>
 </tr>

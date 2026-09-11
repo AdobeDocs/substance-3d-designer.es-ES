@@ -64,7 +64,7 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 |:---|:---|
 | <b>Curvatura</b> <i>Escala de grises</i> | Mapa de curvatura calculado a partir del mapa normal de entrada.   Las áreas planas son 50% grises. Las áreas convexas son más brillantes, mientras que las áreas cóncavas son más oscuras. |
 | <b>Convexidad</b> <i>Escala de grises</i> | Mapa de convexidad calculado a partir del mapa normal de entrada.   Cuanto más convexa es una zona, más brillante es en el mapa.  Las áreas planas o cóncavas son negras. |
-| <b>Concavidad</b> <i>Escala de grises</i> | Mapa de concavidad calculado a partir del mapa de normales de entrada.   Cuanto más cóncava es una zona, más brillante es en el mapa.  Las áreas planas o convexas son negras. |
+| <b>Concavidad</b> <i>Escala de grises</i> | Mapa de concavidad calculado a partir del mapa normal de entrada.   Cuanto más cóncava es una zona, más brillante es en el mapa.  Las áreas planas o convexas son negras. |
 
 <a name="parameters"></a>
 
@@ -72,7 +72,7 @@ Las áreas cóncavas y convexas también se dividen en sus propias salidas, para
 
 |  |  |
 |:---|:---|
-| <b>Formato normal</b> *Entero* | Formato del mapa de normales de entrada. Invierte el canal verde de forma efectiva.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> El eje Y señala hacia arriba</li> <li data-preserve-html="true"><b style="">OpenGL:</b> El eje Y señala hacia abajo</li> </ul> |
+| <b>Formato normal</b> *Entero* | Formato del mapa normal de entrada. Invierte el canal verde de forma efectiva.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> El eje Y señala hacia arriba</li> <li data-preserve-html="true"><b style="">OpenGL:</b> El eje Y señala hacia abajo</li> </ul> |
 
 ## Ejemplos
 

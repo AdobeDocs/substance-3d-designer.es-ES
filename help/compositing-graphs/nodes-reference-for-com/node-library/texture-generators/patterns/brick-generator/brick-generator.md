@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Generador de ladrillos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -55,17 +55,17 @@ Para obtener más opciones, consulte [Tile Generator](../../../../../../composit
 | <b>Height</b> <i>-1.0 - 1.0</i> | Modifica los perfiles de height. Permite introducir variaciones de luminancia y todo tipo de aleatorización. |
 | <b>Pendiente</b> <i>-1.0 - 1.0</i> | Introduce una pendiente por ladrillo, como si ciertos ladrillos estuvieran colocados en ángulo. |
 | <b>Desplazamiento</b> <i>0.0 - 1.0</i> | Desplaza los ladrillos en función de la fila y afecta al espaciado por fila. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-01.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-01.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-02.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-02.gif" />
         </td>
     </tr>
 </table>

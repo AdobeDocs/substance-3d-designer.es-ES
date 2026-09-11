@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Mezcla de ajuste de material
+title: Fusión de Ajuste de Material
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Mezcla de ajuste de material
+# Fusión de Ajuste de Material
 
 <table>
 <tr style="border: 0;">
@@ -57,12 +57,12 @@ Resulta útil si desea ajustar algunos canales de un material (por ejemplo, hace
 |  |  |
 |:---|:---|
 | <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad.<br><br>Esto también habilita y deshabilita la apariencia de los grupos relevantes del canal. |
-| <b>Difusión</b> | Realiza operaciones de ajuste en el canal de Difuso, en áreas definidas por la máscara. |
+| <b>Difuso</b> | Realiza operaciones de ajuste en el canal de Difuso, en áreas definidas por la máscara. |
 | <b>Color base</b> | Realiza operaciones de ajuste en el canal de Color base, en áreas definidas por la máscara. |
 | <b>Normal</b> |  |
 | <b>Intensidad</b> <i>0.0 - 1.0</i> | Bajar tonos Intensidad normal |
 | <b>Specular</b> | Realiza operaciones de ajuste en el canal de Specular, en áreas definidas por la máscara. |
-| <b>Emissive</b> | Realiza operaciones de ajuste en el canal Emissive, en áreas definidas por la máscara. |
+| <b>Emisivo</b> | Realiza operaciones de ajuste en el canal Emissive, en áreas definidas por la máscara. |
 | <b>Brillo</b> | Realiza operaciones de ajuste en el canal Brillo, en áreas definidas por la máscara. |
 | <b>Rugosidad</b> | Realiza operaciones de ajuste en el canal Rugosidad (Roughness), en áreas definidas por la máscara. |
 | <b>Metálico</b> | Realiza operaciones de ajuste en el canal Metálico, en áreas definidas por la máscara. |

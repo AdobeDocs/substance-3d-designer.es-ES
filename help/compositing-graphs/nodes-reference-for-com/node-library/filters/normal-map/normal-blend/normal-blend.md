@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
-description: Utilice el nodo Fusión normal para fusionar mapas de normales y crear transiciones suaves entre detalles de superficie.
+description: Utilice el nodo Fusión normal para fusionar mapas normales y crear transiciones suaves entre detalles de superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Blend
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## Descripción
 
-La Fusión normal le permite fusionar dos mapas normales con una máscara opcional, al tiempo que se asegura de que todos los valores permanecen normalizados. No difiere mucho de un [nodo de Fusión atómica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), pero ha agregado cálculos internos para los mapas normales.
+Fusión normal permite fusionar dos mapas normales con una máscara opcional, mientras se garantiza que todos los valores permanecen normalizados. No difiere mucho de un [nodo de fusión atómica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), pero ha agregado cálculos internos para los mapas normales.
 
-La Fusión normal no está pensada para combinar (superponer) los mapas normales, donde el mapa superior añade detalles al mapa inferior. Para ello, usa [Combinación normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) en su lugar.
+Fusión normal no está diseñada para combinar (superponer) mapas normales, donde el mapa superior agrega detalles al mapa inferior. Para ello, usa [Combinación normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) en su lugar.
 
 </td>
 </tr>

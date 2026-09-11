@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
-description: Utilice el nodo Mediana del filtro de escala de grises para reducir el ruido y conservar los bordes de las texturas de escala de grises.
+description: Utilice el nodo Mediana del filtro de escala de grises para reducir el ruido y conservar los bordes en las texturas de escala de grises.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter grayscale
 helpx_experience_level: ""

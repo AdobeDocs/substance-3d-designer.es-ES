@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height.html"
 breadcrumb-title: ''
-description: Utilice el nodo Normal a Height para convertir las asignaciones normales en asignaciones de height para extraer información de profundidad de superficie.
+description: Utilice el nodo Normal a Height para convertir mapas de normales en mapas de altura para extraer información de profundidad de superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal to Height
 helpx_experience_level: ""

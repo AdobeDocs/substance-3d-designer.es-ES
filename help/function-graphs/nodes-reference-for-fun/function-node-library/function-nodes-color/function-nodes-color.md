@@ -34,9 +34,9 @@ HCL a RGB
 
 HSI a RGB
 
-Desplazamiento de HSL
+desplazamiento HSL
 
-HSL a RGB
+HSL al RGB
 
 HSV a RGB
 
@@ -61,19 +61,19 @@ Tono RGB 2 polar
 
 Tono RGB hexagonal
 
-Media de ligereza RGB
+Promedio de luminosidad del RGB
 
-RGB ligereza bi-hexcone
+luminosidad RGB bi-hexcona
 
-hexcona de ligereza RGB
+RGB luminosidad hexcona
 
-Luminosidad RGB Rec. 601
+Luminancia de la luminosidad del RGB Rec. 601
 
-Luminosidad RGB Rec. 709
+Luminancia de la luminosidad del RGB Rec. 709
 
 Saturación del RGB HSI
 
-Saturación del RGB HSL
+HSL de saturación del RGB
 
 Saturación del RGB HSV
 
@@ -94,7 +94,7 @@ sRGB a lineal
 
 Temperatura a sRGB
 
-Asignador de tonos ACES
+ACE tonemapper
 
 Asignador de tonos AgX
 

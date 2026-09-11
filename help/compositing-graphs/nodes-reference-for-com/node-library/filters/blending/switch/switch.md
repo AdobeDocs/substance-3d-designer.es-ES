@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
 breadcrumb-title: ''
-description: Utilice el nodo Cambiar para cambiar entre dos texturas de entrada basadas en una máscara para la selección de texturas condicionales.
+description: Utilice el nodo Cambiar para cambiar entre dos texturas de entrada en función de una máscara para la selección de texturas condicionales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Switch
 helpx_experience_level: ""

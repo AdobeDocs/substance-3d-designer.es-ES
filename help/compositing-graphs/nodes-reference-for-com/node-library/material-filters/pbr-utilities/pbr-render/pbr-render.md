@@ -57,7 +57,7 @@ Este nodo requiere al menos un material PBR completo para ser conectado. Lo idea
 | <b>Mapa de Dirt de lente</b> <i>Entrada en escala de grises</i> | Mapa personalizado del dirt en la lente que aparece cuando se ven destellos de lente. |
 | <b>Mapa de apertura de lente</b> <i>Entrada en escala de grises</i> | Se puede utilizar para anular el efecto bokeh (desenfoque). Cuanto más contrastado, más visible es. Tenga en cuenta que solo se muestra un círculo dentro de la textura, por lo que cualquier forma debe encajar dentro de un círculo. |
 | <b>Entrada en segundo plano</b> <i>Entrada de color</i> | La asignación personalizada se usa como fondo cuando el parámetro <b>Background Mode</b> está establecido en <i>Background Input</i> |
-| <b>Mapa de entorno</b> <i>Entrada de color</i> | Mapa del entorno utilizado para calcular la iluminación. Se debe asignar esféricamente y en HDR |
+| <b>Mapa de entorno</b> <i>Entrada de color</i> | Mapa del entorno utilizado para calcular la iluminación. Debe ser asignado esféricamente y en HDR. |
 
 <a name="outputs"></a>
 
@@ -69,7 +69,7 @@ Este nodo requiere al menos un material PBR completo para ser conectado. Lo idea
 | <b>Irradiancia cruda</b> | Los datos de irradiancia del procesamiento final <br><br><i>Alpha:</i> Mapa de opacidad |
 | <b>Specular sin procesar</b> | Los datos de specular del renderizado final <br><br><i>Alpha:</i> mapa de sombras de Specular |
 | <b>Espacio normal</b> | El espacio mundial normaliza los datos del renderizado final <br><br><i>Alpha:</i> Mapa de altura del espacio mundial |
-| <b>Espacio Tangente Normal</b> | El espacio tangente normaliza los datos del renderizado final <br><br><i>Alpha:</i> Mapa de altura del espacio tangente |
+| <b>Espacio de tangente normal</b> | El espacio tangente normaliza los datos del renderizado final <br><br><i>Alpha:</i> Mapa de altura del espacio tangente |
 | <b>UV</b> | Los datos UV del procesamiento final <br><br><i>Alpha:</i> Mapa de opacidad |
 
 <a name="parameters"></a>
@@ -114,11 +114,11 @@ Este nodo requiere al menos un material PBR completo para ser conectado. Lo idea
 | <b>Anillo de apertura</b> <i>0.0 - 1.0</i> | Añade un degradado interior a la forma bokeh. |
 | <b>Difracción de apertura</b> <i>0.0 - 2.0</i> | Añade aberración cromática al efecto bokeh. |
 | <b>Swirly Bokeh</b> <i>0.0 - 1.0</i> | Añade un efecto de giro o giro a las áreas de desenfoque desenfocado. |
-| <b>Modo de enfoque</b> <i>Automático, punto</i> | Establecer si el foco está predeterminado o definido por el usuario. El enfoque de puntos le permite mover un punto en la vista 2D para determinar la distancia de enfoque. |
-| <b>Punto de enfoque</b> | Si el foco se establece en Punto, podrá mover ese punto. tiene un gizmo de vista 2D. |
+| <b>Modo de enfoque</b> <i>Automático, punto</i> | Establecer si el foco está predeterminado o definido por el usuario. El enfoque de puntos le permite mover un punto en la Vista 2D para determinar la distancia de enfoque. |
+| <b>Punto de enfoque</b> | Si el foco se establece en Punto, podrá mover ese punto. tiene un gizmo de Vista 2D. |
 | <b>Desplazamiento de enfoque</b> <i>-0.5 - 0.5</i> | Si el foco está establecido en Automático, le permite cambiarlo de un lado a otro. |
 | <b>Usar mapa de apertura personalizado</b> <i>Falso/Verdadero</i> | Reemplaza la configuración de apertura anterior y utiliza la entrada del mapa de apertura para determinar la forma bokeh. Requiere una entrada. |
-| <b>Efectos posteriores</b> |  |
+| <b>Efectos de posprocesamiento</b> |  |
 | <b>Habilitar Efectos de posprocesamiento</b> <i>Falso/Verdadero</i> | Alterna <i>todos los</i> efectos posteriores en el procesamiento final. |
 | <b>Intensidad de floración</b> <i>0.0 - 2.0</i> | Define la intensidad del efecto de floración. |
 | <b>Umbral de floración</b> <i>0.0 - 2.0</i> | Define el umbral bajo para que aparezca la floración. |

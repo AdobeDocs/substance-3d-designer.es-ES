@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
-description: Utilice el nodo Azulejo aleatorio para crear patrones de azulejo aleatorios con variación de procedimiento para los efectos de textura orgánica.
+description: Utilice el nodo Azulejo aleatorio para crear patrones de azulejo aleatorios con variación procedimienta para los efectos de textura orgánica.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Azulejo aleatorio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-random.png){width="128px"}
+![](tile-random.resources/tile-random.png){width="128px"}
 
 <b>En:</b> Generadores > Patrones
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descripción
 
-Tile Random genera un patrón de mosaico de procedimiento que tiene un poco más de caos en las formas de mosaico que su contraparte, [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Esto lo hace dividiendo aleatoriamente ciertos azulejos en azulejos más pequeños. Le sugerimos que primero encuentre su camino alrededor de Tile Generator antes de abordar Tile Random, ya que muchos conceptos son similares.
+Tile Random genera un patrón de mosaico procedimiento que tiene un poco más de caos en las formas de mosaico que su contraparte, [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Esto lo hace dividiendo aleatoriamente ciertos azulejos en azulejos más pequeños. Le sugerimos que primero encuentre su camino alrededor de Tile Generator antes de abordar Tile Random, ya que muchos conceptos son similares.
 
 Se utiliza Tile Random en lugar de [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) cuando el objetivo es un patrón más antiguo y menos organizado. Sin embargo, tiene sus limitaciones, así que considera [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) para cualquier otra necesidad avanzada.
 
@@ -58,7 +58,7 @@ Se utiliza Tile Random en lugar de [Tile Generator](../../../../../../compositin
 |:---|:---|
 | <b>Cantidad X</b> <i>1 - 64</i> | Cantidad de repeticiones X del patrón. |
 | <b>Importe Y</b> <i>1 - 64</i> | Cantidad de repeticiones Y del patrón. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 | <b>Patrón</b> |  |
 | <b>Patrón</b> <i>Entrada De Patrón, Cuadrado, Disco, Paraboloide, Campana, Gaussiano, Espina, Pirámide, Ladrillo, Gradación, Ondas, Media campana, Campana Cuadrada, Media Luna, Cápsula, Cono</i> | Selecciona la forma de motivo que se va a utilizar. |
 | <b>Filtrado de entrada de imagen (Motor > v4)</b> <i>Bilineal + Mipmaps, Bilineal, Más Cercano</i> |  |
@@ -106,7 +106,7 @@ Se utiliza Tile Random en lugar de [Tile Generator](../../../../../../compositin
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tile-random-1.png" />
+            <img src="tile-random.resources/tile-random-1.png" />
         </td>
     </tr>
 </table>

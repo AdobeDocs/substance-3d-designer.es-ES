@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Filtros de material
 
-Los filtros de materiales son nodos que funcionan con entradas de material completas: combinaciones de varios canales, se recomienda su uso mediante [Modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md). Cada vez que trabajes con un material PBR completo y no solo con un solo canal, como Basecolor o Normal, o con una simple máscara en blanco y negro, querrás usar la categoría Filtros de materiales.
+Los Filtros de material son nodos que funcionan con entradas de Full Material: combinaciones de varios canales, se recomienda su uso mediante [Modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md). Siempre que estés trabajando con un material PBR completo y no solo con un solo canal como Basecolor o Normal, o con una simple máscara en blanco y negro, querrás usar la categoría Filtros de material.
 
 Esta categoría consta de varias subcategorías:
 
@@ -28,11 +28,11 @@ Esta categoría consta de varias subcategorías:
   Sólo contiene Bitmap2Material.
 * [Efectos](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/effects-material.md)\
   Efectos de materiales elegantes y todo en uno.
-* [Transformaciones](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/transforms-material.md)\
+* [Transforma](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/transforms-material.md)\
   Ayudantes de transformación multicanal
 * [Fusión](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/blending-material.md)\
   Nodos de mezcla multicanal.
 * [Utilidades PBR](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-utilities.md)\
   Herramientas y nodos de ayuda de PBR.
-* [Procesamiento de digitalización](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md)\
+* [Procesamiento de escaneo](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md)\
   Herramientas diseñadas específicamente para texturas fotoescaneadas.

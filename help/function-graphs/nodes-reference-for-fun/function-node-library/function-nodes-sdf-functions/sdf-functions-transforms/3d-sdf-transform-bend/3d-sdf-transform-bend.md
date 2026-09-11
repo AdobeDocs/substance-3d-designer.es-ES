@@ -1,6 +1,6 @@
 ---
 title: Curvar (inexacto)
-description: Designer > Gráficos de composición de Substance > Referencia de nodos para Substance de composición > Biblioteca de nodos > Función SDF > Transformar > Curvar (inexacto)
+description: Designer > Substance > Referencia de nodos para Substance > Biblioteca de nodos > Función SDF > Transformar > Curvar (inexacto)
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '172'

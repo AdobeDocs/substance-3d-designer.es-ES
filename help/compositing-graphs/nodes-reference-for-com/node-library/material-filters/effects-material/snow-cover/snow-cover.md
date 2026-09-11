@@ -53,7 +53,7 @@ Efecto todo en uno para añadir acumulación de nieve en un material completo. S
 
 |  |  |
 |:---|:---|
-| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad. |
 | <b>Snow nuevo</b> <i>0.0 - 1.0</i> | Define la cantidad de nieve en las áreas elevadas. El resultado se asocia al parámetro Snow fundido. |
 | <b>Snow derretido</b> <i>0.0 - 1.0</i> | Define la cantidad de nieve derretida en las esquinas inferiores. |
 | <b>Compilación</b> <i>0.0 - 1.0</i> | Afecta principalmente a la salida de Height y determina el efecto de acumulación de height. |

@@ -48,7 +48,7 @@ Los recursos de SVG de un paquete tienen una serie de atributos que puede person
 | Etiquetas | Se usa para [ordenar y seleccionar el recurso](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) en la [biblioteca](../../interface/the-library/the-library.md). |
 | Datos del usuario | Datos adicionales opcionales que no se utilizan en gráficos vectoriales. |
 | Mostrar en biblioteca | Determina si el recurso SVG debe estar oculto en [la vista Biblioteca.](../../interface/the-library/the-library.md) |
-| Calidad de gráficos vectoriales | Afecta a la calidad de procesamiento. El rango no es lineal y la mejor calidad se alcanza en 0,5. |
+| calidad de gráficos vectoriales | Afecta a la calidad de procesamiento. El rango no es lineal y la mejor calidad se alcanza en 0,5. |
 
 ## Creación de SVG
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
-description: Utilice el nodo HQ de desenfoque para aplicar efectos de desenfoque de alta calidad a las texturas para crear resultados de desenfoque suaves y de aspecto profesional.
+description: Utilice el nodo HQ Desenfocar para aplicar efectos de desenfoque de alta calidad a las texturas para crear resultados de desenfoque suaves y de aspecto profesional.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Blur HQ
 helpx_experience_level: ""
