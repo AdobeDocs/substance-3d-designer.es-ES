@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-009.html"
 breadcrumb-title: ''
-description: Utilice el nodo Mapa de Suciedades 009 para generar texturas de suciedades de procedimiento para añadir detalles de superficie y efectos de desgaste a los materiales.
+description: Utilice el nodo Mapa de Suciedades 009 para generar texturas de suciedades procedimientas para añadir detalles de superficie y efectos de desgaste a los materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 009
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de suciedades 009
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-009.png){width="128px"}
+![](grunge-map-009.resources/grungemap-009.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -49,14 +49,14 @@ Esto genera un mapa de ruido complejo y combinado. Puede ser muy útil como proc
 | <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
 | <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el resultado. |
 | <b>Patrón de pincel</b> <i>0.0 - 1.0</i> | Añade una máscara alrededor de los bordes para cuando se usa como pincel alfa. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-009-ex.gif" />
+            <img src="grunge-map-009.resources/grungemap-009-ex.gif" />
         </td>
     </tr>
 </table>

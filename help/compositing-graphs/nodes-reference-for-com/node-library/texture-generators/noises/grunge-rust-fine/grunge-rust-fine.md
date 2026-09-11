@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Óxido de suciedad bien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungerustfine.jpg){width="200px"}
+![](grunge-rust-fine.resources/grungerustfine.jpg){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -61,10 +61,10 @@ El nodo **Óxido de Suciedades Fine** genera un mapa de suciedades similar a una
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungerustfine-variant2.jpg" />
+            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungerustfine-variant.jpg" />
+            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fugas de suciedades
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grungeleaks.jpg){width="200px"}
 
-<b>En:</b> Generadores de texturas > Ruidos
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ El nodo **Fugas de Suciedades** genera un mapa de suciedades parecido a los gote
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Longitud de goteo</b> <i>Flotador</i> | Ajusta la longitud de las bandas de goteo. |
-| <b>Contraste de forma</b> <i>Flotador</i> | Cambia entre formas brillantes y oscuras, contrastando entre los goteos. |
+| <b>Longitud de goteo</b> <i>Flotante</i> | Ajusta la longitud de las bandas de goteo. |
+| <b>Contraste de forma</b> <i>Flotante</i> | Cambia entre formas brillantes y oscuras, contrastando entre los goteos. |
 | <b>Crispness por goteo</b> <i>Flotador</i> | Ajusta la nitidez y la curvatura de los goteos. |
 | <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajuste la suavidad general de la imagen. |
 
@@ -60,10 +60,10 @@ El nodo **Fugas de Suciedades** genera un mapa de suciedades parecido a los gote
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleaks-variant2.jpg" />
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleaks-variant.jpg" />
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
         </td>
     </tr>
 </table>

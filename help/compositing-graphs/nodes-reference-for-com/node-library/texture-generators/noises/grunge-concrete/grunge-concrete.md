@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suciedad Concreto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
 <b>En:</b> Generadores de texturas > Ruidos
 
@@ -53,16 +53,16 @@ El nodo **Concreto Suciedad** genera un mapa suciedad similar al mapa de altura 
 | <b>Ruido base</b> <i>Flotador</i> | Ajusta el ruido de la textura base. |
 | Opacidad de <b>Dirt Specks</b> <i>Flotador</i> | Ajusta la opacidad de las motas de dirt. |
 | <b>Invertir Dirt</b> <i>Booleano</i> | Invierte el impacto de las motas de dirt. |
-| Opacidad de <b>Scratches</b> <i>Flotador</i> | Ajusta la opacidad de los arañazos. |
-| <b>Perfilar</b> <i>Flotador</i> | Ajusta la intensidad de un efecto de enfoque aplicado a la imagen. |
-| <b>Intensidad de variación grande</b> <i>Flotador</i> | Ajusta las variaciones de gran escala (baja frecuencia) aplicadas a la textura base. |
+| Opacidad de <b>Scratches</b> <i>Flotante</i> | Ajusta la opacidad de los arañazos. |
+| <b>Perfilar</b> <i>Flotante</i> | Ajusta la intensidad de un efecto de enfoque aplicado a la imagen. |
+| <b>Intensidad de variación grande</b> <i>Flotante</i> | Ajusta las variaciones de gran escala (baja frecuencia) aplicadas a la textura base. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeconcrete-variant.jpg" />
+            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
         </td>
     </tr>
 </table>

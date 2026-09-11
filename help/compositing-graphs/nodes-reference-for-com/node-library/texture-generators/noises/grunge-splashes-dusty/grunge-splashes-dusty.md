@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suciedad salpicaduras Polvoriento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungesplashesdusty.jpg){width="200px"}
+![](grunge-splashes-dusty.resources/grungesplashesdusty.jpg){width="200px"}
 
 <b>En:</b> Generadores de Textura > Ruidos
 
@@ -52,18 +52,18 @@ El nodo **Suciedad Splashes Dusty** genera un mapa de suciedades similar a salpi
 | <b>Avanzado</b> |  |
 | <b>Cantidad de salpicaduras</b> <i>Flotador</i> | Ajusta la cantidad de salpicaduras en la superficie. |
 | <b>Distorsión de salpicaduras</b> <i>Flotador</i> | Ajusta la intensidad del efecto de deformación aplicado a las salpicaduras. |
-| <b>Relación de salpicaduras/Dirt</b> <i>Flotador</i> | Ajusta la *proporción* de dirt y salpicaduras en la superficie. |
-| <b>Difusión de Dirt</b> <i>Flotador</i> | Ajusta la extensión del dirt. |
+| <b>Relación de salpicaduras/Dirt</b> <i>Flotante</i> | Ajusta la *proporción* de dirt y salpicaduras en la superficie. |
+| <b>Difusión de Dirt</b> <i>Flotante</i> | Ajusta la extensión del dirt. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungesplashesdusty-variant2.jpg" />
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungesplashesdusty-variant.jpg" />
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" />
         </td>
     </tr>
 </table>

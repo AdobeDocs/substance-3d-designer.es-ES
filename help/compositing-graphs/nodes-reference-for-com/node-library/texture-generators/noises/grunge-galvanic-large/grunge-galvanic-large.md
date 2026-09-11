@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suciedad galvánica grande
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungegalvaniclarge.jpg){width="200px"}
+![](grunge-galvanic-large.resources/grungegalvaniclarge.jpg){width="200px"}
 
-<b>En:</b> Generadores de texturas > Ruidos
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ El nodo **Suciedad Galvanic Large** genera un mapa de suciedades similar al patr
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Intensidad de deformación</b> <i>Flotador</i> | Ajusta la intensidad del efecto de deformación principal. |
-| <b>Opacidad de detalle de reborde</b> <i>Flotador</i> | Ajusta la opacidad de las crestas más brillantes. |
+| <b>Intensidad de deformación</b> <i>Flotante</i> | Ajusta la intensidad del efecto de deformación principal. |
+| <b>Opacidad de detalle de reborde</b> <i>Flotante</i> | Ajusta la opacidad de las crestas más brillantes. |
 | <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajusta la intensidad del efecto de enfoque global. |
 
 ## Ejemplos
@@ -59,10 +59,10 @@ El nodo **Suciedad Galvanic Large** genera un mapa de suciedades similar al patr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungegalvaniclarge-variant.jpg" />
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungegalvaniclarge-variant2.jpg" />
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant2.jpg" />
         </td>
     </tr>
 </table>

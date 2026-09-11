@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Piel 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-2.png){width="128px"}
+![](fur-2.resources/fur-2.png){width="128px"}
 
-<b>En:</b> Generadores de texturas > Ruidos
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,14 +48,14 @@ Esto genera un tipo de ruido ondulado parecido al de un pelo.
 | <b>Escala</b> <i>1 - 8</i> | Establece la escala global del efecto. |
 | Escala de <b>ondas</b> <i>0.0 - 1.0</i> | Modifica la escala de las ondas, más grande significa menos repeticiones. |
 | Rotación de <b>ondas</b> <i>0.0 - 1.0</i> | Gira más las olas. Este valor probablemente debería mantenerse bajo, ya que los resultados pueden ser extremos. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fur-2-ex.gif" />
+            <img src="fur-2.resources/fur-2-ex.gif" />
         </td>
     </tr>
 </table>

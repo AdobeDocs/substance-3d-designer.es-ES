@@ -10,7 +10,7 @@ helpx_tags: ""
 title: degradado de dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Degradado de Dirt - Icono](../../../../../../assets/dirt_gradient.png "Degradado de Dirt - Icono"){width="200px"}
+![Degradado de Dirt - Icono](dirt-gradient.resources/dirt_gradient.png "Degradado de Dirt - Icono"){width="200px"}
 
-<b>En:</b> Generadores de Textura > Ruidos
+<b>En:</b> Generadores de texturas > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,10 +55,10 @@ Consulte también: [Dirt 1](../../../../../../compositing-graphs/nodes-reference
 
 |  |  |
 |:---|:---|
-| <b>Desorden</b> <i>Flotante</i> | Desplaza los ingredientes del ruido.    Se puede utilizar para animar el ruido. |
-| <b>Velocidad del desorden</b> <i>Flotante</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
-| <b>anisotropía de desorden</b> <i>Flotante</i> | Controla el intervalo de direcciones del desplazamiento aplicado por el parámetro <b>Disorder</b>, donde un valor más alto produce una dirección más estrecha y definida.    La dirección está controlada por el parámetro <b>ángulo de anisotropía de desorden</b>. |
-| <b>ángulo de anisotropía de desorden</b> <i>Flotante</i> | Controla la dirección del desplazamiento aplicado por el parámetro <b>Disorder</b>, cuando el parámetro <b>Disorder anisotropía</b> no es cero. |
+| <b>Desorden</b> <i>Flotador</i> | Desplaza los ingredientes del ruido.    Se puede utilizar para animar el ruido. |
+| <b>Velocidad del desorden</b> <i>Flotador</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
+| <b>anisotropía de desorden</b> <i>Flotador</i> | Controla el intervalo de direcciones del desplazamiento aplicado por el parámetro <b>Disorder</b>, donde un valor más alto produce una dirección más estrecha y definida.    La dirección se controla mediante el parámetro <b>Ángulo de anisotropía de desorden</b>. |
+| <b>ángulo de anisotropía de desorden</b> <i>Flotador</i> | Controla la dirección del desplazamiento aplicado por el parámetro <b>Disorder</b>, cuando el parámetro <b>Disorder anisotropía</b> no es cero. |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | En imágenes no cuadradas, mantiene el cuadrado del mosaico generado y expande la generación de ruido a los límites de la imagen. |
 
 ## Ejemplos
@@ -67,12 +67,12 @@ Consulte también: [Dirt 1](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Degradado de Dirt - Ejemplo 1](../../../../../../assets/dirt_gradient_1.png "Degradado de Dirt - Ejemplo 1"){zoomable="yes"}
+![Degradado de Dirt - Ejemplo 1](dirt-gradient.resources/dirt_gradient_1.png "Degradado de Dirt - Ejemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Degradado de Dirt - Ejemplo 2](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Degradado de Dirt - Ejemplo 2"){zoomable="yes"}
+![Degradado de Dirt - Ejemplo 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Degradado de Dirt - Ejemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Consulte también: [Dirt 1](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Degradado de Dirt - Ejemplo 3](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Degradado de Dirt - Ejemplo 3"){zoomable="yes"}
+![Degradado de Dirt - Ejemplo 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Degradado de Dirt - Ejemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Degradado de Dirt - Ejemplo 4](../../../../../../assets/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Degradado de Dirt - Ejemplo 4"){zoomable="yes"}
+![Degradado de Dirt - Ejemplo 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Degradado de Dirt - Ejemplo 4"){zoomable="yes"}
 
 </td>
 </tr>
