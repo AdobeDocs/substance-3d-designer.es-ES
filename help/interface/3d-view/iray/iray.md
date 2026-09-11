@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Esta página presenta el renderizador Iray disponible en el panel de vista 3D de
 </td>
 <td style="border: 0;" valign="top">
 
-[![Logotipo de NVIDIA Iray](../../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![Logotipo de NVIDIA Iray](iray.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Esta página presenta el renderizador Iray disponible en el panel de vista 3D de
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Como la vista 3D usa el *procesador progresivo* de Iray, se genera una imagen tan pronto como se haya realizado al menos una muestra en cada píxel. La imagen se *actualiza automáticamente* a medida que se realizan iteraciones de muestreo, lo que hace que una imagen inicial aproximada se vuelva *más limpia en cada iteración*.
+Dado que el Vista 3D utiliza el *procesador progresivo* de Iray, se genera una imagen tan pronto como se haya realizado al menos una muestra en cada píxel. La imagen se *actualiza automáticamente* a medida que se realizan las iteraciones de muestreo, lo que hace que una imagen inicial aproximada se vuelva *más limpia en cada iteración*.
 
 El procesador está disponible en el panel [Vista 3D](../../../interface/3d-view/3d-view.md): abre el menú <b>Procesador</b> y selecciona la opción <b>Iray</b> para cambiar el procesador utilizado en ese panel de vista 3D a Iray.\
 Al cambiar al procesador de Iray *, se cambian las opciones disponibles* en algunos de los menús de la vista 3D. Estos cambios se explican en la sección <b>Vista 3D</b> que aparece a continuación.
@@ -62,7 +62,7 @@ Consulte la sección <b>Procesador</b> de esta página para obtener más informa
 </td>
 <td style="border: 0;" valign="top">
 
-![Material de la pared del castillo medieval procesado en Iray](../../../assets/iray-overview.png "Material de la pared del castillo medieval procesado en Iray")
+![Material de la pared del castillo medieval procesado en Iray](iray.resources/iray-overview.png "Material de la pared del castillo medieval procesado en Iray")
 
 *Material: [Muralla medieval de castillo](https://oggyart.artstation.com/projects/Xnzx0a)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponible en nuestra [biblioteca](https://substance3d.adobe.com/assets)**de Substance 3D*
 
@@ -104,7 +104,7 @@ Componente de visualización de malla
 > La subdivisión de la malla *aumenta su tiempo de procesamiento de forma exponencial* antes y durante el procesamiento. Sugerimos ser *conservador* con los valores de entrada.\
 > Tenga cuidado al usar los valores *high* **Number** para el método paramétrico, y los valores *low* **Minimum length** para el método Length.
 
-![Opciones de escena](../../../assets/iray-scene-subdivision.gif "Opciones de escena")
+![Opciones de escena](iray.resources/iray-scene-subdivision.gif "Opciones de escena")
 
 <a name="materials"></a>
 
@@ -132,12 +132,12 @@ Otras opciones destacadas en este menú son:
 
 * Seleccione la opción <b>Editar</b> para tener acceso a las *entradas expuestas* de MDL en el panel <b>Propiedades</b> y retoque el material según sea necesario
 * <b>Cargar...La opción </b> le permite *cargar manualmente cualquier archivo MDL* para agregarlo a la lista acumulativa y aplicarlo en la escena
-* <b>Exportar ajuste preestablecido...La opción </b> abre el cuadro de diálogo <b>Exportar ajuste preestablecido de material MDL</b>, que le permite exportar un archivo MDL preestablecido utilizando la configuración actual aplicada en la Vista 3D
+* <b>Exportar ajuste preestablecido...La opción </b> abre el cuadro de diálogo <b>Exportar ajuste preestablecido de material MDL</b>, que le permite exportar un archivo MDL de ajuste preestablecido utilizando la configuración actual aplicada en la vista 3D
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menú Materiales](../../../assets/iray-mdl-list.png "Menú Materiales")
+![Menú Materiales](iray.resources/iray-mdl-list.png "Menú Materiales")
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Los siguientes parámetros están disponibles en las propiedades de la cámara c
 * <b>Distancia de enfoque</b>: la distancia desde la cámara del punto focal, es decir, donde la imagen está más nítida
 * <b>Diámetro de apertura</b>: el valor que impulsa la apertura de la cámara. Cuanto más bajo sea el valor, más nítidos serán los elementos de la imagen antes y después del punto focal; en términos más sencillos, este valor controla la intensidad del efecto de profundidad de campo
 
-![Configuración de la cámara](../../../assets/camera-dof.png "Configuración de la cámara")
+![Configuración de la cámara](iray.resources/camera-dof.png "Configuración de la cámara")
 
 <a name="environment"></a>
 
@@ -170,7 +170,7 @@ Están disponibles las siguientes propiedades:
 
 Cúpula
 
-* <b>Tipo domo</b>: establece los objetos que encierran la escena, en los que se proyecta la textura de entorno
+* <b>Tipo domo</b>: establece los objetos que encierran la escena, en los que se proyecta la textura del entorno
   * *Esfera infinita*: entorno esférico infinito
   * *Tierra*: ambiente esférico infinito, pero con un plano de tierra texturizado
   * *Esfera*: cúpula de radio personalizado en forma de esfera de tamaño finito
@@ -205,11 +205,11 @@ El impacto de algunos de estos ajustes se muestra a continuación:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - Medio ambiente oculto">
+      <img src="iray.resources/iray-environment-hidden.png" alt="Iray - Medio ambiente oculto">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-visible.png" alt="Iray - Medio ambiente visible">
+      <img src="iray.resources/iray-env-visible.png" alt="Iray - Medio ambiente visible">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ El impacto de algunos de estos ajustes se muestra a continuación:
 
 
 
-![Iray - Entorno oculto](../../../assets/iray-environment-hidden.png "Iray - Entorno oculto")
+![Iray - Entorno oculto](iray.resources/iray-environment-hidden.png "Iray - Entorno oculto")
 
-![Iray - Entorno visible](../../../assets/iray-env-visible.png "Iray - Entorno visible")
+![Iray - Entorno visible](iray.resources/iray-env-visible.png "Iray - Entorno visible")
 
 +++
 
@@ -229,11 +229,11 @@ El impacto de algunos de estos ajustes se muestra a continuación:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-env-infinite-sphere.png" alt="Iray - Solo esfera infinita">
+      <img src="iray.resources/iray-env-infinite-sphere.png" alt="Iray - Solo esfera infinita">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-sphere-ground.png" alt="Iray - Esfera infinita con plano de tierra">
+      <img src="iray.resources/iray-env-sphere-ground.png" alt="Iray - Esfera infinita con plano de tierra">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ El impacto de algunos de estos ajustes se muestra a continuación:
 
 
 
-![Iray - Solo esfera infinita](../../../assets/iray-env-infinite-sphere.png "Iray - Solo esfera infinita")
+![Iray - Solo esfera infinita](iray.resources/iray-env-infinite-sphere.png "Iray - Solo esfera infinita")
 
-![Iray - Esfera infinita con plano terrestre](../../../assets/iray-env-sphere-ground.png "Iray - Esfera infinita con plano terrestre")
+![Iray - Esfera infinita con plano terrestre](iray.resources/iray-env-sphere-ground.png "Iray - Esfera infinita con plano terrestre")
 
 +++
 
 +++Rotar entorno
-![Rotar entorno](../../../assets/iray-env-rotation.gif "Rotar entorno")
+![Rotar entorno](iray.resources/iray-env-rotation.gif "Rotar entorno")
 
 
 
 +++
 
 +++Ajustar el plano de tierra
-![Reflejo en tierra](../../../assets/iray-env-ground-options.gif "Reflejo en tierra")
+![Reflejo en tierra](iray.resources/iray-env-ground-options.gif "Reflejo en tierra")
 
 
 
 +++
 
 +++Ajustar esfera infinita
-![Escala de entorno (esfera)](../../../assets/iray-env-sphere-radius.gif "Escala de entorno (esfera)")
+![Escala de entorno (esfera)](iray.resources/iray-env-sphere-radius.gif "Escala de entorno (esfera)")
 
 
 
 +++
 
 +++Ajustar cuadro envolvente
-![Escala de entorno (cubo)](../../../assets/iray-env-box-dimensions.gif "Escala de entorno (cubo)")
+![Escala de entorno (cubo)](iray.resources/iray-env-box-dimensions.gif "Escala de entorno (cubo)")
 
 
 
@@ -287,7 +287,7 @@ Estas opciones muestran una *superposición de texto* sobre la imagen representa
 * <b>Resolución</b>: La resolución de procesamiento efectiva. Si la opción Usar resolución de ventana de las propiedades de la cámara se establece en False, la proporción de la imagen se ajusta automáticamente para que coincida con la proporción de resolución
 * <b>Estadísticas de escena</b>: Una lista de estadísticas relacionadas con la escena procesada, que incluye el recuento de triángulos y el recuento de materiales, entre otros datos
 
-![Opciones de visualización](../../../assets/iray-display-data.png "Opciones de visualización"){width="512px"}
+![Opciones de visualización](iray.resources/iray-display-data.png "Opciones de visualización"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -316,11 +316,11 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-none.png" alt="Iray: renderizado base">
+      <img src="iray.resources/iray-renderer-none.png" alt="Iray: renderizado base">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray: muestra cáustica activada">
+      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray: muestra cáustica activada">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 
 
 
-![Iray - Renderizado base](../../../assets/iray-renderer-none.png "Iray - Renderizado base")
+![Iray - Renderizado base](iray.resources/iray-renderer-none.png "Iray - Renderizado base")
 
-![Iray - Muestras cáusticas habilitadas](../../../assets/iray-renderer-caustics.png "Iray - Muestras cáusticas habilitadas")
+![Iray - Muestras cáusticas habilitadas](iray.resources/iray-renderer-caustics.png "Iray - Muestras cáusticas habilitadas")
 
 +++
 
@@ -340,11 +340,11 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray: filtro de Firefly desactivado">
+      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray: filtro de Firefly desactivado">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray: filtro de Firefly activado">
+      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray: filtro de Firefly activado">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 
 
 
-![Iray - Filtro de Firefly deshabilitado](../../../assets/iray-renderer-caustics.png "Iray - Filtro de Firefly deshabilitado")
+![Iray - Filtro de Firefly deshabilitado](iray.resources/iray-renderer-caustics.png "Iray - Filtro de Firefly deshabilitado")
 
-![Iray - Filtro de Firefly habilitado](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Filtro de Firefly habilitado")
+![Iray - Filtro de Firefly habilitado](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Filtro de Firefly habilitado")
 
 +++
 
@@ -364,11 +364,11 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Post-denoiser desactivado">
+      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - Post-denoiser desactivado">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray: habilitada para Post-denoiser">
+      <img src="iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray: habilitada para Post-denoiser">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ El impacto de algunos de estos ajustes se muestra en las comparaciones de imáge
 
 
 
-![Iray - Post-denoiser deshabilitado](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Post-denoiser deshabilitado")
+![Iray - Post-denoiser deshabilitado](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Post-denoiser deshabilitado")
 
-![Iray - Habilitado para Post-denoiser](../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Habilitado para Post-denoiser")
+![Iray - Habilitado para Post-denoiser](iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Habilitado para Post-denoiser")
 
 +++
 
@@ -404,4 +404,4 @@ Cuando se detecta una GPU compatible, se muestra en esta sección, se *seleccion
 > La aceleración de hardware de GPU utiliza la tecnología [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone). Asegúrate de que tu *controlador de gráficos está actualizado* para obtener la mejor compatibilidad y fiabilidad. Encuentra el controlador más reciente para tu GPU NVIDIA [aquí](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
 > Para configuraciones de varias GPU, se recomienda *deshabilitar SLI* y seleccionar solo una GPU para obtener la mejor confiabilidad.
 
-![Preferencias de Iray](../../../assets/iray-preferences-hardware.png "Preferencias de Iray")
+![Preferencias de Iray](iray.resources/iray-preferences-hardware.png "Preferencias de Iray")
