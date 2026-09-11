@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Utilice nodos de puntos y nodos de portal en Substance 3D Designer para crear puntos de conexión y organizar el flujo de gráficos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nodo de punto (también Portal)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de nodo de punto](../../../../assets/graphatomic-dot_1.png "Icono de nodo de punto")
+![Icono de nodo de punto](dot-node.resources/graphatomic-dot_1.png "Icono de nodo de punto")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Los nodos de punto se pueden añadir en cualquier tipo de gráfico, de cualquier
 +++Insertar en vínculo
 Mantenga presionada la tecla <b>Alt</b> mientras pasa el ratón sobre una conexión para mostrar la vista previa del nodo Punto y, a continuación, haga clic en LMB para agregar un nodo Punto en la conexión de esa ubicación.
 
-![Insertando un nodo de punto](../../../../assets/dot-node-insert-optim.gif "Insertando un nodo de punto"){width="512px"}
+![Insertando un nodo de punto](dot-node.resources/dot-node-insert-optim.gif "Insertando un nodo de punto"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Presione la tecla <b>Alt</b> mientras arrastra una nueva conexión desde un cone
 
 Puede continuar arrastrando la nueva conexión y repetir la operación para enrutar esa conexión como desee.
 
-![Punto: Creando desde el conector](../../../../assets/graph-dot_create-from-connector.gif "Punto: Creando desde el conector")
+![Punto: Creando desde el conector](dot-node.resources/graph-dot_create-from-connector.gif "Punto: Creando desde el conector")
 
 
 
@@ -64,7 +64,7 @@ Puede continuar arrastrando la nueva conexión y repetir la operación para enru
 +++Menú Nodo
 Presione <b>Barra espaciadora</b> para mostrar el <b>menú Nodo</b> y, a continuación, seleccione el elemento &quot;Punto&quot; o escriba &quot;punto&quot; en el campo de búsqueda para que aparezca el elemento y lo encuentre más rápidamente.
 
-![Nodo punto en el menú Nodo](../../../../assets/dot-node-insert-menu.png "Nodo punto en el menú Nodo")
+![Nodo punto en el menú Nodo](dot-node.resources/dot-node-insert-menu.png "Nodo punto en el menú Nodo")
 
 
 
@@ -85,7 +85,7 @@ Presione ALT y mueva un nodo Punto sobre los vínculos para combinar conexiones 
 </td>
 <td style="border: 0;" valign="top">
 
-![Combinando vínculos](../../../../assets/dot-node-congrenate-links-optim.gif "Combinando vínculos"){width="512px"}
+![Combinando vínculos](dot-node.resources/dot-node-congrenate-links-optim.gif "Combinando vínculos"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Presione ALT y mueva un nodo Punto sobre los vínculos para combinar conexiones 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Nodo de punto como portal - icono](../../../../assets/DotNode_Portal-1.png "Nodo de punto como portal - icono")
+![Nodo de punto como portal - icono](dot-node.resources/DotNode_Portal-1.png "Nodo de punto como portal - icono")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,7 +108,7 @@ Los nodos de puntos se pueden usar como <b>portales</b> para enviar datos a una 
 </tr>
 </table>
 
-![Nodo de punto como portal](../../../../assets/DotNode_Portal.gif "Nodo de punto como portal")
+![Nodo de punto como portal](dot-node.resources/DotNode_Portal.gif "Nodo de punto como portal")
 
 ### Creación de portales
 
