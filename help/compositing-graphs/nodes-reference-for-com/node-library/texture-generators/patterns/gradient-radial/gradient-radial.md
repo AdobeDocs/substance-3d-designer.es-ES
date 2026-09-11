@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
 breadcrumb-title: ''
 description: Utilice el nodo Degradado radial para crear degradados radiales que irradian desde un punto central para transiciones circulares de color.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Degradado radial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-radial.png){width="128px"}
+![](gradient-radial.resources/gradient-radial.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -48,4 +48,4 @@ De forma similar a [Gradient Circular](../../../../../../compositing-graphs/node
 | <b>Forma</b> <i>Cono, Hemisferio</i> | Determina el perfil de transición. El cono es una transición lineal nítida, el hemisferio es suave y redondeado en el centro. |
 | <b>Punto 1</b> | Punto central del degradado. Empieza en blanco. |
 | <b>Punto 2</b> | Punto de radio para determinar la extensión del degradado. Termina en negro. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de aplastamiento y estiramiento con proporciones que no sean de cuadrados. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de calabaza y estire con proporciones que no sean de cuadrados. |

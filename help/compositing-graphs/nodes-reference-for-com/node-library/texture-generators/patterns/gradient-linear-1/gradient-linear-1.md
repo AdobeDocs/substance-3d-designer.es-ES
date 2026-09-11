@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
 breadcrumb-title: ''
 description: Utilice el nodo Degradado lineal 1 para crear degradados lineales para fusionar colores y crear transiciones suaves.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Degradado lineal 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear-1.png){width="128px"}
+![](gradient-linear-1.resources/gradient-linear-1.png){width="128px"}
 
 <b>En:</b> Generadores de Textura > Patrones
 
@@ -55,7 +55,7 @@ A pesar de su simplicidad, este es un patrón extremadamente útil que se puede 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient-linear-1-ex.gif" />
+            <img src="gradient-linear-1.resources/gradient-linear-1-ex.gif" />
         </td>
     </tr>
 </table>
