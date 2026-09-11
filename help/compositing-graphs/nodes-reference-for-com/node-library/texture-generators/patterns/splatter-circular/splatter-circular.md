@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
 breadcrumb-title: ''
 description: Utilice el nodo circular de salpicadura para crear formas circulares de dispersión entre texturas y así crear patrones orgánicos y aleatorios.
 helpx_creative_field: ""
