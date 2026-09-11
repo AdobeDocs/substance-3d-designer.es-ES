@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-2.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-2.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fibras 2 para crear texturas de fibra avanzadas con propiedades personalizables para los efectos de tela y material.
 helpx_creative_field: ""
