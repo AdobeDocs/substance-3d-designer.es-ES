@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los archivos de configuración de proyecto SBSPRJ en Substance 3D Designer para administrar la configuración del proyecto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Archivos de configuración del proyecto: SBSPRJ'
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Son especiales en el sentido de que puede utilizar varios archivos de configurac
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de archivo SBSPRJ](../../assets/sbsprj.png "Icono de archivo SBSPRJ")
+![Icono de archivo SBSPRJ](project-configuration-files-sbsprj.resources/sbsprj.png "Icono de archivo SBSPRJ")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Para Windows, [Notepad++](https://notepad-plus-plus.org) es una buena opción gr
 
 Una vez que abra el archivo SBSPRJ en un editor, debería ver un diseño estructurado bastante sencillo, con secciones correspondientes a pestañas en la interfaz de usuario. No todos los escenarios serán documentados aquí, ya que es bastante auto-explicativo.
 
-![Edición XML](../../assets/project-xml.png "Edición XML")
+![Edición XML](project-configuration-files-sbsprj.resources/project-xml.png "Edición XML")
 
 ## Rutas y alias relativos
 
