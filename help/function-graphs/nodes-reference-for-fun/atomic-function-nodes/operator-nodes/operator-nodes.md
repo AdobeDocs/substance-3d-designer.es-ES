@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
 breadcrumb-title: ''
 description: Acceder a nodos de operadores en gráficos de funciones de Substance 3D Designer para realizar operaciones matemáticas y lógicas.
 helpx_creative_field: ""
