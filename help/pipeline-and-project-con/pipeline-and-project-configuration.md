@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/pipeline-and-project-configuration.html"
 breadcrumb-title: ''
 description: Configure las opciones de canalización y proyecto en Substance 3D Designer para optimizar el flujo de trabajo y el resultado.
 helpx_creative_field: ""
