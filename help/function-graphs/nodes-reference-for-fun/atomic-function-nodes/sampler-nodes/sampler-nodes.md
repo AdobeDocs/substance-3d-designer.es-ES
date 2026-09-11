@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Acceda a nodos de muestra en gráficos de funciones de Substance 3D Designer para muestrear texturas y extraer valores de color.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Samplers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nodos de Sampler
 
-![Nodos de Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nodos de Sampler")
+![Nodos de Sampler](sampler-nodes.resources/image2016-1-12-14-45-43.png "Nodos de Sampler")
 
 Estos nodos muestrean un valor en una imagen de entrada en las coordenadas 2D proporcionadas:
 
@@ -39,7 +39,7 @@ Las posiciones fuera de este intervalo se controlan según el <b>modo de direcci
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordenadas de píxeles](../../../../assets/samplercoords.png "Coordenadas de píxeles")
+![Coordenadas de píxeles](sampler-nodes.resources/samplercoords.png "Coordenadas de píxeles")
 
 </td>
 </tr>
@@ -78,8 +78,8 @@ Controla cómo se manejan los valores de posición fuera del intervalo [0;1].
 Realiza un bucle en el rango [0;1] a medida que aumenta el valor.\
 Por ejemplo: 3,4 es 0,4, -1,7 es 0,3.
 
-<b>Fijación a borde</b>\
-Fija los valores fuera del rango [0;1] a su límite más próximo.\
+<b>Ajustar a Edge</b>\
+Ajusta valores fuera del intervalo [0;1] hasta su límite más próximo.\
 Por ejemplo: .3.4 es 1, -1.7 es 0.
 
 +++

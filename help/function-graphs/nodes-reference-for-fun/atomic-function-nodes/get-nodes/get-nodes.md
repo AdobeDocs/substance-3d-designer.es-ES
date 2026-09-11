@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Acceso Obtén nodos en los gráficos de funciones de Substance 3D Designer para recuperar datos y valores variables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variables
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 Las variables son una forma de <b>almacenar valores</b> para buscarlos más tarde (<b>Obtener</b>) o modificarlos (<b>Establecer</b>).
 
-![Substance function graph - Get float](../../../../assets/assign-getfloat.gif "Substance function graph - Get float"){zoomable="yes"}
+![Substance function graph - Get float](get-nodes.resources/assign-getfloat.gif "Substance function graph - Get float"){zoomable="yes"}
 
 Lo que hace un nodo Get esencialmente es capturar una variable dinámica y devolverla de la salida de los nodos Get para utilizarla en una función. Estos nodos Get forman el vínculo entre los parámetros de entrada definidos en los [parámetros de gráfico](../../../../compositing-graphs/graph-parameters/graph-parameters.md) y las [funciones de parámetro](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
@@ -58,7 +58,7 @@ Cuando un parámetro está [expuesto](../../../../compositing-graphs/manage-para
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Obtener float2 - Icono](../../../../assets/fn_variables_getfloat2.png "Obtener float2 - Icono"){width="200px"}
+![Obtener float2 - Icono](get-nodes.resources/fn_variables_getfloat2.png "Obtener float2 - Icono"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -88,25 +88,25 @@ El nombre de la variable que se va a obtener se establece en el conjunto acoplad
 ### Obtener nodos
 
 +++Flotantes
-![Obtener float - Icono](../../../../assets/fn_variables_getfloat.png "Obtener float - Icono"){width="200px"}
+![Obtener float - Icono](get-nodes.resources/fn_variables_getfloat.png "Obtener float - Icono"){width="200px"}
 
 
 
 Obtener flotante
 
-![Obtener float2 - Icono](../../../../assets/fn_variables_getfloat2.png "Obtener float2 - Icono"){width="200px"}
+![Obtener float2 - Icono](get-nodes.resources/fn_variables_getfloat2.png "Obtener float2 - Icono"){width="200px"}
 
 
 
 Obtener flotante 2
 
-![Obtener float3 - Icono](../../../../assets/fn_variables_getfloat3.png "Obtener float3 - Icono"){width="200px"}
+![Obtener float3 - Icono](get-nodes.resources/fn_variables_getfloat3.png "Obtener float3 - Icono"){width="200px"}
 
 
 
 Obtener flotante 3
 
-![Obtener float4 - Icono](../../../../assets/fn_variables_getfloat4.png "Obtener float4 - Icono"){width="200px"}
+![Obtener float4 - Icono](get-nodes.resources/fn_variables_getfloat4.png "Obtener float4 - Icono"){width="200px"}
 
 
 
@@ -115,25 +115,25 @@ Obtener flotante 4
 +++
 
 +++Enteros
-![Obtener entero - Icono](../../../../assets/fn_variables_getint.png "Obtener entero - Icono"){width="200px"}
+![Obtener entero - Icono](get-nodes.resources/fn_variables_getint.png "Obtener entero - Icono"){width="200px"}
 
 
 
 Obtener entero
 
-![Obtener entero2 - Icono](../../../../assets/fn_variables_getint2.png "Obtener entero2 - Icono"){width="200px"}
+![Obtener entero2 - Icono](get-nodes.resources/fn_variables_getint2.png "Obtener entero2 - Icono"){width="200px"}
 
 
 
 Obtener entero 2
 
-![Obtener entero3 - Icono](../../../../assets/fn_variables_getint3.png "Obtener entero3 - Icono"){width="200px"}
+![Obtener entero3 - Icono](get-nodes.resources/fn_variables_getint3.png "Obtener entero3 - Icono"){width="200px"}
 
 
 
 Obtener entero 3
 
-![Obtener entero4 - Icono](../../../../assets/fn_variables_getint4.png "Obtener entero4 - Icono"){width="200px"}
+![Obtener entero4 - Icono](get-nodes.resources/fn_variables_getint4.png "Obtener entero4 - Icono"){width="200px"}
 
 
 
@@ -142,13 +142,13 @@ Obtener entero 4
 +++
 
 +++Otros
-![Obtener booleano - Icono](../../../../assets/fn_variables_getboolean.png "Obtener booleano - Icono"){width="200px"}
+![Obtener booleano - Icono](get-nodes.resources/fn_variables_getboolean.png "Obtener booleano - Icono"){width="200px"}
 
 
 
 Obtener booleano
 
-![Obtener cadena - Icono](../../../../assets/fn_variables_getstring.png "Obtener cadena - Icono"){width="200px"}
+![Obtener cadena - Icono](get-nodes.resources/fn_variables_getstring.png "Obtener cadena - Icono"){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Obtener cadena
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Conjunto: Icono de nodo](../../../../assets/fn_variables_set.png "Establecer: Icono de nodo"){width="200px"}
+![Conjunto: Icono de nodo](get-nodes.resources/fn_variables_set.png "Establecer: Icono de nodo"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Texto
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![&#x200B; está definido: El icono de nodo](../../../../assets/fn_variables_isdefined.png " está definido: Icono de nodo"){width="200px"}
+![ está definido: El icono de nodo](get-nodes.resources/fn_variables_isdefined.png " está definido: Icono de nodo"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
