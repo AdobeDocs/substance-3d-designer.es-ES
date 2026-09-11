@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: Aprenda a administrar el contenido y los filtros personalizados en la biblioteca de Substance 3D Designer para el acceso organizado a los recursos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Administración de contenido y filtros personalizados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ De hecho, las categorías y filtros personalizados pueden ser *específicos del 
 
 Esto significa que con uno o más archivos de Project, puedes establecer las carpetas cuyo contenido debe agregarse a <b>Library</b>, así como las categorías y filtros que ordenarán y organizarán ese contenido.
 
-![Contenido personalizado en la biblioteca](../../../assets/library-filters.png "Contenido personalizado en la biblioteca")
+![Contenido personalizado en la biblioteca](managing-custom-content-and-filters.resources/library-filters.png "Contenido personalizado en la biblioteca")
 
 ## Atributos de gráfico
 
@@ -57,11 +57,11 @@ Los filtros son parámetros de búsqueda booleanos simples (True/False) que har�
 
 Las categorías (es decir, carpetas) y los filtros se crean y editan mediante los siguientes botones:
 
-<b>![](../../../assets/library-icon-new-folder.png) Agregar carpeta:</b> Crea una carpeta expansible en la vista de biblioteca. *no puede* crear subcarpetas.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) Agregar carpeta:</b> Crea una carpeta expansible en la vista de biblioteca. *no puede* crear subcarpetas.
 
-<b>![](../../../assets/library-icon-new-filter.png) Agregar filtro:</b> Agrega un nuevo filtro dentro de la carpeta seleccionada. *no puede* agregar filtros a las carpetas predeterminadas existentes.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) Agregar filtro:</b> Agrega un nuevo filtro dentro de la carpeta seleccionada. *no puede* agregar filtros a las carpetas predeterminadas existentes.
 
-<b>![](../../../assets/library-icon-edit.png) Editar elemento:</b> Edita la carpeta o el filtro seleccionados actualmente. *No se puede* editar ninguna de las propiedades de Carpetas y filtros predeterminados.
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) Editar elemento:</b> Edita la carpeta o el filtro seleccionados actualmente. *No se puede* editar ninguna de las propiedades de Carpetas y filtros predeterminados.
 
 Para *quitar* una carpeta o un filtro, *haz clic con el botón derecho* en él y selecciona la opción <b>Quitar</b> del menú contextual.
 
@@ -76,7 +76,7 @@ Las <b>carpetas</b> y <b>filtros</b> se identifican mediante los siguientes dato
 >
 > Es *muy* importante configurarlas correctamente para asegurarte de que editas el *proyecto correcto*.
 
-![Edición de filtro personalizado](../../../assets/library-filters-edit.png "Edición de filtro personalizado")
+![Edición de filtro personalizado](managing-custom-content-and-filters.resources/library-filters-edit.png "Edición de filtro personalizado")
 
 **Los filtros** suelen necesitar tener *condiciones* configuradas para lograr su propósito de filtrado. Estas condiciones se configuran según los siguientes criterios:
 
@@ -89,7 +89,7 @@ Puede *agregar o quitar* condiciones mediante los botones &#39;**+**&#39; y &#39
 
 >[!NOTE]
 >
-> Un filtro sin ninguna condición configurada hará que se muestre *todo el contenido de **Biblioteca**&#x200B;de*.
+> Un filtro sin ninguna condición configurada hará que se muestre *todo el contenido de **Biblioteca**de*.
 
 ## Prácticas recomendadas
 
@@ -104,6 +104,6 @@ Puede *agregar o quitar* condiciones mediante los botones &#39;**+**&#39; y &#39
 ### Administración de contenido de ámbito variable
 
 * Puede agregar recursos a *categorías existentes* si esto tiene más sentido. No será tan fácil administrar y mantener los filtros, y puedes usar un estilo de icono especial para *diferenciarlos*.
-* Puedes definir tus carpetas y filtros en un *archivo global* (de nivel de estudio) de [configuración del proyecto](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) y, a continuación, agregarles contenido simplemente añadiendo rutas controladas de *archivos de proyecto*[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md) consecutivos
+* Puedes definir tus carpetas y filtros en un *archivo global* (de nivel de estudio) de [configuración del proyecto](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) y, a continuación, agregarles contenido simplemente añadiendo rutas controladas de *archivos de proyecto*](../../../interface/preferences-window/project-settings/project-settings.md) [consecutivos
 * Puede definir carpetas y filtros específicos para *cada proyecto* para mantenerlos separados
 * Puede mezclar, hacer coincidir y utilizar métodos de los tres anteriores: utilizar filtros existentes, definir nuevos filtros globales y crear filtros únicos por proyecto
