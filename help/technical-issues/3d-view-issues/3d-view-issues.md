@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Solucione problemas de Vista 3D en Substance 3D Designer, incluidos problemas de procesamiento, visualización y rendimiento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problemas de Vista 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Esta página enumera problemas técnicos relacionados con la [vista 3D](../../in
 
 ## Bajo rendimiento: No se utiliza la GPU discreta
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](3d-view-issues.resources/error.svg) Problema**
 
 Substance 3D Designer no usa la *GPU discreta* (<b>dGPU</b>) del sistema y usa la *GPU integrada* (<b>iGPU</b>) en su lugar. El resultado es un rendimiento bajo al procesar gráficos o la [vista 3D](../../interface/3d-view/3d-view.md).
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
 Los sistemas con gráficos intercambiables pueden *forzar la dGPU*, que debe usarse para una *aplicación específica* en software dedicado, según el fabricante de la GPU.
 
@@ -47,11 +47,11 @@ Por ejemplo, los usuarios con una <b>Nvidia dGPU</b> pueden hacer lo siguiente:
 
 ## El objeto 3D es plano
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](3d-view-issues.resources/error.svg) Problema**
 
 Un objeto 3D que presentaba volúmenes detallados en una sesión se vuelve plano en la siguiente sesión, sin embargo el gráfico no ha cambiado y el mapa de altura lleva los mismos datos.
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
 El efecto de deformación de un objeto 3D según un mapa de altura se realiza mediante una técnica denominada **desplazamiento de teselación**. Esta técnica implica dos pasos:
 
@@ -75,11 +75,11 @@ Este valor se puede modificar de las siguientes maneras:
 
 ## La vista 3D es completamente negra
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](3d-view-issues.resources/error.svg) Problema**
 
 En las versiones 15.0.0 y posteriores, la ventana gráfica de la vista 3D es de color negro liso. Veo algunas superposiciones de texto (p. ej., muestras y tiempo de procesamiento), pero la escena 3D no es visible.
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
 Versión 15.1 y superior
 
@@ -113,11 +113,11 @@ Ahora, todas las Vista 3D nuevas utilizarán el procesador OpenGL de forma prede
 
 ## Se muestra el mensaje &quot;Procesador no compatible&quot;
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](3d-view-issues.resources/error.svg) Problema**
 
 En las versiones 15.0.0 y posteriores, el mensaje &quot;Procesador no compatible&quot; aparece en la esquina inferior derecha del puerto de visualización al utilizar los nuevos procesadores 3D (rasterizador, trazador de rutas de GPU). La escena 3D no es visible.
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) presentó nuestros nuevos [procesadores 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) internos que usan tecnologías modernas y, por lo tanto, no son compatibles con GPU más antiguas.
 
@@ -144,7 +144,7 @@ Puede encontrar y ajustar esa opción siguiendo estos pasos:
 
 ## El objeto 3D se ve completamente suave
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](3d-view-issues.resources/error.svg) Problema**
 
 Después de trabajar en los datos enviados al **Height** [salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), el objeto parece tener algo de volumen, pero *parece completamente suave*, como si la información del height se omitiera en el sombreado.
 
@@ -152,9 +152,9 @@ Después de trabajar en los datos enviados al **Height** [salida](../../composit
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
-Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal.
+Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal[.
 
 Al usar la técnica **Desplazamiento de teselación** (ver &quot;El objeto 3D es plano&quot; más arriba), los objetos pueden *deformarse* para seguir los datos del height, pero su superficie *no reaccionará a la luz de forma diferente* hasta que sus *normales* también se modifiquen para tener en cuenta los datos del height.
 
@@ -163,7 +163,7 @@ La solución es bastante simple: conecte el último nodo de la secuencia que con
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ La solución es bastante simple: conecte el último nodo de la secuencia que con
 
 ## El procesamiento es borroso o pixelado
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](3d-view-issues.resources/error.svg) Problema**
 
 La imagen representada se ve borrosa o pixelada cuando el sistema usa *escala de visualización*.
 
@@ -179,7 +179,7 @@ La imagen representada se ve borrosa o pixelada cuando el sistema usa *escala de
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
 De forma predeterminada, Designer utiliza la resolución de visualización *escalada* para definir la resolución de representación de la [vista 3D](../../interface/3d-view/3d-view.md). Puede cambiar esta opción para que se utilice la resolución de visualización *nativa* en su lugar para un procesamiento nítido.
 
@@ -188,7 +188,7 @@ Abra el menú **Editar** y seleccione **Preferencias...Opción**. En la ventana 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
 
 </td>
 </tr>
@@ -196,13 +196,13 @@ Abra el menú **Editar** y seleccione **Preferencias...Opción**. En la ventana 
 
 ## No puedo encontrar la propiedad del &#39;factor de teselación&#39;
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](3d-view-issues.resources/error.svg) Problema**
 
 Después de actualizar Designer a la versión 15.0.0, no puedo encontrar el parámetro &quot;Factor de teselación&quot; en las propiedades del material donde solía estar.
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
-Al utilizar los nuevos procesadores (rasterizador y Trazador de ruta de GPU), el &quot;factor de teselación&quot; se encuentra en las propiedades de estos procesadores. En la vista 3D, vaya a <b>Procesador > Editar configuración</b>. La propiedad se mostrará en el conjunto acoplado Propiedades.
+Al utilizar los nuevos procesadores (rasterizador y Trazador de ruta de GPU), el &quot;factor de teselación&quot; se encuentra en las propiedades de estos procesadores. En la Vista 3D, vaya a <b>Procesador > Editar configuración</b>. La propiedad se mostrará en el conjunto acoplado Propiedades.
 
 >[!NOTE]
 >
@@ -214,11 +214,11 @@ Al utilizar los nuevos procesadores (rasterizador y Trazador de ruta de GPU), el
 
 ## Los objetos 3D tienen un aspecto incorrecto: su sombreado no se adapta a la iluminación
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](3d-view-issues.resources/error.svg) Problema**
 
-El sombreado de los objetos se basa en sus vectores normales, tangentes y binormales. Sus coordenadas utilizan el rango [-1, 1], mientras que los mapas de normales utilizan el rango [0, 1] en la mayoría de los casos. Para adaptar los valores de uno a otro, se debe aplicar un sesgo y una escala de <b>y</b>: valor\*escala+sesgo.
+El sombreado de los objetos se basa en sus vectores normales, tangentes y binormales. Sus coordenadas utilizan el intervalo `[-1, 1]`, mientras que los mapas de normales utilizan el intervalo `[0, 1]` en la mayoría de los casos. Para adaptar los valores de uno a otro, se debe aplicar un sesgo y una escala de <b>y</b>: `value * scale + bias`.
 
-Por ejemplo, una escala de 2 y un sesgo de -1 adapta el valor x de [0, 1] a [-1, 1] de este modo: x\*2-1.
+Por ejemplo, una escala de 2 y un sesgo de -1 adapta el valor x de `[0, 1]` a `[-1, 1]` de esta forma: `x * 2 - 1`.
 
 Designer no aplica una escala ni un sesgo normales a menos que se especifiquen mediante una malla 3D. Si falta esa información, se genera una advertencia en la consola al [reemplazar cualquiera de sus materiales](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
 
@@ -227,7 +227,7 @@ Designer no aplica una escala ni un sesgo normales a menos que se especifiquen m
 ```
 
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
 Para escenas exportadas a formatos USD hace un tiempo: Vuelva a exportar la escena con una versión reciente de USD, que incluirá los datos necesarios. Preste atención a las propiedades relacionadas con la escala normal y el sesgo, si los hay, lo que dependerá del software utilizado para exportar la escena.
 
@@ -235,11 +235,11 @@ Cuando [se reemplaza un material](../../working-with-3d-scenes/overriding-scene-
 
 ## Bloqueo al iniciar la vista 3D
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](3d-view-issues.resources/error.svg) Problema**
 
 Designer se bloquea al iniciar la vista 3D, al crear un proyecto, cargar un proyecto o iniciar manualmente una vista 3D.
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](3d-view-issues.resources/check.svg) Pasos recomendados**
 
 Primero, asegúrate de que tu sistema cumple con los [requisitos del sistema](../../getting-started/system-requirements/system-requirements.md) de Designer.
 

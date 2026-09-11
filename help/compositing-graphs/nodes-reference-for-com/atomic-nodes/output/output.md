@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Salida
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width: 30%; vertical-align: top">
 
 ![Nodo atómico: Salida](output.resources/comp_output_1.png "Nodo atómico: Salida"){width="200px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 El nodo Output especifica el <b>resultado</b> de un gráfico de Substance, o uno de sus resultados si hay más de un nodo Output presente en él.
 
@@ -47,12 +47,12 @@ Cada gráfico de Substance debe tener *al menos un nodo de salida*. Si no existe
 
 ## Atributos
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Identificador</b> *Cadena* | El identificador único de la salida. Esta propiedad no se puede dejar en blanco y no puede contener caracteres especiales ni espacios.   El identificador se utiliza porque la etiqueta del nodo es la propiedad &#39;Label&#39; que se deja en blanco. También se puede usar para nombrar [texturas exportadas](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descripción</b> *Cadena* | La descripción opcional que se utiliza como información sobre herramientas de la salida son los gráficos de Substance. |
 | <b>Etiqueta</b> *Cadena* | Se utiliza como etiqueta para el nodo de salida y su conector correspondiente en [nodos de instancia](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) que representan este gráfico. La etiqueta puede contener espacios y caracteres especiales. |
-| <b>Datos de usuario</b> *Cadena* | Metadatos opcionales que pueden utilizarse para operaciones de filtrado específicas. [Substance 3D Painter](https://www.adobe.com/es/products/substance3d/apps/painter.html) usa estos datos para [controlar algunas características](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Datos de usuario</b> *Cadena* | Metadatos opcionales que pueden utilizarse para operaciones de filtrado específicas. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) usa estos datos para [controlar algunas características](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
 | <b>Grupo</b> *Cadena* | Atributo utilizado para agrupar resultados para los [modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Las salidas con un atributo &#39;Group&#39; idéntico se presentan como una única conexión en el modo de creación de vínculos &#39;Compact Material&#39;. |
 
 ## Atributos de integración
@@ -61,25 +61,27 @@ Estos son atributos que están pensados para ser utilizados por integraciones/co
 
 Por lo tanto, no afectan al formato de [exportaciones de mapas de bits](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Además, solo se usa el atributo <b>Usage</b> en Designer. Consulte los detalles a continuación.
 
-<b>Uso</b>
++++ Uso
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Componente</b> *Cadena* | Se utiliza para asignar algunos canales de textura a las entradas de sombreador de SVBRDF adecuadas en flujos de trabajo AxF. |
-| <b>Uso</b> *Cadena* | Define el tipo y el uso del nodo de salida. Esta propiedad es importante ya que controla:<ul data-preserve-html="true"> <li data-preserve-html="true">Conexión de nodos en gráficos de Substance al utilizar [algunos modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Conexión de texturas a sombreadores en la Vista 3D (véase a continuación: &#39;[Acerca de la función de los usos en el Vista 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Conexión de texturas a materiales en integraciones/complementos</li> </ul> |
+| <b>Uso</b> *Cadena* | Define el tipo y el uso del nodo de salida. Esta propiedad es importante ya que controla:<ul data-preserve-html="true"> <li data-preserve-html="true">Conexión de nodos en gráficos de Substance al utilizar [algunos modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Conexión de texturas a sombreadores en la Vista 3D (véase a continuación: &#39;[Acerca de la función de los usos en el Vista 3D](#about-the-role-of-usages-in-the-3d-view)&#39;)</li> <li data-preserve-html="true">Conexión de texturas a materiales en integraciones/complementos</li> </ul> |
 | <b>Espacio de color</b> *Cadena* | Define el espacio de color en el que se debe interpretar esta salida. Se utiliza en algunas integraciones de otras aplicaciones y no tiene ningún impacto en Designer. |
 
-### Acerca del papel de los usos en la Vista 3D
++++
 
-Dado que las salidas de gráficos a menudo están pensadas para ser el resultado final de un canal de textura específico, las salidas se pueden enviar automáticamente al muestreador adecuado del sombreador utilizado en la Vista 3D.
+### Función de los usos en la vista 3D
 
-De hecho, una salida cuya propiedad <b>Usage</b> *coincida con un uso de muestra* en la Vista 3D se conectará a ese muestreador. Por ejemplo, una salida con un uso de `basecolor` se conectará al muestreador `basecolor` del sombreador. Obtén más información en la sección [Ver datos en el Vista 3D](../../../../interface/3d-view/3d-view.md) de la página [Vista 3D](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion).
+Dado que las salidas de gráficos a menudo están pensadas para ser el resultado final de un canal de textura específico, las salidas se pueden enviar automáticamente al muestreador adecuado del sombreado utilizado en la vista 3D.
 
-Haga clic en RMB en un área vacía en la [vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md) y seleccione la opción <b>Ver salidas en vista 3D</b> en el menú contextual para conectar todas las salidas a los muestreadores de Vista 3D con *usos coincidentes*.
+De hecho, una salida cuya propiedad <b>Usage</b> *coincida con un uso de muestra* en la vista 3D se conectará a ese muestreador. Por ejemplo, una salida con un uso de `basecolor` se conectará al muestreador `basecolor` del sombreador de vista 3D. (Más información: [Ver datos en vista 3D](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view))
+
+Haga clic en RMB en un área vacía en la [vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md) y seleccione la opción <b>Ver resultados en vista 3D</b> en el menú contextual para conectar todas las salidas a las muestras de vista 3D con *usos coincidentes*.
 
 >[!IMPORTANT]
 >
-> Si se configuran varios usos para, por ejemplo, asignar usos a canales en una textura empaquetada, solo el *primer uso* de la lista se conectará a la Vista 3D. Esta es una limitación conocida.
+> Si se configuran varios usos para, por ejemplo, asignar usos a canales en una textura empaquetada, solo el *primer uso* de la lista se conectará a la vista 3D. Esta es una limitación conocida.
 
 ## Salida predeterminada
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/python-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/python-issues.html"
 breadcrumb-title: ''
 description: Solución de problemas de scripts de Python en Substance 3D Designer, incluidos problemas de plugins y API.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problemas de Python
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Las características implementadas en Python incluyen las acciones [Publish](../
 
 ## El módulo &#39;QtForPython&#39; no se carga
 
-<b>![(error)](../../assets/error.svg) Problema</b>
+<b>![(error)](python-issues.resources/error.svg) Problema</b>
 
 El módulo Python &#39;QtForPython&#39; no se carga, por lo que faltan características implementadas en Python, como las acciones [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[Enviar a](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md) en la barra de herramientas del [Explorador](../../interface/the-explorer-window/the-explorer-window.md), así como la herramienta para quitar los nodos no utilizados en los gráficos.
 
 Además, muchos [complementos de Python](../../scripting/plugin-basics/plugin-basics.md) no se cargarán o no funcionarán del modo esperado.
 
-<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
+<b>![(marca)](python-issues.resources/check.svg) Pasos recomendados</b>
 
 Es probable que haya un conflicto entre la instalación de QtForPython por parte de Designer y sus dependencias, y una instalación existente en el sistema.
 

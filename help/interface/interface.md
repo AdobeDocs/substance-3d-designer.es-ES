@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la interfaz del espacio de trabajo de Substance 3D Designer, incluidas las vistas, los paneles y las opciones de personalización.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Workspace
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -105,18 +105,18 @@ La barra de herramientas principal te permite acceder a menús adicionales, como
 
 ## Vista 2D
 
-[La vista 2D](../interface/2d-view/2d-view.md) es la herramienta de previsualización más sencilla. Trabaja en estrecha colaboración con el Gráfico: al hacer doble clic en cualquier nodo de la vista de gráficos, el resultado visual se mostrará en la vista 2D.
+[El vista 2D](../interface/2d-view/2d-view.md) es la herramienta de previsualización más sencilla. Trabaja en estrecha colaboración con el Gráfico: al hacer doble clic en cualquier nodo de la vista de gráficos, se mostrará en el vista 2D el resultado visual.
 
-![Vista 2D](interface.resources/2d-view-1.jpg "Vista 2D")
+![vista 2D](interface.resources/2d-view-1.jpg "vista 2D")
 
 ## Vista 3D
 
-[La vista 3D](../interface/3d-view/3d-view.md) es la ventana de vista previa más interactiva y avanzada. A diferencia de la vista 2D, utiliza varios mapas de salida diferentes para procesar un material completo. Esto significa que verá todos los canales representados, como Color base, Normal y Rugosidad.
+[El Vista 3D](../interface/3d-view/3d-view.md) es la ventana de vista previa más interactiva y avanzada. A diferencia de la vista 2D, utiliza varios mapas de salida diferentes para procesar un material completo. Esto significa que verá todos los canales representados, como Color base, Normal y Rugosidad.
 
 ![Vista 3D](interface.resources/3dview-3.jpg "Vista 3D")
 
 ## Biblioteca
 
-[El dock de la biblioteca](../interface/the-library/the-library.md) proporciona acceso a todo el contenido incluido en la biblioteca de Designer de forma predeterminada, así como a tu [contenido personalizado](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Para comprender mejor la diferencia entre los nodos atómicos y los nodos de instancia de la biblioteca, asegúrese de leer [Información general sobre nodos](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[El dock de la biblioteca](../interface/the-library/the-library.md) proporciona acceso a todo el contenido incluido en la biblioteca de Designer de forma predeterminada, así como a tu [contenido personalizado](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ![Biblioteca](interface.resources/library-3.jpg "Biblioteca")

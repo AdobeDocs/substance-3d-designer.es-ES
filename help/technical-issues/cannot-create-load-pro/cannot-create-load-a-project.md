@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Solucione problemas al crear o cargar proyectos en Substance 3D Designer y encuentre soluciones.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: No se puede crear un proyecto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ En esta página se enumeran las causas comunes por las que no se pueden crear o 
 
 ## La aplicación es demasiado antigua para abrir la URL
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](cannot-create-load-a-project.resources/error.svg) Problema**
 
 El **archivo Substance 3D (SBS)** se está cargando en una versión de Substance 3D Designer que *no admite su formato*. Es probable que el archivo de Substance 3D *se haya guardado en una versión más reciente* del software que usa un formato actualizado para estos archivos.
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](cannot-create-load-a-project.resources/check.svg) Pasos recomendados**
 
 A medida que Substance 3D Designer evoluciona, también lo hace el formato de archivo Substance 3D (SBS). La mayoría de las veces, una nueva versión del software tendrá que *actualizar tus archivos* para que puedan admitir las funciones más recientes.
 
@@ -54,17 +54,17 @@ En primer lugar, compruebe que utiliza la versión más reciente de Substance 3D
 
 ## Bloqueo al crear o cargar un proyecto
 
-<b>![(error)](../../assets/error.svg) Problema</b>
+<b>![(error)](cannot-create-load-a-project.resources/error.svg) Problema</b>
 
-A menudo, un bloqueo al crear o cargar un proyecto se debe a un error durante la inicialización de la [vista 3D](../../interface/3d-view/3d-view.md), que se produce cuando se configura el área de trabajo.
+Un bloqueo al crear o cargar un proyecto suele deberse a un error durante la inicialización de [Vista 3D](../../interface/3d-view/3d-view.md), que se produce cuando se configura el área de trabajo.
 
-Si el sistema es un portátil, una aplicación de terceros puede aplicar un *plan de administración de energía* que impida que la vista 3D use la GPU del sistema. Esto puede provocar un bloqueo si ningún otro dispositivo de GPU puede realizar la tarea en su lugar.
+Si el sistema es un portátil, una aplicación de terceros puede aplicar un *plan de administración de energía* que impida que la Vista 3D utilice la GPU del sistema. Esto puede provocar un bloqueo si ningún otro dispositivo de GPU puede realizar la tarea en su lugar.
 
-También puede producirse un bloqueo al cambiar la configuración de visualización o la escala *entre sesiones, de modo que el marco de procesamiento de la vista 3D se cree en coordenadas no válidas.*
+También se puede producir un bloqueo al cambiar la configuración de visualización o la escala *entre sesiones, de modo que el marco de procesamiento de Vista 3D se cree en coordenadas no válidas.*
 
-<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
+<b>![(marca)](cannot-create-load-a-project.resources/check.svg) Pasos recomendados</b>
 
-Teniendo en cuenta las múltiples causas posibles de este bloqueo, le recomendamos que siga estos pasos de solución de problemas en orden:
+Teniendo en cuenta las múltiples causas posibles de este bloqueo, le sugerimos que siga los siguientes pasos de solución de problemas en orden:
 
 Actualizar controladores gráficos
 
@@ -74,7 +74,7 @@ Exigir el mejor rendimiento
 
 Busque cualquier software que administre el *plan de energía* del sistema (p. ej., la caja de la armería ASUS), especialmente cuando el sistema sea un portátil.
 
-Algunas aplicaciones de administración de energía pueden limitar el acceso de otras aplicaciones a la GPU del sistema o afectar al rendimiento de la GPU, lo que puede producir bloqueos. Si ya existe una aplicación de administración de energía y está activa, cambie al plan que ofrezca el mejor rendimiento.
+Algunas aplicaciones de administración de energía pueden limitar el acceso de otras aplicaciones a la GPU del sistema o afectar al rendimiento de la GPU, lo que puede provocar bloqueos. Si ya existe una aplicación de administración de energía y está activa, cambie al plan que ofrezca el mejor rendimiento.
 
 Forzar uso de GPU discreta
 
@@ -84,7 +84,7 @@ En la mayoría de los casos, esto se consigue en una aplicación dedicada que co
 
 Restablecer la interfaz de usuario guardada en el Registro
 
-Si el bloqueo se debe a un cambio en la configuración de visualización o la escala, puede intentar eliminar las entradas del registro existentes para Designer para restablecer por completo la interfaz de usuario, entre otras opciones.
+Si el bloqueo se debe a un cambio en la configuración de visualización o la escala, puede intentar eliminar las entradas del Registro existentes para Designer para restablecer por completo la interfaz de usuario, entre otras opciones.
 
 El procedimiento para realizar este restablecimiento por sistema operativo se describe a continuación:
 

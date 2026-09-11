@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Utilice el nodo Entrada para crear parámetros de entrada para gráficos de Substance que los usuarios pueden exponer y ajustar.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Entrada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -44,52 +44,7 @@ Los nodos de entrada son un tipo especial de nodo que crea una ranura dinámica 
 
 A diferencia de [nodos de salida](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), debe colocar explícitamente una entrada Color, Escala de grises o Valor. No es posible crear sus propias entradas &quot;agnósticas&quot; que cambian de tipo dependiendo de lo que esté conectado a ellas.
 
-Los nodos de entrada no son tan cruciales como [nodos de salida](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puede tener gráficos avanzados que funcionen a la perfección y que no necesiten una entrada. Las entradas solo se utilizan cuando se desea basar el resultado del gráfico o de la instancia de nodo en una entrada externa, por ejemplo, al crear una [instancia](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o un [filtro](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/effects/filter) para Substance 3D Painter.
-
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## PARÁMETROS
-
-</td>
-<td style="border: 0;" valign="top">
-
-### ATRIBUTOS
-
-</td>
-<td style="border: 0;" valign="top">
-
-### HERENCIA
-
-</td>
-<td style="border: 0;" valign="top">
-
-### ATRIBUTOS DE INTEGRACIÓN
-
-</td>
-</tr>
-</table>
+Los nodos de entrada no son tan cruciales como [nodos de salida](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puede tener gráficos avanzados que funcionen a la perfección y que no necesiten una entrada. Las entradas solo se utilizan cuando se desea basar el resultado del gráfico o de la instancia de nodo en una entrada externa, por ejemplo, al crear una [instancia](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o un [filtro](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) para Substance 3D Painter.
 
 ## Parámetros
 
@@ -116,21 +71,21 @@ Si desea verla con los resultados de otro gráfico, deberá exportar dicho gráf
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 Cuando hay varias entradas, debes prestar atención a la forma en que el gráfico [heredará sus parámetros base](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) de estas entradas.\
 Los parámetros base incluyen, entre otros, <b>Tamaño de salida</b>, <b>Formato de salida</b> y <b>Modo de mosaico</b>.
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
+Una entrada se puede definir como [entrada principal](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). A continuación, esta entrada controla los atributos de todas las entradas cuyo método de herencia está establecido en *Relativo al principal*. Este es el método de herencia *establecido de forma predeterminada* en los nodos Input.
 
-[![Entrada principal en el gráfico del Substance](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+</td>
+<td width="25%" style="border: 0;" valign="top">
+
+![Entrada principal en el gráfico del Substance](input.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
-
-Una entrada se puede definir como [entrada principal](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). A continuación, esta entrada controla los atributos de todas las entradas cuyo método de herencia está establecido en *Relativo al principal*. Este es el método de herencia *establecido de forma predeterminada* en los nodos Input.
 
 Puede establecer un nodo de entrada como entrada principal de un gráfico haciendo clic en *RMB* en el nodo y seleccionando la opción <b>Establecer como entrada principal</b> en el menú contextual.\
 La entrada principal de un nodo está marcada con un *pequeño punto oscuro en el conector* (en un círculo rojo en el ejemplo al lado de esta sección).
@@ -145,11 +100,11 @@ Por último, puede reemplazar cualquier valor para un atributo determinado estab
 
 >[!IMPORTANT]
 >
-> El método de herencia *Relativo a la entrada* para nodos de entrada *no es compatible* en [Substance 3D Assets (SBSAR)](https://helpx.adobe.com/es/substance-3d-assets.html). Establezca todos los métodos de herencia de los nodos Input en *Relativo al principal* antes de publicar el paquete.
+> El método de herencia *Relativo a la entrada* para nodos de entrada *no es compatible* en [Substance 3D Assets (SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Establezca todos los métodos de herencia de los nodos Input en *Relativo al principal* antes de publicar el paquete.
 
 ## Atributos de integración
 
-Las entradas no se envían directamente a la Vista 3D, pero [Substance 3D Painter](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/home) utiliza sus atributos de uso para rellenar automáticamente las ranuras con determinados mapas (la mayoría de ellos se usan con [Filters](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/effects/filter)).
+Las entradas no se envían directamente a la Vista 3D, pero [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) utiliza sus atributos de uso para rellenar automáticamente las ranuras con determinados mapas (la mayoría de ellos se usan con [Filters](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Además, los atributos de uso también se utilizan con [Modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), para que coincidan con las ranuras de entrada y salida correctas.
 

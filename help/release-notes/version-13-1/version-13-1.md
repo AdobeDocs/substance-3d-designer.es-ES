@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión de Substance 3D Designer 13.1 para obtener más información sobre las mejoras en los gráficos de nodos y la compatibilidad con la exportación de AxF.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *Fecha de publicación: 12 de diciembre de 2023*
 
-![Banner de Substance 3D Designer 13.1](../../assets/24-library-hero-1920x620.png "Banner de Substance 3D Designer 13.1")
+![Banner de Substance 3D Designer 13.1](version-13-1.resources/24-library-hero-1920x620.png "Banner de Substance 3D Designer 13.1")
 
 ## Mejoras de los marcos
 
@@ -34,19 +34,19 @@ Los fotogramas son una herramienta obligatoria para mantener el gráfico bien or
 
 A medida que crece el gráfico, puede ser necesario reorganizar el contenido de los marcos. Es posible que los nodos cambien para dejar espacio para las adiciones o que el contenido deba espaciarse más para facilitar la lectura. Para facilitar estos ajustes, ahora es posible ampliar automáticamente un fotograma al mover objetos incluidos: mantén <b>Shift</b> pulsado en cualquier momento mientras mueves un objeto para que los bordes del marco se ajusten automáticamente y mantener ese objeto dentro de sus límites.
 
-![autoexpand](../../assets/autoexpand.gif)
+![autoexpand](version-13-1.resources/autoexpand.gif)
 
 ### Ajustar tamaño al contenido
 
 Al realizar ajustes en el gráfico, es posible que un marco ya no se ajuste correctamente a su contenido. Este nuevo comando le permite ajustar automáticamente la posición y el tamaño del marco para que se ajuste a la extensión de su contenido, con un relleno de una celda de cuadrícula media. Si el marco tiene una descripción, se ajusta para utilizar cualquier espacio vacío junto a la descripción, si es posible.
 
-![fitsize](../../assets/fitsize.gif)
+![fitsize](version-13-1.resources/fitsize.gif)
 
 ### Descripciones mejoradas
 
 Gracias al código del HTML, ahora puede tener texto con formato en la descripción de un marco. Esto también se aplica a los comentarios.
 
-![richtext](../../assets/description-3.png)
+![richtext](version-13-1.resources/description-3.png)
 
 ### <b>... ¡Y mucho más!</b>
 
@@ -64,7 +64,7 @@ Se han repensado muchas cosas, como pertenecer a reglas para ser más tolerantes
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de archivo AxF](../../assets/axf-file-icon.png "Icono de archivo AxF")
+![Icono de archivo AxF](version-13-1.resources/axf-file-icon.png "Icono de archivo AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ En esta nueva versión, presentamos la posibilidad de editar materiales AxF en s
 </tr>
 </table>
 
-![Exportar AxF](../../assets/exportaxf.gif)
+![Exportar AxF](version-13-1.resources/exportaxf.gif)
 
 ## API
 
@@ -157,11 +157,11 @@ Por último, esta versión 13.1 sigue mejorando la API de Python al añadir dos 
 
 ### ERRORES CONOCIDOS
 
-* [AxF OpenGL Shader] Pabellón incorrecto para la distribución anisotrópica
-* [AxF OpenGL Shader] Rugosidad predeterminada incorrecta
-* [AxF OpenGL Shader] Rotación de base de sombreado incorrecta
-* [AxF OpenGL Shader] Rayo incorrecto debajo de hemispherediscovery
-* [AxF OpenGL Shader] Detección de contribución incorrecta
+* [AxF OpenGL Sombreador] Pabellón incorrecto para la distribución anisotrópica
+* [AxF Sombreador OpenGL] Rugosidad predeterminada incorrecta
+* [Sombreador OpenGL AxF] Rotación de base de sombreado incorrecta
+* [AxF OpenGL Sombreador] Rayo incorrecto debajo de detección de hemisferio
+* [Sombreador OpenGL de AxF] Detección de contribución incorrecta
 * [AxF] Los valores del mapa &quot;Color de Specular&quot; son incorrectos al exportar
 * [AxF] La vista previa y las texturas no se muestran correctamente en el cuadro de diálogo Importar AxF
 * [AxF] La propiedad &quot;cc no refraction&quot; no se ha insertado correctamente en la plantilla AxF a AxF

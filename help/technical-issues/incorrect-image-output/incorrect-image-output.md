@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Solucione problemas de salida de imágenes incorrectas en Substance 3D Designer y aprenda a corregir problemas de procesamiento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Salida de imagen incorrecta
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ En esta página se enumeran los problemas técnicos de Substance 3D Designer que
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](incorrect-image-output.resources/error.svg) Problema**
 
 Los degradados de la imagen de salida se escalonan en lugar de suavizarse. El paso se debe a que el intervalo de valores *que usa la imagen es demasiado estrecho*.\
 Esto significa que no hay suficientes valores para realizar una transición fluida de un paso de un degradado al siguiente.
@@ -43,13 +43,13 @@ Si no necesita trabajar específicamente con imágenes HDR., es probable que la 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](incorrect-image-output.resources/check.svg) Pasos recomendados**
 
 Compruebe el **Formato de salida** (es decir, profundidad de bits) del nodo y de todos los nodos anteriores y asegúrese de que estos nodos utilizan *precisión Integer de al menos 16 bits*.
 
@@ -65,7 +65,7 @@ Por ejemplo:
 
 * L8: entero de escala de grises de 8 bits
 * C16: color entero de 16 bits
-* C32F: coma flotante de color de 32 bits (HDR)
+* C32F: punto flotante de color de 32 bits (HDR.)
 
 ## Pérdida de calidad en SBSAR publicado
 
@@ -73,7 +73,7 @@ Por ejemplo:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![(error)](../../assets/error.svg) Problema</b>
+<b>![(error)](incorrect-image-output.resources/error.svg) Problema</b>
 
 La calidad de las imágenes generadas por un archivo de Substance 3D (SBSAR) es notablemente inferior a la del gráfico del archivo de Substance 3D desde el que se publica, como se muestra en la imagen de la derecha.\
 El resultado aparece con baja resolución.
@@ -81,13 +81,13 @@ El resultado aparece con baja resolución.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
+<b>![(marca)](incorrect-image-output.resources/check.svg) Pasos recomendados</b>
 
 Asegúrese de que la propiedad [Output size](../../compositing-graphs/output-size/output-size.md) de todos los nodos [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) esté establecida en el *método de herencia [Absolute*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
@@ -99,29 +99,29 @@ Si no es así, su [recurso de mapa de bits](../../resources/bitmap-resource/bitm
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(error)](../../assets/error.svg) Problema**
+**![(error)](incorrect-image-output.resources/error.svg) Problema**
 
-Las formas aparecen ligeramente desenfocadas después de usar algunos nodos, como [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) o [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
+Las formas aparecen ligeramente desenfocadas después de usar algunos nodos, como [Transformación 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) o [Fusión](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(marca)](../../assets/check.svg) Pasos recomendados**
+**![(marca)](incorrect-image-output.resources/check.svg) Pasos recomendados**
 
 Al reorganizar los píxeles de una imagen, por ejemplo, al cambiar el tamaño de una forma o la resolución de una imagen, hay dos formas de determinar cómo se deben *asignar* píxeles del origen al destino:
 
 * **Más cercano**: El píxel se asignará al destino *tal cual* en la coordenada coincidente. Si el objetivo es de baja resolución, el píxel puede ignorarse por completo. Si el objetivo es de mayor resolución; se asignará a todos los píxeles que cubran su alcance. El resultado es *más nítido* y tendrá un aspecto ligeramente *suavizado*.
 * **Filtrado bilineal**: Se aplica un proceso de filtrado a la imagen de origen para que sus píxeles se asignen a la resolución de destino de forma que *suavice* las transiciones entre píxeles. El resultado es *más suave* y se verá ligeramente *borroso*.
 
-El nodo [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) proporciona la opción **Filtering method** para seleccionar cuál de estos dos métodos de asignación se debe usar.
+El nodo [Transformación 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) proporciona una opción de **método de filtrado** para seleccionar cuál de estos dos métodos de asignación se debe usar.
 
-La mayoría de los nodos - p.ej. [Fusionar](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md): valor predeterminado de *filtrado bilineal* al realizar el muestreo de una textura de entrada de diferente resolución, lo que puede provocar un desenfoque no deseado.\
-Dado que el nodo Transformation 2D es *atómico*, por lo tanto muy ligero, se puede usar *incluso si no se necesitan transformaciones* para cambiar una resolución de textura mediante su propiedad [Output size](../../compositing-graphs/output-size/output-size.md) antes de enviar la textura a otro nodo, para que puedas *controlar el impacto* de este cambio de tamaño.
+La mayoría de los nodos - p.ej. [Fusión](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md): el valor predeterminado es *filtrado bilineal* al realizar el muestreo de una textura de entrada de diferente resolución, lo que puede provocar un desenfoque no deseado.\
+Dado que el nodo de Transformación 2D es *atómico*, por lo tanto muy ligero, se puede usar *incluso si no se necesitan transformaciones* para cambiar una resolución de textura mediante su propiedad [Tamaño de salida](../../compositing-graphs/output-size/output-size.md) antes de enviar la textura a otro nodo, para que puedas *controlar el impacto* de este cambio de tamaño.
 
-En el [gráfico de funciones](../../function-graphs/function-graphs.md) del nodo [Pixel processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), los nodos **Sample** incluyen la *misma opción* para controlar cómo se debe asignar la textura muestreada a la resolución del nodo.
+En el [gráfico de funciones](../../function-graphs/function-graphs.md) del nodo [Procesador de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), los nodos **Sample** incluyen la *misma opción* para controlar cómo se debe asignar la textura muestreada a la resolución del nodo.

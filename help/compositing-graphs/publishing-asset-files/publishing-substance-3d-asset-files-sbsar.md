@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: Aprenda a publicar archivos de recursos de Substance 3D (SBSAR) desde Designer para su uso en otras aplicaciones y motores.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Publicación de archivos de activos de Substance 3D (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Esta página explica cómo Substance 3D Designer puede publicar paquetes como archivos <b>Substance 3D asset</b>, un formato de archivo especial con la extensión <b>SBSAR</b>, que se utiliza en el ecosistema del Substance, así como en otras aplicaciones que lo admiten.
 
-Por lo general, es mejor utilizar un recurso de Substance 3D en lugar de mapas de bits, ya que es mucho más flexible y ligero. Si los usas en Substance 3D [Painter](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/es/substance-3d-sampler.html) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), es más rápido usar [&#39;Enviar a...&#39; característica](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+Por lo general, es mejor utilizar un recurso de Substance 3D en lugar de mapas de bits, ya que es mucho más flexible y ligero. Si los usas en Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), es más rápido usar [&#39;Enviar a...&#39; característica](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
 ![Publicación de archivos SBSAR simplificada](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Publicación de archivos SBSAR simplificada")
 
@@ -33,7 +33,7 @@ es conveniente tener en cuenta lo siguiente al publicar un gráfico de Substance
 * Usted<b> publica un paquete</b>, con todo su contenido, no un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md) individual. A continuación, un recurso de Substance 3D le permite generar contenido a partir de todos los gráficos de Substance dentro de este paquete.
 * Los paquetes publicados son <b>completamente independientes</b>: todos los recursos necesarios se incrustan en el archivo. Esto significa que son mucho más fáciles de compartir que los archivos SBS.
 * El resultado de los recursos de Substance 3D puede ser <b>completamente dinámico</b>. [La resolución no está establecida; se pueden modificar los parámetros expuestos.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) Sin embargo, ya no es posible editar el gráfico.
-* Los recursos de Substance 3D se pueden usar fuera de Designer, en todos los productos de Adobe de Substance 3D, Adobe Dimension y cualquier otra aplicación que tenga [Substance integration](https://experienceleague.adobe.com/es/docs/substance-3d/ecosystem/home).
+* Los recursos de Substance 3D se pueden usar fuera de Designer, en todos los productos de Adobe de Substance 3D, Adobe Dimension y cualquier otra aplicación que tenga [Substance integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
 * Publicar es diferente de [Exportar](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md), asegúrate de entender bien la diferencia.
 
 ## Preparándose para publicar
@@ -91,7 +91,7 @@ Después de publicar con diálogo una vez, también puede utilizar el botón Pub
 
 ## Opciones de publicación de activos
 
-Antes de que aparezcan las Opciones de Publish de activos, se le pedirá que guarde el archivo Substance 3D (SBS) si no se ha hecho esto, y se le preguntará dónde guardar el activo de Substance 3D. Para evitar ver las indicaciones y el cuadro de diálogo del archivo y sacar el archivo más rápido, usa <b>Publish como métodos anteriores</b> descritos anteriormente.
+Antes de que aparezcan las Opciones de Publish de activos, se le pedirá que guarde el archivo de Substance 3D (SBS) si no se ha hecho esto, y se le preguntará dónde guardar el activo de Substance 3D. Para evitar ver las indicaciones y el cuadro de diálogo del archivo y sacar el archivo más rápido, usa <b>Publish como métodos anteriores</b> descritos anteriormente.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -150,7 +150,7 @@ En ocasiones, el cuadro de diálogo Publish muestra advertencias en amarillo. Lo
 
 Si bien el recurso de Substance 3D es el formato más potente y dinámico del ecosistema Substance, hay algunas pequeñas limitaciones técnicas que debe tener en cuenta.
 
-* Los paquetes de recursos de Substance 3D publicados son un formato de archivo unidireccional. No se puede &quot;descompilar&quot; un recurso de Substance 3D en un archivo Substance 3D (SBS). La única forma de &quot;editar&quot; un recurso de Substance 3D es editar el archivo Substance 3D original. Todavía puede utilizar el contenido del paquete de recursos de Substance 3D como nodos dentro de nuevos Substance (abrir y arrastrar y soltar), por lo que no es una limitación enorme.
+* Los paquetes de recursos de Substance 3D publicados son un formato de archivo unidireccional. No se puede &quot;descompilar&quot; un recurso de Substance 3D en un archivo de Substance 3D (SBS). La única forma de &quot;editar&quot; un recurso de Substance 3D es editar el archivo Substance 3D original. Todavía puede utilizar el contenido del paquete de recursos de Substance 3D como nodos dentro de nuevos Substance (abrir y arrastrar y soltar), por lo que no es una limitación enorme.
 * Los archivos de recursos de Substance 3D tienen versiones que deducen la compatibilidad. El Substance Engine principal se actualiza de vez en cuando con nuevas funciones. las aplicaciones compatibles con estas nuevas características deben leer los paquetes que utilizan estas características. Esto no es un problema para todas las aplicaciones de Substance, ya que se actualizan al mismo tiempo, pero los complementos y las integraciones pueden tener retrasos de compatibilidad más largos.\
   Utilice las opciones de visualización de compatibilidad de Substance Engine en [Preferencias del proyecto](../../interface/preferences-window/project-settings/project-settings.md) para detectar cualquier problema potencial.
 * Algunos parámetros expuestos, como *static*, están *ocultos* una vez que se publica un gráfico como parte de un recurso de Substance 3D. Consulte la sección [Limitaciones](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) de la página [Exposición de un parámetro](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) para obtener una lista de estos parámetros y obtener más información sobre los parámetros estáticos en general.
