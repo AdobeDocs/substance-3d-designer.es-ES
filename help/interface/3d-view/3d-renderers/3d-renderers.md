@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Elija entre los procesadores rasterizador y trazador de trazados en la vista 3D para obtener una calidad de previsualización y un rendimiento diferentes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderizadores 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ La Vista 3D ofrece cuatro procesadores:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathTracker-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathTracker-2">
       <br><i>Trazador de ruta de GPU</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Gracias a su dependencia de USD, puede aprovechar el [plugin USDFileFormat](http
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Gracias a su dependencia de USD, puede aprovechar el [plugin USDFileFormat](http
 
 >[!TIP]
 >
-> Puede seleccionar el procesador que se utiliza de forma predeterminada al iniciar una nueva Vista 3D en la sección [&#x200B; &quot;Vista 3D&quot; de la configuración del proyecto](../../../interface/preferences-window/project-settings/project-settings.md).
+> Puede seleccionar el procesador que se utiliza de forma predeterminada al iniciar una nueva Vista 3D en la sección [ &quot;Vista 3D&quot; de la configuración del proyecto](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <a name="rasterizer"></a>
 
@@ -111,7 +111,7 @@ Gracias a su dependencia de USD, puede aprovechar el [plugin USDFileFormat](http
 
 +++
 
-![Rasterizador - Ejemplo 1](../../../assets/3dRendererRasterizer.jpg "Rasterizador - Ejemplo 1"){zoomable="yes"}
+![Rasterizador - Ejemplo 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizador - Ejemplo 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Gracias a su dependencia de USD, puede aprovechar el [plugin USDFileFormat](http
 
 +++
 
-![Rastreador de GPU - Ejemplo 1](../../../assets/3dRendererPathtracer.jpg "Rastreador de GPU - Ejemplo 1"){zoomable="yes"}
+![Rastreador de GPU - Ejemplo 1](3d-renderers.resources/3dRendererPathtracer.jpg "Rastreador de GPU - Ejemplo 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -178,7 +178,7 @@ Hay dos técnicas disponibles para visualizar el height:
 
 <b>Mosaico + Desplazamiento</b>: subdivide la geometría y desplaza los vértices a lo largo de sus normales.
 
-El Adobe Standard Material se documenta detalladamente en [esta sección](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nuestra documentación.
+El Adobe Standard Material se documenta detalladamente en [esta sección](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nuestra documentación.
 
 +++
 
@@ -210,7 +210,7 @@ Hay dos técnicas disponibles para visualizar el height:
 
 +++ Lambert
 
-Sombreador de iluminación lambert muy simple, solo admite el canal Diffuse. Utiliza el antiguo sistema de luces puntuales y no admite la iluminación de imágenes HDR.
+Sombreador de alumbrado lambert muy simple, solo soporta canal de Difuso. Utiliza el antiguo sistema de luces puntuales y no admite la iluminación de HDR. image.
 
 +++
 
@@ -238,7 +238,7 @@ La visualización se fija a [0, 1]. Por lo tanto, no es posible obtener una lect
 
 +++ Rugosidad metálica
 
-Material PBR estándar para el modelo de rugosidad metálica. Utiliza los canales Color base, Metálico y Rugosidad.
+Material PBR estándar para el modelo de Rugosidad metálica. Utiliza canales de Color base, metálicos y de rugosidad.
 
 Hay dos técnicas disponibles para visualizar el height:
 
@@ -250,7 +250,7 @@ Hay dos técnicas disponibles para visualizar el height:
 
 +++ Rugosidad metálica - Recubierta
 
-Material PBR recubierto para el modelo de Rugosidad metálica. Utiliza canales de color base, metálicos y de rugosidad, así como canales &quot;Coat&quot; adicionales.
+Material PBR recubierto para el modelo de Rugosidad metálica. Utiliza canales de Color base, metálicos y de rugosidad, así como canales &quot;Coat&quot; adicionales.
 
 Hay dos técnicas disponibles para visualizar el height:
 
@@ -260,9 +260,9 @@ Hay dos técnicas disponibles para visualizar el height:
 
 +++
 
-+++ Rugosidad metálica - SSS
++++ RUGOSIDAD METÁLICA - SLV
 
-Material PBR de dispersión subsuperficial para el modelo de rugosidad metálica. Utiliza el color base, los canales metálicos y de rugosidad, así como un canal de dispersión adicional.
+Material PBR de dispersión subsuperficial para el modelo de Rugosidad metálica. Utiliza canales de Color base, metálicos y de rugosidad, así como canales de dispersión adicionales.
 
 Hay dos técnicas disponibles para visualizar el height:
 
@@ -296,4 +296,4 @@ Designer también ofrece la posibilidad de configurar sus propios sombreadores p
 > 
 > Este procesador está **obsoleto**: No recibirá nuevas funciones y se retirará en una futura versión de Designer.
 
-![OpenGL - Ejemplo 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Ejemplo 1"){zoomable="yes"}
+![OpenGL - Ejemplo 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Ejemplo 1"){zoomable="yes"}

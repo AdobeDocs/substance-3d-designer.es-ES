@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilice la vista 3D de Substance 3D Designer para previsualizar materiales en objetos 3D y probar las condiciones de iluminación.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vista 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Más información aquí: [Procesadores 3D](3d-renderers/3d-renderers.md)
 
 En la sección siguiente se explica cómo realizar acciones comunes en pocas palabras, junto con un archivo gif animado para ilustrar el proceso.
 
-![Navegación por ventanilla](../../assets/3d-navigate.gif "Navegación por ventanilla")
+![Navegación por ventanilla](3d-view.resources/3d-navigate.gif "Navegación por ventanilla")
 
 ### Navegación
 
@@ -78,17 +78,17 @@ Puede interactuar con las mallas directamente en la ventana gráfica:
 
 <b>Mantén presionado ⇧ y haz clic en LMB en una malla para seleccionar una malla.</b> Las mallas seleccionadas tienen un contorno azul.
 
-<b>Presione F para centrarse en una malla seleccionada</b>. Al enfocar una malla, la cámara se mueve para colocarla en el marco y orbitar a su alrededor.
+<b>Presione F para centrarse en una malla seleccionada</b>. Al enfocar una malla, la cámara se mueve para enmarcarla y orbitar a su alrededor.
 
 <b>Haz clic en RMB mientras se selecciona una malla</b> para acceder a sus [acciones de material](#material-actions) en un menú contextual.
 
 <b>Presione Escape para deseleccionar.</b> No es necesario que el cursor esté en la malla.
 
-![Vista 3D - Enfocar y deseleccionar](../../assets/sceneBrowser-focus.gif "Vista 3D - Enfocar y deseleccionar"){zoomable="yes"}
+![Vista 3D - Enfocar y deseleccionar](3d-view.resources/sceneBrowser-focus.gif "Vista 3D - Enfocar y deseleccionar"){zoomable="yes"}
 
 *Seleccionar, enfocar y deseleccionar*
 
-![Vista 3D - Menú contextual](../../assets/sceneBrowser-contextualMenu.gif "Vista 3D - Menú contextual"){zoomable="yes"}
+![Vista 3D - Menú contextual](3d-view.resources/sceneBrowser-contextualMenu.gif "Vista 3D - Menú contextual"){zoomable="yes"}
 
 *Seleccionar, menú contextual*
 
@@ -100,39 +100,39 @@ Puede interactuar con las mallas directamente en la ventana gráfica:
 
 Designer funciona con la iluminación basada en imágenes (IBL) de forma predeterminada. Se utiliza un mapa de bits de alto rango dinámico para representar la iluminación del entorno.
 
-Puede rotar este entorno alrededor de su objeto 3D o puede cargar entornos de luz o HDR personalizados. Tenga en cuenta que las imágenes HDR. deben utilizar una proyección equirrectangular y tener una precisión de punto flotante de 32 bits.
+Puede rotar este entorno alrededor de su objeto 3D o puede cargar entornos de luz HDR personalizados o preestablecidos. Tenga en cuenta que las imágenes HDR deben utilizar una proyección equirrectangular y tener una precisión de punto flotante de 32 bits.
 
 ⇧+RMB+Arrastrar <b>rota el entorno</b> en la vista 3D.
 
-Para establecer una rotación precisa, usa <b>Entorno > Editar</b> en la barra de herramientas de la Vista 3D superior y cambia el regulador <b>Ángulo de rotación</b> en la ventana de propiedades.
+Para establecer una rotación precisa, usa <b>Entorno > Editar</b> en la barra de herramientas superior de la vista 3D y cambia el regulador <b>Ángulo de rotación</b> en la ventana de propiedades.
 
-Para utilizar un entorno HDR. light preestablecido, haga clic en la sección <b> entornos HDRI</b> de la <b>categoría de Vista 3D </b> en [Biblioteca](../../interface/the-library/the-library.md), y luego arrastre y suelte cualquiera de los iconos a la vista 3D.
+Para usar un entorno de luz HDR preestablecido, haz clic en la sección <b> entornos HDRI</b> de la categoría <b>Vista 3D</b> en la [biblioteca](../../interface/the-library/the-library.md) y, a continuación, arrastra y suelta cualquiera de los iconos en la vista 3D.
 
-Para utilizar su propio entorno HDR. light personalizado, importe una imagen HDR. arrastrando y soltando el archivo en un paquete en la ventana del explorador (<b>Vincular</b> el archivo cuando se le solicite). A continuación, arrastre y suelte el recurso y elija <b>Panorama de latitud y longitud</b> como destino.
+Para utilizar su propio entorno de luz HDR personalizado, importe una imagen HDR arrastrando y soltando el archivo en un paquete en la ventana del explorador (<b>Vincular</b> el archivo cuando se le solicite). A continuación, arrastre y suelte el recurso y elija <b>Panorama de latitud y longitud</b> como destino.
 
 ### Luces puntuales
 
 Ve a <b>Luces > Editar propiedades</b> para cambiar las luces puntuales de tu escena.
 
-La luz puntual 1 se puede mover alrededor del origen de la escena manteniendo pulsada la tecla LMB o RMB y arrastrando en la ventanilla en el modo Iluminación. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+La luz puntual 1 se puede mover alrededor del origen de la escena manteniendo pulsada la tecla LMB o RMB y arrastrando en la ventanilla en el modo Iluminación. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-En modo de cámara <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> , también puedes cambiar temporalmente al modo de iluminación manteniendo pulsadas las teclas Ctrl+ ⇧ en combinación con los botones del ratón.
+En modo de cámara <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , también puedes cambiar temporalmente al modo de iluminación manteniendo pulsadas las teclas Ctrl+ ⇧ en combinación con los botones del ratón.
 
-## Ver datos en Vista 3D
+## Ver datos en vista 3D
 
-![Salidas de gráfica de Substance de vista](../../assets/3d-material.gif "Salidas de gráfica de Substance de vista")
+![Salidas de gráfica de Substance de vista](3d-view.resources/3d-material.gif "Salidas de gráfica de Substance de vista")
 
 ### Gráficos de Substance
 
-Puede ver materiales enteros como un material completo en la Vista 3D. Esta es la forma más común de trabajar y hará coincidir los [atributos de uso en los nodos de salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) con las ranuras de textura relevantes del material de la vista 3D. Esto significa que las salidas deben configurarse correctamente (el uso de plantillas garantiza que esto sea así) y que el sombreador de la ventana gráfica/material seleccionado es compatible
+Puede ver materiales enteros como un material completo en la vista 3D. Esta es la forma más común de trabajar y hará coincidir los [atributos de uso en los nodos de salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) con las ranuras de textura relevantes del material de la vista 3D. Esto significa que los resultados deben configurarse correctamente (el uso de plantillas garantiza que esto sea así) y que el sombreador de material/ventana seleccionada admite
 
-Para ver todas las salidas de un gráfico, haga clic en *RMB* en un área vacía de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) y seleccione la opción **Ver salidas en Vista 3D** en el menú contextual.
+Para ver todas las salidas de un gráfico, haga clic en *RMB* en un área vacía de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) y seleccione la opción **Ver salidas en vista 3D** en el menú contextual.
 
-También puedes ver los resultados de un gráfico sin tener que abrirlo, haciendo clic en RMB en un recurso de gráfico en el dock de [Explorer](../the-explorer-window/the-explorer-window.md) y eligiendo la opción **Ver resultados en Vista 3D** en el menú contextual.
+También puedes ver los resultados de un gráfico sin tener que abrirlo, haciendo clic en RMB en un recurso de gráfico en el dock de [Explorer](../the-explorer-window/the-explorer-window.md) y eligiendo la opción **Ver resultados en vista 3D** en el menú contextual.
 
-Como alternativa al menú contextual del gráfico, puedes obtener el mismo resultado arrastrando el gráfico desde el muelle de [Explorer](../the-explorer-window/the-explorer-window.md) hasta el Vista 3D.
+Como alternativa al menú contextual del gráfico, puede obtener el mismo resultado arrastrando el gráfico desde el conjunto acoplado de [Explorer](../the-explorer-window/the-explorer-window.md) a la vista 3D.
 
-Al *cargar un gráfico*, sus resultados se aplican automáticamente en la Vista 3D de forma predeterminada. Puede deshabilitar este comportamiento en [Preferencias](../../interface/preferences-window/preferences-window.md). Vaya a **Editar > Preferencias > Gráfico > Común** y desmarque la opción **Ver resultados en vista 3D al abrir un gráfico**.
+Al *cargar un gráfico*, sus resultados se aplican automáticamente en la vista 3D de forma predeterminada. Puede deshabilitar este comportamiento en [Preferencias](../../interface/preferences-window/preferences-window.md). Vaya a **Editar > Preferencias > Gráfico > Común** y desmarque la opción **Ver resultados en vista 3D al abrir un gráfico**.
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Al *cargar un gráfico*, sus resultados se aplican automáticamente en la Vista 
 > 
 > Si utiliza mallas personalizadas con más de un material, se le pedirá que elija a qué ranura de material asignar el material. Con cualquiera de los métodos anteriores, haga clic en una ranura para confirmar su elección. Para obtener más información sobre los materiales y su asignación, lea la sección detallada a continuación.
 
-![Visualización de salidas de nodos frente a gráficos en la vista 3D](../../assets/3d-channel.gif "Visualización de salidas de nodos frente a gráficos en la vista 3D")
+![Visualización de salidas de nodos frente a gráficos en la vista 3D](3d-view.resources/3d-channel.gif "Visualización de salidas de nodos frente a gráficos en la vista 3D")
 
 ### Salida de nodo/gráfico individual
 
@@ -152,7 +152,7 @@ También puedes usar *RMB* para arrastrar y soltar cualquier nodo de la vista de
 
 Puede ver cualquier resultado de gráfico individual expandiendo el recurso de gráfico en el conjunto acoplado [Explorer](../the-explorer-window/the-explorer-window.md) y usando *LMB* para arrastrar ese resultado a la vista 3D. Se le mostrará una lista con los canales disponibles para asignar el nodo. Haga clic en cualquiera para confirmar.
 
-![Visualización de mallas 3D personalizadas](../../assets/3d-mesh.gif "Visualización de mallas 3D personalizadas")
+![Visualización de mallas 3D personalizadas](3d-view.resources/3d-mesh.gif "Visualización de mallas 3D personalizadas")
 
 ## Visualización de escenas 3D (personalizadas)
 
@@ -161,7 +161,7 @@ Elija cualquiera de las mallas predeterminadas en el menú desplegable <b>Escena
 
 Para escenas 3D personalizadas, vaya a la sección [Trabajar con escenas 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Cambio de propiedades de material](../../assets/3d-materials.gif "Cambio de propiedades de material")
+![Cambio de propiedades de material](3d-view.resources/3d-materials.gif "Cambio de propiedades de material")
 
 ## Cambiar propiedades del sombreado
 
@@ -184,7 +184,7 @@ Los sombreadores se pueden restablecer mediante las acciones &quot;Restablecer m
 > * <b>Rasterizador/Trazador de ruta de GPU:</b> Situado en la configuración del procesador (Procesador > Editar configuración), afecta a *toda la escena*.
 > * <b>OpenGL:</b> Situado en las propiedades del material, afecta al material.
 
-![Exportando la escena](../../assets/3d-view-export-scene.gif "Exportando la escena")
+![Exportando la escena](3d-view.resources/3d-view-export-scene.gif "Exportando la escena")
 
 ## Exportar escena
 
@@ -221,7 +221,7 @@ Para exportar la malla Vista 3D, vaya a <b>Escena > Exportar malla teselada...</
 >
 > **TDR (solo Windows)**
 > 
-> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
+> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
 
 ## Barra de menús
 
@@ -230,7 +230,7 @@ La barra de menús proporciona 7 menús con opciones relacionadas con la vista 3
 +++Escena
 El menú <b>Escena</b> trata de la geometría (recurso 3D) mostrada y de los estados de vista 3D. Los recursos 3D solo comparten la malla, los estados de escena son luces, cámara y ajustes relacionados, y también pueden contener la malla a lo largo.
 
-![Mallas del menú Escena](../../assets/3d-view-meshes.png "Mallas del menú Escena")
+![Mallas del menú Escena](3d-view.resources/3d-view-meshes.png "Mallas del menú Escena")
 
 
 
@@ -305,7 +305,7 @@ El menú &quot;Materiales&quot; muestra una lista de todos los materiales asigna
 
 <b>Cargar definición...: </b>(solo procesador OpenGL) Permite cargar su propio sombreador [GLSLFX personalizado.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) El sombreado se añade a la lista anterior.
 
-<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Cambiar nombre:</b> Cambie la etiqueta de este material.
 
@@ -526,25 +526,25 @@ Cambia la visualización del eje 3D en la ventana gráfica.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Sacrificio posterior</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Sacrificio posterior</b>
 
 Al deshabilitar esta opción, puede ver una cara de malla de *ambos lados*. La opción funciona en combinación con la Malla metálica.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Cuadro delimitador</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Cuadro delimitador</b>
 
 Alterna la visualización del cuadro delimitador de la malla.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Espacio de tangente de vértice</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Espacio de tangente de vértice</b>
 
 Muestra los vectores tangente, binormal y normal para todos los vértices como gizmos de color.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Malla metálica</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Malla metálica</b>
 
 Cambia la visualización de la malla como una malla metálica.
 
@@ -554,7 +554,7 @@ La barra de herramientas <b>Display</b>, que se encuentra en la *parte inferior*
 
 >[!NOTE]
 >
-> La barra de herramientas se puede *cambiar de posición* alrededor del conjunto acoplado de la **vista 3D** mediante el *controlador* situado más a la izquierda y representado por tres líneas paralelas.
+> La barra de herramientas se puede *cambiar de posición* alrededor del conjunto acoplado **Vista 3D** mediante el *identificador* situado más a la izquierda y representado por tres líneas paralelas.
 
 ### AOV de renderizado 3D
 
@@ -563,7 +563,7 @@ La barra de herramientas <b>Display</b>, que se encuentra en la *parte inferior*
         <td style="border: 0">
             <p>Puede mostrar diferentes <a href="../../glossary/glossary.md#aov">AOV</a> mediante el botón <img src="./3d-view.resources/aov/aov-icon.png" alt="Icono de AOV de procesamiento 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOV de representación 3D</b>.</p>
             <p>Los AOV permiten inspeccionar la información de mallas y materiales de forma aislada para realizar un trabajo específico y una depuración.</p>
-            <p>Algunos AOV incluyen <i>valores HDR</i> que se fijan en 1 (blanco puro) o 0 (negro puro) en la ventana gráfica.<br>Para inspeccionar el rango completo de valores, puede exportar un renderizado 3D del AOV a un formato de archivo de imagen que admita valores HDR, como <code>.exr</code>.<br>Utilice la opción de menú <code>Camera > Save render...</code> para exportar el AOV actual.</p>
+            <p>Algunos AOV incluyen <i>HDR. valores</i> que se fijan en 1 (blanco puro) o 0 (negro puro) en la ventana gráfica.<br>Para inspeccionar el rango completo de valores, puede exportar un renderizado 3D del AOV a un formato de archivo de imagen que admita valores HDR., como <code>.exr</code>.<br>Utilice la opción de menú <code>Camera > Save render...</code> para exportar el AOV actual.</p>
             <p><i>Nota:</i> los AOV solo están disponibles cuando se usan el rasterizador y los <a href="./3d-renderers/3d-renderers.md">procesadores 3D</a> de Trazador de ruta de GPU.</p>
         </td>
         <td style="width: 33%; border: 0">
@@ -574,7 +574,7 @@ La barra de herramientas <b>Display</b>, que se encuentra en la *parte inferior*
 
 ### Canales de color
 
-Puede mostrar un solo canal de la imagen mediante el botón ![](../../assets/2d-view-icon-channels.png) <b>Canales de color</b>. Se abre un cuadro combinado que permite seleccionar los canales <b>Rojo</b>, <b>Verde</b> y <b>Azul</b> que se deben mostrar. El aspecto normal de la imagen con todos los canales se restaura seleccionando la opción <b>RGB</b>.
+Puede mostrar un solo canal de la imagen mediante el botón ![](3d-view.resources/2d-view-icon-channels.png) <b>Canales de color</b>. Se abre un cuadro combinado que permite seleccionar los canales <b>Rojo</b>, <b>Verde</b> y <b>Azul</b> que se deben mostrar. El aspecto normal de la imagen con todos los canales se restaura seleccionando la opción <b>RGB</b>.
 
 El *icono* del botón <b>Canales de color</b> *cambia* dependiendo de los canales de visualización actuales.
 
