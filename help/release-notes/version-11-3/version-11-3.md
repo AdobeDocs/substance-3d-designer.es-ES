@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 11.3 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -130,18 +130,18 @@ Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderi
 * [Modelos de Substance] Mejorar el modo en que se visualizan los Basis
 * [Modelos de Substance] Conservar la jerarquía de objetos al exportar un gráfico de modelo de Substance a .fbx
 * [Modelos de Substance] Compatibilidad con varios materiales en la exportación FBX/OBJ desde el gráfico del modelo de Substance
-* [Modelos de Substance]&#x200B;[Contenido] Nodo de objeto
-* [Modelos de Substance]&#x200B;[Contenido] Nodo Transformación generativa
-* [Modelos de Substance]&#x200B;[Contenido] Nodo Organic Pattern
-* [Modelos de Substance]&#x200B;[Contenido] Partículas del nodo Instancias
-* [Modelos de Substance]&#x200B;[Contenido] Nodo de eliminación de partículas
-* [Modelos de Substance]&#x200B;[Contenido] Torno nodo
-* [Substance models]&#x200B;[Content] Nodo de shell
-* [Modelos de Substance]&#x200B;[Contenido] Nodo de proyección
-* [Modelos de Substance]&#x200B;[Contenido] Nodo de recorte de curva
-* [Modelos de Substance]&#x200B;[Contenido] Actualizar el nodo Sampler de la curva
-* [Modelos de Substance]&#x200B;[Contenido] Actualizar nodo Sampler de malla
-* [Modelos de Substance]&#x200B;[Contenido] Actualizar el nodo Variación
+* [Modelos de Substance][Contenido] Nodo de objeto
+* [Modelos de Substance][Contenido] Nodo Transformación generativa
+* [Modelos de Substance][Contenido] Nodo Organic Pattern
+* [Modelos de Substance][Contenido] Partículas del nodo Instancias
+* [Modelos de Substance][Contenido] Nodo de eliminación de partículas
+* [Modelos de Substance][Contenido] Torno nodo
+* [Substance models][Content] Nodo de shell
+* [Modelos de Substance][Contenido] Nodo de proyección
+* [Modelos de Substance][Contenido] Nodo de recorte de curva
+* [Modelos de Substance][Contenido] Actualizar el nodo Sampler de la curva
+* [Modelos de Substance][Contenido] Actualizar nodo Sampler de malla
+* [Modelos de Substance][Contenido] Actualizar el nodo Variación
 * [UX] Botón para maximizar la vista actual
 * [UX] Actualización de la ventana Nuevo gráfico
 * [UX] Añada la opción &quot;Descargar reproductor&quot; en el menú Herramientas y agréguela con &quot;Localizar reproductor&quot;
@@ -160,8 +160,8 @@ Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderi
 * [Vista 3D] Añada una opción para mostrar el espacio de tangente de vértices
 * [Explorador] Resalte el gráfico en el Explorador al hacer doble clic en el fondo de la vista de gráfico
 * [Explorer] Quitar la opción &quot;Explorar&quot; en los menús contextuales
-* [Panaderos] Ocultar panaderos obsoletos
-* [Gestión de color] Añadir compatibilidad con las reglas del archivo de configuración de OCIO v2
+* [Bakeres] Ocultar bakeres obsoletos
+* [Gestión de color] Añadir compatibilidad con las reglas de archivo de configuración de OCIO v2
 * [Biblioteca] Cambiar el nombre de las categorías según los tipos de gráficos
 * [Preferencias] Desactive automáticamente la CPU en las preferencias de hardware de Iray si se detecta una GPU CUDA compatible
 
@@ -170,16 +170,16 @@ Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderi
 * [Modelos de Substance] Bloqueo en Mac al utilizar la opción &quot;as sudb&quot; en .fbx
 * [Modelos de Substance] Bloqueo al exportar a SBSM en un caso específico
 * [Modelos de Substance] Error de exportación al exportar parámetros expuestos cuyos widgets nunca se han creado
-* [Modelos de Substance] Bloqueo aleatorio al abrir un gráfico que hace referencia a varios archivos .fbx
+* [Modelos de Substance] bloqueo aleatorio al abrir un gráfico que hace referencia a varios archivos .fbx
 * [Modelos de Substance] Los rangos no se aplican dinámicamente en los widgets de los parámetros expuestos
 * [Modelos de Substance] La opción Volver a cargar malla no funciona en los recursos utilizados en el gráfico de modelos de Substance
-* [Modelos de Substance] Las escenas no se muestran en una vista 3D disponible en un caso específico
+* [Modelos de Substance] Las escenas no se muestran en una Vista 3D disponible en un caso específico
 * [UI] El área de desactivación es demasiado grande en las opciones de material
 * [UI] Problema de estilo en el cuadro de diálogo &quot;Archivo de paquete no guardado&quot;
 * [UI] La tecla de tabulación se debe presionar dos veces para desplazarse por los valores
 * [UI] El zoom con la acción de arrastrar del ratón se invierte entre la vista 3D y otras ventanas gráficas
 * [UI] Al cargar un SBS ya abierto mediante la lista &quot;Archivos recientes&quot;, se activa incorrectamente el mensaje &quot;Paquete no encontrado&quot;
-* [UI]&#x200B;[macOS] Diseño de interfaz predeterminado incorrecto después de iniciar la aplicación
+* [UI][macOS] Diseño de interfaz predeterminado incorrecto después de iniciar la aplicación
 * [UI] Los paquetes no se pueden guardar en la raíz de una unidad (solo Windows)
 * [Graph] La opción &quot;Mostrar automáticamente en vista 2D&quot; no es coherente en un caso específico
 * [Graph] La opción &#39;Open Reference&#39; está disponible para los nodos de instancia SBSAR

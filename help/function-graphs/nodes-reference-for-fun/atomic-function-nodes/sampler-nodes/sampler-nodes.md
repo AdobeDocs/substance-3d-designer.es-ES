@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Acceda a nodos de muestra en gráficos de funciones de Substance 3D Designer para muestrear texturas y extraer valores de color.
 helpx_creative_field: ""
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 Estos nodos muestrean un valor en una imagen de entrada en las coordenadas 2D proporcionadas:
 
-<b>Gris de muestra</b> muestra un valor de luminancia en la entrada <b>Posición</b> en una imagen de escala de grises y lo emite como un valor <b>Float</b>.
+<b>Gris de muestra</b> muestra un valor de luminancia en la entrada <b>Posición</b> en una imagen de escala de grises y lo muestra como un valor <b>Flotante</b>.
 
-<b>Sample Color</b> muestrea un valor RGBA en la entrada <b>Posición </b> de una imagen de color y lo emite como un valor <b>Float4</b> donde los componentes R, G, B y A se asignan a los componentes X, Y, Z y W respectivamente.
+<b>Sample Color</b> muestrea un valor RGBA en la entrada <b>Posición </b> de una imagen de color y lo emite como un valor <b>Flotante4</b> donde los componentes R, G, B y A se asignan a los componentes X, Y, Z y W respectivamente.
 
 <table>
 <tr style="border: 0;">
@@ -47,7 +47,7 @@ Las posiciones fuera de este intervalo se controlan según el <b>modo de direcci
 
 >[!NOTE]
 >
-> La entrada <b>Position</b> debe ser un valor Float2 donde las coordenadas X e Y de la imagen se asignan a los componentes X e Y del valor respectivamente
+> La entrada <b>Position</b> debe ser un valor Flotante2 en el que las coordenadas X e Y de la imagen se asignan a los componentes X e Y del valor respectivamente
 
 ## Parámetros
 
@@ -78,8 +78,8 @@ Controla cómo se manejan los valores de posición fuera del intervalo [0;1].
 Realiza un bucle en el rango [0;1] a medida que aumenta el valor.\
 Por ejemplo: 3,4 es 0,4, -1,7 es 0,3.
 
-<b>Ajustar a Edge</b>\
-Ajusta valores fuera del intervalo [0;1] hasta su límite más próximo.\
+<b>Fijación a borde</b>\
+Fija los valores fuera del rango [0;1] a su límite más próximo.\
 Por ejemplo: .3.4 es 1, -1.7 es 0.
 
 +++

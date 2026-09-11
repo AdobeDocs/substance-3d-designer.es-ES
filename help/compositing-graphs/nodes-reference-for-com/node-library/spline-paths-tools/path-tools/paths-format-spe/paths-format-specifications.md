@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Obtenga información sobre las especificaciones de formato de rutas y la estructura de datos que utilizan los nodos de rutas y splines.
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ En esta sección se explica cómo se codifica un documento <b>Paths</b> (o image
 
 Un documento de trazados es una lista de trazados, cada uno de los cuales describe una lista de segmentos codificados en una textura de color de punto flotante de <b>32 bits</b>.
 
-La textura se divide en partes &quot;superior&quot; (*$pos.y &lt; 0.5*) e &quot;inferior&quot; (*$pos.y > 0.5*).
+La textura se divide en partes &#39;superior&#39; (*$pos.y &lt; 0.5*) e &#39;inferior&#39; (*$pos.y > 0.5*).
 
 Cualquier dato de un píxel en la parte &#39;superior&#39; está semánticamente estrechamente relacionado con el píxel coincidente en la parte &#39;inferior&#39; y viceversa.
 
@@ -49,7 +49,7 @@ Cualquier dato de un píxel en la parte &#39;superior&#39; está semánticamente
 >
 > Los datos de rutas requieren una precisión de 32 bits y el uso de una profundidad de bits inferior producirá resultados incorrectos.
 > 
-> Por lo tanto, asegúrese de establecer el parámetro &quot;Formato de salida&quot; de los nodos que generan datos de trazados en &quot;Alta precisión HDR (32F)&quot;.
+> Por lo tanto, asegúrese de establecer el parámetro &quot;Formato de salida&quot; de los nodos que generan datos de trazados en &quot;HDR. High Precision (32F)&quot;.
 
 Permita que `*uv\_pos*` sea una dirección 2D (como *$pos*) de un píxel de la parte &#39;superior&#39;.
 
@@ -58,7 +58,7 @@ En el resto de este documento:
 * <b>top[uv\_pos].XYZW</b> hará referencia a los 4 elementos flotantes almacenados en el píxel de la parte superior.\
   top[uv\_pos] == muestra\_color(rutas, uv\_pos)
 * <b>bottom[uv\_pos].XYZW</b> hará referencia a los 4 elementos flotantes almacenados en el píxel coincidente de la parte inferior.\
-  bottom[uv\_pos] == muestra\_color(rutas, uv\_pos + Float2(0, 0.5))
+  bottom[uv\_pos] == muestra\_color(rutas, uv\_pos + Flotante2(0, 0.5))
 
 top[uv\_pos] y bottom[uv\_pos] juntos forman una unidad semántica U[uv\_pos] del documento, compuesta por 8 flotantes.
 
@@ -90,7 +90,7 @@ Esto es útil cuando se leen las rutas de acceso desde un [procesador de píxele
 
 La dirección del último vértice definido en este documento. Esto resulta útil para anexar nuevos datos.
 
-Por lo tanto, puede ser realmente cualquier dirección mayor (en orden de escaneado) que la dirección del último vértice. Debe estar en el intervalo &rbrack;0, 1[×]0, .5&lbrack;
+Por lo tanto, puede ser realmente cualquier dirección mayor (en orden de escaneado) que la dirección del último vértice. Debe estar en el intervalo ]0, 1[×]0, .5[
 
 <b>ZW</b>
 
@@ -201,7 +201,7 @@ si |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_
 
 Si desea crear sus propios nodos de procesamiento de trazados, dispone de varias herramientas.
 
-Los conceptos básicos los proporcionan los nodos [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) y [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), que básicamente se pueden usar del mismo modo que un [procesador de píxeles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
+Los conceptos básicos los proporcionan los nodos [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) y [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), que básicamente se pueden usar de la misma manera que un [Procesador de píxeles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
 
 Si necesita características más allá de lo que ofrecen los nodos del procesador de vértices de rutas (más texturas de entrada, o más vértices anteriores o siguientes), copiar la implementación de este gráfico podría ser un buen punto de partida (suponiendo que reemplace el nodo <b>Get(&quot;%perVertex&quot;)</b> por su procesamiento personalizado).
 
@@ -261,13 +261,13 @@ Probablemente no desee usar esto directamente, sino más bien usar una de las fu
 +++
 
 +++sample_next, sample_prev
-Dado el valor muestreado de la parte superior `*sampled*` y su posición `*sampled\_position*`, devuelve el valor muestreado de la parte superior del vértice siguiente (respectivamente anterior) y establece una variable Float2 `*next\_sampled\_pos*` en la posición (en la parte superior) de este vecino (es decir, &lt;valor devuelto> = SampleColor(next\_sampled\_pos, image0). `*input0PixSize*` debe ser igual al tamaño de píxel del trazado (top[(0,0)].YZ).
+Dado el valor muestreado de la parte superior `*sampled*` y su posición `*sampled\_position*`, devuelve el valor muestreado de la parte superior del vértice siguiente (respectivamente anterior) y establece una variable Flotante2 `*next\_sampled\_pos*` en la posición (en la parte superior) de este vecino (es decir, &lt;valor devuelto> = SampleColor(next\_sampled\_pos, image0). `*input0PixSize*` debe ser igual al tamaño de píxel del trazado (top[(0,0)].YZ).
 
 Si el píxel actual (`*sampled*`) es un vértice <b>Start</b>, *sample\_prev* devolverá el siguiente elemento relacionado de este vértice; del mismo modo, si es un vértice <b>End</b>, *sample\_next* devolverá el siguiente hermano de este vértice (es decir, tal vez no sea lo que desee). Consulte `*sample\_next\_advanced*` y `*sample\_prev\_advanced*` a continuación para resolver este problema.
 
 Tenga en cuenta que para simplificar, se supone que <b>la información de rutas se almacena en input0!</b> Además, a diferencia de lo que indica el documento de la función, no es necesario declarar previamente `*next\_sampled\_pos*`. `*[out]next\_sampled\_pos*` es un parámetro ficticio para recordarle que este segundo &quot;valor devuelto&quot; existe.
 
-Puede comprobar `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), en el parámetro Iterations del tercer nodo iterate, para obtener un ejemplo de cómo usarlo.
+Puede comprobar `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), en el parámetro Iteraciones del tercer nodo iterado, para obtener un ejemplo de cómo usarlo.
 
 ![Caso de uso mínimo de sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Caso de uso mínimo de sample_next")
 
@@ -286,9 +286,9 @@ Esto está destinado a trabajar en caminos cerrados. En el caso de los trazados 
 
 ### Funciones de &#39;escritura&#39;
 
-En la carpeta `Write`, encontrará pequeños ayudantes que crean un Float4 listo para ser escrito <b> por un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
+En la carpeta `Write`, encontrará pequeños ayudantes que crean un Flotante4 listo para ser escrito <b> por un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
 
-De hecho, [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) multiplica RGB por Alpha antes de dibujar, por lo que los valores reales no se premultiplican para compensar eso. Si desea utilizar estas funciones, por ejemplo, en un [procesador de píxeles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), le recomendamos que vuelva a aplicar la premultiplicación o que escriba una versión personalizada (más optimizada para su caso de uso y más fácil de usar).
+De hecho, [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) multiplica RGB por Alpha antes de dibujar, por lo que los valores reales no se premultiplican para compensar eso. Si desea utilizar estas funciones, por ejemplo, en un [Procesador de píxeles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), le recomendamos que aplique de nuevo la premultiplicación o que escriba una versión personalizada (más optimizada para su caso de uso y más fácil de usar).
 
 +++document_header
 Genera la parte superior del encabezado del documento, declarando el número de rutas de acceso proporcionadas.
@@ -312,13 +312,13 @@ Acerca de *mid\_vertex* y el parámetro *hasTrivialLinks*: Lo ideal sería estab
 
 +++
 
-No hay ningún generador de partes inferiores para encabezados de ruta ni vértices: ambos codifican dos vínculos a la parte superior, por lo que esta función sería esencialmente un constructor Vector Float4 de dos Float2. No olvide dividir XYZ por W si está escribiendo con [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (dado que W es la Y de una dirección, nunca debe ser null).
+No hay ningún generador de partes inferiores para encabezados de ruta ni vértices: ambos codifican dos vínculos en la parte superior, por lo que esta función sería esencialmente un constructor Flotante de vector4 de dos Flotante2. No olvide dividir XYZ por W si está escribiendo con [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (dado que W es la Y de una dirección, nunca debe ser null).
 
 Encontrará un ejemplo pertinente de cómo usar estas funciones en el paquete <b>*paths\_polygon.sbs* </b>que aloja el nodo [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md).
 
 ### Métodos para procesar rutas
 
-Es probable que utilice un procesador de píxeles o un Fx-Map para implementar su procesamiento personalizado, cada uno de los cuales tiene sus fortalezas y debilidades:
+Es probable que utilice un Procesador de píxeles o un Fx-Map para implementar su procesamiento personalizado, cada uno de los cuales tiene sus fortalezas y debilidades:
 
 +++FX-Map
 La solución basada en [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) suele ser la preferida cuando se realizan operaciones de alto nivel que requieren un conocimiento global de toda la ruta (o rutas) o una acumulativa (por ejemplo, reempaquetar los vértices después de la diezmación o teselación). También es la forma más sencilla de abordarlo, por lo que si está realizando un procesamiento personalizado por primera vez, puede que desee utilizar un mapa de efectos, a pesar de que *puede* ser más lento.
@@ -330,11 +330,11 @@ Le recomendamos que examine la implementación de [Rutas de vista previa](../../
 +++
 
 +++Procesador de píxeles
-La solución [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) encajará si solo necesitas información &quot;local&quot;. Aquí queremos decir &quot;local&quot; no espacialmente (la distancia entre el elemento) sino topológicamente (vértices unidos). Así es como se implementa el procesador de vértices. El procesador de píxeles suele ser más rápido que el Fx-Map para este tipo de operación, ya que la función de cada píxel se evalúa en paralelo, mientras que solo se accede a una cantidad limitada de datos. Sin embargo, el esfuerzo de implementación podría ser mucho más importante, ya que solo puede modificar el píxel actual.
+La solución [Procesador de píxeles](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) se ajustará si solo necesitas información &quot;local&quot;. Aquí queremos decir &quot;local&quot; no espacialmente (la distancia entre el elemento) sino topológicamente (vértices unidos). Así es como se implementa el procesador de vértices. El Procesador de píxeles suele ser más rápido que el Fx-Map para este tipo de operaciones, ya que la función de cada píxel se evalúa en paralelo, mientras que solo se accede a una cantidad limitada de datos. Sin embargo, el esfuerzo de implementación podría ser mucho más importante, ya que solo puede modificar el píxel actual.
 
 No entraremos en detalles, ya que hay mucho que decir dependiendo de su caso de uso específico, pero lo primero que hay que hacer es comprobar dónde se encuentra:
 
-¿Está en la parte superior ($pos.y &lt; 0.5) o inferior ($pos.y > 0.5)? Recomendamos que recuerde que en una variable dedicada (p.ej. `*isTop*`) y que crea un objeto Float2 de tipo `*vert.addr*`, ese valor es `*$pos*` para la parte superior y `$pos - (0,0.5)` para la parte inferior.
+¿Está en la parte superior ($pos.y &lt; 0.5) o inferior ($pos.y > 0.5)? Recomendamos que recuerde que en una variable dedicada (p.ej. `*isTop*`), y que crea un Flotante `*vert.addr*`, cuyo valor es `*$pos*` para la parte superior y `$pos - (0,0.5)` para la parte inferior.
 
 ¿Qué hay en *vert.addr*? Muéstrelo y compruebe si hay algo (W != 0) entonces, si lo hay, qué exactamente. ¿Un encabezado (W = 0,0625) (comprobar con `*Read/is\_header*`) o un vértice (comprobar con `Read/is\_vertex`)? Y si es un encabezado, ¿es el encabezado del documento o un encabezado de ruta? (Puede usar `*Read/current\_pixel\_is\_document\_header*` para comprobarlo). Utilice una o varias de las funciones auxiliares para que coincidan con lo que le resulte interesante.
 

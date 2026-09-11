@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Descubra cómo funciona la herencia en Substance que componen gráficos para crear jerarquías y variaciones de gráficos reutilizables.
 helpx_creative_field: ""
@@ -98,7 +98,7 @@ Este botón le permite seleccionar el método de herencia que debe utilizarse pa
 
 ![Cambiando método de herencia](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "Cambiando método de herencia"){width="512px"}
 
-En la mayoría de los casos, los parámetros Base de *node* se establecen en *Relative to input*, para aprovechar el comportamiento procedimental de encadenar nodos juntos, mientras que los parámetros Base de *graph* se establecen en *Relative to parent*, de modo que los parámetros globales se puedan adaptar al contexto en el que se usa el gráfico.
+En la mayoría de los casos, los parámetros Base de un *nodo* se establecen en *Relativo a entrada*, para aprovechar el comportamiento procedimiento de encadenar nodos juntos, mientras que los parámetros Base de un *gráfico* se establecen en *Relativo a principal*, de modo que los parámetros globales se puedan adaptar al contexto en el que se usa el gráfico.
 
 ### AJUSTE DE VALORES HEREDADOS
 

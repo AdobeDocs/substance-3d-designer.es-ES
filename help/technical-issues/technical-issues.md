@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: Consulte las guías de solución de problemas técnicos en Substance 3D Designer para resolver problemas rápidamente.
 helpx_creative_field: ""
@@ -29,8 +29,8 @@ En cada una de las páginas enumeradas, encontrará *pasos de solución de probl
 * [Bloqueo al renderizar los gráficos](../technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
 * [Los parámetros no funcionan según lo previsto](../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 * [Salida de imagen incorrecta](../technical-issues/incorrect-image-output/incorrect-image-output.md)
-* [Problemas de visualización en 3D](../technical-issues/3d-view-issues/3d-view-issues.md)
-* [Problemas de horneado](../technical-issues/baking-issues/baking-issues.md)
+* [Problemas de Vista 3D](../technical-issues/3d-view-issues/3d-view-issues.md)
+* [Hacer un bake problemas](../technical-issues/baking-issues/baking-issues.md)
 * [Problemas de interfaz de usuario](../technical-issues/user-interface-issues/user-interface-issues.md)
 * [Problemas de Python](../technical-issues/python-issues/python-issues.md)
 * [Falta la función gráfica del modelo de Substance](../technical-issues/model-graph-eol/substance-model-graph-eol.md)

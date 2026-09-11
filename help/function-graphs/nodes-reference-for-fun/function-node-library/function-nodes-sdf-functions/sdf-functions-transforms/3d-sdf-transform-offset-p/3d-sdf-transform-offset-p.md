@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Descripción
 
-Desplaza el espacio del mundo a lo largo de un vector.<br>La posición de mundo transformada de salida se puede conectar a la entrada <b>P</b> de la mayoría de las Funciones SDF para definirlas en este espacio de mundo transformado.<br><br><i>Sugerencia:</i> Las transformaciones P se pueden encadenar, pero tenga en cuenta que los resultados dependen del orden de las operaciones.
+Desplaza el espacio del mundo a lo largo de un vector.<br>La posición de mundo transformada de salida se puede conectar a la entrada <b>P</b> de la mayoría de las Funciones SDF para definirlas en este espacio de mundo transformado.<br><br><i>Sugerencia:</i> Las transformes P se pueden encadenar, pero tenga en cuenta que los resultados dependen del orden de las operaciones.
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
 breadcrumb-title: ''
 description: Utilice el nodo Óxido Weathering para generar patrones de óxido basados en la geometría de malla para crear efectos realistas de corrosión metálica.
 helpx_creative_field: ""
@@ -66,14 +66,14 @@ ht-degree: 14%
 | <b>Cantidad de muestras de goteo</b> <i>0 - 32</i> |  |
 | <b>Smoothness de goteos</b> <i>0.0 - 1.0</i> |  |
 | <b>Fusión</b> |  |
-| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Intensidad de fusión de la difusión. |
-| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Intensidad de fusión del color base. |
+| <b>Intensidad de Difuso</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Difuso. |
+| <b>Intensidad de Color base</b> <i>0.0 - 1.0</i> | Fusión del Color base. |
 | <b>Intensidad normal</b> <i>0.0 - 32.0</i> | Intensidad de fusión de la Normal. |
 | <b>Intensidad del Specular</b> <i>0.0 - 1.0</i> | Fusión del Specular. |
-| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fuerza de fusión del Brillo. |
+| <b>Intensidad de Brillo</b> <i>0.0 - 1.0</i> | Fusión del Brillo. |
 | <b>Intensidad de rugosidad</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la rugosidad. |
 | <b>Intensidad metálica</b> <i>0.0 - 1.0</i> | Intensidad de fusión del metal. |
-| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiente. |
+| <b>Intensidad de Oclusión ambiental</b> <i>0.0 - 1.0</i> | Fuerza de fusión de la Oclusión ambiental. |
 | <b>Intensidad de Height</b> <i>0.0 - 1.0</i> | Fusión del Height. |
 
 ## Ejemplos

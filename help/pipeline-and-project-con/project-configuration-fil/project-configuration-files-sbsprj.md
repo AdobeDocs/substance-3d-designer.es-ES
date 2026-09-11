@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los archivos de configuración de proyecto SBSPRJ en Substance 3D Designer para administrar la configuración del proyecto.
 helpx_creative_field: ""
@@ -59,15 +59,15 @@ Los archivos de proyecto pueden contener las siguientes configuraciones:
 
 <b>Alias: </b>Alias de palabras clave para rutas relativas.
 
-<b>Haciendo un bake: </b>Configuración para hacer un bake las convenciones de nomenclatura.
+<b>Horneado: </b>Configuración de las convenciones de asignación de nombres.
 
-<b>General: </b>Plantillas de gráficos, complementos de Espacio de tangente, valores predeterminados de formato normal y de imagen.
+<b>General: </b>Plantillas de gráficos, complementos de espacio de tangente, valores predeterminados de formato normal y de imagen.
 
 <b>Biblioteca: </b>Rutas controladas para mostrar en la biblioteca.
 
 <b>Secuencias de comandos: </b>Scripts e intérpretes de devolución de llamada.
 
-<b>Control de versiones: </b>Configuración para integrar Control de versiones en Designer.
+Control de versiones de <b>: </b>Configuración para integrar el control de versiones en Designer.
 
 ## Modificación de archivos de proyecto
 

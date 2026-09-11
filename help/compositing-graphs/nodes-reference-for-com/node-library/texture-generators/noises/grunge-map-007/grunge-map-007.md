@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-007.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-007.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de Suciedades 007 para crear texturas de suciedades procedimientas para añadir variaciones de superficie y efectos de desgaste.
 helpx_creative_field: ""
@@ -49,7 +49,7 @@ Esto genera un mapa de ruido complejo y combinado. Puede ser muy útil como proc
 | <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
 | <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el resultado. |
 | <b>Patrón de pincel</b> <i>0.0 - 1.0</i> | Añade una máscara alrededor de los bordes para cuando se usa como pincel alfa. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 

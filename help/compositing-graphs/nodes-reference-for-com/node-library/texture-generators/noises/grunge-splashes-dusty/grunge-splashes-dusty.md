@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
 description: Utilice el nodo Polvoriento de salpicaduras de Suciedad para crear patrones de salpicaduras polvorientas para añadir detalles de textura intemperizada.
 helpx_creative_field: ""
@@ -52,8 +52,8 @@ El nodo **Suciedad Splashes Dusty** genera un mapa de suciedades similar a salpi
 | <b>Avanzado</b> |  |
 | <b>Cantidad de salpicaduras</b> <i>Flotador</i> | Ajusta la cantidad de salpicaduras en la superficie. |
 | <b>Distorsión de salpicaduras</b> <i>Flotador</i> | Ajusta la intensidad del efecto de deformación aplicado a las salpicaduras. |
-| <b>Relación de salpicaduras/Dirt</b> <i>Flotante</i> | Ajusta la *proporción* de dirt y salpicaduras en la superficie. |
-| <b>Difusión de Dirt</b> <i>Flotante</i> | Ajusta la extensión del dirt. |
+| <b>Relación de salpicaduras/Dirt</b> <i>Flotador</i> | Ajusta la *proporción* de dirt y salpicaduras en la superficie. |
+| <b>Difusión de Dirt</b> <i>Flotador</i> | Ajusta la extensión del dirt. |
 
 ## Ejemplos
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Utilice las herramientas de edición vectorial para crear y modificar SVG en Substance 3D Designer para texturas procedimientas.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Esta página describe las herramientas de edición disponibles en el panel [vist
 
 El panel [vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) ofrece herramientas básicas de edición de vectores que te permiten crear o editar gráficos vectoriales *manualmente* directamente en [Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html). Estas herramientas son especialmente útiles, por ejemplo, para crear rápidamente *máscaras* o *patrones*.
 
-Las herramientas admiten la entrada de lápiz. Para aprovechar las pantallas de lápiz, puedes [desacoplar](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) el panel de la [vista en 2D](https://docs.substance3d.com/display/SDDOC/2D+view) y, a continuación, colocarlo y redimensionarlo en cualquier configuración que te resulte más cómoda para pintar.
+Las herramientas admiten la entrada de lápiz. Para aprovechar las pantallas de lápiz, puedes [desacoplar](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) el panel [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) y, a continuación, colocarlo y redimensionarlo en cualquier configuración que te resulte más cómoda para pintar.
 
 Las ediciones se pueden *deshacer individualmente* y todas las demás características del panel vista 2D están *disponibles* mientras editas la imagen vectorial, como el panel [Histograma](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Histogram), la [visualización en mosaico](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Viewport) y la [imagen de fondo](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Backgroundimage).
 
@@ -51,7 +51,7 @@ Las ediciones se pueden *deshacer individualmente* y todas las demás caracterí
 
 >[!IMPORTANT]
 >
-> Puede pintar *solo* en *recursos de gráficos vectoriales[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de* 8 bits que son [nuevos o importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
+> Puede pintar *solo* en *recursos de gráficos vectoriales](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de* 8 bits[ que son [nuevos o importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
 
 ![Cuadro de diálogo Nuevo recurso SVG](../../../assets/2dview-new-vector-image.png "Cuadro de diálogo Nuevo recurso SVG"){width="512px"}
 

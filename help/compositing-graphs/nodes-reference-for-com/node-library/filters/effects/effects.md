@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
 breadcrumb-title: ''
-description: Accede a los nodos de filtros de efectos en Substance 3D Designer para añadir efectos visuales como iluminaciones, sombras y deformaciones a tus texturas.
+description: Acceda a los nodos de filtros de efectos en Substance 3D Designer para añadir efectos visuales como iluminaciones, sombras y deformaciones a sus texturas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects
 helpx_experience_level: ""
@@ -33,6 +33,6 @@ Otro grupo de nodos está diseñado para el efecto de forma de capa o &quot;Esti
 
 * [Resplandor](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md)
 * [Trazo de forma](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-stroke/shape-stroke.md)
-* [Relieve de Uber](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
+* [Uber Relieve](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
 
 Por último, hay algunos efectos avanzados útiles, de los cuales [Flood Fill](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md), [Detección de bordes](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) y [Deformación vectorial](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md) son los mejores ejemplos.

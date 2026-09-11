@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
 description: Utilice el nodo Procesamiento de spline para procesar splines como texturas con anchura, color y modos de fusión personalizables.
 helpx_creative_field: ""
@@ -70,8 +70,8 @@ Dibuja cadenas de segmentos a lo largo de la entrada <b>Splines</b> sobre la ent
 | <b>Mostrar ayuda de dirección</b> <i>Booleano</i> | Para cada spline, dibuja un punto al principio de la spline y una punta de flecha al final. |
 | <b>Cantidad de segmentos</b> <i>Entero</i> | Ajusta el número de segmentos dibujados a lo largo de las splines.<br>Un valor más alto genera líneas más suaves. |
 | <b>Cantidad de spline de sobre</b> <i>Entero</i> | Número de segmentos duplicados que se deben dibujar a lo largo del thickness de cada spline. |
-| <b>Inicio</b> <i>Flotador</i> | Desplaza el inicio de la parte de la spline que se debe dibujar.<br>El valor representa la longitud normalizada de la spline. |
-| <b>Fin</b> <i>Flotador</i> | Desplaza el extremo de la parte de la spline que se debe dibujar.<br>El valor representa la longitud normalizada de la spline. |
+| <b>Inicio</b> <i>Flotante</i> | Desplaza el inicio de la parte de la spline que se debe dibujar.<br>El valor representa la longitud normalizada de la spline. |
+| <b>Fin</b> <i>Flotante</i> | Desplaza el extremo de la parte de la spline que se debe dibujar.<br>El valor representa la longitud normalizada de la spline. |
 | <b>Modo Tamaño Thickness</b> <i>Entero</i> | Método para calcular el thickness de los segmentos dibujados:<br>- <i>Imagen</i>: el valor se normaliza en el espacio de textura, donde 1 es la anchura completa de la imagen. El thickness es relativo a la resolución de textura;<br>- <i>Píxel</i>: el valor es un número absoluto de píxeles en la textura, donde 1 es un píxel completo. El thickness es independiente de la resolución de la textura. |
 | <b>Thickness (imagen)</b> <i>Flotador</i> | (disponible cuando &quot;Modo de tamaño de Thickness&quot; está establecido en Imagen) El thickness de los segmentos dibujados se normaliza en el espacio de textura, donde 1 es el ancho completo de la imagen. |
 | <b>Thickness (px)</b> <i>Flotador</i> | (disponible cuando &quot;Modo de tamaño de Thickness&quot; está establecido en Píxel) El thickness de los segmentos dibujados como un número absoluto de píxeles en la textura, donde 1 es un píxel completo. |
@@ -81,13 +81,13 @@ Dibuja cadenas de segmentos a lo largo de la entrada <b>Splines</b> sobre la ent
 | <b>Intensidad de fondo</b> <i>Flotador</i> | El valor se multiplica por la imagen de entrada de fondo. |
 | <b>Estilo de spline</b> <i>Entero</i> | Método utilizado para colorear las splines:<br>- <i>Solid</i>: Los segmentos se dibujan utilizando un valor de escala de grises uniforme;<br>- <i>Degradado</i>: Se aplica un degradado de negro a blanco a lo largo de cada cadena de segmentos de principio a fin;<br>- <i>Height</i>: El height de las splines se utiliza como valor de escala de grises para dibujar los segmentos. |
 | <b>Color de spline</b> <i>Flotador</i> | Valor de escala de grises uniforme utilizado para dibujar los segmentos.<br>Cuando se selecciona un estilo de spline distinto de &quot;sólido&quot;, este color se multiplica por el color con estilo. |
-| <b>Luminancia aleatoria</b> <i>Flotador</i> | Para cada cadena de segmentos sin cortar de una spline, aplica un desplazamiento aleatorio en el rango especificado al valor de escala de grises utilizado para dibujar esa cadena. |
-| <b>Modo de fusión</b> <i>Entero</i> | Método de fusión de los colores del fondo y de los segmentos superpuestos dibujados a lo largo de las splines:<br>- <i>Máx.</i>: Se usa el valor más brillante;<br>- <i>Agregar</i>: Los valores se suman. |
+| <b>Luminancia aleatoria</b> <i>Flotante</i> | Para cada cadena de segmentos sin cortar de una spline, aplica un desplazamiento aleatorio en el rango especificado al valor de escala de grises utilizado para dibujar esa cadena. |
+| <b>Modo de Fusión</b> <i>Entero</i> | Método de fusión de los colores del fondo y de los segmentos superpuestos dibujados a lo largo de las splines:<br>- <i>Máx.</i>: Se usa el valor más brillante;<br>- <i>Agregar</i>: Los valores se suman. |
 | <b>Segmentos aleatorios</b> |  |
-| <b>Inicio de segmentos aleatorios</b> <i>Flotador</i> | Ajusta la probabilidad de que se corte la cadena de segmentos más cercana al inicio de la spline. |
-| <b>Fin de segmentos aleatorios</b> <i>Flotador</i> | Ajusta la probabilidad de que se corte la cadena de segmentos más cerca del final de la spline. |
-| <b>Desplazamiento aleatorio</b> <i>Flotador</i> | Define la cantidad máxima de desplazamiento aplicada a cada segmento de corte a lo largo de su normal.<br>Este parámetro no tiene efecto cuando Start y End están establecidos en 0. |
-| <b>Centro de desplazamiento aleatorio</b> <i>Flotador</i> | Desplaza el centro del desplazamiento aleatorio aplicado a cada segmento de corte a lo largo de su eje normal. |
+| <b>Inicio de segmentos aleatorios</b> <i>Flotante</i> | Ajusta la probabilidad de que se corte la cadena de segmentos más cercana al inicio de la spline. |
+| <b>Fin de segmentos aleatorios</b> <i>Flotante</i> | Ajusta la probabilidad de que se corte la cadena de segmentos más cerca del final de la spline. |
+| <b>Desplazamiento aleatorio</b> <i>Flotante</i> | Define la cantidad máxima de desplazamiento aplicada a cada segmento de corte a lo largo de su normal.<br>Este parámetro no tiene efecto cuando Start y End están establecidos en 0. |
+| <b>Centro de desplazamiento aleatorio</b> <i>Flotante</i> | Desplaza el centro del desplazamiento aleatorio aplicado a cada segmento de corte a lo largo de su eje normal. |
 
 ## Ejemplos
 

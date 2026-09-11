@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
 breadcrumb-title: ''
 description: Solucione los problemas de bloqueos al procesar gráficos en Substance 3D Designer y busque soluciones para evitarlos.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ En esta página se enumeran los bloqueos que se producen durante el procesamient
 
 ## TDR (solo Windows)
 
-<b>[![(error)](../../assets/error.svg)](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problema</b>
+<b>[![(error)](../../assets/error.svg)](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problema</b>
 
 El temporizador <b>Detección y recuperación de tiempo de espera (TDR)</b> del sistema es *demasiado corto* para permitir que Substance 3D Designer finalice sus cálculos actuales antes de que se *reinicie* el controlador de gráficos.
 
@@ -33,4 +33,4 @@ Como medida de seguridad y estabilidad, el sistema operativo *reinicia el contro
 
 <b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
 
-Los valores del temporizador de TDR deben *aumentarse* para evitar estos bloqueos. Para ello, sigue las instrucciones de [esta página](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de la documentación de Substance 3D Painter, que también se aplican a Substance 3D Designer.
+Los valores del temporizador de TDR deben *aumentarse* para evitar estos bloqueos. Para ello, sigue las instrucciones de [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de la documentación de Substance 3D Painter, que también se aplican a Substance 3D Designer.

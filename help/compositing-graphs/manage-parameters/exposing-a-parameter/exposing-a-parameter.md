@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Aprenda a exponer parámetros en gráficos de composición de Substance 3D Designer para hacer que los materiales sean personalizables y reutilizables.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 La exposición de parámetros es una de las herramientas más potentes y es clave para abrir los gráficos a otras aplicaciones como Substance 3D Painter, Substance 3D Sampler e integraciones de Substance para Maya y 3DS Max.
 
-Esta página explica todos los conceptos necesarios para comenzar a exponer. Se recomienda [que primero conozca lo que es una instancia de gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) antes de continuar en esta página. También es bueno tener una idea de[&#x200B; la diferencia entre Publish y exportar, así como los tipos de archivo involucrados.](../../../getting-started/overview/overview.md)
+Esta página explica todos los conceptos necesarios para comenzar a exponer. Se recomienda [que primero conozca lo que es una instancia de gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) antes de continuar en esta página. También es bueno tener una idea de[ la diferencia entre Publish y exportar, así como los tipos de archivo involucrados.](../../../getting-started/overview/overview.md)
 
 ![Visualización simplificada de parámetros](exposing-a-parameter.resources/parameters-5.png "Visualización simplificada de parámetros")
 
@@ -54,7 +54,7 @@ Los parámetros pueden tener muchas formas diferentes: reguladores, diales, cuad
 +++
 
 +++¿Tengo que saber matemáticas para exponer? ¿Debo entender las gráficas de funciones del Substance?
-***No se requiere conocimiento matemático para hacer un buen uso de los parámetros de exposición, ni tampoco se requiere el uso de funciones.***  Como usuario principiante, puedes evitar casi por completo tener que realizar operaciones matemáticas en [Gráficos de funciones](../../../function-graphs/function-graphs.md). Lo único que se recomienda encarecidamente es tener un [conocimiento básico decente de los diferentes tipos de datos, como Integer, Float y Boolean.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
+***No se requiere conocimiento matemático para hacer un buen uso de los parámetros de exposición, ni tampoco se requiere el uso de funciones.***  Como usuario principiante, puedes evitar casi por completo tener que realizar operaciones matemáticas en [Gráficos de funciones](../../../function-graphs/function-graphs.md). Lo único que se recomienda encarecidamente es tener un [conocimiento básico decente de los diferentes tipos de datos, como Integer, Flotante y Boolean.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
 
 +++
 
@@ -117,7 +117,7 @@ Como solución alternativa, puedes usar un nodo [Switch](../../../compositing-gr
 | Todos los nodos | Modo Mosaico Proporción de píxeles |
 | [Color uniforme](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | Modo de color |
 | [Procesador de píxeles](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Modo de color |
-| [Fusionar](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Modo de fusión Fusión Alpha fusionar Área de recorte |
+| [Fusión](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Modo de fusión Mezcla alfa Área de recorte |
 | [FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | Modo de fusión |
 | [Cuadrante](../../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | Patrón de entrada imagen alfa Entrada imagen filtrado |
 
@@ -136,9 +136,9 @@ Para cambiar las opciones de un parámetro expuesto:
 
 ### PARÁMETROS DE ENTRADA
 
-Todos los parámetros expuestos se muestran en la ficha Parámetros de entrada. Las siguientes propiedades están disponibles para la mayoría de los casos comunes, como flotantes e enteros con el tipo de editor predeterminado.
+Todos los parámetros expuestos se muestran en la ficha Parámetros de entrada. Las siguientes propiedades están disponibles para la mayoría de los casos comunes, como Flotante e enteros con el tipo de editor predeterminado.
 
-1. <b>Identificador</b>: Identificador único de este parámetro. No puede contener espacios ni caracteres especiales.
+1. <b>Identificador</b>: Identificador único para este parámetro. No puede contener espacios ni caracteres especiales.
 1. <b>Etiqueta</b>: Etiqueta de solo IU. Si no se ha definido ninguna etiqueta, el identificador se muestra en la interfaz de usuario. Puede contener espacios y caracteres especiales
 1. <b>Grupo</b>: Agrupe los parámetros en una sección contraíble para mantener las largas listas de parámetros limpias y manejables. Los parámetros se agrupan si comparten el *mismo nombre de grupo* exacto. Utilice el carácter `/` para crear *subgrupos*, p. ej. `My Group/My Sub-group`
 1. <b>Descripción</b>: Campo de texto para la descripción, que se utiliza como información sobre herramientas.

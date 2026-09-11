@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mezclador de datos de malla de material para fusionar datos de malla de material para crear transiciones suaves entre diferentes zonas de material.
 helpx_creative_field: ""
@@ -61,7 +61,7 @@ Es útil para hacer cosas como añadir resaltado de bordes basado en curvatura u
 
 |  |  |
 |:---|:---|
-| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad. Afecta a la disponibilidad de los siguientes parámetros. |
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. Afecta a la disponibilidad de los siguientes parámetros. |
 | <b>Mapas con bake</b> | Si se deben o no utilizar los mapas con bake enumerados para los cálculos. Afecta a la disponibilidad de los siguientes parámetros. |
 | <b>Difuso AO</b> <i>0.0 - 1.0</i> | Cantidad de Oclusión ambiental que se va a fusionar en la Difuso. |
 | <b>Bordes afilados de Difuso</b> <i>0.0 - 1.0</i> | Cantidad del mapa de curvatura que se va a fusionar en la Difuso. |

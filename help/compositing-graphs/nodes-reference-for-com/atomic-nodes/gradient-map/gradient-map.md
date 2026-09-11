@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de degradado para asignar valores de escala de grises a colores mediante rampas de degradado para la coloración y los efectos.
 helpx_creative_field: ""
@@ -190,23 +190,23 @@ Quita todos los bordes de la barra de degradado.
 
 <b>Invertir colores</b>
 
-Este botón cambia los colores de los bordes seleccionados a su negativo.
+Este botón cambia los colores de los pin seleccionados a sus negativos.
 
 <b>Desaturar</b>
 
-Este botón desaturará los colores establecidos en los bordes seleccionados.
+Este botón desaturará los colores establecidos en los pin seleccionados.
 
 ### Modos de interpolación
 
-Una vez configurados los bordes, puede controlar la transición de los colores de un borde al siguiente mediante los modos de interpolación disponibles:
+Una vez configurados los pin, puede controlar cómo se transfieren los colores de un pin al siguiente mediante los modos de interpolación disponibles:
 
 +++Lineal
-Modo de interpolación predeterminado: aplica una interpolación lineal simple entre cada punto, de modo que el degradado progresa uniformemente.
+Modo de interpolación predeterminado: aplica una interpolación lineal simple entre cada pin, de modo que el degradado progresa uniformemente.
 
 +++
 
 +++Tangentes planos
-Cuando se piensa en la transición entre degradados como curvas Bézier donde los bordes son puntos de la curva, este modo establece que estos puntos tengan tangentes horizontales.
+Cuando se piensa en la transición entre degradados como curvas Bézier donde los pin son puntos de la curva, este modo establece que estos puntos tengan tangentes horizontales.
 
 Esto da como resultado una transición que evoca una interpolación de paso suave.
 
@@ -222,9 +222,9 @@ Cuando se selecciona este modo, el parámetro <b>Smoothness</b> está habilitado
 +++
 
 +++Sin interpolación
-El color solo cambia en la ubicación de los bordes y permanece constante hasta el siguiente borde de la barra de degradado.
+El color solo cambia en la ubicación de un pin y permanece constante hasta el siguiente pin a lo largo de la barra de degradado.
 
-Esto da como resultado pasos duros entre colores y solo los colores establecidos por los bordes están presentes en el degradado.
+Esto da como resultado pasos duros entre colores y solo los colores establecidos por los pin están presentes en el degradado.
 
 +++
 

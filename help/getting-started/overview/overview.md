@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
-description: Obtén una visión general de Substance 3D Designer y descubre sus funciones para crear texturas y materiales de procedimientos.
+description: Obtén una visión general de Substance 3D Designer y descubre sus funciones para crear materiales y texturas procedimientos.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Overview
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Información general
 
-[Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html) es una aplicación diseñada para crear texturas, materiales y filtros 2D en una interfaz basada en nodos, con especial atención en la generación de procedimientos, la parametrización y los flujos de trabajo no destructivos. Se trata de la aplicación de mayor duración del ecosistema de Substance 3D y los recursos creados con ella son los más versátiles y dinámicos posibles.
+[Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html) es una aplicación diseñada para crear texturas, materiales y filtros 2D en una interfaz basada en nodos, con especial atención en la generación procedimienta, la parametrización y los flujos de trabajo no destructivos. Se trata de la aplicación de mayor duración del ecosistema de Substance 3D y los recursos creados con ella son los más versátiles y dinámicos posibles.
 
 Así es como se compara con otras aplicaciones:
 
@@ -36,9 +36,9 @@ Así es como se compara con otras aplicaciones:
 
 En resumen, Substance 3D Designer debe considerarse la aplicación de texturizado más técnica y avanzada disponible.
 
-Permite crear contenido para casi cualquier caso de uso o escenario. Esto significa que no está limitado a un solo tipo de salida, como un material único/conjunto de texturas para una malla mapeada por UV, sino que puede crear contenido para un conjunto mucho más amplio de usos.
+Permite crear contenido para casi cualquier caso de uso o escenario. Esto significa que no está limitado a un solo tipo de salida, como un material único/conjunto de texturas para una malla mapeada UV, sino que puede crear contenido para un conjunto mucho más amplio de usos.
 
-Por ejemplo, la mayor parte del contenido inteligente y de procedimiento de Painter y Sampler se creó y exportó desde Designer. Cosas como Alpha de pinceles, generadores, filtros y Materiales base se pueden crear en Designer.
+Por ejemplo, la mayor parte del contenido procedimiento e inteligente de Painter y Sampler se creó y exportó desde Designer. Cosas como Alpha de pinceles, generadores, filtros y Materiales base se pueden crear en Designer.
 
 ## Flujo de trabajo
 
@@ -77,7 +77,7 @@ Los archivos de Substance son los **archivos de origen principales** para Design
 
 *(\*.SBSAR)*
 
-Los archivos de Substance son<b> archivos de Substance compilados y optimizados</b>. Son mucho más rápidos de calcular y se pueden compartir fácilmente sin problemas de referencia. Los parámetros aún se pueden modificar, pero la edición del gráfico está <b>bloqueada</b>. Substance Archives se puede usar en todas las aplicaciones de Substance 3D y en cualquier aplicación que tenga [Substance 3D integration](https://experienceleague.adobe.com/es/docs/substance-3d/ecosystem/home) (algunas con un plugin externo) como Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
+Los archivos de Substance son<b> archivos de Substance compilados y optimizados</b>. Son mucho más rápidos de calcular y se pueden compartir fácilmente sin problemas de referencia. Los parámetros aún se pueden modificar, pero la edición del gráfico está <b>bloqueada</b>. Substance Archives se puede usar en todas las aplicaciones de Substance 3D y en cualquier aplicación que tenga [Substance 3D integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (algunas con un plugin externo) como Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">

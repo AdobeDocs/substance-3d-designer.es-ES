@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
 description: Utilice funciones hash en gráficos de funciones para generar valores aleatorios determinísticos basados en coordenadas de entrada.
 helpx_creative_field: ""
@@ -49,22 +49,22 @@ Versiones disponibles, con su tipo de entrada y tipo de salida:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Hash 1:</b> Flotante → Flotante
+<b>Hash 11:</b> Float → Float
 
-<b>Hash 14:</b> Flotante → Flotante4
+<b>Hash 14:</b> Float → Float4
 
-<b>Hash 21:</b> Flotante2 → Flotante
+<b>Hash 21:</b> Float2 → Float
 
-<b>Hash 22:</b> Flotante2 → Flotante2
+<b>Hash 22:</b> Float2 → Float2
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>Hash 24:</b> Flotante2 → Flotante4
+<b>Hash 24:</b> Float2 → Float4
 
-<b>Hash31:</b> Flotante3 → Flotante
+<b>Hash31:</b> Float3 → Float
 
-<b>Hash 32:</b> Flotante3 → Flotante2
+<b>Hash 32:</b> Float3 → Float2
 
 </td>
 </tr>

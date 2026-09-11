@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/scripting-api-reference.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html"
 breadcrumb-title: ''
 description: Acceda a la referencia completa de la API de scripts de Substance 3D Designer Python para el desarrollo de plugins.
 helpx_creative_field: ""
@@ -136,7 +136,7 @@ Hay <b>3 tipos</b> de objetos gráficos:
 
 * <b>Pin</b> (*SDGraphObjectPin*)
 * <b>Comentario</b> (*SDGraphObjectComment*)
-* <b>Fotograma</b> (*SDGraphObjectFrame*)
+* <b>Marco</b> (*SDGraphObjectFrame*)
 
 Consulte el método estático &#39;*sNew()*&#39; en estos objetos para obtener más información sobre cómo <b>crearlos</b>.
 
@@ -147,14 +147,14 @@ Una propiedad (*SDProperty*) es un objeto que <b>describe</b> una propiedad de <
 Pertenece a una <b>categoría</b> específica (*SDPropertyCategory*):
 
 * <b>Entrada</b>: clasifica las propiedades de entrada de un objeto, que normalmente <b> afectan a la operación </b> realizada por el objeto actual;
-  * Por ejemplo: la propiedad &#39;*color*&#39; de un nodo Color uniforme en un gráfico de Substance es una propiedad de entrada;
+  * Por ejemplo: la propiedad &#39;*color*&#39; de un nodo de Color uniforme en un gráfico de Substance es una propiedad de entrada;
 * <b>Salida</b>: clasifica las propiedades de salida de un objeto. Se utiliza para identificar un <b>resultado</b> de un objeto;
 * <b>Anotación</b>: clasifica las propiedades que <b>*no* afectan a la operación</b> realizada por un objeto;
   * Por ejemplo: la &#39;*etiqueta*&#39; de un gráfico es una propiedad de anotación porque no afecta al cálculo del gráfico.
 
 Contiene los siguientes <b>miembros</b>:
 
-* <b>Id</b>: El identificador de la propiedad en el contexto de esta categoría;
+* <b>Id</b>: El identificador de los bienes en el contexto de esta categoría;
 * <b>Tipos</b>: Los tipos admitidos por la propiedad actual. Algunas propiedades pueden admitir *varios* tipos: &#39;*int*&#39;, &#39;*float*&#39;, etc.;
   * Por ejemplo: las propiedades de entrada de un nodo &#39;*sbs::function::add*&#39; pueden admitir diferentes tipos: &#39;*int&#39;*, &#39;*int2&#39;*, &#39;*int3&#39;*, &#39;*int4&#39;*, &#39;*float&#39;*, &#39;*float2&#39;*, &#39;*float3&#39;*, &#39;*float4&#39;, etc.;*
 * <b>Categoría</b>: La categoría a la que pertenece la propiedad (entrada, salida, anotación);

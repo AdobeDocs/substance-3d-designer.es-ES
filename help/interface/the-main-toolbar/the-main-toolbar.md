@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la barra de herramientas principal de Substance 3D Designer para acceder a herramientas y comandos comunes para el flujo de trabajo.
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 ![](../../assets/newsubstance.png) <b>Nuevo gráfico de Substance...:</b> (Ctrl+N)Presenta la ventana [Nuevo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) y, a continuación, crea un nuevo paquete con un [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](../../assets/open.png) <b>Abrir...:</b> (Ctrl+O) Abra un [paquete de Substance existente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](../../assets/open.png) <b>Abrir...:</b> (Ctrl+O) Abra un [paquete de Substance (.SBS, .SBSAR, .SBSASM) existente](../../getting-started/overview/overview.md).
 
 ![](../../assets/saveall.png) <b>Guardar todo:</b> (Ctrl+⇧+S) Guarda todos los paquetes enumerados en el [Explorador](../../interface/the-explorer-window/the-explorer-window.md).
 
@@ -165,7 +165,7 @@ Esta página describe la barra de herramientas principal y el menú de [Substanc
 
 <b>Novedades...:</b> Muestra una pantalla que resalta las características agregadas a la última versión de Designer
 
-<b>Pantalla de bienvenida...\*:</b> Muestra una pantalla que guía a los nuevos usuarios por el propósito de Designer y su lugar en el [ecosistema de Substance 3D](https://helpx.adobe.com/es/substance-3d.html)
+<b>Pantalla de bienvenida...\*:</b> Muestra una pantalla que guía a los nuevos usuarios por el propósito de Designer y su lugar en el [ecosistema de Substance 3D](https://helpx.adobe.com/substance-3d.html)
 
 <b>Partners:</b> Te permite acceder a las renuncias de responsabilidad y los avisos de integraciones de terceros de nuestros socios de Designer.
 

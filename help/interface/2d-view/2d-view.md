@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Utilice la vista 2D de Substance 3D Designer para previsualizar e inspeccionar las salidas de textura de los gráficos de materiales.
 helpx_creative_field: ""
@@ -153,7 +153,7 @@ Si <b>OCIO</b> o <b>Adobe ACE</b> [el modo de administración de color](../../co
 +++
 
 +++Copiar en el portapapeles
-![Copia de vista 2D al portapapeles](../../assets/2d-view-copy-clipboard.gif "Copia de vista 2D al portapapeles"){width="360px"}
+![copiar vista 2D en portapapeles](../../assets/2d-view-copy-clipboard.gif "copiar vista 2D en portapapeles"){width="360px"}
 
 
 
@@ -183,7 +183,7 @@ Si la opción <b>Mostrar UV en vista 2D</b> está habilitada en el menú <b>Esce
 
 Puede habilitarlo mediante el botón <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
 
-Esto muestra las UV de la malla [&#x200B; seleccionada actualmente en el Vista 3D &#x200B;](../../interface/3d-view/3d-view.md) como una malla metálica de color.
+Esto muestra las UV de la malla [ seleccionada actualmente en el Vista 3D ](../../interface/3d-view/3d-view.md) como una malla metálica de color.
 
 Si la información de color de material está disponible en el archivo de malla, el color de material se utiliza como color de la superposición UV.
 
@@ -196,7 +196,7 @@ Si la malla tiene <b>varios conjuntos UV</b>, se pueden seleccionar los UV desea
 
 
 
-Puede mostrar los *valores de píxeles exactos* *y las coordenadas* en una imagen con el panel <b>Información</b>, que está habilitado mediante el botón ![](../../assets/2d-view-icon-information.png) <b>Información de la imagen</b>. Esto resulta muy útil al inspeccionar imágenes HDR, por ejemplo, o para asegurarse de que el paso entre píxeles sigue la progresión deseada.
+Puede mostrar los *valores de píxeles exactos* *y las coordenadas* en una imagen con el panel <b>Información</b>, que está habilitado mediante el botón ![](../../assets/2d-view-icon-information.png) <b>Información de la imagen</b>. Esto resulta muy útil cuando se inspeccionan imágenes de HDR., por ejemplo, o cuando se comprueba que el paso entre píxeles sigue la progresión deseada.
 
 Los colores están representados por los valores <b>RGBA</b> y <b>HSV</b>, y se muestran según la *precisión* de la imagen, de la siguiente manera:
 
@@ -309,7 +309,7 @@ Hay dos formas principales de interpretar la transparencia, que se pueden selecc
 
 Para mostrar *colores correctos*, debe seleccionarse el modo de transparencia apropiado en el panel <b>vista 2D</b> para que coincida con el método de transparencia que se aplicó cuando se *creó* la imagen.
 
-![Espacio de color de vista 2D](../../assets/2d-view-viewport-color-space.png "Espacio de color de vista 2D"){width="360px"}
+![espacio de color de vista 2D](../../assets/2d-view-viewport-color-space.png "espacio de color de vista 2D"){width="360px"}
 
 ### Espacio de color
 
@@ -335,7 +335,7 @@ Las <b>herramientas de pintura de mapas de bits</b> están disponibles para [rec
 </td>
 <td style="border: 0;" valign="top">
 
-![Herramientas de pintura de mapa de bits de vista 2D](../../assets/2dview-paintingtools-main.png "Herramientas de pintura de mapa de bits de vista 2D")
+![herramientas de pintura de mapas de bits de vista 2D](../../assets/2dview-paintingtools-main.png "herramientas de pintura de mapas de bits de vista 2D")
 
 </td>
 </tr>
@@ -349,9 +349,9 @@ Las <b>herramientas de pintura de mapas de bits</b> están disponibles para [rec
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Editor de vectores
+## editor de gráficos vectoriales
 
-El <b>Editor de gráficos vectoriales</b> está disponible para *recursos de [SVG](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) importados*, los recursos vinculados *no* son compatibles.
+El <b>editor de Gráficos vectoriales</b> está disponible para *recursos de SVG* [importados](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), los recursos vinculados *no* son compatibles.
 
 >[!NOTE]
 >
@@ -360,7 +360,7 @@ El <b>Editor de gráficos vectoriales</b> está disponible para *recursos de [SV
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de gráficos vectoriales de vista 2D](../../assets/2dview-vectorediting-main.png "Editor de gráficos vectoriales de vista 2D")
+![Editor de gráficos vectoriales de vista 2D](../../assets/2dview-vectorediting-main.png "Editor de gráficos vectoriales")
 
 </td>
 </tr>
@@ -370,11 +370,11 @@ El <b>Editor de gráficos vectoriales</b> está disponible para *recursos de [SV
 >
 > Puede obtener más información en la página [Herramientas de edición de vectores](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (obsoletas) de la documentación.
 
-![Administración de color de vista 2D](../../assets/2d-view-color-management-ocio.png "Administración de color de vista 2D"){width="360px"}
+![administración de color de vista 2D](../../assets/2d-view-color-management-ocio.png "administración de color de vista 2D"){width="360px"}
 
 ## Gestión de colores
 
-La <b>vista 2D</b> ofrece controles sencillos de *administración del color* para permitirte elegir qué *espacio de color de visualización* se debe usar al mostrar la imagen.
+El <b>vista 2D</b> ofrece controles sencillos de *administración de color* que te permiten elegir qué *espacio de color de visualización* se debe usar al mostrar la imagen.
 
 Estos controles se adaptarán al [modo de administración de color](../../color-management/color-management.md) actual establecido en la [configuración del proyecto](../../interface/preferences-window/project-settings/project-settings.md), de la siguiente manera:
 

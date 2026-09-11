@@ -40,6 +40,6 @@ Devuelve los volúmenes agregados de dos formas SDF, con suavizado ajustable de 
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flotador* | La primera forma de SDF. |
-| <b>SDF 2</b> *Flotador* | La segunda forma SDF. |
-| <b>Smoothness</b> *Flotador* | El radio de suavizado, comenzando por los bordes de la intersección.<br><br><i>Valor predeterminado: 0</i><br><br><i>Nota:</i> pueden aparecer bordes duros donde se cruzan los radios de suavizado. |
+| <b>SDF 1</b> *Flotante* | La primera forma de SDF. |
+| <b>SDF 2</b> *Flotante* | La segunda forma SDF. |
+| <b>Smoothness</b> *Flotante* | El radio de suavizado, comenzando por los bordes de la intersección.<br><br><i>Valor predeterminado: 0</i><br><br><i>Nota:</i> pueden aparecer bordes duros donde se cruzan los radios de suavizado. |

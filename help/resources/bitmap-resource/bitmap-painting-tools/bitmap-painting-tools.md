@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
-description: Utilice las herramientas de pintura de mapas de bits de Substance 3D Designer para pintar directamente en los recursos de mapas de bits para la edición de texturas.
+description: Utilice las herramientas de pintura de mapas de bits de Substance 3D Designer para pintar directamente en recursos de mapas de bits para editar texturas.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource > Bitmap painting tools
 helpx_experience_level: ""
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 # Herramientas de pintura de mapa de bits
 
-Esta página describe las herramientas de pintura disponibles en el panel [Vista 2D](../../../interface/2d-view/2d-view.md) para los mapas de bits compatibles.
+Esta página describe las herramientas de pintura disponibles en el panel [vista 2D](../../../interface/2d-view/2d-view.md) para los mapas de bits compatibles.
 
-![Herramientas de pintura de mapa de bits en la vista 2D](../../../assets/2dview-paintingtools-main_1.png "Herramientas de pintura de mapa de bits en la vista 2D"){width="512px"}
+![Herramientas de pintura de mapa de bits en vista 2D](../../../assets/2dview-paintingtools-main_1.png "Herramientas de pintura de mapa de bits en vista 2D"){width="512px"}
 
 ## Información general
 
-El panel [2D View](../../../interface/2d-view/2d-view.md) ofrece herramientas básicas de pintura de mapas de bits que te permiten crear o editar imágenes *manualmente* directamente dentro de la aplicación. Estas herramientas son especialmente útiles, por ejemplo, para pintar rápidamente *máscaras*.
+El panel [vista 2D](../../../interface/2d-view/2d-view.md) ofrece herramientas básicas de pintura de mapas de bits que te permiten crear o editar imágenes *manualmente* directamente dentro de la aplicación. Estas herramientas son especialmente útiles, por ejemplo, para pintar rápidamente *máscaras*.
 
-Las herramientas admiten la entrada de lápiz, incluida la *presión del lápiz*. Para aprovechar las pantallas de lápiz, puedes [desacoplar](../../../interface/customizing-your-wor/customizing-your-workspace.md) el panel de la [vista en 2D](../../../interface/2d-view/2d-view.md) y, a continuación, colocarlo y redimensionarlo en cualquier configuración que te resulte más cómoda para pintar.
+Las herramientas admiten la entrada de lápiz, incluida la *presión del lápiz*. Para aprovechar las pantallas de lápiz, puedes [desacoplar](../../../interface/customizing-your-wor/customizing-your-workspace.md) el panel [Vista 2D](../../../interface/2d-view/2d-view.md) y, a continuación, colocarlo y redimensionarlo en cualquier configuración que te resulte más cómoda para pintar.
 
-Las ediciones se pueden *deshacer individualmente* y todas las demás características del panel Vista 2D están *disponibles* mientras edita la imagen, como el panel [Histograma](../../../interface/2d-view/2d-view.md), la [pantalla en mosaico](../../../interface/2d-view/2d-view.md) y la [imagen de fondo](../../../interface/2d-view/2d-view.md).
+Las ediciones se pueden *deshacer individualmente* y todas las demás características del panel vista 2D están *disponibles* mientras edita la imagen, como el panel [Histograma](../../../interface/2d-view/2d-view.md), la [pantalla en mosaico](../../../interface/2d-view/2d-view.md) y la [imagen de fondo](../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >
-> Puede pintar *solo* en *recursos de mapa de bits*[de 8 bits](../../../resources/bitmap-resource/bitmap-resource.md) que son [nuevos o importados](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
+> Puede realizar la pintura *solo* en *recursos de mapa de bits* de [8 bits](../../../resources/bitmap-resource/bitmap-resource.md) que son [nuevos o importados](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
 >[!WARNING]
 >
@@ -50,7 +50,7 @@ Las herramientas de pintura se habilitarán automáticamente en el panel [Vista 
 
 * El mapa de bits es un recurso [nuevo o importado](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * El mapa de bits tiene una precisión de *8 bits*
-* El mapa de bits se muestra en el panel [vista 2D](../../../interface/2d-view/2d-view.md)
+* El mapa de bits se muestra en el panel [Vista 2D](../../../interface/2d-view/2d-view.md)
 
 *Se pueden crear nuevos mapas de bits de* de las siguientes maneras:
 
@@ -69,13 +69,13 @@ Se abrirá la ventana <b>Nuevo mapa de bits</b>, que te permitirá establecer el
 
 ## Barras de herramientas
 
-Las herramientas y opciones de pintura están organizadas en *barras de herramientas* dentro del panel [Vista en 2D](../../../interface/2d-view/2d-view.md). Estas barras de herramientas se pueden reubicar en *cualquier lado* del panel o como *barra de herramientas flotante*, haciendo clic y manteniendo presionada la tecla <b>LMB</b> en su *controlador*, que se muestra como una línea triple, y luego liberando <b>LMB</b> en la ubicación deseada.
+Las herramientas y opciones de pintura están organizadas en *barras de herramientas* dentro del panel [Vista 2D](../../../interface/2d-view/2d-view.md). Estas barras de herramientas se pueden reubicar en *cualquier lado* del panel o como *barra de herramientas flotante*, haciendo clic y manteniendo presionada la tecla <b>LMB</b> en su *controlador*, que se muestra como una línea triple, y luego liberando <b>LMB</b> en la ubicación deseada.
 
 Se muestran dos barras de herramientas cuando las herramientas de pintura están activadas: la [barra de herramientas de selección de herramientas](#bitmappaintingtools-toolselectiontoolbar) y la barra de herramientas de opciones de herramientas, que se describen a continuación.
 
 ## Barra de herramientas de selección
 
-Las herramientas de pintura se encuentran en la **barra de herramientas de selección de herramientas**, que está ubicada en el *lado izquierdo* del panel [vista 2D](../../../interface/2d-view/2d-view.md) de forma predeterminada. Los métodos abreviados de teclado le permiten acceder a estas herramientas rápidamente y se marcan entre paréntesis después del nombre de la herramienta o función:
+Las herramientas de pintura se encuentran en la **barra de herramientas de selección de herramientas**, que está ubicada en el *lado izquierdo* del panel [Vista 2D](../../../interface/2d-view/2d-view.md) de forma predeterminada. Los métodos abreviados de teclado le permiten acceder a estas herramientas rápidamente y se marcan entre paréntesis después del nombre de la herramienta o función:
 
 ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) <b>Selección de color</b> <b>miniaturas:</b> Permite definir un color *principal* y *secundario*. Haga clic en cualquiera de estas miniaturas para mostrar la ventana <b>Editor de color</b> y definir un color. Las herramientas usarán el color *primary*. Los colores primarios y secundarios se pueden *intercambiar* (<b>X</b>) en cualquier momento
 
@@ -85,11 +85,11 @@ Las herramientas de pintura se encuentran en la **barra de herramientas de selec
 
 ![](../../../assets/2dview-paintingtools-clone-alignment.png) <b>Habilitar alineación (opción Herramienta de sello):</b> Permite definir si el origen debe *permanecer en su lugar* cuando comience un nuevo sello o si debe *reubicarse relativamente en la nueva ubicación del sello*
 
-<b>![](../../../assets/2dview-paintingtools-icon-eraser.png) Borrador (E):</b> Reemplaza el color actual de la imagen por el valor (0, 0, 0, 0) en la ubicación del cursor, cuando se presiona la punta del lápiz o el botón <b>LMB</b>, utilizando las opciones definidas en la barra de herramientas Opciones de herramienta. Asegúrate de que la [Pantalla de transparencia](../../../interface/2d-view/2d-view.md) está habilitada para realizar un seguimiento del impacto de esta herramienta en el canal <b>Alpha</b>.
+Borrador <b>![](../../../assets/2dview-paintingtools-icon-eraser.png) (E):</b> Reemplaza el color actual de la imagen por el valor (0, 0, 0, 0) en la ubicación del cursor, cuando se presiona la punta del lápiz o el botón <b>LMB</b>, utilizando las opciones definidas en la barra de herramientas Opciones de herramienta. Asegúrate de que la [Pantalla de transparencia](../../../interface/2d-view/2d-view.md) está habilitada para realizar un seguimiento del impacto de esta herramienta en el canal <b>Alpha</b>.
 
 ## Barra de herramientas de opciones
 
-Las opciones de las herramientas disponibles en la [barra de herramientas de selección de herramientas](#bitmappaintingtools-toolselectiontoolbar) se encuentran en la barra de herramientas de opciones de herramientas, que está ubicada en la *parte superior* del panel [vista 2D](../../../interface/2d-view/2d-view.md) de forma predeterminada.
+Las opciones de las herramientas disponibles en la [barra de herramientas de selección de herramientas](#bitmappaintingtools-toolselectiontoolbar) se encuentran en la barra de herramientas de opciones de herramientas, que se encuentra en la *parte superior* del panel [Vista 2D](../../../interface/2d-view/2d-view.md) de forma predeterminada.
 
 <table>
 <tr style="border: 0;">
@@ -214,11 +214,11 @@ El color aplicado por el pincel está definido por el *color principal seleccion
 +++Textura
 Puede aplicar un *archivo de mapa de bits* al pincel y usarlo para *marcar* ese mapa de bits en lugar de un color plano. La textura del pincel se comporta de la siguiente manera:
 
-<b>Archivo de Textura: </b>define la *ruta* del mapa de bits que se debe usar como textura de pincel. Puede seleccionar el mapa de bits a través del explorador de archivos del sistema utilizando el botón ![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png) situado junto al campo de entrada
+<b>Archivo de textura: </b>define la *ruta* del mapa de bits que se debe usar como textura de pincel. Puede seleccionar el mapa de bits a través del explorador de archivos del sistema utilizando el botón ![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png) situado junto al campo de entrada
 
 La textura *only* reemplaza el color plano básico del pincel, lo que significa que *todas las propiedades de pincel enumeradas anteriormente se pueden seguir utilizando* y funcionar como se describe
 
-Los colores de la textura están *cambiados de tono* hacia el *color principal establecido*, lo que significa que si el color principal establecido es blanco, los colores de la textura se pueden usar tal cual. Cuanto más saturado esté el color principal establecido, más cambiarán los colores de textura hacia él
+Los colores de la textura se *cambiaron de tono* hacia el *color principal establecido*, lo que significa que si el color principal establecido es blanco, los colores de la textura se pueden usar tal cual. Cuanto más saturado esté el color principal establecido, más colores de textura se desplazarán hacia él
 
 +++
 
@@ -238,7 +238,7 @@ Las herramientas Pincel, Sello y Borrador ofrecen controles para <b>Opacidad</b>
 
 ### MODO DE MOSAICO
 
-Las herramientas Pincel, Sello y Borrador también te permiten establecer sus ![](../../../assets/2dview-paintingtools-icon-tiling.png) <b>modos de Mosaico</b>, que definen su capacidad de *bucle hacia atrás* en el lado opuesto de la imagen cuando un trazo afecta a un área fuera de los límites de la imagen:
+Las herramientas Pincel, Sello y Borrador también te permiten establecer sus ![](../../../assets/2dview-paintingtools-icon-tiling.png) <b>modos de Mosaico</b>, que definen su capacidad para *volver a recorrer* el lado opuesto de la imagen cuando un trazo afecta a un área fuera de los límites de la imagen:
 
 <b>Mosaico X e Y</b>: los trazos de pincel presentan el mosaico *horizontal y verticalmente*
 

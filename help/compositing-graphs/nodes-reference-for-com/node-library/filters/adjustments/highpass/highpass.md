@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
-description: Utilice el nodo Paso alto para extraer detalles de alta frecuencia de texturas para crear efectos de enfoque y mejora de detalles.
+description: Utilice el nodo Paso alto para extraer detalles de alta frecuencia de las texturas para crear efectos de enfoque y mejora de detalles.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Highpass
 helpx_experience_level: ""
@@ -36,7 +36,7 @@ ht-degree: 4%
 ## Descripción
 
 Realiza un filtro de paso alto, disponible en color y en una versión en escala de grises. Similar a la acción Photoshop con el mismo nombre.\
-Resulta útil para eliminar grandes diferencias de luminancia en las imágenes, como cuando se limpian texturas para azulejos.
+Resulta útil para eliminar las grandes diferencias de luminancia en las imágenes, como cuando se limpian las texturas para embaldosado.
 
 Importante: asegúrese de utilizar la versión adecuada para su entrada! Utilice &quot;Paso alto&quot; para entradas de color y &quot;Escala de grises de paso alto&quot; para entradas de escala de grises.
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
 breadcrumb-title: ''
-description: Utilice el nodo Ruido simple 3D para generar patrones de ruido simple 3D para crear texturas volumétricas suaves y de aspecto natural.
+description: Utilice el nodo Ruido simple 3D para generar patrones de ruidos simples 3D para crear texturas volumétricas suaves y de aspecto natural.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Simplex Noise
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descripción
 
-Genera un ruido de procedimiento cuando se conecta un mapa de posición al horno en la ranura de entrada. Está diseñado para su uso únicamente con el motor de GPU.\
+Genera un ruido procedimiento cuando se conecta un Mapa de posición hecho un bake a la ranura de entrada. Está diseñado para su uso únicamente con el motor de GPU.\
 Similar a [Ruido 3D Perlin](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), pero más rápido y sencillo, para los casos en los que el rendimiento y la velocidad importan.
 
 Este ruido se puede probar con [Cube 3D GBuffers](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers) como entrada en lugar de un mapa con bake real (como se muestra en la imagen de ejemplo siguiente).

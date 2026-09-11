@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre los modos de fusión disponibles en Substance 3D Designer para combinar texturas con diferentes efectos de composición.
 helpx_creative_field: ""
@@ -100,7 +100,7 @@ El modo de fusión *Dividir* dividirá el valor de los píxeles de entrada de fo
 
 El modo de fusión *Superposición* combina los modos de fusión Multiplicar y Trama:
 
-* &#x200B;
+* 
   * Si el valor del píxel de la capa inferior es inferior a 0,5, se aplica una fusión de tipo *Multiply*
   * Si el valor del píxel de la capa inferior es superior a 0,5, se aplica una fusión de tipo *Screen*
 

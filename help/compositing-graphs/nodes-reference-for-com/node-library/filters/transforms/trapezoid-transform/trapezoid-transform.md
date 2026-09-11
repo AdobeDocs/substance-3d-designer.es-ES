@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
 breadcrumb-title: ''
 description: Utilice el nodo Transformar trapezoide para aplicar la distorsión trapezoidal a las texturas para crear efectos de corrección de Perspectiva.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformación trapezoide
+title: Transformar trapezoide
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# Transformación trapezoide
+# Transformar trapezoide
 
 <table>
 <tr style="border: 0;">

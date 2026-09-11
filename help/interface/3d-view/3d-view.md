@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilice la vista 3D de Substance 3D Designer para previsualizar materiales en objetos 3D y probar las condiciones de iluminación.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Vista 3D
 
-La vista 3D le ayuda a ver y comprender sus materiales con mallas personalizadas y materiales PBR procesados.<br>Al igual que con todas las ventanas de Substance 3D Designer, funciona junto con otras ventanas mediante opciones de menú contextual y operaciones de arrastrar y soltar.
+El Vista 3D te ayuda a ver y comprender tus materiales con mallas personalizadas y materiales PBR procesados.<br>Al igual que con todas las ventanas de Substance 3D Designer, funciona junto con otras ventanas mediante opciones de menú contextual y operaciones de arrastrar y soltar.
 
 La vista 3D también proporciona dos métodos principales para procesar materiales en escenas 3D:
 * Visualización rápida y en tiempo real con los procesadores **Rasterizer** y **OpenGL**
@@ -42,7 +42,7 @@ En la sección siguiente se explica cómo realizar acciones comunes en pocas pal
 
 ### Navegación
 
-La cámara y el entorno de la vista 3D se pueden manipular de tres maneras:
+La cámara de Vista 3D y el entorno pueden manipularse de tres maneras:
 
 * <b>Órbita:</b> LMB+Arrastrar
 * <b>Panorámica</b>: MMB+Arrastrar/Ctrl+RMB+Arrastrar
@@ -78,7 +78,7 @@ Puede interactuar con las mallas directamente en la ventana gráfica:
 
 <b>Mantén presionado ⇧ y haz clic en LMB en una malla para seleccionar una malla.</b> Las mallas seleccionadas tienen un contorno azul.
 
-<b>Presione F para centrarse en una malla seleccionada</b>. Al enfocar una malla, la cámara se mueve para enmarcarla y orbitar a su alrededor.
+<b>Presione F para centrarse en una malla seleccionada</b>. Al enfocar una malla, la cámara se mueve para colocarla en el marco y orbitar a su alrededor.
 
 <b>Haz clic en RMB mientras se selecciona una malla</b> para acceder a sus [acciones de material](#material-actions) en un menú contextual.
 
@@ -100,15 +100,15 @@ Puede interactuar con las mallas directamente en la ventana gráfica:
 
 Designer funciona con la iluminación basada en imágenes (IBL) de forma predeterminada. Se utiliza un mapa de bits de alto rango dinámico para representar la iluminación del entorno.
 
-Puede rotar este entorno alrededor de su objeto 3D o puede cargar entornos de luz HDR personalizados o preestablecidos. Tenga en cuenta que las imágenes HDR deben utilizar una proyección equirrectangular y tener una precisión de punto flotante de 32 bits.
+Puede rotar este entorno alrededor de su objeto 3D o puede cargar entornos de luz o HDR personalizados. Tenga en cuenta que las imágenes HDR. deben utilizar una proyección equirrectangular y tener una precisión de punto flotante de 32 bits.
 
 ⇧+RMB+Arrastrar <b>rota el entorno</b> en la vista 3D.
 
-Para establecer una rotación precisa, usa <b>Entorno > Editar</b> en la barra de herramientas superior de la vista 3D y cambia el regulador <b>Ángulo de rotación</b> en la ventana de propiedades.
+Para establecer una rotación precisa, usa <b>Entorno > Editar</b> en la barra de herramientas de la Vista 3D superior y cambia el regulador <b>Ángulo de rotación</b> en la ventana de propiedades.
 
-Para usar un entorno de luz HDR preestablecido, haz clic en la sección <b> entornos HDRI</b> de la categoría <b>Vista 3D</b> en la [biblioteca](../../interface/the-library/the-library.md) y, a continuación, arrastra y suelta cualquiera de los iconos en la vista 3D.
+Para utilizar un entorno HDR. light preestablecido, haga clic en la sección <b> entornos HDRI</b> de la <b>categoría de Vista 3D </b> en [Biblioteca](../../interface/the-library/the-library.md), y luego arrastre y suelte cualquiera de los iconos a la vista 3D.
 
-Para utilizar su propio entorno de luz HDR personalizado, importe una imagen HDR arrastrando y soltando el archivo en un paquete en la ventana del explorador (<b>Vincular</b> el archivo cuando se le solicite). A continuación, arrastre y suelte el recurso y elija <b>Panorama de latitud y longitud</b> como destino.
+Para utilizar su propio entorno HDR. light personalizado, importe una imagen HDR. arrastrando y soltando el archivo en un paquete en la ventana del explorador (<b>Vincular</b> el archivo cuando se le solicite). A continuación, arrastre y suelte el recurso y elija <b>Panorama de latitud y longitud</b> como destino.
 
 ### Luces puntuales
 
@@ -118,21 +118,21 @@ La luz puntual 1 se puede mover alrededor del origen de la escena manteniendo pu
 
 En modo de cámara <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> , también puedes cambiar temporalmente al modo de iluminación manteniendo pulsadas las teclas Ctrl+ ⇧ en combinación con los botones del ratón.
 
-## Ver datos en vista 3D
+## Ver datos en Vista 3D
 
 ![Salidas de gráfica de Substance de vista](../../assets/3d-material.gif "Salidas de gráfica de Substance de vista")
 
 ### Gráficos de Substance
 
-Puede ver materiales enteros como un material completo en la vista 3D. Esta es la forma más común de trabajar y hará coincidir los [atributos de uso en los nodos de salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) con las ranuras de textura relevantes del material de la vista 3D. Esto significa que los resultados deben configurarse correctamente (el uso de plantillas garantiza que esto sea así) y que el sombreador de material/ventana seleccionada admite
+Puede ver materiales enteros como un material completo en la Vista 3D. Esta es la forma más común de trabajar y hará coincidir los [atributos de uso en los nodos de salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) con las ranuras de textura relevantes del material de la vista 3D. Esto significa que las salidas deben configurarse correctamente (el uso de plantillas garantiza que esto sea así) y que el sombreador de la ventana gráfica/material seleccionado es compatible
 
-Para ver todas las salidas de un gráfico, haga clic en *RMB* en un área vacía de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) y seleccione la opción **Ver salidas en vista 3D** en el menú contextual.
+Para ver todas las salidas de un gráfico, haga clic en *RMB* en un área vacía de la [vista de gráfico](../../interface/the-graph-view/the-graph-view.md) y seleccione la opción **Ver salidas en Vista 3D** en el menú contextual.
 
-También puedes ver los resultados de un gráfico sin tener que abrirlo, haciendo clic en RMB en un recurso de gráfico en el dock de [Explorer](../the-explorer-window/the-explorer-window.md) y eligiendo la opción **Ver resultados en vista 3D** en el menú contextual.
+También puedes ver los resultados de un gráfico sin tener que abrirlo, haciendo clic en RMB en un recurso de gráfico en el dock de [Explorer](../the-explorer-window/the-explorer-window.md) y eligiendo la opción **Ver resultados en Vista 3D** en el menú contextual.
 
-Como alternativa al menú contextual del gráfico, puede obtener el mismo resultado arrastrando el gráfico desde el conjunto acoplado de [Explorer](../the-explorer-window/the-explorer-window.md) a la vista 3D.
+Como alternativa al menú contextual del gráfico, puedes obtener el mismo resultado arrastrando el gráfico desde el muelle de [Explorer](../the-explorer-window/the-explorer-window.md) hasta el Vista 3D.
 
-Al *cargar un gráfico*, sus resultados se aplican automáticamente en la vista 3D de forma predeterminada. Puede deshabilitar este comportamiento en [Preferencias](../../interface/preferences-window/preferences-window.md). Vaya a **Editar > Preferencias > Gráfico > Común** y desmarque la opción **Ver resultados en vista 3D al abrir un gráfico**.
+Al *cargar un gráfico*, sus resultados se aplican automáticamente en la Vista 3D de forma predeterminada. Puede deshabilitar este comportamiento en [Preferencias](../../interface/preferences-window/preferences-window.md). Vaya a **Editar > Preferencias > Gráfico > Común** y desmarque la opción **Ver resultados en vista 3D al abrir un gráfico**.
 
 >[!NOTE]
 >
@@ -221,7 +221,7 @@ Para exportar la malla Vista 3D, vaya a <b>Escena > Exportar malla teselada...</
 >
 > **TDR (solo Windows)**
 > 
-> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
+> Esta característica requiere que <b>Detección y recuperación de tiempo de espera (TDR)</b> coincida con los valores recomendados en [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de nuestra documentación, como se indica en [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) de Designer.
 
 ## Barra de menús
 
@@ -305,7 +305,7 @@ El menú &quot;Materiales&quot; muestra una lista de todos los materiales asigna
 
 <b>Cargar definición...: </b>(solo procesador OpenGL) Permite cargar su propio sombreador [GLSLFX personalizado.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) El sombreado se añade a la lista anterior.
 
-<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Cambiar nombre:</b> Cambie la etiqueta de este material.
 

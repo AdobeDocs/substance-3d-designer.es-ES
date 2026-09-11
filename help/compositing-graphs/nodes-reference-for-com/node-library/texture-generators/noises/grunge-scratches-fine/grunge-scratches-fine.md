@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
 breadcrumb-title: ''
 description: Utilice el nodo Scratches de Suciedad fino para añadir patrones de arañazos finos para conseguir un desgaste sutil y efectos de detalle de la superficie.
 helpx_creative_field: ""
@@ -52,7 +52,7 @@ El nodo **Suciedad Scratches Fine** genera un mapa de suciedades similar a una s
 | <b>Avanzado</b> |  |
 | <b>Importe de Scratches</b> <i>Flotador</i> | Ajusta la cantidad de arañazos finos en la superficie. |
 | <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajusta la intensidad del efecto de enfoque global. |
-| <b>Compensación de valor de memoria virtual</b> <i>Flotador</i> | Ajusta el equilibrio de los valores de luminancia asignados a los arañazos individuales. |
+| <b>Compensación de valor de memoria virtual</b> <i>Flotante</i> | Ajusta el equilibrio de los valores de luminancia asignados a los arañazos individuales. |
 
 ## Ejemplos
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
 breadcrumb-title: ''
-description: Acceda a nodos de filtro de mapa normales en Substance 3D Designer para procesar y manipular texturas de mapa normales.
+description: Acceder a nodos de mapa de normales en Substance 3D Designer para procesar y manipular texturas de mapa de normales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 Esta categoría sólo contiene nodos para procesar y trabajar con Normalmaps. Son imprescindibles cuando se desea que el procesamiento de la asignación Normal sea matemáticamente correcto, para evitar problemas de espacio de Tangente.
 
-Use la <b>lista de navegación de la izquierda</b> para examinar todos los nodos en Mapa normal.
+Use la <b>lista de exploración de la izquierda</b> para examinar todos los nodos bajo Mapa de normales.
 
 Algunos nodos muy útiles en esta categoría son:
 

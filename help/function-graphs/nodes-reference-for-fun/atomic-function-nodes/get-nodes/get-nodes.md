@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Acceso Obtén nodos en los gráficos de funciones de Substance 3D Designer para recuperar datos y valores variables.
 helpx_creative_field: ""
@@ -179,7 +179,7 @@ Texto
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![&#x200B; está definido: El icono de nodo](../../../../assets/fn_variables_isdefined.png " está definido: Icono de nodo"){width="200px"}
+![ está definido: El icono de nodo](../../../../assets/fn_variables_isdefined.png " está definido: Icono de nodo"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: Utilice el nodo Polígono Trazados para crear trazados poligonales a partir de datos de vértices para la generación de patrones geométricos.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 Genera un primitivo (polígono) en el formato Trazados.
 
-Utilice el nodo [Path 2D Transform](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) para colocar con precisión el elemento primitivo.
+Use el nodo [Path 2D Transforme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) para colocar con precisión el primitivo.
 
 </td>
 </tr>

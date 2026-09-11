@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
 description: Accede a gráficos de funciones de Substance predefinidos como nodos de instancias para agilizar el flujo de trabajo y mejorar las funciones.
 helpx_creative_field: ""
@@ -333,7 +333,7 @@ HCL a RGB
 
 HSI a RGB
 
-Desplazamiento de HSL
+desplazamiento HSL
 
 HSL a RGB
 
@@ -360,19 +360,19 @@ Tono RGB 2 polar
 
 Tono RGB hexagonal
 
-Media de ligereza RGB
+Promedio de luminosidad del RGB
 
-RGB ligereza bi-hexcone
+luminosidad RGB bi-hexcona
 
-hexcona de ligereza RGB
+RGB luminosidad hexcona
 
-Luminosidad RGB Rec.601
+Luminancia de luminosidad del RGB Rec.601
 
-Luminosidad RGB Rec.709
+Luminancia de luminosidad del RGB Rec.709
 
 Saturación del RGB HSI
 
-Saturación del RGB HSL
+HSL de saturación del RGB
 
 Saturación del RGB HSV
 
@@ -393,7 +393,7 @@ sRGB a lineal
 
 Temperatura del RGB
 
-Asignador de tonos ACES
+ACE tonemapper
 
 Tono Agx (aprox.)
 
@@ -465,15 +465,15 @@ Aleatorio global
 
 Distribución normal
 
-Uniforme aleatorio &lbrack;-1, 1&lbrack;
+Uniforme aleatorio [-1, 1[
 
-Uniforme aleatorio &lbrack;a, b&lbrack;
+Uniforme aleatorio [a, b[
 
-Float2 uniforme al azar &lbrack;a, b&lbrack;
+Float2 uniforme al azar [a, b[
 
-Flotador uniforme aleatorio3 &lbrack;a, b&lbrack;
+Flotador uniforme aleatorio3 [a, b[
 
-Flotador uniforme al azar4 &lbrack;a, b&lbrack;
+Flotador uniforme al azar4 [a, b[
 
 </td>
 </tr>

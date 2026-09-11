@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Conozca las advertencias en los Substance que componen gráficos y aprenda a resolver problemas y errores comunes.
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ En el panel [Explorador](../../interface/the-explorer-window/the-explorer-window
 
 ### No se encontró el recurso de referencia ![(error)](../../assets/error.svg)
 
-No se encontró el recurso al que hace referencia un nodo en la ruta guardada en el archivo [Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) (SBS). Estos son algunos nodos que hacen referencia a un recurso:
+No se encontró el recurso al que hace referencia un nodo en la ruta guardada en el archivo [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBS). Estos son algunos nodos que hacen referencia a un recurso:
 
 * Un nodo [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) hace referencia a un gráfico
 * Un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) hace referencia a un [recurso Bitmap](../../resources/bitmap-resource/bitmap-resource.md)

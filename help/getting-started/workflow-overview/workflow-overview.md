@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Descubre el flujo de trabajo esencial para crear materiales procedimientos en Substance 3D Designer de principio a fin.
 helpx_creative_field: ""
@@ -71,7 +71,7 @@ A continuación puede encontrar un resumen de los tres tipos de gráficos que pu
 
 [Los gráficos de Substance](https://substance3d.adobe.com/) son el tipo principal de gráfico creado en Substance 3D Designer. Su propósito es <b>generar y procesar datos de imágenes 2D</b> que no estén restringidos a una resolución, color o forma establecidos. Se han concebido como herramientas de generación y procesamiento de imágenes extremadamente versátiles, no solo como resultados estáticos preconfigurados.
 
-Los resultados pueden ser en forma de un simple patrón en blanco y negro, un filtro que solo se ejecuta en otras imágenes y no genera contenido por sí mismo, o incluso un material procedimiento completo con múltiples canales.
+Los resultados pueden ser en forma de un simple patrón en blanco y negro, un filtro que solo se ejecuta en otras imágenes y no genera contenido por sí mismo, o incluso un material procedimental completo con múltiples canales.
 
 Los gráficos de Substance son [el tipo de gráfico más ampliamente admitido](../../getting-started/overview/overview.md), y se pueden exportar y usar en una gran variedad de flujos de trabajo diferentes.
 
@@ -99,7 +99,7 @@ El texto con el número o el thickness del borde se puede exponer externamente p
 
 
 
-Un gráfico de filtros toma un mapa de normales como [entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(con una vista previa personalizada), [lo convierte en curvatura](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) y, a continuación, [ajusta el contraste](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para crear una máscara de bordes convexos como [salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
+Un gráfico de filtro toma un mapa normal como [entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(con una vista previa personalizada), [lo convierte en curvatura](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) y, a continuación, [ajusta el contraste](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para crear una máscara de bordes convexos como [salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
 
 Los valores de contraste establecidos en el histograma pueden ser expuestos, haciendo de este un filtro simple pero útil en combinación con la ranura de entrada dinámica.
 

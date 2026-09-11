@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 15.1 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -172,12 +172,12 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 * [Contenido] Nuevo nodo &quot;Ruido de humedad 2&quot;
 * [Contenido] Ruidos: actualizar para agregar el formato de salida predeterminado
 * [Contenido] Ruido de Perlin v2: agregar formato de salida predeterminado, sin compatibilidad con mosaicos
-* [Contenido] Asignador de formas: agregar modo de filtrado
-* [Contenido] Mapeador UV: agregar modo de filtrado
+* [Contenido] Asignador de formas: agregar modo de filtro
+* [Contenido] Mapeador UV: agregar modo de filtro
 * [Contenido] Forma de onda 1 v2: usar formato de salida predeterminado + nuevas opciones
 * [Contenido] Ruido blanco v2: usar formato de salida predeterminado, agregar opciones de distribución
-* [Bakers] Muestra solo las UV de la malla seleccionada
-* [Bakers] Añada una opción para seleccionar el método de coincidencia de geometría por nombre
+* [Bakeres] Muestra solo las UV de la malla seleccionada
+* [Bakeres] Añada una opción para seleccionar el método de coincidencia de geometría por nombre
 * [Panaderos] Seleccione el panadero más cercano cuando se elimine un panadero
 * [Panaderos] UDIM: definir una lista de azulejos UV para hornear
 * [Panaderos] Actualice bake sdk a 3.15.4.
@@ -200,7 +200,7 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 * [Vista 3D] El Specular edge color no funciona al utilizar el rasterizador de Eclair
 * [Vista 3D] El material añadido por el usuario no se aplica en escenas predeterminadas
 * [Vista 3D] [Panaderos] El color del material es demasiado oscuro una vez se ha anulado o al utilizar un panadero de &quot;Color&quot;
-* [Vista 3D]&#x200B;[Panaderos] No hay color de material del archivo FBX
+* [Vista 3D][Panaderos] No hay color de material del archivo FBX
 * [Bakers] Los colores del material en los archivos FBX no se detectan correctamente
 * [Bakers] La opción &#39;recompute\_tangents&#39; siempre es &#39;false&#39; en las exportaciones de ajustes preestablecidos de JSON
 * [Bakers] CLI: Bloqueo al ejecutar el mismo panadero de forma consecutiva a través del archivo JSON

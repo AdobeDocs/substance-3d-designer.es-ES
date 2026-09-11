@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Aprenda a crear y utilizar ajustes preestablecidos de parámetros en Substance 3D Designer para guardar y aplicar configuraciones de parámetros.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Simplemente se guardan y se cargan en este menú. Los archivos SBSPRS guardados 
 
 >[!NOTE]
 >
-> Incluso las coincidencias parciales funcionarán: los parámetros almacenados en un SBSPRS que no existen en el nodo cargado, simplemente se omitirán. Esto significa que puede transferir propiedades entre nodos que son en su mayoría similares, [&#x200B; como la versión en color y escala de grises de Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md). Se cargarán todos los parámetros compartidos. La coincidencia se produce en el identificador y el tipo.
+> Incluso las coincidencias parciales funcionarán: los parámetros almacenados en un SBSPRS que no existen en el nodo cargado, simplemente se omitirán. Esto significa que puede transferir propiedades entre nodos que son en su mayoría similares, [ como la versión en color y escala de grises de Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md). Se cargarán todos los parámetros compartidos. La coincidencia se produce en el identificador y el tipo.
 
 ![Edición de ajustes preestablecidos incrustados](parameter-presets.resources/preset-embed.gif "Edición de ajustes preestablecidos incrustados"){width="512px"}
 

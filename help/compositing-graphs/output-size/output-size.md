@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Configure los ajustes de tamaño de salida para que los Substance que componen gráficos controlen la resolución y la calidad de la textura.
 helpx_creative_field: ""
@@ -77,7 +77,7 @@ Cuando la propiedad Tamaño de salida usa un valor *Relativo a...* [método de h
 
 Los modificadores relativos al intervalo de resolución heredado van de -12 a +12 en una escala logarítmica, siendo el valor predeterminado 0. Esto significa que cada paso por encima o por debajo da como resultado la duplicación o reducción a la mitad de la resolución. La tabla de la derecha proporciona un ejemplo de cómo cambia la resolución relativa en una dimensión para un valor heredado de 9 (es decir, 512 = 2^9) y 11 (es decir, 2048 = 2^11):
 
-Observe que por encima de 8196, el tamaño es *limitado*. Este límite se controla mediante la configuración <b>Límite de tamaño de cocción</b> en la sección <b>General</b> de [Preferencias](../../interface/preferences-window/preferences-window.md). Tenga en cuenta que trabajar con resoluciones muy grandes conlleva un coste de rendimiento proporcional y un espacio de memoria exponencial. Además, los límites en el procesamiento de gráficos establecen un límite máximo para el tamaño máximo de una textura.
+Observe que por encima de 8196, el tamaño es *limitado*. Este límite se controla mediante la configuración <b>Límite de tamaño de cocción</b> en la sección <b>General</b> de [Preferencias](../../interface/preferences-window/preferences-window.md). Tenga en cuenta que trabajar con resoluciones muy grandes conlleva un coste de rendimiento proporcional y un espacio de memoria exponencial. Además, los límites en el procesamiento de gráficos establecen un límite máximo del tamaño máximo de una textura.
 
 | -5 | -4 | -3 | -2 | -1 | 0 | +1 | +2 | +3 | +4 | +5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

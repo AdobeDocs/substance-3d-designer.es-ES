@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/multi-material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/multi-material-blend.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fusión de varios materiales para fusionar varios materiales y crear combinaciones de materiales complejas.
 helpx_creative_field: ""
@@ -59,7 +59,7 @@ Tenga en cuenta que cuando se utiliza este material, el material 1, Ranura 1 es 
 |  |  |
 |:---|:---|
 | <b>Materiales</b> <i>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16</i> | Define la cantidad máxima de diferentes materiales que se deben fusionar. |
-| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/Brillo en lugar de Metálico/Rugosidad. |
+| <b>Canales</b> | Activa y desactiva los canales de material en este grupo, por ejemplo, al utilizar mapas de Specular/brillo en lugar de Metálico/Rugosidad. |
 | <b>Material 2-16</b> | Aparece un grupo para cada material activado. |
 | <b>Color</b> <i>(Valor de color)</i> | Color que se debe seleccionar en el mapa de ID que coincide con esta ranura de material. |
 | <b>Rugosidad</b> <i>0.01 - 1.0</i> | Sangra en los colores vecinos. |

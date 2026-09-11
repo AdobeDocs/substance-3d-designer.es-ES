@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
 breadcrumb-title: ''
 description: Utilice el nodo Desgaste de cuero para generar máscaras de desgaste en superficies de cuero basadas en la curvatura de la malla y los puntos de contacto.
 helpx_creative_field: ""

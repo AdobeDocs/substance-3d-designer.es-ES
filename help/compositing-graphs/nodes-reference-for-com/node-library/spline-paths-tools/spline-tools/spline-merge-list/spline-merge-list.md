@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
 breadcrumb-title: ''
 description: Utilice el nodo Lista de combinación de splines para combinar varias splines en una única lista de splines para operaciones combinadas.
 helpx_creative_field: ""
@@ -66,12 +66,12 @@ Fusiona todas las splines de la lista de entrada en una única spline.
 
 |  |  |
 |:---|:---|
-| <b>Umbral de distancia de spline cerrado</b> <i>Flotador</i> | Distancia en el espacio de textura por debajo de la cual se procesan dos extremidades de una misma spline como un único punto que cierra dicha spline.<br>Esto evita superposiciones al dispersar formas o asignar imágenes a lo largo de las splines. |
+| <b>Umbral de distancia de spline cerrado</b> <i>Flotante</i> | Distancia en el espacio de textura por debajo de la cual se procesan dos extremidades de una misma spline como un único punto que cierra dicha spline.<br>Esto evita superposiciones al dispersar formas o asignar imágenes a lo largo de las splines. |
 | <b>Vista previa</b> |  |
 | <b>Cantidad de segmentos</b> <i>Entero</i> | Ajusta el número de segmentos utilizados para dibujar la visualización de spline en la salida de vista previa.<br>Un valor más alto produce una línea más suave. |
 | <b>Mostrar ayuda de dirección</b> <i>Booleano</i> | Muestra un punto al principio de la spline y una punta de flecha al final en la salida de previsualización. |
 | <b>Mostrar sobre de Thickness</b> <i>Booleano</i> | Muestra líneas adicionales en los bordes del thickness de la spline. |
-| <b>Thickness (px)</b> <i>Flotador</i> | Ajusta el thickness de la visualización de la spline en píxeles en la salida de previsualización. |
+| <b>Thickness (px)</b> <i>Flotante</i> | Ajusta el thickness de la visualización de la spline en píxeles en la salida de previsualización. |
 
 ## Ejemplos
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
 breadcrumb-title: ''
 description: Utilice el nodo Mapa de Suciedades 002 para generar patrones de suciedades procedimientas para crear superficies de materiales envejecidas y con intemperie.
 helpx_creative_field: ""

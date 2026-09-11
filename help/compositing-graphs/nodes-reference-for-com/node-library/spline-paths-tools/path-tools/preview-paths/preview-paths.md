@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
-description: Utilice el nodo Rutas de acceso de vista previa para visualizar los datos de las rutas de acceso en la vista 2D con fines de depuración y verificación.
+description: Utilice el nodo Rutas de acceso de vista previa para visualizar los datos de las rutas de acceso en la Vista 2D para la depuración y la verificación.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
 helpx_experience_level: ""
@@ -58,7 +58,7 @@ Obtendrás un resultado similar al de la salida de <b>Vista previa</b> de [Másc
 |:---|:---|
 | <b>Mostrar vértices</b> <i>Booleano</i> | Muestra un cuadrado en cada vértice marcado como esquina (fusión aditiva). |
 | <b>Mostrar vértices</b> <i>Booleano</i> | Muestra una forma circular en cada vértice (fusión aditiva). Las esquinas se siguen mostrando como cuadrados. |
-| <b>Thickness de segmentos (px)</b> <i>Flotador</i> | Ajusta el thickness de los segmentos procesados en píxeles. |
+| <b>Thickness de segmentos (px)</b> <i>Flotante</i> | Ajusta el thickness de los segmentos procesados en píxeles. |
 
 ## Ejemplos
 

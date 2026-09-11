@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Aprenda a importar y utilizar recursos de formato de intercambio de apariencia AxF en Substance 3D Designer para la importación de materiales.
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Substance 3D Designer admite el formato de intercambio de apariencia de [X-Rite.](https://www.xrite.com/axf) Los creadores del formato lo describen de la siguiente manera:
 
-Los archivos AxF se utilizan para capturar, almacenar, editar y comunicar características complejas de materiales a lo largo del flujo de trabajo de diseño digital. AxF proporciona una forma estándar de almacenar y compartir todos los datos de apariencia relevantes (color, textura, brillo, refracción, translucidez, efectos especiales (destellos) y propiedades de reflexión) en las aplicaciones de administración del ciclo de vida del producto (PLM), diseño asistido por ordenador (CAD) y renderizado de última generación.
+Los archivos AxF se utilizan para capturar, almacenar, editar y comunicar características complejas de materiales a lo largo del flujo de trabajo de diseño digital. AxF proporciona una forma estándar de almacenar y compartir todos los datos de apariencia relevantes (color, textura, brillo, refracción, translucidez, efectos especiales (destellos) y propiedades de reflexión) en las aplicaciones de administración del ciclo de vida del producto (PLM), diseño asistido por ordenador (CAD) y renderizado de vanguardia.&quot;
 
 </td>
 </tr>
@@ -39,20 +39,20 @@ Los archivos AxF se utilizan para capturar, almacenar, editar y comunicar caract
 
 En términos simples, los archivos AxF alojan una serie de texturas extraídas por el hardware de escáner TAC7 de X-Rite, junto con metadatos que describen propiedades adicionales del material. Eso significa que un AxF es más que solo datos de textura: también lleva propiedades de sombreado.
 
-Los archivos AxF *no* se importan como un paquete [recurso](../../resources/resources.md). Más bien, el [proceso de importación](#import) implica extraer texturas y metadatos del archivo AxF y luego usarlos para preparar gráficos creados a partir de [plantillas dedicadas](#graph-templates).
+Los archivos AxF *no* se importan como un paquete [recurso](../../resources/resources.md). Más bien, el [proceso de importación](#import) implica extraer texturas y metadatos del archivo AxF y luego utilizarlos para preparar gráficos creados a partir de [plantillas dedicadas](#graph-templates).
 
 Las plantillas disponibles están dirigidas a dos flujos de trabajo AxF:
 
-* <b>Convertir</b> un material SVBRDF de un archivo AxF en un material PBR;
+* <b>Convertir</b> un material SVBRDF en un archivo AxF en un material PBR;
 * <b>Editando</b> un material SVBRDF en contexto y [exportándolo](#export) a un archivo AxF existente como una nueva capa.
 
 >[!NOTE]
 >
 > Modelos de material compatibles
 > 
-> Solo los materiales que utilicen un modelo <b>SVBRDF</b> (Spatially Varying BRDF) pueden *cargarse y editarse por completo* en Designer.
+> Solo los materiales que utilicen un modelo <b>SVBRDF</b> (BRDF espacialmente variable) pueden *cargarse y editarse por completo* en Designer.
 > 
-> Los materiales que utilizan el modelo <b>EP-SVBRDF</b> (Energy Preserving SVBRDF) se pueden cargar, pero solo las características existentes en el modelo SVBRDF se pueden editar y visualizar. Las funciones exclusivas de EP-SVBRDF no son compatibles.
+> Los materiales que utilizan el modelo <b>EP-SVBRDF</b> (Energy Preserving SVBRDF) se pueden cargar, pero solo se pueden editar y visualizar las características existentes en el modelo de SVBRDF. Las funciones exclusivas de EP-SVBRDF no son compatibles.
 > 
 > No se admiten otros modelos.
 
@@ -86,7 +86,7 @@ Cuenta con cuatro secciones:
 
 La sección <b>Templates</b> le permite configurar la plantilla [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) para comenzar a trabajar en el material. Consulta la sección [Plantillas de gráficos](#graph-templates) a continuación para obtener más información sobre estas plantillas y su configuración.
 
-<b>Texturas</b> muestra todas las texturas extraídas del archivo AxF involucrado en el material detectado. Para cada textura, se muestra su nombre, resolución nativa, formato de datos y tamaño físico.
+<b>Texturas</b> enumera todas las texturas extraídas del archivo AxF implicadas en el material detectado. Para cada textura, se muestra su nombre, resolución nativa, formato de datos y tamaño físico.
 
 <b>Metadatos</b> y <b>Propiedades</b> muestran los datos extraídos del material en el archivo AxF. Esto afecta a la configuración de algunas propiedades de plantillas de gráficos de Substance (consulte la sección [Plantillas de gráficos](#graph-templates) que aparece a continuación).
 
@@ -144,7 +144,7 @@ Haga clic en el botón <b>Agregar plantilla</b> y seleccione el tipo de gráfico
 Hay dos tipos de plantillas de gráficos de Substance disponibles:
 
 Las plantillas <b>AxF to Metallic Roughness</b> y <b>AxF to Specular Glossiness</b> son plantillas de *conversión* que te permiten asignar materiales AxF a modelos PBR estándar.\
-Estos se pueden usar con los sombreadores de vista 3D predeterminados y combinarse con otros materiales PBR producidos en Designer, [Sampler](https://www.adobe.com/es/products/substance3d-sampler.html) o adquiridos de nuestra biblioteca [3D Assets](https://substance3d.adobe.com/assets/).
+Estos se pueden usar con los sombreadores de vista 3D predeterminados y combinarse con otros materiales PBR producidos en Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) o adquiridos de nuestra biblioteca [3D Assets](https://substance3d.adobe.com/assets/).
 
 <b>AxF a AxF</b> es una plantilla *passthrough* que te permite editar materiales AxF in situ y exportar estos cambios como nuevas capas en archivos AxF existentes. Consulte Exportar archivos AxF a continuación para obtener más información.
 
@@ -254,7 +254,7 @@ El resultado se muestra como un mensaje junto a la barra de progreso en la barra
 
 ### Asignación de salidas a recursos AxF
 
-Al exportar a un archivo AxF existente, sus recursos se actualizan utilizando las salidas de gráficos. Designer hace coincidir el identificador de recurso con los nodos [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) que tienen el mismo identificador que <b>Usage</b>.
+Al exportar a un archivo AxF existente, sus recursos se actualizan utilizando las salidas de gráficos. Designer hace coincidir el identificador de recursos con los nodos [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) que tienen el mismo identificador que <b>Usage</b>.
 
 Además, la propiedad <b>Group</b> *de Output* debe estar establecida en &#39;AxF&#39; para que se muestre en el cuadro de diálogo de exportación de AxF (ver arriba).
 
@@ -264,8 +264,8 @@ Los recursos pueden ser texturas (es decir, mapas de bits) o uniformes (es decir
 
 El número de canales se especifica de forma diferente en función del tipo de datos proporcionados al nodo Salida:
 
-* <b>Mapa de bits (textura):</b> La propiedad [Components](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) se usa para especificar el número de canales, donde R es un canal, RG son dos canales, etc. La propiedad se utiliza para indicar a Designer qué canales RGBA del mapa de bits de color se deben codificar en el recurso.
-* <b>Valor (uniforme):</b> El número de componentes del valor vectorial se usa para especificar el número de canales, donde [Float](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) es un canal, [Float2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) son dos canales, etc.
+* <b>Mapa de bits (Textura):</b> La propiedad [Components](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) se usa para especificar el número de canales, donde R es un canal, RG son dos canales, etc. La propiedad se utiliza para indicar a Designer qué canales RGBA del mapa de bits de color se deben codificar en el recurso.
+* <b>Valor (uniforme):</b> El número de componentes del valor vectorial se usa para especificar el número de canales, donde [Flotante](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) es un canal, [Flotante2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) son dos canales, etc.
 
 >[!IMPORTANT]
 >
@@ -274,16 +274,16 @@ El número de canales se especifica de forma diferente en función del tipo de d
 > 
 > Por ejemplo, para un recurso de lóbulo de Specular que utilice dos canales (rojo para la rugosidad del Specular y verde para la Anisotropía del Specular), establezca la propiedad Components en &#39;RG&#39;.
 
-## Visualización de archivos AxF en la vista 3D
+## Visualización de archivos AxF en la Vista 3D
 
-El método para procesar materiales AxF SVBRDF en [Vista 3D](../../interface/3d-view/3d-view.md) depende de la [configuración de importación](#import).
+El método para representar materiales SVBRDF AxF en [Vista 3D](../../interface/3d-view/3d-view.md) depende de la [configuración de importación](#import).
 
 +++Convertir en PBR
 
 Si deseas convertir un material SVBRDF de un archivo AxF en un material PBR estándar, es probable que la configuración de importación implique una [plantilla de conversión de gráficos de Substance](#graph-templates).
 
-En ese caso, debe usar el **procesador OpenGL** en la vista 3D y seleccionar el <code>AxF SVBRF</code> sombreador.\
-A continuación, puede arrastrar y soltar el gráfico del Substance que haya configurado en el cuadro de diálogo de importación para conectar sus salidas al sombreado.
+En ese caso, debe usar el **procesador OpenGL** en la Vista 3D y seleccionar el <code>AxF SVBRF</code> sombreador.\
+A continuación, puede arrastrar y soltar la gráfica de Substance que haya configurado en el cuadro de diálogo de importación para conectar sus salidas al sombreador.
 
 ![AxF: Viendo para conversión](../../assets/axf-view-for-convert.gif "AxF: Viendo para conversión")
 
@@ -293,9 +293,9 @@ A continuación, puede arrastrar y soltar el gráfico del Substance que haya con
 
 Si tu objetivo es realizar *ediciones* en un archivo AxF existente, sigue las instrucciones siguientes para visualizar su material SVBRDF según el procesador seleccionado:
 
-Hay disponible un sombreador GLSLFX dedicado para visualizar materiales mediante una representación SVBRDF desde un archivo AxF: <b>AxF SVBRDF</b>.
+Hay disponible un sombreador de GLSLFX dedicado para visualizar materiales mediante una representación SVBRDF de un archivo AxF: <b>AxF SVBRDF</b>.
 
-El sombreado está disponible en el menú <b>Materiales</b> : abra el submenú del material de la escena (&quot;Predeterminado&quot; de forma predeterminada) y seleccione cualquier técnica en la entrada <b>AxF SVBRDF</b>.
+El sombreador está disponible en el menú <b>Materiales</b> : abra el submenú del material de la escena (&quot;Predeterminado&quot; de forma predeterminada) y seleccione cualquier técnica en la entrada <b>AxF SVBRDF</b>.
 
 Use la opción <b>Editar</b> en el mismo submenú para mostrar las propiedades del sombreado en el conjunto acoplado [Propiedades](../../interface/properties/properties.md).\
 En concreto, la propiedad <b>Tiling</b> te permite ajustar el mosaico de las texturas en el modelo, para que puedas visualizar el material a una escala adecuada.

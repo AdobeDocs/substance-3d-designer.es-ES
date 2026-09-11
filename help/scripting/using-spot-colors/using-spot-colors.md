@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar tintas planas en la creación de scripts de Substance 3D Designer Python para flujos de trabajo de color especializados.
 helpx_creative_field: ""

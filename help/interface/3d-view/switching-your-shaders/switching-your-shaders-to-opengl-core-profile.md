@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo cambiar sombreadores a OpenGL Core Profile en la vista 3D de Substance 3D Designer para obtener compatibilidad y rendimiento.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ En primer lugar, reemplaza (o añádelo en la parte superior del archivo si aún
 
 Ahora, las variables `attribute` y `varying` se declaran explícitamente como `in` o `out`, dependiendo de la fase del sombreador:
 
-En el sombreador de vértices, los `attribute` de los vértices se declaran como `in`, mientras que los `varying` que se van a pasar al sombreador de fragmentos se declaran como `out`.\
+En el sombreador del vértice, `attribute` de los vértices se declaran como `in`, mientras que `varying` que se van a pasar al sombreador del fragmento se declaran como `out`.\
 Por ejemplo:
 
 ```
@@ -130,7 +130,7 @@ outColor = vec4(myColor.rgb, 1.0);
 
 ### Usar nuevas funciones de búsqueda de textura
 
-Con la nueva versión del lenguaje de sombreado, la API de búsqueda de texturas se ha simplificado y aumentado.
+Con la nueva versión del lenguaje de sombreado, la API de búsqueda de textura se ha simplificado y aumentado.
 
 Las funciones `texture1D()`, `texture2D()`, `texture3D()` y `textureCube()` se convierten en sobrecargas de `texture()`.\
 Del mismo modo, `texture2DLod()` se convierte en `textureLod()`, `texture2DGrad()` se convierte en `textureGrad()`, etc.

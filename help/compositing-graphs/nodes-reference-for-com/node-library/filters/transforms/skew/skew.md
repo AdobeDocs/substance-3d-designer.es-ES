@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
 breadcrumb-title: ''
 description: Utilice el nodo Sesgar para aplicar transformaciones de sesgo a texturas para crear patrones inclinados y distorsionados.
 helpx_creative_field: ""

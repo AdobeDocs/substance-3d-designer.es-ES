@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: Configure las rutas de búsqueda de complementos en Substance 3D Designer para especificar dónde se encuentran los complementos de Python.
 helpx_creative_field: ""

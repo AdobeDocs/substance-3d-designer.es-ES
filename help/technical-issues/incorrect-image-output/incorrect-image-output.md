@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Solucione problemas de salida de imágenes incorrectas en Substance 3D Designer y aprenda a corregir problemas de procesamiento.
 helpx_creative_field: ""

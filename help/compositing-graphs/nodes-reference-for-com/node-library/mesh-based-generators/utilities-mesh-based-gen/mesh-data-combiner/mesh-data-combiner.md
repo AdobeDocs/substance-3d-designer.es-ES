@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Utilice el nodo Combinador de datos de malla para combinar varias entradas de datos de malla para la generación avanzada de textura basada en malla.
 helpx_creative_field: ""
@@ -49,7 +49,7 @@ Alterne las entradas de mapa que desea habilitar y la salida en el resultado emp
 
 |  |  |
 |:---|:---|
-| <b>Oclusión ambiental</b> <i>Falso/Verdadero</i> |  |
+| <b>Oclusión de ambiente</b> <i>Falso/Verdadero</i> |  |
 | <b>Máscaras UV</b> <i>Falso/Verdadero</i> |  |
 | <b>Curvatura</b> <i>Falso/Verdadero</i> |  |
 | <b>Height</b> <i>Falso/Verdadero</i> |  |

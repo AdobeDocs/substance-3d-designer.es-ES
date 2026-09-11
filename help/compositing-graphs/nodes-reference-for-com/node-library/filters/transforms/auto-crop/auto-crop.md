@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
 breadcrumb-title: ''
 description: Utilice el nodo Recorte automático para recortar automáticamente las texturas, eliminar los bordes vacíos y optimizar las dimensiones de la textura.
 helpx_creative_field: ""
@@ -62,7 +62,7 @@ El contenido de la imagen se define mediante un cuadro ajustado a los *primeros 
 |:---|:---|
 | <b>Modo</b> <i>Entero</i> | Establezca el método de recorte que se debe aplicar:<br><br>- <i>Cuadrado de recorte</i>: la imagen se recorta de modo que la forma esté en el centro de la imagen más pequeña de <i>cuadrado</i> que pueda incluirla<br>- <i>Recortar auto</i>: La imagen se recorta de modo que la forma esté en el centro de la imagen más pequeña <i>cuadrada o no cuadrada</i> que pueda incluirla<br>- <i>Ajustar (mantener relación)</i>: El tamaño de la imagen cambia al <i>tamaño completo</i> de la imagen, pero se mantienen sus <i>proporciones</i> (es decir, la relación entre anchura y longitud)<br>- <i>Rellenar (Estirar)</i>: El tamaño de la imagen cambia al <i>tamaño completo</i> de la imagen |
 | <b>Usar alfa</b> <i>Booleano</i> | Use el canal alfa de <b>Input</b> para determinar los <i>límites</i> del contenido de la imagen para el recorte. Cuando se establece en <i>False</i>, se usan píxeles negros.<br><br><i>Nota:</i> Este parámetro solo está disponible en la versión <b>Color</b> del nodo. |
-| <b>Modo de filtrado</b> <i>Entero</i> | Define cómo tratar los resultados muestreados al <i>interpolar</i> entre píxeles:<br><br>- <i>Más cercano</i>: mostrará exactamente el <i>mismo valor</i> (más rápido)<br>- <i>Bilineal</i>: aplicará un filtro bilineal en el resultado para un aspecto <i>más suave</i><br>- <i>Automático</i>: Utiliza el más adecuado de los dos modos anteriores, dependiendo del <b>Modo</b> seleccionado para el recorte |
+| <b>Modo de filtro</b> <i>Entero</i> | Define cómo tratar los resultados muestreados al <i>interpolar</i> entre píxeles:<br><br>- <i>Más cercano</i>: mostrará exactamente el <i>mismo valor</i> (más rápido)<br>- <i>Bilineal</i>: aplicará un filtro bilineal en el resultado para un aspecto <i>más suave</i><br>- <i>Automático</i>: Utiliza el más adecuado de los dos modos anteriores, dependiendo del <b>Modo</b> seleccionado para el recorte |
 
 ## Ejemplos
 

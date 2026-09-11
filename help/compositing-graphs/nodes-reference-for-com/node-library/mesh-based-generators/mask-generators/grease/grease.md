@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: Utilice el nodo Grasa para generar máscaras de acumulación de grasa basadas en la geometría de malla y las áreas de contacto.
 helpx_creative_field: ""
@@ -47,7 +47,7 @@ Esta máscara está diseñada específicamente para las caras de los personajes 
 
 |  |  |
 |:---|:---|
-| <b>Thickness</b> <i>Entrada en escala de grises</i> | Mapa de Thickness al horno en el que se basa todo el efecto. ¡Obligatorio! |
+| <b>Thickness</b> <i>Entrada en escala de grises</i> | Mapa de grosor hecho un bake en el que se basa todo el efecto. ¡Obligatorio! |
 | <b>Ruido</b> <i>Entrada en escala de grises</i> | Mapa de ruido opcional para anular la suciedad de grasa. |
 | <b>Máscara (opcional)</b> <i>Entrada en escala de grises</i> | Ranura de máscara utilizada para enmascarar los efectos del nodo. |
 

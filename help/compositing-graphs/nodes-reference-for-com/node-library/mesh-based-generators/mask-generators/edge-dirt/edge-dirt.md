@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
 breadcrumb-title: ''
 description: Utilice el nodo Dirt de borde para generar máscaras de acumulación de dirt en los bordes de malla para crear efectos de intemperismo de borde realistas.
 helpx_creative_field: ""

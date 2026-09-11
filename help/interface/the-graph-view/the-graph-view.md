@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la vista de gráfica en Substance 3D Designer para crear y editar gráficas de materiales basadas en nodos.
 helpx_creative_field: ""
@@ -205,9 +205,9 @@ Para seleccionar *varios* nodos, hay varios métodos disponibles:
 
 Al hacer clic en RMB en un nodo, aparece un menú contextual que puede incluir las siguientes opciones:
 
-<b>Ver salida en vista 2D:</b> Mostrar una de las salidas del nodo en la [vista 2D](../../interface/2d-view/2d-view.md), consulte [Interacción con la vista 2D](#interacting-with-the-2d-view) a continuación;
+<b>Ver salida en la Vista 2D:</b> Mostrar una de las salidas del nodo en la [Vista 2D](../../interface/2d-view/2d-view.md); consulte [Interacción con la Vista 2D](#interacting-with-the-2d-view) a continuación;
 
-<b>Ver en vista 3D</b>: Asigne todos los resultados del nodo a un material en la [vista 3D](../../interface/3d-view/3d-view.md) haciendo coincidir los usos. Consulte [Interacción con la vista 3D](#interacting-with-the-3d-view) a continuación;
+<b>Ver en vista 3D</b>: Asigne todos los resultados del nodo a un material del [Vista 3D](../../interface/3d-view/3d-view.md) haciendo coincidir los usos. Consulte [Interacción con la vista 3D](#interacting-with-the-3d-view) a continuación;
 
 <b>Restablecer y ver en vista 3D:</b> Restablezca un material en la [vista 3D](../../interface/3d-view/3d-view.md) y asigne todos los resultados del nodo a ese material haciendo coincidir los usos. Consulte [Interacción con la vista 3D](#interacting-with-the-3d-view) más abajo;
 
@@ -215,7 +215,7 @@ Al hacer clic en RMB en un nodo, aparece un menú contextual que puede incluir l
 
 <b>Agregar comentario:</b> Cree un objeto de gráfico [Comment](../../interface/the-graph-view/graph-items/graph-items.md) y lo asocie a este nodo;
 
-<b>Agregar marco:</b> Cree un objeto de gráfico [Frame](../../interface/the-graph-view/graph-items/graph-items.md) y ajústelo a los nodos seleccionados;
+<b>Agregar marco:</b> Cree un objeto gráfico de [Marco](../../interface/the-graph-view/graph-items/graph-items.md) y ajústelo a los nodos seleccionados;
 
 <b>Copiar información en el portapapeles:</b> Copie el identificador único (UID) del nodo en el portapapeles;
 
@@ -296,7 +296,7 @@ Los nodos deshabilitados tienen el siguiente comportamiento:
 * Los nodos deshabilitados se pueden *encadenar* juntos;
 * Sus propiedades y conexiones están *no modificadas*;
 * Su estado deshabilitado es *guardado* y persiste entre sesiones;
-* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1&rbrace; el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
+* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1} el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
 
 Puede deshabilitar un nodo o un grupo de nodos seleccionados usando la pulsación de tecla <b>Mayús+D</b>, o haciendo clic con el botón derecho en el gráfico y seleccionando el elemento <b>Deshabilitar nodo/Deshabilitar selección</b> en el menú contextual.
 

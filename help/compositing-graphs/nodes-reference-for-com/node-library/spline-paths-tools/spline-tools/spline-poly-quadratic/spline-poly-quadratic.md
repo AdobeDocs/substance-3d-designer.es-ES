@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
 breadcrumb-title: ''
 description: Utilice el nodo Poly Quadratic polinomial para crear splines cuadráticas complejas con varios puntos de control.
 helpx_creative_field: ""
@@ -86,13 +86,13 @@ La trayectoria de la spline se puede suavizar alejándola de sus puntos intermed
 | <b>Iniciar posición de conexión</b> <i>Flotador</i> | (Disponible cuando &quot;Input Spline Connection Mode&quot; está establecido en &quot;Manual&quot; y &quot;Connect Start to Input Spline&quot; está establecido en &quot;True&quot;) Posición en la spline de entrada seleccionada donde debe aterrizar la conexión con el inicio de la spline generada.<br>Este valor es la longitud normalizada de la spline de entrada seleccionada. |
 | <b>Conectar extremo a spline de entrada</b> <i>Booleano</i> | Si es True, el final de la spline generada se conecta al primer punto de la primera spline de las splines de entrada. |
 | <b>Finalizar índice de spline de conexión</b> <i>Entero</i> | (Disponible cuando &quot;Input Spline Connection Mode&quot; se define en &quot;Manual&quot; y &quot;Connect End to Input Spline&quot; se define en &quot;True&quot;) Índice de la spline de entrada que debe conectarse al final de la spline generada. |
-| <b>Finalizar posición de conexión</b> <i>Flotador</i> | (Disponible cuando &quot;Input Spline Connection Mode&quot; está establecido en &quot;Manual&quot; y &quot;Connect End to Input Spline&quot; está establecido en &quot;True&quot;) Posición en la spline de entrada seleccionada donde debe aterrizar la conexión al extremo de la spline generada.<br>Este valor es la longitud normalizada de la spline de entrada seleccionada. |
+| <b>Finalizar posición de conexión</b> <i>Flotante</i> | (Disponible cuando &quot;Input Spline Connection Mode&quot; está establecido en &quot;Manual&quot; y &quot;Connect End to Input Spline&quot; está establecido en &quot;True&quot;) Posición en la spline de entrada seleccionada donde debe aterrizar la conexión al extremo de la spline generada.<br>Este valor es la longitud normalizada de la spline de entrada seleccionada. |
 | <b>Distribución uniforme</b> <i>Booleano</i> | Si es True, los puntos de la spline se espacian uniformemente de principio a fin. |
 | <b>Anexar spline de entrada</b> <i>Booleano</i> | Agrega la spline generada al final de la lista de splines conectadas a las entradas <b>Spline</b>. |
 | <b>Corrección no cuadrada</b> <i>Booleano</i> | Ajuste la posición y el thickness de los puntos para conservar la forma de la spline en resoluciones que no sean cuadradas.<br>Esto también afecta a la distribución uniforme. |
-| <b>Ajuste de Smoothness global</b> <i>Flotador</i> | Aplica un desplazamiento uniforme al valor de smoothness de todos los puntos.<br>El valor de smoothness resultante se fija al intervalo [0;1]. |
+| <b>Ajuste de Smoothness global</b> <i>Flotante</i> | Aplica un desplazamiento uniforme al valor de smoothness de todos los puntos.<br>El valor de smoothness resultante se fija al intervalo [0;1]. |
 | <b>Propiedades de puntos</b> |  |
-| <b>Propiedades de p#</b> <i>Float3</i> | Establece las propiedades del punto p#.<br>- <i>Height:</i> Ajusta el height del punto donde un valor inferior significa una ubicación más baja o más profunda;<br>- <i>Smoothness:</i> Desplaza el inicio del suavizado de la spline en p#, donde un valor de 0 da como resultado una trayectoria dura y 1 en una completamente suave;<br>- <i>Thickness:</i> Ajusta el thickness de la spline en p#. El thickness se utiliza en nodos Spline específicos. |
+| <b>Propiedades de p#</b> <i>Flotante3</i> | Establece las propiedades del punto p#.<br>- <i>Height:</i> Ajusta el height del punto donde un valor inferior significa una ubicación más baja o más profunda;<br>- <i>Smoothness:</i> Desplaza el inicio del suavizado de la spline en p#, donde un valor de 0 da como resultado una trayectoria dura y 1 en una completamente suave;<br>- <i>Thickness:</i> Ajusta el thickness de la spline en p#. El thickness se utiliza en nodos Spline específicos. |
 | <b>Coordenadas de puntos</b> |  |
 | <b>p#</b> <i>Float2</i> | Establece la posición del punto p# en el espacio de textura. |
 | <b>Vista previa</b> |  |

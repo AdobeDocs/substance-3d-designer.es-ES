@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
 description: Utilice el nodo Desplazamiento de Textura 3D para desplazar texturas en el espacio 3D y crear efectos de paralaje y variaciones de superficie.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Desplazamiento de textura 3D
+title: Desplazamiento de Textura 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Desplazamiento de textura 3D
+# Desplazamiento de Textura 3D
 
 <table>
 <tr style="border: 0;">
@@ -66,7 +66,7 @@ El nodo **Desplazamiento de Textura 3D** aplica una *transformación de desplaza
 
 |  |  |
 |:---|:---|
-| <b>Desplazamiento</b> <i>Float3</i> | Cantidad de desplazamiento en <i>espacio de entorno</i> aplicado en el objeto descrito por la <i>textura 3D</i> conectada a <b>Input</b>. |
+| <b>Desplazamiento</b> <i>Flotante3</i> | Cantidad de desplazamiento en <i>espacio de entorno</i> aplicado en el objeto descrito por la <i>textura 3D</i> conectada a <b>Input</b>. |
 
 ## Ejemplos
 

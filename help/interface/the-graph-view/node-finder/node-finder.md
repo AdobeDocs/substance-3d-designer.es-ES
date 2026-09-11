@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Utilice el Buscador de nodos para buscar y localizar rápidamente nodos en los gráficos del Substance para una navegación eficaz.
 helpx_creative_field: ""
@@ -143,14 +143,14 @@ Para buscar nodos, una consulta de texto se compara con las propiedades de nodo 
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### Identificadores de gráfica de instancia
+### Identificadores de gráficas de instancias
 
 Se pueden encontrar [nodos de instancia](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) mediante el <b>identificador</b> de los gráficos a los que hacen referencia.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Buscador de nodos: buscando por identificador de gráfico](../../../assets/node-finder-functions-identifier.png "Buscador de nodos: buscando por identificador de gráfico"){zoomable="yes"}
+![Buscador de nodos: buscando por identificador gráfico](../../../assets/node-finder-functions-identifier.png "Buscador de nodos: buscando por identificador de gráfico"){zoomable="yes"}
 
 *Haga clic en la imagen para ampliarla*
 
@@ -170,7 +170,7 @@ Los gráficos se muestran por sus identificadores en el Explorador.
 +++Identificador en la información sobre herramientas del nodo de instancia
 La información sobre herramientas de los nodos de instancia incluye el identificador de su gráfico de referencia.
 
-![Identificador de gráfico en la información sobre herramienta del nodo de instancia](../../../assets/node-finder-compositing-identifier.png "Identificador de gráfico en la información sobre herramienta del nodo de instancia"){zoomable="yes"}
+![Información sobre el identificador gráfico en el nodo de instancia](../../../assets/node-finder-compositing-identifier.png "Información sobre el identificador gráfico en el nodo de instancia"){zoomable="yes"}
 
 
 
@@ -182,7 +182,7 @@ La información sobre herramientas de los nodos de instancia incluye el identifi
 
 ### Parámetros expuestos y variables
 
-El identificador de [parámetros expuestos](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), o cualquier otra variable, se puede buscar directamente.
+Se puede buscar directamente en el identificador de [parámetros expuestos](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), o en cualquier otra variable.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

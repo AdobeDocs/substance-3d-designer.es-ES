@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar expresiones visibles if en Substance 3D Designer para controlar la visibilidad de los parámetros en función de las condiciones.
 helpx_creative_field: ""
@@ -69,7 +69,7 @@ input["identifier"]
 
 Los campos &quot;Visible if&quot; aceptan los siguientes parámetros:
 
-* Entradas booleanas, flotantes y enteras.
+* Entradas booleanas, Flotante y enteros.
 * Valores de `true` y `false` (distingue mayúsculas de minúsculas, sin mayúsculas)
 * `.x` : acceder al subparámetro
 * `&&`<b> </b>: y

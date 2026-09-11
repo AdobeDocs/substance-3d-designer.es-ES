@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
 breadcrumb-title: ''
 description: Utilice el nodo Sector de Simetría para dividir texturas a lo largo de los ejes de simetría y crear patrones y efectos reflejados.
 helpx_creative_field: ""
@@ -49,7 +49,7 @@ En comparación con [Mirror](../../../../../../compositing-graphs/nodes-referenc
 |:---|:---|
 | <b>Modo de Simetría</b> <i>0 - 6</i> | Seleccione geometría de simetría/línea simétrica. Las opciones son Horizontal, Vertical, Diagonal izquierda-derecha, Diagonal derecha-izquierda, Invertir vertical, Esquina y Esquina diagonal. |
 | <b>Modo de transferencia</b> <i>0 - 6</i> | modo de Fusión. Las opciones son: |
-| <b>Fusionar</b> <i>0.0 - 1.0</i> | Fusión la imagen original en el resultado. |
+| <b>Fusión</b> <i>0.0 - 1.0</i> | Fusión la imagen original en el resultado. |
 | <b>Voltear lado</b> <i>Falso/Verdadero</i> | Voltea el origen, lo que significa que se invierte el lado de origen de la operación. La simetría de izquierda a derecha, por ejemplo, se convierte en de derecha a izquierda. |
 | <b>Voltear lado2</b> <i>Falso/Verdadero</i> | Solo se utiliza cuando el modo de Simetría es 5 o 6. Voltear origen de esquina. |
 

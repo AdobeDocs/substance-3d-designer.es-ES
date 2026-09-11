@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Utilice el Explorador de escenas para navegar y administrar los elementos, materiales y objetos de la escena 3D en la ventana gráfica.
 helpx_creative_field: ""
@@ -72,7 +72,7 @@ Los objetos se asocian a otros objetos, hasta la raíz de la escena. Un objeto p
 Deje el cursor en cualquier elemento del árbol durante un par de segundos para mostrar información sobre herramientas con la siguiente información:
 
 * <b>Ruta:</b> Ruta de acceso completa del objeto en la escena.
-* <b>TypeName:</b> Tipo de USD del objeto.
+* <b>TypeName:</b> El tipo USD del objeto.
 * <b>Documentación:</b> Información detallada sobre el objeto como elemento de escena USD.
 
 Las mallas tienen información adicional: Recuento de vértices, recuento de caras y recuento de UV.
@@ -100,7 +100,7 @@ Estos objetos se incluyen en la escena cuando [se exportan](../../../working-wit
 
 * <b>Cámara:</b> La cámara predeterminada de la escena. Esta es la única cámara con la que puedes interactuar en Designer. Cualquier cámara incluida en una escena cargada se añade como ajuste preestablecido para la cámara predeterminada.
 * <b>Entorno:</b> El entorno predeterminado de la escena. Cualquier textura aplicada al entorno de la escena se aplicará únicamente a dicho entorno. Del mismo modo, la rotación del entorno solo afecta a dicho entorno.\
-  Cuando una escena cargada incluye una o más luces ambientales ([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html) en USD), el entorno predeterminado se deshabilita automáticamente para no interferir con la iluminación del entorno de la escena.
+  Cuando una escena cargada incluye una o más luces de entorno ([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html) en USD), el entorno predeterminado se deshabilita automáticamente para no interferir con la iluminación del entorno de la escena.
 * <b>Luz puntual #:</b> Si alguna de las luces puntuales de Designer está habilitada en Luces > Editar propiedades, cada luz puntual se agrega a la escena.
 
 ## Alternancia de objetos en la escena
@@ -132,11 +132,11 @@ Los objetos principales tienen estas acciones adicionales:
 
 ### Entornos
 
-La visibilidad de cualquier luz ambiental (DomeLight) se puede activar y desactivar de la misma manera que otros objetos.
+La visibilidad de cualquier luz ambiental (DomeLight) se puede activar y desactivar del mismo modo que otros objetos.
 
-Cuando una luz ambiental está desactivada, su contribución de iluminación a la escena también se desactiva.
+Cuando una luz ambiental está desactivada, su aporte de luz a la escena también se desactiva.
 
-Si hay más de una luz de entorno habilitada, sus contribuciones de iluminación se *agregan acumulativamente*.
+Si hay más de una luz ambiental habilitada, sus aportaciones de iluminación se *agregan acumulativamente*.
 
 ![Explorador de escenas: alternando la visibilidad del entorno](../../../assets/sceneBrowser-toggleEnvLights.gif "Explorador de escenas: alternando la visibilidad del entorno"){zoomable="yes"}
 

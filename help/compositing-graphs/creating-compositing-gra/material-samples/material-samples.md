@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
 breadcrumb-title: ''
 description: Designer ofrece una selección seleccionada de gráficos de muestra que abarcan varios tipos de materiales con los que aprender y con los que experimentar.
 helpx_creative_field: ""
@@ -75,7 +75,7 @@ Haga doble clic en cualquier elemento para crear un nuevo gráfico a partir de e
 el botón <b>Crear</b>. Una vez seleccionada una muestra de material y validada la creación del gráfico, se cierra el cuadro de diálogo
 y se carga una copia de la muestra como un nuevo gráfico en la vista de gráfico.
 
-De forma predeterminada, el primer resultado del ejemplo se carga en la vista 2D y las texturas se aplican a la Vista 3D.
+De forma predeterminada, el primer resultado del ejemplo se carga en la vista 2D y las texturas se aplican a la vista 3D.
 De este modo, tu espacio de trabajo se configura automáticamente y ya estás listo para comenzar. (Esto se puede cambiar en las [preferencias](../../../interface/preferences-window/preferences-window.md) de Designer)
 
 >[!NOTE]

@@ -40,7 +40,7 @@ Función SDF de un cilindro de radio ajustable definido por las posiciones de su
 
 |  |  |
 | :--- | :--- |
-| <b>Inicio</b> *Float3* | Posición del disco de inicio del cilindro.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
-| <b>Fin</b> *Float3* | Posición del disco final del cilindro.<br><br><i>Valor predeterminado: (0, 0, 1)</i> |
-| <b>Radio</b> *Flotador* | El radio del cilindro.<br><br><i>Valor predeterminado: 0,25</i> |
-| <b>P</b> *Float3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |
+| <b>Inicio</b> *Flotante3* | Posición del disco de inicio del cilindro.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
+| <b>Fin</b> *Flotante3* | Posición del disco final del cilindro.<br><br><i>Valor predeterminado: (0, 0, 1)</i> |
+| <b>Radio</b> *Flotante* | El radio del cilindro.<br><br><i>Valor predeterminado: 0,25</i> |
+| <b>P</b> *Flotante3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |

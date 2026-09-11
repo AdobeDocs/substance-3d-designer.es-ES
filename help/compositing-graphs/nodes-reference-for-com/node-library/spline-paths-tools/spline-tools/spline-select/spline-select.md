@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
 description: Utilice el nodo Selección de spline para seleccionar y enmascarar regiones específicas en función de los trazados de spline de los gráficos.
 helpx_creative_field: ""
@@ -73,8 +73,8 @@ Las splines seleccionadas también se pueden recortar.
 | <b>Índice spline</b> <i>Entero</i> | (Disponible cuando &quot;Modo de selección&quot; se define en &quot;Índice&quot;) El índice de la spline que debe seleccionarse. |
 | <b>Inicio del intervalo</b> <i>Entero</i> | (Disponible cuando &quot;Modo de selección&quot; se define en &quot;Rango&quot;) El índice más bajo del rango de splines seleccionadas. |
 | <b>Fin de intervalo</b> <i>Entero</i> | (Disponible cuando &quot;Modo de selección&quot; se define en &quot;Rango&quot;) El índice más alto del rango de splines seleccionadas. |
-| <b>Inicio</b> <i>Flotante</i> | Desplaza el inicio de la parte de la spline que se debe seleccionar. Esto recorta la spline de manera efectiva.<br>El valor representa la longitud normalizada de la spline. |
-| <b>Fin</b> <i>Flotante</i> | Desplaza el extremo de la parte de la spline que se debe seleccionar. Esto recorta la spline de manera efectiva.<br>El valor representa la longitud normalizada de la spline. |
+| <b>Inicio</b> <i>Flotador</i> | Desplaza el inicio de la parte de la spline que se debe seleccionar. Esto recorta la spline de manera efectiva.<br>El valor representa la longitud normalizada de la spline. |
+| <b>Fin</b> <i>Flotador</i> | Desplaza el extremo de la parte de la spline que se debe seleccionar. Esto recorta la spline de manera efectiva.<br>El valor representa la longitud normalizada de la spline. |
 | <b>Vista previa</b> |  |
 | <b>Cantidad de segmentos</b> <i>Entero</i> | Ajusta el número de segmentos utilizados para dibujar la visualización de spline en la salida de vista previa.<br>Un valor más alto produce una línea más suave. |
 | <b>Mostrar ayuda de dirección</b> <i>Booleano</i> | Muestra un punto al principio de la spline y una punta de flecha al final en la salida de previsualización. |

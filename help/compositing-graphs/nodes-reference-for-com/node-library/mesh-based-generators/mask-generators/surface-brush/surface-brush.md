@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/surface-brush.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/surface-brush.html"
 breadcrumb-title: ''
 description: Utilice el nodo Pincel de superficie para generar máscaras basadas en la orientación de la superficie para crear efectos de desgaste y meteorización direccional.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill.html"
 breadcrumb-title: ''
 description: Utilice el nodo Flood Fill para rellenar regiones conectadas de color similar para crear máscaras y efectos de procesamiento de textura.
 helpx_creative_field: ""

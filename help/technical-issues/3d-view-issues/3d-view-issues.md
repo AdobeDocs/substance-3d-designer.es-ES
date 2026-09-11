@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
-description: Solución de problemas de visualización 3D en Substance 3D Designer, incluidos problemas de procesamiento, visualización y rendimiento.
+description: Solucione problemas de Vista 3D en Substance 3D Designer, incluidos problemas de procesamiento, visualización y rendimiento.
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Problemas de visualización en 3D
+title: Problemas de Vista 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Problemas de visualización en 3D
+# Problemas de Vista 3D
 
 Esta página enumera problemas técnicos relacionados con la [vista 3D](../../interface/3d-view/3d-view.md) de Substance 3D Designer y ofrece pasos de solución de problemas para cada uno.
 
@@ -101,7 +101,7 @@ Puede seguir utilizando el procesador OpenGL de forma predeterminada, utilizando
 4. Establezca la opción &quot;Procesador predeterminado&quot; en &quot;OpenGL (obsoleto)&quot;.
 5. Haga clic en Aceptar para validar los cambios
 
-Ahora, toda la nueva vista 3D utilizará el procesador OpenGL de forma predeterminada, lo que le permitirá seguir trabajando como antes.
+Ahora, todas las Vista 3D nuevas utilizarán el procesador OpenGL de forma predeterminada, lo que le permitirá seguir trabajando como antes.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Después de trabajar en los datos enviados al **Height** [salida](../../composit
 
 **![(marca)](../../assets/check.svg) Pasos recomendados**
 
-Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal.
+Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal[.
 
 Al usar la técnica **Desplazamiento de teselación** (ver &quot;El objeto 3D es plano&quot; más arriba), los objetos pueden *deformarse* para seguir los datos del height, pero su superficie *no reaccionará a la luz de forma diferente* hasta que sus *normales* también se modifiquen para tener en cuenta los datos del height.
 

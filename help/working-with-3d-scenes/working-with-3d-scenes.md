@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/working-with-3d-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
 breadcrumb-title: ''
 description: Aprenda a importar, editar y trabajar con escenas 3D en Substance 3D Designer para previsualizar y probar sus materiales.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/debugging-plugins-using-visual-studio-code.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/debugging-plugins-using-visual-studio-code.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo depurar complementos de Substance 3D Designer Python mediante Visual Studio Code para un desarrollo eficaz.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: Use el Administrador de complementos de Substance 3D Designer para instalar, administrar y configurar complementos de Python para una funcionalidad ampliada.
 helpx_creative_field: ""

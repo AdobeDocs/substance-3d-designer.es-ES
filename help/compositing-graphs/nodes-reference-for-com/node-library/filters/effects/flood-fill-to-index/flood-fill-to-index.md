@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: Utilice el nodo Flood Fill a índice para rellenar regiones con valores de índice para crear patrones numerados y etiquetados.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Descripción
 
-Flood Fill a índice convierte cada celda de Flood Fill en un valor según su número de índice, comenzando por 0 en la esquina superior izquierda. Se puede utilizar para devolver matices de escala de grises en una forma normalizada (de 0,0 a 1,0, divididos por tantas celdas como encuentre el Flood Fill) o como un valor HDR., sin fijar (de 0 a n donde n es el número de celdas).
+Flood Fill a índice convierte cada celda de Flood Fill en un valor según su número de índice, comenzando por 0 en la esquina superior izquierda. Se puede utilizar para devolver matices de escala de grises de forma normalizada (de 0,0 a 1,0, divididos por tantas celdas como encuentre el Flood Fill) o como un valor HDR sin fijar (de 0 a n, donde n es el número de celdas).
 
 Además, el Flood Fill a Index utiliza [valores](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md), lo que devuelve la cantidad de formas encontradas y la tabla de datos interna opcional.
 

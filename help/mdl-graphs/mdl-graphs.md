@@ -53,7 +53,7 @@ Con este lenguaje, una definición de material completa es portátil y, por lo t
 
 Al crear materiales, puedes usar el propio procesador [Iray](../interface/3d-view/iray/iray.md) de NVIDIA, incrustado en Designer y disponible en el panel [Vista 3D](../interface/3d-view/3d-view.md), para obtener una vista previa del comportamiento del material *de forma interactiva*.
 
-Los gráficos MDL son complementarios de los [gráficos de Substance](../compositing-graphs/substance-compositing-graphs.md), ya que estos últimos generan *texturas* que el material MDL puede *muestrear* para afectar a su comportamiento y apariencia.
+Los gráficos MDL son complementarios de los [Substance](../compositing-graphs/substance-compositing-graphs.md), ya que estos últimos generan *texturas* que el material MDL puede *muestrear* para afectar a su comportamiento y apariencia.
 
 Sugerimos revisar las secciones de esta documentación *en orden* para obtener una ruta de aprendizaje guiada, comenzando por las propiedades de un recurso de gráfico MDL, justo debajo.\
 ¿Estás ansioso por saltar? Comience con los gráficos MDL en la sección de recursos de aprendizaje MDL.
@@ -93,11 +93,11 @@ En esta sección se enumeran los parámetros interactivos conectados a los pará
 
 La interfaz y el comportamiento de estas entradas están definidos por el *tipo de valor* y los *rangos* de los parámetros expuestos a los que están conectadas. Por ejemplo:
 
-* Un valor expuesto del tipo <b>Float</b> establecido en un rango suave de [0.0,4.0] se mostrará como un *regulador único* entre 0.0 y 4.0
+* Un valor expuesto del tipo <b>Flotante</b> establecido en un intervalo suave de [0.0,4.0] se mostrará como *regulador único* comprendido entre 0.0 y 4.0
 * Se mostrará un valor expuesto del tipo <b>Color</b> como *widget de color*, que incluye un degradado de selección y una miniatura de color
 
 Para reordenar las entradas de gráficos, coloca el cursor en el *controlador oscuro* a la izquierda del parámetro, haz clic en *mantener presionado* <b>LMB</b> y arrastra el cursor hacia arriba o hacia abajo. Este orden personalizado se utilizará para mostrar las propiedades del material MDL en los siguientes contextos:
 
 * Nodos de instancia que hacen referencia al gráfico MDL para este material
-* Las propiedades de material en la [vista 3D](../interface/3d-view/3d-view.md)
+* Las propiedades de material en el [Vista 3D](../interface/3d-view/3d-view.md)
 * Integraciones de MDL de terceros

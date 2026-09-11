@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/nodes-and-properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/nodes-and-properties.html"
 breadcrumb-title: ''
 description: Aprenda a crear y manipular nodos y propiedades en complementos de Substance 3D Designer Python.
 helpx_creative_field: ""
@@ -136,7 +136,7 @@ def printSelectedNodesInfo(nodes):
 ```
 
 
-### Obtener acceso a identificadores y tipos de entradas de nodo
+### Acceso a identificadores y tipos de entradas de nodo
 
 ```
 import sd 

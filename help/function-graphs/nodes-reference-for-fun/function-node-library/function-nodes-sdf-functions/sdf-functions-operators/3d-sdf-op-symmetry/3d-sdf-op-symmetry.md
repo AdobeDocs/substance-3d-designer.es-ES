@@ -15,7 +15,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icono de simetría](./3d-sdf-op-symmetry.png "Simetría")
+![Icono de Simetría](./3d-sdf-op-symmetry.png "Simetría")
 
 <b>En:</b> Función SDF > Operador
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## Descripción
 
-Voltea y duplica una forma SDF en un plano simétrico y, a continuación, devuelve la unión de la forma SDF base y sus duplicados.<br>La simetría se puede aplicar en cualquier eje de forma simultánea.
+Voltea y duplica una forma SDF en un plano simétrico y, a continuación, devuelve la unión de la forma SDF base y sus duplicados.<br>La Simetría se puede aplicar en cualquier eje simultáneamente.
 
 </td>
 </tr>
@@ -42,6 +42,6 @@ Voltea y duplica una forma SDF en un plano simétrico y, a continuación, devuel
 | :--- | :--- |
 | <b>SDF</b> *Flotador* | Forma SDF de entrada. |
 | <b>Posición de plano de espejo</b> *Float3* | La posición espacial mundial del centro del plano especular.<br>Todos los planos espejo comparten esta posición si la simetría se aplica en varios ejes.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
-| <b>Eje de simetría</b> *Entero3* | Establece los ejes de simetría deseados.<br><br>Por ejemplo, (1, 0, 0) aplicará simetría en el eje X.<br><br><i>Valor predeterminado: (1, 0, 0)</i> |
-| <b>Voltear eje</b> *Entero3* | Establece los ejes que se deben voltear.<br><br>Por ejemplo, (1, 0, 0) volteará la dirección de la simetría en el eje X.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
+| <b>Eje de simetría</b> *Entero3* | Establece los ejes de simetría deseados.<br><br>Por ejemplo, (1, 0, 0) aplicará la simetría en el eje X.<br><br><i>Valor predeterminado: (1, 0, 0)</i> |
+| <b>Voltear eje</b> *Entero3* | Establece los ejes que se deben voltear.<br><br>Por ejemplo, (1, 0, 0) volteará la dirección de simetría en el eje X.<br><br><i>Valor predeterminado: (0, 0, 0)</i> |
 | <b>Desplazamiento previo</b> *Float3* | El desplazamiento en los ejes X, Y, Z se aplica a la forma antes de aplicar el operador de simetría. |

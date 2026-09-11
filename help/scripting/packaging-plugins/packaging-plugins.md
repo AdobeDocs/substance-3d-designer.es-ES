@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/packaging-plugins.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/packaging-plugins.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo empaquetar complementos de Python para Substance 3D Designer para su distribución e instalación.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
 description: Configure las propiedades de los materiales en la vista 3D para previsualizar y ajustar el aspecto de los materiales de Substance en los objetos 3D.
 helpx_creative_field: ""
@@ -20,10 +20,10 @@ ht-degree: 29%
 
 # Propiedades de material
 
-La [vista 3D](../../../interface/3d-view/3d-view.md) representa la superficie de los modelos mediante un programa llamado *sombreador*. El sombreador define el material
+El [Vista 3D](../../../interface/3d-view/3d-view.md) representa la superficie de los modelos usando un programa llamado *sombreador*. El sombreador define el material
 se aplica al modelo mediante una lista de propiedades que afectan a varios aspectos de la apariencia del modelo.
 
-El menú **Materiales** de la vista 3D le permite comprobar qué sombreador se utiliza para cada uno de los materiales de la escena.
+El menú **Materiales** del Vista 3D te permite comprobar qué sombreador se usa para cada uno de los materiales de la escena.
 
 <a name="openpbr"></a>
 
@@ -34,7 +34,7 @@ transmisión y fuzz.
 
 Las [plantillas de gráficos](../../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md#graph-templates) predeterminadas y las [muestras de materiales](../../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md#material-samples) incluidas en Designer se basan en el modelo de OpenPBR.
 
-Las propiedades de este sombreador siguen la [referencia de parámetro de OpenPBR](https://academysoftwarefoundation.github.io/OpenPBR/#parameterreference) y se *comparten* en el rasterizador,
+Las propiedades de este sombreador siguen la [referencia de parámetro de OpenPBR](https://academysoftwarefoundation.github.io/OpenPBR/#parameterreference) y se *comparten* a través del rasterizador,
 Trazador de ruta de GPU y OpenGL [procesadores 3D](../3d-renderers/3d-renderers.md).
 
 +++ UV
@@ -100,10 +100,10 @@ Trazador de ruta de GPU y OpenGL [procesadores 3D](../3d-renderers/3d-renderers.
 
 | Parámetro | Tipo | Predeterminado | Descripción |
 |------------|--------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Peso | Flotante | 0.0 | El peso de presencia de una capa transparente reflectante en la parte superior del material.<br/>Úsalo para materiales como pintura de auto o una capa aceitosa. |
+| Peso | Flotante | 0.0 | El peso de presencia de una capa transparente reflectante en la parte superior del material.<br/>Utilícelo para materiales como la pintura de un automóvil o una capa oleosa. |
 | Color | Float3 (RGB) | 1.0, 1.0, 1.0 | Color de la transparencia de la capa de revestimiento transparente, debido a la absorción en la capa. |
 | Rugosidad | Flotante | 0.0 | La rugosidad de los reflejos claros.<br/>Cuanto menor sea el valor, más nítido será el reflejo. |
-| Anisotropía | Flotante | 0.0 | El sesgo direccional de la rugosidad de la capa transparente<br/> produce iluminaciones cada vez más estiradas a lo largo de la dirección de la tangente del revestimiento. |
+| Anisotropía | Flotante | 0.0 | El sesgo direccional de la rugosidad de la capa transparente<br/>genera iluminaciones cada vez más estiradas a lo largo de la dirección de la tangente del revestimiento. |
 | IOR | Flotante | 1.6 | Índice de refracción de la capa de revestimiento transparente. |
 | Oscurecimiento | Flotante | 1.0 | Modula el efecto de oscurecimiento físico de la capa. |
 
@@ -157,7 +157,7 @@ Trazador de ruta de GPU y OpenGL [procesadores 3D](../3d-renderers/3d-renderers.
 
 ### Compatibilidad con gráficos existentes
 
-Algunas de las propiedades de materiales de OpenPBR tienen identificadores de uso diferentes en comparación con otros modelos incluidos en Designer.
+Algunas de las propiedades de los materiales de OpenPBR tienen identificadores de uso diferentes en comparación con otros modelos incluidos en Designer.
 Designer hace coincidir automáticamente algunos identificadores para garantizar la compatibilidad con OpenPBR como modelo predeterminado.
 
 +++ Asignaciones de uso de heredado a OpenPBR
@@ -196,20 +196,20 @@ Para obtener más información sobre el OpenPBR, aquí tiene algunos recursos:
 
 ## Adobe Standard Material
 
-El modelo Adobe Standard Material (ASM) se introdujo en Designer 11.2 y ha sido el sombreador predeterminado de Designer
+El modelo de Adobe Standard Material (ASM) se introdujo en Designer 11.2 y ha sido el sombreador predeterminado de Designer
 hasta la versión 15.1.
 
 Aunque Designer se ha trasladado a OpenPBR como su nuevo modelo predeterminado, ASM se sigue incluyendo y sus propiedades también se comparten
 a través de Rasterizer, Trazador de ruta de GPU y OpenGL [procesadores 3D](../3d-renderers/3d-renderers.md).
 
-El modelo está documentado [aquí](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+El modelo está documentado [aquí](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <a name="usdpreviewsurface"></a>
 
 ## UsdPreviewSurface
 
 La finalidad del modelo UsdPreviewSurface es previsualizar materiales con un conjunto de funciones básicas que promuevan la compatibilidad
-en renderizadores que incluyen USD y/o Hydra.
+entre procesadores que incluyen USD y/o Hydra.
 
 En Designer, este modelo de material solo es compatible con los procesadores Rasterizer y Trazador de ruta de GPU [3D](../3d-renderers/3d-renderers.md).
 

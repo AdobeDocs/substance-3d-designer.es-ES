@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/scripting/plugin-basics.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-basics.html"
 breadcrumb-title: ''
 description: Conozca los conceptos básicos de la creación de complementos de Python para Substance 3D Designer con el fin de ampliar la funcionalidad de la aplicación.
 helpx_creative_field: ""

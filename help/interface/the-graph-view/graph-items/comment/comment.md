@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Añada comentarios a los gráficos de Substance 3D Designer para documentar el flujo de trabajo y explicar las conexiones de nodos.
 helpx_creative_field: ""
@@ -55,7 +55,7 @@ Escriba &quot;comentario&quot; en el campo de búsqueda para que aparezca el ele
 +++
 
 +++Método abreviado
-Si hay un método abreviado de teclado asignado al elemento &quot;Comentario&quot; en [Preferencias](../../../../interface/preferences-window/preferences-window.md), presione ese método abreviado cuando la vista de gráficos esté seleccionada.
+Si un método abreviado de teclado está asignado al elemento &quot;Comentario&quot; en [Preferencias](../../../../interface/preferences-window/preferences-window.md), presione ese método abreviado cuando la vista de gráficos esté seleccionada.
 
 +++
 

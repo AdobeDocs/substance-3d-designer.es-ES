@@ -132,7 +132,7 @@ Otras opciones destacadas en este menú son:
 
 * Seleccione la opción <b>Editar</b> para tener acceso a las *entradas expuestas* de MDL en el panel <b>Propiedades</b> y retoque el material según sea necesario
 * <b>Cargar...La opción </b> le permite *cargar manualmente cualquier archivo MDL* para agregarlo a la lista acumulativa y aplicarlo en la escena
-* <b>Exportar ajuste preestablecido...La opción </b> abre el cuadro de diálogo <b>Exportar ajuste preestablecido de material MDL</b>, que le permite exportar un archivo MDL de ajuste preestablecido utilizando la configuración actual aplicada en la vista 3D
+* <b>Exportar ajuste preestablecido...La opción </b> abre el cuadro de diálogo <b>Exportar ajuste preestablecido de material MDL</b>, que le permite exportar un archivo MDL preestablecido utilizando la configuración actual aplicada en la Vista 3D
 
 </td>
 <td style="border: 0;" valign="top">
@@ -170,7 +170,7 @@ Están disponibles las siguientes propiedades:
 
 Cúpula
 
-* <b>Tipo domo</b>: establece los objetos que encierran la escena, en los que se proyecta la textura del entorno
+* <b>Tipo domo</b>: establece los objetos que encierran la escena, en los que se proyecta la textura de entorno
   * *Esfera infinita*: entorno esférico infinito
   * *Tierra*: ambiente esférico infinito, pero con un plano de tierra texturizado
   * *Esfera*: cúpula de radio personalizado en forma de esfera de tamaño finito
@@ -193,9 +193,9 @@ Los siguientes parámetros se aplican a los tipos de domo *Tierra*, *Esfera con 
 * **Tierra**: habilita el plano de tierra
 * **Posición**: la posición del origen de la cúpula finita (también se aplica al tipo de cúpula *Esfera*)
 * **Reflectividad**: la opacidad y el matiz del reflejo del suelo, donde negro significa que el reflejo no es visible
-* **Brillo**: el brillo del reflejo del suelo
+* **Brillo**: el brillo de la reflexión en tierra
 * **Intensidad de la sombra**: la opacidad de la sombra proyectada en el suelo
-* **Escala de textura**: controla el tamaño de la proyección de la textura del entorno en el suelo (también se aplica al tipo domo *Esfera*)
+* **escala de Textura**: controla el tamaño de la proyección de la textura del entorno en el suelo (también se aplica al tipo domo *Esfera*)
 
 El impacto de algunos de estos ajustes se muestra a continuación:
 

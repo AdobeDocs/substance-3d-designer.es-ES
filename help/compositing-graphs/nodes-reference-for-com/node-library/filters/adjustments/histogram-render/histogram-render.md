@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
 breadcrumb-title: ''
-description: Utilice el nodo Procesamiento de histograma para visualizar los datos del histograma como una textura para el análisis y la depuración.
+description: Utilice el nodo Procesamiento de histograma para visualizar los datos del histograma como textura para el análisis y la depuración.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram render
 helpx_experience_level: ""
@@ -63,7 +63,7 @@ Dibuja el histograma de una imagen en escala de grises.
 |:---|:---|
 | <b>Resolución del histograma</b> *Entero* | Anchura del histograma. Un valor más alto permite una distribución de valor más fina.   Las resoluciones disponibles son, en píxeles:  256, 512, 1024, 2048, 4096 |
 | <b>Escala automática</b> *Booleano* | Si es &quot;True&quot;, reasigna el histograma para utilizar el height completo de la imagen.   Cuando es &#39;False&#39;, cada columna utiliza tantos píxeles en height como se reproduzca un valor en la imagen de entrada. |
-| <b>Escala</b> *Flotador* | Escala el histograma verticalmente, donde un valor de 1 es el height completo del histograma. |
+| <b>Escala</b> *Flotante* | Escala el histograma verticalmente, donde un valor de 1 es el height completo del histograma. |
 | <b>Muestreo</b> *Entero* | Método de filtrado de la imagen del histograma, que afecta al resultado cuando la resolución del histograma y la resolución de procesamiento no coinciden:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Bilineal:</b> aplica filtros bilineales al histograma, lo que produce puntos interpolados</li> <li data-preserve-html="true"><b>Más cercano:</b> muestra el píxel más cercano sin ningún filtro, lo que da como resultado pasos planos</li> </ul> |
 | <b>Voltear eje Y</b> *Booleano* | Cuando es &quot;True&quot;, refleja el histograma verticalmente. |
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 breadcrumb-title: ''
-description: Aprenda a trabajar con trazados y herramientas de spline para crear patrones de procedimiento y formas orgánicas en los gráficos.
+description: Aprenda a trabajar con trazados y herramientas de spline para crear patrones procedimientos y formas orgánicas en los gráficos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools
 helpx_experience_level: ""
@@ -60,16 +60,16 @@ Mientras trabaja con trazados y splines, puede obtener una vista previa de estos
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### Interacción de vista 2D
+### interacción de vista 2D
 
-Un número significativo de nodos en el conjunto de herramientas ofrecen la posibilidad de realizar ediciones directamente en la [vista 2D](../../../../../interface/2d-view/2d-view.md) mediante herramientas de control. Estos gizmos incluyen el gizmo de posición y la matriz de transformación.
+Un número significativo de nodos en el conjunto de herramientas ofrecen la capacidad de realizar ediciones directamente en el [vista 2D](../../../../../interface/2d-view/2d-view.md) mediante herramientas de control. Estos gizmos incluyen el gizmo de posición y la matriz de transformación.
 
-Por ejemplo, los nodos de generación de splines como [Spline (Cubic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) o [Spline (Poly Quadratic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md) le permiten mover los puntos de control de las splines. Para las rutas, [Transformación cuádruple en ruta](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) tiene controles similares cuando se selecciona.
+Por ejemplo, los nodos de generación de splines como [Spline (Cubic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) o [Spline (Poly Quadratic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md) le permiten mover los puntos de control de las splines. En el caso de las rutas, [Quad Transforme en Path](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) tiene controles similares cuando se selecciona.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cúbica polinomial en vista 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Cúbica polinomial en vista 2D")
+![Cúbica spline en vista 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Cúbica spline en vista 2D")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
 breadcrumb-title: ''
 description: Accede a los nodos de mezcla de materiales en Substance 3D Designer para combinar y fusionar materiales para crear efectos de materiales compuestos.
 helpx_creative_field: ""

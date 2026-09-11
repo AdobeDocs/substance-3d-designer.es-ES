@@ -40,6 +40,6 @@ Devuelve los volúmenes agregados de dos formas SDF, con un volumen adicional de
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flotador* | La primera forma de SDF. |
-| <b>SDF 2</b> *Flotador* | La segunda forma SDF. |
-| <b>Radio</b> *Flotador* | Radio del volumen agregado a lo largo de los bordes de la intersección de las formas.<br><br><i>Valor predeterminado: 0</i> |
+| <b>SDF 1</b> *Flotante* | La primera forma de SDF. |
+| <b>SDF 2</b> *Flotante* | La segunda forma SDF. |
+| <b>Radio</b> *Flotante* | Radio del volumen agregado a lo largo de los bordes de la intersección de las formas.<br><br><i>Valor predeterminado: 0</i> |

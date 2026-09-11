@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Elija entre los procesadores rasterizador y trazador de trazados en la vista 3D para obtener una calidad de previsualización y un rendimiento diferentes.
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ Gracias a su dependencia de USD, puede aprovechar el [plugin USDFileFormat](http
 
 >[!TIP]
 >
-> Puede seleccionar el procesador que se utiliza de forma predeterminada al iniciar una nueva Vista 3D en la sección [&#x200B; &quot;Vista 3D&quot; de la configuración del proyecto](../../../interface/preferences-window/project-settings/project-settings.md).
+> Puede seleccionar el procesador que se utiliza de forma predeterminada al iniciar una nueva Vista 3D en la sección [ &quot;Vista 3D&quot; de la configuración del proyecto](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <a name="rasterizer"></a>
 
@@ -178,7 +178,7 @@ Hay dos técnicas disponibles para visualizar el height:
 
 <b>Mosaico + Desplazamiento</b>: subdivide la geometría y desplaza los vértices a lo largo de sus normales.
 
-El Adobe Standard Material se documenta detalladamente en [esta sección](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nuestra documentación.
+El Adobe Standard Material se documenta detalladamente en [esta sección](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nuestra documentación.
 
 +++
 

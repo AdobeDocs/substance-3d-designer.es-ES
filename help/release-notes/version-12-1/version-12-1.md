@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-12-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 12.1 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -134,7 +134,7 @@ Eche un vistazo a las páginas de nodos vinculadas a continuación para ver ejem
 * [Content] Nueva versión del nodo Cuantificar escala de grises
 * [Contenido] Nuevos ruidos fractales de Voronoi y Voronoi (2D/3D)
 * [Contenido] Umbral: agregar modo de comparación &#39;Inferior&#39; e &#39;Inferior e igual&#39;
-* [Contenido]&#x200B;[Vista 3D] Añada un ajuste de malla para mostrar estructuras a los recursos enviados
+* [Contenido][Vista 3D] Añada un ajuste de malla para mostrar estructuras a los recursos enviados
 * [Modelos de Substance] Nuevo nodo Expandir instancias de grupo
 * [Modelos de Substance] Nuevo nodo de Fuse
 * [Modelos de Substance] Nuevo nodo Cambiar nombre
@@ -176,11 +176,11 @@ Eche un vistazo a las páginas de nodos vinculadas a continuación para ver ejem
 * Flood Fill [Content]: Sangrado de texto en botones de parámetros booleanos
 * [Contenido] Rango incorrecto para el parámetro Ángulo de luz de la primera muestra del nodo Multicángulo a Normal
 * [Modelos de Substance] Las propiedades del nodo muestran el identificador en lugar del rótulo
-* [Modelos de Substance]&#x200B;[Vista 3D] Problema de actualización al volver a abrir un proyecto
-* [Modelos de Substance]&#x200B;[Vista en 3D] Problema de actualización al utilizar la vista previa de malla metálica
-* [Parámetros] Bloqueo al eliminar entradas de gráfica en sucesión rápida en un caso específico
-* bloqueo de [Parámetros] al restablecer un parámetro de instancia mientras se edita su descripción de referencia
-* La detección del UDIM [Bitmap] no se activa para los archivos de mapa de bits colocados en el gráfico
+* [Modelos de Substance][Vista 3D] Problema de actualización al volver a abrir un proyecto
+* [Modelos de Substance][Vista en 3D] Problema de actualización al utilizar la vista previa de malla metálica
+* [Parámetros] Bloqueo al eliminar entradas de gráficos en sucesión rápida en un caso específico
+* [Parameters] Bloqueo al restablecer un parámetro de instancia mientras se edita la descripción de la referencia
+* [Bitmap] La detección de UDIM no se activa para los archivos de mapa de bits colocados en el gráfico
 * [Graph] Los nodos Bitmap/SVG no se invalidan cuando el recurso se modifica en el disco después de cargar el paquete
 * [GraphRender] Pérdida de memoria cuando se cancela la evaluación de gráficos del Substance
 * [Localization] La cadena &quot;Rebake all maps for this resource&quot; aparece sin localizar

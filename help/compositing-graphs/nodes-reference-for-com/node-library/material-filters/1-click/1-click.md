@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click.html"
 breadcrumb-title: ''
-description: Accede a los nodos de conversión de materiales con un clic en Substance 3D Designer para transformar rápidamente los mapas de bits en materiales.
+description: Acceda a nodos de conversión de materiales con un clic en Substance 3D Designer para transformar rápidamente mapas de bits en materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > 1-Click
 helpx_experience_level: ""

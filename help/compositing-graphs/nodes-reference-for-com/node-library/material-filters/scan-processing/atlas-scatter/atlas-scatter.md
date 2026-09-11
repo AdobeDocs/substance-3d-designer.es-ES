@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
 breadcrumb-title: ''
 description: Utilice el nodo Atlas scatter para realizar dispersiones de texturas en un atlas y así crear patrones en mosaico a partir de materiales escaneados.
 helpx_creative_field: ""

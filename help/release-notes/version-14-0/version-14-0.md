@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión de Substance 3D Designer 14.0 para obtener más información sobre los nuevos nodos, la navegación por gráficos y las mejoras de rendimiento.
 helpx_creative_field: ""
@@ -38,12 +38,12 @@ Esta versión 14.0 trae mucho contenido nuevo con los nuevos nodos que se enumer
 
 * <b>Filtro de Kuwahara</b>: si quieres ir más allá con la estilización, puedes generar algunos efectos pictóricos gracias a los filtros [Anisotropic Kuwahara color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [escala de grises](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). En los detalles, aplica un desenfoque direccional anisotrópico que se ajusta a los detalles de la imagen. El resultado es una imagen que parece fluir en la dirección de las formas que contiene.
 
-Estos nodos (Cuantificar color y Kuwahara anisotrópico) se explican en [este tutorial](https://www.adobe.com/go/designer-tutorial-quantize_es). Se muestra cómo utilizarlos para estilizar los materiales, así como para manejar los colores de manera más eficiente e intuitiva.
+Estos nodos (Cuantificar color y Kuwahara anisotrópico) se explican en [este tutorial](https://www.adobe.com/go/designer-tutorial-quantize). Se muestra cómo utilizarlos para estilizar los materiales, así como para manejar los colores de manera más eficiente e intuitiva.
 
 Otros nodos poderosos se unen al partido:
 
 * [<b>Curvatura suave</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): esta nueva versión ahora es compatible correctamente con todos los modos de mosaico, añade dos nuevas salidas (convexidad y concavidad) y mejora tanto la precisión como el rendimiento.
-* <b>[Histograma ecualizado](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> este nodo ecualiza el histograma de una imagen de escala de grises ajustando los valores para obtener una distribución igual. Estos nodos vienen con dos nodos complementarios: [El histograma se procesa](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) para mostrar el histograma de la imagen y el [Histograma &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b> para codificar un histograma como una fila de píxeles.
+* <b>[Histograma ecualizado](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> este nodo ecualiza el histograma de una imagen de escala de grises ajustando los valores para obtener una distribución igual. Estos nodos vienen con dos nodos complementarios: [El histograma se procesa](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) para mostrar el histograma de la imagen y el [Histograma ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b> para codificar un histograma como una fila de píxeles.
 * <b>[Suavizado de bisel](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> gracias a este, puedes dibujar un degradado o un color plano desde los bordes de una máscara (hacia fuera, hacia dentro o ambos). El nodo [Distancia direccional](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>también dibuja degradados pero en una dirección específica.
 * <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> Este nodo es el opuesto al nodo [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md), quita de un mapa normal los detalles de superficie descritos por un mapa de height.
 
@@ -198,7 +198,7 @@ Tenga en cuenta que estas actualizaciones tienen dos consecuencias principales:
 * [Content] Pase al nodo &#39;Negate Float1&#39; en el gráfico de funciones del Substance
 * [Contenido] Cambie el nombre &quot;Cuantizar color&quot; por &quot;Cuantificar color (simple)&quot;
 * [Vista 2D] Visualización de valores en el panel de información para píxeles fuera del rango 0-1
-* [Motor]&#x200B;[Texto] Nuevo kerning para algunas fuentes
+* [Motor][Texto] Nuevo kerning para algunas fuentes
 * [Graph] Mejora el tiempo de invalidación al editar subgráficos profundos mientras usas la edición en contexto
 * [Vinculador] No duplicar mapas de bits en SBSASM
 * [Parámetros] Añada un nuevo widget de &quot;función&quot; para todos los tipos de parámetros de entrada
@@ -230,16 +230,16 @@ Tenga en cuenta que estas actualizaciones tienen dos consecuencias principales:
 ### Correcciones
 
 * [Bakers] Bloqueo al retocar una escena cuyo nombre de archivo se ha cambiado
-* [Bakers] Bloqueo al guardar el ajuste preestablecido de bakers en un archivo JSON
+* [Bakeres] Bloqueo al guardar bakeres preestablecidos en Archivo JSON
 * [Content] &#39;Dispersión en spline&#39;: Exponer parámetro alfa de imagen de entrada
 * [Contenido] &#39;Color del Sampler de mosaico&#39;: falta la expresión visibleif
 * [Contenido] Ruido anisotrópico: valor negativo para la cantidad X/Y produce un resultado incorrecto
 * [Contenido] Ruido anisotrópico: Problema de segmentación al utilizar un valor impar como cantidad X y sin smoothness
 * [Content] Función de distribución normal: una posición incorrecta de max() puede provocar NaN
 * [Contenido] Las sombras TRAO, Bent Normal y RT no funcionan correctamente en algunas plataformas
-* [Contenido] Color de fusión de salpicaduras de formas: Los mapas normales de OpenGL no se mezclan correctamente
+* [Contenido] Color de Fusión de salpicaduras de formas: Los mapas de normales de OpenGL no se fusionan correctamente
 * [Contenido] Espacio injustificado después del prefijo &quot;Multi&quot; en las etiquetas de nodo
-* [Dependencies] Bloqueo al mover un gráfico dentro de un paquete o entre paquetes
+* [Dependencias] Bloqueo al mover el gráfico dentro de los paquetes o entre ellos
 * [Motor] Error de precisión en nodos de deformación que afectan a los nodos de desenfoque de Pendiente
 * [Motor] La capa SBSAR en SD no puede leer SBSAR con contenido SBSASM > 2 GB
 * [Gráfico de funciones] Resultado incorrecto para 0^n
@@ -252,7 +252,7 @@ Tenga en cuenta que estas actualizaciones tienen dos consecuencias principales:
 * [Seguridad] Vulnerabilidad de escritura fuera de límites del análisis ICO
 * [Security] Anular el uso de algún formato de imagen
 * [Parámetros] La ruta del recurso PKG de mapa de bits no debe poder editarse
-* [Parámetros] Se han solucionado problemas relacionados con la exposición por lotes del parámetro de un procesador de valores
+* [Parámetros] Se han solucionado los problemas relacionados con la exposición/exposición por lotes del parámetro de un procesador de valor.
 * [Parámetros] Los parámetros de cadena se omiten al exponer lotes
 * [Propiedades] Problema de rendimiento al editar un gráfico de funciones con instancias múltiples con propiedades abiertas
 * [SVG] Las ediciones de formas no se aplican en imágenes rasterizadas

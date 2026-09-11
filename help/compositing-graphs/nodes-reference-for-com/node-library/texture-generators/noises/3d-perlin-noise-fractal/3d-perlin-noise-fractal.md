@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
 breadcrumb-title: ''
 description: Utilice el nodo Fractal de ruido de Perlin 3D para generar patrones de ruido de Perlin fractales en el espacio 3D para crear texturas volumétricas detalladas.
 helpx_creative_field: ""
@@ -52,10 +52,10 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 |  |  |
 |:---|:---|
 | <b>Invertir</b> <i>Booleano</i> | Invierte la imagen de salida. |
-| <b>Escala</b> <i>Flotador</i> | Controla la escala del ruido fractal de Perlin 3D. |
-| <b>Tamaño</b> <i>Float3</i> | Controla el tamaño del ruido fractal de Perlin 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto de <i>estiramiento o aplastamiento</i>. |
-| <b>Desplazamiento</b> <i>Float3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido fractal 3D Perlin en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
-| <b>Intensidad de Distorsión</b> <i>Flotador</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido fractal de Perlin 3D. |
+| <b>Escala</b> <i>Flotante</i> | Controla la escala del ruido fractal de Perlin 3D. |
+| <b>Tamaño</b> <i>Flotante3</i> | Controla el tamaño del ruido fractal de Perlin 3D en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto de <i>estirar o aplastar</i>. |
+| <b>Desplazamiento</b> <i>Flotante3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido fractal 3D Perlin en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
+| <b>Intensidad de Distorsión</b> <i>Flotante</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido fractal de Perlin 3D. |
 | <b>Multiplicador de escala de Distorsión</b> <i>Flotador</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
 | <b>Nivel Mínimo</b> <i>Entero</i> | Nivel mínimo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |
 | <b>Nivel máximo</b> <i>Entero</i> | Nivel máximo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |

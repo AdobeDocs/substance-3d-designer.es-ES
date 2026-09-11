@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Aprenda a importar y utilizar recursos de escenas 3D en Substance 3D Designer para la previsualización de materiales y las pruebas.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Se admiten los siguientes formatos de archivo de escena 3D:
 
 Las escenas 3D *solo* se pueden vincular, lo que significa que permanecen en su ubicación en el disco y solo se hace referencia a ellas en la aplicación.
 
-Cuando se publica un paquete con un recurso de escena 3D como un recurso de [Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) (SBSAR), la malla es *no incrustada*, pero se descarta.
+Cuando se publica un paquete con un recurso de escena 3D como un recurso de [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), la malla es *no incrustada*, pero se descarta.
 
 ## Panificación de mapas de malla
 
@@ -66,4 +66,4 @@ Si el comportamiento de azulejo UV está activo, el horneado se comporta de form
 
 ## Recurso/escena frente a estado
 
-La aplicación separa lo que se ve en la vista 3D en dos archivos distintos. El modelo o malla 3D real es un recurso visible en el Explorador. La configuración de luces, cámaras y otros ajustes se denomina &quot;<b>Estado</b>&quot;. Los estados se pueden guardar en archivos .sbsscn externos para volver a cargarlos más tarde. Los archivos .sbsscn no son recursos, son archivos de configuración adicionales que solo se pueden cargar a través de [&#x200B; en el menú Escena de la vista 3D.](../../interface/3d-view/3d-view.md)
+La aplicación separa lo que se ve en la vista 3D en dos archivos distintos. El modelo o malla 3D real es un recurso visible en el Explorador. La configuración de luces, cámaras y otros ajustes se denomina &quot;<b>Estado</b>&quot;. Los estados se pueden guardar en archivos .sbsscn externos para volver a cargarlos más tarde. Los archivos .sbsscn no son recursos, son archivos de configuración adicionales que solo se pueden cargar a través de [ en el menú Escena de la vista 3D.](../../interface/3d-view/3d-view.md)

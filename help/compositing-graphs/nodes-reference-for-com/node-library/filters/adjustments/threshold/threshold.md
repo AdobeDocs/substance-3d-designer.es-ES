@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
 breadcrumb-title: ''
 description: Utilice el nodo Umbral para convertir las texturas de escala de grises a blanco y negro en función de un valor de umbral para crear máscaras.
 helpx_creative_field: ""

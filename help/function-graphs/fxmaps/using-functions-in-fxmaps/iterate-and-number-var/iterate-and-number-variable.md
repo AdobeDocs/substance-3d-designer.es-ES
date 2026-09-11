@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar variables de número e iteración en FXMaps para crear patrones de bucle y variaciones procedimientas.
+description: Aprenda a utilizar variables de número e iteración en FXMaps para crear patrones de bucle y variaciones de procedimiento.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Iterate and number variable
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../../../assets/iterate-1.jpg)
 
-El nodo iterar procesará los nodos conectados a la salida derecha durante el tiempo especificado por el valor de Iteraciones.
+El nodo Iteración procesará los nodos conectados a la salida derecha durante el tiempo especificado por el valor Iteraciones.
 
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 iteración: el motivo gaussiano se procesa una vez |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
-description: Utilice el nodo Desenfoque de Pendiente para aplicar efectos de desenfoque direccional basados en pendientes de mapa de height para crear desenfoque de movimiento.
+description: Utilice el nodo Desenfoque de Pendiente para aplicar efectos de desenfoque direccionales basados en pendientes de mapa de altura para crear desenfoque de movimiento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Slope Blur
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## Descripción
 
-Realiza un desenfoque avanzado de alta calidad en el que la Anisotropía/dirección se controla mediante un &quot;mapa de Pendiente&quot; en escala de grises. Imagínatelo como el efecto Desenfoque de Pendiente siguiendo las pendientes del Mapa de Pendiente como si fuera un Mapa de altura, similar a [Deformación direccional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) (en el que se basa internamente).
+Realiza un desenfoque avanzado de alta calidad en el que la Anisotropía/dirección se controla mediante un &quot;mapa de Pendiente&quot; en escala de grises. Imagínelo como el Efecto de desenfoque de Pendiente siguiendo las pendientes del mapa de Pendiente como si fuera un mapa de altura, similar a [Deformación direccional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) (en el que se basa internamente).
 
 Este es uno de los desenfoques más interesantes y potentes de Designer. Se puede utilizar para lograr algunos efectos muy interesantes e inesperados, como desconchar y desgastar los bordes o manchas y fugas de dirt o óxido.
 

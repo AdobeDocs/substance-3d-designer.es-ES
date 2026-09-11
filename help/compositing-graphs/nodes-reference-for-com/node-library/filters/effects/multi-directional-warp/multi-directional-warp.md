@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
 breadcrumb-title: ''
 description: Utilice el nodo Deformación direccional múltiple para aplicar efectos de deformación en varias direcciones para crear patrones de distorsión complejos.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Deformación multidireccional
+title: Deformación direccional múltiple
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Deformación multidireccional
+# Deformación direccional múltiple
 
 <table>
 <tr style="border: 0;">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: Obtenga información sobre las directrices para reducir el tamaño de los archivos de gráficos Substance y optimizar el rendimiento y los requisitos de almacenamiento.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 En algunos casos, el tamaño total del archivo de [Substance 3D Assets (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) puede ser un factor importante. Esta página cubre algunas áreas críticas y configuraciones que se deben tener en cuenta al intentar reducir el tamaño del archivo.
 
-El tamaño del archivo está determinado principalmente por [mapas de bits incrustados.](../../resources/bitmap-resource/bitmap-resource.md) Son archivos que están vinculados, incrustados o codificados y agregados al archivo [Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html) (SBS) como recurso. En el recurso de Substance 3D solo se publican los mapas de bits que se utilizan en un gráfico, es decir, que están conectados a una salida, ya sea directamente o a través de la cadena de nodos. En un archivo de Substance 3D, los mapas de bits no afectan al tamaño del archivo, ya que todos los recursos de mapas de bits se almacenan fuera del archivo.
+El tamaño del archivo está determinado principalmente por [mapas de bits incrustados.](../../resources/bitmap-resource/bitmap-resource.md) Son archivos que están vinculados, incrustados o hechos un bake y agregados al archivo (SBS) [Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html) como recurso. En el recurso de Substance 3D solo se publican los mapas de bits que se utilizan en un gráfico, es decir, que están conectados a una salida, ya sea directamente o a través de la cadena de nodos. En un archivo de Substance 3D, los mapas de bits no afectan al tamaño del archivo, ya que todos los recursos de mapas de bits se almacenan fuera del archivo.
 
 >[!IMPORTANT]
 >

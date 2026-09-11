@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
 breadcrumb-title: ''
 description: Usa el nodo Color seguro para Albedos PBR para asegurarte de que los colores de los albedos se encuentran dentro de rangos físicamente plausibles para los materiales PBR.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Descripción
 
-Este es un nodo de utilidad que realiza correcciones si los valores de Basecolor o Diffuse están fuera de un rango aceptable y correcto de PBR. Cuando se establece en Metálico, el nodo también intenta corregir los valores de Color base en función de la intensidad Metálica.
+Este es un nodo de utilidad que realiza correcciones si los valores de Basecolor o Difuso están fuera de un rango aceptable y correcto de PBR. Cuando se establece en Metálico, el nodo también intenta corregir los valores de Color base en función de la intensidad Metálica.
 
 Consulta también [PBR BaseColor / Metallic Validate](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic/pbr-basecolor-metallic-validate.md) para obtener información visual sobre qué áreas podrían estar equivocadas.
 

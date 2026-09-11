@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
-description: Utilice fotogramas en la vista de gráfico de Substance 3D Designer para organizar y agrupar nodos para una mejor claridad visual.
+description: Utilice marcos en la vista gráfica de Substance 3D Designer para organizar y agrupar nodos para una mejor claridad visual.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items > Frame
 helpx_experience_level: ""
@@ -24,14 +24,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icono de fotograma](../../../../assets/graphatomic-frame_1.png "Icono de fotograma")
+![icono de Marco](../../../../assets/graphatomic-frame_1.png "icono de Marco")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Un fotograma facilita la legibilidad y el diseño de los gráficos, ya que agrupa visualmente los objetos de ese gráfico y le permite mover fácilmente todos esos objetos juntos.
+Un marco facilita la legibilidad y la disposición de los gráficos, ya que agrupa visualmente los objetos de ese gráfico y le permite mover fácilmente todos esos objetos juntos.
 
-Por ejemplo, los fotogramas se pueden nombrar y colorear para que la estructura del gráfico se muestre claramente al realizar una descripción general, lo que resulta de gran ayuda a medida que aumenta la complejidad de un gráfico.
+Por ejemplo, los marcos se pueden nombrar y colorear para que la estructura del gráfico se muestre claramente al realizar una descripción general, lo que resulta de gran ayuda a medida que aumenta la complejidad del gráfico.
 
 También se pueden anotar y así funcionar como una herramienta de documentación para explicar por qué algunos nodos se configuraron de una manera específica.
 
@@ -41,14 +41,14 @@ También se pueden anotar y así funcionar como una herramienta de documentació
 
 ## Apariencia
 
-En función de la posición del cursor del ratón o de si forma parte de una selección, un fotograma se presenta en diferentes estilos visuales para que sepa si puede interactuar con él y cómo.
+Según la posición del cursor del ratón o si forma parte de una selección, un marco se presenta en diferentes estilos visuales para que sepa si puede interactuar con él y cómo.
 
 +++Predeterminado
-De forma predeterminada, el marco es un rectángulo con esquinas redondeadas rellenas con el color seleccionado en su propiedad <b>Color del marco</b>. Se aplica un tono más oscuro de ese color al contorno del marco.
+De forma predeterminada, el marco es un rectángulo con esquinas redondeadas rellenas con el color seleccionado en su propiedad <b>Color de Marco</b>. En el contorno del marco se aplica un tono más oscuro de ese color.
 
 El título establecido en la propiedad <b>Title</b> está en gris en la esquina superior izquierda del marco.
 
-![Fotograma (estado predeterminado)](../../../../assets/graph-frames-default.png "Fotograma (estado predeterminado)")
+![Marco (estado predeterminado)](../../../../assets/graph-frames-default.png "Marco (estado predeterminado)")
 
 
 
@@ -57,9 +57,9 @@ El título establecido en la propiedad <b>Title</b> está en gris en la esquina 
 +++Desplazamiento del encabezado
 Al pasar el cursor por la parte superior del marco, se muestra una barra de encabezado.
 
-El marco se puede mover arrastrando la barra de encabezado o el título.
+El marco se puede mover arrastrando la barra de encabezado o su título.
 
-![Fotograma (estado de desplazamiento)](../../../../assets/graph-frames-hover.png "Fotograma (estado de desplazamiento)")
+![Marco (estado de desplazamiento)](../../../../assets/graph-frames-hover.png "Marco (estado de desplazamiento)")
 
 
 
@@ -68,35 +68,35 @@ El marco se puede mover arrastrando la barra de encabezado o el título.
 +++Seleccionado
 Cuando se selecciona, el título y el contorno del marco se resaltan en blanco. El contorno se vuelve más grueso.
 
-![Fotograma (estado seleccionado)](../../../../assets/graph-frames-selected.png "Fotograma (estado seleccionado)")
+![Marco (estado seleccionado)](../../../../assets/graph-frames-selected.png "Marco (estado seleccionado)")
 
 
 
 +++
 
-## Creación de fotogramas
+## Creación de marcos
 
-Los marcos se pueden añadir en cualquier tipo de gráfico, de cualquiera de las siguientes maneras:
+Los marcos se pueden añadir en cualquier tipo de gráfica, de cualquiera de las siguientes maneras:
 
 +++Menú Nodo
 Presione <b>Barra espaciadora</b> en la vista Gráfica para abrir el <b>menú Nodo</b> y seleccione el elemento &quot;Marco&quot; en la lista.
 
-Escriba &#39;marco&#39; en el campo de búsqueda para ver el elemento y encontrarlo más rápidamente.
+Escriba &quot;marco&quot; en el campo de búsqueda para ver el elemento y encontrarlo más rápidamente.
 
 +++
 
 +++Método abreviado
-Si hay un método abreviado de teclado asignado al elemento &quot;Frame&quot; en [Preferencias](../../../../interface/preferences-window/preferences-window.md), presione ese método abreviado cuando la vista de gráficos esté seleccionada.
+Si un método abreviado de teclado está asignado al elemento &quot;Marco&quot; en [Preferencias](../../../../interface/preferences-window/preferences-window.md), presione ese método abreviado cuando la vista de gráficos esté seleccionada.
 
 +++
 
 +++Menú contextual
-En la vista de gráficos, presione <b>RMB</b> en cualquier objeto o en espacio vacío y seleccione la opción <b>Agregar marco</b>.
+En la vista de gráficos, presione <b>RMB</b> en cualquier objeto o en espacio vacío y seleccione la opción <b>Agregar Marco</b>.
 
 +++
 
 +++Barra de herramientas de gráficos
-En la barra de herramientas Vista de gráficos, haz clic en el botón &quot;Marco&quot; en la <b>Paleta de nodos</b>.
+En la barra de herramientas Vista de gráficos, haga clic en el botón &quot;Marco&quot; en la <b>Paleta de nodos</b>.
 
 +++
 
@@ -109,15 +109,15 @@ En la biblioteca, seleccione la categoría <b>Elementos de gráfico</b> y, a con
 
 Si una selección está activa en un gráfico cuando se crea un marco, ese marco se ajustará automáticamente para incluir completamente los objetos seleccionados.
 
-Teniendo esto en cuenta, la creación de fotogramas mediante un método abreviado de teclado hace que sea aún más rápido crear fotogramas en un gráfico.
+Teniendo esto en cuenta, la creación de marcos mediante un método abreviado de teclado agiliza aún más el marco de contenido en un gráfico.
 
-![Fotogramas: Métodos de creación](../../../../assets/graph-frames_creation.gif "Marcos: Métodos de creación"){width="480px"}
+![Marcos: Métodos de creación](../../../../assets/graph-frames_creation.gif "Marcos: Métodos de creación"){width="480px"}
 
 >[!TIP]
 >
 > Cuando se crea un marco, su propiedad &quot;Title&quot; (Título) gana enfoque automáticamente para que pueda editar inmediatamente el título del marco.
 
-## Manipulación de fotogramas
+## Manipulación de marcos
 
 <table>
 <tr style="border: 0;">
@@ -130,7 +130,7 @@ La ilustración resalta las zonas de interacción para la panorámica (azul) y e
 </td>
 <td style="border: 0;" valign="top">
 
-![Fotogramas: Zonas de interacción](../../../../assets/graph-frames_interaction-zones.png "Marcos: Zonas de interacción")
+![Marcos: Zonas de interacción](../../../../assets/graph-frames_interaction-zones.png "Marcos: Zonas de interacción")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Mantenga presionada la tecla <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) para cam
 </td>
 <td style="border: 0;" valign="top">
 
-![Fotogramas: Ajuste de cuadrícula](../../../../assets/graph-frames_grid-snapping.gif "Fotogramas: Ajuste de cuadrícula")
+![Marcos: Ajuste de cuadrícula](../../../../assets/graph-frames_grid-snapping.gif "Marcos: Ajuste de cuadrícula")
 
 </td>
 </tr>
@@ -160,35 +160,35 @@ Mantenga presionada la tecla <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) para cam
 Cuando se selecciona un marco, las siguientes propiedades están disponibles en el conjunto acoplado [Properties](../../../../interface/properties/properties.md):
 
 +++Título
-El <b>Título</b> que se encuentra en la parte superior izquierda del marco. Su visibilidad del título se puede activar o desactivar mediante la propiedad <b>Title Visible</b>.
+El <b>Título</b> se encuentra en la parte superior izquierda del marco. Su visibilidad del título se puede activar o desactivar mediante la propiedad <b>Title Visible</b>.
 
-El tamaño del título se puede bloquear con un tamaño de pantalla mínimo para que sea legible al alejarse del gráfico. Para ello, marca la opción &quot;Títulos de marco&quot; en el menú desplegable <b>Información</b> de la barra de herramientas [Vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
+El tamaño del título se puede bloquear con un tamaño de pantalla mínimo para que sea legible al alejarse del gráfico. Para ello, marca la opción &quot;Títulos de Marco&quot; en el menú desplegable <b>Información</b> de la barra de herramientas [Vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
 
-![Fotogramas: Título](../../../../assets/graph_frames_title.gif "Marcos: Título"){width="640px"}
+![Marcos: Título](../../../../assets/graph_frames_title.gif "Marcos: Título"){width="640px"}
 
 
 
 +++
 
 +++Descripción
-<b>Description</b> es un fragmento de texto adicional opcional que se puede usar para anotar el contenido del marco.
+<b>Descripción</b> es un fragmento de texto adicional opcional que se puede usar para anotar el contenido del marco.
 
 Se puede dar formato al texto mediante etiquetas de HTML. Para alternar este formato, haz clic en el botón ![](../../../../assets/graph-frames_html-markup-button.png) <b>marcado de HTML</b>.
 
 Obtenga más información en la sección Descripción que aparece a continuación.
 
-![Fotogramas: Descripción](../../../../assets/graph-frames_description.gif "Marcos: Descripción"){width="640px"}
+![Marcos: Descripción](../../../../assets/graph-frames_description.gif "Marcos: Descripción"){width="640px"}
 
 
 
 +++
 
 +++Color
-El <b>color del marco</b> se usa para rellenar el marco en la vista de gráfico. Utilice el selector de color para seleccionar cualquier color.
+El <b>color de Marco</b> se usa para rellenar el marco en la vista de gráfico. Utilice el selector de color para seleccionar cualquier color.
 
-El canal alfa del color controla la *opacidad* del fotograma, donde un valor de 0 significa que el fotograma es totalmente transparente.
+El canal alfa del color controla la *opacidad* del marco, donde un valor de 0 significa que el marco es totalmente transparente.
 
-![Fotogramas: Color](../../../../assets/graph-frames_colour.gif "Marcos: Color"){width="640px"}
+![Marcos: Marcos de color](../../../../assets/graph-frames_colour.gif ": Color"){width="640px"}
 
 
 
@@ -204,9 +204,9 @@ Un marco se puede anotar con un texto que se colocará dentro del marco. El text
 
 ### Estándar
 
-El <b>Título</b> se muestra en negrita en la parte superior izquierda del marco. La visibilidad del título se puede activar o desactivar.
+<b>Title</b> se muestra en negrita en la parte superior izquierda del marco. La visibilidad del título se puede activar o desactivar.
 
-Su tamaño se puede bloquear con un tamaño de pantalla mínimo para que sea legible al alejar el zoom del gráfico. Para ello, marca la opción &quot;Títulos de marco&quot; en el menú desplegable <b>Información</b> de la barra de herramientas [Vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
+Su tamaño se puede bloquear con un tamaño de pantalla mínimo para que sea legible al alejar el zoom del gráfico. Para ello, marca la opción &quot;Títulos de Marco&quot; en el menú desplegable <b>Información</b> de la barra de herramientas [Vista de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
 
 </td>
 <td style="border: 0;" valign="top">
@@ -234,7 +234,7 @@ Se puede dar formato al texto mediante etiquetas de HTML en la propiedad <b>Desc
 </tr>
 </table>
 
-Puede copiar y pegar esta muestra en la propiedad Description del marco para probar esta función por sí mismo:
+Puede copiar y pegar esta muestra en la propiedad Descripción del marco para probar esta función por sí mismo:
 
 ```
 <h2>HTML formatting</h2>

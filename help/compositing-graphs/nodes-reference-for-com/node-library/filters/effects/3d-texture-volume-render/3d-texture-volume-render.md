@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
-description: Utilice el nodo Procesamiento de volumen de Textura 3D para procesar texturas volumétricas de datos 3D para crear efectos de nube y niebla.
+description: Utilice el nodo Procesamiento de volumen de textura 3D para procesar texturas volumétricas de datos 3D para crear efectos de nube y niebla.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Procesamiento de volumen de Textura 3D
+title: Renderizado de volumen de textura 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Procesamiento de volumen de Textura 3D
+# Renderizado de volumen de textura 3D
 
 <table>
 <tr style="border: 0;">
@@ -33,14 +33,14 @@ ht-degree: 0%
 
 ## Descripción
 
-El nodo **Procesamiento de volumen de Textura 3D** procesa el volumen de una forma descrita por una *textura 3D*, utilizando su correspondiente *campo de distancia firmada* de la entrada de imagen **3D Campo de distancia con signo**.
+El nodo **3D Texture Volume Render** representa el volumen de una forma descrita por una *textura 3D*, utilizando su correspondiente *campo de distancia firmada* de la entrada de imagen **3D Campo de distancia con signo**.
 
 El volumen se representa dentro de los límites de un *cubo de unidades*. La iluminación se calcula usando *luz direccional* y un *tragaluz hemisférico*.
 
 >[!NOTE]
 >
 > Se espera que el campo de distancia firmado sea una textura **4096x4096** que describa la forma con una cuadrícula **16x16** de 256 sectores.\
-> Puede utilizar el nodo [SDF de Textura 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) para calcular el campo de distancia firmado para una textura 3D de 256 sectores.
+> Puede utilizar el nodo [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) para calcular el campo de distancia firmado para una textura 3D de 256 sectores.
 
 </td>
 </tr>
@@ -62,14 +62,14 @@ El volumen se representa dentro de los límites de un *cubo de unidades*. La ilu
 |  |  |
 |:---|:---|
 | <b>Resolución de salida</b> <i>Entero2</i> | La resolución de la imagen de salida en <b>X</b> e <b>Y</b>, expresada como una <i>potencia de dos</i>. |
-| <b>Posición de la cámara</b> <i>Flotante2</i> | Posición de la cámara alrededor de la forma.<br>Cuando se selecciona el nodo, puedes usar el gizmo de posición en el <b>vista 2D</b> para <i>orbitar</i> la cámara. |
-| <b>Posición de luz</b> <i>Flotante2</i> | Posición de la <i>luz direccional</i> alrededor de la forma.<br>Cuando el nodo esté seleccionado, puedes usar el gizmo de posición en el <b>vista 2D</b> para <i>orbitar</i> la fuente de luz. |
-| <b>Distancia de cámara</b> <i>Flotante</i> | La distancia desde la cámara a la forma. |
-| <b>FOV de cámara</b> <i>Flotante</i> | Campo de visión de la cámara en <i>grados</i>. |
-| <b>Absorción</b> <i>Flotante</i> | Ajusta la cantidad de luz que se absorbe al pasar <i>a través</i> del volumen. |
-| <b>Calado</b> <i>Flotante</i> | Multiplica el valor proporcionado por la entrada <b>Density</b> por el valor del campo de distancia <i>inner</i>.<br>Esto ajusta efectivamente la anchura del <i>degradado</i> desde el límite exterior del volumen hacia adentro. |
+| <b>Posición de la cámara</b> <i>Float2</i> | Posición de la cámara alrededor de la forma.<br>Cuando se selecciona el nodo, puedes usar el gizmo de posición en el <b>vista 2D</b> para <i>orbitar</i> la cámara. |
+| <b>Posición de luz</b> <i>Float2</i> | Posición de la <i>luz direccional</i> alrededor de la forma.<br>Cuando el nodo esté seleccionado, puedes usar el gizmo de posición en el <b>vista 2D</b> para <i>orbitar</i> la fuente de luz. |
+| <b>Distancia de cámara</b> <i>Flotador</i> | La distancia desde la cámara a la forma. |
+| <b>FOV de cámara</b> <i>Flotador</i> | Campo de visión de la cámara en <i>grados</i>. |
+| <b>Absorción</b> <i>Flotador</i> | Ajusta la cantidad de luz que se absorbe al pasar <i>a través</i> del volumen. |
+| <b>Calado</b> <i>Flotador</i> | Multiplica el valor proporcionado por la entrada <b>Density</b> por el valor del campo de distancia <i>inner</i>.<br>Esto ajusta efectivamente la anchura del <i>degradado</i> desde el límite exterior del volumen hacia adentro. |
 | <b>Modo de color claro</b> <i>Entero</i> | Establece el método para adquirir el color de la luz direccional:<br>- <i>Temperatura (Kelvin)</i>: El color es el resultado de la temperatura de la luz, donde un valor <i>inferior</i> da como resultado un color <i>más cálido</i><br>- <i>color RGB</i>: Definir el color mediante valores de RGB |
-| <b>Temperatura de la luz (Kelvin)</b> <i>Flotante</i> | La temperatura de la luz direccional, que afecta a su <i>color</i>. Un valor <i>inferior</i> produce un color <i>más cálido</i>.<br>Valores útiles:<br>1800 K - Luz de vela<br>2800 K - Bombilla incandescente<br>5500 K - Luz del día<br>6200 K - Blanco natural<br>7000 K - Cielo nublado<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Modo de color claro</b> está establecido en <i>Temperatura (Kelvin)</i>. |
+| <b>Temperatura de la luz (Kelvin)</b> <i>Flotador</i> | La temperatura de la luz direccional, que afecta a su <i>color</i>. Un valor <i>inferior</i> produce un color <i>más cálido</i>.<br>Valores útiles:<br>1800 K - Luz de vela<br>2800 K - Bombilla incandescente<br>5500 K - Luz del día<br>6200 K - Blanco natural<br>7000 K - Cielo nublado<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Modo de color claro</b> está establecido en <i>Temperatura (Kelvin)</i>. |
 | <b>Color claro</b> <i>Float3</i> | El color de la luz direccional.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Modo de color claro</b> está establecido en <i>Color RGB</i>. |
 | <b>Intensidad de luz</b> <i>Flotador</i> | Intensidad de la luz direccional. |
 | <b>Color de ambiente</b> <i>Float3</i> | El color del tragaluz ambiente. |
@@ -80,7 +80,7 @@ El volumen se representa dentro de los límites de un *cubo de unidades*. La ilu
 | <b>Tramado</b> <i>Flotador</i> | Ajusta la intensidad del <i>tramado de ruido azul</i> que se usa para suavizar el sombreado. |
 | <b>Habilitar plano de tierra</b> <i>Booleano</i> | Cuando <i>True</i>, representa un plano de tierra <i>infinito</i>. El <i>cubo de unidades</i> que encierra la forma descansa en este plano. |
 | <b>Plano infinito</b> <i>Booleano</i> | Establece el plano de tierra en <i>extender infinitamente</i> hasta el horizonte.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Habilitar plano de tierra</b> está establecido en <i>True</i>. |
-| <b>Tamaño de plano de tierra</b> <i>Float2</i> | Ajusta el tamaño del plano de tierra.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Habilitar plano de tierra</b> está establecido en <i>True</i> y el parámetro <b>Plano infinito</b> está establecido en <i>False</i>. |
+| <b>Tamaño de plano de tierra</b> <i>Flotante2</i> | Ajusta el tamaño del plano de tierra.<br><i>Nota</i>: Este parámetro solo está disponible cuando el parámetro <b>Habilitar plano de tierra</b> está establecido en <i>True</i> y el parámetro <b>Plano infinito</b> está establecido en <i>False</i>. |
 
 ## Ejemplos
 

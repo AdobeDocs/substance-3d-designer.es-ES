@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: Utilice el nodo FX-Map para aplicar gráficos de funciones a las texturas para crear patrones y efectos de procedimiento.
 helpx_creative_field: ""
@@ -80,8 +80,8 @@ Tenga en cuenta que, a diferencia de otros nodos, la mayoría del comportamiento
 | <b>Área de procesamiento</b> *Float4* | Permite definir el rango de píxeles inicial para cada lado del FX-Map, lo que resulta en un efecto de estiramiento. |
 | <b>Región de mosaico</b> *Float4* | Permite desplazar la distancia de mosaico del FX-Map. |
 | <b>Sacar fuera</b> *Booleano* | Realiza una optimización mediante [selección](../../../../glossary/glossary.md) de patrones que se encuentran fuera del intervalo normal. |
-| <b>Rugosidad</b> *Flotador* | Funciona como un multiplicador de profundidad y opacidad. Aplica un sesgo al proceso de fusión de mapa de divisas. |
-| <b>Opacidad global</b> *Flotador* | Define la opacidad global de la salida del mapa de efectos. |
+| <b>Rugosidad</b> *Flotante* | Funciona como un multiplicador de profundidad y opacidad. Aplica un sesgo al proceso de fusión de mapa de divisas. |
+| <b>Opacidad global</b> *Flotante* | Define la opacidad global de la salida del mapa de efectos. |
 
 ## Guía de FX-Map
 

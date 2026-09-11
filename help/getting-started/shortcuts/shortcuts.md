@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Aprenda los métodos abreviados de teclado en Substance 3D Designer para acelerar el flujo de trabajo y mejorar la productividad.
 helpx_creative_field: ""

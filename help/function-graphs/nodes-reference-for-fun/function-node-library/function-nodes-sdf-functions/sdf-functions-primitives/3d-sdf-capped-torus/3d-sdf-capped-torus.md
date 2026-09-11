@@ -46,4 +46,4 @@ Función SDF para un toro tapado, donde el barrido del círculo menor a lo largo
 | <b>Desplazamiento de ángulo</b> *Flotador* | Desplazamiento, a lo largo del radio principal, del arco de recorte a lo largo del cual no se barrerá el círculo menor.<br><br><i>Valor predeterminado: 0</i> |
 | <b>Simétrica</b> *Booleano* | Controla si el arco de recorte debe dibujarse en una o dos direcciones.<br><br><i>Valor predeterminado: True</i> |
 | <b>Posición central</b> *Float3* | Posición del espacio de entorno del pivote del toro limitado.<br><br><i>Valor predeterminado: (0, 0, 0,5)</i> |
-| <b>P</b> *Float3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |
+| <b>P</b> *Flotante3* | La posición espacial mundial transformada. Utilice esta entrada para aplicar transformaciones adicionales mediante los nodos <b>Desplazamiento P</b> y <b>Rotar P</b>.<br><br><i>Valor predeterminado: La posición espacial mundial sin transformar.</i> |

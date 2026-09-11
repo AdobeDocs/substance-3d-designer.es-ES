@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/fxmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar FXMaps en Substance 3D Designer para aplicar gráficos de funciones a texturas para la generación de patrones de procedimiento.
+description: Aprenda a utilizar FXMaps en Substance 3D Designer para aplicar gráficos de funciones a texturas para la generación procedimienta de patrones.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # FXMaps
 
-**El nodo FX-Map permite la creación de imágenes de procedimiento**. Es una de las características más potentes de la tecnología Substance.
+**El nodo FX-Map permite crear imágenes procedimientas**. Es una de las características más potentes de la tecnología Substance.
 
 Un FX-Map representa un tipo especial de gráfico, conocido como una cadena Markov. Las cadenas de Markov representan un proceso básico simple: replicar y subdividir repetidamente una imagen una y otra vez. En cada paso, una imagen se puede rotar, traducir y mezclar a voluntad. Los resultados pueden consistir en cualquier cosa, desde patrones sencillos hasta ruidos complejos. FX-Maps son la base de muchos de los Substance de muestra instalados con Substance 3D Designer.
 
@@ -48,7 +48,7 @@ Probablemente esto no tenga mucho sentido para muchos lectores, pero en breve en
 
 ### Iterar
 
-Repite la imagen pasada en el conector de la derecha sobre la imagen pasada en el conector de la izquierda por el número establecido de iteraciones.
+Repite la imagen pasada al conector de la derecha sobre la imagen pasada al conector de la izquierda por el número de iteraciones definido.
 
 Este nodo se suele utilizar con uno o varios gráficos de funciones dinámicas para mover o rotar la imagen de entrada de alguna manera en cada iteración.
 
@@ -65,7 +65,7 @@ FX-Maps soporta variables del sistema. Estas variables siempre comienzan con un 
 | $time | - | float1 | Esta variable devuelve el tiempo en segundos desde que se inició el motor de procesamiento de Substance.Es ideal para Substance que necesitan animar según el tiempo. (E.g. las agujas de un reloj.)En algunas aplicaciones, incluido Substance Player, un Substance que utilice $time hará que aparezca una cronología en la interfaz de usuario. |
 | $profundidad | - | float1 | Devuelve el número de octava (nivel) del nodo FX-Map. Esto permite a un nodo modificar su comportamiento según el nivel del cuádruple árbol que representa. |
 | $depthpow2 | - | float1 | Como se ha indicado anteriormente, pero devuelve 2 elevado a la potencia del número de octava (nivel). Se trata de un valor auxiliar que resulta útil para algunos cálculos comunes. |
-| $number | Solo iterar nodos | float1 | Devuelve el número del motivo dibujado. Se puede acceder a esto mediante gráficos de funciones dinámicas que controlan un nodo iterado para modificar su comportamiento en cada paso de iteración. (Tenga en cuenta que $number comienza a contar desde 0, no desde 1.) |
+| $number | Solo iterar nodos | float1 | Devuelve el número del motivo dibujado. Se puede acceder a esto mediante gráficos de funciones dinámicas que controlan un nodo iterado para modificar su comportamiento en cada paso de la iteración. (Tenga en cuenta que $number comienza a contar desde 0, no desde 1.) |
 | $size | - | float2 | Devuelve el tamaño del nodo actual (en píxeles). |
 | $sizelog2 | - | float2 | Como se ha indicado anteriormente, pero devuelve el tamaño como valores de potencia de 2 (por ejemplo: para la imagen 2048\*2048, $sizelog2 devuelve 1). |
 | $pos | Sólo nodos de cuadrante | float2 | Devuelve la posición de nacimiento del motivo. El resultado siempre es un valor entre 0 y 1. |

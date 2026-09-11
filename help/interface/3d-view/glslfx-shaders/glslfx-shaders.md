@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: Utilice los sombreadores GLSLFX en la vista 3D de Substance 3D Designer para personalizar la representación del material y los efectos de previsualización.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Interface > 3D View > GLSLFX Shaders
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Sombreadores GLSLFX
+title: GLSLFX Shaders
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
@@ -18,14 +18,14 @@ ht-degree: 1%
 ---
 
 
-# Sombreadores GLSLFX
+# GLSLFX Shaders
 
 Los archivos GLSLFX constituyen el puente entre la aplicación y los archivos de sombreador glsl.\
 Permite utilizar cualquier sombreador glsl sin tener que modificar el código.
 
 ## Formato de archivo
 
-El formato de archivo GLSLFX es un archivo XML. Se admiten comentarios.
+GLSLFX formato es un archivo XML. Se admiten comentarios.
 
 ### Encabezado y nodo raíz
 
@@ -107,10 +107,10 @@ Sombreador <b>Name:</b>
 | Valor &#39;type&#39; | Descripción |
 | --- | --- |
 | punto vertical | Sombreado de vértices |
-| geometría | Sombreador de geometría |
+| geometría | Sombreador de Geometría |
 | tess\_control | Sombreador de control de teselación |
 | test\_eval | Sombreador de evaluación de teselación |
-| fragmento | Sombreado de fragmentos |
+| fragmento | Fragmentar sombreador |
 
 
 
@@ -133,10 +133,10 @@ Propiedad <b>Name:</b>
 <b>Atributos:</b>
 
 * nombre: Nombre de la propiedad que se va a establecer. El nombre se basa en la función OpenGL o en el nombre glEnum:
-  * Sintaxis de ENUM: Sin el prefijo &#39;GL\_&#39;, en minúsculas. Ejemplos: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
+  * Sintaxis de ENUM: Sin el prefijo &#39;GL\_&#39;, en minúsculas. Ejemplos: glEnable(GL\_FUSIÓN\_ENABLE) => &quot;&quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
   * Sintaxis de funciones: sin el prefijo &#39;gl&#39;, en minúsculas y con todas las palabras separadas por el carácter &#39;\_&#39;. Ejemplo: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
-* Sintaxis de ENUM: Sin el prefijo &#39;GL\_&#39;, en minúsculas. Ejemplos: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
+* Sintaxis de ENUM: Sin el prefijo &#39;GL\_&#39;, en minúsculas. Ejemplos: glEnable(GL\_FUSIÓN\_ENABLE) => &quot;&quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;&quot;
 
 * Sintaxis de funciones: sin el prefijo &#39;gl&#39;, en minúsculas y con todas las palabras separadas por el carácter &#39;\_&#39;. Ejemplo: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
@@ -190,7 +190,7 @@ Propiedad <b>Name:</b>
 
 #### Uniformes
 
-Permite anular algunos uniformes definidos globalmente o en la técnica principal. Esto permite cambiar el comportamiento del sombreado para esta técnica o pasada de procesamiento.
+Permite anular algunos uniformes definidos globalmente o en la técnica principal. Esto permite cambiar el comportamiento del sombreador para esta técnica o pasada de renderizado.
 
 Consulte la sección <b>Uniformes</b> a continuación para obtener más detalles sobre su definición.
 
@@ -273,7 +273,7 @@ Consulte la sección <b>Samplers</b> para obtener más detalles sobre su definic
 
 ## Formato de vértice de entrada
 
-Esto permite definir la semántica de cada atributo definido en el sombreador de vértices.
+Esto permite definir la semántica de cada atributo definido en el sombreador del vértice.
 
 <b>Definición de elemento XML:</b>
 
@@ -288,8 +288,8 @@ Atributos:
 | --- | --- |
 | posición | Posición del vértice (float3) |
 | normal | Vértice normal (float3) |
-| texcoord[0..N] | Búfer de coordenadas de textura de vértice N (float2) |
-| tangente[0..N] | Tampón de tangentes de vértices N (float4) |
+| texcoord[0..N] | Búfer de coordenadas N de la textura del vértice (float2) |
+| tangente[0..N] | Búfer de tangentes de vértices N (float4) |
 | binormal[0..N] | Búfer binormal del vértice N (float4) |
 
 Ejemplo:
@@ -332,14 +332,14 @@ Nombre: &#39;sampler&#39;
 
 Atributos:
 
-* &#39;nombre&#39;: Nombre de la variable de muestra en el archivo de sombreado.
+* &#39;nombre&#39;: Nombre de la variable de muestra en el archivo sombreador.
 * &#39;uso&#39;: El uso del muestreador. Coincide con el uso especificado en el nodo Salida del gráfico.
 
 | Valor de &#39;uso&#39; | Descripción |
 | --- | --- |
-| difundir | Mapa de difusión |
+| difundir | mapa de Difuso |
 | opacidad | Mapa de opacidad |
-| emisivo | Mapa emisivo |
+| emisivo | mapa de emisivos |
 | oclusión ambiental | Mapa de oclusión ambiental |
 | ambiente | Mapa ambiental |
 | máscara | Mapa de máscara |
@@ -389,11 +389,11 @@ Atributos:
 
 Modo de ajuste:
 
-<table data-preserve-html="true"><tbody><tr><th>Nombre</th><th>Valor</th></tr><tr><td rowspan="4">texture_wrap_s, texture_wrap_t, texture_wrap_r<br/><br/><br/></td><td>clamp_to_edge</td></tr><tr><td>clamp_to_border</td></tr><tr><td colspan="1">mirrored_repeat</td></tr><tr><td colspan="1">repetir<br/><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><tbody><tr><th>Nombre</th><th>Valor</th></tr><tr><td rowspan="4">textura_wrap_s, textura_wrap_t, textura_wrap_r<br/><br/><br/></td><td>clamp_to_edge</td></tr><tr><td>clamp_to_border</td></tr><tr><td colspan="1">mirrored_repeat</td></tr><tr><td colspan="1">repetir<br/><br/></td></tr></tbody></table>
 
 Filtro de textura
 
-<table data-preserve-html="true"><tbody><tr><th>Nombre</th><th>Valor</th></tr><tr><td rowspan="6">texture_min_filter, texture_mag_filter<br/><br/><br/></td><td>más cercano</td></tr><tr><td>lineal</td></tr><tr><td colspan="1">nearest_mipmap_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_mipmap_linear</td></tr><tr><td colspan="1">linear_mipmap_linear</td></tr></tbody></table>
+<table data-preserve-html="true"><tbody><tr><th>Nombre</th><th>Valor</th></tr><tr><td rowspan="6">textura_min_filter, textura_mag_filter<br/><br/><br/></td><td>más cercano</td></tr><tr><td>lineal</td></tr><tr><td colspan="1">nearest_mipmap_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_mipmap_linear</td></tr><tr><td colspan="1">linear_mipmap_linear</td></tr></tbody></table>
 
 Ejemplo:
 
@@ -571,7 +571,7 @@ Atributos:
 
 ## Ejemplo: Teselación/paralaje
 
-### Archivo de sombreador de vértices de paralaje
+### Archivo Sombreador de vértices de paralaje
 
 Se encuentra en .\tessellation\_parallax\parallax\vs.glsl
 
@@ -595,24 +595,24 @@ worldMatrix uniforme mat4;\
 mat4 worldViewProjMatrix uniforme;
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position;\
 iFS\_Normal = iVS\_Normal.xyz;\
 iFS\_UV = iVS\_UV;\
 iFS\_Tangent = iVS\_Tangent.xyz;\
 iFS\_Binormal = iVS\_Binormal.xyz;\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
-&rbrace;
+}
 
-### Archivo de sombreador de vértices de teselación
+### Archivo de Sombreador de vértices de teselación
 
 Se encuentra en .\tessellation\_parallax\tessellation\vs.glsl
 
 Contenido:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 attribute vec4 iVS\_Position;\
 atributo vec4 iVS\_Normal;\
@@ -626,13 +626,13 @@ variar vec4 oVS\_Tangent;\
 variar vec4 oVS\_Binormal;
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = iVS\_Position;\
 oVS\_Normal = iVS\_Normal;\
 oVS\_UV = iVS\_UV;\
 oVS\_Tangent = iVS\_Tangent;\
 oVS\_Binormal = iVS\_Binormal;\
-&rbrace;
+}
 
 ### Archivo de sombreador de control de teselación
 
@@ -640,10 +640,10 @@ Se encuentra en .\tessellation\_parallax\tessellation\tcs.glsl
 
 Contenido:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400 core\
-&#x200B;#extension GL\_ARB\_tessellation\_shader : permitir
+#version 400 core\
+#extension GL\_ARB\_tessellation\_shader : permitir
 
 layout(vertices = 3) out;
 
@@ -660,7 +660,7 @@ out vec4 oTCS\_Binormal[];
 teselación de flotador uniformeFactor;
 
 void main()\
-&lbrace;\
+{\
 gl\_TestLevelOuter[0] = tessellationFactor;\
 gl\_TestLevelOuter[1] = tessellationFactor;\
 gl\_TestLevelOuter[2] = tessellationFactor;\
@@ -671,7 +671,7 @@ oTCS\_Normal[gl\_InvocationID] = oVS\_Normal[gl\_InvocationID];\
 oTCS\_UV[gl\_InvocationID] = oVS\_UV[gl\_InvocationID];\
 oTCS\_Tangent[gl\_InvocationID] = oVS\_Tangent[gl\_InvocationID];\
 oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
-&rbrace;
+}
 
 ### Archivo sombreador de evaluación de teselación
 
@@ -679,9 +679,9 @@ Se encuentra en .\tessellation\_parallax\tessellation\tcs.glsl
 
 Contenido:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400 core
+#version 400 core
 
 layout(triangles, equal\_spacing, ccw) in;
 
@@ -705,17 +705,17 @@ out vec3 iFS\_Binormal;\
 out vec3 iFS\_PointWS;
 
 vec3 interpolate3D(vec3 v0, vec3 v1, vec3 v2, vec3 uvw)\
-&lbrace;\
+{\
 devuelve uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 vec2 interpolate2D(vec2 v0, vec2 v1, vec2 v2, vec3 uvw)\
-&lbrace;\
+{\
 devuelve uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 uvw = gl\_TessCoord.xyz;
 
 vec3 newPos = interpolate3D(gl\_in[0].gl\_Position.xyz, gl\_in[1].gl\_Position.xyz, gl\_in[2].gl\_Position.xyz, uvw);\
@@ -724,7 +724,7 @@ vec3 newTangent = normalize(interpolate3D(oTCS\_Tangent[0].xyz, oTCS\_Tangent[1]
 vec3 newBinormal = normalize(interpolate3D(oTCS\_Binormal[0].xyz, oTCS\_Binormal[1].xyz, oTCS\_Binormal[2].xyz, uvw);\
 vec2 newUV = interpolate2D(oTCS\_UV[0], oTCS\_UV[1], oTCS\_UV[2], uvw);
 
-float heightTextSample = texture(heightMap, newUV \&#42; tiling).x \&#42; 2.0 - 1.0;\
+float heightTextSample = textura(heightMap, newUV \&#42; tiling).x \&#42; 2.0 - 1.0;\
 newPos += newNormal \&#42; heightTextSample \&#42; heightMapScale;
 
 vec4 obj\_pos = vec4(newPos, 1);\
@@ -735,32 +735,32 @@ iFS\_Tangent = newTangent;\
 iFS\_Binormal = newBinormal;\
 iFS\_Normal = newNormal;\
 iFS\_PointWS = (worldMatrix \&#42; obj\_pos).xyz;\
-&rbrace;
+}
 
-### Archivo de sombreador de fragmentos
+### Fragmentar archivo de Sombreador
 
 Se encuentra en .\tessellation\_parallax\fs.glsl
 
 Contenido:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 // #define ALG\_NORMAL\_DIRECTX\
-&#x200B;#define ALG\_NORMAL\_OPENGL
+#define ALG\_NORMAL\_OPENGL
 
-&#x200B;#ifdef ALG\_NORMAL\_DIRECTX\
+#ifdef ALG\_NORMAL\_DIRECTX\
 // #define VOLTEAR\_NORMAL\_X\
-&#x200B;#define VOLTEAR\_NORMAL\_Y\
+#define VOLTEAR\_NORMAL\_Y\
 // #define VOLTEAR\_NORMAL\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_DIRECTX
+#endif //#ifdef ALG\_NORMAL\_DIRECTX
 
-&#x200B;#ifdef ALG\_NORMAL\_OPENGL\
+#ifdef ALG\_NORMAL\_OPENGL\
 // #define VOLTEAR\_NORMAL\_X\
-&#x200B;#define VOLTEAR\_NORMAL\_Y\
+#define VOLTEAR\_NORMAL\_Y\
 // #define VOLTEAR\_NORMAL\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_OPENGL
+#endif //#ifdef ALG\_NORMAL\_OPENGL
 
 variar vec3 iFS\_Normal;\
 variar vec2 iFS\_UV;\
@@ -801,17 +801,17 @@ uniforme mat4 worldInverseTransposeMatrix;\
 uniforme mat4 viewInverseMatrix;
 
 vec4 litFct(float NdotL, float NdotH, float specExp)\
-&lbrace;\
+{\
 float ambient = 1.0;\
 float diffuse = max(NdotL, 0.0);\
 specular float = step(0.0, NdotL) \&#42; pow(max(0.0, NdotH), specExp);\
 vec4 de retorno (ambiente, difuso, specular, 1.0);\
-&rbrace;
+}
 
 vec3 lerpFct(vec3 v0, vec3 v1, porcentaje flotante)\
-&lbrace;\
+{\
 valor devuelto v0 + (v1-v0) \&#42; por ciento;\
-&rbrace;
+}
 
 // Sombreado de Phong\
 void phong\_sombreado(\
@@ -821,37 +821,37 @@ en vec3 pointToLightDirWS,\
 en vec3 pointToCameraDirWS,\
 inout vec3 DiffuseContrib,\
 inout vec3 SpecularContrib)\
-&lbrace;\
+{\
 vec3 Hn = normalize(pointToCameraDirWS + pointToLightDirWS);\
 vec4 litV = litFct(dot(normalWS, pointToLightDirWS), dot(normalWS, Hn), SpecExpon);\
 DiffuseContrib = litV.y \&#42; LightColor;\
 SpecularContrib = litV.y \&#42; litV.z \&#42; Ks \&#42; LightColor;\
-&rbrace;
+}
 
 vec3 fixNormalSample(vec3 v)\
-&lbrace;\
+{\
 resultado vec3 = v - vec3(0,5,0,5,0,5);
 
-&#x200B;#ifdef FLIP\_NORMAL\_X\
+#ifdef FLIP\_NORMAL\_X\
 result.x = -result.x;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_X\
-&#x200B;#ifdef FLIP\_NORMAL\_Y\
+#endif // ifdef FLIP\_NORMAL\_X\
+#ifdef FLIP\_NORMAL\_Y\
 result.y = -result.y;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Y\
-&#x200B;#ifdef FLIP\_NORMAL\_Z\
+#endif // ifdef FLIP\_NORMAL\_Y\
+#ifdef FLIP\_NORMAL\_Z\
 result.z = -result.z;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Z
+#endif // ifdef FLIP\_NORMAL\_Z
 
 resultado de retorno;\
-&rbrace;
+}
 
 vec3 normalVecOSToWS(vec3 normal)\
-&lbrace;\
+{\
 retorno normal;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 cameraPosWS = viewInverseMatrix[3].xyz;\
 vec3 pointToLight0DirWS = normalize(Lamp0Pos - iFS\_PointWS);\
 vec3 pointToLight1DirWS = normalize(Lamp1Pos - iFS\_PointWS);\
@@ -872,7 +872,7 @@ vec3 cumulatedNormalOS = normalOS;
 float a = dot(normalOS,-pointToCameraDirWS);\
 vec3 s = vec3(dot(pointToCameraDirWS,tangentOS), dot(pointToCameraDirWS,binormalOS), a);\
 vec2 uv = enableTilingInFS == 0 ? iFS\_UV : (mosaico iFS\_UV \&#42;);\
-height flotante = texture2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
+height flotante = textura2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
 float parallax = parallax\_mode == 0 ? (tessellationFactor / 100000.f + heightMapScale / 500.f) : (heightMapScale / 50.f);\
 uv += (height \&#42; s.xy \&#42; paralaje) ;
 
@@ -886,7 +886,7 @@ cumulatedNormalOS = normalize(cumulatedNormalOS);
 
 // ------------------------------------------\
 // Agregar mapa normal de detalles\
-vec3 normalDetailTS = texture2D(detailNormalMap,uv\&#42;TilingDetail).xyz;\
+vec3 normalDetailTS = textura2D(detailNormalMap,uv\&#42;TilingDetail).xyz;\
 normalDetailTS = fixNormalSample(normalDetailTS);\
 vec3 variableNormalDetailTS = lerpFct(vec3(0.0,0.0,0.5),normalDetailTS,Profundidad\_detail);\
 vec3 normalDetailOS = variableNormalDetailTS.x\&#42;tangentOS + variableNormalDetailTS.y\&#42;binormalOS;\
@@ -899,7 +899,7 @@ cumulatedNormalOS = normalOS;
 vec3 cumulatedNormalWS = normalVecOSToWS(cumulatedNormalOS);
 
 // ------------------------------------------\
-// Computar difusión y Specular
+// Computar Difuso y Specular
 
 // Contribución de Light 0\
 vec3 diffContrib = vec3(0, 0, 0);\
@@ -936,16 +936,16 @@ vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor;
 vec3 emissive = texture2D(emissiveMap,uv).xyz;
 
 vec3 finalcolor = Ambiant\_final\
-&#x200B;+ specularColor\&#42;specContrib\
-&#x200B;+ diffuseColor.rgb\&#42;diffContrib\
-&#x200B;+ (reflColor\&#42;specularColor\&#42;FallofRefl)\
-&#x200B;+ emisivo;
++ specularColor\&#42;specContrib\
++ diffuseColor.rgb\&#42;diffContrib\
++ (reflColor\&#42;specularColor\&#42;FallofRefl)\
++ emisivo;
 
 // Color final\
 vec4 finalColor4 = vec4(final, color, textura2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4;\
-&rbrace;
+}
 
 ### Archivo GLSLFX
 

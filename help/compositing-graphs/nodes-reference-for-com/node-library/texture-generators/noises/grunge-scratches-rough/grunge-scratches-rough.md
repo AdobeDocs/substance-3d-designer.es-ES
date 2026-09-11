@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
 breadcrumb-title: ''
 description: Utilice el nodo Desbaste de Scratches de Suciedades para añadir patrones de arañazos aproximados para crear efectos de desgaste y daños intensos.
 helpx_creative_field: ""
@@ -45,22 +45,22 @@ El nodo **Suciedad Scratches Rough** genera un mapa de suciedades similar a una 
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Cantidad de memoria virtual</b> <i>Flotante</i> | Ajusta la cantidad de arañazos en la superficie. |
+| <b>Cantidad de memoria virtual</b> <i>Flotador</i> | Ajusta la cantidad de arañazos en la superficie. |
 | <b>Mosaico de memoria virtual</b> <i>Entero</i> | Ajusta la cantidad de mosaico aplicado a los arañazos. |
-| <b>Desenfoque de memoria virtual</b> <i>Flotante</i> | Ajusta el desenfoque de los arañazos. |
-| <b>Ancho de memoria virtual</b> <i>Flotante</i> | Ajusta la anchura de los arañazos. |
-| <b>Longitud de memoria virtual</b> <i>Flotante</i> | Ajusta la longitud de los arañazos. |
-| <b>Enmascaramiento de memoria virtual</b> <i>Flotante</i> | Ajusta la intensidad de la máscara aplicada en partes de los arañazos. |
-| <b>Suciedad de rascado</b> <i>Flotante</i> | Ajusta la suciedad de los arañazos, lo que rompe su nitidez y continuidad. |
-| <b>Doble rascado</b> <i>Flotante</i> | Ajusta la opacidad de un segundo rasguño aplicado junto a cada rasguño con un ligero efecto de deformación. |
-| <b>Intensidad de manchas de rayado</b> <i>Flotante</i> | Ajusta la intensidad de los puntos dañados aplicados junto con los arañazos. |
+| <b>Desenfoque de memoria virtual</b> <i>Flotador</i> | Ajusta el desenfoque de los arañazos. |
+| <b>Ancho de memoria virtual</b> <i>Flotador</i> | Ajusta la anchura de los arañazos. |
+| <b>Longitud de memoria virtual</b> <i>Flotador</i> | Ajusta la longitud de los arañazos. |
+| <b>Enmascaramiento de memoria virtual</b> <i>Flotador</i> | Ajusta la intensidad de la máscara aplicada en partes de los arañazos. |
+| <b>Suciedad de rascado</b> <i>Flotador</i> | Ajusta la suciedad de los arañazos, lo que rompe su nitidez y continuidad. |
+| <b>Doble rascado</b> <i>Flotador</i> | Ajusta la opacidad de un segundo rasguño aplicado junto a cada rasguño con un ligero efecto de deformación. |
+| <b>Intensidad de manchas de rayado</b> <i>Flotador</i> | Ajusta la intensidad de los puntos dañados aplicados junto con los arañazos. |
 | <b>Mosaico de manchas de memoria virtual</b> <i>Entero</i> | Ajusta el mosaico de los puntos dañados. |
-| <b>Intensidad de Dust</b> <i>Flotante</i> | Ajusta la intensidad de la superposición de dust. |
+| <b>Intensidad de Dust</b> <i>Flotador</i> | Ajusta la intensidad de la superposición de dust. |
 | <b>Mosaico de Dust</b> <i>Entero</i> | Ajusta el mosaico de la superposición de dust. |
 | <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajusta la intensidad del efecto de enfoque global. |
 

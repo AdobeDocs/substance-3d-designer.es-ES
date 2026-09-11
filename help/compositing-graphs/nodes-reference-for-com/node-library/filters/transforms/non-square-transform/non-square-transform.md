@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
 description: Utilice el nodo Transformo no cuadrado para aplicar transformaciones a texturas no cuadradas con escalado independiente X e Y.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformación no cuadrada
+title: Transformo no cuadrado
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# Transformación no cuadrada
+# Transformo no cuadrado
 
 <table>
 <tr style="border: 0;">

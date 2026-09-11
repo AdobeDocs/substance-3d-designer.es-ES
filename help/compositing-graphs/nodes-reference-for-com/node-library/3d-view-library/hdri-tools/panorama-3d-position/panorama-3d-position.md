@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
 breadcrumb-title: ''
 description: Utilice el nodo Posición 3D del panorama para colocar panoramas HDRI en el espacio 3D y crear entornos de iluminación personalizados.
 helpx_creative_field: ""
