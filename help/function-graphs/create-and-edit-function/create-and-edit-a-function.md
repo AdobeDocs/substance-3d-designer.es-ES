@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
 breadcrumb-title: ''
 description: Aprenda a crear y editar gráficos de funciones en Substance 3D Designer para crear redes de nodos reutilizables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Crear y editar una función
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## Crear una función
 
-Para crear una función, solo tiene que hacer clic en el icono de función ![](../../assets/image2017-3-7-17-10-8.png) y elegir &quot;**Función vacía**&quot;.
+Para crear una función, solo tiene que hacer clic en el icono de función ![](create-and-edit-a-function.resources/image2017-3-7-17-10-8.png) y elegir &quot;**Función vacía**&quot;.
 
-![](../../assets/image2017-3-7-17-8-37.png)
+![](create-and-edit-a-function.resources/image2017-3-7-17-8-37.png)
 
 ## Editar una función
 
 Una vez creada una función, puede modificarla haciendo clic de nuevo en el icono de función o eligiendo Editar en la lista desplegable.
 
-![](../../assets/image2017-3-7-17-11-42.png)
+![](create-and-edit-a-function.resources/image2017-3-7-17-11-42.png)
 
 A continuación, entrará en el modo de función del gráfico.
 
@@ -42,7 +42,7 @@ El gráfico de funciones funciona de la misma manera que otros tipos de gráfica
 
 Puede crear nodos haciendo clic con el botón derecho en el gráfico y eligiendo &quot;Agregar elemento&quot;, o pulsando la barra espaciadora:
 
-![](../../assets/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
+![](create-and-edit-a-function.resources/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
 
 ## Definir una salida
 
