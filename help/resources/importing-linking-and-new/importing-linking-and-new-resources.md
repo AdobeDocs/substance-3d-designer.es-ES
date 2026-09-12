@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Aprenda a importar, vincular y crear nuevos recursos en Substance 3D Designer para sus proyectos de materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Importación, vinculación y nuevos recursos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -28,13 +28,13 @@ En la siguiente tabla se ofrece una visión general rápida de la diferencia de 
 
 |                                                                                                                                                                         | Nuevo | Importar | Vincular |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| Gráficos ([gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), [gráficos de funciones de Substance](../../function-graphs/function-graphs.md) | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [Mapas de bits](../../resources/bitmap-resource/bitmap-resource.md),[gráficos vectoriales (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| Escenas 3D, [fuentes](../../resources/font-resource/font-resource.md) | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(marca)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| Se crea junto al archivo SBS | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Editable en Designer | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Las ediciones externas se sincronizan automáticamente | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(marca)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| Incrustado en SBSAR publicado | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(marca)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Gráficos ([gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), [gráficos de funciones de Substance](../../function-graphs/function-graphs.md) | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| [Mapas de bits](../../resources/bitmap-resource/bitmap-resource.md),[gráficos vectoriales (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| Escenas 3D, [fuentes](../../resources/font-resource/font-resource.md) | <div><img alt="(error)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| Se crea junto al archivo SBS | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| Editable en Designer | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| Las ediciones externas se sincronizan automáticamente | <div><img alt="(error)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| Incrustado en SBSAR publicado | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(marca)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
 
 ## Nuevos recursos
 
@@ -58,7 +58,7 @@ En el caso de [AxF files](../../resources/axf-appearance-exchange/axf-appearance
 
 Vincular un recurso significa que Designer hará referencia al archivo de origen en su ubicación original en el disco, pero lo presentará en el Explorador como si fuera parte del paquete. No podrá editar el recurso real directamente dentro de Designer, solo utilícelo como componente en el gráfico o como origen para hacer un bake mapas.
 
-La vinculación es ideal si sabe que necesitará utilizar un editor externo para actualizar el recurso mientras trabaja simultáneamente en Designer. Hacer un bake mapas es un buen ejemplo: puede disponer de mapas de bits de referencia de Designer desde una aplicación de hace un bake externa, que volverá a cargar y actualizar automáticamente el gráfico en cuanto se cambien estos archivos. Del mismo modo, las escenas 3D solo se pueden vincular, de modo que cada vez que se exporta un nuevo archivo FBX desde la aplicación 3D, Designer actualiza automáticamente la malla utilizada en la vista 3D. Si está haciendo un bake mapas de esta malla, tendrá que iniciar manualmente el proceso de hacer un bake de nuevo, idealmente haciendo clic en RMB y seleccionando &#39;Actualizar todos los mapas con bake&#39;.
+La vinculación es ideal si sabe que necesitará utilizar un editor externo para actualizar el recurso mientras trabaja simultáneamente en Designer. Los mapas de horneado son un buen ejemplo: puede disponer de mapas de bits de referencia de Designer desde una aplicación de banca externa, que volverá a cargar y actualizar automáticamente el gráfico en cuanto se cambien estos archivos. Del mismo modo, las escenas 3D solo se pueden vincular, de modo que cada vez que se exporta un nuevo archivo FBX desde una aplicación 3D, Designer actualiza automáticamente la malla utilizada en la vista 3D. Si usted está horneando mapas de esta malla tendrá que iniciar manualmente el proceso de horneado de nuevo, idealmente haciendo clic en RMB y seleccionando &#39;Actualizar todos los mapas con bake&#39;.
 
 ## Eliminación de recursos
 
@@ -69,4 +69,4 @@ Al eliminar un recurso de un paquete, se muestra el cuadro de diálogo <b>Confir
 > Se recomienda tener en cuenta estos elementos y tomar las medidas necesarias para *anticiparse a cualquier dependencia rota* que se produciría al eliminar elementos de un paquete.\
 > Estas acciones pueden incluir *quitar todos los usuarios* de estos recursos antes de la eliminación.
 
-![&#39;Recurso eliminado en uso&#39; advertencia](../../assets/confirm-item-removal.png "&#39;Recurso eliminado en uso&#39; advertencia"){width="512px"}
+![&#39;Recurso eliminado en uso&#39; advertencia](importing-linking-and-new-resources.resources/confirm-item-removal.png "&#39;Recurso eliminado en uso&#39; advertencia"){width="512px"}

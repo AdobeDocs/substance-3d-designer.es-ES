@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
-description: Consulte las notas de la versión 15.0 de Substance 3D Designer para obtener más información sobre el nuevo procesador 3D y la compatibilidad con USD nativa.
+description: Revise las notas de la versión 15.0 de Substance 3D Designer para obtener más información sobre el nuevo procesador 3D y la compatibilidad nativa con USD.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 15.0
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Versión 15.0
 
-Esta actualización incluye un nuevo procesador 3D, con modos rasterizador y trazador de rutas, además de una compatibilidad nativa de [USD](https://openusd.org/release/index.html) para permitirte editar y exportar escenas sin perder datos.
+Esta actualización incluye un nuevo procesador 3D, con modos rasterizador y trazador de rutas, además de un soporte nativo de [USD](https://openusd.org/release/index.html) para permitirte editar y exportar escenas sin perder datos.
 
 *Fecha de publicación: 15 de julio de 2025*
 
-![Banner](../../assets/banner-47.png "Versión 15.0")
+![Banner](version-15-0.resources/banner-47.png "Versión 15.0")
 
 ## Nuevo renderizador 3D
 
@@ -32,7 +32,7 @@ Esta actualización incluye un nuevo procesador 3D, con modos rasterizador y tra
 
 Esta nueva versión te da acceso a un avanzado [procesador 3D](../../interface/3d-view/3d-renderers/3d-renderers.md), que incluye un modo de rasterizado (para tener una vista previa en tiempo real mientras trabajas en tu material) y un modo de trazador de trayectorias (un modo de trazado de rayos para obtener una representación perfecta y precisa). Este nuevo procesador mejora la funcionalidad con funciones como sombras en modo rasterizador, mejora la calidad y el rendimiento, y está diseñado para admitir tecnologías futuras como [MaterialX](https://materialx.org/). Complementa los procesadores existentes de OpenGL e Iray en Designer y se alinea con los procesadores disponibles en Substance 3D Viewer y Substance 3D Sampler, lo que garantiza una experiencia uniforme en todo el ecosistema.
 
-![sombras e translucidez en el rasterizador](../../assets/feature_1b.png)
+![sombras y translucidez en el rasterizador](version-15-0.resources/feature_1b.png)
 
 La [barra de herramientas de la vista 3d](../../interface/3d-view/3d-view.md) se ha actualizado para tener acceso rápido a algunas de las nuevas funciones disponibles en este procesador:
 
@@ -41,32 +41,32 @@ La [barra de herramientas de la vista 3d](../../interface/3d-view/3d-view.md) se
 * <b>Habilitar sombras:</b> para habilitar sombras en la escena, útil para ver cómo se comportan los materiales según la luz.
 * <b>Habilitar plano de tierra:</b> para habilitar o no el plano de tierra en la escena.
 
-Además, la tecla de acceso rápido para girar la luz ambiental ha cambiado para coincidir con las demás aplicaciones de Substance, por lo que ahora es *<b>mayús-clic derecho</b>* en lugar de *<b>ctrl-mayús-clic derecho</b>*.
+Además, la tecla de acceso rápido para girar la luz del entorno ha cambiado para coincidir con las demás aplicaciones de Substance, por lo que ahora es *<b>mayús-clic derecho</b>* en lugar de *<b>ctrl-mayús-clic derecho</b>*.
 
 ### Efectos de posprocesamiento
 
-[Efectos de posprocesamiento han vuelto](../../interface/3d-view/camera/post-effects/post-effects.md)! Ahora están disponibles a través del menú Cámara y ahora se desarrollan internamente.
+[Los efectos posteriores han vuelto](../../interface/3d-view/camera/post-effects/post-effects.md). Ahora están disponibles a través del menú Cámara y ahora se desarrollan internamente.
 
-* <b>Bloom:</b> simula el brillo alrededor de puntos brillantes como luces y reflejos, lo que permite visualizar mejor las superficies del emisivo.
-* Asignación de tonos <b>: </b>el rango de color con perfiles para obtener un efecto de alto rango dinámico (HDR.).
+* <b>Bloom:</b> simula el resplandor alrededor de puntos brillantes como luces y reflejos, lo que permite visualizar mejor las superficies emisoras.
+* Asignación de tonos <b>: </b>Ajusta el rango de color con perfiles para obtener un efecto de rango dinámico alto (HDR).
 * <b>Profundidad de campo:</b> simula las propiedades de enfoque de la lente de una cámara (solo rasterizador).
 
-![Post FX en Designer 15.0](../../assets/postfx.gif)
+![Post FX en Designer 15.0](version-15-0.resources/postfx.gif)
 
 ## Edición de activos en contexto
 
-Cuando trabajes en tus materiales, es posible que desees [obtener una vista previa en el contexto de una escena 3D específica](../../working-with-3d-scenes/working-with-3d-scenes.md). Por eso hemos añadido la posibilidad de importar y representar una escena completa, con todas sus texturas, cámaras y luces. Y, por encima de todo, si esta escena hace referencia a sombreadores de MaterialX, se procesarán correctamente con el rasterizador.
+Cuando trabajes en tus materiales, es posible que desees [obtener una vista previa en el contexto de una escena 3D específica](../../working-with-3d-scenes/working-with-3d-scenes.md). Por eso hemos añadido la posibilidad de importar y renderizar una escena completa, con todas sus texturas, cámaras y luces. Y, por encima de todo, si esta escena hace referencia a sombreadores de MaterialX, se procesarán correctamente con el rasterizador.
 
-![USD escena cargada y representada en Designer](../../assets/feature_2.png)
+![Escena de USD cargada y representada en Designer](version-15-0.resources/feature_2.png)
 
 Una vez importado, puedes trabajar en tu escena seleccionando una malla (con MAYÚS+Clic o gracias al explorador de escenas) y [anulando cualquiera de sus materiales](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). En ese caso puede:
 
 * Cree o cargue un gráfico y aplíquelo a un material de escena.
-* Haz ajustes en un material existente [extrayendo sus texturas](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) en una nueva gráfica.
+* Haz ajustes en un material existente [extrayendo sus texturas](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) en un nuevo gráfico.
 
-Por último, una vez que edites tu escena 3d, puedes [exportarla](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) como un nuevo archivo o como una nueva capa del archivo original, lo que te evita cualquier pérdida de datos (solo para USD formato).
+Por último, una vez que se edita la escena 3D, puedes [exportarla](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) como un nuevo archivo o como una nueva capa del archivo original, lo que te impide perder datos (solo para el formato USD).
 
-Por último, pero no por ello menos importante, ahora se admiten más formatos 3D tanto para la importación como para la exportación: USD (+ usda, usdc, usdz), STL, PLY y GLTF, además de los formatos ya disponibles FBX y OBJ.
+Por último, pero no por ello menos importante, ahora se admiten más formatos 3D tanto para la importación como para la exportación: USD (+ usda, usdc, usdz), STL, PLY y GLTF, además de los formatos FBX y OBJ ya disponibles.
 
 ## Sugerencias de herramientas enriquecidas
 
@@ -76,17 +76,17 @@ Se han introducido sugerencias enriquecidas para demostrar mejor el propósito d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![nodo de mezcla](../../assets/blend.gif)
+![nodo de mezcla](version-15-0.resources/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nodo de desenfoque](../../assets/blur.gif)
+![nodo de desenfoque](version-15-0.resources/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nodo de distancia](../../assets/distance.gif)
+![nodo de distancia](version-15-0.resources/distance.gif)
 
 </td>
 </tr>
@@ -94,15 +94,15 @@ Se han introducido sugerencias enriquecidas para demostrar mejor el propósito d
 
 ## Mejorar la compatibilidad no cuadrada
 
-Si necesita trabajar con texturas no cuadradas, esta nueva opción está diseñada para usted. En las [propiedades de material](../../interface/3d-view/material-properties/material-properties.md) de la vista 3D, en las opciones de UV para controlar el mosaico, ahora puede establecer un valor diferente para ambos ejes.
+Si necesita trabajar con texturas que no sean cuadradas, esta nueva opción está diseñada para usted. En las [propiedades de material](../../interface/3d-view/material-properties/material-properties.md) de la vista 3D, en las opciones de UV para controlar el mosaico, ahora puede establecer un valor diferente para ambos ejes.
 
-![escala de U V diferente](../../assets/nonsquare.png){zoomable="yes"}
+![escala de U V diferente](version-15-0.resources/nonsquare.png){zoomable="yes"}
 
 ## Bakers
 
-Aunque la interfaz que hace un bake solo ha recibido actualizaciones menores (consulte la lista detallada que aparece a continuación para obtener más información), la biblioteca de bakeres se ha rediseñado por completo para utilizar bakeres basados en GPU, lo que se traduce en un rendimiento mucho mejor. Junto con los nuevos formatos de archivo compatibles mencionados anteriormente, esta actualización representa un avance sustancial para los usuarios que hacen un bake flujos de trabajo.
+Aunque la interfaz de banca solo ha recibido actualizaciones menores (consulte la lista detallada que aparece a continuación para obtener más información), la biblioteca de panaderos se ha rediseñado por completo para utilizar los panaderos basados en GPU, lo que se traduce en un rendimiento mucho mejor. Junto con los nuevos formatos de archivo compatibles mencionados anteriormente, esta actualización representa un avance sustancial para los usuarios que participan en los flujos de trabajo de banca.
 
-Nota: si utilizaba sbsbaker.exe para automatizar el proceso, se ha cambiado el nombre de la herramienta a substance3d\_baker.exe (utilice substance3d-baker —help para obtener más información).
+Nota: si estaba utilizando sbsbaker.exe para automatizar el proceso, la herramienta ha cambiado de nombre a substance3d\_baker.exe (utilice substance3d-baker —help para obtener más información).
 
 ## Actualizaciones de requisitos de plataforma VFX
 
@@ -110,7 +110,7 @@ Todos los años, la [Plataforma de Referencia de VFX](https://vfxplatform.com/) 
 
 ## Vídeo
 
-[![Actualización de Substance 3D Designer: Nuevo procesador, postFX y edición de contexto | Substance 3D de Adobe](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Actualización de Substance 3D Designer: Nuevo procesador, postFX y edición de contexto | Substance 3D de Adobe](version-15-0.resources/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## Notas de la versión
 
@@ -161,16 +161,16 @@ Todos los años, la [Plataforma de Referencia de VFX](https://vfxplatform.com/) 
 * [Panaderos] Permitir cambiar el nombre de un panadero sin romper los vínculos
 * [Bakers] Cambiar el tamaño predeterminado del panel central
 * [Bakers] Textura de entrada para flujo de trabajo UDIM
-* [Bakeres] Hacer que los mapas de vista 2D coincidan con el orden de Bakeres de lista de procesamiento
-* [Bakeres] Convertir la ventana de hacer un bake en modal
-* [Bakeres] Administrar parámetros de asignación de tonos
-* [Bakeres] Eliminar selección de plugin de espacio tangente
-* [Bakeres] Estado de guardado &quot;activado&quot; o &quot;desactivado&quot; para Bakeres al guardar un ajuste preestablecido
-* [Bakeres] Seleccionar material de forma predeterminada en el widget de selección
-* [Bakeres] Establecer la orientación predeterminada de la textura de salida Normal en relación con la preferencia
-* [Bakeres] Establecer mosaicos UV en Todo de forma predeterminada
-* [Bakeres] Opción de adición WordSpaceDirection FromTexture/FromValue
-* [Bakeres] De mundo a tangente: defina la entrada predeterminada en &quot;de la textura&quot;
+* [Bakers] Hacer que el orden de lista de mapas de vistas 2D coincida con el orden de lista de procesamiento de Bakers
+* [Panaderos] Convertir la ventana de panadería en modal
+* [Panaderos] Administrar parámetros de asignación de tonos
+* [Bakers] Quitar selección de complemento de espacio tangente
+* [Panaderos] Estado de guardado &quot;activado&quot; o &quot;desactivado&quot; para panaderos al guardar un ajuste preestablecido
+* [Bakers] Seleccionar material de forma predeterminada en el widget de selección
+* [Bakers] Establecer la orientación predeterminada de la textura de salida Normal en relación con la preferencia
+* [Panaderos] Establecer los mosaicos UV en Todo de forma predeterminada
+* [Bakers] Opción de adición WordSpaceDirection FromTexture/FromValue
+* [Bakers] Mundo a tangente: defina la entrada predeterminada en &quot;desde textura&quot;
 * [SBSBaker] Crear una opción para controlar el orden de backend
 * [SBSBaker] Mejorar el uso del argumento StringList
 * [SBSBaker] Cambie el nombre &quot;match\_source\_instance&quot; por &quot;match\_mesh\_name&quot;
@@ -185,31 +185,31 @@ Todos los años, la [Plataforma de Referencia de VFX](https://vfxplatform.com/) 
 * [Nodes] Añadir información valiosa para nodos atómicos
 * [Parameters] Cerrar la sección &#39;Attributes&#39; de forma predeterminada
 * [Parámetros] Permite que el usuario especifique valores predeterminados de parámetros base para nuevas instancias
-* bakeres de [Preferencias]: añadir una opción booleana para calcular el espacio tangente por fragmento
+* [Preferencias] Panaderos: añadir una opción booleana para calcular el espacio tangente por fragmento
 * [Preferencias] Quitar los complementos de espacio tangente
 * [Preferencias] Almacenar las preferencias por versión secundaria de SD (XX.X)
 * [VFX] Actualizar a 1.85.0
 * [VFX] Actualice MacOS versión mínima a 12.0
-* [VFX] Actualice OpenColorIO a la versión 2.4.2
+* [VFX] Actualice OpenColorIO a 2.4.2.
 * [VFX] Actualice OpenColorIO a 2.4.x
 * [VFX] Actualice OpenExr a 3.3.x
 * [VFX] Actualizar Qt a 6.5.8
 
 ### Correcciones
 
-* [Vista 3D] Las Texturas de USD exportadas no se aplican correctamente
-* [Vista 3D] [UDIM] No se pueden ver las salidas del gráfico del UDIM en la Vista 3D cuando la visualización automática al abrir el gráfico está desactivada en las preferencias del gráfico
-* [Baker] &#39;Suavizar&#39;. y &quot;Promedio. las celdas normales de los bakeres no aplicables están en blanco y se pueden editar
-* [Baker] La acción &quot;Actualizar&quot; utiliza el motor de trazado de rayos cuando está desactivada en las preferencias
-* [Baker] Bakeres bloqueados como ocupados tras un error durante el proceso &quot;Actualizar todos los mapas con bake&quot;
-* [Bakeres] Bloqueo en más de 180 UDIM al hacer un bake el mapa de posición de OpenGL en una malla específica
-* [Baker] Bloqueo al abrir el cuadro de diálogo Hacer un bake información de modelo varias veces seguidas (solo macOS)
-* [Bakeres] En la exportación de ajustes preestablecidos de JSON, el valor &#39;udim&#39; se reemplaza por &#39;1001&#39; cuando se estableció en &#39;All&#39;
-* [Bakeres] La memoria no se detecta correctamente en Linux
-* [Bakeres] La falta de dependencia de entrada de mapa no activa la advertencia ni bloquea el procesamiento
-* [Bakeres] No hay rótulo de error cuando el nombre de salida está vacío
-* [Bakeres] Cambiar la malla de poli alto del archivo no tiene efecto
-* [Bakeres] El baker de destino no se selecciona de forma predeterminada al utilizar la acción &quot;Volver a hornear&quot;
+* [Vista 3D] Las texturas de la escena en USD exportada no se aplican correctamente
+* [Vista 3D] [UDIM] No se pueden ver las salidas del gráfico UDIM en la vista 3D cuando la visualización automática al abrir el gráfico está desactivada en las preferencias del gráfico
+* [Bakers] &#39;Anti-alias.&#39; y &quot;Promedio. las celdas normales de los panaderos no aplicables están en blanco y se pueden editar
+* [Bakers] La acción Actualizar utiliza el back-end de trazado de rayos cuando está desactivada en las preferencias
+* [Panaderos] Panaderos bloqueados como ocupados después de un fallo durante el proceso de &#39;Actualizar todos los mapas con bake&#39;
+* [Bakers] Bloqueo en más de 180 UDIM al hacer el mapa de posición de OpenGL en una malla específica
+* [Bakers] Bloqueo al abrir el cuadro de diálogo &quot;Hornear información de modelo&quot; varias veces seguidas (solo macOS)
+* [Bakers] En la exportación de ajustes preestablecidos de JSON, el valor &#39;udim&#39; se reemplaza por &#39;1001&#39; cuando se estableció en &#39;All&#39;
+* [Bakers] La memoria no se detecta correctamente en Linux
+* [Bakers] La falta de dependencia de entrada de mapa no activa la advertencia ni bloquea el procesamiento
+* [Bakers] No hay etiqueta de error cuando el nombre de salida está vacío
+* [Bakers] Cambiar la malla de alta polietileno del archivo no tiene efecto
+* [Panaderos] El panadero de destino no se selecciona de forma predeterminada al utilizar la acción &quot;Volver a hornear&quot;
 * Distancia [del motor]: &quot;corte&quot; visible en algunas situaciones
 * [Motor] Fx-Map: Los colores negativos no se admiten cuando la profundidad de bits es de 8 bits (solo motores GPU)
 * [Localización] La entrada de caracteres vuelve del japonés al latín en el menú de nodos
