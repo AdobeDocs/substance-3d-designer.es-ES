@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Fecha de publicación: *26 de abril de 2022*
 
 ### Nuevo contenido para gráficas de materiales de Substance
 
-![](../../assets/yellow-intense-reduce.png)
+![](version-12-1.resources/yellow-intense-reduce.png)
 
 Se han añadido muchos nodos en esta versión, encontrarás nuevos patrones, nuevos ruidos, nuevos filtros, ...
 
@@ -38,36 +38,36 @@ Eche un vistazo a las páginas de nodos vinculadas a continuación para ver ejem
 
   * Hemos añadido un nuevo nodo <b>Tile Random 2</b> para generar mosaicos adyacentes de proporciones y tamaños aleatorios, lo cual es muy útil para crear rápidamente cuadrículas totalmente irregulares con esquinas inclinadas, redondeadas y biseladas.
 
-    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
+    ![](version-12-1.resources/tilerandom2-demo2.gif){width="640px"}
   * Nuevo patrón <b>Triangle Grid</b> para generar una cuadrícula hecha de triángulos. Lo estamos utilizando en el material de abajo para simular fácil y perfectamente el grano de cuero. Este generador representa una superficie de vértices en el espacio 3D y se puede utilizar para crear una variedad de estilos poligonales.
 
-    ![](../../assets/trianglegrid-demo.png){width="640px"}
+    ![](version-12-1.resources/trianglegrid-demo.png){width="640px"}
 * **Nuevos Ruidos**
 
   * Para ofrecerte más variedad, un conjunto de <b>15 nuevos mapas de Suciedad</b> (Concreto, Fugas, Salpicaduras Sucias, ...) se ha añadido a la biblioteca.
 
-    ![](../../assets/grungemaps.png){width="640px"}
+    ![](version-12-1.resources/grungemaps.png){width="640px"}
   * También encontrará muchos <b>nuevos ruidos 2D y 3D</b>, como Voronoi (2D y 3D), Voronoi Fractal (2D y 3D), 3D Ridged Fractal y una actualización del actual ruido 3D Perlin (agregando opciones de mosaico y absolutas).\
     Todos estos ruidos se asignan en espacios 3D y ofrecen varios estilos, lo que permite una mayor variedad y control, lo que te dará muchas opciones para crear el mapa perfecto para tu material, como el mar y los materiales de los paneles de ciencia ficción a continuación.
 
-    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-scifi-panel.gif){width="640px"}
   * Colección de <b>nodos de textura 3D</b> (Posición, SDF, Desplazamiento) y <b>nodos de procesamiento 3D </b> (Superficie o Volumen) para crear y representar texturas 3D, que son un atlas de los sectores de un modelo 3D.
 
-    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
+    ![](version-12-1.resources/image2022-4-22-11-46-17.png){width="640px"}
 
 * **Nuevos filtros**
 
   * Con el nodo <b>Recorte automático</b>, puedes colocar una forma en el *centro* de la imagen sin cambiar su tamaño, o cambiar su tamaño para que se ajuste al espacio. Por ejemplo, tu forma puede retocarse libremente manteniendo una posición y un tamaño consistentes cuando se dispersa.
 
-    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
+    ![](version-12-1.resources/autocrop-demo-01-resized.gif){width="640px"}
   * Con el nodo <b> Extend Shape</b>, podrás estirar una sección de una forma en una dirección y distancia personalizadas.
 
-    ![](../../assets/extendshape.gif){width="640px"}
+    ![](version-12-1.resources/extendshape.gif){width="640px"}
   * Y con el nodo <b>Rotación no uniforme</b> puedes rotar una entrada de acuerdo con un mapa dado.
 
-    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](version-12-1.resources/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **Y también...**
 
   * Funciones de aceleración (gráfico de funciones) muy útiles para generar un valor de forma no lineal.
@@ -89,19 +89,19 @@ Eche un vistazo a las páginas de nodos vinculadas a continuación para ver ejem
 * <b>Enviar a Stager\
   </b>Ahora puedes enviar el material de tu Substance a Stager con un solo clic, ya que era posible con Sampler y Painter. Gracias a esta función, ya no es necesario publicar como SBSAR y cargar archivos individuales (se requiere la versión 1.2.0 de Stager con el nuevo administrador de materiales)
 
-  ![](../../assets/sendtostagershort.gif)
+  ![](version-12-1.resources/sendtostagershort.gif)
 
 ### Miscelánea
 
 * Si está trabajando en tejidos, ahora puede mostrar una malla dedicada en la vista 3D para ver mejor cómo se procesa el material en una forma drapeada. Abra el menú <b>Escena</b> en el panel de vista 3D y seleccione la opción <b>Tela</b> para mostrar este modelo.
 
-  ![](../../assets/fabric-rendering.png){width="640px"}
+  ![](version-12-1.resources/fabric-rendering.png){width="640px"}
 
 * También hemos añadido algunos nodos nuevos de gestión de escenas para los gráficos de modelos de Substance. Estos nodos le permiten cambiar el nombre, cambiar de jerarquía, fusionar o ampliar los elementos de la escena para organizar la jerarquía de la escena. También hay un nuevo nodo para definir el giro de uno o más elementos de una escena.
 
 * Al trabajar en proyectos en Designer, pueden aparecer advertencias y mensajes de error que le notifican de un problema en el proyecto. En esta versión, <b>mejoramos el sistema de administración de errores</b> para mostrar todos los errores y advertencias en el Explorador: todo se enumera en un solo lugar, por lo que es más fácil comprobar si el proyecto contiene algún problema.
 
-  ![](../../assets/warning-overview-explorer.png){width="640px"}
+  ![](version-12-1.resources/warning-overview-explorer.png){width="640px"}
 
 ## Notas de la versión
 

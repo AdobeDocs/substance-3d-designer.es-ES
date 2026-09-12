@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas técnicos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Comparte una <b>dirección de correo electrónico válida</b> para que podamos p
 </td>
 <td style="border: 0;" valign="top">
 
-![cuadro de diálogo Informe de Bloqueo](../assets/crash-reporter-2.png "cuadro de diálogo Informe de Bloqueo"){zoomable="yes"}
+![cuadro de diálogo Informe de Bloqueo](technical-issues.resources/crash-reporter-2.png "cuadro de diálogo Informe de Bloqueo"){zoomable="yes"}
 
 *Haga clic para ampliar*
 
@@ -91,7 +91,7 @@ Puede indicarnos el problema en el campo Descripción para que podamos investiga
 </td>
 <td style="border: 0;" valign="top">
 
-![Cuadro de diálogo Informe de errores](../assets/bug-reporter.png "Cuadro de diálogo Informe de errores"){zoomable="yes"}
+![Cuadro de diálogo Informe de errores](technical-issues.resources/bug-reporter.png "Cuadro de diálogo Informe de errores"){zoomable="yes"}
 
 *Haga clic para ampliar*
 

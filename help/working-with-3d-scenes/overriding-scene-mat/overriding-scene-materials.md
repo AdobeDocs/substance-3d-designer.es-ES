@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Reemplazo de materiales de escena
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Cuando se trabaja con escenas 3D con materiales existentes, es necesario anular 
 
 Tu material se puede crear desde cero o una versión ajustada del material de una escena que se ha [extraído en un gráfico de Substance](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
-![Anular un material de escena, modificarlo y restablecerlo a su estado de escena](../../assets/tweakOverriddenMaterial.gif "Anular un material de escena, modificarlo y restablecerlo a su estado de escena"){zoomable="yes"}
+![Anular un material de escena, modificarlo y restablecerlo a su estado de escena](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Anular un material de escena, modificarlo y restablecerlo a su estado de escena"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ La acción &quot;Anular material&quot; se puede encontrar en dos lugares:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Omitir material: acción en la ventana gráfica de la vista 3D](../../assets/overrideMaterialActionViewport.png "Omitir material: acción en la ventana gráfica de la vista 3D"){zoomable="yes"}
+![Omitir material: acción en la ventana gráfica de la vista 3D](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Omitir material: acción en la ventana gráfica de la vista 3D"){zoomable="yes"}
 
 *Acción en la ventana gráfica de la vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Omitir material: acción en el menú &#39;Materiales&#39;](../../assets/overrideMaterialActionMaterials.png "Omitir material: acción en el menú &#39;Materiales&#39;"){zoomable="yes"}
+![Omitir material: acción en el menú &#39;Materiales&#39;](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "Omitir material: acción en el menú &#39;Materiales&#39;"){zoomable="yes"}
 
 *Acción en el menú Materiales*
 
@@ -119,21 +119,21 @@ La acción se puede encontrar en tres lugares:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Restablecer el material al estado de la escena: acción en la ventana gráfica de &#39;Vista 3D&#39;](../../assets/resetMaterialToSceneStateActionViewport.png "Restablecer el material al estado de la escena: acción en la ventana gráfica de &#39;Vista 3D&#39;"){zoomable="yes"}
+![Restablecer el material al estado de la escena: acción en la ventana gráfica de &#39;Vista 3D&#39;](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "Restablecer el material al estado de la escena: acción en la ventana gráfica de &#39;Vista 3D&#39;"){zoomable="yes"}
 
 *Acción en la ventana gráfica de la vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Restablecer el material al estado de escena: acción en el menú &#39;Materiales&#39;](../../assets/resetMaterialToSceneStateActionMaterials.png "Restablecer el material al estado de escena: acción en el menú &#39;Materiales&#39;"){zoomable="yes"}
+![Restablecer el material al estado de escena: acción en el menú &#39;Materiales&#39;](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "Restablecer el material al estado de escena: acción en el menú &#39;Materiales&#39;"){zoomable="yes"}
 
 *Acción en el menú Materiales*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Restablecer el material al estado de la escena: acción en el conjunto acoplado &quot;Propiedades&quot;](../../assets/resetMaterialToSceneStateActionProps.png "Restablecer el material al estado de la escena: acción en el conjunto acoplado &quot;Propiedades&quot;"){zoomable="yes"}
+![Restablecer el material al estado de la escena: acción en el conjunto acoplado &quot;Propiedades&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "Restablecer el material al estado de la escena: acción en el conjunto acoplado &quot;Propiedades&quot;"){zoomable="yes"}
 
 *Acción en las propiedades del material*
 
@@ -152,7 +152,7 @@ Abra el menú hamburguesa de la propiedad de material para buscar la acción &qu
 </td>
 <td style="border: 0;" valign="top">
 
-![Restablecer al estado de escena: acción en propiedades de material](../../assets/resetPropertyToSceneStateAction.png "Restablecer al estado de escena: acción en propiedades de material"){zoomable="yes"}
+![Restablecer al estado de escena: acción en propiedades de material](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "Restablecer al estado de escena: acción en propiedades de material"){zoomable="yes"}
 
 </td>
 </tr>
@@ -166,10 +166,10 @@ Por otro lado, Designer tiene *su propia* lista de materiales por separado en su
 
 Este es un conjunto de datos *diferente* que solo se crea y administra en Designer. Estos materiales están entonces *conectados a las copias*, que anulan los materiales originales de la escena.
 
-![Materiales de reemplazo: esquema de datos](../../assets/overridingMaterialsSchematic.png "Materiales de reemplazo: esquema de datos"){zoomable="yes"}
+![Materiales de reemplazo: esquema de datos](overriding-scene-materials.resources/overridingMaterialsSchematic.png "Materiales de reemplazo: esquema de datos"){zoomable="yes"}
 
 Puede conectar cualquiera de los materiales enumerados en el menú &quot;Materiales&quot; a las copias creadas por Designer en la escena: Haga clic en RMB en una copia en el navegador de escenas y vaya al submenú &quot;Conectar material&quot;.
 
 El submenú enumera todos los materiales de la escena y cualquier material que haya creado manualmente desde el menú &quot;Materiales&quot;.
 
-![Conectar materiales](../../assets/connectMaterials.gif "Conectar materiales"){zoomable="yes"}
+![Conectar materiales](overriding-scene-materials.resources/connectMaterials.gif "Conectar materiales"){zoomable="yes"}

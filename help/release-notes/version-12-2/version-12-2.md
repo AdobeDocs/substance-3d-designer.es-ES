@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Fecha de publicación: *19 de julio de 2022*
 
-![](../../assets/final3.png)
+![](version-12-2.resources/final3.png)
 
 ## Funciones principales
 
@@ -32,20 +32,20 @@ Fecha de publicación: *19 de julio de 2022*
 
 La versión 12.2 de Designer es la primera con el soporte nativo completo de los nuevos equipos Apple basados en el chip M1. Aunque Designer podía ejecutarse técnicamente en dispositivos con Apple Silicon anteriormente, la compatibilidad nativa le ofrecerá una experiencia más rápida y eficaz. Como puedes ver en la imagen siguiente, los cálculos son *hasta dos veces más rápidos* con esta nueva versión en estos equipos.
 
-![](../../assets/ds-perf-applem1.png){width="600px"}
+![](version-12-2.resources/ds-perf-applem1.png){width="600px"}
 
 ### Mejoras en los gráficos de modelos de Substance
 
 * <b>Información sobre herramientas en nodos\
-  </b>No siempre es posible explicar lo que hace un nodo con un solo icono y un título, por eso ahora tenemos información sobre herramientas con una *descripción completa del nodo* cuando estás en la biblioteca o en la vista de gráficos. Le ayudará a encontrar el nodo que está buscando o a entender mejor cuáles son sus capacidades. ![](../../assets/tootlipnode.png)
+  </b>No siempre es posible explicar lo que hace un nodo con un solo icono y un título, por eso ahora tenemos información sobre herramientas con una *descripción completa del nodo* cuando estás en la biblioteca o en la vista de gráficos. Le ayudará a encontrar el nodo que está buscando o a entender mejor cuáles son sus capacidades. ![](version-12-2.resources/tootlipnode.png)
 
 * <b>Métodos abreviados para la creación de nodos\
-  </b>Para acelerar la creación de los nodos más utilizados, ahora puede definir sus propios métodos abreviados en Preferencias, como para los otros tipos de gráficos.![](../../assets/shorcuts.png)
+  </b>Para acelerar la creación de los nodos más utilizados, ahora puede definir sus propios métodos abreviados en Preferencias, como para los otros tipos de gráficos.![](version-12-2.resources/shorcuts.png)
 
 * <b>Vista previa del nodo desde el menú contextual del nodo\
   </b>En nuestra última versión, hemos añadido la posibilidad de obtener una vista previa de un nodo en la Vista 3D gracias a un método abreviado de teclado (*MAYÚS + Clic* en un nodo). Esta característica ahora también está disponible en el *menú contextual del nodo* para que sea más detectable.
 
-  ![](../../assets/previewnode.gif){width="600px"}
+  ![](version-12-2.resources/previewnode.gif){width="600px"}
 * <b>Búsqueda basada en la compatibilidad de nodos\
   </b>Cuando busca un nodo en el menú del nodo (accesible presionando *barra espaciadora* en la vista de gráficos), los nodos ahora se filtran correctamente para mostrar solo los que son *compatibles con el que está seleccionado* en el gráfico. Le ayuda a encontrar rápidamente el nodo que está buscando.
 
@@ -59,7 +59,7 @@ La versión 12.2 de Designer es la primera con el soporte nativo completo de los
 * <b>Plantilla CLO</b>\
   Para mejorar la interoperabilidad con el software CLO, hemos añadido una *nueva plantilla dedicada*. Añadirá automáticamente a tu gráfico todos los *metadatos* necesarios para importar correctamente tu material en CLO.
 
-  ![](../../assets/clo.png){width="600px"}
+  ![](version-12-2.resources/clo.png){width="600px"}
 
 * <b>Requisitos de la plataforma de referencia de VFX</b>\
   Cada año, la plataforma de referencia VFX publica una lista de herramientas y bibliotecas de versiones que se utilizarán en todos los programas para la industria de VFX para minimizar las incompatibilidades entre los programas. Como de costumbre, *actualizamos todas nuestras dependencias* para respetar todas estas recomendaciones.
@@ -116,7 +116,7 @@ La versión 12.2 de Designer es la primera con el soporte nativo completo de los
 * [UI] Las barras de herramientas no se ven afectadas por la opción Restablecer diseño
 * [UI] Cuadrícula de transparencia visible en el icono de recurso de fuente en el Explorador
 * [Cooker] Los gráficos de Substance que aparecen en el gráfico MDL siempre se vuelven a guardar por completo
-* [Graph] Bloqueo al pegar un nodo copiado de un gráfico con identificador en blanco
+* [Graph] Bloqueo al pegar un nodo copiado de un gráfico con un identificador en blanco
 * [MDL] Bloqueo al cerrar un gráfico MDL específico
 * [Performance] La aplicación no responde cuando se cargan paquetes muy grandes
 * [Resources] Los recursos de escena 3D se pueden importar en un caso específico

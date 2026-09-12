@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Fecha de publicación: 30 de julio de 2024*
 
-![](../../assets/2024-BannerRN.png)
+![](version-14-0.resources/2024-BannerRN.png)
 
 ## Nuevo contenido
 
@@ -32,9 +32,9 @@ Esta versión 14.0 trae mucho contenido nuevo con los nuevos nodos que se enumer
 
 * <b>Nodos dedicados a la manipulación de color: </b>un nodo <b>(</b>[Cuantificar color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>a<b> </b>reduce el número de colores de una imagen y extrae una paleta de ella, una familia de nodos de herramientas para crear tu propia paleta de colores ([Ver](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Crear](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modificar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>paleta de colores) y una para aplicarla a otra imagen mediante un mapa de ID ([Aplicar paleta de colores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). También encontrarás el nodo [ID para enmascarar escala de grises](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) para convertir tu mapa de ID —calculado por cuantificar color— en una máscara de escala de grises. Con este conjunto completo de nodos, tiene todo lo que necesita para crear efectos de estilización con colores.
 
-![](../../assets/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/GIF2_2.gif){zoomable="yes"}
 
-![Cuantificar color 2](../../assets/GIF3_2.gif){zoomable="yes"}
+![Cuantificar color 2](version-14-0.resources/GIF3_2.gif){zoomable="yes"}
 
 * <b>Filtro de Kuwahara</b>: si quieres ir más allá con la estilización, puedes generar algunos efectos pictóricos gracias a los filtros [Anisotropic Kuwahara color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [escala de grises](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). En los detalles, aplica un desenfoque direccional anisotrópico que se ajusta a los detalles de la imagen. El resultado es una imagen que parece fluir en la dirección de las formas que contiene.
 
@@ -56,11 +56,11 @@ Curvatura suave
 <table>
   <tr>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="version-14-0.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="version-14-0.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ Ecualización del histograma
 <table>
   <tr>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ Suavizado de bisel
 <table>
   <tr>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
+      <img src="version-14-0.resources/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
+      <img src="version-14-0.resources/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ Normal descombinar
 <table>
   <tr>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ Normal descombinar
 
 * <b>Vista 2D: </b>si la visualización en mosaico está habilitada en la [vista 2D](../../interface/2d-view/2d-view.md), ahora puedes obtener valores incluso para los píxeles que no están en el mosaico original: ayuda mucho comprobar [muestreo](../../glossary/glossary.md) y las transiciones de valores entre los mosaicos.
 
-![vista 2d](../../assets/2dview.gif){width="320px" zoomable="yes"}
+![vista 2d](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 
 * <b>Mapa de degradado</b>: usa el botón central del ratón para desplazar todas las [teclas de degradado](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) hacia la izquierda o la derecha (y así conservar todos los espacios entre todas las teclas).
 * <b>Parámetros</b>: para insertar funciones personalizadas a través de parámetros, ahora puede utilizar el widget de función Editar. Es una solución eficaz para crear herramientas personalizadas en las que desea controlar parámetros mediante un [gráfico de funciones de Substance](../../function-graphs/the-function-graph/the-function-graph.md).
@@ -146,12 +146,12 @@ Normal descombinar
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Editar función](../../assets/functionedit.png){zoomable="yes"}
+![Editar función](version-14-0.resources/functionedit.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editar función 2](../../assets/functionedit2.png){zoomable="yes"}
+![Editar función 2](version-14-0.resources/functionedit2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -230,16 +230,16 @@ Tenga en cuenta que estas actualizaciones tienen dos consecuencias principales:
 ### Correcciones
 
 * [Bakers] Bloqueo al retocar una escena cuyo nombre de archivo se ha cambiado
-* [Bakeres] Bloqueo al guardar bakeres preestablecidos en Archivo JSON
+* [Bakers] Bloqueo al guardar el ajuste preestablecido de bakers en un archivo JSON
 * [Content] &#39;Dispersión en spline&#39;: Exponer parámetro alfa de imagen de entrada
 * [Contenido] &#39;Color del Sampler de mosaico&#39;: falta la expresión visibleif
 * [Contenido] Ruido anisotrópico: valor negativo para la cantidad X/Y produce un resultado incorrecto
 * [Contenido] Ruido anisotrópico: Problema de segmentación al utilizar un valor impar como cantidad X y sin smoothness
 * [Content] Función de distribución normal: una posición incorrecta de max() puede provocar NaN
 * [Contenido] Las sombras TRAO, Bent Normal y RT no funcionan correctamente en algunas plataformas
-* [Contenido] Color de Fusión de salpicaduras de formas: Los mapas de normales de OpenGL no se fusionan correctamente
+* [Contenido] Color de fusión de salpicaduras de formas: Los mapas normales de OpenGL no se mezclan correctamente
 * [Contenido] Espacio injustificado después del prefijo &quot;Multi&quot; en las etiquetas de nodo
-* [Dependencias] Bloqueo al mover el gráfico dentro de los paquetes o entre ellos
+* [Dependencies] Bloqueo al mover un gráfico dentro de un paquete o entre paquetes
 * [Motor] Error de precisión en nodos de deformación que afectan a los nodos de desenfoque de Pendiente
 * [Motor] La capa SBSAR en SD no puede leer SBSAR con contenido SBSASM > 2 GB
 * [Gráfico de funciones] Resultado incorrecto para 0^n
@@ -252,7 +252,7 @@ Tenga en cuenta que estas actualizaciones tienen dos consecuencias principales:
 * [Seguridad] Vulnerabilidad de escritura fuera de límites del análisis ICO
 * [Security] Anular el uso de algún formato de imagen
 * [Parámetros] La ruta del recurso PKG de mapa de bits no debe poder editarse
-* [Parámetros] Se han solucionado los problemas relacionados con la exposición/exposición por lotes del parámetro de un procesador de valor.
+* [Parámetros] Se han solucionado problemas relacionados con la exposición por lotes del parámetro de un procesador de valores
 * [Parámetros] Los parámetros de cadena se omiten al exponer lotes
 * [Propiedades] Problema de rendimiento al editar un gráfico de funciones con instancias múltiples con propiedades abiertas
 * [SVG] Las ediciones de formas no se aplican en imágenes rasterizadas

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Herramientas de edición de vectores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -30,14 +30,14 @@ Esta página describe las herramientas de edición disponibles en el panel [vist
 
 El panel [vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) ofrece herramientas básicas de edición de vectores que te permiten crear o editar gráficos vectoriales *manualmente* directamente en [Substance 3D Designer](https://www.adobe.com/es/products/substance3d-designer.html). Estas herramientas son especialmente útiles, por ejemplo, para crear rápidamente *máscaras* o *patrones*.
 
-Las herramientas admiten la entrada de lápiz. Para aprovechar las pantallas de lápiz, puedes [desacoplar](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) el panel [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) y, a continuación, colocarlo y redimensionarlo en cualquier configuración que te resulte más cómoda para pintar.
+Las herramientas admiten la entrada de lápiz. Para aprovechar las pantallas de lápiz, puedes [desacoplar](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) el panel de la [vista en 2D](https://docs.substance3d.com/display/SDDOC/2D+view) y, a continuación, colocarlo y redimensionarlo en cualquier configuración que te resulte más cómoda para pintar.
 
 Las ediciones se pueden *deshacer individualmente* y todas las demás características del panel vista 2D están *disponibles* mientras editas la imagen vectorial, como el panel [Histograma](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Histogram), la [visualización en mosaico](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Viewport) y la [imagen de fondo](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Backgroundimage).
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/2dview-vectorediting-main.png){width="512px"}
+![](vector-editing-tools.resources/2dview-vectorediting-main.png){width="512px"}
 
 </td>
 </tr>
@@ -51,27 +51,27 @@ Las ediciones se pueden *deshacer individualmente* y todas las demás caracterí
 
 >[!IMPORTANT]
 >
-> Puede pintar *solo* en *recursos de gráficos vectoriales[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de* 8 bits que son [nuevos o importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
+> Puede realizar la pintura *solo* en *recursos [gráfico vectorial](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de 8 bits* que son [nuevos o importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
 
-![Cuadro de diálogo Nuevo recurso SVG](../../../assets/2dview-new-vector-image.png "Cuadro de diálogo Nuevo recurso SVG"){width="512px"}
+![Cuadro de diálogo Nuevo recurso SVG](vector-editing-tools.resources/2dview-new-vector-image.png "Cuadro de diálogo Nuevo recurso SVG"){width="512px"}
 
 ## Activación de las herramientas de edición de vectores
 
-Las herramientas de edición vectorial se habilitarán automáticamente en el panel [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) cuando se cumplan los siguientes criterios con respecto a una imagen de gráficos vectoriales:
+Las herramientas de edición de vectores se habilitarán automáticamente en el panel [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) cuando se cumplan los siguientes criterios con respecto a una imagen de gráficos vectoriales:
 
 * La imagen de gráficos vectoriales es un recurso [nuevo o importado](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)
-* El mapa de bits se muestra en el panel [vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view)
+* El mapa de bits se muestra en el panel [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view)
 
-Las imágenes de gráficos vectoriales *New* se pueden crear de las siguientes maneras:
+Las imágenes de *nuevos* gráficos vectoriales se pueden crear de las siguientes maneras:
 
-* En el panel [Explorer](https://docs.substance3d.com/display/SDDOC/The+Explorer+Window), haz clic en RMB en un *paquete SBS* o en una *carpeta* dentro de un paquete para abrir su menú contextual, luego abre el submenú **New** y selecciona la opción **SVG**
+* En el panel [Explorador](https://docs.substance3d.com/display/SDDOC/The+Explorer+Window), haz clic en RMB en un *paquete SBS* o en una *carpeta* dentro de un paquete para abrir su menú contextual, luego abre el submenú **Nuevo** y selecciona la opción **SVG**
 * En un [gráfico](https://docs.substance3d.com/display/SDDOC/The+Graph+view), cree un [nodo SVG](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) y seleccione el nuevo recurso **De...Opción** en el menú contextual
 
-Se abrirá la ventana **Nuevos datos vectoriales**, que te permitirá establecer el *nombre* y la *resolución* del nuevo recurso de gráficos vectoriales.
+Se abrirá la ventana **Nuevos datos vectoriales**, que te permitirá establecer el *nombre* y la *resolución* del nuevo recurso gráficos vectoriales.
 
 >[!TIP]
 >
-> Para obtener el mejor rendimiento con las herramientas de edición vectorial, se recomienda utilizar imágenes de gráficos vectoriales con resoluciones que sean *potencias de dos*, por ejemplo 128, 256, 512, 1024, ...
+> Para obtener el mejor rendimiento con las herramientas de edición vectorial, se recomienda utilizar imágenes de gráficos vectoriales con resoluciones que sean *potencias de dos*, por ejemplo, 128, 256, 512, 1024, ...
 
 ### Exportación de gráficos vectoriales desde otro software
 
@@ -87,7 +87,7 @@ Para obtener la mejor compatibilidad y confiabilidad en Designer y sus herramien
 Los usuarios de **Adobe Illustrator** pueden consultar la imagen adjunta para ver la configuración de exportación del SVG *recomendada.*
 
 +++Opciones de exportación de Adobe Illustrator
-![Opciones de exportación de Illustrator para el SVG](../../../assets/demo-svg.png "Opciones de exportación de Illustrator para el SVG")
+![Opciones de exportación de Illustrator para el SVG](vector-editing-tools.resources/demo-svg.png "Opciones de exportación de Illustrator para el SVG")
 
 
 
@@ -95,11 +95,11 @@ Los usuarios de **Adobe Illustrator** pueden consultar la imagen adjunta para ve
 
 >[!NOTE]
 >
-> Para obtener más información sobre las limitaciones de los SVG, la exportación desde otras propiedades de software y SVG en Designer, consulta la sección [Recursos de gráficos vectoriales (SVG)](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
+> Para obtener más información sobre las limitaciones de los SVG, la exportación desde otro software y propiedades de SVG en Designer, consulta la sección [Recursos (SVG) de Gráficos vectoriales](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
 ## Herramientas
 
-Las herramientas y opciones de pintura están organizadas en *barras de herramientas* dentro del panel [Vista en 2D](https://docs.substance3d.com/display/SDDOC/2D+view). Estas barras de herramientas se pueden reubicar en *cualquier lado* del panel o como *barra de herramientas flotante*, haciendo clic y manteniendo presionada la tecla **LMB** en su *controlador*, que se muestra como una línea triple, y luego liberando **LMB** en la ubicación deseada.
+Las herramientas y opciones de pintura están organizadas en *barras de herramientas* dentro del panel [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view). Estas barras de herramientas se pueden reubicar en *cualquier lado* del panel o como *barra de herramientas flotante*, haciendo clic y manteniendo presionada la tecla **LMB** en su *controlador*, que se muestra como una línea triple, y luego liberando **LMB** en la ubicación deseada.
 
 Se muestran dos barras de herramientas cuando las herramientas de edición vectorial están activadas:
 
@@ -109,7 +109,7 @@ Se muestran dos barras de herramientas cuando las herramientas de edición vecto
 Los métodos abreviados de teclado le permiten acceder a las herramientas rápidamente y se marcan entre paréntesis después del nombre de la herramienta o función:
 
 +++Selección de color
-La **selección de color** de ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) *miniaturas* te permite definir un color de *relleno* y *contorno* para las formas vectoriales. Puede abrir el **Editor de color** para cada uno de estos colores de las siguientes maneras:
+La **selección de color** de ![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-secondary.png) *miniaturas* te permite definir un color de *relleno* y *contorno* para las formas vectoriales. Puede abrir el **Editor de color** para cada uno de estos colores de las siguientes maneras:
 
 * **Color de relleno:** Haz clic en la miniatura de color de *relleno* (superior) o haz doble clic en LMB en el lienzo
 
@@ -122,11 +122,11 @@ Si el color actual del *contorno* es *negro*, es decir, luminancia 0 o RGB (0, 0
 +++
 
 +++Transformación
-![Herramienta de transformación](../../../assets/2dview-vectorediting-transformation.png "Herramienta de transformación"){width="512px"}
+![Herramienta de transformación](vector-editing-tools.resources/2dview-vectorediting-transformation.png "Herramienta de transformación"){width="512px"}
 
 
 
-La herramienta ![](../../../assets/2dview-vectorediting-icon-transformation.png) <b>Transformation</b> (<b>V</b>) puede seleccionar formas que se incluirán en un gizmo de transformación. Este gizmo le permite realizar las siguientes acciones:
+La herramienta ![](vector-editing-tools.resources/2dview-vectorediting-icon-transformation.png) <b>Transformation</b> (<b>V</b>) puede seleccionar formas que se incluirán en un gizmo de transformación. Este gizmo le permite realizar las siguientes acciones:
 
 <b>Mover</b>: Mantén pulsado LMB *dentro* del gizmo
 
@@ -137,11 +137,11 @@ La herramienta ![](../../../assets/2dview-vectorediting-icon-transformation.png)
 +++
 
 +++Nodo
-![Herramienta Nodo](../../../assets/2dview-vectorediting-node.png "Herramienta Nodo"){width="512px"}
+![Herramienta Nodo](vector-editing-tools.resources/2dview-vectorediting-node.png "Herramienta Nodo"){width="512px"}
 
 
 
-La herramienta ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Node</b> (<b>A</b>) le permite seleccionar vértices individuales (es decir, nodos) de la forma seleccionada y editar su posición y sus controles, así como agregar y quitar vértices. Una vez seleccionada una forma, se pueden realizar las siguientes acciones:
+La herramienta ![](vector-editing-tools.resources/2dview-vectorediting-icon-node.png) <b>Node</b> (<b>A</b>) le permite seleccionar vértices individuales (es decir, nodos) de la forma seleccionada y editar su posición y sus controles, así como agregar y quitar vértices. Una vez seleccionada una forma, se pueden realizar las siguientes acciones:
 
 <b>Agregar vértice:</b> Ctrl+LMB en el contorno de la forma
 
@@ -160,11 +160,11 @@ La herramienta ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Node</
 +++
 
 +++Forma
-![Herramienta Forma](../../../assets/2dview-vectorediting-main.png "Herramienta Forma"){width="512px"}
+![Herramienta Forma](vector-editing-tools.resources/2dview-vectorediting-main.png "Herramienta Forma"){width="512px"}
 
 
 
-La herramienta ![](../../../assets/2dview-vectorediting-icons-shape.png) <b>Formas</b> (<b>M</b>) ofrece un conjunto de formas primitivas, utilizando el color *fill* actual, que se puede crear y editar:
+La herramienta ![](vector-editing-tools.resources/2dview-vectorediting-icons-shape.png) <b>Formas</b> (<b>M</b>) ofrece un conjunto de formas primitivas, utilizando el color *fill* actual, que se puede crear y editar:
 
 * <b>Rectángulo;</b>
 
@@ -179,11 +179,11 @@ Para dibujar un objeto primitivo, mantén <b>LMB</b> en cualquier parte del lien
 +++
 
 +++Pluma
-![Herramienta Pluma](../../../assets/2dview-vectorediting-pen.png "Herramienta Pluma"){width="512px"}
+![Herramienta Pluma](vector-editing-tools.resources/2dview-vectorediting-pen.png "Herramienta Pluma"){width="512px"}
 
 
 
-La herramienta ![](../../../assets/2dview-vectorediting-icon-pen.png) <b>Pluma</b> (<b>P</b>) te permite dibujar una nueva forma personalizada, usando el color *de relleno* actual. Hay dos modos disponibles:
+La herramienta ![](vector-editing-tools.resources/2dview-vectorediting-icon-pen.png) <b>Pluma</b> (<b>P</b>) te permite dibujar una nueva forma personalizada, usando el color *de relleno* actual. Hay dos modos disponibles:
 
 En el modo <b>Ruta </b>, la forma se dibuja *un vértice cada vez*. Están disponibles los siguientes controles:
 
@@ -208,17 +208,17 @@ Los vértices se *colocan automáticamente* a lo largo del trazo para que la rut
 +++
 
 +++Extrusión
-![Herramienta de extrusión](../../../assets/2dview-vectorediting-extrude.png "Herramienta de extrusión"){width="512px"}
+![Herramienta de extrusión](vector-editing-tools.resources/2dview-vectorediting-extrude.png "Herramienta de extrusión"){width="512px"}
 
 
 
-La herramienta ![](../../../assets/2dview-vectorediting-icon-extrude.png) **Extruir** (E) *agrega* una forma de *diámetro de conjunto*, dibujada a lo largo de una ruta usando el *modo de dibujo* seleccionado, y aplica el resultado en el lienzo siguiendo el *modo de combinación* establecido en la barra de herramientas de opciones.
+La herramienta ![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude.png) **Extruir** (E) *agrega* una forma de *diámetro de conjunto*, dibujada a lo largo de una ruta usando el *modo de dibujo* seleccionado, y aplica el resultado en el lienzo siguiendo el *modo de combinación* establecido en la barra de herramientas de opciones.
 
 Están disponibles los siguientes *modos de dibujo*:
 
-![](../../../assets/2dview-vectorediting-icon-extrude-freeformpng.png) **Forma libre**: dibuja la forma *directamente arrastrando* el lápiz por el lienzo mientras sujeta LMB. La forma se agrega cuando finaliza el trazo.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-freeformpng.png) **Forma libre**: dibuja la forma *directamente arrastrando* el lápiz por el lienzo mientras sujeta LMB. La forma se agrega cuando finaliza el trazo.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-polygonal.png) **Poligonal**: dibuja la forma *una cara cada vez* haciendo clic en LMB para agregar un ángulo. La forma se agrega al presionar la tecla Intro.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-polygonal.png) **Poligonal**: dibuja la forma *una cara cada vez* haciendo clic en LMB para agregar un ángulo. La forma se agrega al presionar la tecla Intro.
 
 La forma dibujada se puede controlar mediante estos parámetros:
 
@@ -228,19 +228,19 @@ La forma dibujada se puede controlar mediante estos parámetros:
 
 Una vez completado el dibujo, la forma se agrega y se combina con la forma seleccionada actualmente mediante uno de estos *modos de combinación* disponibles:
 
-![](../../../assets/2dview-vectorediting-icon-extrude-nomerge.png) **No se combina**: La forma se dibuja *encima* de la forma seleccionada como *objeto independiente*.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-nomerge.png) **No se combina**: La forma se dibuja *encima* de la forma seleccionada como *objeto independiente*.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-union.png) **Unión**: La forma se *agregó* a la forma seleccionada.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-union.png) **Unión**: La forma se *agregó* a la forma seleccionada.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-subtract.png) **Resta**: La forma está *recortada* de la forma seleccionada.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-subtract.png) **Resta**: La forma está *recortada* de la forma seleccionada.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-intersection.png) **Intersección**: Solo quedan las *partes superpuestas* de la forma nueva y la seleccionada.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-intersection.png) **Intersección**: Solo quedan las *partes superpuestas* de la forma nueva y la seleccionada.
 
 +++
 
 ## Operaciones de forma
 
-![Operaciones de formas](../../../assets/2dview-vectorediting-shape-operations.png "Operaciones de formas"){width="512px"}
+![Operaciones de formas](vector-editing-tools.resources/2dview-vectorediting-shape-operations.png "Operaciones de formas"){width="512px"}
 
 Además de las herramientas enumeradas anteriormente, se pueden realizar varias operaciones en *formas seleccionadas*, utilizando el menú contextual disponible al hacer clic en RMB. Estas operaciones casi todas tienen un método abreviado de teclado (entre paréntesis a continuación) y se organizan en las siguientes categorías:
 

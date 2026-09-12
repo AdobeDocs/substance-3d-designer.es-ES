@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer 15.1 ofrece una ventana de creación de gráficos completamen
 
 *Fecha de publicación: 11 de diciembre de 2025*
 
-![Banner de Designer 15.1](../../assets/bannerweb.png)
+![Banner de Designer 15.1](version-15-1.resources/bannerweb.png)
 
 ## Mejora de la creación de gráficos
 
@@ -36,13 +36,13 @@ Aunque la interfaz principal se ha actualizado, los usuarios siguen teniendo acc
 
 [Más información](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![rediseñar nueva ventana de gráfico](../../assets/newgraph.png){zoomable="yes"}
+![rediseñar nueva ventana de gráfico](version-15-1.resources/newgraph.png){zoomable="yes"}
 
 ## Muestras incrustadas
 
 Con el lanzamiento de nuestra ventana de creación de gráficos rediseñada, hemos agregado una variedad de [<b>materiales de muestra</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directamente dentro del software. Esta mejora responde a su solicitud de un mejor acceso a los recursos de aprendizaje.
 
-![Nueva ventana de creación de gráficos para las muestras](../../assets/GraphSample.png){zoomable="yes"}
+![Nueva ventana de creación de gráficos para las muestras](version-15-1.resources/GraphSample.png){zoomable="yes"}
 
 Para satisfacer esta necesidad hemos incluido muestras de materiales tales como telas (incluyendo cuero y satén), madera, metal, plástico, cerámica y más. Estos ejemplos están pensados para ayudarle a iniciar sus proyectos con facilidad y familiarizarse con los principales nodos de la familia disponibles en Substance 3D Designer
 
@@ -54,7 +54,7 @@ Junto con estos materiales fundamentales, también proporcionamos <b>ejemplos av
 
 [Más información](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![muestra de madera en substance designer](../../assets/samplegraph.png){zoomable="yes"}
+![muestra de madera en substance designer](version-15-1.resources/samplegraph.png){zoomable="yes"}
 
 ## Nuevos ruidos
 
@@ -70,7 +70,7 @@ Consulta la lista completa de ruidos actualizados en las [notas de la versión](
 
 Ejemplos:   [Celdas 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nubes 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Arañazos direccionales](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Ruido de humedad 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![ruido de desorden direccional](../../assets/directionaldisorder.gif){zoomable="yes"}
+![ruido de desorden direccional](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
 
 ## Jerarquía en el menú de nodos
 
@@ -82,12 +82,12 @@ El gran número de nodos disponibles puede dificultar la búsqueda rápida del d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![búsqueda de nodos con categoría 1](../../assets/search1-2.png){zoomable="yes"}
+![búsqueda de nodos con categoría 1](version-15-1.resources/search1-2.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![búsqueda de nodos con categoría 2](../../assets/search2.png){zoomable="yes"}
+![búsqueda de nodos con categoría 2](version-15-1.resources/search2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Juegue con la siguiente imagen para ver la diferencia antes y después de la def
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="Con la salida predeterminada, las miniaturas siempre son relevantes.">
+      <img src="version-15-1.resources/defaultouput1.png" alt="Con la salida predeterminada, las miniaturas siempre son relevantes.">
       <br><i>Después De</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 
 [Más información](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Se ha definido el nodo](../../assets/isdefined.png){zoomable="yes"}
+![Se ha definido el nodo](version-15-1.resources/isdefined.png){zoomable="yes"}
 
 ## Notas de la versión
 
@@ -172,12 +172,12 @@ Por ejemplo, detectar la ausencia de una variable permite proporcionar un valor 
 * [Contenido] Nuevo nodo &quot;Ruido de humedad 2&quot;
 * [Contenido] Ruidos: actualizar para agregar el formato de salida predeterminado
 * [Contenido] Ruido de Perlin v2: agregar formato de salida predeterminado, sin compatibilidad con mosaicos
-* [Contenido] Asignador de formas: agregar modo de filtro
-* [Contenido] Mapeador UV: agregar modo de filtro
+* [Contenido] Asignador de formas: agregar modo de filtrado
+* [Contenido] Mapeador UV: agregar modo de filtrado
 * [Contenido] Forma de onda 1 v2: usar formato de salida predeterminado + nuevas opciones
 * [Contenido] Ruido blanco v2: usar formato de salida predeterminado, agregar opciones de distribución
-* [Bakeres] Muestra solo las UV de la malla seleccionada
-* [Bakeres] Añada una opción para seleccionar el método de coincidencia de geometría por nombre
+* [Bakers] Muestra solo las UV de la malla seleccionada
+* [Bakers] Añada una opción para seleccionar el método de coincidencia de geometría por nombre
 * [Panaderos] Seleccione el panadero más cercano cuando se elimine un panadero
 * [Panaderos] UDIM: definir una lista de azulejos UV para hornear
 * [Panaderos] Actualice bake sdk a 3.15.4.

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problemas de horneado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ La coincidencia por nombre no funciona
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>![(error)](../../assets/error.svg) Problema</b>
+<b>![(error)](baking-issues.resources/error.svg) Problema</b>
 
 Cuando la opción &#39;Coincidencia&#39; se establece en &#39;Por nombre de malla&#39;, la coincidencia no parece aplicarse o no de forma coherente en todos los objetos de escena.
 
-<b>![(tick)](../../assets/check.svg) Pasos recomendados</b>
+<b>![(marca)](baking-issues.resources/check.svg) Pasos recomendados</b>
 
 En las versiones 14.1 y anteriores de Designer, los objetos de poli bajo y poli alto se hacían coincidir utilizando el nombre de sus objetos *principales*; en la mayoría de los casos, su transformación principal.
 
@@ -45,7 +45,7 @@ Desde Designer 15.0, el nombre de los objetos *geometry* se usa directamente.
 </td>
 <td style="border: 0;" valign="top">
 
-![Objeto de geometría y su elemento primario en el árbol de escenas](../../assets/sceneTree_objectsName.png "Objeto de geometría y su elemento primario en el árbol de escenas"){zoomable="yes"}
+![Objeto de geometría y su elemento primario en el árbol de escenas](baking-issues.resources/sceneTree_objectsName.png "Objeto de geometría y su elemento primario en el árbol de escenas"){zoomable="yes"}
 
 </td>
 </tr>

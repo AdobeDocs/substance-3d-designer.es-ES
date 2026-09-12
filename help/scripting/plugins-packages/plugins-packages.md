@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Paquetes de complementos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Son archivos individuales con una extensión sdplugin que contiene todo lo que u
 
 ## Instalación de paquetes de complementos
 
-![Administrador de complementos](../../assets/screenshot-from-2019-07-18-11-48-56.png "Administrador de complementos")
+![Administrador de complementos](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "Administrador de complementos")
 
 Los paquetes de complementos se instalan mediante <b>Administrador de complementos</b>, en el menú <b>Herramientas</b>:
 

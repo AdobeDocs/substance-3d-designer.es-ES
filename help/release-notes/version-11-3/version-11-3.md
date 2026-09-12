@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Fecha de publicación: *24 de noviembre de 2021*
 
 ### Nuevas funcionalidades de gráficos de modelos
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/banner-model.jpg)
 
 Se han añadido muchas mejoras al gráfico del modelo para ampliar las capacidades de modelado:
 
@@ -41,7 +41,7 @@ Se han añadido muchas mejoras al gráfico del modelo para ampliar las capacidad
   * Eliminación de partículas
   * Partículas de las instancias
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/particle-pruning.gif)
 
 * <b>Nuevos nodos de modelado y deformación</b>\
   Se han añadido nuevos nodos adicionales para crear formas más complejas; haga clic en cada nodo para obtener más información sobre ellos:
@@ -59,7 +59,7 @@ Se han añadido muchas mejoras al gráfico del modelo para ampliar las capacidad
 
 ### Interoperabilidad mejorada
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/banner-sendto.jpg)
 
 Las acciones de envío se han ampliado, con dos nuevas posibilidades:
 
@@ -71,24 +71,24 @@ Las acciones de envío se han ampliado, con dos nuevas posibilidades:
 
 ### Miscelánea
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/banner-misc-3.jpg)
 
 Se han hecho varias mejoras en la calidad de vida:
 
 * **Entradas relativas a las entradas**\
   Las entradas de gráficos establecidas en Relativo a entradas ahora heredarán el tamaño del nodo conectado en lugar del tamaño del gráfico principal predeterminado. Esto facilita la administración de diferentes resoluciones mediante entradas de diferentes tamaños.
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
 
 * **Nueva ventana de gráfico**\
   La nueva ventana gráfica se ha rediseñado y ahora permite ver mejor los detalles de una plantilla específica y crear una nueva gráfica directamente en un paquete existente.
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/new-graph.png){width="400px"}
 
 * **Cerrar todos los paquetes**\
   Una pequeña acción que hace menos tedioso administrar muchos paquetes en el explorador. Use **Archivo** > **Cerrar todos** para cerrar todos los paquetes abiertos actualmente.
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/close-all-packages.png)
 
 * **Maximizar vista actual**\
   Use la nueva barra de título **icon** o el método abreviado **MAYÚS+Espacio** para expandir una ventana a pantalla completa. Esto también se puede usar en ventanas flotantes.
@@ -98,16 +98,16 @@ Se han hecho varias mejoras en la calidad de vida:
 
 ### Contenido
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/render-content.jpg)
 
 Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderización PBR:
 
 * <b>Nodos de difusión</b>\
   Los nuevos nodos Color de difusión, Escala de grises de difusión y UV de difusión permiten generar desenfoques de sangrado suaves basados en una máscara de entrada.
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
 
 * **Nodo de Renderización PBR mejorado**\
   Este nodo tuvo los siguientes cambios:
@@ -160,8 +160,8 @@ Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderi
 * [Vista 3D] Añada una opción para mostrar el espacio de tangente de vértices
 * [Explorador] Resalte el gráfico en el Explorador al hacer doble clic en el fondo de la vista de gráfico
 * [Explorer] Quitar la opción &quot;Explorar&quot; en los menús contextuales
-* [Bakeres] Ocultar bakeres obsoletos
-* [Gestión de color] Añadir compatibilidad con las reglas de archivo de configuración de OCIO v2
+* [Panaderos] Ocultar panaderos obsoletos
+* [Gestión de color] Añadir compatibilidad con las reglas del archivo de configuración de OCIO v2
 * [Biblioteca] Cambiar el nombre de las categorías según los tipos de gráficos
 * [Preferencias] Desactive automáticamente la CPU en las preferencias de hardware de Iray si se detecta una GPU CUDA compatible
 
@@ -170,10 +170,10 @@ Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderi
 * [Modelos de Substance] Bloqueo en Mac al utilizar la opción &quot;as sudb&quot; en .fbx
 * [Modelos de Substance] Bloqueo al exportar a SBSM en un caso específico
 * [Modelos de Substance] Error de exportación al exportar parámetros expuestos cuyos widgets nunca se han creado
-* [Modelos de Substance] bloqueo aleatorio al abrir un gráfico que hace referencia a varios archivos .fbx
+* [Modelos de Substance] Bloqueo aleatorio al abrir un gráfico que hace referencia a varios archivos .fbx
 * [Modelos de Substance] Los rangos no se aplican dinámicamente en los widgets de los parámetros expuestos
 * [Modelos de Substance] La opción Volver a cargar malla no funciona en los recursos utilizados en el gráfico de modelos de Substance
-* [Modelos de Substance] Las escenas no se muestran en una Vista 3D disponible en un caso específico
+* [Modelos de Substance] Las escenas no se muestran en una vista 3D disponible en un caso específico
 * [UI] El área de desactivación es demasiado grande en las opciones de material
 * [UI] Problema de estilo en el cuadro de diálogo &quot;Archivo de paquete no guardado&quot;
 * [UI] La tecla de tabulación se debe presionar dos veces para desplazarse por los valores

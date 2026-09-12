@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Control
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65827855542d37bf8c090d4d3072684848b73515
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Esta página describe nodos de [Gráficos de funciones](../../../../function-gra
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo If...Else](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nodo If...Else")
+![Nodo If...Else](../../../../assets/IfElse_Node.jpg "If...Else node")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ Condición que controla el resultado del nodo.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo de secuencia](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nodo de secuencia")
+![Nodo de secuencia](../../../../assets/Sequence_Node.jpg "Nodo de secuencia")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ La parte del gráfico que se debe calcular en último lugar
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo de bucle entero](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Nodo Bucle entero")
+![Nodo de bucle entero](../../../../assets/WhileLoop-Node.jpg "Nodo de bucle entero")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
