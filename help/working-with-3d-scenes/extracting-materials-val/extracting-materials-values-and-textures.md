@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: Extrae propiedades de materiales de escenas 3D para utilizarlas en gráficos de Substance en los flujos de trabajo de creación de materiales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extracción de valores y texturas de materiales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -44,35 +44,35 @@ Las propiedades de los materiales se pueden extraer para utilizarlas en Substanc
 
 ## Nuevo gráfico a partir de texturas
 
-La acción Crear gráfico a partir de entradas de textura crea un nuevo gráfico de Substance con todas las texturas utilizadas por un material
+La acción &quot;Crear gráfica a partir de entradas de textura&quot; crea una nueva gráfica de Substance con todas las texturas utilizadas por un material
 
 Al utilizar esta acción, ocurren algunas cosas:
 
 * En la ubicación seleccionada se crea un gráfico de Substance con el nombre del material.
-* Se crea un [recurso de mapa de bits](../../resources/bitmap-resource/bitmap-resource.md) para cada textura utilizada por el material, y se coloca en una carpeta con el nombre del material, bajo una carpeta &quot;Resources&quot;.
+* Se crea un [recurso de mapa de bits](../../resources/bitmap-resource/bitmap-resource.md) para cada textura utilizada por el material y se coloca en una carpeta con el nombre del material, en una carpeta &quot;Resources&quot;.
 * En el gráfico, se crean [nodos Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) para cada uno de estos recursos de mapa de bits y se conectan automáticamente a los nodos [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurados después de las propiedades de material mediante texturas.
-* Si se usa cada canal de una misma textura para controlar diferentes propiedades de materiales (la técnica se denomina [empaquetado de canal](../../glossary/glossary.md)), se agregan automáticamente nodos [de conversión en escala de grises](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) para seleccionar los canales apropiados.
+* Si se usa cada canal de una misma textura para controlar diferentes propiedades de materiales (la técnica se denomina [empaquetado de canal](../../glossary/glossary.md)), se agregan automáticamente [nodos de conversión en escala de grises](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) para seleccionar los canales apropiados.
 * El gráfico se conecta automáticamente al material y su aspecto no debe cambiar hasta que no realice modificaciones en el gráfico.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de la &#39;Vista 3D&#39;](../../assets/createGraphFromTexturesActionViewport.png "Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de la &#39;Vista 3D&#39;"){zoomable="yes"}
+![Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de &#39;Vista 3D&#39;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de &#39;Vista 3D&#39;"){zoomable="yes"}
 
-*Acción en la ventana gráfica de la vista 3D*
+*Acción en el puerto de visualización de Vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Crear gráfico a partir de entradas de textura - Acción en el menú &#39;Materiales&#39;](../../assets/createGraphFromTexturesActionMaterials.png "Crear gráfico a partir de entradas de textura - Acción en el menú &#39;Materiales&#39;"){zoomable="yes"}
+![Crear gráfico a partir de entradas de textura - Acción en el menú &#39;Materiales&#39;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionMaterials.png "Crear gráfico a partir de entradas de textura - Acción en el menú &#39;Materiales&#39;"){zoomable="yes"}
 
 *Acción en el menú Materiales*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Crear gráfico a partir de entradas de textura - Acción en el conjunto acoplado &#39;Propiedades&#39;](../../assets/createGraphFromTexturesActionProps.png "Crear gráfico a partir de entradas de textura - Acción en el conjunto acoplado &#39;Propiedades&#39;"){zoomable="yes"}
+![Crear gráfico a partir de entradas de textura - Acción en el conjunto acoplado &#39;Propiedades&#39;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionProps.png "Crear gráfico a partir de entradas de textura - Acción en el conjunto acoplado &#39;Propiedades&#39;"){zoomable="yes"}
 
 *Acción en el conjunto acoplado de propiedades*
 
@@ -80,12 +80,12 @@ Al utilizar esta acción, ocurren algunas cosas:
 </tr>
 </table>
 
-![Resultado de la creación de gráficos a partir de texturas de materiales](../../assets/createGraphFromTexturesResult.png "Resultado de la creación de gráficos a partir de texturas de materiales"){zoomable="yes"}
+![Resultado de la creación de gráficas a partir de texturas de materiales](extracting-materials-values-and-textures.resources/createGraphFromTexturesResult.png "Resultado de la creación de gráficas a partir de texturas de materiales"){zoomable="yes"}
 
 *Resultado de la creación de gráficos a partir de texturas de materiales*
 
 +++Demostración
-![Crear gráfico a partir de entradas de textura - Demostración](../../assets/createGraphFromTextures.gif "Crear gráfico a partir de entradas de textura - Demostración"){zoomable="yes"}
+![Crear gráfico a partir de entradas de textura - Demostración](extracting-materials-values-and-textures.resources/createGraphFromTextures.gif "Crear gráfico a partir de entradas de textura - Demostración"){zoomable="yes"}
 
 
 
@@ -93,7 +93,7 @@ Al utilizar esta acción, ocurren algunas cosas:
 
 >[!TIP]
 >
-> Puedes acceder a la acción de forma rápida y directa en la ventana gráfica de la vista 3D, colocando el cursor sobre el objeto y presionando <b>Mayús+LMB</b> para seleccionarlo. a continuación, haga clic en RMB para acceder a un menú contextual que aloje la acción.
+> Puedes acceder a la acción de forma rápida y directa en la ventana gráfica de Vista 3D, colocando el cursor sobre el objeto y presionando <b>Mayús+LMB</b> para seleccionarlo. a continuación, haga clic en RMB para acceder a un menú contextual que aloje la acción.
 
 >[!NOTE]
 >
@@ -116,14 +116,14 @@ Por ejemplo: Si se extrae una textura para la propiedad &quot;Color base&quot; a
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extraer textura al gráfico - Acción en el muelle Propiedades](../../assets/extractTextureAction.png "Extraer textura al gráfico - Acción en el muelle Propiedades"){zoomable="yes"}
+![Extraer textura al gráfico - Acción en el muelle Propiedades](extracting-materials-values-and-textures.resources/extractTextureAction.png "Extraer textura al gráfico - Acción en el muelle Propiedades"){zoomable="yes"}
 
 Acción para la propiedad de material en el conjunto acoplado Propiedades
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraer textura a gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;](../../assets/extractTextureSelectGraph.png "Extraer textura a gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;"){zoomable="yes"}
+![Extraer textura a gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;](extracting-materials-values-and-textures.resources/extractTextureSelectGraph.png "Extraer textura a gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;"){zoomable="yes"}
 
 Cuadro de diálogo &quot;Seleccionar gráfico de destino&quot;
 
@@ -136,12 +136,12 @@ Cuadro de diálogo &quot;Seleccionar gráfico de destino&quot;
 </tr>
 </table>
 
-![Resultado de la extracción de textura](../../assets/extractTextureResult.png "Resultado de la extracción de textura"){zoomable="yes"}
+![Resultado de la extracción de textura](extracting-materials-values-and-textures.resources/extractTextureResult.png "Resultado de la extracción de textura"){zoomable="yes"}
 
 Resultado de la extracción de la textura
 
 +++Demostración
-![Extraer textura a gráfico - Demostración](../../assets/extractTextureToGraph.gif "Extraer textura a gráfico - Demostración"){zoomable="yes"}
+![Extraer textura a gráfico - Demostración](extracting-materials-values-and-textures.resources/extractTextureToGraph.gif "Extraer textura a gráfico - Demostración"){zoomable="yes"}
 
 
 
@@ -164,40 +164,40 @@ Al utilizar esta acción, ocurren algunas cosas:
 
 Si ya existe una salida configurada para la propiedad de material ** en el gráfico, *no se crean nodos*.
 
-Por ejemplo: Si se extrae un valor para la propiedad &quot;Nivel de Anisotropía&quot; a un gráfico que ya alberga un nodo de salida configurado para &quot;Nivel de Anisotropía&quot;, no se creará ningún nodo en el gráfico.
+Por ejemplo: Si se extrae un valor para la propiedad &quot;Nivel de anisotropía&quot; a un gráfico que ya alberga un nodo de salida configurado para &quot;Nivel de anisotropía&quot;, no se creará ningún nodo en el gráfico.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extraer valor al gráfico - Acción en el muelle Propiedades](../../assets/extractValueAction.png "Extraer valor al gráfico - Acción en el muelle Propiedades"){zoomable="yes"}
+![Extraer valor al gráfico - Acción en el muelle Propiedades](extracting-materials-values-and-textures.resources/extractValueAction.png "Extraer valor al gráfico - Acción en el muelle Propiedades"){zoomable="yes"}
 
 Acción para la propiedad de material en el conjunto acoplado Propiedades
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraer valor al gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;](../../assets/extractValueSelectGraph.png "Extraer valor al gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;"){zoomable="yes"}
+![Extraer valor al gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;](extracting-materials-values-and-textures.resources/extractValueSelectGraph.png "Extraer valor al gráfico: cuadro de diálogo &#39;Seleccionar gráfico de destino&#39;"){zoomable="yes"}
 
 Cuadro de diálogo &quot;Seleccionar gráfico de destino&quot;
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraer valor a gráfico: nodo constante en la función del nodo del procesador de valores](../../assets/extractValueResult2.png "Extraer valor a gráfico: nodo constante en la función del nodo del procesador de valores"){zoomable="yes"}
+![Extraer valor a gráfico: nodo constante en la función del nodo de Procesador de valor](extracting-materials-values-and-textures.resources/extractValueResult2.png "Extraer valor a gráfico: nodo constante en la función del nodo de Procesador de valor"){zoomable="yes"}
 
-Nodo constante en la función del nodo del procesador de valores
+Nodo constante en la función del nodo de Procesador de valor
 
 </td>
 </tr>
 </table>
 
-![Resultado de la extracción del valor](../../assets/extractValueResult.png "Resultado de la extracción del valor"){zoomable="yes"}
+![Resultado de la extracción del valor](extracting-materials-values-and-textures.resources/extractValueResult.png "Resultado de la extracción del valor"){zoomable="yes"}
 
 Resultado de la extracción del valor
 
 +++Demostración
-![Extraer valor al gráfico - Demostración](../../assets/extractValueToGraph.gif "Extraer valor al gráfico - Demostración"){zoomable="yes"}
+![Extraer valor al gráfico - Demostración](extracting-materials-values-and-textures.resources/extractValueToGraph.gif "Extraer valor al gráfico - Demostración"){zoomable="yes"}
 
 
 

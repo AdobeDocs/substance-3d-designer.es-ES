@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 11.2 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versión 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Hay disponible un tipo de gráfico completamente nuevo, el gráfico del modelo d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Se trata de una primera versión, por lo que debe esperar algunas limitaciones.
 
 Las versiones de Adobe de Substance 3D Designer tienen la nueva funcionalidad Enviar a , que le permite enviar recursos a otras aplicaciones de Substance 3D rápidamente. Ya no es necesario publicar como SBSAR y cargar archivos individuales, Enviar a resuelve esto con un solo clic.
 
-![](../../assets/sendto-button.gif)
+![](version-11-2.resources/sendto-button.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ No se ha completado ninguna versión de Designer sin algunos nodos nuevos. Basá
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ No se ha completado ninguna versión de Designer sin algunos nodos nuevos. Basá
 
 RTAO hace un trabajo aún mejor en el AO nítido y correcto que el nodo anterior de HBAO.
 
-![](../../assets/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
 
 Cáustico genera cáusticos con trazo rayado y correctos físicamente basados en un mapa de alturas, como un simple ruido de Perlin. Ideal para crear texturas animadas realistas de flipbook para los cáusticos en tiempo real.
 
-![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
 
 RT Shadow genera sombras precisas y con trazo de rayo, con unos pocos controles sencillos.
 
@@ -92,17 +92,17 @@ RT Shadow genera sombras precisas y con trazo de rayo, con unos pocos controles 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ RT Shadow genera sombras precisas y con trazo de rayo, con unos pocos controles 
 
 RT La irradiancia es la más avanzada de los nuevos nodos. Hace irradiancia con trazo de rayo basado en un material con mapa de altura, y un mapa de entorno y/o un mapa de Emisivo.
 
-![](../../assets/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
 
 Eso significa que puedes hacer texturas con iluminación hecha un bake previamente, como en el caso de proyectos estilizados, o puedes hacer un bake en un resplandor trazo de rayo que rebota en tu mapa de altura.
 
-![](../../assets/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
 
 Y por último está el nodo Bent Normal. En comparación con una conversión normal normal, este nodo utiliza AO para modificar el mapa normal y utilizar esa información de AO. Antes de que necesite bakeres de malla para crear el efecto, este nodo lo hace en un espacio de textura para usted.
 
