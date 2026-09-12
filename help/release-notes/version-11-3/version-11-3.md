@@ -130,18 +130,18 @@ Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderi
 * [Modelos de Substance] Mejorar el modo en que se visualizan los Basis
 * [Modelos de Substance] Conservar la jerarquía de objetos al exportar un gráfico de modelo de Substance a .fbx
 * [Modelos de Substance] Compatibilidad con varios materiales en la exportación FBX/OBJ desde el gráfico del modelo de Substance
-* [Modelos de Substance][Contenido] Nodo de objeto
-* [Modelos de Substance][Contenido] Nodo Transformación generativa
-* [Modelos de Substance][Contenido] Nodo Organic Pattern
-* [Modelos de Substance][Contenido] Partículas del nodo Instancias
-* [Modelos de Substance][Contenido] Nodo de eliminación de partículas
-* [Modelos de Substance][Contenido] Torno nodo
-* [Substance models][Content] Nodo de shell
-* [Modelos de Substance][Contenido] Nodo de proyección
-* [Modelos de Substance][Contenido] Nodo de recorte de curva
-* [Modelos de Substance][Contenido] Actualizar el nodo Sampler de la curva
-* [Modelos de Substance][Contenido] Actualizar nodo Sampler de malla
-* [Modelos de Substance][Contenido] Actualizar el nodo Variación
+* [Modelos de Substance]&#x200B;[Contenido] Nodo de objeto
+* [Modelos de Substance]&#x200B;[Contenido] Nodo Transformación generativa
+* [Modelos de Substance]&#x200B;[Contenido] Nodo Organic Pattern
+* [Modelos de Substance]&#x200B;[Contenido] Partículas del nodo Instancias
+* [Modelos de Substance]&#x200B;[Contenido] Nodo de eliminación de partículas
+* [Modelos de Substance]&#x200B;[Contenido] Torno nodo
+* [Substance models]&#x200B;[Content] Nodo de shell
+* [Modelos de Substance]&#x200B;[Contenido] Nodo de proyección
+* [Modelos de Substance]&#x200B;[Contenido] Nodo de recorte de curva
+* [Modelos de Substance]&#x200B;[Contenido] Actualizar el nodo Sampler de la curva
+* [Modelos de Substance]&#x200B;[Contenido] Actualizar nodo Sampler de malla
+* [Modelos de Substance]&#x200B;[Contenido] Actualizar el nodo Variación
 * [UX] Botón para maximizar la vista actual
 * [UX] Actualización de la ventana Nuevo gráfico
 * [UX] Añada la opción &quot;Descargar reproductor&quot; en el menú Herramientas y agréguela con &quot;Localizar reproductor&quot;
@@ -179,7 +179,7 @@ Esta versión añade nuevos nodos de difusión y mejoras para el nodo de Renderi
 * [UI] La tecla de tabulación se debe presionar dos veces para desplazarse por los valores
 * [UI] El zoom con la acción de arrastrar del ratón se invierte entre la vista 3D y otras ventanas gráficas
 * [UI] Al cargar un SBS ya abierto mediante la lista &quot;Archivos recientes&quot;, se activa incorrectamente el mensaje &quot;Paquete no encontrado&quot;
-* [UI][macOS] Diseño de interfaz predeterminado incorrecto después de iniciar la aplicación
+* [UI]&#x200B;[macOS] Diseño de interfaz predeterminado incorrecto después de iniciar la aplicación
 * [UI] Los paquetes no se pueden guardar en la raíz de una unidad (solo Windows)
 * [Graph] La opción &quot;Mostrar automáticamente en vista 2D&quot; no es coherente en un caso específico
 * [Graph] La opción &#39;Open Reference&#39; está disponible para los nodos de instancia SBSAR
