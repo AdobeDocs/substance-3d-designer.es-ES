@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: Utilice el nodo Procesador de píxeles para procesar píxeles individuales mediante expresiones personalizadas para la manipulación avanzada de texturas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de píxeles
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atómico: Procesador de píxeles](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atómico: Procesador de píxeles"){width="100%"}
 
 <b>En:</b> nodos atómicos
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Genera una imagen en la que el valor de cada píxel es el resultado del [gráfico de funciones de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) especificado.
 
@@ -41,9 +41,9 @@ Es, con mucho, el nodo más versátil, ya que permite ejecutar cualquier operaci
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="información sobre herramientas del procesador de píxeles" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="información sobre herramientas del procesador de píxeles" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

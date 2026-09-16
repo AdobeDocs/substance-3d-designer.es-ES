@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
-description: Utilice el nodo Perfilar (Sharpen) para mejorar los detalles de textura y las aristas para crear detalles de superficie definidos y nítidos.
+description: Utilice el nodo Perfilar para mejorar los detalles de la textura y las aristas para crear detalles de superficie definidos y nítidos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Enfocar
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -20,14 +20,14 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Icono Perfilar nodo](sharpen.resources/sharpen-4.png "Icono Perfilar nodo")
 
 <b>En:</b> nodos atómicos
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 ## Descripción
 
@@ -39,13 +39,13 @@ Enfocar nodo realiza una operación de enfoque en una entrada. Es un nodo útil 
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="información sobre herramientas de enfoque" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="información sobre herramientas de enfoque" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-Es matemáticamente muy similar a Máscara de enfoque de Photoshop, a pesar de que el nombre es diferente. Funciona bien para cosas como un mapa Basecolor, pero debe evitarse en mapas como Mapas de normales y mapas metálicos.
+Es matemáticamente muy similar a Máscara de enfoque de Photoshop, a pesar de que el nombre es diferente. Funciona bien para cosas como un mapa Basecolor, pero debe evitarse en mapas como los mapas normales y los mapas metálicos.
 
 ## Entradas
 
@@ -54,7 +54,7 @@ La imagen que debe ser afilada.
 
 ## Parámetros
 
-<b>Intensidad</b> *Flotante*\
+<b>Intensidad</b> *Flotador*\
 Define la intensidad del efecto de enfoque.
 
 <b>Alpha Punchthrough</b> *Booleano* (disponible cuando una imagen de color está conectada a <b>Input</b>)\

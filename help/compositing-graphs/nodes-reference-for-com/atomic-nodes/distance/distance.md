@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: Utilice el nodo Distancia para calcular mapas de distancia de formas para crear máscaras y efectos procedimientos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distancia
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 8%
@@ -20,14 +20,14 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atómico: Distancia](distance.resources/comp_distance_1.png "Nodo atómico: Distancia"){width="100%"}
 
 <b>En:</b> nodos atómicos
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Busca la posición del píxel blanco más cercano en una máscara y emite un degradado desde esa posición o el color en esa posición en una imagen de origen.
 
@@ -39,9 +39,9 @@ Este nodo crea un fundido lineal saliente (degradado) a partir de cualquier píx
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="distance.resources/distance-tooltip.gif" alt="información sobre herramientas de distancia" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="distance.resources/distance-tooltip.gif" alt="información sobre herramientas de distancia" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -60,7 +60,7 @@ Consulte los siguientes [ejemplos](#examples) para obtener más información.
 |  |  |
 | --- | --- |
 | <b>Modo de color</b> *Booleano* | Alterna entre una imagen de salida en escala de grises y en color. También cambia el tipo de entrada &quot;Entrada de origen&quot;. |
-| <b>Distancia máxima</b> *Flotador* | Ajusta la distancia máxima para detectar el borde más cercano de la máscara, en píxeles. |
+| <b>Distancia máxima</b> *Flotante* | Ajusta la distancia máxima para detectar el borde más cercano de la máscara, en píxeles. |
 | <b>Combinar origen/distancia</b> *Booleano* | Determine cómo se combina la &#39;entrada de origen&#39; opcional con las celdas finales.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combinar:</i> Combina el valor de &quot;entrada de origen&quot; con la máscara lineal de atenuación. Si la entrada &quot;Source input&quot; está conectada, su valor se combina con la distancia calculada.</li> <li data-preserve-html="true"><i>Solo origen:</i> Solo genera color sólido a partir de la &#39;entrada de origen&#39;.</li> </ul> |
 | <b>Modo de distancia</b> *Entero* | Selecciona el método que calcula la distancia al borde más cercano de la máscara extraída:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Suma de diferencias X/Y cuadradas.</li> <li data-preserve-html="true"><i>Manhattan:</i> Suma de valores absolutos de diferencias X/Y.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Máximo de valores absolutos de diferencias X/Y.</li> </ul>  <div><img alt="Ejemplos del modo Distancia" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance.resources/distance-comparison.jpg" title="Ejemplos del modo Distancia"/></div> |
 

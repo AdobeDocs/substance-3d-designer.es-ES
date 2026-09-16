@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ""
-description: Utilice el nodo Deformación direccional para aplicar una distorsión direccional a las texturas para crear efectos de flujo y movimiento.
+description: Utilice el nodo Deformación direccional para aplicar distorsión direccional a las texturas para crear efectos de flujo y movimiento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Deformación direccional
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 9%
@@ -20,14 +20,14 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atómico: Deformación direccional](directional-warp.resources/comp_directionalwarp_1.png "Nodo atómico: Deformación direccional"){width="100%"}
 
 **<b>En:</b> nodos atómicos**
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Desplaza los píxeles en una dirección especificada según un mapa de intensidad, lo que puede provocar una deformación.
 
@@ -39,9 +39,9 @@ Deforma una entrada en una dirección definida por el usuario, multiplicada por 
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="información sobre herramientas de deformación direccional" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="información sobre herramientas de deformación direccional" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -53,10 +53,10 @@ El nodo Deformar es un nodo bastante sencillo pero útil que sirve como base par
 
 |  |  |
 | --- | --- |
-| <b>Intensidad</b> *Flotante* | Define la intensidad de la deformación. |
-| <b>Ángulo de deformación</b> *Flotante* | Define el ángulo del efecto de deformación, en número de vueltas. |
-| <b>modo de filtro de entrada</b> *Booleano* | Controla si se usa el filtrado más cercano o bilineal para muestrear <b>Input</b>. |
-| <b>Desplazamiento del mapa de intensidad</b> *Flotante* | Este valor se resta de los valores de imagen <b>Intensity input</b>. |
+| <b>Intensidad</b> *Flotador* | Define la intensidad de la deformación. |
+| <b>Ángulo de deformación</b> *Flotador* | Define el ángulo del efecto de deformación, en número de vueltas. |
+| <b>Modo de filtrado de entrada</b> *Booleano* | Controla si se usa el filtrado más cercano o bilineal para muestrear <b>Input</b>. |
+| <b>Desplazamiento del mapa de intensidad</b> *Flotador* | Este valor se resta de los valores de imagen <b>Intensity input</b>. |
 
 ## Conectores de entrada
 
