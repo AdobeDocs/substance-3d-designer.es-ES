@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: Utilice el nodo Deformar para aplicar efectos de distorsión a las texturas para crear efectos de deformación y desplazamiento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Deformar
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atómico: Deformar](warp.resources/comp_warp_1.png "nodo atómico: Deformar"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ A diferencia de la Deformación direccional, este nodo se aleja uniformemente de
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="warp.resources/warp-tooltip.gif" alt="información sobre herramientas de deformación" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="warp.resources/warp-tooltip.gif" alt="información sobre herramientas de deformación" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 El nodo puede ser un poco complicado de trabajar, ya que el resultado del efecto depende en gran medida de la entrada de degradado: los pequeños ajustes en el degradado pueden suponer una gran diferencia visual con los mismos valores de intensidad. Asegúrate de jugar con el contraste, la luminancia y la escala de la entrada de degradado, así como con el regulador de intensidad de este nodo.
 

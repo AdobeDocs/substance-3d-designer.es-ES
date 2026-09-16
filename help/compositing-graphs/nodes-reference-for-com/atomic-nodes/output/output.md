@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ""
 description: ""
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Salida
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '793'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width: 33.33%; vertical-align: top">
 
 ![Nodo atómico: Salida](output.resources/comp_output_1.png "Nodo atómico: Salida"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +37,13 @@ Cualquier [nodo de instancia](../../../../compositing-graphs/inheritance-composi
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="output.resources/output-tooltip.gif" alt="información sobre herramientas de salida" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="output.resources/output-tooltip.gif" alt="información sobre herramientas de salida" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Del mismo modo, cuando un [archivo SBSAR publicado](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) incluye este gráfico, ese archivo puede generar esa imagen en cualquier integración o complemento que consuma el archivo.
 
@@ -52,7 +60,7 @@ Cada gráfico de Substance debe tener *al menos un nodo de salida*. Si no existe
 | <b>Identificador</b> *Cadena* | Identificador único de la salida. Esta propiedad no se puede dejar en blanco y no puede contener caracteres especiales ni espacios.   El identificador se utiliza porque la etiqueta del nodo es la propiedad &#39;Label&#39; que se deja en blanco. También se puede usar para nombrar [texturas exportadas](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descripción</b> *Cadena* | La descripción opcional que se utiliza como información sobre herramientas de la salida son los gráficos de Substance. |
 | <b>Etiqueta</b> *Cadena* | Se utiliza como etiqueta para el nodo de salida y su conector correspondiente en [nodos de instancia](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) que representan este gráfico. La etiqueta puede contener espacios y caracteres especiales. |
-| <b>Datos de usuario</b> *Cadena* | Metadatos opcionales que pueden utilizarse para operaciones de filtrado específicas. [Substance 3D Painter](https://www.adobe.com/es/products/substance3d/apps/painter.html) usa estos datos para [controlar algunas características](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Datos de usuario</b> *Cadena* | Metadatos opcionales que pueden utilizarse para operaciones de filtrado específicas. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) usa estos datos para [controlar algunas características](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
 | <b>Grupo</b> *Cadena* | Atributo utilizado para agrupar resultados para los [modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Las salidas con un atributo &#39;Group&#39; idéntico se presentan como una única conexión en el modo de creación de vínculos &#39;Compact Material&#39;. |
 
 ## Atributos de integración

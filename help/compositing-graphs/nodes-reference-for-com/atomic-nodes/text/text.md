@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: Utilice el nodo Texto para generar texturas de texto con fuentes y estilos personalizables para crear patrones basados en texto.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Texto
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '268'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atómico: Text](text.resources/comp_text_1.png "Atomic node: Texto"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ El nodo Texto es muy potente y la única forma de colocar fácilmente el texto. 
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="text.resources/text-tooltip.gif" alt="información sobre herramientas de texto" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="text.resources/text-tooltip.gif" alt="información sobre herramientas de texto" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Solo se admiten fuentes Truetype (.ttf) y determinadas fuentes Opentype. Si faltan fuentes en la lista, probablemente sea esta la razón. <b>Las fuentes no se pueden exponer como parámetro.</b>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: Utilice el nodo Desenfoque direccional para aplicar efectos de desenfoque en una dirección específica para crear efectos de desenfoque de movimiento y de desenfoque.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Desenfoque direccional
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '200'
 ht-degree: 8%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atómico: Desenfoque direccional](directional-blur.resources/comp_dirmotionblur_1.png "Nodo atómico: Desenfoque direccional"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Este nodo realiza una operación similar a un desenfoque de movimiento en una en
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="información sobre herramientas de desenfoque direccional" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="información sobre herramientas de desenfoque direccional" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Al igual que &quot;Desenfocar&quot;, también es una operación más rápida y de baja calidad. Se proporciona una alternativa ampliada de mayor calidad en [Desenfoque anisotrópico](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), con una compensación de rendimiento
 

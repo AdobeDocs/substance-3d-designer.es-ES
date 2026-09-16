@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
 description: Utilice el nodo Relieve para crear efectos de relieve en las texturas para añadir profundidad y relieve a los detalles de la superficie.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Relieve
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atómico: Relieve](emboss.resources/comp_emboss_1.png "Nodo atómico: Relieve"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Es decir, el nodo realiza un sombreado 2D simple basado en 2 entradas, simulando
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="emboss.resources/emboss-tooltip.gif" alt="Información sobre relieve" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="emboss.resources/emboss-tooltip.gif" alt="Información sobre relieve" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Este nodo no se usa con frecuencia para proyectos similares a la PBR, pero puede servir en ciertos casos en los que deseas una iluminación simple y horneada en tu textura. Como alternativa, [Relieve con brillo](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) y [Relieve de Uber](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) proporcionan una funcionalidad similar, pero más extensa.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
 description: Utilice el nodo Conversión de escala de grises para convertir texturas de color a escala de grises mediante distintos métodos de conversión.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Conversión de escala de grises
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 7%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atómico: Conversión de escala de grises](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nodo atómico: Conversión en escala de grises"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Este nodo se puede utilizar como un método optimizado para extraer un canal de 
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="información sobre herramientas de conversión de escala de grises" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="información sobre herramientas de conversión de escala de grises" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 La mayoría de los nodos se pueden configurar para que se impriman en escala de grises o en color, donde se prefiere el primero por razones de sencillez y rendimiento.
 

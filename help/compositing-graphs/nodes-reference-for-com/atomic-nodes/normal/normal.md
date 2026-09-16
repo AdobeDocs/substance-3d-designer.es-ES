@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ""
 description: Utilice el nodo Normal para procesar y manipular texturas de mapa normales para controlar los detalles y la iluminación de la superficie.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Normal
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 7%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atómico: Normal](normal.resources/comp_normal_1.png "Nodo atómico: Normal"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ El nodo convierte un mapa de escala de grises de entrada en una salida de mapa N
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="normal.resources/normal-tooltip.gif" alt="información sobre herramientas normal" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="normal.resources/normal-tooltip.gif" alt="información sobre herramientas normal" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Es un nodo muy útil que se utiliza a menudo para convertir entradas de mapas de height en mapas normales para materiales listos en tiempo real. Hay alternativas para encontrar en [Sobel Normal](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) y Height A Unidades Mundiales Normales.
 

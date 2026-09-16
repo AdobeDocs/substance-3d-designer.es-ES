@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Utilice el nodo Mapa de degradado para asignar valores de escala de grises a colores mediante rampas de degradado para la coloración y los efectos.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Mapa de degradado
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1160'
 ht-degree: 2%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atómico: Mapa de degradado](gradient-map.resources/comp_gradient_1.png "Nodo atómico: Mapa de degradado"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Este nodo tiene un doble propósito: Se puede usar simplemente como <b> </b>nodo
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="información sobre herramientas de mapa de degradado" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="información sobre herramientas de mapa de degradado" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 El nodo ofrece un editor de degradados avanzado y con muchas funciones para asignar varios colores con precisión: ve a la sección [Editor de degradado](#gradient-editor) de esta página para obtener más información.
 
@@ -62,13 +70,13 @@ Se puede abrir desde las <b>propiedades</b> del nodo Mapa de degradado de las si
 
 Los colores y sus posiciones a lo largo del degradado se controlan mediante chinchetas situadas a lo largo de la barra de degradado.
 
-Cada pin establece un color en su posición a lo largo del degradado.
+Cada borde establece un color en su posición a lo largo del degradado.
 
-Las partes del degradado anteriores y posteriores al primer y último pin se establecen en los colores de esos pin respectivamente.
+Las partes del degradado antes y después de los bordes primero y último se establecen en los colores de esos bordes respectivamente.
 
 ![Editor de degradado - Vista de degradado](gradient-map.resources/image2017-2-17-17-27-46.png "Editor de degradado - Vista de degradado")
 
-Los siguientes controles están disponibles para editar pin:
+Los siguientes controles están disponibles para editar ubicaciones:
 
 <table>
 <tr style="border: 0;">
@@ -76,14 +84,14 @@ Los siguientes controles están disponibles para editar pin:
 
 <b>Agregar pin</b>
 
-Haga clic en LMB en el degradado o justo debajo para agregar un pin en la posición en la que hizo clic en la barra de degradado.
+Haga clic en LMB en el degradado o justo debajo para agregar una marca en la posición en la que hizo clic en la barra de degradado.
 
-El nuevo pin se establecerá en el color del degradado en esa posición.
+El nuevo punto se establecerá en el color del degradado en esa posición.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de degradado - Agregar pin](gradient-map.resources/move-pin.gif "Editor de degradado - Agregar pin")
+![Editor de degradado - Agregar borde](gradient-map.resources/move-pin.gif "Editor de degradado - Agregar borde")
 
 </td>
 </tr>
@@ -95,25 +103,25 @@ El nuevo pin se establecerá en el color del degradado en esa posición.
 
 <b>Mover pin</b>
 
-Mantenga presionada la tecla LMB y arrastre los pin seleccionados a lo largo de la barra de degradado para moverlos.
+Mantenga presionada la tecla LMB y arrastre los bordes seleccionados a lo largo de la barra de degradado para moverlos.
 
-También puede establecer la posición de un pin con un valor numérico seleccionándolo y utilizando el parámetro <b>Position</b>. La posición es un valor en el rango [0;1] donde 0 es el inicio del degradado y 1 es su final.
+También puede establecer la posición de una chincheta con un valor numérico seleccionándola y usando el parámetro <b>Position</b>. La posición es un valor en el rango [0;1] donde 0 es el inicio del degradado y 1 es su final.
 
-![Editor de degradado: parámetro de posición del Pin](gradient-map.resources/image2015-8-27-13-56-2.png "Editor de degradado: parámetro de posición del Pin")
+![Editor de degradado: parámetro de posición de borde](gradient-map.resources/image2015-8-27-13-56-2.png "Editor de degradado: parámetro de posición de borde")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de degradado - Mover pin](gradient-map.resources/movepin2.gif "Editor de degradado - Mover pin")
+![Editor de degradado - Mover borde](gradient-map.resources/movepin2.gif "Editor de degradado - Mover borde")
 
 </td>
 </tr>
 </table>
 
-Cuando se seleccionan varios pin, se pueden mover *simultáneamente*. Cuando uno o más pin alcanzan y terminan el degradado a medida que se mueven, hay dos comportamientos disponibles en función del botón del ratón utilizado para mover:
+Cuando se seleccionan varias ubicaciones, todas se pueden mover *simultáneamente*. Cuando uno o más bordes alcanzan y terminan el degradado a medida que se mueven, hay dos comportamientos disponibles en función del botón del ratón utilizado para mover:
 
-* <b>LMB:</b> Pin permanecen al final, lo que significa que se apilarán en esa ubicación a medida que lleguen a ella y sus posiciones relativas cambian;
-* Los Pin <b>MMB:</b> vuelven al otro extremo del degradado, lo que significa que sus posiciones relativas no cambian.
+* <b>LMB:</b> Los bordes permanecen al final, lo que significa que se apilarán en esa ubicación a medida que lleguen a ella y sus posiciones relativas cambian;
+* <b>MMB:</b> Los bordes vuelven al otro extremo del degradado, lo que significa que sus posiciones relativas no cambian.
 
 <table>
 <tr style="border: 0;">
@@ -121,7 +129,7 @@ Cuando se seleccionan varios pin, se pueden mover *simultáneamente*. Cuando uno
 
 <b>Eliminar pin</b>
 
-Seleccione los pin y presione Supr, o arrastre los pin fuera de la barra de degradado para eliminarlos.
+Seleccione los bordes y pulse Supr, o bien arrástrelos fuera de la barra de degradado para eliminarlos.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -138,7 +146,7 @@ Seleccione los pin y presione Supr, o arrastre los pin fuera de la barra de degr
 
 <b>Invertir posiciones</b>
 
-Refleja las posiciones de los pin seleccionados en el degradado.
+Refleja las posiciones de los bordes seleccionados en el degradado.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -240,7 +248,7 @@ El Selector de color le permite definir un color de varias maneras:
   Como alternativa, utilice un código hexadecimal en el campo de entrada dedicado situado debajo de los reguladores.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![Selector de color: reguladores RGB, HSV y Alpha](gradient-map.resources/image2017-2-17-18-31-41.png "Selector de color: reguladores RGB, HSV y Alpha")
 
@@ -281,7 +289,7 @@ La mitad inferior muestra el color utilizado anteriormente. Haga doble clic en L
 </tr>
 </table>
 
-Cuando se seleccionan varios pin, los reguladores RGB, HSV y Alpha se convierten en reguladores delta (?), lo que significa que se utilizan para desplazar el valor de cada pin en la misma cantidad.
+Cuando se seleccionan varias chinchetas, los reguladores RGB, HSV y Alpha se convierten en reguladores delta (?), lo que significa que se utilizan para desplazar el valor de cada chincheta la misma cantidad.
 
 <table>
 <tr style="border: 0;">
@@ -299,7 +307,7 @@ Además, las siguientes funciones están disponibles debajo de la miniatura de c
 
 <b>sRGB</b>: Utilice el espacio de color sRGB para mostrar colores. Cuando está desactivado, se utiliza el espacio de color Lineal;
 
-<b>Flotante:</b> Muestra los valores de RGB, HSV y regulador de Alpha en coma flotante.
+<b>Flotante:</b> Muestra los valores del RGB, HSV y regulador del Alpha en punto flotante.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: Utilice el nodo Fusión para fusionar dos texturas mediante distintos modos de fusión para crear efectos compuestos.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Fusión
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 8%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atómico: Fusionar](blend.resources/comp_blend_1.png "nodo atómico: Fusionar"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,9 +37,15 @@ Es el nodo más útil de todos los nodos atómicos, casi cualquier gráfico que 
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="blend.resources/blend-tooltip.gif" alt="información sobre herramientas de blend" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blend.resources/blend-tooltip.gif" alt="información sobre herramientas de blend" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
-Su funcionalidad es similar a tener dos capas una encima de la otra en [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mezclan por el modo de fusión establecido en la capa superior.
+Su funcionalidad es similar a tener dos capas una encima de la otra en [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mezclan por el modo de fusión establecido en la capa superior.
 
 >[!TIP]
 >
