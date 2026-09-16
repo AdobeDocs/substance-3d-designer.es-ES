@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ""
 description: ""
 helpx_creative_field: ""
@@ -60,7 +60,7 @@ Cada gráfico de Substance debe tener *al menos un nodo de salida*. Si no existe
 | <b>Identificador</b> *Cadena* | Identificador único de la salida. Esta propiedad no se puede dejar en blanco y no puede contener caracteres especiales ni espacios.   El identificador se utiliza porque la etiqueta del nodo es la propiedad &#39;Label&#39; que se deja en blanco. También se puede usar para nombrar [texturas exportadas](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descripción</b> *Cadena* | La descripción opcional que se utiliza como información sobre herramientas de la salida son los gráficos de Substance. |
 | <b>Etiqueta</b> *Cadena* | Se utiliza como etiqueta para el nodo de salida y su conector correspondiente en [nodos de instancia](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) que representan este gráfico. La etiqueta puede contener espacios y caracteres especiales. |
-| <b>Datos de usuario</b> *Cadena* | Metadatos opcionales que pueden utilizarse para operaciones de filtrado específicas. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) usa estos datos para [controlar algunas características](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Datos de usuario</b> *Cadena* | Metadatos opcionales que pueden utilizarse para operaciones de filtrado específicas. [Substance 3D Painter](https://www.adobe.com/es/products/substance3d/apps/painter.html) usa estos datos para [controlar algunas características](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
 | <b>Grupo</b> *Cadena* | Atributo utilizado para agrupar resultados para los [modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Las salidas con un atributo &#39;Group&#39; idéntico se presentan como una única conexión en el modo de creación de vínculos &#39;Compact Material&#39;. |
 
 ## Atributos de integración

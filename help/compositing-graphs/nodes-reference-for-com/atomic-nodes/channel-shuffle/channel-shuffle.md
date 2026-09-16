@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ""
 description: Utilice el nodo Mezcla de canales para reorganizar los canales de color en las texturas para crear efectos de color e intercambiar canales.
 helpx_creative_field: ""

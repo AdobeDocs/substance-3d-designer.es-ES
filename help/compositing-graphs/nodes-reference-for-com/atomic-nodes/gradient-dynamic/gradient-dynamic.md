@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: Utilice el nodo Degradado (dinámico) para crear degradados dinámicos que se puedan controlar mediante valores y parámetros de entrada.
 helpx_creative_field: ""
