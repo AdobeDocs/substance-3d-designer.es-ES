@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
 description: Utilice el nodo SVG para importar y procesar gráficos vectoriales de SVG como texturas para crear elementos gráficos escalables.
 helpx_creative_field: ""

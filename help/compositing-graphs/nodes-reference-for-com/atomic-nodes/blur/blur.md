@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ""
 description: Utilice el nodo Desenfocar para aplicar efectos de desenfoque a las texturas para suavizar los detalles y crear efectos de enfoque suave.
 helpx_creative_field: ""

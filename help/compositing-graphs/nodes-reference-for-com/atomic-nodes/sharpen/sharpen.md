@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
 description: Utilice el nodo Perfilar para mejorar los detalles de la textura y las aristas para crear detalles de superficie definidos y nítidos.
 helpx_creative_field: ""
