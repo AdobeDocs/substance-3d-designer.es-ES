@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a administrar y organizar parámetros en Substance que componen gráficas para una mejor organización del flujo de trabajo.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Gestionar parámetros
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
-
 ---
-
 
 # Gestionar parámetros
 
@@ -120,9 +118,9 @@ Menú ![&#39;Administrar parámetros&#39; en menú contextual de nodo](manage-pa
 
 ## Copiar y pegar parámetros
 
-Es posible copiar todos los valores de parámetros de un nodo de origen y pegarlos en un nodo de destino. Los parámetros de los nodos de origen y destino <b> coinciden según sus identificadores y tipos</b>.
+Es posible copiar todos los valores de parámetros de un nodo de origen y pegarlos en un nodo de destino. Los parámetros de los nodos de origen y destino <b>coinciden en función de sus identificadores y tipos</b>.
 
-Por ejemplo, un parámetro &#39;Escala&#39; cuyo identificador es &#39;escala&#39; y el tipo es &#39;Float&#39; se puede copiar y pegar en otro parámetro &#39;Escala de forma&#39; cuando su identificador es también &#39;escala&#39; y su tipo es también &#39;Float&#39;.
+Por ejemplo, un parámetro &#39;Escala&#39; cuyo identificador es &#39;escala&#39; y el tipo es &#39;Flotante&#39; se puede copiar y pegar en otro parámetro &#39;Escala de forma&#39; cuando su identificador también es &#39;escala&#39; y su tipo es también &#39;Flotante&#39;.
 
 Esta característica funciona de la misma manera que el uso de un [archivo de parámetros preestablecidos](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md). De hecho, los datos copiados en el portapapeles son los mismos que los datos almacenados en los archivos de ajustes preestablecidos de SBSPRS, y se pueden pegar en cualquier editor de texto para revisarlos y editarlos.
 
@@ -165,11 +163,11 @@ Estas acciones...
 
 [Mapa de degradado](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[Color de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Color de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[Escala de grises de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Escala de grises de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[Valor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Valor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [Salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

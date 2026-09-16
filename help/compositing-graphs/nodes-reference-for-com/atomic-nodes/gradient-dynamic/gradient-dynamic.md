@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Degradado (dinámico) para crear degradados dinámicos que se puedan controlar mediante valores y parámetros de entrada.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
@@ -8,32 +8,40 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Degradado (dinámico)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 9%
-
+source-wordcount: '313'
+ht-degree: 8%
 ---
-
 
 # Degradado (dinámico)
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atómico: Dinámica de degradado](gradient-dynamic.resources/comp_dyngradient_1.png "Nodo atómico: Dinámica de degradado"){width="200px"}
+![Nodo atómico: Dinámica de degradado](gradient-dynamic.resources/comp_dyngradient_1.png "Nodo atómico: Dinámica de degradado"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Reasigna los valores de escala de grises de una imagen utilizando un degradado proporcionado por una fila o columna de píxeles de otra imagen.
 
 Sirve como una ligera alternativa al nodo de degradado, pero a diferencia del nodo de degradado, las teclas de color de degradado no se definen internamente, sino que proceden de una entrada externa.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="información sobre herramientas dinámica de degradado" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -45,50 +53,7 @@ Este nodo entra en juego cuando está demasiado limitado por el sistema de clave
 
 Como alternativa, el regulador Posición de entrada de degradado se puede utilizar para alternar entre varios degradados almacenados dentro de una sola entrada de pendiente.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parámetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de entrada
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
@@ -105,11 +70,6 @@ Como alternativa, el regulador Posición de entrada de degradado se puede utiliz
 | <b>Entrada en escala de grises</b> *Escala de grises* PRINCIPAL | Imagen en escala de grises que se va a reasignar. |
 | <b>Entrada de degradado</b> *Color/Escala de grises* | El degradado se muestra a partir de esta imagen |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Color/Escala de grises* |  |
 
 ## Ejemplos
 

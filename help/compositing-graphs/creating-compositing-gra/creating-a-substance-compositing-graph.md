@@ -1,26 +1,24 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
-breadcrumb-title: ''
-description: Aprenda a crear gráficas de composición de Substance en Substance 3D Designer para crear flujos de trabajo de textura procedimienta.
+breadcrumb-title: ""
+description: Aprenda a crear gráficas de composición de Substance en Substance 3D Designer para crear flujos de trabajo de texturas procedimentales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Creating a Substance graph
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Creación de un gráfico de Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
-
 ---
-
 
 # Creación de un gráfico de Substance
 
-La creación de texturas en Designer comienza por la creación de una gráfica de Substance, ya sea a partir de una plantilla prediseñada o de una gráfica vacía.
+La creación de texturas en Designer comienza por la creación de un gráfico de Substance, ya sea a partir de una plantilla prediseñada o de un gráfico vacío.
 
 <a name="create-graph"></a>
 
@@ -106,7 +104,7 @@ Independientemente del método utilizado para crear un nuevo gráfico de Substan
 
 ### Plantillas
 
-Designer incluye plantillas de gráficos con nodos preconfigurados para que pueda empezar más rápido. Pueden incluir [nodos Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), nodos simples para pasar valores a estos resultados, p. ej. [Color uniforme](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), así como [nodos Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md).
+Designer incluye plantillas de gráficos con nodos preconfigurados para que pueda empezar más rápido. Pueden incluir [nodos Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), nodos simples para pasar valores a estos resultados, p. ej. [Color uniforme](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), así como [nodos Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md).
 
 Haz doble clic en una plantilla de la lista o selecciónala y haz clic en el botón <b>Crear</b> para crear un nuevo gráfico de Substance con esa plantilla. De forma predeterminada, el nuevo gráfico se coloca en un nuevo paquete no guardado.
 

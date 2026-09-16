@@ -1,39 +1,47 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Salida
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '793'
 ht-degree: 0%
-
 ---
-
 
 # Salida
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atómico: Salida](output.resources/comp_output_1.png "Nodo atómico: Salida"){width="200px"}
+![Nodo atómico: Salida](output.resources/comp_output_1.png "Nodo atómico: Salida"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 El nodo Output especifica el <b>resultado</b> de un gráfico de Substance, o uno de sus resultados si hay más de un nodo Output presente en él.
 
 Cualquier [nodo de instancia](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) que represente este gráfico emite la imagen o el valor conectado al nodo de salida de un gráfico y puede [exportarse como salida de gráfico](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="output.resources/output-tooltip.gif" alt="información sobre herramientas de salida" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -49,7 +57,7 @@ Cada gráfico de Substance debe tener *al menos un nodo de salida*. Si no existe
 
 |                             |                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Identificador</b> *Cadena* | El identificador único de la salida. Esta propiedad no se puede dejar en blanco y no puede contener caracteres especiales ni espacios.   El identificador se utiliza porque la etiqueta del nodo es la propiedad &#39;Label&#39; que se deja en blanco. También se puede usar para nombrar [texturas exportadas](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
+| <b>Identificador</b> *Cadena* | Identificador único de la salida. Esta propiedad no se puede dejar en blanco y no puede contener caracteres especiales ni espacios.   El identificador se utiliza porque la etiqueta del nodo es la propiedad &#39;Label&#39; que se deja en blanco. También se puede usar para nombrar [texturas exportadas](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descripción</b> *Cadena* | La descripción opcional que se utiliza como información sobre herramientas de la salida son los gráficos de Substance. |
 | <b>Etiqueta</b> *Cadena* | Se utiliza como etiqueta para el nodo de salida y su conector correspondiente en [nodos de instancia](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) que representan este gráfico. La etiqueta puede contener espacios y caracteres especiales. |
 | <b>Datos de usuario</b> *Cadena* | Metadatos opcionales que pueden utilizarse para operaciones de filtrado específicas. [Substance 3D Painter](https://www.adobe.com/es/products/substance3d/apps/painter.html) usa estos datos para [controlar algunas características](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |

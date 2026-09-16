@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga más información sobre la composición gráfica de Substance en Substance 3D Designer para crear texturas de procedimiento y flujos de trabajo de materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Gráficos de Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 
 # Gráficos de Substance
 
@@ -59,7 +57,7 @@ El texto con el número o el thickness del borde se puede exponer externamente p
 
 
 
-Un gráfico de filtro toma un mapa normal como [entrada](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(con una vista previa personalizada), [lo convierte en curvatura](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) y, a continuación, [ajusta el contraste](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para crear una máscara de bordes convexos como [salida](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
+Un gráfico de filtros toma un mapa de normales como [entrada](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) (con una vista previa personalizada), [lo convierte en curvatura](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) y, a continuación, [ajusta el contraste](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para crear una máscara de bordes convexos como [salida](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
 
 Los valores de contraste establecidos en el histograma pueden ser expuestos, haciendo de este un filtro simple pero útil en combinación con la ranura de entrada dinámica.
 

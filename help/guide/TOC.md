@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 21%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -132,7 +130,9 @@ ht-degree: 21%
       + [Procesador de valor](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Deformar](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Salida](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Color de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Escala de grises de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Valor de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Biblioteca de nodos{#node-library}
       + [Biblioteca de nodos](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Generadores de texturas{#texture-generators}
@@ -374,7 +374,7 @@ ht-degree: 21%
           + [Sección transversal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
           + [Curvatura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
           + [Curvatura suave](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-          + [Curvatura sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
+          + [Sobel de curvatura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
           + [Color de difusión](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-color/diffusion-color.md)
           + [Escala de grises de difusión](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
           + [Difusión UV](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
@@ -418,7 +418,7 @@ ht-degree: 21%
           + [Combinación normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
           + [Inversión normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-invert/normal-invert.md)
           + [Normalizar normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)
-          + [Normal sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
+          + [Sobel normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
           + [Normal al height](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
           + [Normal al height HQ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
           + [Transformo normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
@@ -445,7 +445,7 @@ ht-degree: 21%
           + [Transforma segura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md)
           + [Sesgar](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/skew/skew.md)
           + [Simetría](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md)
-          + [Sector de simetría](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
+          + [sector de simetría](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
           + [Transformar trapezoide](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
       + Filtros de material{#material-filters}
         + [Filtros de material](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
@@ -518,7 +518,7 @@ ht-degree: 21%
           + [Desgaste de cuero](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [Luz](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [Creador de máscaras](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [Oreja de borde metálico](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [Desgaste de los bordes metálicos](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [desgaste de pintura](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [Dirt selectivo](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [Blanqueador solar](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)

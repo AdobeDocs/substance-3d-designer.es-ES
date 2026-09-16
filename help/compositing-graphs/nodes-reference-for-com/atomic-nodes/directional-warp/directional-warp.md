@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Deformación direccional para aplicar distorsión direccional a las texturas para crear efectos de flujo y movimiento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Deformación direccional
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 9%
-
 ---
-
 
 # Deformación direccional
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atómico: Deformación direccional](directional-warp.resources/comp_directionalwarp_1.png "Nodo atómico: Deformación direccional"){width="200px"}
+![Nodo atómico: Deformación direccional](directional-warp.resources/comp_directionalwarp_1.png "Nodo atómico: Deformación direccional"){width="100%"}
+
+**<b>En:</b> nodos atómicos**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Desplaza los píxeles en una dirección especificada según un mapa de intensidad, lo que puede provocar una deformación.
 
@@ -37,42 +37,17 @@ Deforma una entrada en una dirección definida por el usuario, multiplicada por 
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="información sobre herramientas de deformación direccional" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 El nodo Deformar es un nodo bastante sencillo pero útil que sirve como base para otros efectos más avanzados. Hay alternativas más avanzadas, como otros nodos de interés relacionados, como [Desenfoque de Pendiente](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) y [Deformación vectorial](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
@@ -90,11 +65,6 @@ El nodo Deformar es un nodo bastante sencillo pero útil que sirve como base par
 | <b>Entrada</b> *Escala de grises/Color* PRINCIPAL | Imagen de entrada de color o escala de grises en la que se debe aplicar el efecto de deformación. |
 | <b>Entrada de intensidad</b> *Escala de grises* | Imagen en escala de grises que define la cantidad de deformación que se debe aplicar a la imagen <b>Input</b>. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises/Color* |  |
 
 ## Ejemplos
 

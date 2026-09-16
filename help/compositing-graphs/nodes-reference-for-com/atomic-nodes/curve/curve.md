@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Curva para ajustar los valores de textura mediante curvas personalizables para un control preciso del color y el brillo.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Curva
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '611'
 ht-degree: 2%
-
 ---
-
 
 # Curva
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atómico: Curva](curve.resources/comp_curve_1.png "Nodo atómico: Curva"){width="200px"}
+![Nodo atómico: Curva](curve.resources/comp_curve_1.png "Nodo atómico: Curva"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Reasigna los valores de una imagen utilizando una curva personalizada.
 
@@ -37,60 +37,26 @@ El nodo proporciona una interfaz para la reasignación de tonalidad de imágenes
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="curve.resources/curve-tooltip.gif" alt="información sobre curva" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 A diferencia de la mayoría de los demás nodos, el nodo Curva no tiene una interfaz estándar típica con reguladores y parámetros, sino que presenta un editor de curvas completo. Consulte la siguiente sección ampliable sobre cómo usarla.
 
 [Sin embargo, esto significa que ninguno de los parámetros de un nodo Curve se puede exponer a un subgráfico](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). La única opción es usar un [conmutador múltiple](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) para cambiar entre diferentes perfiles de curva.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parámetros
-
-### Editor de curvas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de entrada
-
-### Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
 |  |  |
 | --- | --- |
 | <b>Aplicar/exponer curva</b> *Booleano* | Permite copiar la curva del usuario en la salida en lugar de aplicarla a la imagen de entrada |
-| <b>Direccionamiento de curvas</b> *Booleano* | Este parámetro determina cómo se gestionan los píxeles HDR fuera del rango [0, 1] en la entrada: sujetado o plegado hasta [0, 1]. |
+| <b>Direccionamiento de curvas</b> *Booleano* | Este parámetro determina cómo se controlan los HDR. píxeles fuera del rango [0, 1] en la entrada: sujetado o plegado hasta [0, 1]. |
 | <b>Curva</b> *Matriz de claves de curva* | Curva personalizada utilizada para asignar los valores de escala de grises de entrada.   Se puede editar con el [editor de curvas](#curve-editor). |
 
 ## Editor de curvas
@@ -105,12 +71,12 @@ Para crear un punto, simplemente haga doble clic en cualquier parte de la vista 
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Para obtener resultados precisos, los nodos de curva ofrecen diferentes modos para cada punto:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -142,14 +108,14 @@ Puede mostrar u ocultar el histograma de su entrada simplemente haciendo clic en
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Cuando la entrada es un nodo de color, tiene la capacidad de ajustar la curva para cada canal:
 
 Solo tiene que seleccionar la curva que desea ajustar en la lista desplegable situada en la parte superior derecha:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 
@@ -165,7 +131,7 @@ En el modo Curva de RGB, puede ocultar o mostrar las curvas de canal individuale
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Si hace clic con el botón derecho en la vista de curva, obtendrá algunas opciones más.
 
@@ -259,11 +225,6 @@ El botón ![](curve.resources/image2017-2-20-19-12-45.png) restablece el nivel d
 | --- | --- |
 | <b>Entrada</b> *Escala de grises/Color* PRINCIPAL | Imagen que se va a procesar. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises/Color* |  |
 
 ## Ejemplos
 

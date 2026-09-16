@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Desenfocar para aplicar efectos de desenfoque a las texturas para suavizar los detalles y crear efectos de enfoque suave.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Desenfocar
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 6%
-
 ---
-
 
 # Desenfocar
 
@@ -24,7 +22,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Icono de nodo de desenfoque](blur.resources/blur-9.png){width="200px"}
+![Icono de nodo de desenfoque](blur.resources/blur-9.png)
 
 **En:** nodos atómicos
 
@@ -40,6 +38,14 @@ El nodo de desenfoque realiza una operación de desenfoque de cuadro: calcular e
 Aunque el desenfoque funciona bien para operaciones rápidas y sencillas, como suavizar ligeramente algunos bordes, en cualquier escenario más exigente, [Desenfocar HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) es una mejor opción, ya que compensa el rendimiento por la calidad.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blur.resources/blur-tooltip.gif" alt="información sobre herramientas de desenfoque" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 

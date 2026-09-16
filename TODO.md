@@ -1,9 +1,8 @@
 ---
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
-
+source-wordcount: '87'
+ht-degree: 13%
 ---
 # TODO
 
@@ -22,7 +21,7 @@ ht-degree: 12%
   * Metalness / Metálico
   * HDR
   * Especular
-  * Mapa de altura
+  * mapa de height
   * Opacidad
   * Frustum
   * Espacio tangente
@@ -34,7 +33,6 @@ ht-degree: 12%
 ## Correcciones
 
 * Corregir vínculo para la primera imagen de ejemplo en páginas de nodo (p. ej. nuevos ruidos)
-* Falta el elemento &#39;entero negativo&#39; y vínculos rotos en [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
 ## Investigar
 

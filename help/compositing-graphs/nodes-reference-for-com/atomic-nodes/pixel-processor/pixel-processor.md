@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Procesador de píxeles para procesar píxeles individuales mediante expresiones personalizadas para la manipulación avanzada de texturas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Procesador de píxeles
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '353'
 ht-degree: 1%
-
 ---
-
 
 # Procesador de píxeles
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atómico: Procesador de píxeles](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atómico: Procesador de píxeles"){width="200px"}
+![Nodo atómico: Procesador de píxeles](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atómico: Procesador de píxeles"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Genera una imagen en la que el valor de cada píxel es el resultado del [gráfico de funciones de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) especificado.
 
@@ -39,31 +39,20 @@ Es, con mucho, el nodo más versátil, ya que permite ejecutar cualquier operaci
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="información sobre herramientas del procesador de píxeles" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 De forma similar a [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), es necesario configurar la funcionalidad interna para realizar cualquier cosa. Donde el Procesador de píxeles difiere de FX-Map es que no se centra en colocar patrones, con múltiples funciones que controlan la forma y la colocación del patrón. En su lugar, se ejecuta una sola función en paralelo para cada píxel, donde cada píxel desconoce los resultados de cálculo de sus vecinos.
 
 El Procesador de píxeles es similar al [Procesador de valor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), que se ejecuta en valores únicos y puede proporcionar una optimización agradable en comparación con el Procesador de píxeles.
 
 Para cualquiera que esté acostumbrado a crear funciones de [sombreador](../../../../glossary/glossary.md) en editores basados en nodos, el Procesador de píxeles debe ofrecer un entorno familiar.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -75,20 +64,6 @@ Para cualquiera que esté acostumbrado a crear funciones de [sombreador](../../.
 > 
 > También recomendamos estar familiarizados con el concepto de [UV](../../../../glossary/glossary.md), [muestreo de textura](../../../../glossary/glossary.md) y vectores.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
@@ -103,11 +78,6 @@ Para cualquiera que esté acostumbrado a crear funciones de [sombreador](../../.
 | --- | --- |
 | <b>Imagen de entrada #</b> *Escala de grises/Color* | Use un nodo [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) o [Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) para obtener acceso a los valores de la entrada del índice especificado. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises/Color* |  |
 
 ## Ejemplos
 

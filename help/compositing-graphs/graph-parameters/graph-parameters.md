@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a crear y administrar parámetros de gráfica en Substance 3D Designer para controlar las propiedades y comportamientos de los materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Graph parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Parámetros de gráficos
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
-
 ---
-
 
 # Parámetros de gráficos
 
@@ -143,7 +141,7 @@ El editor del parámetro seleccionado aparecerá en la parte superior de la list
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-En esta parte, se muestran todos los nodos [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) del gráfico.
+En esta parte, se muestran todos los nodos [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) del gráfico.
 
 Puede reordenarlos arrastrándolos y soltándolos en el controlador situado más a la izquierda de cada elemento.
 

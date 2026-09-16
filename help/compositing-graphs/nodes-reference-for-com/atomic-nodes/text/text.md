@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Texto para generar texturas de texto con fuentes y estilos personalizables para crear patrones basados en texto.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Texto
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 1%
-
 ---
-
 
 # Texto
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atómico: Text](text.resources/comp_text_1.png "Atomic node: Texto"){width="200px"}
+![Nodo atómico: Text](text.resources/comp_text_1.png "Atomic node: Texto"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 El nodo Texto proporciona una forma de colocar el texto creado por el usuario en los gráficos. Los usuarios también pueden seleccionar ajustes como Fuente, Alineación y Rotación para personalizar la colocación del texto.
 
@@ -37,44 +37,19 @@ El nodo Texto es muy potente y la única forma de colocar fácilmente el texto. 
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="text.resources/text-tooltip.gif" alt="información sobre herramientas de texto" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Solo se admiten fuentes Truetype (.ttf) y determinadas fuentes Opentype. Si faltan fuentes en la lista, probablemente sea esta la razón. <b>Las fuentes no se pueden exponer como parámetro.</b>
 
 Cuando se publica en sbsar un gráfico que utiliza texto, la fuente se incrusta en el paquete, al igual que con los mapas de bits y otros recursos, para garantizar que funciona en todos los sistemas y aplicaciones.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
@@ -96,11 +71,6 @@ Cuando se publica en sbsar un gráfico que utiliza texto, la fuente se incrusta 
 | --- | --- |
 | <b>Fondo</b> *Escala de grises/Color* PRINCIPAL | Color de fondo de la imagen de salida. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises/Color* |  |
 
 ## Ejemplos
 

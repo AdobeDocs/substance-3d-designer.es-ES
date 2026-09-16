@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo HSL para ajustar el tono, la saturación y la luminosidad de las texturas para la manipulación y corrección del color.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: HSL
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '152'
 ht-degree: 9%
-
 ---
-
 
 # HSL
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atómico: HSL](hsl.resources/comp_hsl_1.png "Nodo atómico: HSL"){width="200px"}
+![Nodo atómico: HSL](hsl.resources/comp_hsl_1.png "Nodo atómico: HSL"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Ajusta el tono, la saturación y la luminosidad de una imagen de color.
 
@@ -40,39 +40,14 @@ Si buscas otras formas de editar los tonos de una imagen, mira [Curva](../../../
 </table>
 
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="hsl.resources/hsl-tooltip.gif" alt="información sobre herramientas hsl" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
 
-## Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
@@ -88,11 +63,6 @@ Si buscas otras formas de editar los tonos de una imagen, mira [Curva](../../../
 | --- | --- |
 | <b>Entrada</b> *Color* PRINCIPAL | Imagen para procesar. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Color* |  |
 
 ## Ejemplos
 

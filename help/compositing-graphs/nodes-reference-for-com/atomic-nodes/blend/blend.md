@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Fusión para fusionar dos texturas mediante distintos modos de fusión para crear efectos compuestos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Fusión
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 9%
-
+source-wordcount: '329'
+ht-degree: 8%
 ---
-
 
 # Fusión
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atómico: Fusionar](blend.resources/comp_blend_1.png "nodo atómico: Fusionar"){width="200px"}
+![Nodo atómico: Fusionar](blend.resources/comp_blend_1.png "nodo atómico: Fusionar"){width="100%"}
+
+<b>En:</b> nodos atómicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Combina dos imágenes con un modo de fusión especificado y una máscara opcional.
 
@@ -37,46 +37,21 @@ Es el nodo más útil de todos los nodos atómicos, casi cualquier gráfico que 
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="blend.resources/blend-tooltip.gif" alt="información sobre herramientas de blend" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Su funcionalidad es similar a tener dos capas una encima de la otra en [Substance 3D Painter](https://www.adobe.com/es/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mezclan por el modo de fusión establecido en la capa superior.
 
 >[!TIP]
 >
 > Obtenga información sobre los modos de fusión disponibles en el nodo Fusión en [esta página dedicada](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
@@ -103,11 +78,6 @@ Su funcionalidad es similar a tener dos capas una encima de la otra en [Substanc
 > 
 > Esta es la razón número uno por la que los nuevos usuarios tienen problemas con las conexiones en color o en escala de grises: asegúrese de que ambas conexiones son del mismo tipo.
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises/Color* |  |
 
 ## Ejemplos
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Descubra cómo funciona la herencia en Substance que componen gráficos para crear jerarquías y variaciones de gráficos reutilizables.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Herencia en gráficos de Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 
 # Herencia en gráficos de Substance
 
@@ -74,7 +72,7 @@ Los métodos de herencia se aplican para los [parámetros base](../../compositin
 * **Formato de salida** (es decir, profundidad de bits)
 * **Tamaño de píxel**
 * **Proporción de píxeles**
-* **Modo de segmentación**
+* **Modo de mosaico**
 * **Raíz aleatoria**
 
 Esto debería permitirte apreciar cómo los cambios en *un nodo* pueden afectar a la resolución, precisión y comportamiento de mosaico de *todos los nodos aguas abajo* del nodo.
@@ -98,7 +96,7 @@ Este botón le permite seleccionar el método de herencia que debe utilizarse pa
 
 ![Cambiando método de herencia](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "Cambiando método de herencia"){width="512px"}
 
-En la mayoría de los casos, los parámetros Base de un *nodo* se establecen en *Relativo a entrada*, para aprovechar el comportamiento procedimiento de encadenar nodos juntos, mientras que los parámetros Base de un *gráfico* se establecen en *Relativo a principal*, de modo que los parámetros globales se puedan adaptar al contexto en el que se usa el gráfico.
+En la mayoría de los casos, los parámetros Base de *node* se establecen en *Relative to input*, para aprovechar el comportamiento procedimental de encadenar nodos juntos, mientras que los parámetros Base de *graph* se establecen en *Relative to parent*, de modo que los parámetros globales se puedan adaptar al contexto en el que se usa el gráfico.
 
 ### AJUSTE DE VALORES HEREDADOS
 
@@ -196,7 +194,7 @@ La entrada se hereda del gráfico y los datos que recibe se adaptan en consecuen
 </tr>
 </table>
 
-Una de las entradas se puede establecer como **entrada principal** del gráfico; para ello, haz clic en **RMB** en ese nodo [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) y selecciona la opción **Set as Primary Input** en el menú contextual.
+Una de las entradas se puede establecer como **entrada principal** del gráfico; para ello, haz clic en **RMB** en ese nodo [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) y selecciona la opción **Set as Primary Input** en el menú contextual.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -282,8 +280,8 @@ Un buen punto de partida es comprobar los datos que se muestran justo debajo de 
 
 Si el nodo tiene más de una salida, puede comprobar su resolución y precisión de dos maneras sencillas:
 
-* Haga doble clic en <b>LMB</b> en el *conector de salida* para mostrar la imagen en la [vista 2D](../../interface/2d-view/2d-view.md) y compruebe la información de la imagen que se muestra en la *esquina inferior izquierda* del área de visualización de la vista 2D
-* Cree un nodo [Levels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) o [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) y conecte su entrada a la salida que desee comprobar. El nodo *heredará de la salida* de forma predeterminada y, a continuación, puede comprobar los valores debajo del nodo.
+* Haga doble clic en <b>LMB</b> en el *conector de salida* para mostrar la imagen en el [Vista 2D](../../interface/2d-view/2d-view.md) y compruebe la información de la imagen que se muestra en la *esquina inferior izquierda* del área de visualización del Vista 2D
+* Cree un nodo [Levels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) o [Transformación 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) y conecte su entrada a la salida que desee comprobar. El nodo *heredará de la salida* de forma predeterminada y, a continuación, puede comprobar los valores debajo del nodo.
 
 Ahora puedes subir por la cadena de nodos en el gráfico e intentar encontrar el *primer nodo* donde aparecen los valores inesperados. Compruebe el método de herencia de sus parámetros Base.
 
@@ -293,8 +291,8 @@ Si no hay ningún problema y el nodo es un nodo de instancia, debe profundizar y
 
 En particular, el concepto de *entrada principal* se *pasa por alto* y puede provocar problemas de herencia.
 
-El nodo [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) es muy susceptible a esto, ya que se usa con mucha frecuencia. Su entrada <b>Background</b> es su entrada principal.
+El nodo [Fusión](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) es muy susceptible a esto, ya que se usa con mucha frecuencia. Su entrada <b>Background</b> es su entrada principal.
 
 ![Herencia de tamaño de salida](inheritance-in-substance-compositing-graphs.resources/inheritance-blend.jpg "Herencia de tamaño de salida"){width="512px"}
 
-Debe prestar atención al orden en que se mezclan las dos entradas: la entrada cuya resolución y precisión desea mantener hacia abajo en el gráfico debe estar conectada a la entrada Fondo, si el modo de fusión que necesita lo hace posible. Si no es así, es posible que deba ajustar los parámetros base del nodo de fusión y su método de herencia para compensar.
+Debe prestar atención al orden en que se mezclan las dos entradas: la entrada cuya resolución y precisión desea mantener hacia abajo en el gráfico debe estar conectada a la entrada Fondo, si el modo de fusión que necesita lo hace posible. Si no es así, es posible que deba ajustar los parámetros Base del nodo de Fusión y su método de herencia para compensar.

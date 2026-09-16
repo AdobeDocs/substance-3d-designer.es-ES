@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Conozca los conceptos clave de los Substance que componen gráficos, incluidos los nodos, las conexiones y los fundamentos del flujo de trabajo.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Conceptos clave de gráficos de Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 1%
-
 ---
-
 
 # Conceptos clave de gráficos de Substance
 
@@ -43,7 +41,7 @@ A continuación se indican algunas cosas que debe saber sobre las salidas:
 * Las salidas se pueden y se deben <b>nombrar de forma exclusiva</b> para identificarlas. Esto ayuda al exportar.
 * Cada conector en el lado derecho de cualquier nodo es en realidad una salida (ver &quot;Sub-gráficos para más información)
 
-Una [entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) es similar a una salida, es una ranura vacía y abierta para que tú u otro usuario conectes tus propios datos. Permite la creación de gráficos que aparecen en datos de imagen externos definidos por el usuario, como un filtro que modifica una imagen de entrada (por ejemplo, un desenfoque o un ajuste de contraste).
+Una [entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) es similar a una salida, es una ranura vacía y abierta para que tú u otro usuario conectes tus propios datos. Permite la creación de gráficos que aparecen en datos de imagen externos definidos por el usuario, como un filtro que modifica una imagen de entrada (por ejemplo, un desenfoque o un ajuste de contraste).
 
 A continuación, se indican algunas cosas que debe saber acerca de las entradas:
 
