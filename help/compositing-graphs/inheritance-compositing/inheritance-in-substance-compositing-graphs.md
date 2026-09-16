@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ""
 description: Descubra cómo funciona la herencia en Substance que componen gráficos para crear jerarquías y variaciones de gráficos reutilizables.
 helpx_creative_field: ""

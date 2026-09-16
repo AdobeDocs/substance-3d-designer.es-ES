@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ""
 description: Obtenga más información sobre los tipos de valor y el control de datos en Substance que componen gráficos para crear materiales de forma eficaz.
 helpx_creative_field: ""
