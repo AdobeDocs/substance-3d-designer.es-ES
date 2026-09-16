@@ -26,7 +26,7 @@ La creación de texturas en Designer comienza por la creación de un gráfico de
 
 Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md), puede usar uno de estos métodos:
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -42,7 +42,7 @@ Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../c
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../c
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -74,7 +74,7 @@ Para iniciar el proceso de creación de un nuevo [gráfico de Substance](../../c
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">

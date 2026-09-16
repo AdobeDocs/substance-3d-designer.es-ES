@@ -56,7 +56,7 @@ Todos los demás nodos de gráfica de Substance de la [Biblioteca](../../../inte
 
 [![Nodo atómico: Desenfoque direccional](atomic-nodes.resources/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[Desenfoque direccional](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[Desenfoque direccional](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
