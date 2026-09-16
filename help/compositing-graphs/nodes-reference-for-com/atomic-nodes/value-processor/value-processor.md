@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
 description: Utilice el nodo Procesador de valor para procesar y manipular valores de textura mediante operaciones matemáticas para ajustes personalizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de valor
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -22,20 +22,20 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Nodo atómico: Procesador de valores](value-processor.resources/comp_valueprocessor_1.png "Nodo atómico: Procesador de valores")
+![Nodo atómico: Procesador de valor](value-processor.resources/comp_valueprocessor_1.png "Nodo atómico: Procesador de valor"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 Calcula un [gráfico de funciones de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) y genera su resultado.
 
-Es comparable a un [procesador de píxeles](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), con la diferencia de que no calcula una función para cada píxel, sino un solo valor y lo hace [disponible en un gráfico de Substance](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
+Es comparable a un [Procesador de píxeles](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), con la diferencia de que no calcula una función para cada píxel, sino un solo valor y lo hace [disponible en un gráfico de Substance](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="información sobre herramientas del procesador de valores" /></div>
+<div data-preserve-html="true" align="center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="información sobre herramientas del procesador de valores" /></div>
 
 
 >[!TIP]
@@ -49,7 +49,7 @@ Es comparable a un [procesador de píxeles](../../../../compositing-graphs/nodes
 
 |  |  |
 | --- | --- |
-| <b>Función de procesador de valores</b> *Cualquier tipo de valor disponible* | [Gráfico de funciones de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluado para calcular el valor de salida. |
+| <b>Función de Procesador de valor</b> *Cualquier tipo de valor disponible* | [Gráfico de funciones de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluado para calcular el valor de salida. |
 
 ## Conectores de entrada
 

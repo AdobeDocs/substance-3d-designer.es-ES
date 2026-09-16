@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: Utilice el nodo Niveles para ajustar el brillo, el contraste y la gama tonal de las texturas para la corrección y mejora del color.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Niveles
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Nodo atómico: Niveles](levels.resources/comp_levels_1.png "Nodo atómico: Niveles")
+![Nodo atómico: Niveles](levels.resources/comp_levels_1.png "Nodo atómico: Niveles"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ El nodo Niveles permite reasignar los tonos de una entrada mediante la configura
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="levels.resources/levels-tooltip.gif" alt="información sobre herramientas niveles" /></div>
+<div data-preserve-html="true" align="center"><img src="levels.resources/levels-tooltip.gif" alt="información sobre herramientas niveles" /></div>
 
 Es uno de los nodos principales y más útiles de Substance 3D Designer y se utiliza con frecuencia para reasignar y ajustar valores en un gráfico, ya que proporciona la interfaz más precisa y precisa para cambiar valores.
 
@@ -64,10 +64,10 @@ El botón amarillo resaltado alterna la interfaz entre los reguladores de valor 
 
 |  |  |
 | --- | --- |
-| <b>Nivel bajo</b> *Float/Float4* | Define los niveles de iluminación baja de la imagen de entrada. Reasigna valores bajos de entrada para que se vuelvan negros completos. |
-| <b>Nivel alto</b> *Float/Float4* | Define los niveles de resaltado de la imagen de entrada.  Reasigna valores altos de entrada para que se vuelvan blancos completos. |
-| <b>Nivel a mediados de</b> *Float/Float4* | Define los niveles de medios tonos de la imagen de entrada.  Reasigna los valores medios de entrada para que se conviertan en gris medio. |
-| <b>Nivel de salida bajo</b> *Float/Float4* | Define los niveles de iluminación baja de la imagen de salida.  Las abrazaderas emiten valores de negro para definir el límite. |
+| <b>Nivel de baja iluminación de entrada</b> *Flotante/Flotante4* | Define los niveles de iluminación baja de la imagen de entrada. Reasigna valores bajos de entrada para que se vuelvan negros completos. |
+| <b>Nivel de iluminación de entrada</b> *Flotante/Flotante4* | Define los niveles de resaltado de la imagen de entrada.  Reasigna valores altos de entrada para que se vuelvan blancos completos. |
+| <b>Nivel de iluminación media de entrada</b> *Flotante/Flotante4* | Define los niveles de medios tonos de la imagen de entrada.  Reasigna los valores medios de entrada para que se conviertan en gris medio. |
+| <b>Nivel de salida bajo</b> *Flotante/Flotante4* | Define los niveles de iluminación baja de la imagen de salida.  Ajusta los valores de negro de salida para definir el límite. |
 | <b>Nivel alto</b> *Float/Float4* | Define los niveles de resaltado de la imagen de salida.  Las abrazaderas emiten valores de blanco para definir el límite. |
 | <b>Abrazadera intermedia</b> *Booleano* | Determina si el valor de entrada transformado se fija en [0, 1] antes de calcular el nivel de salida. |
 

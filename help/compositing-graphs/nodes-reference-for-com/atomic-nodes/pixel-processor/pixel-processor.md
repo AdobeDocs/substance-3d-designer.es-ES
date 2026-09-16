@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: Utilice el nodo Procesador de píxeles para procesar píxeles individuales mediante expresiones personalizadas para la manipulación avanzada de texturas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de píxeles
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Nodo atómico: Procesador de píxeles](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atómico: Procesador de píxeles")
+![Nodo atómico: Procesador de píxeles](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atómico: Procesador de píxeles"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Es, con mucho, el nodo más versátil, ya que permite ejecutar cualquier operaci
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="información sobre herramientas del procesador de píxeles" /></div>
+<div data-preserve-html="true" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="información sobre herramientas del procesador de píxeles" /></div>
 
 De forma similar a [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), es necesario configurar la funcionalidad interna para realizar cualquier cosa. Donde el Procesador de píxeles difiere de FX-Map es que no se centra en colocar patrones, con múltiples funciones que controlan la forma y la colocación del patrón. En su lugar, se ejecuta una sola función en paralelo para cada píxel, donde cada píxel desconoce los resultados de cálculo de sus vecinos.
 

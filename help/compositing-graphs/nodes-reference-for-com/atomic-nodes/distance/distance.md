@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: Utilice el nodo Distancia para calcular mapas de distancia de formas para crear máscaras y efectos procedimientos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distancia
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Nodo atómico: Distancia](distance.resources/comp_distance_1.png "Nodo atómico: Distancia")
+![Nodo atómico: Distancia](distance.resources/comp_distance_1.png "Nodo atómico: Distancia"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Este nodo crea un fundido lineal saliente (degradado) a partir de cualquier píx
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="información sobre herramientas de distancia" /></div>
+<div data-preserve-html="true" align="center"><img src="distance.resources/distance-tooltip.gif" alt="información sobre herramientas de distancia" /></div>
 
 El fundido exterior de expansión finalizará tan pronto como se encuentre con otra celda: nunca se superpondrán. Internamente, esto es realmente calcular y mostrar la distancia al píxel más cercano > 0,5, con el nodo de distancia definido como una abrazadera/máximo.
 

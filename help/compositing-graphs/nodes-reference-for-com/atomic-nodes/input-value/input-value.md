@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Valor de entrada
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Valor de entrada](input-value.resources/comp_inputnumeric_1.png "Nodo atómico: Valor de entrada")
+![Nodo atómico: Valor de entrada](input-value.resources/comp_inputnumeric_1.png "Nodo atómico: Valor de entrada"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +33,7 @@ Los nodos de entrada son un tipo especial de nodo que crea una ranura dinámica 
 
 A diferencia de [nodos de salida](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), debe colocar explícitamente una entrada Color, Escala de grises o Valor. No es posible crear sus propias entradas &quot;agnósticas&quot; que cambian de tipo dependiendo de lo que esté conectado a ellas.
 
-Los nodos de entrada no son tan cruciales como [nodos de salida](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puede tener gráficos avanzados que funcionen a la perfección y que no necesiten una entrada. Las entradas solo se utilizan cuando se desea basar el resultado del gráfico o de la instancia de nodo en una entrada externa, por ejemplo, al crear una [instancia](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o un [filtro](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/effects/filter) para Substance 3D Painter.
+Los nodos de entrada no son tan cruciales como [nodos de salida](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puede tener gráficos avanzados que funcionen a la perfección y que no necesiten una entrada. Las entradas solo se utilizan cuando se desea basar el resultado del gráfico o de la instancia de nodo en una entrada externa, por ejemplo, al crear una [instancia](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o un [filtro](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) para Substance 3D Painter.
 
 Consulte también: [Color de entrada](../input-color/input-color.md), [Escala de grises de entrada](../input-grayscale/input-grayscale.md)
 
@@ -41,7 +41,7 @@ Consulte también: [Color de entrada](../input-color/input-color.md), [Escala de
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="input-value.resources/input-value-tooltip.gif" alt="Información sobre el valor de entrada" /></div>
+<div data-preserve-html="true" align="center"><img src="input-value.resources/input-value-tooltip.gif" alt="Información sobre el valor de entrada" /></div>
 
 ## Parámetros
 
@@ -60,7 +60,7 @@ Si desea verla con los resultados de otro gráfico, deberá exportar dicho gráf
 | --- | --- |
 | <b>Identificador</b> *Cadena* | El único atributo único y obligatorio. No puede contener espacios. Este se utiliza para etiquetar entradas si no se ha configurado ninguna etiqueta y para diferenciar las diferentes salidas. ¡No deje esto en &quot;input\_1&quot;! |
 | <b>Descripción</b> *Cadena* | Descripción opcional utilizada en la biblioteca de Designer y el estante de Painter. |
-| <b>Etiqueta</b> *Cadena* | Etiqueta de interfaz de usuario utilizada para un etiquetado agradable en la interfaz de usuario de Designer y Painter. Puede contener espacios. Se recomienda configurar con un nombre similar al Identificador, solo con barras espaciadoras en lugar de guiones bajos. |
+| <b>Etiqueta</b> *Cadena* | Etiqueta de interfaz de usuario utilizada para un etiquetado agradable en la interfaz de usuario de Designer y Painter. Puede contener espacios. Se recomienda configurar con un nombre similar al del Identificador, solo con barras espaciadoras en lugar de guiones bajos. |
 | <b>Datos de usuario</b> *Cadena* | Datos de usuario adicionales y opcionales que se pueden utilizar para operaciones de filtrado específicas. Básicamente, un campo de datos personalizado y comodín. |
 | <b>Grupo</b> *Cadena* | Atributo de grupo utilizado para agrupar entradas para los [Modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer. Las entradas con un atributo de grupo idéntico (distingue mayúsculas de minúsculas) se presentarán como una única conexión en el modo de material compacto. |
 
@@ -101,7 +101,7 @@ Por último, puede reemplazar cualquier valor para un atributo determinado estab
 
 ## Atributos de integración
 
-Las entradas no se envían directamente a la Vista 3D, pero [Substance 3D Painter](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/home) utiliza sus atributos de uso para rellenar automáticamente las ranuras con determinados mapas (la mayoría de ellos se usan con [Filters](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/effects/filter)).
+Las entradas no se envían directamente a la Vista 3D, pero [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) utiliza sus atributos de uso para rellenar automáticamente las ranuras con determinados mapas (la mayoría de ellos se usan con [Filters](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Además, los atributos de uso también se utilizan con [Modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), para que coincidan con las ranuras de entrada y salida correctas.
 

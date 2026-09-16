@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
 description: Utilice el nodo Perfilar para mejorar los detalles de la textura y las aristas para crear detalles de superficie definidos y nítidos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Enfocar
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Enfocar nodo realiza una operación de enfoque en una entrada. Es un nodo útil 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="sharpen.resources/sharpen-tooltip.gif" alt="información sobre herramientas de enfoque" /></div>
+<div data-preserve-html="true" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="información sobre herramientas de enfoque" /></div>
 
 Es matemáticamente muy similar a Máscara de enfoque de Photoshop, a pesar de que el nombre es diferente. Funciona bien para cosas como un mapa Basecolor, pero debe evitarse en mapas como los mapas normales y los mapas metálicos.
 

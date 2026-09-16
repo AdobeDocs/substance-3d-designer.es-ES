@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: Utilice el nodo FX-Map para aplicar gráficos de funciones a las texturas para crear patrones y efectos procedimientos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: FX-Map](fx-map.resources/fxmap.png "Nodo atómico: FX-Map")
+![Nodo atómico: FX-Map](fx-map.resources/fxmap.png "Nodo atómico: FX-Map"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Es uno de los nodos atómicos más potentes, así como el nodo más complejo dis
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="información sobre herramientas de fx-map" /></div>
+<div data-preserve-html="true" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="información sobre herramientas de fx-map" /></div>
 
 De forma similar al [Procesador de píxeles](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), depende de usted definir y crear las funciones que determinan el comportamiento y el resultado de este nodo.
 
@@ -58,8 +58,8 @@ Tenga en cuenta que, a diferencia de otros nodos, la mayoría del comportamiento
 | <b>Área de procesamiento</b> *Flotante4* | Permite definir el rango de píxeles inicial para cada lado del mapa de efectos, lo que produce un efecto estirado. |
 | <b>Región de mosaico</b> *Flotante4* | Permite desplazar la distancia de mosaico del FX-Map. |
 | <b>Sacar fuera</b> *Booleano* | Realiza una optimización mediante [selección](../../../../glossary/glossary.md) de patrones que se encuentran fuera del intervalo normal. |
-| <b>Rugosidad</b> *Flotante* | Funciona como un multiplicador de profundidad y opacidad. Aplica un sesgo al proceso de fusión de mapa de divisas. |
-| <b>Opacidad global</b> *Flotante* | Define la opacidad global de la salida del mapa de efectos. |
+| <b>Rugosidad</b> *Flotador* | Funciona como un multiplicador de profundidad y opacidad. Aplica un sesgo al proceso de fusión de mapa de divisas. |
+| <b>Opacidad global</b> *Flotador* | Define la opacidad global de la salida del mapa de efectos. |
 
 ## Guía de FX-Map
 
