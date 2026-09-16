@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/shortcuts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+breadcrumb-title: ""
 description: Aprenda los métodos abreviados de teclado en Substance 3D Designer para acelerar el flujo de trabajo y mejorar la productividad.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Shortcuts
@@ -8,25 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Mét. abrev.
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '339'
 ht-degree: 17%
-
 ---
-
 
 # Mét. abrev.
 
 En esta página encontrará una descripción general de todos los métodos abreviados de Substance 3D Designer.
-
-## Tabla de contenido
-
-[Mapas clave](#keymaps)
-
-[Listas de accesos directos](#shortcuts-lists)
 
 ## Mapas clave
 

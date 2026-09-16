@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+breadcrumb-title: ""
 description: Usa instancias y subgráficos de gráficos para crear componentes de gráficos reutilizables y flujos de trabajo de materiales modulares.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Instancias y subgráficos de gráficos
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 
 # Instancias y subgráficos de gráficos
 
@@ -42,7 +40,7 @@ Arrastre un gráfico A desde el Explorador a otro gráfico B para crear un <b>no
 
 Los nodos se pueden dividir rápidamente en un nuevo gráfico al seleccionar los nodos y utilizar la opción &quot;Crear gráfico a partir de la selección&quot; del menú contextual. A continuación, se le pedirá que defina el identificador del nuevo gráfico, que debe ser único.
 
-Tenga en cuenta que si los nodos seleccionados estuvieran conectados a otros nodos del gráfico, también debe crear nodos [Input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) y [Output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) en el nuevo gráfico para transferir estas conexiones al subgráfico.
+Tenga en cuenta que si los nodos seleccionados estuvieran conectados a otros nodos del gráfico, también debe crear nodos [Input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) y [Output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) en el nuevo gráfico para transferir estas conexiones al subgráfico.
 
 Además, la sustitución de los nodos originales por un nodo de instancia que haga referencia al nuevo gráfico se debe realizar manualmente posteriormente.
 

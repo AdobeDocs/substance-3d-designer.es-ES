@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-12-4.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
+breadcrumb-title: ""
 description: Consulte las notas de la versión 12.4 de Substance 3D Designer para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 12.4
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Versión 12.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
-
 ---
-
 
 # Versión 12.4
 
@@ -58,7 +56,7 @@ Ahora puede bloquear la anchura y el height del tamaño de salida para asegurars
 
 ### Transformar la entrada de imagen a color/escala de grises
 
-Cambia rápidamente entre un [color de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) y una [escala de grises de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) a través del menú contextual del nodo.
+Cambia rápidamente entre un [color de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) y una [escala de grises de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md) a través del menú contextual del nodo.
 
 ![](version-12-4.resources/final-switch.gif){width="640px"}
 
@@ -111,7 +109,7 @@ Esta versión 12.4 también ofrece compatibilidad total con gráficos de modelos
 * [Vista 3D] La propiedad de visualización de Mallas metálicas no se guarda
 * [Contenido] Los parámetros de color de desenfoque radial no afectan al canal alfa
 * [Localización] Se muestran reguladores y botones adicionales en Propiedades de OpenGL de entorno.
-* [MDL]&#x200B;[Modelo de Substance] Bloqueo al eliminar nodos expuestos
+* [MDL][Modelo de Substance] Bloqueo al eliminar nodos expuestos
 * [Preferencias] El archivo Default\_config nunca se vuelve a crear si se elimina
 * [Modelo de Substance] Parámetro de reordenación de bloqueo que no aparece en el nivel de instancia
 * [API] SDProperty.getDefaultValue() casi siempre devuelve None

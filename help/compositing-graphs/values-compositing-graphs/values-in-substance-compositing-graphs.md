@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+breadcrumb-title: ""
 description: Obtenga más información sobre los tipos de valor y el control de datos en Substance que componen gráficos para crear materiales de forma eficaz.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Values in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Valores en gráficos de Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '508'
 ht-degree: 2%
-
 ---
-
 
 # Valores en gráficos de Substance
 
@@ -32,10 +30,10 @@ Hay algunos casos de uso para esto, como:
 
 Dos nuevos nodos atómicos funcionan con valores:
 
-|  |  |
-| --- | --- |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                       |  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | <div><img alt="Icono de nodo de Value Processor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="Icono de nodo de Value Processor" width="100px"/></div>  <b>[Procesador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | El [Procesador de valores](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) toma Cualquier número de entradas de escala de grises o de color y le permite devolver un solo valor de los cálculos basados en estas entradas. |
-| <div><img alt="Icono de nodo Entrada de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Icono de nodo Entrada de valor" width="100px"/></div>  **[Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | La [Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) le permite crear una ranura de entrada en subgráficos que se define explícitamente como un valor. |
+| <div><img alt="Icono de nodo Entrada de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Icono de nodo Entrada de valor" width="100px"/></div>  **[Valor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)** | La [Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md) le permite crear una ranura de entrada en subgráficos que se define explícitamente como un valor. |
 
 Además, otros nodos se ocupan de ellos de una manera específica:
 
@@ -51,9 +49,9 @@ Hay una nueva pestaña en cada nodo ([Atomic](../../compositing-graphs/nodes-ref
 
 El uso de valores es ligeramente diferente del trabajo de gráfica normal del Substance:
 
-Las conexiones de valores solo se pueden realizar desde un [procesador Value](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), desde una [entrada Value](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) o desde un [subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Eso significa que un procesador de valores es la única forma de crear una conexión de valor desde cero, no hay un nodo de &quot;valor estático&quot; o algo similar. En su lugar, cree un procesador de valores, coloque un valor estático y establézcalo como salida para obtener el mismo resultado.
+Las conexiones de valores solo se pueden realizar desde un [Procesador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), desde un [valor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md) o desde un [subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Eso significa que un procesador de valores es la única forma de crear una conexión de valor desde cero, no hay un nodo de &quot;valor estático&quot; o algo similar. En su lugar, cree un procesador de valores, coloque un valor estático y establézcalo como salida para obtener el mismo resultado.
 
-El procesador de valores solo puede devolver un único valor; si desea devolver varios valores, o conjuntos o grupos de valores, deberá crear un [subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
+El procesador de valor solo puede devolver un único valor. Si desea devolver varios valores, o conjuntos o grupos de valores, deberá crear un [subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
 
 Para resaltar dónde se exponen o se usan los valores, cualquier nodo que tenga entradas de valor o salidas de valor se resalta con un borde amarillo grueso:
 

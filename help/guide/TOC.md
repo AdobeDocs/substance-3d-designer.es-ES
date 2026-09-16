@@ -3,9 +3,9 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 21%
 ---
 
@@ -130,7 +130,9 @@ ht-degree: 21%
       + [Procesador de valor](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Deformar](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Salida](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Color de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Escala de grises de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Valor de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Biblioteca de nodos{#node-library}
       + [Biblioteca de nodos](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Generadores de texturas{#texture-generators}
@@ -753,8 +755,8 @@ ht-degree: 21%
   + [Bloqueo al renderizar los gráficos](/help/technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
   + [Los parámetros no funcionan según lo previsto](/help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
   + [Salida de imagen incorrecta](/help/technical-issues/incorrect-image-output/incorrect-image-output.md)
-  + [Problemas de visualización en 3D](/help/technical-issues/3d-view-issues/3d-view-issues.md)
-  + [Problemas de horneado](/help/technical-issues/baking-issues/baking-issues.md)
+  + [Problemas de Vista 3D](/help/technical-issues/3d-view-issues/3d-view-issues.md)
+  + [Hacer un bake problemas](/help/technical-issues/baking-issues/baking-issues.md)
   + [Problemas de interfaz de usuario](/help/technical-issues/user-interface-issues/user-interface-issues.md)
   + [Problemas de Python](/help/technical-issues/python-issues/python-issues.md)
   + [Faltan las funciones de representación de MDL graph e Iray](/help/technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)

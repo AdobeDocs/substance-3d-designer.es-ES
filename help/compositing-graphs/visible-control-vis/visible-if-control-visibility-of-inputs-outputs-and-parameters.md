@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+breadcrumb-title: ""
 description: Aprenda a utilizar expresiones visibles if en Substance 3D Designer para controlar la visibilidad de los parámetros en función de las condiciones.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Visible si las expresiones
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
-
 ---
-
 
 # Visible si las expresiones
 
@@ -27,7 +25,7 @@ Al [exponer parámetros](../../compositing-graphs/manage-parameters/exposing-a-p
 Para ello, puede introducir una *expresión lógica* en la propiedad <b>Visible if</b> de:
 
 * [parámetro de entrada](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) de un gráfico;
-* un nodo [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) de gráfico;
+* un nodo [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) de gráfico;
 * el nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) de un gráfico.
 
 ![Cambiar la visibilidad del parámetro de entrada](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "Cambiar la visibilidad del parámetro de entrada"){width="512px"}
