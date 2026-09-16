@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/workflow-overview.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
+breadcrumb-title: ""
 description: Descubre el flujo de trabajo esencial para crear materiales procedimientos en Substance 3D Designer de principio a fin.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
@@ -8,31 +8,19 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Descripción general del flujo de trabajo
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: f475b696f2d3ff6c453c5dc27e5672d55d72116e
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1169'
 ht-degree: 0%
-
 ---
-
 
 # Descripción general del flujo de trabajo
 
 Substance 3D Designer es un editor basado en nodos. Esto significa que casi todos los tipos de proyecto o recurso implicarán colocar nodos (bloques de creación) y conectarlos para crear una cadena de operaciones (un gráfico). Esta página explica el concepto de flujos de trabajo basados en nodos y proporciona un resumen de los 3 tipos principales de gráficos que puede crear en Designer.
 
-## Tabla de contenido
-
-[Flujo de trabajo basado en nodos](#node-workflow)
-
-[Flujo de trabajo de instancia de gráfico](#instance-workflow)
-
-[Parámetros personalizados](#custom-parameters)
-
-[Tipos de gráficos](#graph-types)
-
-![Flujo de datos simplificado](workflow-overview.resources/graph-direction.png "Flujo de datos simplificado")
+![Flujo de datos simplificado](workflow-overview.resources/graph-direction.png "Flujo de datos simplificado"){zoomable="yes"}
 
 ## Flujo de trabajo basado en nodos
 
@@ -48,7 +36,7 @@ La creación de instancias de gráficos es un proceso clave en Designer. Le perm
 
 Para obtener más información sobre las instancias de gráficos en [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), hay una [sección dedicada](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) sobre ellas en la documentación.
 
-![Parámetros de gráficos simplificados](workflow-overview.resources/parameters-5.png "Parámetros de gráficos simplificados")
+![Parámetros de gráficos simplificados](workflow-overview.resources/parameters-5.png "Parámetros de gráficos simplificados"){zoomable="yes"}
 
 ## Parámetros personalizados
 
@@ -60,12 +48,12 @@ A continuación puede encontrar un resumen de los tres tipos de gráficos que pu
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td style="border: 0; width: 20%; vertical-align: top">
 
-[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+![](workflow-overview.resources/graph-5.png){width="120px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 ### Gráficos de Substance
 
@@ -83,10 +71,9 @@ Los gráficos de Substance son [el tipo de gráfico más ampliamente admitido](.
 
 A continuación, puede encontrar algunos ejemplos típicos de casos de uso comunes.
 
-+++Forma simple
-![Forma simple en el gráfico del Substance](workflow-overview.resources/simpleshape.png "Forma simple en el gráfico del Substance"){width="512px"}
++++ Forma simple
 
-
+![Forma simple en el gráfico del Substance](workflow-overview.resources/simpleshape.png "Forma simple en el gráfico del Substance"){width="512px" zoomable="yes"}
 
 Se crea una forma de máscara simple para una pegatina generando [un fragmento de texto](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) y una [forma de disco](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extrayendo el borde](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) del disco y finalmente [fusionándolos](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) antes de establecerlos como [salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
 
@@ -94,23 +81,21 @@ El texto con el número o el thickness del borde se puede exponer externamente p
 
 +++
 
-+++Filtro de ajuste
-![Filtro de ajuste en el gráfico de Substance](workflow-overview.resources/simplefilter.png "Filtro de ajuste en el gráfico de Substance"){width="512px"}
++++ Filtro de ajuste
 
+![Filtro de ajuste en el gráfico de Substance](workflow-overview.resources/simplefilter.png "Filtro de ajuste en el gráfico de Substance"){width="512px" zoomable="yes"}
 
-
-Un gráfico de filtro toma un mapa normal como [entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(con una vista previa personalizada), [lo convierte en curvatura](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) y, a continuación, [ajusta el contraste](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para crear una máscara de bordes convexos como [salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
+Un gráfico de filtros toma un mapa de normales como [entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (con una vista previa personalizada), [lo convierte en curvatura](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) y, a continuación, [ajusta el contraste](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para crear una máscara de bordes convexos como [salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
 
 Los valores de contraste establecidos en el histograma pueden ser expuestos, haciendo de este un filtro simple pero útil en combinación con la ranura de entrada dinámica.
 
 +++
 
-+++Material completo
-![Material completo en el gráfico del Substance](workflow-overview.resources/simplematerial.png "Material completo en el gráfico del Substance"){width="512px"}
++++ Material completo
 
+![Material completo en el gráfico del Substance](workflow-overview.resources/simplematerial.png "Material completo en el gráfico del Substance"){width="512px" zoomable="yes"}
 
-
-Un gráfico más complicado[fusiona dos Materiales base](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). Un [Material base](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) se mantiene simple, el otro usa algunas entradas personalizadas para agregar interés. Se utiliza una máscara para determinar cuál de los dos materiales aparece en qué lugar antes de definirse como [salidas](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finales.
+Un gráfico más complicado [fusiona dos Materiales base](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). Un [Material base](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) se mantiene simple, el otro usa algunas entradas personalizadas para agregar interés. Se utiliza una máscara para determinar cuál de los dos materiales aparece en qué lugar antes de definirse como [salidas](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finales.
 
 Este ejemplo utiliza [Modos de creación de vínculos](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) para simplificar el uso de varios vínculos.
 
@@ -118,16 +103,16 @@ Este ejemplo utiliza [Modos de creación de vínculos](../../interface/the-graph
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td style="border: 0; width: 20%; vertical-align: top">
 
-[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+![](workflow-overview.resources/function-1.png){width="120px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 ### Gráficas de funciones de Substance
 
-Las funciones <b>procesan valores únicos</b> (enteros, flotantes, vectores) en lugar de datos de imagen (conjuntos completos de píxeles). Las funciones también son gráficos con redes de nodos, pero se utilizan [nodos](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) y la interfaz es diferente de los [gráficos de Substance normales](../../compositing-graphs/substance-compositing-graphs.md). El flujo de trabajo se basa completamente en <b>operaciones matemáticas</b> y no muestra miniaturas de vista previa de imágenes, lo que lo convierte en una forma <b>mucho más avanzada de trabajar</b> con Substance 3D Designer.
+Las funciones <b>procesan valores únicos</b> (enteros, flotantes, vectores) en lugar de datos de imagen (conjuntos completos de píxeles). Las funciones también son gráficos con redes de nodos, pero los [nodos utilizados](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) y la interfaz son diferentes de los [gráficos de Substance normales](../../compositing-graphs/substance-compositing-graphs.md). El flujo de trabajo se basa completamente en <b>operaciones matemáticas</b> y no muestra miniaturas de vista previa de imágenes, lo que lo convierte en una forma <b>mucho más avanzada de trabajar</b> con Substance 3D Designer.
 
 Las funciones se pueden usar en muchos contextos diferentes, los principales son para modificar el comportamiento de [un parámetro expuesto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), para crear el comportamiento de [Procesadores de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) o [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) y para usar [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) en un gráfico de Substance.
 
@@ -139,10 +124,9 @@ Las funciones se pueden usar en muchos contextos diferentes, los principales son
 
 A continuación se muestran algunos ejemplos de casos prácticos habituales para gráficas de funciones de Substance.
 
-+++Función simple
-![Gráfico de funciones simples](workflow-overview.resources/lerpfunction.png "Gráfico de funciones simples"){width="256px"}
++++ Función simple
 
-
+![Gráfico de funciones simples](workflow-overview.resources/lerpfunction.png "Gráfico de funciones simples"){width="256px" zoomable="yes"}
 
 Una función simple en el contexto de un parámetro expuesto. Obtiene un valor flotante de entrada denominado &quot;Intensity&quot; (Intensidad) que se determina para ir de 0 a 1 (un rango fácil de entender) y lo reasigna a un rango establecido de 0,1 a 0,8. Eso significa que si el usuario establece Intensity en 0, internamente se utilizará 0.1, si la interfaz de usuario se establece en 1, se utilizará 0.8 y cualquier valor intermedio se interpolará linealmente. Este tipo de función se suele usar cuando se [exponen parámetros](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), pero se usan funciones personalizadas.
 
@@ -150,10 +134,9 @@ Esta función también se puede escribir como *lerp(0.1, 0.8, Intensity)* en un 
 
 +++
 
-+++Función avanzada
-![Función avanzada](workflow-overview.resources/pixel-function.png "Función avanzada"){width="512px"}
++++ Función avanzada
 
-
+![Función avanzada](workflow-overview.resources/pixel-function.png "Función avanzada"){width="512px" zoomable="yes"}
 
 Esta función avanzada muestra el funcionamiento interno de un [procesador de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado a ajustar el tono de una entrada de mapa de color en función de la intensidad de una segunda entrada de máscara de escala de grises.
 
@@ -161,10 +144,4 @@ Muestrea ambas entradas con la variable del sistema &quot;$pos&quot; y, a contin
 
 en pseudo-código esta sería una función mucho más complicada que no cabría en una sola línea.
 
-
-
 +++
-
-### Gráficos MDL
-
-Esta página presenta gráficos MDL en Substance 3D Designer, que le permiten crear materiales MDL y previsualizar su comportamiento en tiempo real.

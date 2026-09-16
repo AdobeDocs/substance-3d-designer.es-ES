@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+breadcrumb-title: ""
 description: Utilice el nodo Curva para ajustar los valores de textura mediante curvas personalizables para un control preciso del color y el brillo.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Curva
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '608'
 ht-degree: 2%
-
 ---
-
 
 # Curva
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Curva](curve.resources/comp_curve_1.png "Nodo atómico: Curva"){width="200px"}
+![Nodo atómico: Curva](curve.resources/comp_curve_1.png "Nodo atómico: Curva"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,53 +35,13 @@ El nodo proporciona una interfaz para la reasignación de tonalidad de imágenes
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="información sobre curva" /></div>
+
 A diferencia de la mayoría de los demás nodos, el nodo Curva no tiene una interfaz estándar típica con reguladores y parámetros, sino que presenta un editor de curvas completo. Consulte la siguiente sección ampliable sobre cómo usarla.
 
 [Sin embargo, esto significa que ninguno de los parámetros de un nodo Curve se puede exponer a un subgráfico](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). La única opción es usar un [conmutador múltiple](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) para cambiar entre diferentes perfiles de curva.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parámetros
-
-### Editor de curvas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de entrada
-
-### Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
@@ -99,7 +57,7 @@ A diferencia de la mayoría de los demás nodos, el nodo Curva no tiene una inte
 
 Para crear un punto, simplemente haga doble clic en cualquier parte de la vista Curva:
 
-![](curve.resources/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif){width="20%"}
 
 ### Control de la influencia de puntos
 
@@ -259,11 +217,6 @@ El botón ![](curve.resources/image2017-2-20-19-12-45.png) restablece el nivel d
 | --- | --- |
 | <b>Entrada</b> *Escala de grises/Color* PRINCIPAL | Imagen que se va a procesar. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises/Color* |  |
 
 ## Ejemplos
 

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+breadcrumb-title: ""
 description: Utilice el nodo Mapa de degradado para asignar valores de escala de grises a colores mediante rampas de degradado para la coloración y los efectos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Mapa de degradado
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1157'
 ht-degree: 2%
-
 ---
-
 
 # Mapa de degradado
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Mapa de degradado](gradient-map.resources/comp_gradient_1.png "Nodo atómico: Mapa de degradado"){width="200px"}
+![Nodo atómico: Mapa de degradado](gradient-map.resources/comp_gradient_1.png "Nodo atómico: Mapa de degradado"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,31 +35,11 @@ Este nodo tiene un doble propósito: Se puede usar simplemente como <b> </b>nodo
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="información sobre herramientas de mapa de degradado" /></div>
+
 El nodo ofrece un editor de degradados avanzado y con muchas funciones para asignar varios colores con precisión: ve a la sección [Editor de degradado](#gradient-editor) de esta página para obtener más información.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Ejemplos
-
-## Parámetros
 
 |  |  |
 | --- | --- |
@@ -71,18 +49,18 @@ El nodo ofrece un editor de degradados avanzado y con muchas funciones para asig
 
 ## Editor de degradado
 
-Esta ventana ofrece controles para editar el degradado de referencia utilizado por el nodo Mapa de degradado para asignar valores de escala de grises a colores.
+Esta ventana ofrece controles para editar el degradado de referencia utilizado por el nodo de Mapa de degradado para asignar valores de escala de grises a los colores.
 
-Se puede abrir desde las <b>propiedades</b> del nodo Mapa de degradado de las siguientes maneras:
+Se puede abrir desde las <b>propiedades</b> del nodo de Mapa de degradado de las siguientes maneras:
 
 * Haga clic en LMB en el botón <b>Editor de degradado</b>;
-* Haga doble clic en LMB en un pin de la barra de degradado. La chincheta seleccionada se seleccionará automáticamente en el Editor de degradado para que pueda editar directamente sus valores.
+* Haga doble clic en LMB en un pin de la barra de degradado. El pin en el que haga clic se seleccionará automáticamente en el Editor de degradado para que pueda editar directamente sus valores.
 
-![Editor de degradado](gradient-map.resources/image2017-2-17-16-13-5.png "Editor de degradado")
+![Editor de degradado](gradient-map.resources/image2017-2-17-16-13-5.png "Editor de degradado"){width="20%"}
 
-### Edición de los bordes de degradado
+### Edición de los pin de degradado
 
-Los colores y sus posiciones a lo largo del degradado se controlan mediante chinchetas situadas a lo largo de la barra de degradado.
+Los colores y sus posiciones a lo largo del degradado se controlan mediante pin situados a lo largo de la barra de degradado.
 
 Cada borde establece un color en su posición a lo largo del degradado.
 
@@ -177,7 +155,7 @@ Refleja las posiciones de los bordes seleccionados en el degradado.
 
 <b>Borrar todo</b>
 
-Quita todos los bordes de la barra de degradado.
+Quita todos los pin de la barra de degradado.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -346,11 +324,6 @@ El regulador <b>Precisión</b> te ayudará a ajustar el degradado recién creado
 | --- | --- |
 | <b>Entrada</b> *Escala de grises* PRINCIPAL | Imagen en escala de grises que se va a procesar. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises* |  |
 
 ## Ejemplos
 

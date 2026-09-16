@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 21%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -374,7 +372,7 @@ ht-degree: 21%
           + [Sección transversal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
           + [Curvatura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
           + [Curvatura suave](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-          + [Curvatura sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
+          + [Sobel de curvatura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
           + [Color de difusión](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-color/diffusion-color.md)
           + [Escala de grises de difusión](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
           + [Difusión UV](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
@@ -418,7 +416,7 @@ ht-degree: 21%
           + [Combinación normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
           + [Inversión normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-invert/normal-invert.md)
           + [Normalizar normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)
-          + [Normal sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
+          + [Sobel normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
           + [Normal al height](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
           + [Normal al height HQ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
           + [Transformo normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
@@ -445,7 +443,7 @@ ht-degree: 21%
           + [Transforma segura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md)
           + [Sesgar](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/skew/skew.md)
           + [Simetría](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md)
-          + [Sector de simetría](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
+          + [sector de simetría](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
           + [Transformar trapezoide](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
       + Filtros de material{#material-filters}
         + [Filtros de material](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
@@ -518,7 +516,7 @@ ht-degree: 21%
           + [Desgaste de cuero](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [Luz](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [Creador de máscaras](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [Oreja de borde metálico](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [Desgaste de los bordes metálicos](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [desgaste de pintura](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [Dirt selectivo](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [Blanqueador solar](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)
@@ -755,8 +753,8 @@ ht-degree: 21%
   + [Bloqueo al renderizar los gráficos](/help/technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
   + [Los parámetros no funcionan según lo previsto](/help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
   + [Salida de imagen incorrecta](/help/technical-issues/incorrect-image-output/incorrect-image-output.md)
-  + [Problemas de Vista 3D](/help/technical-issues/3d-view-issues/3d-view-issues.md)
-  + [Hacer un bake problemas](/help/technical-issues/baking-issues/baking-issues.md)
+  + [Problemas de visualización en 3D](/help/technical-issues/3d-view-issues/3d-view-issues.md)
+  + [Problemas de horneado](/help/technical-issues/baking-issues/baking-issues.md)
   + [Problemas de interfaz de usuario](/help/technical-issues/user-interface-issues/user-interface-issues.md)
   + [Problemas de Python](/help/technical-issues/python-issues/python-issues.md)
   + [Faltan las funciones de representación de MDL graph e Iray](/help/technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)

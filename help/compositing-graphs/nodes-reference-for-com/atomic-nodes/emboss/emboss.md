@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+breadcrumb-title: ""
 description: Utilice el nodo Relieve para crear efectos de relieve en las texturas para añadir profundidad y relieve a los detalles de la superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Relieve
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 9%
-
 ---
-
 
 # Relieve
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Relieve](emboss.resources/comp_emboss_1.png "Nodo atómico: Relieve"){width="200px"}
+![Nodo atómico: Relieve](emboss.resources/comp_emboss_1.png "Nodo atómico: Relieve"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,42 +35,11 @@ Es decir, el nodo realiza un sombreado 2D simple basado en 2 entradas, simulando
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="emboss.resources/emboss-tooltip.gif" alt="Información sobre relieve" /></div>
+
 Este nodo no se usa con frecuencia para proyectos similares a la PBR, pero puede servir en ciertos casos en los que deseas una iluminación simple y horneada en tu textura. Como alternativa, [Relieve con brillo](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) y [Relieve de Uber](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) proporcionan una funcionalidad similar, pero más extensa.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
@@ -90,11 +57,6 @@ Este nodo no se usa con frecuencia para proyectos similares a la PBR, pero puede
 | <b>Entrada</b> *Escala de grises/Color* PRINCIPAL | Proporciona los colores base sin sombreado. Véalo como una especie de textura difusa o de color base. |
 | <b>Entrada de intensidad</b> *Escala de grises* | Representa el mapa de alturas utilizado para calcular la iluminación en la superficie. El negro es bajo y el blanco es alto. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises/Color* |  |
 
 ## Ejemplos
 

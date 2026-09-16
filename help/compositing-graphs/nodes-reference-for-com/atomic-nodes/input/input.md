@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+breadcrumb-title: ""
 description: Utilice el nodo Entrada para crear parámetros de entrada para gráficos de Substance que los usuarios pueden exponer y ajustar.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Entrada
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 
 # Entrada
 
@@ -24,27 +22,31 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nodo atómico: Color de entrada](input.resources/comp_inputcolor_1.png "Nodo atómico: Color de entrada"){width="200px"}
+![Nodo atómico: Color de entrada](input.resources/comp_inputcolor_1.png "Nodo atómico: Color de entrada"){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atómico: Entrada en escala de grises](input.resources/comp_inputgrayscale_1.png "Nodo atómico: Escala de grises de entrada"){width="200px"}
+![Nodo atómico: Entrada en escala de grises](input.resources/comp_inputgrayscale_1.png "Nodo atómico: Escala de grises de entrada"){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atómico: Valor de entrada](input.resources/comp_inputnumeric_1.png "Nodo atómico: Valor de entrada"){width="200px"}
+![Nodo atómico: Valor de entrada](input.resources/comp_inputnumeric_1.png "Nodo atómico: Valor de entrada"){width="20%"}
 
 </td>
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-color-tooltip.gif" alt="Información sobre herramientas de color de entrada" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-grayscale-tooltip.gif" alt="Información sobre herramientas de escala de grises" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-value-tooltip.gif" alt="Información sobre el valor de entrada" /></div>
+
 Los nodos de entrada son un tipo especial de nodo que crea una ranura dinámica en el gráfico, lo que permite que cualquier entrada se conecte una vez que el gráfico se utiliza en otro contexto.
 
 A diferencia de [nodos de salida](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), debe colocar explícitamente una entrada Color, Escala de grises o Valor. No es posible crear sus propias entradas &quot;agnósticas&quot; que cambian de tipo dependiendo de lo que esté conectado a ellas.
 
-Los nodos de entrada no son tan cruciales como [nodos de salida](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puede tener gráficos avanzados que funcionen a la perfección y que no necesiten una entrada. Las entradas solo se utilizan cuando se desea basar el resultado del gráfico o de la instancia de nodo en una entrada externa, por ejemplo, al crear una [instancia](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o un [filtro](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/effects/filter) para Substance 3D Painter.
+Los nodos de entrada no son tan cruciales como [nodos de salida](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puede tener gráficos avanzados que funcionen a la perfección y que no necesiten una entrada. Las entradas solo se utilizan cuando se desea basar el resultado del gráfico o de la instancia de nodo en una entrada externa, por ejemplo, al crear una [instancia](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o un [filtro](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) para Substance 3D Painter.
 
 ## Parámetros
 
@@ -81,7 +83,7 @@ Una entrada se puede definir como [entrada principal](../../../../compositing-gr
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Entrada principal en el gráfico del Substance](input.resources/node-primary-input.png)
+![Entrada principal en el gráfico del Substance](input.resources/node-primary-input.png){width="20%"}
 
 </td>
 </tr>
@@ -104,7 +106,7 @@ Por último, puede reemplazar cualquier valor para un atributo determinado estab
 
 ## Atributos de integración
 
-Las entradas no se envían directamente a la Vista 3D, pero [Substance 3D Painter](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/home) utiliza sus atributos de uso para rellenar automáticamente las ranuras con determinados mapas (la mayoría de ellos se usan con [Filters](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/effects/filter)).
+Las entradas no se envían directamente a la Vista 3D, pero [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) utiliza sus atributos de uso para rellenar automáticamente las ranuras con determinados mapas (la mayoría de ellos se usan con [Filters](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Además, los atributos de uso también se utilizan con [Modos de creación de vínculos](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), para que coincidan con las ranuras de entrada y salida correctas.
 

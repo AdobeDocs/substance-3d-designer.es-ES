@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+breadcrumb-title: ""
 description: Utilice el nodo Niveles para ajustar el brillo, el contraste y la gama tonal de las texturas para la corrección y mejora del color.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Niveles
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 4%
-
+source-wordcount: '549'
+ht-degree: 3%
 ---
-
 
 # Niveles
 
@@ -24,7 +22,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Niveles](levels.resources/comp_levels_1.png "Nodo atómico: Niveles"){width="200px"}
+![Nodo atómico: Niveles](levels.resources/comp_levels_1.png "Nodo atómico: Niveles"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,33 +35,13 @@ El nodo Niveles permite reasignar los tonos de una entrada mediante la configura
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="levels.resources/levels-tooltip.gif" alt="información sobre herramientas niveles" /></div>
+
 Es uno de los nodos principales y más útiles de Substance 3D Designer y se utiliza con frecuencia para reasignar y ajustar valores en un gráfico, ya que proporciona la interfaz más precisa y precisa para cambiar valores.
 
 Si bien es un nodo importante, para algunos casos de uso la interfaz puede ser un poco engorrosa, así que asegúrate de buscar [Niveles automáticos](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [Contraste/Luminosidad](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) y [Análisis de histograma](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para encontrar alternativas.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Ejemplos
-
-## Parámetros
 
 El nodo ofrece dos interfaces para ajustar sus valores: histograma y reguladores. Puede cambiar entre ellos con el botón derecho en la barra de encabezado &quot;Parámetros específicos&quot;:
 
@@ -76,7 +54,7 @@ El botón amarillo resaltado alterna la interfaz entre los reguladores de valor 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png)
+![](levels.resources/levels-2-1.png){width="20%"}
 
 ![](levels.resources/levels-1-1.png)
 
@@ -129,11 +107,6 @@ Los reguladores cambian en función de una entrada de color o escala de grises: 
 | --- | --- |
 | <b>Entrada</b> *Escala de grises/Color* PRINCIPAL | Imagen que se va a procesar. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Escala de grises/Color* |  |
 
 ## Ejemplos
 

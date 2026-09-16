@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+breadcrumb-title: ""
 description: Utilice el nodo Normal para procesar y manipular texturas de mapa normales para controlar los detalles y la iluminación de la superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Normal
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 8%
-
+source-wordcount: '217'
+ht-degree: 7%
 ---
-
 
 # Normal
 
@@ -24,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Normal](normal.resources/comp_normal_1.png "Nodo atómico: Normal"){width="200px"}
+![Nodo atómico: Normal](normal.resources/comp_normal_1.png "Nodo atómico: Normal"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,42 +35,11 @@ El nodo convierte un mapa de escala de grises de entrada en una salida de mapa N
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="normal.resources/normal-tooltip.gif" alt="información sobre herramientas normal" /></div>
+
 Es un nodo muy útil que se utiliza a menudo para convertir entradas de mapas de height en mapas normales para materiales listos en tiempo real. Hay alternativas para encontrar en [Sobel Normal](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) y Height A Unidades Mundiales Normales.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de salida
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ejemplos
-
-</td>
-</tr>
-</table>
 
 ## Parámetros
 
@@ -88,11 +55,6 @@ Es un nodo muy útil que se utiliza a menudo para convertir entradas de mapas de
 | --- | --- |
 | <b>Entrada</b> *Escala de grises* PRINCIPAL | Imagen de entrada interpretada como un mapa de height. |
 
-## Conectores de salida
-
-|  |  |
-| --- | --- |
-| <b>Salida</b> *Color* |  |
 
 ## Ejemplos
 
