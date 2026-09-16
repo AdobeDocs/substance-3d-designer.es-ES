@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
 description: Utilice el nodo Procesador de valor para procesar y manipular valores de textura mediante operaciones matemáticas para ajustes personalizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Procesador de valor
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -20,12 +20,12 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Nodo atómico: Procesador de valores](value-processor.resources/comp_valueprocessor_1.png "Nodo atómico: Procesador de valores"){width="20%"}
+![Nodo atómico: Procesador de valores](value-processor.resources/comp_valueprocessor_1.png "Nodo atómico: Procesador de valores")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Calcula un [gráfico de funciones de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) y genera su resultado.
 
@@ -35,7 +35,7 @@ Es comparable a un [procesador de píxeles](../../../../compositing-graphs/nodes
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="información sobre herramientas del procesador de valores" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="información sobre herramientas del procesador de valores" /></div>
 
 
 >[!TIP]

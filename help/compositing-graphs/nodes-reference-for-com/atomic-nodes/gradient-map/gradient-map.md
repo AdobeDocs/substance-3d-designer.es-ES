@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Utilice el nodo Mapa de degradado para asignar valores de escala de grises a colores mediante rampas de degradado para la coloración y los efectos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de degradado
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Mapa de degradado](gradient-map.resources/comp_gradient_1.png "Nodo atómico: Mapa de degradado"){width="20%"}
+![Nodo atómico: Mapa de degradado](gradient-map.resources/comp_gradient_1.png "Nodo atómico: Mapa de degradado")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Reasigna los valores de escala de grises de una imagen utilizando un degradado personalizado.
 
@@ -35,7 +35,7 @@ Este nodo tiene un doble propósito: Se puede usar simplemente como <b> </b>nodo
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="información sobre herramientas de mapa de degradado" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="información sobre herramientas de mapa de degradado" /></div>
 
 El nodo ofrece un editor de degradados avanzado y con muchas funciones para asignar varios colores con precisión: ve a la sección [Editor de degradado](#gradient-editor) de esta página para obtener más información.
 
@@ -49,18 +49,18 @@ El nodo ofrece un editor de degradados avanzado y con muchas funciones para asig
 
 ## Editor de degradado
 
-Esta ventana ofrece controles para editar el degradado de referencia utilizado por el nodo de Mapa de degradado para asignar valores de escala de grises a los colores.
+Esta ventana ofrece controles para editar el degradado de referencia utilizado por el nodo Mapa de degradado para asignar valores de escala de grises a colores.
 
-Se puede abrir desde las <b>propiedades</b> del nodo de Mapa de degradado de las siguientes maneras:
+Se puede abrir desde las <b>propiedades</b> del nodo Mapa de degradado de las siguientes maneras:
 
 * Haga clic en LMB en el botón <b>Editor de degradado</b>;
-* Haga doble clic en LMB en un pin de la barra de degradado. El pin en el que haga clic se seleccionará automáticamente en el Editor de degradado para que pueda editar directamente sus valores.
+* Haga doble clic en LMB en un pin de la barra de degradado. La chincheta seleccionada se seleccionará automáticamente en el Editor de degradado para que pueda editar directamente sus valores.
 
-![Editor de degradado](gradient-map.resources/image2017-2-17-16-13-5.png "Editor de degradado"){width="20%"}
+![Editor de degradado](gradient-map.resources/image2017-2-17-16-13-5.png "Editor de degradado")
 
-### Edición de los pin de degradado
+### Edición de los bordes de degradado
 
-Los colores y sus posiciones a lo largo del degradado se controlan mediante pin situados a lo largo de la barra de degradado.
+Los colores y sus posiciones a lo largo del degradado se controlan mediante chinchetas situadas a lo largo de la barra de degradado.
 
 Cada borde establece un color en su posición a lo largo del degradado.
 
@@ -155,7 +155,7 @@ Refleja las posiciones de los bordes seleccionados en el degradado.
 
 <b>Borrar todo</b>
 
-Quita todos los pin de la barra de degradado.
+Quita todos los bordes de la barra de degradado.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -168,23 +168,23 @@ Quita todos los pin de la barra de degradado.
 
 <b>Invertir colores</b>
 
-Este botón cambia los colores de los pin seleccionados a sus negativos.
+Este botón cambia los colores de los bordes seleccionados a su negativo.
 
 <b>Desaturar</b>
 
-Este botón desaturará los colores establecidos en los pin seleccionados.
+Este botón desaturará los colores establecidos en los bordes seleccionados.
 
 ### Modos de interpolación
 
-Una vez configurados los pin, puede controlar cómo se transfieren los colores de un pin al siguiente mediante los modos de interpolación disponibles:
+Una vez configurados los bordes, puede controlar la transición de los colores de un borde al siguiente mediante los modos de interpolación disponibles:
 
 +++Lineal
-Modo de interpolación predeterminado: aplica una interpolación lineal simple entre cada pin, de modo que el degradado progresa uniformemente.
+Modo de interpolación predeterminado: aplica una interpolación lineal simple entre cada punto, de modo que el degradado progresa uniformemente.
 
 +++
 
 +++Tangentes planos
-Cuando se piensa en la transición entre degradados como curvas Bézier donde los pin son puntos de la curva, este modo establece que estos puntos tengan tangentes horizontales.
+Cuando se piensa en la transición entre degradados como curvas Bézier donde los bordes son puntos de la curva, este modo establece que estos puntos tengan tangentes horizontales.
 
 Esto da como resultado una transición que evoca una interpolación de paso suave.
 
@@ -200,9 +200,9 @@ Cuando se selecciona este modo, el parámetro <b>Smoothness</b> está habilitado
 +++
 
 +++Sin interpolación
-El color solo cambia en la ubicación de un pin y permanece constante hasta el siguiente pin a lo largo de la barra de degradado.
+El color solo cambia en la ubicación de los bordes y permanece constante hasta el siguiente borde de la barra de degradado.
 
-Esto da como resultado pasos duros entre colores y solo los colores establecidos por los pin están presentes en el degradado.
+Esto da como resultado pasos duros entre colores y solo los colores establecidos por los bordes están presentes en el degradado.
 
 +++
 
@@ -233,7 +233,7 @@ El Selector de color le permite definir un color de varias maneras:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   Los reguladores RGB, HSV y Alpha le permiten definir un color con precisión, ajustando los reguladores o directamente estableciendo sus valores numéricos.
 
@@ -267,7 +267,7 @@ El Selector de color le permite definir un color de varias maneras:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 El color seleccionado se previsualiza en la mitad superior de la miniatura de color.\
 La mitad inferior muestra el color utilizado anteriormente. Haga doble clic en LMB para revertir el color modificado.
@@ -285,7 +285,7 @@ Cuando se seleccionan varias chinchetas, los reguladores RGB, HSV y Alpha se con
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Además, las siguientes funciones están disponibles debajo de la miniatura de color como botones:
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: Utilice el nodo Transformación 2D para aplicar transformaciones 2D a texturas, incluidas la traslación, la rotación y la escala.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformación 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 5%
@@ -22,10 +22,10 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Transformación 2D](transformation-2d.resources/comp_transformation_1.png "Nodo atómico: Transformación 2D"){width="20%"}
+![Nodo atómico: Transformación 2D](transformation-2d.resources/comp_transformation_1.png "Nodo atómico: Transformación 2D")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Aplica una matriz de transformación 2D a una imagen: conversión, rotación, escala, simetría y distorsión.
 
@@ -35,7 +35,7 @@ Es bastante similar a Transformar (Ctrl-T) en Photoshop o a usar el manipulador 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transform-2d tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transform-2d tooltip" /></div>
 
 Este es un nodo extremadamente útil y ampliamente aplicado, que permite aumentar el mosaico, eliminar el mosaico, colocar una imagen en una posición específica, estirar o aplastar una entrada, etc.
 
@@ -48,7 +48,7 @@ Sin embargo, no puede ser una coincidencia perfecta para ciertas aplicaciones, p
 > 
 > Establezca el [método de herencia](../../../../glossary/glossary.md) del &#39;Modo de segmentación&#39; [parámetro base](../../../../glossary/glossary.md) en &#39;Absoluto&#39;, que luego le permite establecer el valor del parámetro en &#39;Sin segmentación&#39;:
 > 
-> ![](transformation-2d.resources/tilingmode.png){width="20%"}
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >
@@ -63,14 +63,14 @@ Sin embargo, no puede ser una coincidencia perfecta para ciertas aplicaciones, p
 | <b>Desplazamiento</b> *Float2* | Define el desplazamiento 2D de la imagen. Permite cambiar la posición o el desplazamiento También se puede ajustar mediante el gizmo en la vista 2D.   Se relaciona directamente con la salida de la vista 2D. |
 | <b>Modo Mipmap</b> *Entero* | Permite cambiar a un nivel manual [mipmap](../../../../glossary/glossary.md), que reduce los artefactos de una imagen mediante el filtrado de texturas. |
 | <b>Nivel de mapa MIP</b> *Entero* | Establece el nivel [mipmap](../../../../glossary/glossary.md) que se va a usar.     *Disponible cuando &#39;Mipmap mode&#39; está establecido en &#39;Manual&#39;* |
-| <b>Color mate</b> *Flotante4* | El color utilizado como fondo cuando el mosaico de la transformación está desactivado. Es decir, establece el color utilizado cuando la entrada transformada no cubre un área de la salida.   Se puede hacer transparente si se trabaja en color RGBA. |
+| <b>Color mate</b> *Float4* | El color utilizado como fondo cuando el mosaico de la transformación está desactivado. Es decir, establece el color utilizado cuando la entrada transformada no cubre un área de la salida.   Se puede hacer transparente si se trabaja en color RGBA. |
 | <b>Filtrado</b> *Entero* | Define el método de disminución de resolución utilizado. No funciona particularmente bien con la reducción del Nivel de mapa MIP. |
 
 ## Conectores de entrada
 
 |  |  |
 | --- | --- |
-| <b>Entrada</b> *Escala de grises/Color* PRINCIPAL | Imagen que se va a transformar. |
+| <b>Entrada</b> *Escala de grises/Color* PRINCIPAL | La imagen que se va a transformar. |
 
 
 ## Ejemplos

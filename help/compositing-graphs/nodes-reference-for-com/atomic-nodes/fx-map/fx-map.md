@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: Utilice el nodo FX-Map para aplicar gráficos de funciones a las texturas para crear patrones y efectos procedimientos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -22,10 +22,10 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: FX-Map](fx-map.resources/fxmap.png "Nodo atómico: FX-Map"){width="20%"}
+![Nodo atómico: FX-Map](fx-map.resources/fxmap.png "Nodo atómico: FX-Map")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 El FX-Map puede replicar y subdividir una entrada de imagen o patrón una y otra vez, y controlar la distribución de cada patrón gracias a los parámetros y funciones lógicas.
 
@@ -35,7 +35,7 @@ Es uno de los nodos atómicos más potentes, así como el nodo más complejo dis
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="información sobre herramientas de fx-map" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="información sobre herramientas de fx-map" /></div>
 
 De forma similar al [Procesador de píxeles](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), depende de usted definir y crear las funciones que determinan el comportamiento y el resultado de este nodo.
 
@@ -75,4 +75,4 @@ Tenga en cuenta que, a diferencia de otros nodos, la mayoría del comportamiento
 
 ## Ejemplos
 
-![](fx-map.resources/image2015-9-10-17-28-32.png){width="20%"}
+![](fx-map.resources/image2015-9-10-17-28-32.png)

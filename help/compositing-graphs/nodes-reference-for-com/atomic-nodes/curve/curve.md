@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Utilice el nodo Curva para ajustar los valores de textura mediante curvas personalizables para un control preciso del color y el brillo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Curva](curve.resources/comp_curve_1.png "Nodo atómico: Curva"){width="20%"}
+![Nodo atómico: Curva](curve.resources/comp_curve_1.png "Nodo atómico: Curva")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Reasigna los valores de una imagen utilizando una curva personalizada.
 
@@ -35,7 +35,7 @@ El nodo proporciona una interfaz para la reasignación de tonalidad de imágenes
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="información sobre curva" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="información sobre curva" /></div>
 
 A diferencia de la mayoría de los demás nodos, el nodo Curva no tiene una interfaz estándar típica con reguladores y parámetros, sino que presenta un editor de curvas completo. Consulte la siguiente sección ampliable sobre cómo usarla.
 
@@ -57,13 +57,13 @@ A diferencia de la mayoría de los demás nodos, el nodo Curva no tiene una inte
 
 Para crear un punto, simplemente haga doble clic en cualquier parte de la vista Curva:
 
-![](curve.resources/createmovepoint.gif){width="20%"}
+![](curve.resources/createmovepoint.gif)
 
 ### Control de la influencia de puntos
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Para obtener resultados precisos, los nodos de curva ofrecen diferentes modos para cada punto:
 
@@ -100,7 +100,7 @@ Puede mostrar u ocultar el histograma de su entrada simplemente haciendo clic en
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Cuando la entrada es un nodo de color, tiene la capacidad de ajustar la curva para cada canal:
 
@@ -123,7 +123,7 @@ En el modo Curva de RGB, puede ocultar o mostrar las curvas de canal individuale
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Si hace clic con el botón derecho en la vista de curva, obtendrá algunas opciones más.
 

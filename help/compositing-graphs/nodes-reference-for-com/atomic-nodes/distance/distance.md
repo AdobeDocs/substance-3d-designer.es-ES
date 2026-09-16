@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: Utilice el nodo Distancia para calcular mapas de distancia de formas para crear máscaras y efectos procedimientos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distancia
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 8%
@@ -20,12 +20,12 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Nodo atómico: Distancia](distance.resources/comp_distance_1.png "Nodo atómico: Distancia"){width="20%"}
+![Nodo atómico: Distancia](distance.resources/comp_distance_1.png "Nodo atómico: Distancia")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Busca la posición del píxel blanco más cercano en una máscara y emite un degradado desde esa posición o el color en esa posición en una imagen de origen.
 
@@ -35,7 +35,7 @@ Este nodo crea un fundido lineal saliente (degradado) a partir de cualquier píx
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="información sobre herramientas de distancia" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="información sobre herramientas de distancia" /></div>
 
 El fundido exterior de expansión finalizará tan pronto como se encuentre con otra celda: nunca se superpondrán. Internamente, esto es realmente calcular y mostrar la distancia al píxel más cercano > 0,5, con el nodo de distancia definido como una abrazadera/máximo.
 
@@ -70,17 +70,17 @@ Consulte los siguientes [ejemplos](#examples) para obtener más información.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="20%"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="20%"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="20%"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

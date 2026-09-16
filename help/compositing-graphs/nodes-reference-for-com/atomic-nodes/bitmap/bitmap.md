@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ""
 description: Utilice el nodo Mapa de bits para importar y utilizar imágenes de mapa de bits como texturas en los gráficos de composición de Substance.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de bits
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -22,22 +22,22 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Bitmap](bitmap.resources/comp_bitmap.png "Nodo atómico: Bitmap"){width="20%"}
+![Nodo atómico: Bitmap](bitmap.resources/comp_bitmap.png "Nodo atómico: Bitmap")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Carga un [recurso de mapa de bits](../../../../resources/bitmap-resource/bitmap-resource.md) en el gráfico.
 
 Este nodo se utiliza para importar un [mapa de bits](../../../../glossary/glossary.md) en el gráfico o para crear un nuevo mapa de bits para su uso con las [herramientas de pintura de mapas de bits](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Hay varias formas de crear este nodo, y todas ellas requieren que entiendas[&#x200B; la diferencia entre vincular e importar recursos.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Hay varias formas de crear este nodo, y todas ellas requieren que entiendas[ la diferencia entre vincular e importar recursos.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="información sobre herramientas de mapa de bits" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="información sobre herramientas de mapa de bits" /></div>
 
 Puede crear el nodo desde cero o soltando un [mapa de bits](../../../../glossary/glossary.md) en un formato compatible en la vista de gráficos.
 

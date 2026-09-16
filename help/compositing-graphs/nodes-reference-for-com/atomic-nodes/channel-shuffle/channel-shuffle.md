@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ""
 description: Utilice el nodo Mezcla de canales para reorganizar los canales de color en las texturas para crear efectos de color e intercambiar canales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Orden aleatorio de canales
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atómico: Reorganización de canales](channel-shuffle.resources/comp_shuffle.png "Nodo atómico: Mezcla de canales"){width="20%"}
+![Nodo atómico: Reorganización de canales](channel-shuffle.resources/comp_shuffle.png "Nodo atómico: Mezcla de canales")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Reorganiza los canales de color de una o dos imágenes de entrada en la imagen de salida.
 
@@ -37,7 +37,7 @@ Básicamente, te permite empaquetar e intercambiar canales de RGB de cualquier f
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="información sobre herramientas de reorganización de canales" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="información sobre herramientas de reorganización de canales" /></div>
 
 El Mezcla de canales tiene opciones básicas, pero en la mayoría de los casos de empaquetado de canales o de eliminación y configuración de canales alfa es más rápido usar [Combinación RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [División RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [Combinación de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) y [División de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). Están configurados para realizar acciones predeterminadas que no requieren cambiar varios parámetros y convertir a escala de grises posteriormente. Si buscas una versión más avanzada con más opciones de fusión, consulta [Mezclador de canales](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
 
@@ -50,7 +50,7 @@ El Mezcla de canales tiene opciones básicas, pero en la mayoría de los casos d
 | <b>Canal rojo</b> *Entero* | Elija el canal de origen que se insertará en el canal rojo de la imagen de salida. |
 | <b>Canal verde</b> *Entero* | Elija el canal de origen que se insertará en el canal verde de la imagen de salida. |
 | <b>Canal azul</b> *Entero* | Elija el canal de origen que se insertará en el canal azul de la imagen de salida. |
-| <b>Canal alfa</b> *Entero* | Elija el canal de origen que se insertará en el canal alfa de la imagen de salida. |
+| <b>canal de Alpha</b> *Entero* | Elija el canal de origen que se insertará en el canal alfa de la imagen de salida. |
 
 ## Conectores de entrada
 
