@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-012.html"
-breadcrumb-title: ''
-description: Utilice el nodo Mapa de Suciedades 012 para generar texturas de suciedades procedimientas para añadir detalles de superficie y efectos de desgaste a los materiales.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-012.html"
+breadcrumb-title: ""
+description: Utilice el nodo Mapa de Suciedades 012 para generar texturas de suciedades de procedimiento para añadir detalles de superficie y efectos de desgaste a los materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 012
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Mapa de suciedades 2012
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 7%
-
+source-wordcount: '131'
+ht-degree: 6%
 ---
-
 
 # Mapa de suciedades 2012
 
@@ -49,14 +47,16 @@ Esto genera un mapa de ruido complejo y combinado. Puede ser muy útil como proc
 | <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta el contraste del resultado. |
 | <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el resultado. |
 | <b>Patrón de pincel</b> <i>0.0 - 1.0</i> | Añade una máscara alrededor de los bordes para cuando se usa como pincel alfa. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-012.resources/grungemap-012-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-map-012.resources/grungemap-012-ex.gif" class="modal-image" alt="Mapa de suciedades 012 - Ejemplo 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

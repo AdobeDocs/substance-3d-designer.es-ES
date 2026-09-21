@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
+breadcrumb-title: ""
 description: Utilice el nodo Manchas gaussianas 2 para generar patrones avanzados de manchas gaussianas para crear variaciones de texturas orgánicas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian spots 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Manchas gaussianas 2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '260'
 ht-degree: 1%
-
 ---
-
 
 # Manchas gaussianas 2
 
@@ -66,32 +64,23 @@ Consulte también: [Manchas gaussianas 1](../../../../../../compositing-graphs/n
 
 ## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Manchas gaussianas 2 - Ejemplo 1](gaussian-spots-2.resources/gaussian_spots_2_1.png "Manchas gaussianas 2 - Ejemplo 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Manchas gaussianas 2 - Ejemplo 2](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif "Manchas gaussianas 2 - Ejemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Manchas gaussianas 2 - Ejemplo 3](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif "Manchas gaussianas 2 - Ejemplo 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Manchas gaussianas 2 - Ejemplo 4](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif "Manchas gaussianas 2 - Ejemplo 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="gaussian-spots-2.resources/gaussian_spots_2_1.png" class="modal-image" alt="Manchas gaussianas 2 - Ejemplo 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif" class="modal-image" alt="Manchas gaussianas 2 - Ejemplo 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif" class="modal-image" alt="Manchas gaussianas 2 - Ejemplo 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Manchas gaussianas 2 - Ejemplo 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

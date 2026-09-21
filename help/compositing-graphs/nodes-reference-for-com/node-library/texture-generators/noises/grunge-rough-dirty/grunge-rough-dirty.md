@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+breadcrumb-title: ""
 description: Utilice el nodo Suciedad sucia rugosa para generar texturas de suciedades rugosas y sucias para añadir detalles de superficie intemperizada.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rough Dirty
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Suciedad áspera sucia
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
-
+source-wordcount: '157'
+ht-degree: 1%
 ---
-
 
 # Suciedad áspera sucia
 
@@ -45,25 +43,26 @@ El nodo **Suciedad sucia rugosa** genera un mapa de suciedades similar a una sup
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Intensidad de Suciedad principal</b> <i>Flotante</i> | Ajusta la intensidad de la textura de suciedad principal utilizada para romper la superficie. |
+| <b>Intensidad de Suciedad principal</b> <i>Flotador</i> | Ajusta la intensidad de la textura de suciedad principal utilizada para romper la superficie. |
 | <b>Invertir Scratches</b> <i>Booleano</i> | Invierte la luminancia de los arañazos en la superficie. |
 | <b>Intensidad de Scratches</b> <i>Flotador</i> | Ajusta la intensidad de los arañazos en la superficie. |
 | <b>Intensidad de grano</b> <i>Flotador</i> | Ajusta la intensidad del efecto de granulado global. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" class="modal-image" alt="Suciedades sucias y ásperas - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" class="modal-image" alt="Suciedad sucia rugosa - Ejemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

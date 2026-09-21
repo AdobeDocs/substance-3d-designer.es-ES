@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
+breadcrumb-title: ""
 description: Utilice el nodo Ruido de Perlin para generar patrones de ruido suaves y de aspecto natural para crear texturas y variaciones orgánicas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Perlin noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Ruido de Perlin
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '172'
 ht-degree: 2%
-
 ---
-
 
 # Ruido de Perlin
 
@@ -61,17 +59,14 @@ Genera un ruido de Perlin, una distribución suave muy utilizada de valores de e
 
 ## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Ruido Perlin - Ejemplo 1](perlin-noise.resources/perlin_noise_1.png "Ruido Perlin - Ejemplo 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Ruido Perlin - Ejemplo 2](perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif "Ruido Perlin - Ejemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="perlin-noise.resources/perlin_noise_1.png" class="modal-image" alt="Ruido de Perlin - Ejemplo 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif" class="modal-image" alt="Ruido de Perlin - Ejemplo 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
+breadcrumb-title: ""
 description: Utilice el nodo Scratches de Suciedad fino para añadir patrones de arañazos finos para conseguir un desgaste sutil y efectos de detalle de la superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Fine
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Scratches de suciedades multa
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '138'
 ht-degree: 2%
-
 ---
-
 
 # Scratches de suciedades multa
 
@@ -52,17 +50,18 @@ El nodo **Suciedad Scratches Fine** genera un mapa de suciedades similar a una s
 | <b>Avanzado</b> |  |
 | <b>Importe de Scratches</b> <i>Flotador</i> | Ajusta la cantidad de arañazos finos en la superficie. |
 | <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajusta la intensidad del efecto de enfoque global. |
-| <b>Compensación de valor de memoria virtual</b> <i>Flotante</i> | Ajusta el equilibrio de los valores de luminancia asignados a los arañazos individuales. |
+| <b>Compensación de valor de memoria virtual</b> <i>Flotador</i> | Ajusta el equilibrio de los valores de luminancia asignados a los arañazos individuales. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant.jpg" class="modal-image" alt="Suciedad Scratches Multa - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant2.jpg" class="modal-image" alt="Suciedad Scratches Multa - Ejemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

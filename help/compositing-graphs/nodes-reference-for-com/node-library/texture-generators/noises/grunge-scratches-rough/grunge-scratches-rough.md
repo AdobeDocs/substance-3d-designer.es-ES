@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+breadcrumb-title: ""
 description: Utilice el nodo Desbaste de Scratches de Suciedades para añadir patrones de arañazos aproximados para crear efectos de desgaste y daños intensos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Rough
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Scratches de suciedades Rough
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '258'
 ht-degree: 1%
-
 ---
-
 
 # Scratches de suciedades Rough
 
@@ -66,13 +64,14 @@ El nodo **Suciedad Scratches Rough** genera un mapa de suciedades similar a una 
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" class="modal-image" alt="Suciedad Scratches Rough - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" class="modal-image" alt="Suciedad Scratches Rough - Ejemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

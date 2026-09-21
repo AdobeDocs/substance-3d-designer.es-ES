@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+breadcrumb-title: ""
 description: Utilice el nodo Fino de Óxido de Suciedad para generar patrones de óxido finos para agregar efectos de corrosión y erosión a los metales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rust Fine
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Óxido de suciedad bien
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 
 # Óxido de suciedad bien
 
@@ -45,26 +43,27 @@ El nodo **Óxido de Suciedades Fine** genera un mapa de suciedades similar a una
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Contraste de Suciedad base</b> <i>Flotador</i> | Ajusta el contraste de la textura de suciedad utilizada como base para el óxido. |
-| <b>Intensidad de deformación de base</b> <i>Flotador</i> | Ajusta la intensidad del efecto de deformación aplicado en el mapa de suciedades utilizado como base para el óxido. |
+| <b>Contraste de Suciedad base</b> <i>Flotante</i> | Ajusta el contraste de la textura de suciedad utilizada como base para el óxido. |
+| <b>Intensidad de deformación de base</b> <i>Flotante</i> | Ajusta la intensidad del efecto de deformación aplicado en el mapa de suciedades utilizado como base para el óxido. |
 | <b>Intensidad de rayas</b> <i>Flotador</i> | Ajusta la intensidad de las rayas y puntos más brillantes superpuestos en la textura de suciedad base. |
 | <b>Intensidad de ruido</b> <i>Flotador</i> | Ajusta la intensidad del ruido aplicado en la textura de suciedad base. |
 | <b>Intensidad de enfoque</b> <i>Flotador</i> | Ajusta la intensidad del efecto de enfoque global. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" class="modal-image" alt="Suciedad Óxido Fine - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" class="modal-image" alt="Óxido de suciedad - Ejemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
