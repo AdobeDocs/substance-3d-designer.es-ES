@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
-breadcrumb-title: ''
-description: Utilice el nodo Fractal de ruido de reborde 3D para generar patrones de ruido fractal de reborde en el espacio 3D para crear texturas similares a las de una montaña.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+breadcrumb-title: ""
+description: Utilice el nodo Fractal de ruido de reborde 3D para generar patrones de ruido fractal de reborde en el espacio 3D para crear texturas de tipo montañés.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Fractal de ruido de reborde 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 
 # Fractal de ruido de reborde 3D
 
@@ -52,10 +50,10 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 |  |  |
 |:---|:---|
 | <b>Invertir</b> <i>Booleano</i> | Invierte la imagen de salida. |
-| <b>Escala</b> <i>Flotador</i> | Controla la escala del ruido fractal 3D Ridged. |
-| <b>Tamaño</b> <i>Float3</i> | Controla el tamaño del ruido fractal 3D Ridged en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto de <i>estiramiento o aplastamiento</i>. |
-| <b>Desplazamiento</b> <i>Float3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido fractal 3D Ridged en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
-| <b>Intensidad de Distorsión</b> <i>Flotador</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido fractal 3D Ridged. |
+| <b>Escala</b> <i>Flotante</i> | Controla la escala del ruido fractal 3D Ridged. |
+| <b>Tamaño</b> <i>Flotante3</i> | Controla el tamaño del ruido fractal 3D Ridged en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto de <i>estirar o aplastar</i>. |
+| <b>Desplazamiento</b> <i>Flotante3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido fractal 3D Ridged en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
+| <b>Intensidad de Distorsión</b> <i>Flotante</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido fractal 3D Ridged. |
 | <b>Multiplicador de escala de Distorsión</b> <i>Flotante</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
 | <b>Nivel Mínimo</b> <i>Entero</i> | Nivel mínimo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |
 | <b>Nivel máximo</b> <i>Entero</i> | Nivel máximo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |
@@ -68,13 +66,14 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" class="modal-image" alt="Fractal de ruido de reborde 3D - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" class="modal-image" alt="Fractal de ruido de reborde 3D - Ejemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

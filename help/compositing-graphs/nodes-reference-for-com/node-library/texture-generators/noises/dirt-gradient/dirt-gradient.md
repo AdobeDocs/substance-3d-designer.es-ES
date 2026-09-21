@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
+breadcrumb-title: ""
 description: Utilice el nodo Degradado de Dirt para generar patrones de dirt basados en degradado para crear efectos direccionales de intemperismo y acumulación.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt gradient
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: degradado de dirt
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '209'
 ht-degree: 1%
-
 ---
-
 
 # degradado de dirt
 
@@ -63,32 +61,23 @@ Consulte también: [Dirt 1](../../../../../../compositing-graphs/nodes-reference
 
 ## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Degradado de Dirt - Ejemplo 1](dirt-gradient.resources/dirt_gradient_1.png "Degradado de Dirt - Ejemplo 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Degradado de Dirt - Ejemplo 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Degradado de Dirt - Ejemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Degradado de Dirt - Ejemplo 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Degradado de Dirt - Ejemplo 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Degradado de Dirt - Ejemplo 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Degradado de Dirt - Ejemplo 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-gradient.resources/dirt_gradient_1.png" class="modal-image" alt="Degradado de dirt - Ejemplo 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif" class="modal-image" alt="Degradado de dirt - Ejemplo 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif" class="modal-image" alt="Degradado de dirt - Ejemplo 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Degradado de dirt - Ejemplo 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

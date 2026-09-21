@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+breadcrumb-title: ""
 description: Exporte escenas 3D con todas las ediciones realizadas en Designer mediante la acción Exportar escena del menú Escena de Vista 3D.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Exportar escenas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
-
+source-wordcount: '366'
+ht-degree: 0%
 ---
-
 
 # Exportar escenas
 
@@ -31,26 +29,6 @@ Para otros formatos, el contenido de la escena y su estructura interna depender�
 > Todos los elementos añadidos a la escena por Designer se incluirán en la escena exportada: En la cámara predeterminada, el entorno predeterminado, todo el material copia las luces adicionales.
 
 ![Acciones de exportación de escena](exporting-scenes.resources/exportActions.png "Acciones de exportación de escena"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Exportar escena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exportar escena como capas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Texturas
-
-</td>
-</tr>
-</table>
 
 ## Exportar escena
 
@@ -104,4 +82,4 @@ Los archivos exportados siguen esta estructura:
 
 Las texturas se exportan en un directorio junto al archivo exportado y se les asigna su nombre, con un sufijo ‘<b>\_texturas</b>’.
 
-Utilizan el formato <b>PNG</b>, excepto HDR texturas (coma flotante) que usan el formato <b>EXR</b>.
+Utilizan el formato <b>PNG</b>, excepto texturas HDR (coma flotante) que usan el formato <b>EXR</b>.

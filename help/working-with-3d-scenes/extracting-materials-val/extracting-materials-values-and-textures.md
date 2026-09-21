@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+breadcrumb-title: ""
 description: Extrae propiedades de materiales de escenas 3D para utilizarlas en gráficos de Substance en los flujos de trabajo de creación de materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
@@ -8,59 +8,37 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Extracción de valores y texturas de materiales
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '853'
 ht-degree: 0%
-
 ---
-
 
 # Extracción de valores y texturas de materiales
 
 Las propiedades de los materiales se pueden extraer para utilizarlas en Substance gráficos.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
 ## Nuevo gráfico a partir de texturas
 
-</td>
-<td style="border: 0;" valign="top">
-
-### Extraer textura
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Extraer valor
-
-</td>
-</tr>
-</table>
-
-## Nuevo gráfico a partir de texturas
-
-La acción &quot;Crear gráfica a partir de entradas de textura&quot; crea una nueva gráfica de Substance con todas las texturas utilizadas por un material
+La acción Crear gráfico a partir de entradas de textura crea un nuevo gráfico de Substance con todas las texturas utilizadas por un material
 
 Al utilizar esta acción, ocurren algunas cosas:
 
 * En la ubicación seleccionada se crea un gráfico de Substance con el nombre del material.
-* Se crea un [recurso de mapa de bits](../../resources/bitmap-resource/bitmap-resource.md) para cada textura utilizada por el material y se coloca en una carpeta con el nombre del material, en una carpeta &quot;Resources&quot;.
+* Se crea un [recurso de mapa de bits](../../resources/bitmap-resource/bitmap-resource.md) para cada textura utilizada por el material, y se coloca en una carpeta con el nombre del material, bajo una carpeta &quot;Resources&quot;.
 * En el gráfico, se crean [nodos Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) para cada uno de estos recursos de mapa de bits y se conectan automáticamente a los nodos [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurados después de las propiedades de material mediante texturas.
-* Si se usa cada canal de una misma textura para controlar diferentes propiedades de materiales (la técnica se denomina [empaquetado de canal](../../glossary/glossary.md)), se agregan automáticamente [nodos de conversión en escala de grises](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) para seleccionar los canales apropiados.
+* Si se usa cada canal de una misma textura para controlar diferentes propiedades de materiales (la técnica se denomina [empaquetado de canal](../../glossary/glossary.md)), se agregan automáticamente nodos [de conversión en escala de grises](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) para seleccionar los canales apropiados.
 * El gráfico se conecta automáticamente al material y su aspecto no debe cambiar hasta que no realice modificaciones en el gráfico.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de &#39;Vista 3D&#39;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de &#39;Vista 3D&#39;"){zoomable="yes"}
+![Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de la &#39;Vista 3D&#39;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "Crear gráfico a partir de entradas de textura - Acción en la ventana gráfica de la &#39;Vista 3D&#39;"){zoomable="yes"}
 
-*Acción en el puerto de visualización de Vista 3D*
+*Acción en la ventana gráfica de la vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">
@@ -80,7 +58,7 @@ Al utilizar esta acción, ocurren algunas cosas:
 </tr>
 </table>
 
-![Resultado de la creación de gráficas a partir de texturas de materiales](extracting-materials-values-and-textures.resources/createGraphFromTexturesResult.png "Resultado de la creación de gráficas a partir de texturas de materiales"){zoomable="yes"}
+![Resultado de la creación de gráficos a partir de texturas de materiales](extracting-materials-values-and-textures.resources/createGraphFromTexturesResult.png "Resultado de la creación de gráficos a partir de texturas de materiales"){zoomable="yes"}
 
 *Resultado de la creación de gráficos a partir de texturas de materiales*
 
@@ -93,7 +71,7 @@ Al utilizar esta acción, ocurren algunas cosas:
 
 >[!TIP]
 >
-> Puedes acceder a la acción de forma rápida y directa en la ventana gráfica de Vista 3D, colocando el cursor sobre el objeto y presionando <b>Mayús+LMB</b> para seleccionarlo. a continuación, haga clic en RMB para acceder a un menú contextual que aloje la acción.
+> Puedes acceder a la acción de forma rápida y directa en la ventana gráfica de la vista 3D, colocando el cursor sobre el objeto y presionando <b>Mayús+LMB</b> para seleccionarlo. a continuación, haga clic en RMB para acceder a un menú contextual que aloje la acción.
 
 >[!NOTE]
 >
@@ -164,7 +142,7 @@ Al utilizar esta acción, ocurren algunas cosas:
 
 Si ya existe una salida configurada para la propiedad de material ** en el gráfico, *no se crean nodos*.
 
-Por ejemplo: Si se extrae un valor para la propiedad &quot;Nivel de anisotropía&quot; a un gráfico que ya alberga un nodo de salida configurado para &quot;Nivel de anisotropía&quot;, no se creará ningún nodo en el gráfico.
+Por ejemplo: Si se extrae un valor para la propiedad &quot;Nivel de Anisotropía&quot; a un gráfico que ya alberga un nodo de salida configurado para &quot;Nivel de Anisotropía&quot;, no se creará ningún nodo en el gráfico.
 
 <table>
 <tr style="border: 0;">
@@ -184,9 +162,9 @@ Cuadro de diálogo &quot;Seleccionar gráfico de destino&quot;
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraer valor a gráfico: nodo constante en la función del nodo de Procesador de valor](extracting-materials-values-and-textures.resources/extractValueResult2.png "Extraer valor a gráfico: nodo constante en la función del nodo de Procesador de valor"){zoomable="yes"}
+![Extraer valor a gráfico: nodo constante en la función del nodo del procesador de valores](extracting-materials-values-and-textures.resources/extractValueResult2.png "Extraer valor a gráfico: nodo constante en la función del nodo del procesador de valores"){zoomable="yes"}
 
-Nodo constante en la función del nodo de Procesador de valor
+Nodo constante en la función del nodo del procesador de valores
 
 </td>
 </tr>

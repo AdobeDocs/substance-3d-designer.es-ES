@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
+breadcrumb-title: ""
 description: Utilice el nodo 3D voronoi fractal para generar patrones fractales de Voronoi basados en la posición 3D para texturas volumétricas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D voronoi fractal
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 
 # 3D voronoi fractal
 
@@ -56,12 +54,12 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 | <b>Tamaño</b> <i>Float3</i> | Controla el tamaño del ruido fractal 3D Voronoi en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. Los valores no uniformes dan como resultado un efecto <i>estirar o aplastar</i>.<br><br><i>Nota</i>: Cuando <b>Mosaico</b> está habilitado en <i>cualquier eje</i>, el ajuste de tamaño es <i>escalonado</i>. Esto es de esperar. |
 | <b>Desplazamiento</b> <i>Float3</i> | Aplica un desplazamiento a la <i>posición</i> del ruido fractal 3D Voronoi en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
 | <b>Desorden</b> <i>Float3</i> | Intensidad del <i>desplazamiento aleatorio</i> aplicado a cada punto del ruido en los ejes <b>X</b>, <b>Y</b> y <b>Z</b>. |
-| <b>Intensidad de Distorsión</b> <i>Flotante</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido fractal 3D Voronoi. |
-| <b>Multiplicador de escala de Distorsión</b> <i>Flotante</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
+| <b>Intensidad de Distorsión</b> <i>Flotador</i> | Controla la intensidad de un <i>efecto de deformación</i> aplicado al ruido fractal 3D Voronoi. |
+| <b>Multiplicador de escala de Distorsión</b> <i>Flotador</i> | Controla la escala del <i>patrón de deformación</i> utilizado en el efecto de deformación controlado por la <b>Intensidad de Distorsión</b>. |
 | <b>Nivel Mínimo</b> <i>Entero</i> | Nivel mínimo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |
 | <b>Nivel máximo</b> <i>Entero</i> | Nivel máximo de <i>repetición</i> usado en el patrón fractal. Un rango mínimo/máximo más amplio da como resultado un <i>patrón más enriquecido</i> con variaciones en rangos de frecuencia más amplios. |
-| <b>Rugosidad</b> <i>Flotante</i> | Controla el <i>equilibrio</i> entre los <i>niveles de repetición</i> bajos y altos en el patrón fractal.<br><br><i>Nota</i>: Un valor de <b>0</b> da como resultado un resultado que está <i>fuera de línea</i> con otros valores bajos que lo siguen. Esto es de esperar.<br><br><i>Nota 2</i>: Este parámetro solo está disponible cuando el parámetro <b>Modo de Fusión</b> está establecido en <i>Agregar</i>. |
-| <b>Lacunaridad</b> <i>Flotante</i> | Controla cómo el patrón fractal aplicado <i> rellena el espacio </i>. Un valor <i>superior</i> provoca <i>menos brechas</i> en el patrón y un ruido <i>más denso</i>. |
+| <b>Rugosidad</b> <i>Flotador</i> | Controla el <i>equilibrio</i> entre los <i>niveles de repetición</i> bajos y altos en el patrón fractal.<br><br><i>Nota</i>: Un valor de <b>0</b> da como resultado un resultado que está <i>fuera de línea</i> con otros valores bajos que lo siguen. Esto es de esperar.<br><br><i>Nota 2</i>: Este parámetro solo está disponible cuando el parámetro <b>Blend Mode</b> está establecido en <i>Add</i>. |
+| <b>Lacunaridad</b> <i>Flotador</i> | Controla cómo el patrón fractal aplicado <i> rellena el espacio </i>. Un valor <i>superior</i> provoca <i>menos brechas</i> en el patrón y un ruido <i>más denso</i>. |
 | <b>Opacidad global</b> <i>Flotador</i> | Controla el <i>intervalo</i> de los valores de ruido fractal de Perlin 3D desde 0. |
 | <b>Curva redondeada</b> <i>Flotador</i> | Redondea la <i>pendiente</i> alrededor de cada punto del ruido para que sea <i>convexa</i>.<br><br><i>Nota</i>: Este parámetro no está disponible cuando el parámetro <b>Style</b> está establecido en <i>Edge</i>. |
 | <b>Escala de distancia</b> <i>Flotador</i> | Ajusta la <i>distancia del degradado</i> alrededor de cada punto del ruido. |
@@ -74,27 +72,27 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" class="modal-image" alt="3D voronoi fractal - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" class="modal-image" alt="3D voronoi fractal - Ejemplo 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" class="modal-image" alt="3D voronoi fractal - Ejemplo 3" />
         </td>
     </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" class="modal-image" alt="3D voronoi fractal - Ejemplo 4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" class="modal-image" alt="3D voronoi fractal - Ejemplo 5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" class="modal-image" alt="3D voronoi fractal - Ejemplo 6" />
         </td>
     </tr>
 </table>

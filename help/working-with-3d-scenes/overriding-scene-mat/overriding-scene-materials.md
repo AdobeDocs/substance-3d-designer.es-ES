@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+breadcrumb-title: ""
 description: Reemplace los materiales existentes en escenas 3D por sus propios materiales de Substance para realizar pruebas y previsualizaciones.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Overriding scene materials
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Reemplazo de materiales de escena
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
-
 ---
-
 
 # Reemplazo de materiales de escena
 
@@ -25,26 +23,6 @@ Cuando se trabaja con escenas 3D con materiales existentes, es necesario anular 
 Tu material se puede crear desde cero o una versión ajustada del material de una escena que se ha [extraído en un gráfico de Substance](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
 ![Anular un material de escena, modificarlo y restablecerlo a su estado de escena](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Anular un material de escena, modificarlo y restablecerlo a su estado de escena"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Omitir material de escena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Restablecer al estado de escena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Material conectado
-
-</td>
-</tr>
-</table>
 
 ## Omitir material de escena
 

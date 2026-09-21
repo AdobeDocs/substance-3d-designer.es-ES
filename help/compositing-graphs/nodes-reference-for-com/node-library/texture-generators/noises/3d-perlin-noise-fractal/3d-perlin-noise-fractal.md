@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+breadcrumb-title: ""
 description: Utilice el nodo Fractal de ruido de Perlin 3D para generar patrones de ruido de Perlin fractales en el espacio 3D para crear texturas volumétricas detalladas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Fractal de ruido de Perlin en 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 
 # Fractal de ruido de Perlin en 3D
 
@@ -63,22 +61,22 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 | <b>Lacunaridad</b> <i>Flotador</i> | Controla cómo el patrón fractal aplicado <i> rellena el espacio </i>. Un valor <i>superior</i> provoca <i>menos brechas</i> en el patrón y un ruido <i>más denso</i>. |
 | <b>Opacidad global</b> <i>Flotador</i> | Controla el <i>intervalo</i> de los valores de ruido fractal de Perlin 3D <i>alrededor de</i> el valor <b>Línea de base</b>. |
 | <b>Línea de base</b> <i>Flotador</i> | Aplica un <i>desplazamiento</i> al valor de <i>luminancia</i> de línea de base para la distribución de valor de ruido de Perlin 3D. |
-| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste del ruido de Perlin 3D. |
+| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste del ruido de Perlin 3D. |
 | <b>Absoluto</b> <i>Booleano</i> | Utiliza valores absolutos en el ruido de Perlin 3D. Esto <i>invierte</i> la distribución de valor para los valores <i>inferiores a 0,5</i>. |
 | <b>Habilitar Mosaico</b> <i>Booleano</i> | Ajusta el ruido de Perlin 3D para que el patrón resultante <i>se repita</i> en los ejes X, Y y Z. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" class="modal-image" alt="Fractal de ruido de Perlin 3D - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" class="modal-image" alt="Fractal de ruido de Perlin 3D - Ejemplo 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" class="modal-image" alt="Fractal de ruido de Perlin 3D - Ejemplo 3" />
         </td>
     </tr>
 </table>
