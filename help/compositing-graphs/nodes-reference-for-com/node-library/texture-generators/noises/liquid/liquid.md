@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Líquido para generar patrones de líquidos y fluidos para crear agua, aceite y otros efectos en la superficie de fluidos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Liquid
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Líquido
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '96'
 ht-degree: 9%
-
 ---
-
 
 # Líquido
 
@@ -48,14 +46,16 @@ Esta es una variante simple de [Gaussian Noise](../../../../../../compositing-gr
 | <b>Escala</b> <i>1 - 128</i> | Establece la escala global del efecto. |
 | <b>Desorden</b> <i>0.0 - 1.0</i> | Desplaza la fase del ruido para introducir una pequeña variación |
 | <b>Intensidad de deformación</b> <i>0.0 - 1.0</i> | Define la intensidad del efecto de deformación. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="liquid.resources/liquid-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="liquid.resources/liquid-ex.gif" class="modal-image" alt="Líquido - Ejemplo 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

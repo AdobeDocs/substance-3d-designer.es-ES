@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a importar, editar y trabajar con escenas 3D en Substance 3D Designer para previsualizar y probar sus materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Trabajo con escenas 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 
 # Trabajo con escenas 3D
 
@@ -29,29 +27,9 @@ Puedes empezar desde cero utilizando cualquiera de las plantillas de gráficos d
 
 Cuando hayas terminado con la escena 3D, puedes [exportarla](../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) a un nuevo archivo para que se incorpore a otra aplicación.
 
-Al exportar a USD formatos, este flujo de trabajo puede ser <b>no destructivo</b>, lo que significa que solo se exportan las ediciones y adiciones.
+Al exportar a formatos USD, este flujo de trabajo puede ser completamente <b>no destructivo</b>, lo que significa que solo se exportan las ediciones y adiciones.
 
 En primer lugar, debe cargar una escena 3D para trabajar en ella y poder conservar su estado en Designer en todas las sesiones.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Contenido de las escenas 3D
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Carga de una escena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### archivos de estado de escena
-
-</td>
-</tr>
-</table>
 
 ## Contenido de las escenas 3D
 
@@ -59,7 +37,7 @@ Al cargar una escena 3D, Designer creó su propia escena para alojarla.
 
 Puede interactuar con el siguiente contenido de la escena:
 
-* <b>Materiales:</b> todos los materiales utilizados en la escena se pueden [reemplazar](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) con una copia creada por Designer. Puedes editar las [propiedades de material](../interface/3d-view/material-properties/material-properties.md) de esa copia, con valores sin procesar o texturas de un gráfico de Substance.
+* <b>Materiales:</b> todos los materiales utilizados en la escena se pueden [reemplazar](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) con una copia creada por Designer. Puedes editar las [propiedades de material](../interface/3d-view/material-properties/material-properties.md) de esa copia, con valores o texturas sin procesar de un gráfico de Substance.
 * <b>Mallas:</b> la geometría se puede seleccionar directamente en la ventana gráfica o desde el [explorador de escenas](../interface/3d-view/scene-browser/scene-browser.md), para acceder a sus acciones materiales ([override](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), [reset](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), [extract to Substance graph](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md))
 * <b>Luces:</b> todas las luces de la escena se pueden deshabilitar en el [Explorador de escenas](../interface/3d-view/scene-browser/scene-browser.md).
 * <b>Cámaras:</b> cualquier cámara detectada en la escena se agrega como ajuste preestablecido a la cámara agregada por Designer.

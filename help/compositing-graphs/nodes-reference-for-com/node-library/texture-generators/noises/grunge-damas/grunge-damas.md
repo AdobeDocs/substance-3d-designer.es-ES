@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Damas de Suciedad para generar patrones de suciedad similares a los de damasco para crear detalles ornamentales de superficies intemperizadas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Damas
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Damas de suciedad
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 2%
-
 ---
-
 
 # Damas de suciedad
 
@@ -53,15 +51,17 @@ El nodo **Suciedad Damas** genera un mapa de suciedades similar a un patrón de 
 | <b>Distorsión</b> <i>Flotante</i> | Ajusta la cantidad de distorsión del motivo. |
 | <b>Divisiones</b> <i>Entero</i> | Ajusta la cantidad de divisiones o repeticiones de degradado del patrón. |
 | <b>Ondas</b> <i>Entero</i> | Ajusta la cantidad de ondas en el patrón. |
-| <b>Detalles</b> <i>Flotante</i> | Ajusta la intensidad de las distorsiones más pequeñas. |
-| <b>Aleatorio de rotación</b> <i>Flotante</i> | Ajusta la aleatoriedad de la rotación para cada onda. |
+| <b>Detalles</b> <i>Flotador</i> | Ajusta la intensidad de las distorsiones más pequeñas. |
+| <b>Aleatorio de rotación</b> <i>Flotador</i> | Ajusta la aleatoriedad de la rotación para cada onda. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-damas.resources/grungedamas-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-damas.resources/grungedamas-variant.jpg" class="modal-image" alt="Damas de suciedad - Ejemplo 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

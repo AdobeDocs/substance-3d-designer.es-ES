@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-005.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Mapa de Suciedades 005 para crear texturas de suciedades procedimientas para añadir detalles de superficie y variaciones a los materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 005
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Mapa de suciedades 005
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 8%
-
+source-wordcount: '141'
+ht-degree: 7%
 ---
-
 
 # Mapa de suciedades 005
 
@@ -26,7 +24,7 @@ ht-degree: 8%
 
 ![](grunge-map-005.resources/grungemap-005.png){width="128px"}
 
-<b>En:</b> Generadores de texturas > Ruidos
+<b>En:</b> Generadores de Textura > Ruidos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -50,14 +48,16 @@ Esto genera un mapa de ruido complejo y combinado. Puede ser muy útil como proc
 | <b>Desorden</b> <i>0.0 - 1.0</i> | Desplaza la fase del ruido para introducir pequeñas variaciones. |
 | <b>Invertir</b> <i>Falso/Verdadero</i> | Invierte el resultado. |
 | <b>Patrón de pincel</b> <i>0.0 - 1.0</i> | Añade una máscara alrededor de los bordes para cuando se usa como pincel alfa. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-005.resources/grungemap-005-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-map-005.resources/grungemap-005-ex.gif" class="modal-image" alt="Mapa de suciedades 005 - Ejemplo 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Cáustico para generar patrones de luz cáustica para crear efectos de iluminación subacuática y refractiva.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Caustics
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Cáustico
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '232'
 ht-degree: 5%
-
 ---
-
 
 # Cáustico
 
@@ -55,14 +53,16 @@ Genera cáusticos proyectados en función de un mapa de altura y una dirección 
 | <b>Vibración</b> <i>0.0 - 1.0</i> | Añada vibraciones irregulares a las partículas de fotones fundidos. |
 | <b>Posición de luz</b> | Mueve la posición de la luz. También se realiza mediante un gizmo en el Vista 2D. |
 | <b>Color de fondo</b> <i>(Valor de color) (Solo versión de color)</i> | Cambiar el color de fondo. Limitado al negro en la versión en escala de grises. |
-| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de calabaza y estire con proporciones que no sean de cuadrados. |
+| <b>Expansión no cuadrada</b> <i>Falso/Verdadero</i> | Active la compensación de aplastamiento y estiramiento con proporciones que no sean de cuadrados. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="caustics.resources/rt-caustics-grayscale-1.png" class="modal-image" alt="Cáustico - Ejemplo 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

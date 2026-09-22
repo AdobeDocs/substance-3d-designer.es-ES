@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Pintura con pérdidas de Suciedad para generar patrones de pérdidas de pintura para crear efectos de superficie degradados y envejecidos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaky Paint
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Suciedad Leaky Paint
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '150'
 ht-degree: 2%
-
 ---
-
 
 # Suciedad Leaky Paint
 
@@ -57,13 +55,14 @@ El nodo **Suciedad con fuga** genera un mapa de suciedades parecido a la pintura
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" class="modal-image" alt="Pintura con fugas de suciedad - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" class="modal-image" alt="Pintura con fugas de suciedad - Ejemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

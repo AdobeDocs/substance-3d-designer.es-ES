@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Voronoi 3D para generar patrones Voronoi basados en la posición mundial 3D para crear texturas celulares volumétricas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D Voronoi
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 
 # 3D Voronoi
 
@@ -68,27 +66,27 @@ Este nodo se puede probar con [Cube 3D GBuffers](../../../../../../compositing-g
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" class="modal-image" alt="3D Voronoi - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" class="modal-image" alt="3D Voronoi - Ejemplo 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" class="modal-image" alt="3D Voronoi - Ejemplo 3" />
         </td>
     </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" class="modal-image" alt="3D Voronoi - Ejemplo 4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" class="modal-image" alt="3D Voronoi - Ejemplo 5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" class="modal-image" alt="3D Voronoi - Ejemplo 6" />
         </td>
     </tr>
 </table>

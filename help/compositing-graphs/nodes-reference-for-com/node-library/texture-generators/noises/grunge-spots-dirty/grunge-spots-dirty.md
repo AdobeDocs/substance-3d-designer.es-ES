@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo Manchas sucias de Suciedad para añadir patrones de manchas sucias y crear efectos de materiales envejecidos y con intemperie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots Dirty
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Manchas de suciedad sucias
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '124'
 ht-degree: 2%
-
 ---
-
 
 # Manchas de suciedad sucias
 
@@ -45,23 +43,24 @@ El nodo **Suciedad Spots Dirty** genera un mapa de suciedades similar a los punt
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flotante</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
-| <b>Contraste</b> <i>Flotante</i> | Ajusta el contraste de la imagen. |
+| <b>Saldo</b> <i>Flotador</i> | Ajusta el equilibrio entre los valores oscuros y brillantes. |
+| <b>Contraste</b> <i>Flotador</i> | Ajusta el contraste de la imagen. |
 | <b>Invertir</b> <i>Booleano</i> | Invierte el resultado de la imagen mediante una operación `1-x`. |
-| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de calabaza y estira con proporciones no cuadradas. |
+| <b>Expansión no cuadrada</b> <i>Booleano</i> | Permite la compensación de aplastamiento y estiramiento con proporciones no cuadradas. |
 | <b>Avanzado</b> |  |
-| <b>Cobertura</b> <i>Flotante</i> | Ajusta la cobertura del dirt. |
+| <b>Cobertura</b> <i>Flotador</i> | Ajusta la cobertura del dirt. |
 | <b>Escala</b> <i>Entero</i> | Ajusta la escala de los puntos de dirt. Un valor *mayor* produce *manchas más finas*. |
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" class="modal-image" alt="Manchas de suciedad sucias - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" class="modal-image" alt="Manchas de suciedad sucias - Ejemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

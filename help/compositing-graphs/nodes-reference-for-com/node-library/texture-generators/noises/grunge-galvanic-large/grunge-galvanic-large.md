@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice el nodo galvánico grande de la Suciedad para generar patrones de corrosión galvánica a gran escala para los efectos de intemperismo del metal.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Large
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Suciedad galvánica grande
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '133'
 ht-degree: 2%
-
 ---
-
 
 # Suciedad galvánica grande
 
@@ -56,13 +54,14 @@ El nodo **Suciedad Galvanic Large** genera un mapa de suciedades similar al patr
 
 ## Ejemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant.jpg" class="modal-image" alt="Suciedad Galvánica Grande - Ejemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant2.jpg" class="modal-image" alt="Suciedad Galvánica Grande - Ejemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

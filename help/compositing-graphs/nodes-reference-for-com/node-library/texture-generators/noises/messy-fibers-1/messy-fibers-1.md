@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use el nodo Fibras sucias 1 para generar patrones de fibra básicos para crear detalles de texturas textiles y de tejidos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Fibras sucias 1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '311'
 ht-degree: 1%
-
 ---
-
 
 # Fibras sucias 1
 
@@ -68,32 +66,23 @@ Consulte también: [Fibras sucias 2](../../../../../../compositing-graphs/nodes-
 
 ## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Fibras sucias 1 - Icono](messy-fibers-1.resources/messy_fibers_1_1.png "Fibras sucias 1 - Icono"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Fibras sucias 1 - Ejemplo 2](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "Fibras sucias 1 - Ejemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Fibras sucias 1 - Ejemplo 3](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "Fibras sucias 1 - Ejemplo 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Fibras sucias 1 - Ejemplo 4](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "Fibras sucias 1 - Ejemplo 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-1.resources/messy_fibers_1_1.png" class="modal-image" alt="Fibras sucias 1 - Icono" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.gif" class="modal-image" alt="Fibras sucias 1 - Ejemplo 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso1.gif" class="modal-image" alt="Fibras sucias 1 - Ejemplo 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif" class="modal-image" alt="Fibras sucias 1 - Ejemplo 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

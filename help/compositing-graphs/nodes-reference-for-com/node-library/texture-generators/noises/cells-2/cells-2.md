@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use el nodo Celdas 2 para generar patrones celulares intermedios para crear efectos de textura orgánica y biológica.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: CELDAS 2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 1%
-
+source-wordcount: '200'
+ht-degree: 2%
 ---
-
 
 # CELDAS 2
 
@@ -61,22 +59,19 @@ Consulte también: [Celdas 1](../../../../../../compositing-graphs/nodes-referen
 | <b>Ancho del borde</b> <i>Flotador</i> | Ajusta el thickness de las paredes entre las celdas, como proporción de la cuadrícula. (Es decir, no depende de la resolución) |
 | <b>Invertir</b> <i>Booleano</i> | Cambia los blancos y negros de la imagen de salida. |
 | <b>Desorden</b> <i>Flotador</i> | Desplaza los ingredientes del ruido.    Se puede utilizar para animar el ruido. |
-| <b>Velocidad del desorden</b> <i>Flotador</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
+| <b>Velocidad del desorden</b> <i>Flotante</i> | Ajusta la distancia de desplazamiento aplicada por el parámetro <b>Disorder</b>.    Se puede utilizar para controlar la velocidad del desplazamiento al animar el ruido. |
 | <b>Expansión no cuadrada</b> <i>Booleano</i> | En imágenes no cuadradas, mantiene el cuadrado del mosaico generado y expande la generación de ruido a los límites de la imagen. |
 
 ## Ejemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Celdas 2 - Ejemplo 1](cells-2.resources/cells_2_1.png "Celdas 2 - Ejemplo 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Celdas 2 - Ejemplo 2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "Celdas 2 - Ejemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-2.resources/cells_2_1.png" class="modal-image" alt="Celdas 2 - Ejemplo 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Celdas 2 - Ejemplo 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
