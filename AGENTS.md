@@ -61,7 +61,7 @@ Mantén `description` preciso y conciso: se usa para fragmentos de SEO y búsque
 
 * El inglés es la fuente de la verdad; todos los demás idiomas se traducen desde él.
 * Todos los vínculos a otras páginas de documentación deben ser vínculos **relativos**; todos los vínculos a recursos externos deben ser vínculos **absolutos**.
-* El contenido se escribe en el marcado con sabor a GitHub con las extensiones/gotchas personalizadas de Experience League, documentadas [aquí](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown). Utilice la aptitud `write-experience-league-markdown` (si existe) para los detalles específicos.
+* El contenido se escribe en el marcado con sabor a GitHub con las extensiones/gotchas personalizadas de Experience League, documentadas [aquí](https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/writing-essentials/markdown). Utilice la aptitud `write-experience-league-markdown` (si existe) para los detalles específicos.
 * Cada cambio enviado pasa por comprobaciones automatizadas de pelusa y validación de vínculos en CI (véase a continuación): compruebe `markdownlint_custom.json` y `linkcheckexclude.json` antes de asumir que se aplica una regla o que es necesario corregir un vínculo.
 
 &#x200B;# Validación / IC

@@ -1,7 +1,7 @@
 ---
 name: write-experience-league-markdown
 description: |
-  Reglas de sintaxis, extensiones personalizadas y obstáculos para escribir contenido de marcado publicado en Adobe Experience League. Utilice esta aptitud siempre que cree o edite cualquier página en ayuda/ en este repositorio (o en cualquier otro repositorio de contenido de Experience League): encabezados, vínculos, imágenes, tablas, bloques de notas/alertas, etiquetas UICONTROL/DNL, incrustaciones de vídeo, anclajes y obstáculos de procesamiento conocidos. Fuente: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+  Reglas de sintaxis, extensiones personalizadas y obstáculos para escribir contenido de marcado publicado en Adobe Experience League. Utilice esta aptitud siempre que cree o edite cualquier página en ayuda/ en este repositorio (o en cualquier otro repositorio de contenido de Experience League): encabezados, vínculos, imágenes, tablas, bloques de notas/alertas, etiquetas UICONTROL/DNL, incrustaciones de vídeo, anclajes y obstáculos de procesamiento conocidos. Fuente: https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/writing-essentials/markdown
 source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
 source-wordcount: '1263'
