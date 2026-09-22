@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice la ventana emergente de Desplazamiento para ajustar rápidamente el desplazamiento y la teselación aplicados a las mallas en una escena 3D.
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 'Vista 3D: ventana emergente de Desplazamiento'
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 2%
-
 ---
-
 
 # Ventana emergente de desplazamiento
 
@@ -74,6 +72,13 @@ valor de subdivisión.
 
 La subdivisión es contextual: está optimizada de tal manera que solo aparece con un *valor de height no uniforme* o
 se subdividirá un *mapa de altura no plana*, independientemente del valor del parámetro.
+
+>[!TIP]
+>
+>La técnica de teselación implica un paso de preparación que se ejecuta independientemente de cualquier teselación que se produzca realmente. (Es decir, `Tessellation factor = 1`)
+>Para mallas de polietileno altas, este paso puede consumir mucho tiempo e impactar significativamente el rendimiento al usar desplazamiento.
+>
+>Si no se necesita teselación, puede deshabilitar la técnica completamente estableciendo el parámetro **Refine level** en `0` en las propiedades de los objetos `Mesh` enumerados en el [explorador de escenas](../scene-browser/scene-browser.md#scene-tree).
 
 ### Por material
 

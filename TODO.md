@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
+source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 11%
+source-wordcount: '181'
+ht-degree: 6%
 ---
 # TODO
 
@@ -14,14 +14,13 @@ ht-degree: 11%
 ## Adiciones
 
 * Puntos de entrada para la documentación de la API de Python en AdobeDocs
-* Vista 3D: Usar `refineLevel = 0` para mejorar el rendimiento al usar desplazamiento en mallas de alto contenido de poli
 * Ejemplos en la página &quot;Documentación emergente&quot;
 * Glosario:
   * HDR
   * Metalness / Metálico
   * HDR
   * Especular
-  * mapa de height
+  * Mapa de altura
   * Opacidad
   * Frustum
   * Espacio tangente
@@ -41,3 +40,17 @@ ht-degree: 11%
 ## Investigar
 
 * Componente Antes/Después
+
+## LEARNING HUB
+
+- Entender qué bloquea la descarga SBS archivos (Preguntado [aquí](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
+- Entender cómo podemos probar páginas en directo sin que sean públicas o se incluyan en los índices de rendimiento
+- Opciones de filtrado del explorador para la lista de ejemplos: ¿Microsite? ([Ejemplo](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
+- Automatizar elemento de muestra de creación
+  - Ingestar metadatos desde archivo (JSON, YAML, ...)
+  - Miniatura en línea (haga clic para ampliar)
+  - Marcador de complejidad en elementos de muestra
+- Proporcionar a los autores de ejemplos SBS herramienta de validación
+- Mencione archivos de SBS descargables desde activos 3D (con suscripción activa)
+
+¿Micrositio para glosario?

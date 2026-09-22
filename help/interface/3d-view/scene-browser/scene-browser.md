@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+breadcrumb-title: ""
 description: Utilice el Explorador de escenas para navegar y administrar los elementos, materiales y objetos de la escena 3D en la ventana gráfica.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Explorador de escena
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 1%
-
 ---
-
 
 # Explorador de escena
 
@@ -30,26 +28,6 @@ Se muestra al hacer clic en su botón de alternancia dedicado ![](scene-browser.
 
 ![Explorador de escenas: escena 3D cargada](scene-browser.resources/loaded3DScene.png "Explorador de escenas: escena 3D cargada"){zoomable="yes"}
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Árbol de escenas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Alternancia de objetos en la escena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Materiales conectados
-
-</td>
-</tr>
-</table>
-
 ## Árbol de escenas
 
 <table>
@@ -59,6 +37,8 @@ Se muestra al hacer clic en su botón de alternancia dedicado ![](scene-browser.
 El explorador de escenas muestra una lista de objetos organizados en un árbol jerárquico.
 
 Los objetos se asocian a otros objetos, hasta la raíz de la escena. Un objeto principal tiene un botón de flecha que se utiliza para expandir o contraer la lista de sus elementos secundarios.
+
+Algunos objetos tienen propiedades que se pueden mostrar y editar en el conjunto acoplado [Properties](../../../interface/properties/properties.md) cuando se seleccionan: Entorno, cámara, luces, `Mesh` objetos y material [overrides](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
