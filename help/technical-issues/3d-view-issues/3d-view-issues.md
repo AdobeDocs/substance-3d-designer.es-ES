@@ -165,7 +165,7 @@ Después de trabajar en los datos enviados al **Height** [salida](../../composit
 
 ![(marca)](3d-view-issues.resources/check.svg) **Pasos recomendados**
 
-Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal[.
+Asegúrese de que los datos de height *se convierten en normales* que están conectados a la **salida[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)** Normal.
 
 Al usar la técnica **Desplazamiento de teselación** (ver &quot;El objeto 3D es plano&quot; más arriba), los objetos pueden *deformarse* para seguir los datos del height, pero su superficie *no reaccionará a la luz de forma diferente* hasta que sus *normales* también se modifiquen para tener en cuenta los datos del height.
 
