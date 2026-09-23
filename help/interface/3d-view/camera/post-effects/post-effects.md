@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view/camera/post-effects.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aplique efectos de posprocesamiento a la cámara de vista 3D para mejorar la previsualización y visualización de materiales.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Camera > Post effects
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Efectos de posprocesamiento
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '726'
 ht-degree: 4%
-
 ---
-
 
 # Efectos de posprocesamiento
 
@@ -27,31 +25,6 @@ En las propiedades de la cámara, puede activar efectos de posprocesamiento para
 Estos efectos se desarrollan internamente y solo están disponibles para los procesadores Rasterizer y de Trazador de ruta de GPU [renderers](../../../../interface/3d-view/3d-renderers/3d-renderers.md).
 
 Cualquier efecto de publicación habilitado al guardar [recursos de escena 3D](../../../../resources/3d-scene-resource/3d-scene-resource.md) o [archivos de estado de escena](../../../../working-with-3d-scenes/working-with-3d-scenes.md) se guardará como parte del estado de escena.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Asignación de tonos
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Resplandor
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Profundidad de campo
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Asignación de tonos
 

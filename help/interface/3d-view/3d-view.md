@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/3d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice la vista 3D de Substance 3D Designer para previsualizar materiales en objetos 3D y probar las condiciones de iluminación.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view
@@ -8,19 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Vista 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3549'
 ht-degree: 1%
-
 ---
-
 
 # Vista 3D
 
-El Vista 3D te ayuda a ver y comprender tus materiales con mallas personalizadas y materiales PBR procesados.<br>Al igual que con todas las ventanas de Substance 3D Designer, funciona junto con otras ventanas mediante opciones de menú contextual y operaciones de arrastrar y soltar.
+La vista 3D le ayuda a ver y comprender sus materiales con mallas personalizadas y materiales PBR procesados.<br>Al igual que con todas las ventanas de Substance 3D Designer, funciona junto con otras ventanas mediante opciones de menú contextual y operaciones de arrastrar y soltar.
 
 La vista 3D también proporciona dos métodos principales para procesar materiales en escenas 3D:
 * Visualización rápida y en tiempo real con los procesadores **Rasterizer** y **OpenGL**
@@ -78,7 +76,7 @@ Puede interactuar con las mallas directamente en la ventana gráfica:
 
 <b>Mantén presionado ⇧ y haz clic en LMB en una malla para seleccionar una malla.</b> Las mallas seleccionadas tienen un contorno azul.
 
-<b>Presione F para centrarse en una malla seleccionada</b>. Al enfocar una malla, la cámara se mueve para enmarcarla y orbitar a su alrededor.
+<b>Presione F para centrarse en una malla seleccionada</b>. Al enfocar una malla, la cámara se mueve para colocarla en el marco y orbitar a su alrededor.
 
 <b>Haz clic en RMB mientras se selecciona una malla</b> para acceder a sus [acciones de material](#material-actions) en un menú contextual.
 
@@ -169,20 +167,21 @@ Hay varios [sombreadores](../../glossary/glossary.md) diferentes disponibles de 
 
 Tenga en cuenta que los sombreadores son diferentes en los [procesadores 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) de Designer y que solo se conservarán los ajustes marcados con una etiqueta &quot;Común&quot; al cambiar de procesador.
 
-Para cambiar el sombreado actual, vaya a <b> A continuación, abra el menú &#39;</b>Materiales&#39; en el submenú del material que desea editar.
+Para cambiar el sombreador actual, ve al menú **Materiales** y abre el submenú del material que deseas editar.
 
-Por ejemplo, para ajustar la propiedad &quot;Escala de Height&quot; del material &quot;Predeterminado&quot; en la escena &quot;Plano (alta resolución)&quot;, vaya a &quot;Materiales > Predeterminado > Editar propiedades&quot;. A continuación, busque la propiedad &quot;escala de Height&quot; en el conjunto acoplado Propiedades.
+Por ejemplo, para ajustar una propiedad de material para el material &#39;`Default`&#39; en la escena &#39;Plano (alta resolución)&#39;, vaya a **Materiales > Predeterminado > Editar propiedades**. A continuación, busque la propiedad de material en el conjunto acoplado Propiedades.
 
 Los sombreadores se pueden restablecer mediante las acciones &quot;Restablecer material&quot; o &quot;Restablecer el estado de la escena&quot; del submenú. Si estaba viendo salidas de gráficos de Substance en la vista 3D, tendrá que volver a aplicarlas.
 
 >[!NOTE]
 >
-> Acerca de teselación
+> **Acerca de la teselación**
 > 
-> La propiedad &quot;Factor de teselación&quot; varía según el procesador 3D seleccionado:
+> La teselación de una malla se puede ajustar usando el parámetro **factor de teselación** en el elemento emergente [Desplazamiento](displacement/displacement.md#tessellation).
+> La propiedad específica que controla ese parámetro varía según el procesador 3D actual:
 > 
-> * <b>Rasterizador/Trazador de ruta de GPU:</b> Situado en la configuración del procesador (Procesador > Editar configuración), afecta a *toda la escena*.
-> * <b>OpenGL:</b> Situado en las propiedades del material, afecta al material.
+> * **Rasterizador/Trazador de ruta de GPU:** Propiedad por objeto denominada **Nivel de perfeccionamiento**. Seleccione un objeto `Mesh` en el [explorador de escenas](scene-browser/scene-browser.md) para mostrar sus propiedades y editarlas directamente.
+> * **OpenGL:** Propiedad por material denominada **Factor de teselación**. Ve a [propiedades del material](#change-shader-properties) para editarlo directamente.
 
 ![Exportando la escena](3d-view.resources/3d-view-export-scene.gif "Exportando la escena")
 
@@ -305,11 +304,11 @@ El menú &quot;Materiales&quot; muestra una lista de todos los materiales asigna
 
 <b>Cargar definición...: </b>(solo procesador OpenGL) Permite cargar su propio sombreador [GLSLFX personalizado.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) El sombreado se añade a la lista anterior.
 
-<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizador/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro de [Adobe Standard Material](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Restablecer parámetros comunes:</b> Restablece todos los parámetros comunes entre los sombreadores. Por ejemplo, al cambiar entre los procesadores Rasterizer/Trazador de ruta de GPU y OpenGL, se transfieren varios valores de parámetro del [Adobe Standard Material](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Cambiar nombre:</b> Cambie la etiqueta de este material.
 
-<b>Restablecer material:</b> Restablece todos los parámetros de sombreado a sus valores predeterminados. Si las texturas están conectadas a cualquiera de las muestras del sombreador, se desconectan.
+<b>Restablecer material:</b> Restablece todos los parámetros de sombreador a sus valores predeterminados. Si las texturas están conectadas a cualquiera de los muestreadores del sombreador, se desconectan.
 
 <b>Restablecer el material al estado de escena: </b>*(solo procesadores de rasterizado/Trazador de ruta de GPU)* Restablece todas las propiedades de [materiales modificados](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) a sus valores originales de la escena, incluidas las texturas originales si las hubiera.
 
@@ -331,7 +330,7 @@ El menú <b>Cámara</b> te permite cambiar la configuración de la cámara, ir a
 
 <b>Editar propiedades:</b> abre la configuración predeterminada de la cámara en el conjunto acoplado Propiedades.
 
-<b>Enfoque: </b>(F) Centra la cámara predeterminada en la malla seleccionada actualmente. Es decir, enmarca la malla y alinea el pivote de cámara con ella. Si no hay una selección activa, se utiliza el cuadro delimitador global de la escena.
+<b>Enfoque: </b>(F) Centra la cámara predeterminada en la malla seleccionada actualmente. Es decir, marco la malla y alinea el pivote de la cámara con ella. Si no hay una selección activa, se utiliza el cuadro delimitador global de la escena.
 
 <b>Cámaras de escena:</b> Si las escenas incluyen una o más cámaras, se muestran aquí y su configuración se utiliza como ajustes preestablecidos que se aplicarán a la cámara predeterminada de la escena.
 
