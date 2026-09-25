@@ -1,8 +1,8 @@
 ---
-source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 6%
+source-wordcount: '223'
+ht-degree: 5%
 ---
 # TODO
 
@@ -20,7 +20,7 @@ ht-degree: 6%
   * Metalness / Metálico
   * HDR
   * Especular
-  * Mapa de altura
+  * mapa de height
   * Opacidad
   * Frustum
   * Espacio tangente
@@ -31,6 +31,11 @@ ht-degree: 6%
 * Actualice AGENTS.md y las aptitudes para administrar:
   * Imágenes: centrar, ampliar o reducir
   * Tablas: diseño automático/fijo, alineación de texto
+* DESIGNER-12465: El parámetro `Refine level` es inerte cuando el mapa de altura está ausente o plano
+* DESIGNER-12652: Guía de solución de problemas de rendimiento para el procesador OpenGL para los usuarios
+* DESIGNER-1866: Funciones de asignación de tonos
+* DESIGNER-1065: Añadir ejemplos + referencias a proyectos de muestra para Procesador de píxeles y FX-Maps
+
 
 ## Correcciones
 
@@ -41,11 +46,11 @@ ht-degree: 6%
 
 * Componente Antes/Después
 
-## LEARNING HUB
+## Centro de aprendizaje ( rama `learning`)
 
 - Entender qué bloquea la descarga SBS archivos (Preguntado [aquí](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Entender cómo podemos probar páginas en directo sin que sean públicas o se incluyan en los índices de rendimiento
-- Opciones de filtrado del explorador para la lista de ejemplos: ¿Microsite? ([Ejemplo](https://experienceleague.adobe.com/es/tools/campaign-error-codes))
+- Opciones de filtrado del explorador para la lista de ejemplos: ¿Microsite? ([Ejemplo](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - Automatizar elemento de muestra de creación
   - Ingestar metadatos desde archivo (JSON, YAML, ...)
   - Miniatura en línea (haga clic para ampliar)
