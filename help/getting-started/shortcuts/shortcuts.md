@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Mét. abrev.
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 17%
 ---
 
@@ -35,7 +35,7 @@ En esta página encontrará una descripción general de todos los métodos abrev
 ### Global
 
 | Acción | Windows | macOS |
-| --- | --- | --- |
+|:-------------------------------------------------------------------------------------------------------------------|:----------|:------|
 | [Nuevo gráfico de Substance](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | Cargar paquete | Ctrl + O | ⌘ + O |
 | Cerrar los paquetes seleccionados | Ctrl + F4 | ⌘ + W |
@@ -43,15 +43,17 @@ En esta página encontrará una descripción general de todos los métodos abrev
 | Deshacer | Ctrl + Z | ⌘ + Z |
 | Rehacer | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### Vista de gráfico
 
-<b>Ventana</b>
+**Ventana**
 
 | Acción | Windows | macOS |
-| --- | --- | --- |
-| Zoom | RatónRueda Alt + RMB + Arrastrar | MouseWheel ⌥ + RMB + Arrastrar |
-| Zoom rápido | ⇧ + MouseWheel ⇧ + Alt + RMB + Arrastrar | ⇧ + MouseWheel ⇧ + ⌥ + RMB + Arrastrar |
-| Panorámica | MMB + Arrastrar Ctrl + RMB + Arrastrar | MMB + Arrastrar ⌘ + RMB + Arrastrar |
+|:-----------------------------------------------------------------------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | MouseWheel<br>Alt + RMB + Arrastrar | MouseWheel<br>⌥ + RMB + Arrastrar |
+| Zoom rápido | ⇧ + MouseWheel<br> ⇧ + Alt + RMB + Arrastrar | ⇧ + MouseWheel<br> ⇧ + ⌥ + RMB + Arrastrar |
+| Panorámica | MMB + Arrastrar<br>Ctrl + RMB + Arrastrar | MMB + Arrastrar<br>⌘ + RMB + Arrastrar |
 | Restablecer zoom | Z | Z |
 | Encajar en la vista | F | F |
 | Copiar | Ctrl + C | ⌘ + C |
@@ -60,22 +62,26 @@ En esta página encontrará una descripción general de todos los métodos abrev
 | Menú Nodo | Barra espaciadora | Barra espaciadora |
 | Recorrer [ubicaciones de exploración](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
-<b>Modos de creación de vínculos</b>
+{style="table-layout:fixed"}
+
+**Modos de creación de vínculos**
 
 >[!NOTE]
 >
 > Obtenga información sobre los modos de creación de vínculos en [esta página](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de esta documentación.
 
 | Modo | Windows | macOS |
-| --- | --- | --- |
+|:-----------------|:--------|:------|
 | Estándar | 1 | 1 |
 | Material | 2 | 2 |
 | Material compacto | 3 | 3 |
 
-<b>Cuando se selecciona un objeto en el gráfico</b>
+{style="table-layout:fixed"}
+
+**Cuando se selecciona un objeto en el gráfico**
 
 | Acción | Windows | macOS |
-| --- | --- | --- |
+|:------------------------------------|:-------------|:----------|
 | Copiar selección | Ctrl + C | ⌘ + C |
 | Duplicar selección | Ctrl + D | ⌘ + D |
 | Duplicar sin vínculos | Ctrl + ⇧ + D | ⌘ + ⇧ + D |
@@ -84,25 +90,31 @@ En esta página encontrará una descripción general de todos los métodos abrev
 | Acoplar/desacoplar nodo | D | D |
 | Desactivar nodos | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### Vista 2D
 
 | Acción | Windows | macOS |
-| --- | --- | --- |
-| Zoom | RatónRueda Alt + RMB + Arrastrar | MouseWheel ⌥ + RMB + Arrastrar |
-| Zoom rápido | ⇧ + MouseWheel ⇧ + Alt + RMB + Arrastrar | ⇧ + MouseWheel ⇧ + ⌥ + RMB + Arrastrar |
-| Panorámica | MMB + Arrastrar Ctrl + RMB + Arrastrar | MMB + Arrastrar ⌘ + RMB + Arrastrar |
+|:---------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | MouseWheel<br>Alt + RMB + Arrastrar | MouseWheel<br>⌥ + RMB + Arrastrar |
+| Zoom rápido | ⇧ + MouseWheel<br> ⇧ + Alt + RMB + Arrastrar | ⇧ + MouseWheel<br> ⇧ + ⌥ + RMB + Arrastrar |
+| Panorámica | MMB + Arrastrar<br>Ctrl + RMB + Arrastrar | MMB + Arrastrar<br>⌘ + RMB + Arrastrar |
 | Restablecer a una escala del 100 % | Z | Z |
 | Encajar en la vista | F | F |
 | Alternar la visualización en mosaico | Barra espaciadora | Barra espaciadora |
 
+{style="table-layout:fixed"}
+
 ### Vista 3D
 
 | Acción | Windows | macOS |
-| --- | --- | --- |
-| Cámara dolly (panorámica hacia delante/hacia atrás) | RatónRueda Alt + RMB + Arrastrar | MouseWheel ⌥ + RMB + Arrastrar |
+|:---------------------------------------------------------|:--------------------------------|:-----------------------------|
+| Cámara dolly (panorámica hacia delante/hacia atrás) | MouseWheel<br>Alt + RMB + Arrastrar | MouseWheel<br>⌥ + RMB + Arrastrar |
 | Cámara orbital | LMB + Arrastrar | LMB + Arrastrar |
-| Cámara de camión y pedestal (panorámica lateral y vertical) | MMB + Arrastrar Ctrl + RMB + Arrastrar | MMB + Arrastrar ⌘ + RMB + Arrastrar |
+| Cámara de camión y pedestal (panorámica lateral y vertical) | MMB + Arrastrar<br>Ctrl + RMB + Arrastrar | MMB + Arrastrar<br>⌘ + RMB + Arrastrar |
 | Rotar entorno | Ctrl + ⇧ + RMB | Ctrl + ⇧ + RMB |
 | Cambiar temporalmente a los controles de Luz de punto 1 | ⇧ (mantener) | ⇧ (mantener) |
 | Luz de punto de órbita 1 | LMB + Arrastrar | LMB + Arrastrar |
 | Luz Dolly Point 1 | RMB + Arrastrar | RMB + Arrastrar |
+
+{style="table-layout:fixed"}
