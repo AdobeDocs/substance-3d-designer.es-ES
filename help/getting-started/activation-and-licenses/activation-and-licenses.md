@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ""
 description: Aprenda a activar Substance 3D Designer y administrar licencias para acceder a todas las funciones y capacidades.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ El proceso de activación depende de dónde haya comprado Designer o tenga acces
 
 | Edición | Proceso de activación |
 |:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud de sobremesa (CCD) | Instale el producto desde la aplicación de CCD y, a continuación, inícielo. Vaya a estas páginas si tiene problemas con su licencia: [Las aplicaciones no se iniciarán debido al error de suscripción](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Ayuda de cuenta, planes y facturación](https://helpx.adobe.com/account/individual.html) |
+| Creative Cloud de sobremesa (CCD) | Instale el producto desde la aplicación de CCD y, a continuación, inícielo. Vaya a estas páginas si tiene problemas con su licencia: [Las aplicaciones no se iniciarán debido al error de suscripción](https://helpx.adobe.com/es/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Ayuda de cuenta, planes y facturación](https://helpx.adobe.com/es/account/individual.html) |
 | Vapor | Inicie el producto directamente desde su biblioteca de Steam. |
 | Substance (independiente) | Consulte el proceso de activación que se describe a continuación. |
 
