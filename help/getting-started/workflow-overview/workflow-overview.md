@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: Descubre el flujo de trabajo esencial para crear materiales procedimientos en Substance 3D Designer de principio a fin.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Descripción general del flujo de trabajo
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -54,24 +54,24 @@ A continuación puede encontrar un resumen de los tres tipos de gráficos que pu
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/graph-5.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Gráficos de Substance
-
-[Los gráficos de Substance](https://substance3d.adobe.com/) son el tipo principal de gráfico creado en Substance 3D Designer. Su propósito es <b>generar y procesar datos de imágenes 2D</b> que no estén restringidos a una resolución, color o forma establecidos. Se han concebido como herramientas de generación y procesamiento de imágenes extremadamente versátiles, no solo como resultados estáticos preconfigurados.
-
-Los resultados pueden ser en forma de un simple patrón en blanco y negro, un filtro que solo se ejecuta en otras imágenes y no genera contenido por sí mismo, o incluso un material procedimiento completo con múltiples canales.
-
-Los gráficos de Substance son [el tipo de gráfico más ampliamente admitido](../../getting-started/overview/overview.md), y se pueden exportar y usar en una gran variedad de flujos de trabajo diferentes.
 
 </td>
 </tr>
 </table>
+
+[Los gráficos de Substance](https://substance3d.adobe.com/) son el tipo principal de gráfico creado en Substance 3D Designer. Su propósito es <b>generar y procesar datos de imágenes 2D</b> que no estén restringidos a una resolución, color o forma establecidos. Se han concebido como herramientas de generación y procesamiento de imágenes extremadamente versátiles, no solo como resultados estáticos preconfigurados.
+
+Los resultados pueden ser en forma de un simple patrón en blanco y negro, un filtro que solo se ejecuta en otras imágenes y no genera contenido por sí mismo, o incluso un material procedimental completo con múltiples canales.
+
+Los gráficos de Substance son [el tipo de gráfico más ampliamente admitido](../../getting-started/overview/overview.md), y se pueden exportar y usar en una gran variedad de flujos de trabajo diferentes.
 
 #### Ejemplos
 
@@ -109,14 +109,18 @@ Este ejemplo utiliza [Modos de creación de vínculos](../../interface/the-graph
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/function-1.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Gráficas de funciones de Substance
+
+</td>
+</tr>
+</table>
 
 Las funciones procesan **valores únicos** (enteros, flotantes, vectores) en lugar de conjuntos de píxeles (imágenes). Las funciones también son gráficas de nodos, pero los [nodos involucrados](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) y su interfaz son diferentes de las gráficas de Substance.
 
@@ -126,10 +130,6 @@ Las funciones se pueden utilizar en muchos contextos diferentes, siendo los prin
 * Modificando el comportamiento de [un parámetro expuesto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 * Creando el comportamiento de [Procesadores de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) o [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 * Usar [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) en lugar de imágenes en gráficos de Substance, para propósitos específicos
-
-</td>
-</tr>
-</table>
 
 #### Ejemplos
 
@@ -149,7 +149,7 @@ Esta función también se puede escribir como `lerp(0.1, 0.8, Intensity)` en un 
 
 ![Función avanzada](workflow-overview.resources/pixel-function.png "Función avanzada"){width="512px" zoomable="yes"}
 
-Esta función avanzada muestra el funcionamiento interno de un [Procesador de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado a ajustar el tono de una entrada de mapa de color en función de la intensidad de una segunda entrada de máscara de escala de grises.
+Esta función avanzada muestra el funcionamiento interno de un [procesador de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado a ajustar el tono de una entrada de mapa de color en función de la intensidad de una segunda entrada de máscara de escala de grises.
 
 Muestrea ambas entradas con la variable del sistema &quot;$pos&quot; y, a continuación, despoja al Alpha, convierte el valor de color en HSL y modifica el componente Hue multiplicándolo por el valor de escala de grises muestreado. Después, vuelve a montar el vector, convierte el HSL de nuevo en el RGB y vuelve a añadir el Alpha para el resultado final.
 

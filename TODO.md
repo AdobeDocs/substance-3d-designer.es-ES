@@ -1,7 +1,7 @@
 ---
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 5%
 ---
 # TODO
@@ -39,6 +39,7 @@ ht-degree: 5%
 
 ## Correcciones
 
+* Solucionar el tamaño de los iconos en [overview.md](help/getting-started/overview/overview.md)
 * Corregir la imagen dañada en la página `BnW spots 2`
 * Corregir vínculo para la primera imagen de ejemplo en páginas de nodo (p. ej. nuevos ruidos)
 
@@ -50,7 +51,7 @@ ht-degree: 5%
 
 - Entender qué bloquea la descarga SBS archivos (Preguntado [aquí](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Entender cómo podemos probar páginas en directo sin que sean públicas o se incluyan en los índices de rendimiento
-- Opciones de filtrado del explorador para la lista de ejemplos: ¿Microsite? ([Ejemplo](https://experienceleague.adobe.com/es/tools/campaign-error-codes))
+- Opciones de filtrado del explorador para la lista de ejemplos: ¿Microsite? ([Ejemplo](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - Automatizar elemento de muestra de creación
   - Ingestar metadatos desde archivo (JSON, YAML, ...)
   - Miniatura en línea (haga clic para ampliar)

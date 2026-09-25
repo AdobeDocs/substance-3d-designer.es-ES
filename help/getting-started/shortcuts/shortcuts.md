@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Aprenda los métodos abreviados de teclado en Substance 3D Designer para acelerar el flujo de trabajo y mejorar la productividad.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mét. abrev.
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 17%
@@ -43,6 +43,8 @@ En esta página encontrará una descripción general de todos los métodos abrev
 | Deshacer | Ctrl + Z | ⌘ + Z |
 | Rehacer | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### Vista de gráfico
 
 **Ventana**
@@ -60,6 +62,8 @@ En esta página encontrará una descripción general de todos los métodos abrev
 | Menú Nodo | Barra espaciadora | Barra espaciadora |
 | Recorrer [ubicaciones de exploración](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
+{style="table-layout:fixed"}
+
 **Modos de creación de vínculos**
 
 >[!NOTE]
@@ -71,6 +75,8 @@ En esta página encontrará una descripción general de todos los métodos abrev
 | Estándar | 1 | 1 |
 | Material | 2 | 2 |
 | Material compacto | 3 | 3 |
+
+{style="table-layout:fixed"}
 
 **Cuando se selecciona un objeto en el gráfico**
 
@@ -84,6 +90,8 @@ En esta página encontrará una descripción general de todos los métodos abrev
 | Acoplar/desacoplar nodo | D | D |
 | Desactivar nodos | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### Vista 2D
 
 | Acción | Windows | macOS |
@@ -94,6 +102,8 @@ En esta página encontrará una descripción general de todos los métodos abrev
 | Restablecer a una escala del 100 % | Z | Z |
 | Encajar en la vista | F | F |
 | Alternar la visualización en mosaico | Barra espaciadora | Barra espaciadora |
+
+{style="table-layout:fixed"}
 
 ### Vista 3D
 
@@ -106,3 +116,5 @@ En esta página encontrará una descripción general de todos los métodos abrev
 | Cambiar temporalmente a los controles de Luz de punto 1 | ⇧ (mantener) | ⇧ (mantener) |
 | Luz de punto de órbita 1 | LMB + Arrastrar | LMB + Arrastrar |
 | Luz Dolly Point 1 | RMB + Arrastrar | RMB + Arrastrar |
+
+{style="table-layout:fixed"}
