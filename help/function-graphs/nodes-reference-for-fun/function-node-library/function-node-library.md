@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+breadcrumb-title: ""
 description: Accede a gráficos de funciones de Substance predefinidos como nodos de instancias para agilizar el flujo de trabajo y mejorar las funciones.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Biblioteca de nodos de función
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 6%
-
 ---
-
 
 # Biblioteca de nodos de función
 
@@ -335,7 +333,7 @@ HSI a RGB
 
 desplazamiento HSL
 
-HSL a RGB
+HSL al RGB
 
 HSV a RGB
 
@@ -465,15 +463,15 @@ Aleatorio global
 
 Distribución normal
 
-Uniforme aleatorio &lbrack;-1, 1&lbrack;
+Uniforme aleatorio [-1, 1[
 
-Uniforme aleatorio &lbrack;a, b&lbrack;
+Uniforme aleatorio [a, b[
 
-Float2 uniforme al azar &lbrack;a, b&lbrack;
+Float2 uniforme al azar [a, b[
 
-Flotador uniforme aleatorio3 &lbrack;a, b&lbrack;
+Flotador uniforme aleatorio3 [a, b[
 
-Flotador uniforme al azar4 &lbrack;a, b&lbrack;
+Flotador uniforme al azar4 [a, b[
 
 </td>
 </tr>

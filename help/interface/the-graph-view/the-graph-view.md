@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/interface/the-graph-view.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+breadcrumb-title: ""
 description: Aprenda a utilizar la vista de gráfica en Substance 3D Designer para crear y editar gráficas de materiales basadas en nodos.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Vista de gráfico
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
-
 ---
-
 
 # Vista de gráfico
 
@@ -296,7 +294,7 @@ Los nodos deshabilitados tienen el siguiente comportamiento:
 * Los nodos deshabilitados se pueden *encadenar* juntos;
 * Sus propiedades y conexiones están *no modificadas*;
 * Su estado deshabilitado es *guardado* y persiste entre sesiones;
-* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1&rbrace; el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
+* Al publicar en SBSAR, el archivo resultante tiene en cuenta *1} el estado deshabilitado de los nodos, es decir, lo que ves es lo que obtienes.*
 
 Puede deshabilitar un nodo o un grupo de nodos seleccionados usando la pulsación de tecla <b>Mayús+D</b>, o haciendo clic con el botón derecho en el gráfico y seleccionando el elemento <b>Deshabilitar nodo/Deshabilitar selección</b> en el menú contextual.
 
