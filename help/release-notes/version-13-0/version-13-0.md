@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/release-notes/version-13-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión de Substance 3D Designer 13.0 para obtener más información sobre los nuevos nodos, Substance Engine 9.0 y nodos de portal.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 13.0
@@ -8,21 +8,19 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Versión 13.0
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
-
 ---
-
 
 # Versión 13.0
 
 Esta versión 13.0.0 de Substance 3D Designer trae mucho amor a los artistas de materiales, con una gran cantidad de nuevos nodos, el Substance Engine 9.0 introducir bucles por primera vez y con una gran adición a la gráfica: el nodo del portal. Y para satisfacer a más usuarios, presentamos una nueva pantalla de inicio y proporcionamos idiomas adicionales.
 
-Como se ha mencionado en la versión anterior, esta versión ya no es compatible con los gráficos de modelos de Substance: Esto significa que ya no podrá abrir, editar ni exportar gráficos de este tipo en Designer. Puedes encontrar todas las razones por las que tomamos esta decisión en este [post](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731) en nuestro foro de la comunidad.
+Como se mencionó en la versión anterior, esta versión ya no admite gráficos de modelos de Substance: Esto significa que ya no podrá abrir, editar ni exportar gráficos de este tipo en Designer. Puedes encontrar todas las razones por las que tomamos esta decisión en este [post](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731) en nuestro foro de la comunidad.
 
 *Fecha de publicación: 6 de junio de 2023*
 
@@ -94,7 +92,7 @@ También proporcionamos herramientas para rehacer y retocar sus splines. Encontr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Transformación 2D Spline](version-13-0.resources/Spline2DTransform-Demo1.gif "Transformación 2D Spline")
+![Transformar spline 2D](version-13-0.resources/Spline2DTransform-Demo1.gif "Transformar spline 2D")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -150,7 +148,7 @@ Gracias al [relleno de spline](../../compositing-graphs/nodes-reference-for-com/
 
 El nodo [Mask to Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) te permite extraer el borde de un patrón de escala de grises, en forma de una lista de segmentos.
 
-A continuación, puedes procesar estas rutas con los nodos [Path 2D Transform](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) o [Paths Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustarlas según tus necesidades.  Y gracias al nodo [Rutas a spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), puedes convertir tu ruta a spline, así que aprovecha todos los nodos dedicados a splines mencionados anteriormente, como la dispersión.
+Después, puedes procesar estas rutas con los nodos [Path 2D Transforme](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) o [Paths Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustarlas según tus necesidades.  Y gracias al nodo [Rutas a spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), puedes convertir tu ruta a spline, así que aprovecha todos los nodos dedicados a splines mencionados anteriormente, como la dispersión.
 
 <table>
 <tr style="border: 0;">
@@ -186,16 +184,16 @@ Y para ayudarle a aprender todos estos nuevos nodos, publicamos dos nuevos tutor
 
 Todos los nuevos nodos enumerados anteriormente se basan en la nueva versión de Substance Engine y están aprovechando al máximo su nueva función principal: <b>bucles</b>.
 
-Los bucles solo se deben usar dentro de [gráficos de funciones de Substance](../../function-graphs/function-graphs.md) y lo más probable es que los implemente en un [procesador de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), un [mapa de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) o un [procesador de valores](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md). Los bucles, por supuesto, le permiten repetir fácilmente una función muchas veces, hasta que se respete una condición. Te ayudará a aligerar mucho tus gráficos y ganar en precisión.
+Los bucles solo se deben usar dentro de [Substance function graphs](../../function-graphs/function-graphs.md) y lo más probable es que los implemente en un [Procesador de píxeles](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), un [Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) o un [Procesador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md). Los bucles, por supuesto, le permiten repetir fácilmente una función muchas veces, hasta que se respete una condición. Te ayudará a aligerar mucho tus gráficos y ganar en precisión.
 
 Este [tutorial](https://www.youtube.com/watch?v=Ggoy8G90oDI) dedicado te ayudará a empezar a trabajar con bucles.
 
 Substance Engine v9 también incorpora las siguientes mejoras:
 
-* Nuevo modo sólido en el editor de degradados del nodo [Gradient Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) (es decir, no hay interpolación)
+* Nuevo modo sólido en el editor de degradados del nodo [Mapa de degradado](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) (es decir, sin interpolación)
 * Nodo pow() atómico en gráficas de funciones de Substance
 * Añadir opciones de ajuste de bordes (sujetar a borde, repetir) en nodos de Sampler
-* Muestreo más cercano en nodos [Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) y [Directional Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
+* Muestreo más cercano en nodos [Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) y [Deformación direccional](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 ## Nodo Portal
 
@@ -249,7 +247,7 @@ Te recordamos que si quieres cambiar el idioma en Designer, ve a [Preferencias](
 * [Content] Nodo Append de Spline
 * [Content] Nodo Seleccionar spline
 * [Content] Nodo Lista de combinación de splines
-* [Content] Nodo Transformación 2D polinomial
+* [Content] Nodo Transformar spline 2D
 * [Content] Nodo Deformación de spline
 * [Content] Nodo de Height de muestra de spline
 * [Content] Nodo de Thickness de muestra de spline
@@ -265,14 +263,14 @@ Te recordamos que si quieres cambiar el idioma en Designer, ve a [Preferencias](
 * [Contenido] Nodo de escala de grises del asignador UV
 * [Content] Rutas al nodo Splines
 * [Content] Nodo Máscara a trazados
-* [Contenido] Rutas nodo de transformación 2D
+* [Contenido] Rutas 2D Transformar nodo
 * [Content] Rutas Nodo polígono
 * [Content] Nodo de rutas de previsualización
 * [Content] Nodo Deformación de rutas
 * [Content] Rutas Seleccionar nodo
 * [Content] Rutas nodo de procesador de vértices
 * [Content] Rutas Procesador de vértices Nodo simple
-* [Content] Nodo Transformación cuádruple en ruta
+* [Content] Transformar en cuatro en el nodo Path
 * [Contenido] Oclusión ambiental con trazado de rayo v2
 * [Contenido] Raytraced Bent Normal v2
 * [Contenido] Sombras con trazo de rayo v2
@@ -308,7 +306,7 @@ Te recordamos que si quieres cambiar el idioma en Designer, ve a [Preferencias](
 * [Graph] Enfoque incorrecto en el cuadro de diálogo &quot;Exponer parámetro&quot; al utilizar la tecla Intro
 * [Gráfico] Resultado incorrecto en la exploración de histograma con mapa de bits en la edición de contexto
 * [Localización] Solucionar varios problemas de recorte
-* [Parameters] Bloqueo al eliminar un parámetro de entrada
+* bloqueo [Parameters] al eliminar un parámetro de entrada
 * [Publish] Los gráficos de las carpetas se mueven a la raíz en el paquete publicado
-* [Resources] Bloqueo al actualizar un recurso cargado en el disco
+* bloqueo de [Resources] al actualizar un recurso cargado en el disco
 * [VisibleIf] Corregir regresión en evaluación de visibilidad condicional

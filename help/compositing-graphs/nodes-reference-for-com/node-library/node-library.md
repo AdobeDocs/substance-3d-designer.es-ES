@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
-breadcrumb-title: ''
-description: Acceda a la biblioteca completa de nodos en Substance 3D Designer para crear materiales, texturas y efectos de procedimientos.
+breadcrumb-title: ""
+description: Acceda a la biblioteca completa de nodos en Substance 3D Designer para crear materiales, texturas y efectos procedimientos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Biblioteca de nodos
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 6%
-
 ---
-
 
 # Biblioteca de nodos
 
@@ -78,7 +76,7 @@ El panel Biblioteca de Designer muestra más categorías de las que tenemos docu
 * [Suciedad galvánica grande](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-galvanic-large/grunge-galvanic-large.md)
 * [Suciedad Galvánica Pequeña](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-galvanic-small/grunge-galvanic-small.md)
 * [Fugas de suciedades](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-leaks/grunge-leaks.md)
-* [Suciedad Leaky Paint](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-leaky-paint/grunge-leaky-paint.md)
+* [Pintura con fugas de suciedad](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-leaky-paint/grunge-leaky-paint.md)
 * [Mapa de suciedades 001](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-map-001/grunge-map-001.md)
 * [Mapa de suciedades 002](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-map-002/grunge-map-002.md)
 * [Mapa de suciedades 003](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-map-003/grunge-map-003.md)
@@ -234,12 +232,12 @@ El panel Biblioteca de Designer muestra más categorías de las que tenemos docu
 
 ### Efectos
 
-* [Posición de textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md)
-* [Textura 3D SDF](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)
-* [Renderizado de superficie de textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-surface-render/3d-texture-surface-render.md)
-* [Renderizado de volumen de textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-volume-render/3d-texture-volume-render.md)
+* [Posición de Textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md)
+* [3D Textura SDF](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)
+* [Renderizado de superficie de Textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-surface-render/3d-texture-surface-render.md)
+* [Procesamiento de volumen de Textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-volume-render/3d-texture-volume-render.md)
 * [Oclusión ambiental (HBAO) (nodo de filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
-* [Oclusión ambiente (RATO)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
+* [Oclusión ambiental (RTAO)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 * [Bisel (nodo de filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-filter-node/bevel-filter-node.md)
 * [Sección transversal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
 * [Curvatura (nodo de filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
@@ -263,7 +261,7 @@ El panel Biblioteca de Designer muestra más categorías de las que tenemos docu
 * [FXAA](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/fxaa/fxaa.md)
 * [Resplandor](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md)
 * [Mosaico](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/mosaic/mosaic.md)
-* [Deformación multidireccional](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
+* [Deformación direccional múltiple](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
 * [Non Uniform Directional Warp](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md)
 * [Reacción Difusión Rápida](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/reaction-diffusion-fast/reaction-diffusion-fast.md)
 * [Sombra RT](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/rt-shadow/rt-shadow.md)
@@ -274,7 +272,7 @@ El panel Biblioteca de Designer muestra más categorías de las que tenemos docu
 * [Trazo de forma](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-stroke/shape-stroke.md)
 * [Tabla de área sumada](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/summed-area-table/summed-area-table.md)
 * [Remolino](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/swirl/swirl.md)
-* [Relieve de Uber](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
+* [Uber Relieve](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
 * [Transformación vectorial](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-morph/vector-morph.md)
 * [Deformación vectorial](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)
 
