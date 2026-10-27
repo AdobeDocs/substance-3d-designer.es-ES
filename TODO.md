@@ -1,8 +1,8 @@
 ---
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: d52b7765f51d2f7702d9a6d1b590e24db76c7d9d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '243'
+ht-degree: 4%
 ---
 # TODO
 
@@ -13,6 +13,7 @@ ht-degree: 5%
 
 ## Adiciones
 
+* Métodos abreviados: Añadir métodos abreviados de panel táctil para macOS
 * Puntos de entrada para la documentación de la API de Python en AdobeDocs
 * Ejemplos en la página &quot;Documentación emergente&quot;
 * Glosario:
@@ -20,7 +21,7 @@ ht-degree: 5%
   * Metalness / Metálico
   * HDR
   * Especular
-  * mapa de height
+  * Mapa de altura
   * Opacidad
   * Frustum
   * Espacio tangente
@@ -36,6 +37,9 @@ ht-degree: 5%
 * DESIGNER-1866: Funciones de asignación de tonos
 * DESIGNER-1065: Añadir ejemplos + referencias a proyectos de muestra para Procesador de píxeles y FX-Maps
 
+## Cambios
+
+* [Trabajo en curso] Actualizar y completar la página &quot;Métodos abreviados de teclado&quot;
 
 ## Correcciones
 
